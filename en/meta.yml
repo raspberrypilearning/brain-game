@@ -1,5 +1,10 @@
 title: Brain Game
 hero_image: images/banner.png
+<<<<<<< HEAD
 subtitle: Times Tables Quiz
 description: Program a timed quiz on times tables
+=======
+subtitle: Fake content for brain game
+description: More fake stuff
+>>>>>>> origin/master
 published: 'true'

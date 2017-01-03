@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Brain Game
+=======
+## Fake brain game content
+>>>>>>> origin/master
 
 ## Introduction
 
