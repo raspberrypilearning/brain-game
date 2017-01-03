@@ -1,4 +1,4 @@
-## PIR motion sensors
+## Fake brain game content
 
 In this project, we are going to be using a Passive Infrared (PIR) motion sensor. You have probably seen these before: they are often used in burglar alarm systems (the sensors placed in the corners of rooms are typically PIR ones). All objects whose temperatures are above absolute zero emit infrared radiation. Infrared wavelengths are not visible to the human eye, but they can be detected by the electronics inside one of these modules.
 
