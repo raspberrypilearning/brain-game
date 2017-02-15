@@ -1,2 +1,2 @@
-# brain-game 
+# Brain Game
 Some readme content

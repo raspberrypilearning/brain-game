@@ -1,5 +1,8 @@
-title: brain-game
+title: Brain Game
 hero_image: images/banner.png
-subtitle: brain-game subtitle
-description: brain-game description
-published: 'false'
+subtitle: Times Tables Quiz
+description: Program a timed quiz on times tables
+published: true
+steps:
+  - title: Step one
+    duration: 60
