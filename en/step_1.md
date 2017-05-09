@@ -21,7 +21,7 @@ Let's start by creating random questions for the player to answer.
 
 	![screenshot](images/brain-setting.png)
 
-[[[scratch-add-variable]]]
+[[[generic-scratch-add-variable]]]
 
 + Create 2 new variables called `number 1` {.blockdata} and `number 2` {.blockdata}. These variables will store the 2 numbers that will be multiplied together.
 
