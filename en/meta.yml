@@ -1,8 +1,13 @@
 title: Brain Game
 hero_image: images/banner.png
-subtitle: Times Tables Quiz
 description: Program a timed quiz on times tables
-published: true
+original_url:
+theme: cc-prototype
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+interests:
+technologies: "scratch"
 steps:
-  - title: Step one
-    duration: 60
+  - title: Introduction
