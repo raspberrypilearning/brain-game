@@ -1,10 +1,5 @@
 ---
 hero_image: images/banner.png
-<<<<<<< HEAD
-subtitle: Times Tables Quiz
-description: Program a timed quiz on times tables
-published: false
-=======
 theme: red
 duration: 1
 listed: false
@@ -17,7 +12,6 @@ original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
 interests: ''
 technologies: scratch
 site_areas: codeclub, scratch
->>>>>>> draft
 steps:
 - title: Introduction
 - title: Creating questions
