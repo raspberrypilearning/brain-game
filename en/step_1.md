@@ -9,7 +9,7 @@ In this project you'll learn how to create a times table quiz, in which you have
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/brain-game/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 
 --- collapse ---
