@@ -2,7 +2,7 @@
 hero_image: images/brain-game.png
 theme: red
 duration: 2
-listed: true
+listed: false
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
@@ -13,26 +13,26 @@ interests: ''
 technologies: scratch
 site_areas: codeclub, scratch
 steps:
-  - 
+  -
     title: Introduction
-  - 
+  -
     title: Creating questions
-  - 
+  -
     title: 'Challenge: Changing costumes'
-  - 
+  -
     title: 'Challenge: Adding a score'
-  - 
+  -
     title: Multiple games
-  - 
+  -
     title: 'Challenge: Start screen'
-  - 
+  -
     title: Adding graphics
-  - 
+  -
     title: 'Challenge: Improved animation'
-  - 
+  -
     title: 'Challenge: Sound and music'
-  - 
+  -
     title: 'Challenge: Race to 10 points'
-  - 
+  -
     title: 'Challenge: Instruction screen'
 
