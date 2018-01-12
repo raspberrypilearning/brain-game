@@ -8,19 +8,19 @@ Let's start by creating random questions for the player to answer.
     
     ![screenshot](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ Crea 2 nuevas variables llamadas `número 1`{:class="blockdata"} y `número 2`{:class="blockdata"}. Estas variables almacenarán los 2 números que se van a multiplicar.
     
     ![screenshot](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
++ Añade código a tu personaje, para fijar estas dos variables a un número `aleatorio`{:class="blockoperators"} entre 2 y 12.
     
     ```blocks
-    when flag clicked
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
+    al presionar bandera verde
+    fijar [número 1 v] a (número al azar entre (2) y (12))
+    fijar [número 2 v] a (número al azar entre (2) y (12))
 ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ A continuación puedes pedir al jugador que dé una respuesta, y decirle si es correcta o incorrecta.
     
     ```blocks
     when flag clicked
@@ -34,7 +34,7 @@ Let's start by creating random questions for the player to answer.
     end
 ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ Prueba tu proyecto del todo, dando una respuesta correcta y una incorrecta.
 
 + Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
 
