@@ -1,13 +1,13 @@
 ---
 hero_image: images/brain-game.png
-theme: red
+theme: rojo
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 title: Juego de Cálculo Mental
-description: Learn how to create a quiz.
+description: Aprende a crear un concurso de preguntas y respuestas.
 original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
 interests: ''
 technologies: scratch
@@ -16,23 +16,23 @@ steps:
   - 
     title: Introducción
   - 
-    title: Creating questions
+    title: Creando preguntas
   - 
-    title: 'Challenge: Changing costumes'
+    title: 'Desafío: Cambiar los disfraces'
   - 
-    title: 'Challenge: Adding a score'
+    title: 'Desafío: Añadir puntuación'
   - 
-    title: Multiple games
+    title: Varias páginas
   - 
-    title: 'Challenge: Start screen'
+    title: 'Desafío: Pantalla de inicio'
   - 
-    title: Adding graphics
+    title: Añadir gráficos
   - 
-    title: 'Challenge: Improved animation'
+    title: 'Desafío: Mejorar la animación'
   - 
-    title: 'Challenge: Sound and music'
+    title: 'Desafío: Sonido y música'
   - 
-    title: 'Challenge: Race to 10 points'
+    title: 'Desafío: Corre por 10 puntos'
   - 
-    title: 'Challenge: Instruction screen'
+    title: 'Desafío: Pantalla de instrucciones'
 
