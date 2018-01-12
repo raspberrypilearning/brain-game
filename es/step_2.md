@@ -1,10 +1,10 @@
-## Creating questions
+## Creando preguntas
 
 Let's start by creating random questions for the player to answer.
 
-+ Empieza un nuevo proyecto de Scratch y borra el objeto gato para que el proyecto esté vacío. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Empieza un nuevo proyecto de Scratch y borra el objeto gato para que el proyecto esté vacío. Puedes encontrar el editor en línea de Scratch en <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new </a>.
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ Escoge un personaje y un fondo para tu juego. ¡Puedes escoger el que más te guste! Aquí tienes un ejemplo:
     
     ![screenshot](images/brain-setting.png)
 
