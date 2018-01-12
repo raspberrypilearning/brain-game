@@ -13,11 +13,11 @@ If you need to print this project, please use the [Printer friendly version](htt
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Notas voluntarias
 
 ## Introduction:
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+En este proyecto vas a aprender a crear un juego de preguntas sobre las tablas de multiplicar, en el que tendrás que conseguir tantas respuestas correctas como puedas en 30 segundos.
 
 ## Resources
 
