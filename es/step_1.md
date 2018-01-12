@@ -1,13 +1,13 @@
-## Introduction
+## Introducción
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+En este proyecto vas a aprender a crear un juego de preguntas sobre las tablas de multiplicar, en el que tendrás que conseguir tantas respuestas correctas como puedas en 30 segundos.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### Información adicional para los líderes del club
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
