@@ -38,6 +38,6 @@ Let's start by creating random questions for the player to answer.
 
 + Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
 
-+ Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
++ Crea un cronómetro de cuenta atrás en el escenario, usando una variable que se llame `tiempo`{:class="blockdata"}. Si necesitas ayuda, ¡el proyecto ‘Globos’ tiene las instrucciones para hacer un cronómetro (en el paso 6)!
 
-+ Test your project again - you should be able to continue asking questions until the time runs out.
++ Vuelve a probar tu proyecto. Deberías de poder continuar haciendo preguntas hasta que se agote el tiempo.
