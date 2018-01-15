@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: Race to 10 points
+## Desafío: Corre por 10 puntos
 
 ¿Puedes cambiar tu juego para que el jugador, en lugar de contestar tantas preguntas como pueda en 30 segundos, vea cuánto tiempo necesita para conseguir 10 respuestas correctas?
 
