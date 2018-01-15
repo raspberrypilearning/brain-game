@@ -1,6 +1,6 @@
 ## Creando preguntas
 
-Let's start by creating random questions for the player to answer.
+Comencemos creando preguntas al azar para que el jugador responda.
 
 + Empieza un nuevo proyecto de Scratch y borra el objeto gato para que el proyecto esté vacío. Puedes encontrar el editor en línea de Scratch en <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new </a>.
 
