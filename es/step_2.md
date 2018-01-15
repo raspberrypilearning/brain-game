@@ -23,20 +23,20 @@ Comencemos creando preguntas al azar para que el jugador responda.
 + A continuación puedes pedir al jugador que dé una respuesta, y decirle si es correcta o incorrecta.
     
     ```blocks
-    when flag clicked
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) secs
-    else
-        say [nope :(] for (2) secs
-    end
+    al presionar bandera verde
+fijar [number 1 v] a (número al azar entre (2) y (12))
+fijar [number 2 v] a (número al azar entre (2) y (12))
+preguntar (unir (number 1) (unir [x] (number 2))) y esperar
+if < (respuesta) = ((number 1) * (number 2)) > then
+decir [yes!] :)] por (2) segundos
+si no
+decir [nope :(] por (2) segundos
+fin
 ```
 
 + Prueba tu proyecto del todo, dando una respuesta correcta y una incorrecta.
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ Agrega un ` para siempre ` {: class = "blockcontrol"} gira alrededor de este código, de modo que al jugador se le hacen muchas preguntas.
 
 + Crea un cronómetro de cuenta atrás en el escenario, usando una variable que se llame `tiempo`{:class="blockdata"}. Si necesitas ayuda, ¡el proyecto ‘Globos’ tiene las instrucciones para hacer un cronómetro (en el paso 6)!
 
