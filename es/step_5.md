@@ -60,15 +60,15 @@ detener [otros programas en el objeto v]
 + Incluso puedes hacer que la apariencia del botón cambie cuando le acercas el ratón.
     
     ```blocks
-    when flag clicked
-    show
-    forever
-    if <touching [mouse-pointer v]?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    al presionar bandera verde
+mostrar
+por siempre
+   si <¿tocando [apuntador del ratón v]?> entonces
+      establecer efecto [ojo de pez v] a (30)
+   si no
+      establecer efecto [ojo de pez v] a (0)
+   fin
+fin
 ```
 
 ![screenshot](images/brain-fisheye.png)
