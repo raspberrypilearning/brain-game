@@ -1,17 +1,17 @@
 \--- challenge \---
 
-## Challenge: Sound and music
+## Desafío: Sonido y música
 
-Can you add sound effects and music to your game? For example:
+¿Puedes añadir efectos de sonido y música a tu juego? Por ejemplo:
 
-+ Playing a sound when the player gets an answer right or wrong;
-+ Adding a ticking sound to your countdown timer;
-+ Playing a sound when the time is up;
++ Reproducir un sonido cuando el jugador da una respuesta correcta o errónea;
++ Añadir un sonido de tic-tac al cronómetro de cuenta atrás;
++ Reproducir un sonido cuando se haya acabado el tiempo;
     
     ```blocks
-    play drum (10 v) for (0.1) beats
+    tocar tambor (10 v) durante (0.1) pulsos
 ```
 
-+ You could also constantly play music on a loop (if you're not sure how to do this, step 4 of the 'Rock Band' project will help you).
++ También podrías reproducir música continuamente en un bucle (si no recuerdas cómo hacer esto, el paso 4 del proyecto ‘Banda de Rock’ te puede ayudar).
 
 \--- /challenge \---
