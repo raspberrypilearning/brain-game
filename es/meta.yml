@@ -22,7 +22,7 @@ steps:
   - 
     title: 'Desafío: Añadir puntuación'
   - 
-    title: Varias páginas
+    title: Múltiples partidas
   - 
     title: 'Desafío: Pantalla de inicio'
   - 
@@ -32,7 +32,7 @@ steps:
   - 
     title: 'Desafío: Sonido y música'
   - 
-    title: 'Desafío: Corre por 10 puntos'
+    title: 'Desafío: Corre a 10 puntos'
   - 
     title: 'Desafío: Pantalla de instrucciones'
 
