@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Desafío: Cambiar los disfraces
+## Challenge: Changing costumes
 
-¿Puedes cambiar los disfraces de tu personaje, para que se adapten a la respuesta del jugador?
+Can you change your character's costumes, so that they respond to the player's answer?
 
 ![screenshot](images/brain-costume.png)
 
