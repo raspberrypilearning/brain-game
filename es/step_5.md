@@ -1,74 +1,74 @@
-## Múltiples partidas
+## Multiple games
 
-Vamos a añadir un botón de ‘jugar’ a tu juego, para que puedas jugar muchas veces.
+Let's add a 'play' button to your game, so that you can play lots of times.
 
-+ Crea un nuevo objeto con un botón de ‘Jugar’, en el que tu jugador hará clic para empezar un juego nuevo. Puedes dibujarlo tú o editar un objeto de la biblioteca de Scratch.
++ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
     
     ![screenshot](images/brain-play.png)
 
-+ Añade este código a tu nuevo botón.
++ Add this code to your new button.
     
     ```blocks
-    al presionar bandera verde
-mostrar
+    when flag clicked
+    show
 
-al hacer clic en este objeto
-esconder
-enviar [start v]
+    when this sprite clicked
+    hide
+    broadcast [start v]
 ```
 
-Este código muestra el botón de jugar cuando el proyecto empieza. Al presionar el botón, éste se esconde y envía un mensaje que dará inicio al juego.
+This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
 
-+ Necesitarás editar el código de tu personaje para que el juego empiece cuando éste recibe el mensaje de `inicio`{:class="blockevents"}, y no al presionar la bandera.
++ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
     
-    Sustituye el código `al presionar bandera verde`{:class="blockevents"} por `al recibir inicio`{:class="blockevents"}.
+    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
     
     ![screenshot](images/brain-start.png)
 
-+ Haz clic en la bandera verde y a continuación presiona tu nuevo botón de jugar para probarlo. No deberías de ver el juego empezar hasta que se haga clic en el botón.
++ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
 
-+ ¿Te has dado cuenta de que el cronómetro arranca cuando haces clic en la bandera verde, y no cuando empieza el juego?
++ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
     
     ![screenshot](images/brain-timer-bug.png)
     
-    ¿Puedes arreglar este problema?
+    Can you fix this problem?
 
-+ Haz clic en el escenario, y sustituye el bloque `detener todos`{:class="blockcontrol"} por un mensaje de `fin`{:class="blockevents"}.
++ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
     
     ![screenshot](images/brain-end.png)
 
-+ Ahora puedes añadir código al botón para que vuelva a aparecer al final de cada partida.
++ You can now add code to your button, to show it again at the end of each game.
     
     ```blocks
-    al recibir [fin v]
-mostrar
+    when I receive [end v]
+    show
 ```
 
-+ También tendrás que hacer que tu personaje deje de hacer preguntas al final de cada partida:
++ You'll also need to stop your character asking questions at the end of each game:
     
     ```blocks
-    al recibir [fin v]
-detener [otros programas en el objeto v]
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
-+ Prueba el botón jugando un par de partidas. Deberías de ver aparecer el botón de jugar después de cada partida. Para que sea más fácil hacer las pruebas, puedes acortar las partidas y hacer que duren sólo unos segundos.
++ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
     
     ```blocks
-    fijar [time v] a [10]
+    set [time v] to [10]
 ```
 
-+ Incluso puedes hacer que la apariencia del botón cambie cuando le acercas el ratón.
++ You can even change how the button looks when the mouse hovers over it.
     
     ```blocks
-    al presionar bandera verde
-mostrar
-por siempre
-   si <¿tocando [apuntador del ratón v]?> entonces
-      establecer efecto [ojo de pez v] a (30)
-   si no
-      establecer efecto [ojo de pez v] a (0)
-   fin
-fin
+    when flag clicked
+    show
+    forever
+    if <touching [mouse-pointer v]?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![screenshot](images/brain-fisheye.png)
