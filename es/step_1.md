@@ -1,25 +1,25 @@
 ## Introducción
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+En este proyecto aprenderá cómo crear una prueba de tablas de multiplicar, en el que debe responder a tantas preguntas en forma correcta como pueda en 30 segundos.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### Información adicional para los líderes del club
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Si necesitas imprimir este proyecto, use la [versión para imprimir](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## título: Notas del líder del club
 
-## Introduction:
+## Introducción:
 
 In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
 
-## Resources
+## Rescursos
 
 For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
 
@@ -27,7 +27,7 @@ You can find a completed version of this project [online](http://scratch.mit.edu
 
 * BrainGame.sb2
 
-## Learning Objectives
+## Objetivos del Aprendizaje
 
 * This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
 
@@ -35,7 +35,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 * [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Desafíos
 
 * "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
 * "Adding a score" - adding a point for every correct question answered;
@@ -49,9 +49,9 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ## \--- collapse \---
 
-## title: Project materials
+## título: materiales del proyecto
 
-## Club leader resources
+## Recursos del líder del club
 
 * [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
 * [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
