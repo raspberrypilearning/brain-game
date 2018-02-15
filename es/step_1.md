@@ -1,6 +1,6 @@
 ## Introducción
 
-En este proyecto aprenderá cómo crear una prueba de tablas de multiplicar, en el que debe responder a tantas preguntas en forma correcta como pueda en 30 segundos.
+En este proyecto aprenderá cómo crear un juego de tablas de multiplicar, en el que debe responder a tantas preguntas en forma correcta como pueda en 30 segundos.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
