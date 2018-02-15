@@ -17,7 +17,7 @@ Si necesitas imprimir este proyecto, use la [versión para imprimir](https://pro
 
 ## Introducción:
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+En este proyecto, los niños aprenderán cómo hacer un juego de tablas de multiplicar, en el que el jugador debe responder a tantas preguntas en forma correcta como sea posible en 30 segundos.
 
 ## Rescursos
 
