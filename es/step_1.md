@@ -42,18 +42,18 @@ Este proyecto incluye elementos desde los siguientes aspectos del [curriculó de
 * "Pantalla de inicio" - cambiar el fondo en respuesta al `inicio`{:class="eventosdebloques"} y `fin`{:class="eventosdebloques"} transmitir mensajes, creando 2 'pantallas' del juego;
 * "Animación mejorada" - el uso de bucles y efectos para mejorar la animación gráfica correcta / incorrecta;
 * "Sonido y música" - consolidación del aprendizaje de bucles de música y efectos de sonido;
-* "Race to 10 points" - changing the game logic to create a new game objective;
+* "Carrera hasta 10 puntos" - cambiar la lógica del juego para crear un nuevo objetivo del juego;
 * "Pantalla de instrucciones": consolidación del uso de transmisiones para crear un menú del juego, al añadir un nuevo botón y pantalla de "instrucciones".
 
-\--- / esconder \---
+\--- /collapse \---
 
-## \--- esconder \---
+## \--- collapse \---
 
 ## título: materiales del proyecto
 
 ## Recursos del líder del club
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Proyecto Scratch 2 completado descargable](resources/BrainGame.sb2)
+* [Proyecto Scratch 2 completado en línea](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
