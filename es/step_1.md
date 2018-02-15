@@ -38,16 +38,16 @@ Este proyecto incluye elementos desde los siguientes aspectos del [curriculó de
 ## Desafíos
 
 * "Cambiar disfraces" - cambiar la apariencia del personaje en respuesta a respuestas correctas e incorrectas;
-* "Adding a score" - adding a point for every correct question answered;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
-* "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-* "Sound and music" - consolidating learning of music loops and sound effects;
+* "Añadir una puntuación" - añadir un punto por cada pregunta contestado correctamente;
+* "Pantalla de inicio" - cambiar el fondo en respuesta al `inicio`{:class="eventosdebloques"} y `fin`{:class="eventosdebloques"} transmitir mensajes, creando 2 'pantallas' del juego;
+* "Animación mejorada" - el uso de bucles y efectos para mejorar la animación gráfica correcta / incorrecta;
+* "Sonido y música" - consolidación del aprendizaje de bucles de música y efectos de sonido;
 * "Race to 10 points" - changing the game logic to create a new game objective;
-* "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
+* "Pantalla de instrucciones": consolidación del uso de transmisiones para crear un menú del juego, al añadir un nuevo botón y pantalla de "instrucciones".
 
-\--- /collapse \---
+\--- / esconder \---
 
-## \--- collapse \---
+## \--- esconder \---
 
 ## título: materiales del proyecto
 
