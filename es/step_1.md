@@ -1,4 +1,4 @@
-## Introduction
+## Introducción
 
 In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
 
