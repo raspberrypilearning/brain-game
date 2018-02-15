@@ -21,7 +21,7 @@ En este proyecto, los niños aprenderán cómo hacer un juego de tablas de multi
 
 ## Rescursos
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Para este proyecto, se debe usar Scratch 2. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
 
 You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
 
