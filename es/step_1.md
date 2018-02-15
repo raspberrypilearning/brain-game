@@ -21,11 +21,11 @@ En este proyecto, los niños aprenderán cómo hacer un juego de tablas de multi
 
 ## Rescursos
 
-Para este proyecto, se debe usar Scratch 2. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Para este proyecto, se debe usar Scratch 2. Scratch 2 puede ser usado en línea en [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) o puede ser descargado desde [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) y se usa sin conexión.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Puede encontrar una versión completa de este proyecto [en línea](http://scratch.mit.edu/projects/42225768/#editor) o puede descargarlo haciendo clic en el enlace 'Materiales del proyecto', que contiene:
 
-* BrainGame.sb2
+* Juego_Cerebral_ES.sb2
 
 ## Objetivos del Aprendizaje
 
