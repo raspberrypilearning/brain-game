@@ -31,7 +31,7 @@ Lass uns damit beginnen, ein paar beliebig ausgewählte Fragen zusammenzustellen
 			 sage [Ja! :)] für (2) Sek.
 		sonst
  			sage [Nein :(] für (2) Sek.
-		end
+		Ende
 	```
 
 + Teste dein Projekt vollständig, indem du eine Frage richtig und eine Frage falsch beantwortest.
