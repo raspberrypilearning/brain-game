@@ -6,7 +6,7 @@ Invece di far dire solo `sì :)` o `no :(` al giocatore, aggiungiamo alcune graf
 
 	![screenshot](images/brain-result.png)
 
-+ Cambia il codice del tuo personaggio, così che invece di dire al giocatore come è andata, trasmette i messaggi `corretto` {.blockevents} ed `errato` {.blockevents}.
++ Cambia il codice del tuo personaggio, così che invece di dire al giocatore come è andata, trasmette i messaggi `corretto`{:class="blockevents"} ed `errato`{:class="blockevents"}.
 
 	![screenshot](images/brain-broadcast-answer.png)
 
@@ -18,9 +18,9 @@ Invece di far dire solo `sì :)` o `no :(` al giocatore, aggiungiamo alcune graf
 
 	![screenshot](images/brain-test-answer.png)
 
-+ Hai notato che il codice per `quando ricevo corretto` {.blockevents} e quello per `quando ricevo errato` {.blockevents} sono quasi identici? Creiamo ora una funzione per facilitare il modo di cambiare il tuo codice.
++ Hai notato che il codice per `quando ricevo corretto`{:class="blockevents"} e quello per `quando ricevo errato`{:class="blockevents"} sono quasi identici? Creiamo ora una funzione per facilitare il modo di cambiare il tuo codice.
 
-	Sul tuo sprite 'Risultato' , clicca `Altri Blocchi` {.blockmoreblocks}, e poi 'Crea un Blocco'. Crea una nuova funzione chiamata `animare` {.blockmoreblocks}.
+	Sul tuo sprite 'Risultato' , clicca `Altri Blocchi`{:class="blockmoreblocks"}, e poi 'Crea un Blocco'. Crea una nuova funzione chiamata `animare`{:class="blockmoreblocks"}.
 
 	![screenshot](images/brain-animate-function.png)
 
