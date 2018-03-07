@@ -21,7 +21,7 @@ Ajoutons un bouton 'jeu' à votre jeu, pour que vous puissiez jouer plusieurs fo
 
 	Ce code montre le bouton de jeu lorsque votre projet est commencé. Quand le bouton est cliqué, il est caché et diffuse ensuite un message qui commencera le jeu.
 
-+ Vous devrez modifier le code de votre personnage afin que le jeu débute lorsqu'il recevra le message 'début'{.blockevents} et non pas quand le drapeau est cliqué.
++ Vous devrez modifier le code de votre personnage afin que le jeu débute lorsqu'il recevra le message `début`{:class="blockevents"} et non pas quand le drapeau est cliqué.
 
 	Remplacez le code `quand le drapeau cliqué `{:class="blockevents"} par `quand je reçois le début`{:class="blockevents"}.
 
