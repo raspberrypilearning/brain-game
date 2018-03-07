@@ -6,7 +6,7 @@ En lugar de que tu personaje sólo diga `¡Sí! :)` o `No :(` al jugador, vamos 
 
 	![screenshot](images/brain-result.png)
 
-+ Cambia el código de tu personaje para que, en lugar de decir al jugador cómo lo está haciendo, envíe mensajes de `correcto` {.blockevents} y `error` {.blockevents}.
++ Cambia el código de tu personaje para que, en lugar de decir al jugador cómo lo está haciendo, envíe mensajes de `correcto`{:class="blockevents"} y `error`{:class="blockevents"}.
 
 	![screenshot](images/brain-broadcast-answer.png)
 
@@ -18,9 +18,9 @@ En lugar de que tu personaje sólo diga `¡Sí! :)` o `No :(` al jugador, vamos 
 
 	![screenshot](images/brain-test-answer.png)
 
-+ ¿Te has dado cuenta de que el código para `al recibir correcto` {.blockevents} y `al recibir error` {.blockevents} es casi idéntico? Vamos a crear una función que te ayudará a hacer cambios en tu código más fácilmente.
++ ¿Te has dado cuenta de que el código para `al recibir correcto`{:class="blockevents"} y `al recibir error`{:class="blockevents"} es casi idéntico? Vamos a crear una función que te ayudará a hacer cambios en tu código más fácilmente.
 
-	En el objeto 'Resultado', haz clic en `Más Bloques` {.blockmoreblocks}, y a continuación 'Crear un bloque'. Crea una nueva función llamada `animar` {.blockmoreblocks}.
+	En el objeto 'Resultado', haz clic en `Más Bloques`{:class="blockmoreblocks"}, y a continuación 'Crear un bloque'. Crea una nueva función llamada `animar`{:class="blockmoreblocks"}.
 
 	![screenshot](images/brain-animate-function.png)
 
