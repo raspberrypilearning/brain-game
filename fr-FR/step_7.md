@@ -6,7 +6,7 @@ Afin que votre personnage ne dise pas seulement ` oui! :) ` ou ` non `, ajoutons
 
 	![screenshot](images/brain-result.png)
 
-+ Changez le code de votre personnage afin qu'il diffuse les messages 'correct'{.blockevents} et 'mal' {.blockevents} au lieu de dire `oui` et `non`.
++ Changez le code de votre personnage afin qu'il diffuse les messages `correct`{:class="blockevents"} et `mal`{:class="blockevents"} au lieu de dire `oui` et `non`.
 
 	![screenshot](images/brain-broadcast-answer.png)
 
@@ -18,16 +18,16 @@ Afin que votre personnage ne dise pas seulement ` oui! :) ` ou ` non `, ajoutons
 
 	![screenshot](images/brain-test-answer.png)
 
-+ Avez-vous remarquer que le code ` quand je reçois correct ` {.blockevents} et ` quand je reçois mal ` {.blockevents} est presque identique ? Créons une fonction pour rendre la modifiation du code plus facile.
++ Avez-vous remarquer que le code `quand je reçois correct`{:class="blockevents"} et `quand je reçois mal` {:class="blockevents"} est presque identique ? Créons une fonction pour rendre la modifiation du code plus facile.
 
-	Sur votre lutin 'Résultat', cliquez sur ` Ajouter blocs ` {.blockmoreblocks} et cliquez ensuite sur ' Créer un Bloc '. Créez une nouvelle fonction appelée 'animée' {.blockmoreblocks}.
+	Sur votre lutin 'Résultat', cliquez sur `Ajouter blocs`{:class="blockmoreblocks"} et cliquez ensuite sur ' Créer un Bloc '. Créez une nouvelle fonction appelée `animée`{:class="blockmoreblocks"}.
 
 	![screenshot](images/brain-animate-function.png)
 
 + Vous pouvez alors ajouter le code d'animation dans votre nouvelle fonction d'animation et utiliser ensuite la fonction deux fois:
 
 
-	![screenshot](brain-use-function.png)
+	![screenshot](images/brain-use-function.png)
 
 + Maintenant, si vous voulez montrer l'animation plus longtemps, vous devez faire un seul changement à votre fonction. Essayez-le!
 
