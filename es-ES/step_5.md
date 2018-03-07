@@ -21,9 +21,9 @@ Vamos a añadir un botón de 'jugar' a tu juego, para que puedas jugar muchas ve
 
 	Este código muestra el botón de jugar cuando el proyecto empieza. Al presionar el botón, éste se esconde y envía un mensaje que dará inicio al juego.
 
-+ Necesitarás editar el código de tu personaje para que el juego empiece cuando éste recibe el mensaje de `inicio` {.blockevents}, y no al presionar la bandera.
++ Necesitarás editar el código de tu personaje para que el juego empiece cuando éste recibe el mensaje de `inicio`{:class="blockevents"}, y no al presionar la bandera.
 
-	Sustituye el código `al presionar bandera verde` {.blockevents} por `al recibir inicio` {.blockevents}.
+	Sustituye el código `al presionar bandera verde`{:class="blockevents"} por `al recibir inicio`{:class="blockevents"}.
 
 	![screenshot](images/brain-start.png)
 
@@ -35,7 +35,7 @@ Vamos a añadir un botón de 'jugar' a tu juego, para que puedas jugar muchas ve
 
 	¿Puedes arreglar este problema?
 
-+ Haz clic en el escenario, y sustituye el bloque `detener todos` {.blockcontrol} por un mensaje de `fin` {.blockevents}.
++ Haz clic en el escenario, y sustituye el bloque `detener todos`{:class="blockcontrol"} por un mensaje de `fin`{:class="blockevents"}.
 
 	![screenshot](images/brain-end.png)
 
