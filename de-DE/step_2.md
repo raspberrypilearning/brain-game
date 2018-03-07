@@ -8,11 +8,11 @@ Lass uns damit beginnen, ein paar beliebig ausgewählte Fragen zusammenzustellen
 
 	![screenshot](images/brain-setting.png)
 
-+ Erstelle 2 neue Variablen namens `number 1` {.blockdata} (Zahl 1) und `number 2` {.blockdata} (Zahl 2). Diese Variablen speichern die beiden Zahlen, die miteinander multipliziert werden sollen.
++ Erstelle 2 neue Variablen namens `number 1`{:class="blockdata"} (Zahl 1) und `number 2`{:class="blockdata"} (Zahl 2). Diese Variablen speichern die beiden Zahlen, die miteinander multipliziert werden sollen.
 
 	![screenshot](images/brain-variables.png)
 
-+ Füge den Code zu deiner Spielfigur hinzu, um beide diese Variablen auf eine Zufallszahl `random` {.blockoperators} zwischen 2 und 12 einzustellen.
++ Füge den Code zu deiner Spielfigur hinzu, um beide diese Variablen auf eine Zufallszahl `random`{:class="blockoperators"} zwischen 2 und 12 einzustellen.
 
 	```blocks
 		Wenn die grüne Flagge angeklickt
@@ -36,9 +36,9 @@ Lass uns damit beginnen, ein paar beliebig ausgewählte Fragen zusammenzustellen
 
 + Teste dein Projekt vollständig, indem du eine Frage richtig und eine Frage falsch beantwortest.
 
-+ Füge eine `forever` {.blockcontrol} (für immer) Schleife um diesen Code herum hinzu, damit dem Spieler viele Fragen gestellt werden.
++ Füge eine `forever`{:class="blockcontrol"} (für immer) Schleife um diesen Code herum hinzu, damit dem Spieler viele Fragen gestellt werden.
 
-+ Erstelle einen Countdown-Zähler in diesem Stadium, der eine Variable namens `time` {.blockdata} (Zeit) benutzt. Das 'Ghostbusters' Projekt beinhaltet Anweisungen darüber, wie man einen Zähler herstellt (in Schritt 5), falls du Hilfestellung benötigst!
++ Erstelle einen Countdown-Zähler in diesem Stadium, der eine Variable namens `time`{:class="blockdata"} (Zeit) benutzt. Das 'Ghostbusters' Projekt beinhaltet Anweisungen darüber, wie man einen Zähler herstellt (in Schritt 5), falls du Hilfestellung benötigst!
 
 + Teste dein Projekt erneut: Du solltest jetzt in der Lage sein, weitere Fragen zu stellen, bis die Zeit abgelaufen ist.
 
