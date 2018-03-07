@@ -11,8 +11,6 @@ In diesem Projekt lernst du, wie man ein Multiplikations-Quiz produziert, in dem
 ---
 title: Hinweise des Clubleiters
 ---
-## Einführung:
-In diesem Projekt lernen die Kinder, wie man ein Multiplikations-Quiz anfertigt, in dem der Spieler innerhalb von 30 Sekunden so viele Fragen wie möglich richtig beantworten muss.
 
 ## Ressourcen
 Für dieses Projekt sollte Scratch 2 benutzt werden. Scratch 2 kann entweder online unter [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) benutzt werden oder es kann von [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) heruntergeladen und offline benutzt werden.
@@ -31,7 +29,7 @@ Dieses Projekt deckt Elemente aus den folgenden Bereichen des [Raspberry Pi Lehr
 ## Aufgaben
 + „Ändere das Kostüm“: Ändere wie deine Spielfigur aussehen soll als Reaktion auf richtig oder falsch beantwortete Fragen;
 + „Eine Punktzahl hinzufügen“: Füge jedes Mal, wenn eine Frage richtig beantwortet wurde, einen Punkt hinzu;
-+ „Bildschirm starten“: Ändere den Hintergrund in Reaktion auf die `start` {.blockevents} und `end` {.blockevents} Broadcast-Meldungen, erstelle 2 Spielbildschirme 'screens';
++ „Bildschirm starten“: Ändere den Hintergrund in Reaktion auf die `start`{:class="blockevents"} und `end` {:class="blockevents"} Broadcast-Meldungen, erstelle 2 Spielbildschirme 'screens';
 + „Verbesserte Animation“: Benutze Schleifen und Effekte, um die Richtig /Falsch Grafik-Animation zu verbessern;
 + „Sound und Musik“: Konsolidiere das Lernen von Musik-Schleifen und Sound-Effekten;
 + „Wettrennen zu 10 Punkten“: Ändere die Spiel-Logik, um ein neues Spielziel zu erstellen;
