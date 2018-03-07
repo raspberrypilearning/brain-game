@@ -44,14 +44,14 @@ Vamos a añadir un botón de 'jugar' a tu juego, para que puedas jugar muchas ve
 	```blocks
 		al recibir [fin v]
 		mostrar
-		```
+	```
 
 + También tendrás que hacer que tu personaje deje de hacer preguntas al final de cada partida:
 
 	```blocks
 		al recibir [fin v]
 		detener [otros programas en el objeto v]
-		```
+	```
 
 + Prueba el botón jugando un par de partidas. Deberías de ver aparecer el botón de jugar después de cada partida. Para que sea más fácil hacer las pruebas, puedes acortar las partidas y hacer que duren sólo unos segundos.
 
