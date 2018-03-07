@@ -21,9 +21,9 @@ Aggiungiamo il tasto 'gioca', così che puoi giocare tante volte.
 
 	Questo codice mostra il tasto di gioco quando il tuo progetto è iniziato. Quando il tasto è cliccato, viene nascosto e poi trasmette un messaggio che inizierà la partita.
 
-+ Dovrai modificare il codice del tuo personaggio, così che il gioco inizi quando ricevono il messaggio 'inizio' {.blockevents}, e non quando la bandiera è cliccata.
++ Dovrai modificare il codice del tuo personaggio, così che il gioco inizi quando ricevono il messaggio `Inizio`{:class="blockevents"}, e non quando la bandiera è cliccata.
 
-	Sostituisci il codice `quando si clicca sulla bandiera verde` {.blockevents} con `quando ricevo l'inizio` {.blockevents}.
+	Sostituisci il codice `quando si clicca sulla bandiera verde`{:class="blockevents"} con `quando ricevo l'inizio`{:class="blockevents"}.
 
 	![screenshot](images/brain-start.png)
 
@@ -35,7 +35,7 @@ Aggiungiamo il tasto 'gioca', così che puoi giocare tante volte.
 
 	Puoi risolvere il problema?
 
-+ Clicca sulla fase e sostituisci il blocco 'ferma tutto' {.blockcontrol} con un messaggio `fine` {.blockevents}.
++ Clicca sulla fase e sostituisci il blocco `ferma tutto`{:class="blockcontrol"} con un messaggio `fine`{:class="blockevents"}.
 
 	![screenshot](images/brain-end.png)
 
