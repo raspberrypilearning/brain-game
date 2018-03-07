@@ -18,7 +18,7 @@ Afin que votre personnage ne dise pas seulement ` oui! :) ` ou ` non `, ajoutons
 
 	![screenshot](images/brain-test-answer.png)
 
-+ Avez-vous remarquer que le code `quand je reçois correct`{:class="blockevents"} et `quand je reçois mal` {:class="blockevents"} est presque identique ? Créons une fonction pour rendre la modifiation du code plus facile.
++ Avez-vous remarquer que le code `quand je reçois correct`{:class="blockevents"} et `quand je reçois mal`{:class="blockevents"} est presque identique ? Créons une fonction pour rendre la modifiation du code plus facile.
 
 	Sur votre lutin 'Résultat', cliquez sur `Ajouter blocs`{:class="blockmoreblocks"} et cliquez ensuite sur ' Créer un Bloc '. Créez une nouvelle fonction appelée `animée`{:class="blockmoreblocks"}.
 
