@@ -22,7 +22,8 @@ Lass uns damit beginnen, ein paar beliebig ausgewählte Fragen zusammenzustellen
 
 + Du kannst dann den Spieler nach der Antwort fragen und ihn wissen lassen, ob er richtig oder falsch geantwortet hat.
 
-	```Wenn die grüne Flagge angeklickt
+	```blocks
+		Wenn die grüne Flagge angeklickt
 		setze [number 1 v] auf (Zufallszahl von (2) bis (12))
 		setze [number 2 v] auf (Zufallszahl von (2) bis (12))
 		frage (verbinde (number 1) (verbinde [x] (number 2))) und warte
@@ -30,7 +31,7 @@ Lass uns damit beginnen, ein paar beliebig ausgewählte Fragen zusammenzustellen
 			 sage [Ja! :)] für (2) Sek.
 		sonst
  			sage [Nein :(] für (2) Sek.
-		Ende
+		end
 	```
 
 + Teste dein Projekt vollständig, indem du eine Frage richtig und eine Frage falsch beantwortest.
