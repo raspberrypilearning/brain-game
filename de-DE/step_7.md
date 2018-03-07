@@ -6,7 +6,7 @@ Anstatt, dass deine Spielfigur nur `yes! :)` (Ja!) oder `nope :(` (Nein) zum Spi
 
 	![screenshot](images/brain-result.png)
 
-+ Ändere den Code deiner Spielfigur, damit du, statt nur dem Spieler mitzuteilen, welchen Punktestand er erreicht hat, ihm statt dessen auch die entsprechenden `correct` {.blockevents} (richtig) und `wrong` {.blockevents} (falsch) Meldungen senden kannst.
++ Ändere den Code deiner Spielfigur, damit du, statt nur dem Spieler mitzuteilen, welchen Punktestand er erreicht hat, ihm statt dessen auch die entsprechenden `correct`{:class="blockevents"} (richtig) und `wrong`{:class="blockevents"} (falsch) Meldungen senden kannst.
 
 	![screenshot](images/brain-broadcast-answer.png)
 
@@ -18,9 +18,9 @@ Anstatt, dass deine Spielfigur nur `yes! :)` (Ja!) oder `nope :(` (Nein) zum Spi
 
 	![screenshot](images/brain-test-answer.png)
 
-+ Hast du gemerkt, dass der Code für die `when I receive correct` {.blockevents} (wenn ich richtig geantwortet habe) und `when I receive wrong` {.blockevents} (wenn ich falsch geantwortet habe) Blöcke nahezu identisch ist? Lass uns eine Funktion erstellen, damit es leichter für dich ist, Änderungen an deinem Code vorzunehmen.
++ Hast du gemerkt, dass der Code für die `when I receive correct`{:class="blockevents"} (wenn ich richtig geantwortet habe) und `when I receive wrong`{:class="blockevents"} (wenn ich falsch geantwortet habe) Blöcke nahezu identisch ist? Lass uns eine Funktion erstellen, damit es leichter für dich ist, Änderungen an deinem Code vorzunehmen.
 
-	Klicke `More Blocks` {.blockmoreblocks} (weitere Blöcke) auf deinem 'Result' (Ergebnis) Sprite und 'Make a Block' (Block herstellen), stelle dann einen weiteren Block her. Erstelle eine neue Funktion namens `animate` {.blockmoreblocks} (animieren).
+	Klicke `More Blocks`{:class="blockmoreblocks"} (weitere Blöcke) auf deinem 'Result' (Ergebnis) Sprite und 'Make a Block' (Block herstellen), stelle dann einen weiteren Block her. Erstelle eine neue Funktion namens `animate`{:class="blockmoreblocks"} (animieren).
 
 	![screenshot](images/brain-animate-function.png)
 
