@@ -29,7 +29,7 @@ Dieses Projekt deckt Elemente aus den folgenden Bereichen des [Raspberry Pi Lehr
 ## Aufgaben
 + „Ändere das Kostüm“: Ändere wie deine Spielfigur aussehen soll als Reaktion auf richtig oder falsch beantwortete Fragen;
 + „Eine Punktzahl hinzufügen“: Füge jedes Mal, wenn eine Frage richtig beantwortet wurde, einen Punkt hinzu;
-+ „Bildschirm starten“: Ändere den Hintergrund in Reaktion auf die `start`{:class="blockevents"} und `end` {:class="blockevents"} Broadcast-Meldungen, erstelle 2 Spielbildschirme 'screens';
++ „Bildschirm starten“: Ändere den Hintergrund in Reaktion auf die `start`{:class="blockevents"} und `end`{:class="blockevents"} Broadcast-Meldungen, erstelle 2 Spielbildschirme 'screens';
 + „Verbesserte Animation“: Benutze Schleifen und Effekte, um die Richtig /Falsch Grafik-Animation zu verbessern;
 + „Sound und Musik“: Konsolidiere das Lernen von Musik-Schleifen und Sound-Effekten;
 + „Wettrennen zu 10 Punkten“: Ändere die Spiel-Logik, um ein neues Spielziel zu erstellen;
