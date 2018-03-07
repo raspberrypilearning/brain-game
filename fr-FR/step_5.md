@@ -23,7 +23,7 @@ Ajoutons un bouton 'jeu' à votre jeu, pour que vous puissiez jouer plusieurs fo
 
 + Vous devrez modifier le code de votre personnage afin que le jeu débute lorsqu'il recevra le message 'début'{.blockevents} et non pas quand le drapeau est cliqué.
 
-	Remplacez le code ` quand le drapeau cliqué ` {.blockevents} par ` quand je reçois le début `{.blockevents}.
+	Remplacez le code `quand le drapeau cliqué `{:class="blockevents"} par `quand je reçois le début`{:class="blockevents"}.
 
 	![screenshot](images/brain-start.png)
 
@@ -35,7 +35,7 @@ Ajoutons un bouton 'jeu' à votre jeu, pour que vous puissiez jouer plusieurs fo
 
 	Pouvez-vous réparer ce problème ?
 
-+ Cliquez sur la scène et remplacez le bloc 'arrêter tout'  {.blockcontrol} avec le message 'fin' {.blockevents}.
++ Cliquez sur la scène et remplacez le bloc `arrêter tout`{:class="blockcontrol"} avec le message `fin'`{:class="blockevents"}.
 
 	![screenshot](images/brain-end.png)
 
