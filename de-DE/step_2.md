@@ -22,15 +22,14 @@ Lass uns damit beginnen, ein paar beliebig ausgewählte Fragen zusammenzustellen
 
 + Du kannst dann den Spieler nach der Antwort fragen und ihn wissen lassen, ob er richtig oder falsch geantwortet hat.
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
+	```Wenn die grüne Flagge angeklickt
 		setze [number 1 v] auf (Zufallszahl von (2) bis (12))
 		setze [number 2 v] auf (Zufallszahl von (2) bis (12))
 		frage (verbinde (number 1) (verbinde [x] (number 2))) und warte
 		falls <(Antwort) = ((number 1) * (number 2))> dann
-  			sage [Ja! :)] für (2) Sek.
+			 sage [Ja! :)] für (2) Sek.
 		sonst
-   			sage [Nein :(] für (2) Sek.
+ 			sage [Nein :(] für (2) Sek.
 		Ende
 	```
 
