@@ -10,11 +10,11 @@ Commençons en créant des questions aléatoires pour le joueur.
 
 	![screenshot](images/brain-setting.png)
 
-+ Créez 2 nouvelles variables appelées ` numéro 1` {.blockdata} Et 'numéro 2'{.blockdata}. Ces variables stockeront les 2 nombres qui seront multipliés ensemble.
++ Créez 2 nouvelles variables appelées ` numéro 1`{:class="blockdata"} Et `numéro 2`{:class="blockdata"}. Ces variables stockeront les 2 nombres qui seront multipliés ensemble.
 
 	![screenshot](images/brain-variables.png)
 
-+ Ajoutez le code à votre personnage afin de mettre ces deux variables à un 'nombre aléatoire entre' {.blockoperators} 2 et 12.
++ Ajoutez le code à votre personnage afin de mettre ces deux variables à un `nombre aléatoire entre`{:class="blockoperators"} 2 et 12.
 
 	```blocks
 		quand le drapeau vert pressé
@@ -38,9 +38,9 @@ Commençons en créant des questions aléatoires pour le joueur.
 
 + Testez votre projet entièrement en répondant une fois avec une bonne réponse et une fois avec une mauvaise réponse.
 
-+Ajoutez la boucle 'répéter indéfiniment' {.blockcontrol} autour de ce code, afin que plusieurs questions soient posées au joueur.
++Ajoutez la boucle `répéter indéfiniment`{:class="blockcontrol"} autour de ce code, afin que plusieurs questions soient posées au joueur.
 
-+ Créez une minuterie sur la scène en utilisant une variable appelée 'temps' {.blockdata}. Si vous avez besoind d'aide, le projet 'GhostBuster' possède des instructions sur comment créer une minuterie (dans l'étape 6).
++ Créez une minuterie sur la scène en utilisant une variable appelée `temps`{:class="blockdata"}. Si vous avez besoind d'aide, le projet 'GhostBuster' possède des instructions sur comment créer une minuterie (dans l'étape 6).
 
 + Testez votre projet de nouveau, vous devriez pouvoir continuer à poser des questions jusqu'à ce que le temps soit écoulé.
 
