@@ -10,7 +10,7 @@ Commençons en créant des questions aléatoires pour le joueur.
 
 	![screenshot](images/brain-setting.png)
 
-+ Créez 2 nouvelles variables appelées ` numéro 1`{:class="blockdata"} Et `numéro 2`{:class="blockdata"}. Ces variables stockeront les 2 nombres qui seront multipliés ensemble.
++ Créez 2 nouvelles variables appelées `numéro 1`{:class="blockdata"} Et `numéro 2`{:class="blockdata"}. Ces variables stockeront les 2 nombres qui seront multipliés ensemble.
 
 	![screenshot](images/brain-variables.png)
 
