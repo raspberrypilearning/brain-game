@@ -12,10 +12,6 @@ In questo progetto, i bambini impareranno a creare un gioco a quiz sulle tabelli
 title: Note del leader del club
 ---
 
-
-## Introduzione:
-In questo progetto, i bambini impareranno a creare un gioco a quiz sulle tabelline, in cui il giocatore deve rispondere il maggior numero di domande possibili in 30 secondi.
-
 ## Risorse
 Per questo progetto, si può usare Scratch 2. Scratch 2 può essere usato online su [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) oppure può essere scaricato da [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) e usato in modalità offline.
 
@@ -33,7 +29,7 @@ Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Di
 ## Sfide
 + "Cambiare gli aspetti" - cambia l'aspetto dei personaggi in risposta alle risposte corrette o incorrette;
 + "Aggiungere un punteggio" - aggiunge un punto per ogni domanda risposta correttamente;
-+ "Inizio schermata" - cambia lo scenario della fase in risposta ai messaggi di trasmissione di 'inizio' {.blockevents} e 'fine' {.blockevents}, creando 2 'schermate' di gioco;
++ "Inizio schermata" - cambia lo scenario della fase in risposta ai messaggi di trasmissione di `inizio`{:class="blockevents"} e `fine`{:class="blockevents"}, creando 2 'schermate' di gioco;
 + "Animazione migliorata" - usa loop ed altri effetti per migliorare l'animazione grafica corretta/sbagliata;
 + "Suoni e musica" - consolida l'apprendimento di loop musicali ed effetti sonori; 
 + "Gareggia fino a 10 punti" - cambia la logica del gioco per creare un nuovo obiettivo;
