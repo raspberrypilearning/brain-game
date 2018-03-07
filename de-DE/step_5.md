@@ -21,9 +21,9 @@ Lass uns eine 'play' (spielen) Taste zu deinem Spiel hinzufügen, damit du es me
 
 	Dieser Code zeigt die „Spiel“ Taste, wenn dein Projekt gestartet wird. Wenn die Taste geklickt wird, wird sie versteckt und sendet dann eine Meldung, die das Spiel starten wird.
 
-+ Du musst den Code deiner Spielfigur bearbeiten, damit das Spiel beginnt, wenn die Figur die `start` {.blockevents} Startmeldung erhält und nicht erst wenn die Flagge geklickt wird.
++ Du musst den Code deiner Spielfigur bearbeiten, damit das Spiel beginnt, wenn die Figur die `start`{:class="blockevents"} Startmeldung erhält und nicht erst wenn die Flagge geklickt wird.
 
-	Ersetze den Code `when flag clicked` {.blockevents} (wenn Flagge geklickt wird) mit `when I receive start` {.blockevents} (wenn ich den Start erhalte).
+	Ersetze den Code `when flag clicked`{:class="blockevents"} (wenn Flagge geklickt wird) mit `when I receive start`{:class="blockevents"} (wenn ich den Start erhalte).
 
 	![screenshot](images/brain-start.png)
 
@@ -35,7 +35,7 @@ Lass uns eine 'play' (spielen) Taste zu deinem Spiel hinzufügen, damit du es me
 
 	Kannst du dieses Problem beheben?
 
-+ Klicke auf das Stadium und ersetze den `stop all` {.blockcontrol} (alles stoppen) Block mit einer `end` {.blockevents} (beenden) Meldung.
++ Klicke auf das Stadium und ersetze den `stop all`{:class="blockcontrol"} (alles stoppen) Block mit einer `end`{:class="blockevents"} (beenden) Meldung.
 
 	![screenshot](images/brain-end.png)
 
