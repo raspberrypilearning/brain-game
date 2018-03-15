@@ -1,19 +1,19 @@
 \--- challenge \---
 
-## Challenge: Carrera hasta 10 puntos
+## Desafío: Carrera hasta 10 puntos
 
-¿Puede cambiar su nombre, así que en lugar de responder tantas preguntas como sea posible en 30 segundos, el jugador tenga que ver cómo rápidamente puede obtener 10 preguntas correctas?
+¿Puedes cambiar tu juego para que en lugar de responder tantas preguntas como sea posible en 30 segundos, el jugador vea en cuanto tiempo puede responder 10 preguntas correctas?
 
-Para hacer esto, solo necesitará cambiar su código de temporizador. ¿Puede ver lo que necesita ser cambiado?
+Para hacer esto sólo necesitarás cambiar el código del contador de tiempo. ¿Ves lo que hay que cambiar?
 
 ```blocks
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) secs
-        change [time v] by (-1)
-    end
-    broadcast [end v]
+    al recibir [comienzo v]
+    fijar[time v] a (30)
+    repetir hasta <(tiempo) = [0]>
+        espera (1) seg
+        cambiar[time v] por (-1)
+    fin
+    enviar[end v]
 ```
 
 \--- /challenge \---
