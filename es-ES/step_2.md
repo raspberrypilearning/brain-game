@@ -1,43 +1,43 @@
-## Creating questions
+## Creación de preguntas
 
-Let's start by creating random questions for the player to answer.
+Vamos a empezar creando preguntas aleatorias para que el jugador responda.
 
-+ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Crea un nuevo proyecto Scratch y elimina el sprite gato para que tu proyecto esté vacío. Puedes encontrar el editor de Scratch en línea en <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ Elige un personaje y un fondo para tu juego. ¡Puedes elegir lo que quieras! Aquí hay un ejemplo:
     
     ![screenshot](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ Crea 2 nuevas variables llamadas `número 1`{:class="blockdata"} y `número 2`{class="blockdata"}. Estas variables almacenan los 2 números que se multiplican juntos.
     
     ![screenshot](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
++ Añade código a tu personaje para establecer ambas variables en un número `aleatorio`{class:"blockoperators"} entre 2 y 12.
     
     ```blocks
-    when flag clicked
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
+    al presionar bandera
+    fijar [número 1 v] a (número al azar entre (2) y (12))
+    fijar [número 2 v] a (número al azar entre (2) y (12))
 ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ Entonces puedes pedir al jugador la respuesta e informarle si tenía razón o no.
     
     ```blocks
-    when flag clicked
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) secs
-    else
-        say [nope :(] for (2) secs
-    end
+    al presionar bandera
+    fijar [número 1 v] a (número al azar entre (2) y (12))
+    fijar [number 2 v] a (número al azar entre(2) y (12))
+    preguntar (une (número 1)(une [ x ] (número 2))) y esperar
+    si <(respuesta) = ((úmero 1)*(número 2))> entonces
+        decir [¡sí! :)] por (2) segundos
+    o
+        decir [no :(] por (2) segundos
+    fin
 ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ Prueba el proyecto completo respondiendo una pregunta correctamente y una respuesta incorrecta.
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ Añade un bucle `para siempre`{:class="blockcontrol"} alrededor de este código, para que al jugador se le hagan un montón de preguntas.
 
-+ Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
++ Crea un temporizador de cuenta atrás en el escenario usando una variable llamada `tiempo`{:class=blockdata"}. ¡El proyecto de los 'Cazafantasmas' tiene las instrucciones para hacer un contador de tiempo (en el paso 5) si necesitas ayuda!
 
-+ Test your project again - you should be able to continue asking questions until the time runs out.
++ Prueba otra vez tu proyecto - debe ser capaz de seguir haciendo preguntas hasta que se acabe el tiempo.
