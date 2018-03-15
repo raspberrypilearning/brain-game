@@ -1,5 +1,5 @@
 ---
-hero_image: images/brain-game.png
+hero_image: imagenes/juego-mental.png
 theme: rojo
 duration: 2
 listed: true
@@ -7,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: creador, diseño-0, programación-0, informática-física-0, fabricación-0, comunidad-0
 title: Juego mental
-description: Aprenda cómo crear una prueba.
+description: Aprende cómo crear una prueba.
 original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
 interests: ''
 technologies: scratch
@@ -22,7 +22,7 @@ steps:
   - 
     title: 'Desafío: Añadir una puntuación'
   - 
-    title: Juegos múltiples
+    title: Múltiples juegos
   - 
     title: 'Desafío: Pantalla de inicio'
   - 
