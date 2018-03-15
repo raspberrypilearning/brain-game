@@ -6,33 +6,33 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-title: Brain Game
-description: Learn how to create a quiz.
-original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
+title: Gehirntraining
+description: Lerne, wie man ein Quiz produziert.
+original_url: https://projects.raspberrypi.org/en/projects/brain-game
 interests: ''
 technologies: scratch
 site_areas: codeclub, scratch
 steps:
   - 
-    title: Introduction
+    title: Einführung
   - 
-    title: Creating questions
+    title: Fragen zusammenstellen
   - 
-    title: 'Challenge: Changing costumes'
+    title: 'Aufgabe: Kostüm ändern'
   - 
-    title: 'Challenge: Adding a score'
+    title: 'Aufgabe: Eine Punktzahl hinzufügen'
   - 
-    title: Multiple games
+    title: Mehrfache Spiele
   - 
-    title: 'Challenge: Start screen'
+    title: 'Aufgabe: Start-Bildschirm'
   - 
-    title: Adding graphics
+    title: Grafik hinzufügen
   - 
-    title: 'Challenge: Improved animation'
+    title: 'Aufgabe: Verbesserte Animation'
   - 
-    title: 'Challenge: Sound and music'
+    title: 'Aufgabe: Sound und Musik'
   - 
-    title: 'Challenge: Race to 10 points'
+    title: 'Aufgabe: Wettrennen zu 10 Punkten'
   - 
-    title: 'Challenge: Instruction screen'
+    title: 'Aufgabe: Anweisungsbildschirm'
 
