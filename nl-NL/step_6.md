@@ -2,18 +2,18 @@
 
 ## Uitdaging: startscherm
 
-Kun je een nieuwe achtergrond toevoegen aan je podium, wat het startscherm van je spel wordt? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
+Kun je een nieuwe achtergrond toevoegen aan je podium, wat het startscherm van je spel wordt? U kunt de ` wanneer ik start ontvang ` {: class = "blockevents"} en ` wanneer ik einde ontvang ` {: class = "blockevents"} blokken gebruiken om te schakelen tussen achtergronden.
 
-You can also show and hide your character, and even show and hide your timer by using these blocks:
+Je kunt ook je personage tonen en verbergen en zelfs je timer tonen en verbergen door deze blokken te gebruiken:
 
 ```blocks
 show variable [time v]
 ```
 
 ```blocks
-hide variable [time v]
+verberg variabele [time v]
 ```
 
-![screenshot](images/brain-startscreen.png)
+![schermafdruk](images/brain-startscreen.png)
 
-\--- /challenge \---
+\--- / uitdaging \---
