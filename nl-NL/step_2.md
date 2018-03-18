@@ -15,23 +15,24 @@ Laten we beginnen met het maken van willekeurige vragen die de speler moet beant
 + Voeg code toe aan uw karakter, om beide variabelen willekeurig in te stellen op ` ` {: class = "blockoperators"} een getal tussen 2 en 12.
     
     ```blocks
-    when flag clicked
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
+    wanneer ⚑ wordt aangeklikt
+maak [nummer 1 v] (willekeurig getal tussen (2) en (12))
+maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
 ```
 
 + U kunt de speler vervolgens om het antwoord vragen en hem laten weten of ze gelijk hebben of niet.
     
     ```blocks
-    when flag clicked
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) secs
-    else
-        say [nope :(] for (2) secs
-    end
+    wanneer ⚑ wordt aangeklikt
+maak [number 1 v] (willekeurig getal tussen (2) en (12))
+maak [number 2 v] (willekeurig getal tussen (2) en (12))
+vraag (voeg (number 1) en (voeg [x] en (number 2) samen) samen) en wacht
+als <(antwoord) = ((number 1) * (number 2))> dan
+   zeg [yes!] :)] (2) sec.
+anders
+   zeg [nope :(] (2) sec.
+einde
+
 ```
 
 + Test uw project volledig, door één vraag goed te beantwoorden en één vraag met het verkeerde antwoord.
