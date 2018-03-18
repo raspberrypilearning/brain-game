@@ -1,9 +1,9 @@
-\--- challenge \---
+\--- uitdaging \---
 
-## Challenge: Changing costumes
+## Uitdaging: van uiterlijk veranderen
 
-Can you change your character's costumes, so that they respond to the player's answer?
+Kun je de kostuums van je personage veranderen, zodat ze reageren op het antwoord van de speler?
 
 ![screenshot](images/brain-costume.png)
 
-\--- /challenge \---
+\--- / uitdaging \---
