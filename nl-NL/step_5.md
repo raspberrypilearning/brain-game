@@ -4,7 +4,7 @@ Laten we een 'speel' knop toevoegen aan je spel, zodat je heel vaak kunt spelen.
 
 + Maak een nieuwe 'speel'-knop sprite, waarop uw speler zal klikken om een ​​nieuw spel te starten. Je kunt het zelf tekenen of een sprite bewerken vanuit de Scratch-bibliotheek.
     
-    ![screenshot](images/brain-play.png)
+    ![schermafdruk](images/brain-play.png)
 
 + Voeg deze code toe aan je nieuwe knop.
     
@@ -19,56 +19,56 @@ Laten we een 'speel' knop toevoegen aan je spel, zodat je heel vaak kunt spelen.
 
 Deze code geeft de afspeelknop weer wanneer uw project is gestart. Wanneer op de knop wordt geklikt, wordt deze verborgen en wordt vervolgens een bericht uitgezonden dat het spel start.
 
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
++ Je moet de code van je personage bewerken, zodat het spel start wanneer het ` start ` {: class = "blockevents"} bericht wordt ontvangen, en niet wanneer op de vlag wordt geklikt.
     
-    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
+    Vervang de ` wanneer op de vlag is geklikt ` {: class = "blockevents"} code met ` wanneer ik start ontvang ` {: Class = "blockevents"}.
     
-    ![screenshot](images/brain-start.png)
+    ![schermafdruk](images/brain-start.png)
 
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
++ Klik op de groene vlag en klik vervolgens op je nieuwe knop om het te testen. Je zou moeten zien dat de game pas start als op de knop wordt geklikt.
 
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
++ Is het je opgevallen dat de timer start wanneer op de groene vlag wordt geklikt en niet wanneer het spel begint?
     
     ![screenshot](images/brain-timer-bug.png)
     
-    Can you fix this problem?
+    Kun je dit probleem oplossen?
 
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
++ Klik op het werkgebied en vervang de ` stop alles ` {: class = "blockcontrol"} blokkeren met een einde ` ` {: class = "blockevents"} bericht.
     
     ![screenshot](images/brain-end.png)
 
-+ You can now add code to your button, to show it again at the end of each game.
++ Je kunt nu code aan je knop toevoegen om hem aan het eind van elk spel opnieuw te laten zien.
     
     ```blocks
     when I receive [end v]
     show
 ```
 
-+ You'll also need to stop your character asking questions at the end of each game:
++ Je moet ook voorkomen dat je karakter aan het einde van elk spel nog vragen stelt:
     
     ```blocks
     when I receive [end v]
     stop [other scripts in sprite v]
 ```
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
++ Test je afspeelknop door een paar spelletjes te spelen. Je zou moeten opmerken dat de speel-knop na elk spel weer wordt weergegeven. Om het testen gemakkelijker te maken, kun je elke game inkorten, zodat deze maar een paar seconden duurt.
     
     ```blocks
     set [time v] to [10]
 ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ U kunt zelfs wijzigen hoe de knop eruitziet wanneer de muis eroverheen beweegt.
     
     ```blocks
-    when flag clicked
-    show
-    forever
-    if <touching [mouse-pointer v]?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    wanneer ⚑ wordt aangeklikt
+verschijn
+herhaal
+   als <raak ik [muisaanwijzer v]?> dan
+      zet [vissenoog v]-effect op (30)
+   anders
+      zet [vissenoog v]-effect op (0)
+   einde
+einde
 ```
 
 ![screenshot](images/brain-fisheye.png)
