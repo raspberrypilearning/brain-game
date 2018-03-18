@@ -1,24 +1,24 @@
 ## Afbeeldingen toevoegen
 
-Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
+In plaats van dat je alleen maar ` Ja! :) ` of ` nee :( ` zegt tegen de speler, gaan we wat afbeeldingen toevoegen die de speler laten weten hoe ze het doen.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
++ Maak een nieuwe sprite met de naam 'Result', die zowel een 'vinkje'- als een 'kruis'-uiterlijk bevat.
     
     ![screenshot](images/brain-result.png)
 
-+ Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
++ Verander de code van je personage, zodat in plaats van de speler te vertellen hoe ze het deden, het ` correct ` {: class = "blockevents"} en ` fout ` {: class = "blockevents"} berichten uitzend.
     
     ![screenshot](images/brain-broadcast-answer.png)
 
-+ You can now use these messages to show the 'tick' or 'cross' costume. Add this code to your new 'Result' sprite:
++ U kunt deze berichten nu gebruiken om het 'vinkje'- of' kruis'-kostuum te laten zien. Voeg deze code toe aan uw nieuwe 'Result' sprite:
     
     ![screenshot](images/brain-show-answer.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
++ Test je spel opnieuw. Je moet een vinkje zien als je een vraag goed hebt, en een kruisje als je er één fout hebt!
     
     ![screenshot](images/brain-test-answer.png)
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
++ Is het je opgevallen dat de code voor ` wanneer ik correct ontvang ` {: class = "blockevents"} en ` wanneer ik verkeerd ontvang ` {: class = "blockevents"} is bijna identiek? Laten we een functie maken om het gemakkelijker voor u te maken om uw code aan te passen.
     
     On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
     
