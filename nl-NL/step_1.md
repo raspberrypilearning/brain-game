@@ -53,7 +53,7 @@ Dit project behandelt elementen uit de volgende onderdelen van het [ Raspberry P
 
 ## Club leider middelen
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Downloadbaar voltooid Scratch 2-project](resources/BrainGame.sb2)
+* [Online voltooid Scratch 2-project](http://scratch.mit.edu/projects/42225768/#editor)
 
-\--- /collapse \---
+\--- / inklappen \---
