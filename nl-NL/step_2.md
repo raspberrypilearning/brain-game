@@ -6,11 +6,11 @@ Laten we beginnen met het maken van willekeurige vragen die de speler moet beant
 
 + Kies een personage en een achtergrond voor je spel. Je kunt kiezen wat je wilt! Hier is een voorbeeld:
     
-    ![screenshot](images/brain-setting.png)
+    ![schermafdruk](images/brain-setting.png)
 
 + Maak 2 nieuwe variabelen met de naam ` nummer 1 ` {: class = "blockdata"} en ` nummer 2 ` {: Class = "blockdata"}. Deze variabelen slaan de 2 nummers op die samen worden vermenigvuldigd.
     
-    ![screenshot](images/brain-variables.png)
+    ![schermafdruk](images/brain-variables.png)
 
 + Voeg code toe aan uw karakter, om beide variabelen willekeurig in te stellen op ` ` {: class = "blockoperators"} een getal tussen 2 en 12.
     
@@ -36,8 +36,8 @@ Laten we beginnen met het maken van willekeurige vragen die de speler moet beant
 
 + Test uw project volledig, door één vraag goed te beantwoorden en één vraag met het verkeerde antwoord.
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ Voeg een `herhaal` {: class = "blockcontrol"} lus toe aan de code, zodat de speler veel vragen krijgt.
 
-+ Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
++ Maak een afteltimer op het podium met een variabele met de naam ` tijd ` {: Class = "blockdata"}. Het project 'Ghostbusters' bevat instructies voor het maken van een timer (in stap 5) als je hulp nodig hebt!
 
-+ Test your project again - you should be able to continue asking questions until the time runs out.
++ Test uw project opnieuw - u zou in staat moeten zijn om vragen te blijven stellen totdat de tijd om is.
