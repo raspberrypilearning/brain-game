@@ -9,12 +9,12 @@ Laten we een 'speel' knop toevoegen aan je spel, zodat je heel vaak kunt spelen.
 + Voeg deze code toe aan je nieuwe knop.
     
     ```blocks
-    when flag clicked
-    show
+    wanneer ⚑ wordt aangeklikt
+verschijn
 
-    when this sprite clicked
-    hide
-    broadcast [start v]
+wanneer op deze sprite wordt geklikt
+verdwijn
+zend signaal [start v]
 ```
 
 Deze code geeft de afspeelknop weer wanneer uw project is gestart. Wanneer op de knop wordt geklikt, wordt deze verborgen en wordt vervolgens een bericht uitgezonden dat het spel start.
@@ -29,32 +29,32 @@ Deze code geeft de afspeelknop weer wanneer uw project is gestart. Wanneer op de
 
 + Is het je opgevallen dat de timer start wanneer op de groene vlag wordt geklikt en niet wanneer het spel begint?
     
-    ![screenshot](images/brain-timer-bug.png)
+    ![schermafdruk](images/brain-timer-bug.png)
     
     Kun je dit probleem oplossen?
 
 + Klik op het werkgebied en vervang de ` stop alles ` {: class = "blockcontrol"} blokkeren met een einde ` ` {: class = "blockevents"} bericht.
     
-    ![screenshot](images/brain-end.png)
+    ![schermafdruk](images/brain-end.png)
 
 + Je kunt nu code aan je knop toevoegen om hem aan het eind van elk spel opnieuw te laten zien.
     
     ```blocks
-    when I receive [end v]
-    show
+    wanneer ik signaal [einde v] ontvang
+verschijn
 ```
 
 + Je moet ook voorkomen dat je karakter aan het einde van elk spel nog vragen stelt:
     
     ```blocks
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    wanneer ik signaal [einde v] ontvang
+stop [andere scripts in sprite v]
 ```
 
 + Test je afspeelknop door een paar spelletjes te spelen. Je zou moeten opmerken dat de speel-knop na elk spel weer wordt weergegeven. Om het testen gemakkelijker te maken, kun je elke game inkorten, zodat deze maar een paar seconden duurt.
     
     ```blocks
-    set [time v] to [10]
+    maak [time v] [10]
 ```
 
 + U kunt zelfs wijzigen hoe de knop eruitziet wanneer de muis eroverheen beweegt.
@@ -71,4 +71,4 @@ herhaal
 einde
 ```
 
-![screenshot](images/brain-fisheye.png)
+![schermafdruk](images/brain-fisheye.png)
