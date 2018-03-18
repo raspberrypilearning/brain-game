@@ -1,12 +1,12 @@
-## Multiple games
+## Meerdere spellen
 
-Let's add a 'play' button to your game, so that you can play lots of times.
+Laten we een 'speel' knop toevoegen aan je spel, zodat je heel vaak kunt spelen.
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
++ Maak een nieuwe 'speel'-knop sprite, waarop uw speler zal klikken om een ​​nieuw spel te starten. Je kunt het zelf tekenen of een sprite bewerken vanuit de Scratch-bibliotheek.
     
     ![screenshot](images/brain-play.png)
 
-+ Add this code to your new button.
++ Voeg deze code toe aan je nieuwe knop.
     
     ```blocks
     when flag clicked
@@ -17,7 +17,7 @@ Let's add a 'play' button to your game, so that you can play lots of times.
     broadcast [start v]
 ```
 
-This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
+Deze code geeft de afspeelknop weer wanneer uw project is gestart. Wanneer op de knop wordt geklikt, wordt deze verborgen en wordt vervolgens een bericht uitgezonden dat het spel start.
 
 + You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
     
