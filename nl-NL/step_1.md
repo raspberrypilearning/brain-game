@@ -19,7 +19,7 @@ Als u dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](ht
 
 In dit project leer je een quiz te maken van de tafels van vermenigvuldiging, waarin je binnen 30 seconden zoveel mogelijk goede antwoorden moet geven.
 
-## Bronnen
+## Middelen
 
 Voor dit project moet Scratch 2 worden gebruikt. Scratch 2 kan online worden gebruikt op [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) of kan worden gedownload van [ jumpto.cc/scratchoff ](http://jumpto.cc/scratch-off) en offline gebruikt.
 
@@ -27,31 +27,31 @@ You can find a completed version of this project [online](http://scratch.mit.edu
 
 * BrainGame.sb2
 
-## Learning Objectives
+## Leerdoelen
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* Dit project consolideert het leren van programmeervaardigheden die in eerdere projecten zijn opgedaan en laat zien hoe het zenden van boodschappen kan worden gebruikt om een eenvoudig spelmenu te maken.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dit project behandelt elementen uit de volgende onderdelen van het [ Raspberry Pi Digital Making Curriculum ](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combineer programmeerconstructies om een ​​probleem op te lossen.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Uitdagingen
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
-* "Adding a score" - adding a point for every correct question answered;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
-* "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-* "Sound and music" - consolidating learning of music loops and sound effects;
-* "Race to 10 points" - changing the game logic to create a new game objective;
-* "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
+* "Veranderen van uiterlijk" - veranderen hoe het spelpersonage er uitziet als antwoord op correcte en foute antwoorden;
+* "Een score toevoegen" - een punt toevoegen voor elke goed beantwoordde vraag;
+* "Startscherm" - het veranderen van de achtergrond als reactie op de start ` ` {: class = "blockevents"} en ` einde ` {: class = "blockevents"} broadcast-berichten, waarbij 2 gamevensters worden gemaakt;
+* "Verbeterde animatie" - gebruik van lussen en effecten voor het verbeteren van juist/fout animatie;
+* "Geluid en muziek" - consolideren van het leren maken van muziek-lussen en geluidseffecten;
+* "Race naar 10 punten" - Veranderen van de spellogica om een nieuwe doelstelling voor het spel te maken;
+* "Instructie scherm" - consolidatie van het gebruik van zenden om een spel menu ta maken door het toevoegen van een nieuwe 'instructies' knop en scherm.
 
-\--- /collapse \---
+\--- / inklappen \---
 
-## \--- collapse \---
+## \--- / inklappen \---
 
-## title: Project materials
+## titel: Projectmaterialen
 
-## Club leader resources
+## Club leider middelen
 
 * [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
 * [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
