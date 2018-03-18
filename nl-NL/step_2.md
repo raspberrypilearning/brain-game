@@ -1,18 +1,18 @@
-## Creating questions
+## Vragen maken
 
-Let's start by creating random questions for the player to answer.
+Laten we beginnen met het maken van willekeurige vragen die de speler moet beantwoorden.
 
-+ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Start een nieuw Scratch-project en verwijder de cat-sprite zodat uw project leeg is. Je kunt de online Scratch-editor vinden op <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ Kies een personage en een achtergrond voor je spel. Je kunt kiezen wat je wilt! Hier is een voorbeeld:
     
     ![screenshot](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ Maak 2 nieuwe variabelen met de naam ` nummer 1 ` {: class = "blockdata"} en ` nummer 2 ` {: Class = "blockdata"}. Deze variabelen slaan de 2 nummers op die samen worden vermenigvuldigd.
     
     ![screenshot](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
++ Voeg code toe aan uw karakter, om beide variabelen willekeurig in te stellen op ` ` {: class = "blockoperators"} een getal tussen 2 en 12.
     
     ```blocks
     when flag clicked
@@ -20,7 +20,7 @@ Let's start by creating random questions for the player to answer.
     set [number 2 v] to (pick random (2) to (12))
 ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ U kunt de speler vervolgens om het antwoord vragen en hem laten weten of ze gelijk hebben of niet.
     
     ```blocks
     when flag clicked
@@ -34,7 +34,7 @@ Let's start by creating random questions for the player to answer.
     end
 ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ Test uw project volledig, door één vraag goed te beantwoorden en één vraag met het verkeerde antwoord.
 
 + Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
 
