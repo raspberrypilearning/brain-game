@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Challenge: Sound and music
+## Uitdaging: geluid en muziek
 
-Can you add sound effects and music to your game? For example:
+Kun je geluidseffecten en muziek aan je spel toevoegen? Bijvoorbeeld:
 
-+ Playing a sound when the player gets an answer right or wrong;
-+ Adding a ticking sound to your countdown timer;
++ Een geluid afspelen als de speler een goed of fout antwoord krijgt;
++ Een tikkend geluid toevoegen aan uw afteltimer;
 + Playing a sound when the time is up;
     
     ```blocks
