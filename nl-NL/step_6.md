@@ -1,4 +1,4 @@
-\--- uitdaging \---
+\--- challenge \---
 
 ## Uitdaging: startscherm
 
@@ -14,6 +14,6 @@ show variable [time v]
 verberg variabele [time v]
 ```
 
-![schermafdruk](images/brain-startscreen.png)
+![screenshot](images/brain-startscreen.png)
 
-\--- / uitdaging \---
+\--- /challenge \---
