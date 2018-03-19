@@ -1,4 +1,4 @@
-\--- uitdaging \---
+\--- challenge \---
 
 ## Uitdaging: van uiterlijk veranderen
 
@@ -6,4 +6,4 @@ Kun je de kostuums van je personage veranderen, zodat ze reageren op het antwoor
 
 ![screenshot](images/brain-costume.png)
 
-\--- / uitdaging \---
+\--- /challenge \---
