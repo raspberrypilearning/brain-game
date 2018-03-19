@@ -33,11 +33,11 @@ In plaats van dat je alleen maar ` Ja! :) ` of ` nee :( ` zegt tegen de speler, 
 + In plaats van alleen het vinkje en het kruisje weer te geven en te verbergen, kunt u uw animatiefunctie wijzigen, zodat de grafische elementen vervagen.
     
     ```blocks
-    define [animate]
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    definieer [animate]
+zet [geest v]-effect op (100)
+verschijn
+herhaal (25) keer
+   verander [geest v]-effect met (-4)
+einde
+verdwijn
 ```
