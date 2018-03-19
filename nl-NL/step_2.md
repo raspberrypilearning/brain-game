@@ -6,11 +6,11 @@ Laten we beginnen met het maken van willekeurige vragen die de speler moet beant
 
 + Kies een personage en een achtergrond voor je spel. Je kunt kiezen wat je wilt! Hier is een voorbeeld:
     
-    ![schermafdruk](images/brain-setting.png)
+    ![screenshot](images/brain-setting.png)
 
 + Maak 2 nieuwe variabelen met de naam ` nummer 1 ` {: class = "blockdata"} en ` nummer 2 ` {: Class = "blockdata"}. Deze variabelen slaan de 2 nummers op die samen worden vermenigvuldigd.
     
-    ![schermafdruk](images/brain-variables.png)
+    ![screenshot](images/brain-variables.png)
 
 + Voeg code toe aan uw karakter, om beide variabelen willekeurig in te stellen op ` ` {: class = "blockoperators"} een getal tussen 2 en 12.
     
