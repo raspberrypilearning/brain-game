@@ -1,19 +1,19 @@
 \--- challenge \---
 
-## Challenge: Race to 10 points
+## Uitdaging: race naar 10 punten
 
-Can you change your game, so that instead of answering as many questions as they can in 30 seconds, the player has to see how quickly they can get 10 questions correct?
+Kun je je spel veranderen, zodat de speler in plaats van zoveel vragen te beantwoorden als ze kunnen in 30 seconden, moet zien hoe snel ze 10 vragen goed kunnen beantwoorden?
 
-To do this, you'll only need to change your timer code. Can you see what needs to be changed?
+Om dit te doen, hoeft u alleen uw timercode te wijzigen. Kun je zien wat er moet worden veranderd?
 
 ```blocks
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) secs
-        change [time v] by (-1)
-    end
-    broadcast [end v]
+    wanneer ik signaal [start v] ontvang
+maak [time v] (30)
+herhaal tot <(time) = [0]>
+   wacht (1) sec.
+   verander [time v] met (-1)
+einde
+zend signaal [einde v]
 ```
 
 \--- /challenge \---
