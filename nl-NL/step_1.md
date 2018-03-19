@@ -11,7 +11,7 @@ In dit project leer je een quiz te maken van de tafels van vermenigvuldiging, wa
 
 Als u dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
-## \---inklappen\---
+## \--- collapse \---
 
 ## titel: Clubleider notities
 
@@ -45,15 +45,15 @@ Dit project behandelt elementen uit de volgende onderdelen van het [ Raspberry P
 * "Race naar 10 punten" - Veranderen van de spellogica om een nieuwe doelstelling voor het spel te maken;
 * "Instructie scherm" - consolidatie van het gebruik van zenden om een spel menu ta maken door het toevoegen van een nieuwe 'instructies' knop en scherm.
 
-\--- / inklappen \---
+\--- /collapse \---
 
-## \--- / inklappen \---
+## \--- collapse \---
 
 ## titel: Projectmaterialen
 
-## Club leider middelen
+## Clubleider middelen
 
 * [Downloadbaar voltooid Scratch 2-project](resources/BrainGame.sb2)
 * [Online voltooid Scratch 2-project](http://scratch.mit.edu/projects/42225768/#editor)
 
-\--- / inklappen \---
+\--- /collapse \---
