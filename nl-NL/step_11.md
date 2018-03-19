@@ -9,7 +9,7 @@ Kun je een instructiescherm aan je spel toevoegen en je speler vertellen hoe het
 Je hebt misschien ook een 'Terug' knop nodig om je naar het hoofdmenu te brengen.
 
 ```blocks
-    broadcast [main menu v]
+    zend signaal [hoofdmenu v]
 ```
 
 \--- /challenge \---
