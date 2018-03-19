@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: Improved animation
+## Uitdaging: verbeterde animatie
 
-Can you improve the animation of your graphics? You could code the tick and cross so that they fade out as well as fade in. Or, you could use other cool effects:
+Kun jij de animatie van je graphics verbeteren? Je kunt het vinkje coderen en kruisen zodat ze vervagen en vervagen. Je kunt ook andere coole effecten gebruiken:
 
 ![screenshot](images/brain-effects.png)
 
