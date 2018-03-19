@@ -9,9 +9,9 @@ Kun je geluidseffecten en muziek aan je spel toevoegen? Bijvoorbeeld:
 + Playing a sound when the time is up;
     
     ```blocks
-    play drum (10 v) for (0.1) beats
+    speel slagwerk (10 v) (0.1) tellen
 ```
 
-+ You could also constantly play music on a loop (if you're not sure how to do this, step 4 of the 'Rock Band' project will help you).
++ Je kunt ook constant muziek afspelen in een lus (als je niet zeker weet hoe je dit moet doen, zal stap 4 van het 'Rock Band'-project je helpen).
 
 \--- /challenge \---
