@@ -20,17 +20,17 @@ In plaats van dat je alleen maar ` Ja! :) ` of ` nee :( ` zegt tegen de speler, 
 
 + Is het je opgevallen dat de code voor ` wanneer ik correct ontvang ` {: class = "blockevents"} en ` wanneer ik verkeerd ontvang ` {: class = "blockevents"} is bijna identiek? Laten we een functie maken om het gemakkelijker voor u te maken om uw code aan te passen.
     
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
+    Klik op de sprite 'Resultaat' op ` Meer blokken ` {: class = "blockmoreblocks"} en vervolgens 'Maak een blok'. Maak een nieuwe functie met de naam ` animatie ` {: Class = "blockmoreblocks"}.
     
     ![screenshot](images/brain-animate-function.png)
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
++ U kunt dan de animatiecode toevoegen aan uw nieuwe animatiefunctie en vervolgens de functie slechts twee keer gebruiken:
     
     ![screenshot](images/brain-use-function.png)
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
++ Als u nu het vinkje en het kruisje langer of korter wilt weergeven, hoeft u slechts één wijziging in uw code aan te brengen. Probeer het!
 
-+ Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
++ In plaats van alleen het vinkje en het kruisje weer te geven en te verbergen, kunt u uw animatiefunctie wijzigen, zodat de grafische elementen vervagen.
     
     ```blocks
     define [animate]
