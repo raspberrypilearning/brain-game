@@ -4,7 +4,7 @@ Laten we een 'speel' knop toevoegen aan je spel, zodat je heel vaak kunt spelen.
 
 + Maak een nieuwe 'speel'-knop sprite, waarop uw speler zal klikken om een ​​nieuw spel te starten. Je kunt het zelf tekenen of een sprite bewerken vanuit de Scratch-bibliotheek.
     
-    ![schermafdruk](images/brain-play.png)
+    ![screenshot](images/brain-play.png)
 
 + Voeg deze code toe aan je nieuwe knop.
     
@@ -23,19 +23,19 @@ Deze code geeft de afspeelknop weer wanneer uw project is gestart. Wanneer op de
     
     Vervang de ` wanneer op de vlag is geklikt ` {: class = "blockevents"} code met ` wanneer ik start ontvang ` {: Class = "blockevents"}.
     
-    ![schermafdruk](images/brain-start.png)
+    ![screenshot](images/brain-start.png)
 
 + Klik op de groene vlag en klik vervolgens op je nieuwe knop om het te testen. Je zou moeten zien dat de game pas start als op de knop wordt geklikt.
 
 + Is het je opgevallen dat de timer start wanneer op de groene vlag wordt geklikt en niet wanneer het spel begint?
     
-    ![schermafdruk](images/brain-timer-bug.png)
+    ![screenshot](images/brain-timer-bug.png)
     
     Kun je dit probleem oplossen?
 
 + Klik op het werkgebied en vervang de ` stop alles ` {: class = "blockcontrol"} blokkeren met een einde ` ` {: class = "blockevents"} bericht.
     
-    ![schermafdruk](images/brain-end.png)
+    ![screenshot](images/brain-end.png)
 
 + Je kunt nu code aan je knop toevoegen om hem aan het eind van elk spel opnieuw te laten zien.
     
@@ -71,4 +71,4 @@ herhaal
 einde
 ```
 
-![schermafdruk](images/brain-fisheye.png)
+![screenshot](images/brain-fisheye.png)
