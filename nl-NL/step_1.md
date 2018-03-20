@@ -1,4 +1,4 @@
-## Introductie
+## Inleiding
 
 In dit project leer je een quiz te maken van de tafels van vermenigvuldiging, waarin je binnen 30 seconden zoveel mogelijk goede antwoorden moet geven.
 
@@ -13,13 +13,13 @@ Als u dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](ht
 
 ## \--- collapse \---
 
-## titel: Clubleider notities
+## title: Opmerkingen voor docenten
 
-## Introductie:
+## Inleiding:
 
 In dit project leer je een quiz te maken van de tafels van vermenigvuldiging, waarin je binnen 30 seconden zoveel mogelijk goede antwoorden moet geven.
 
-## Middelen
+## Bronnen
 
 Voor dit project moet Scratch 2 worden gebruikt. Scratch 2 kan online worden gebruikt op [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) of kan worden gedownload van [ jumpto.cc/scratchoff ](http://jumpto.cc/scratch-off) en offline gebruikt.
 
