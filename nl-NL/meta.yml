@@ -14,25 +14,25 @@ technologies: scratch
 site_areas: codeclub, scratch
 steps:
   - 
-    title: Introductie
+    title: Inleiding
   - 
     title: Vragen maken
   - 
-    title: 'Uitdaging: van uiterlijk veranderen'
+    title: 'Challenge: Van uiterlijk veranderen'
   - 
-    title: 'Uitdaging: een score toevoegen'
+    title: 'Challenge: Een score toevoegen'
   - 
     title: Meerdere spellen
   - 
-    title: 'Uitdaging: startscherm'
+    title: 'Challenge: startscherm'
   - 
     title: Afbeeldingen toevoegen
   - 
-    title: 'Uitdaging: verbeterde animatie'
+    title: 'Challenge: Verbeterde animatie'
   - 
-    title: 'Uitdaging: geluid en muziek'
+    title: 'Challenge: Geluid en muziek'
   - 
-    title: 'Uitdaging: race naar 10 punten'
+    title: 'Challenge: Race naar 10 punten'
   - 
-    title: 'Uitdaging: Instructie scherm'
+    title: 'Challenge: Instructie scherm'
 
