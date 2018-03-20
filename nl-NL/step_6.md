@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Uitdaging: startscherm
+## Challenge: startscherm
 
 Kun je een nieuwe achtergrond toevoegen aan je podium, wat het startscherm van je spel wordt? U kunt de ` wanneer ik start ontvang ` {: class = "blockevents"} en ` wanneer ik einde ontvang ` {: class = "blockevents"} blokken gebruiken om te schakelen tussen achtergronden.
 
