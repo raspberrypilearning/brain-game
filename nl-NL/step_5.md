@@ -2,7 +2,7 @@
 
 Laten we een 'speel' knop toevoegen aan je spel, zodat je heel vaak kunt spelen.
 
-+ Maak een nieuwe 'speel'-knop sprite, waarop uw speler zal klikken om een ​​nieuw spel te starten. Je kunt het zelf tekenen of een sprite bewerken vanuit de Scratch-bibliotheek.
++ Maak een nieuwe 'speel'-knop sprite, waarop je speler zal klikken om een ​​nieuw spel te starten. Je kunt het zelf tekenen of een sprite bewerken vanuit de Scratch-bibliotheek.
     
     ![screenshot](images/brain-play.png)
 
@@ -17,7 +17,7 @@ verdwijn
 zend signaal [start v]
 ```
 
-Deze code geeft de afspeelknop weer wanneer uw project is gestart. Wanneer op de knop wordt geklikt, wordt deze verborgen en wordt vervolgens een bericht uitgezonden dat het spel start.
+Deze code geeft de afspeelknop weer wanneer je project is gestart. Wanneer op de knop wordt geklikt, wordt deze verborgen en wordt vervolgens een bericht uitgezonden dat het spel start.
 
 + Je moet de code van je personage bewerken, zodat het spel start wanneer het ` start ` {: class = "blockevents"} bericht wordt ontvangen, en niet wanneer op de vlag wordt geklikt.
     
@@ -57,7 +57,7 @@ stop [andere scripts in sprite v]
     maak [time v] [10]
 ```
 
-+ U kunt zelfs wijzigen hoe de knop eruitziet wanneer de muis eroverheen beweegt.
++ Je kunt zelfs wijzigen hoe de knop eruitziet wanneer de muis eroverheen beweegt.
     
     ```blocks
     wanneer ⚑ wordt aangeklikt
