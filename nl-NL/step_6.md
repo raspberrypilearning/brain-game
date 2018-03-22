@@ -7,7 +7,7 @@ Kun je een nieuwe achtergrond toevoegen aan je podium, wat het startscherm van j
 Je kunt ook je personage tonen en verbergen en zelfs je timer tonen en verbergen door deze blokken te gebruiken:
 
 ```blocks
-toon variabele [tijd v]
+toon variabele [time v]
 ```
 
 ```blocks
