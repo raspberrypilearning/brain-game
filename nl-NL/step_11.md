@@ -2,7 +2,7 @@
 
 ## Challenge: Instructie scherm
 
-Kun je een instructiescherm aan je spel toevoegen en je speler vertellen hoe het spel moet worden gespeeld? U hebt een knop 'Instructies' en een achtergrond van het speelveld.
+Kun je een instructiescherm aan je spel toevoegen en je speler vertellen hoe het spel moet worden gespeeld? Je hebt een knop 'Instructies' en een achtergrond van het speelveld.
 
 ![screenshot](images/brain-instructions.png)
 
