@@ -20,7 +20,7 @@ Fe wnawn ni ychwanegu botwm 'chwarae' i dy gêm fel dy fod di'n gallu chwarae sa
 
 	Mae'r côd yma yn dangos botwm chwarae pan mae'r prosiect ar gychwyn. Pan fydd y botwm yn cael ei glicio, fe fydd yn cuddio a darlledu neges fydd yn cychwyn y gêm.
 
-+ Bydd angen i ti olygu côd dy gymeriad fel bod y gêm yn cychwyn pan mae'n derbyn neges 'dechrau' {.blockevents}, a nid pan mae'r faner yn cael ei glicio.
++ Bydd angen i ti olygu côd dy gymeriad fel bod y gêm yn cychwyn pan mae'n derbyn neges `dechrau`{:class="blockevents"}, a nid pan mae'r faner yn cael ei glicio.
 
 	Ailosod côd `pan fo baner wedi ei glicio`{:class="blockevents"} gyda `pan dderbyniad dechrau`{:class="blockevents"}
 
