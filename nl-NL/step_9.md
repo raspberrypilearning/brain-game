@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Challenge: geluid en muziek
+## Challenge: Geluid en muziek
 
 Kun je geluidseffecten en muziek aan je spel toevoegen? Bijvoorbeeld:
 
-+ Een geluid afspelen als de speler een goed of fout antwoord krijgt;
-+ Een tikkend geluid toevoegen aan uw afteltimer;
-+ Playing a sound when the time is up;
++ Een geluid afspelen als de speler een goed of fout antwoord geeft;
++ Een tikkend geluid toevoegen aan je afteltimer;
++ Een geluid afspelen als de tijd om is;
     
     ```blocks
     speel slagwerk (10 v) (0.1) tellen
