@@ -22,7 +22,7 @@ Fe wnawn ni ychwanegu botwm 'chwarae' i dy gêm fel dy fod di'n gallu chwarae sa
 
 + Bydd angen i ti olygu côd dy gymeriad fel bod y gêm yn cychwyn pan mae'n derbyn neges 'dechrau' {.blockevents}, a nid pan mae'r faner yn cael ei glicio.
 
-	Ailosod côd 'pan fo baner wedi ei glicio' {.blockevents} gyda 'pan dderbyniad dechrau' {.blockevents}
+	Ailosod côd `pan fo baner wedi ei glicio`{:class="blockevents"} gyda `pan dderbyniad dechrau`{:class="blockevents"}
 
 	![screenshot](images/brain-start.png)
 
@@ -34,7 +34,7 @@ Fe wnawn ni ychwanegu botwm 'chwarae' i dy gêm fel dy fod di'n gallu chwarae sa
 
 	Alli di ddatrys hyn?
 
-+ Clicia ar y llwyfan, ac ailosod bloc 'stopiwch y cyfan' {.blockcontrol} gyda neges 'diwedd' {.blockevents}.
++ Clicia ar y llwyfan, ac ailosod bloc `stopiwch y cyfan`{:class="blockcontrol"} gyda neges `diwedd`{:class="blockevents"}.
 
 	![screenshot](images/brain-end.png)
 
