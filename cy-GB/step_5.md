@@ -41,14 +41,14 @@ Fe wnawn ni ychwanegu botwm 'chwarae' i dy gêm fel dy fod di'n gallu chwarae sa
 + Fe alli di nawr ychwanegu côd i dy fotwm i'w ddangos eto ar ddiwedd pob gêm.
 
 	```blocks
-		pan fyddaf yn derbyn [end v]
+		pan dderbyniaf [end v]
 			dangos
 	```
 
 + Bydd hefyd angen i ti stopio dy gymeriad i ofyn cwestiynau ar ddiwedd pob gêm:
 
 	```blocks
-		pan fyddaf yn derbyn [end v]
+		pan dderbyniaf [end v]
 		stopiwch [sgriptiau eraill yn y ciplun v]
 	```
 
