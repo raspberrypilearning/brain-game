@@ -8,11 +8,11 @@ Fe wnawn ni ddechrau trwy greu cwestiynau i'r chwareuwr ateb.
 
 	![screenshot](images/brain-setting.png)
 
-+ Bydd angen creu 2 newidyn o'r enw 'rhif 1' {.blockdata} a 'rhif 2' {.blockdata}.  Bydd rhain yn storio'r 2 rhif fydd yn cael eu lluosi. 
++ Bydd angen creu 2 newidyn o'r enw `rhif 1`{:class="blockdata"} a `rhif 2`{:class="blockdata"}.  Bydd rhain yn storio'r 2 rhif fydd yn cael eu lluosi. 
 
 	![screenshot](images/brain-variables.png)
 
-+ Ychwanegu côd i dy gymeriad i osod y ddau newidyn i rif 'ar hap' {.blockoperators} rhwng 2 a 12.
++ Ychwanegu côd i dy gymeriad i osod y ddau newidyn i rif `ar hap`{:class="blockoperators"} rhwng 2 a 12.
 
 	```blocks
 		pan fo ⚑ wedi ei glicio
@@ -36,8 +36,8 @@ Fe wnawn ni ddechrau trwy greu cwestiynau i'r chwareuwr ateb.
 
 + Profa dy brosiect yn llaw, gan ateb un cwestiwn yn gywir a'r llall yn anghywir.
 
-+ Ychwanega ddolen 'am byth' {.blockcontrol} o amgylch y côd, fel bod y chwareuwr yn cael llawer o gwestiynau.
++ Ychwanega ddolen `am byth`{:class="blockcontrol"} o amgylch y côd, fel bod y chwareuwr yn cael llawer o gwestiynau.
 
-+ Bydd angen creu amserydd ar y llwyfan, trwy ddefnyddio newidyn o'r enw 'amser' {.blockdata}.  Mae gan y prosiect 'Ghostbusters' gyfarwyddiadau i greu amserydd (cam 5) os oes angen cymorth!
++ Bydd angen creu amserydd ar y llwyfan, trwy ddefnyddio newidyn o'r enw `amser`{:class="blockdata"}.  Mae gan y prosiect 'Ghostbusters' gyfarwyddiadau i greu amserydd (cam 5) os oes angen cymorth!
 
 + Profa dy brosiect eto - fe ddyle ti allu gofyn cwestiynau tan bod yr amser yn dod i ben.
