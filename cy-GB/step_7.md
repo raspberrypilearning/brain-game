@@ -6,7 +6,7 @@ Yn lle bod dy gymeriad ond yn dweud 'ie! :)' neu 'na :(' i'r chwareuwr, beth am 
 
 	![screenshot](images/brain-result.png)
 
-+ Newida côd dy gymeriad, fel ei fod yn darlledu negeseuon 'cywir' {.blockevents} ac 'anghywir' {.blockevents}.
++ Newida côd dy gymeriad, fel ei fod yn darlledu negeseuon `cywir`{:class="blockevents"} ac `anghywir`{:class="blockevents"}.
 
 	![screenshot](images/brain-broadcast-answer.png)
 
@@ -18,9 +18,9 @@ Yn lle bod dy gymeriad ond yn dweud 'ie! :)' neu 'na :(' i'r chwareuwr, beth am 
 
 	![screenshot](images/brain-test-answer.png)
 
-+ Wyt ti wedi sylwi fod y côd 'pan dderbyniaf cywir' {.blockevents} a 'pan dderbyniad anghywir' {.blockevents} bron yn union yr un peth? Fe wnawn ni greu gweithred i wneud hi'n hawd i ti wneud newidiadau i dy gôd.
++ Wyt ti wedi sylwi fod y côd `pan dderbyniaf cywir`{:class="blockevents"} a `pan dderbyniad anghywir`{:class="blockevents"} bron yn union yr un peth? Fe wnawn ni greu gweithred i wneud hi'n hawd i ti wneud newidiadau i dy gôd.
 
-	Ar y ciplun 'Canlyniad', clicia 'Mwy o flociau' {.blockmoreblocks}, ac yna 'Creu Bloc'.  Bydd angen creu gweithred newydd o'r enw 'animeiddio' {.blockmoreblocks}.
+	Ar y ciplun 'Canlyniad', clicia `Mwy o flociau`{:class="blockmoreblocks"}, ac yna 'Creu Bloc'.  Bydd angen creu gweithred newydd o'r enw `animeiddio`{:class="blockmoreblocks"}.
 
 	![screenshot](images/brain-animate-function.png)
 
