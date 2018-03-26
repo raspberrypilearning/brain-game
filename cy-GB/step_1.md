@@ -24,7 +24,7 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 ## Heriau
 + "Newid gwisgoedd" - newid sut mae'r cymeriad yn edrych mewn ymateb i ateb cywir ac anghywir; 
 + "Ychwanegu sgôr" - ychwanegu pwynt ar gyfer pob ateb cywir; 
-+ "Sgrin dechrau" - newid cefndir y llwyfan mewn ymateb i negeseuon darlledu 'dechrau' {.blockevents} a 'diwedd' {.blockevents}, gan greu dau sgrin; 
++ "Sgrin dechrau" - newid cefndir y llwyfan mewn ymateb i negeseuon darlledu `dechrau`{:class="blockevents"} a `diwedd`{:class="blockevents"}, gan greu dau sgrin; 
 + "Perffeithio'r animeiddio" - defnyddio dolennu ac effeithiau i berffeithio graffeg animeiddio; 
 + "Sain a cherdd" - atgyfnerthu dysgu dolennu cerddoriaeth ac effeithiau sain;
 + "Ras i 10 pwynt" - newid rhesymeg y gêm i roi amcan newydd i'r gêm; 
