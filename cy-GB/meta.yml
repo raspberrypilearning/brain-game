@@ -5,14 +5,18 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Gêm i'r Ymennydd
 description: Dysga sut i greu cwis.
 original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
-interests: ''
+interests: games
 technologies: scratch
-site_areas: codeclub, scratch
-steps:
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
+steps: 
 - title: Cyflwyniad
 - title: Creu cwestiynau
 - title: 'Her: Newid gwisgoedd'
@@ -24,4 +28,3 @@ steps:
 - title: 'Her: Cerdd a Sain'
 - title: 'Her: Ras i 10 o bwyntiau'
 - title: 'Her: Sgrin cyfarwyddiadau'
-
