@@ -1,0 +1,27 @@
+---
+hero_image: images/brain-game.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: ब्रेन गेम
+description: क्विज़ बनाना सीखें।
+original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: परिचय
+- title: प्रश्न बनाना
+- title: 'चुनौती: पोशाक बदलना'
+- title: 'चुनौती: स्कोर जोड़ना'
+- title: मल्टीप्ल गेम्ज़
+- title: 'चुनौती: प्रारंभ स्क्रीन'
+- title: ग्राफिक्स जोड़ना
+- title: 'चुनौती: सुधरा हुआ एनिमेशन'
+- title: 'चुनौती: ध्वनि और संगीत'
+- title: 'चुनौती: 10 अंकों की दौड़'
+- title: 'चुनौती: निर्देश स्क्रीन'
+
