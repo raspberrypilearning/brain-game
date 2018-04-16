@@ -10,7 +10,7 @@
 
 	![screenshot](images/brain-setting.png)
 
-+ 创建 2 个被称作 `数字 1`{:class="blockdata"} 和 `数字` 2）{:class="blockdata"} 的新变量。这些变量将储存要进行相乘的 2 个数字。
++ 创建 2 个被称作 `数字 1`{:class="blockdata"} 和 `数字 2`{:class="blockdata"} 的新变量。这些变量将储存要进行相乘的 2 个数字。
 
 	![screenshot](images/brain-variables.png)
 
