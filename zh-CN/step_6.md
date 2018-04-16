@@ -5,10 +5,10 @@
 你还可以运用这些模块显示和隐藏你的角色，甚至显示和隐藏你的计时器：
 
 ```blocks
-显示变量 [time v]
+变量 [时 v] 显示
 ```
 ```blocks
-隐藏变量 [time v]
+变量 [时 v] 隐藏
 ```
 
 ![screenshot](images/brain-startscreen.png)
