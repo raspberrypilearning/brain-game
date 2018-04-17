@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Challenge: race naar 10 punten
+## Uitdaging: race naar 10 punten
 
 Kun je je spel veranderen, zodat de speler in plaats van zoveel vragen te beantwoorden als ze kunnen in 30 seconden, moet zien hoe snel ze 10 vragen goed kunnen beantwoorden?
 
