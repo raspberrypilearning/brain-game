@@ -33,7 +33,7 @@ Deze code geeft de afspeelknop weer wanneer je project is gestart. Wanneer op de
     
     Kun je dit probleem oplossen?
 
-+ Klik op het werkgebied en vervang de ` stop alles ` {: class = "blockcontrol"} blokkeren met een einde ` ` {: class = "blockevents"} bericht.
++ Klik op het werkgebied en vervang de ` stop alles ` {: class = "blockcontrol"} blokkeren met een `einde` {: class = "blockevents"} bericht.
     
     ![screenshot](images/brain-end.png)
 
