@@ -28,11 +28,10 @@ maak [number 1 v] (willekeurig getal tussen (2) en (12))
 maak [number 2 v] (willekeurig getal tussen (2) en (12))
 vraag (voeg (number 1) en (voeg [ x ] en (number 2) samen) samen) en wacht
 als <(answer) = ((number 1) * (number 2))> dan 
-  zeg [yes! :)] (2) sec.
+  zeg [yes! ] (2) sec.
 anders
-   zeg [nope :(] (2) sec.
-einde
-
+  zeg [nope :(] (2) sec.
+end
 ```
 
 + Test je project volledig, door één vraag goed te beantwoorden en één vraag met het verkeerde antwoord.
