@@ -16,7 +16,7 @@ Kun je geluidseffecten en muziek aan je spel toevoegen? Bijvoorbeeld:
 
 --- /challenge ---
 
-***
+\*\*\*
 
 ### Door de community geleverde vertaling
 
