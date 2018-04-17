@@ -61,14 +61,14 @@ Deze code geeft de afspeelknop weer wanneer je project is gestart. Wanneer op de
     
 ```blocks
   wanneer groene vlag wordt aangeklikt
-  verschijn
-  herhaal
-   als <raak ik [muisaanwijzer v]?> dan
-      zet [vissenoog v]-effect op (30)
-   anders
-      zet [vissenoog v]-effect op (0)
-   einde
-  einde
+verschijn
+herhaal 
+  als <0> dan 
+    zet effect [vissenoog v] op (30)
+  
+    zet effect [vissenoog v] op (0)
+  end
+end
 ```
 
 ![screenshot](images/brain-fisheye.png)
