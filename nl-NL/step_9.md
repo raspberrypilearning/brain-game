@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Challenge: Geluid en muziek
+## Uitdaging: Geluid en muziek
 
 Kun je geluidseffecten en muziek aan je spel toevoegen? Bijvoorbeeld:
 
