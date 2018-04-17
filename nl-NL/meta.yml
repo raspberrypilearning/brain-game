@@ -1,0 +1,30 @@
+---
+hero_image: images/brain-game.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Brain Game
+description: Leer hoe je een quiz maakt.
+original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
+interests: games
+technologies: scratch
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Inleiding
+  - title: Vragen maken
+  - title: 'Challenge: Van uiterlijk veranderen'
+  - title: 'Challenge: Een score toevoegen'
+  - title: Meerdere spellen
+  - title: 'Challenge: startscherm'
+  - title: Afbeeldingen toevoegen
+  - title: 'Challenge: Verbeterde animatie'
+  - title: 'Challenge: Geluid en muziek'
+  - title: 'Challenge: Race naar 10 punten'
+  - title: 'Challenge: Instructie scherm'
