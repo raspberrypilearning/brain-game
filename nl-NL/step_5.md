@@ -8,13 +8,13 @@ Laten we een 'speel' knop toevoegen aan je spel, zodat je heel vaak kunt spelen.
 
 + Voeg deze code toe aan je nieuwe knop.
     
-    ```blocks
-    wanneer groene vlag wordt aangeklikt
-verschijn
+```blocks
+  wanneer groene vlag wordt aangeklikt
+  verschijn
 
-wanneer op deze sprite wordt geklikt
-verdwijn
-zend signaal [start v]
+  wanneer op deze sprite wordt geklikt
+  verdwijn
+  zend signaal [start v]
 ```
 
 Deze code geeft de afspeelknop weer wanneer je project is gestart. Wanneer op de knop wordt geklikt, wordt deze verborgen en wordt vervolgens een bericht uitgezonden dat het spel start.
@@ -39,36 +39,36 @@ Deze code geeft de afspeelknop weer wanneer je project is gestart. Wanneer op de
 
 + Je kunt nu code aan je knop toevoegen om hem aan het eind van elk spel opnieuw te laten zien.
     
-    ```blocks
-    wanneer ik signaal [einde v] ontvang
-verschijn
+```blocks
+  wanneer ik signaal [einde v] ontvang
+  verschijn
 ```
 
 + Je moet ook voorkomen dat je karakter aan het einde van elk spel nog vragen stelt:
     
-    ```blocks
-    wanneer ik signaal [einde v] ontvang
-stop [andere scripts in sprite v]
+```blocks
+  wanneer ik signaal [einde v] ontvang
+  stop [andere scripts in sprite v]
 ```
 
 + Test je afspeelknop door een paar spelletjes te spelen. Je zou moeten opmerken dat de speel-knop na elk spel weer wordt weergegeven. Om het testen gemakkelijker te maken, kun je elke game inkorten, zodat deze maar een paar seconden duurt.
     
-    ```blocks
-    maak [time v] [10]
+```blocks
+  maak [time v] [10]
 ```
 
 + Je kunt zelfs wijzigen hoe de knop eruitziet wanneer de muis eroverheen beweegt.
     
-    ```blocks
-    wanneer groene vlag wordt aangeklikt
-verschijn
-herhaal
+```blocks
+  wanneer groene vlag wordt aangeklikt
+  verschijn
+  herhaal
    als <raak ik [muisaanwijzer v]?> dan
       zet [vissenoog v]-effect op (30)
    anders
       zet [vissenoog v]-effect op (0)
    einde
-einde
+  einde
 ```
 
 ![screenshot](images/brain-fisheye.png)
