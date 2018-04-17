@@ -23,12 +23,12 @@ maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
 + Je kunt de speler vervolgens om het antwoord vragen en hem laten weten of ze gelijk hebben of niet.
     
     ```blocks
-    wanneer ⚑ wordt aangeklikt
+    wanneer groene vlag wordt aangeklikt
 maak [number 1 v] (willekeurig getal tussen (2) en (12))
 maak [number 2 v] (willekeurig getal tussen (2) en (12))
-vraag (voeg (number 1) en (voeg [x] en (number 2) samen) samen) en wacht
-als <(antwoord) = ((number 1) * (number 2))> dan
-   zeg [yes!] :)] (2) sec.
+vraag (voeg (number 1) en (voeg [ x ] en (number 2) samen) samen) en wacht
+als <(answer) = ((number 1) * (number 2))> dan 
+  zeg [yes! :)] (2) sec.
 anders
    zeg [nope :(] (2) sec.
 einde
