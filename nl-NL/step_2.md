@@ -28,9 +28,9 @@ Laten we beginnen met het maken van willekeurige vragen die de speler moet beant
     maak [number 2 v] (willekeurig getal tussen (2) en (12))
     vraag (voeg (number 1) en (voeg [ x ] en (number 2) samen) samen) en wacht
     als <(answer) = ((number 1) * (number 2))> dan 
-      zeg [yes!:)] (2) sec.
+      zeg [Goed!:)] (2) sec.
     anders
-      zeg [nope :(] (2) sec.
+      zeg [Jammer :(] (2) sec.
     end
 ```
 
