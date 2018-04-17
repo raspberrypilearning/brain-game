@@ -11,10 +11,10 @@ In dit project leer je een quiz te maken van de tafels van vermenigvuldiging, wa
 
 Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
-## --- collapse ---
-
-## title: Opmerkingen voor docenten
-
+--- collapse ---
+---
+title: Opmerkingen voor docenten
+---
 ## Inleiding:
 
 In dit project leer je een quiz te maken van de tafels van vermenigvuldiging, waarin je binnen 30 seconden zoveel mogelijk goede antwoorden moet geven.
@@ -47,10 +47,10 @@ Dit project behandelt elementen uit de volgende onderdelen van het [ Raspberry P
 
 --- /collapse ---
 
-## --- collapse ---
-
-## title: Projectmaterialen
-
+--- collapse ---
+---
+title: Projectmaterialen
+---
 ## Clubleider middelen
 
 * [Downloadbaar voltooid Scratch 2-project](resources/BrainGame.sb2)
