@@ -39,7 +39,7 @@ Dit project behandelt elementen uit de volgende onderdelen van het [ Raspberry P
 
 * "Veranderen van uiterlijk" - veranderen hoe het spelpersonage er uitziet als antwoord op correcte en foute antwoorden;
 * "Een score toevoegen" - een punt toevoegen voor elke goed beantwoordde vraag;
-* "Startscherm" - het veranderen van de achtergrond als reactie op de `start` {:class ="blockevents"} en `einde` {:class ="blockevents"} broadcast-berichten, waarbij 2 gamevensters worden gemaakt;
+* "Startscherm" - het veranderen van de achtergrond als reactie op de `start`{:class="blockevents"} en `einde`{:class="blockevents"} broadcast-berichten, waarbij 2 gamevensters worden gemaakt;
 * "Verbeterde animatie" - gebruik van lussen en effecten voor het verbeteren van juist/fout animatie;
 * "Geluid en muziek" - consolideren van het leren maken van muziek-lussen en geluidseffecten;
 * "Race naar 10 punten" - Veranderen van de spellogica om een nieuwe doelstelling voor het spel te maken;
