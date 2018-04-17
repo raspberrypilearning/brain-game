@@ -19,12 +19,12 @@ last_tested: 2017-01-01
 steps:
   - title: Inleiding
   - title: Vragen maken
-  - title: 'Challenge: Van uiterlijk veranderen'
-  - title: 'Challenge: Een score toevoegen'
+  - title: 'Uitdaging: Van uiterlijk veranderen'
+  - title: 'Uitdaging: Een score toevoegen'
   - title: Meerdere spellen
-  - title: 'Challenge: startscherm'
+  - title: 'Uitdaging: startscherm'
   - title: Afbeeldingen toevoegen
-  - title: 'Challenge: Verbeterde animatie'
-  - title: 'Challenge: Geluid en muziek'
-  - title: 'Challenge: Race naar 10 punten'
-  - title: 'Challenge: Instructie scherm'
+  - title: 'Uitdaging: Verbeterde animatie'
+  - title: 'Uitdaging: Geluid en muziek'
+  - title: 'Uitdaging: Race naar 10 punten'
+  - title: 'Uitdaging: Instructie scherm'
