@@ -3,7 +3,7 @@
 In dit project leer je een quiz te maken van de tafels van vermenigvuldiging, waarin je binnen 30 seconden zoveel mogelijk goede antwoorden moet geven.
 
 <div class="scratch-preview">
-        <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/217003760/?autostart=false" frameborder="0" allowfullscreen></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/217003760/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
