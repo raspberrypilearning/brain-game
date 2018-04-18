@@ -30,7 +30,7 @@ vraag (voeg (number 1) en (voeg [ x ] en (number 2) samen) samen) en wacht
 als <(answer) = ((number 1) * (number 2))> dan 
   zeg [yes! ] (2) sec.
 anders
-  zeg [nope :(] (2) sec.
+  zeg [jammer :(] (2) sec.
 end
 ```
 
