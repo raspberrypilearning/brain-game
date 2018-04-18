@@ -3,7 +3,7 @@
 In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0" allowfullscreen></iframe>
   <img src="images/brain-final.png">
 </div>
 
