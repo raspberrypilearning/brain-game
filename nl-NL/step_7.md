@@ -1,6 +1,6 @@
 ## Afbeeldingen toevoegen
 
-In plaats van dat je alleen maar ` Ja! :) ` of ` nee :( ` zegt tegen de speler, gaan we wat afbeeldingen toevoegen die de speler te laten weten hoe ze het doen.
+In plaats van dat je alleen maar ` Goed! :) ` of ` Jammer :( ` zegt tegen de speler, gaan we wat afbeeldingen toevoegen die de speler te laten weten hoe ze het doen.
 
 + Maak een nieuwe sprite met de naam 'Result', die zowel een 'vinkje'- als een 'kruis'-uiterlijk bevat.
     
