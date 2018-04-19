@@ -23,7 +23,7 @@ In dit project leer je een quiz te maken van de tafels van vermenigvuldiging, wa
 
 Voor dit project moet Scratch 2 worden gebruikt. Scratch 2 kan online worden gebruikt op [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) of kan worden gedownload van [ jumpto.cc/scratchoff ](http://jumpto.cc/scratch-off) en offline gebruikt.
 
-Je kunt een voltooide versie van dit project [ online vinden ](http://scratch.mit.edu/projects/42225768/#editor), of het kan worden gedownload door te klikken op de link 'Projectmaterialen' voor dit project, dat het volgende bevat:
+Je kunt een voltooide versie van dit project [online vinden](https://scratch.mit.edu/projects/217003760/), of het kan worden gedownload door te klikken op de link 'Projectmaterialen' voor dit project, dat het volgende bevat:
 
 * BrainGame.sb2
 
@@ -54,6 +54,6 @@ title: Projectmaterialen
 ## Clubleider middelen
 
 * [Downloadbaar voltooid Scratch 2-project](resources/BrainGame.sb2)
-* [Online voltooid Scratch 2-project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Online voltooid Scratch 2-project](https://scratch.mit.edu/projects/217003760/)
 
 --- /collapse ---
