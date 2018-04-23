@@ -33,11 +33,11 @@ En lugar de que tu personaje diga ` sí :) ` o ` nope :( ` al jugador, vamos a a
 + En lugar de simplemente mostrar y esconder la marca y la cruz, puedes cambiar tu función de animación, para que los gráficos aparezcan gradualmente.
     
     ```blocks
-    define [animate]
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    definir [animate]
+    establecer el efecto [ghost v] a (100)
+    mostrar
+    repetir (25)
+        cambiar el efecto [ghost v] por (-4)
+    finalizar
+    esconder
 ```
