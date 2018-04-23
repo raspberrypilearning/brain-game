@@ -49,7 +49,7 @@ Este proyecto incluye elementos desde los siguientes aspectos del [curríulo de 
 
 --- collapse ---
 ---
-title: materiales del proyecto
+title: Materiales del proyecto
 ---
 ## Recursos del líder del club
 
