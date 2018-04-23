@@ -19,7 +19,7 @@ enviar [start v]
 
 Este código muestra el botón de 'empieza' cuando se inicia tu proyecto. Cuando se hace clic en el botón se esconde y luego envia un mensaje que iniciará el juego.
 
-+ Tendrás que editar el código de tu personaje para que el juego comience cuando reciban el mensaje de ` empieza`{: class = "blockevents"}, y no cuando se hace clic en la bandera.
++ Tendrás que editar el código de tu personaje para que el juego comience cuando reciban el mensaje de ` empieza`{:class="blockevents"}, y no cuando se hace clic en la bandera.
     
     Reemplaza el código `al presionar`{:class="blockevents"} con `al recibir empieza`{:class="blockevents"}.
     
@@ -40,14 +40,14 @@ Este código muestra el botón de 'empieza' cuando se inicia tu proyecto. Cuando
 + Ahora puedes añadir código a tu botón para que aparezca de nuevo al final de cada juego.
     
 ```blocks
-    al recibir [end v]
+    al recibir [fin v]
     mostrar
 ```
 
 + También necesitarás que tu personaje deje de hacer preguntas al final de cada juego:
     
 ```blocks
-    al recibir [end v]
+    al recibir [fin v]
     detener [otros programas en el objeto v]
 ```
 
