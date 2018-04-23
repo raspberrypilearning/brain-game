@@ -9,12 +9,12 @@ Vamos a añadir un botón de 'empieza' a tu juego para que puedas jugar muchas v
 + Añade este código a tu nuevo botón.
     
 ```blocks
-    cuando se marcó con un clic
-    mostrar
+al presionar bandera verde
+mostrar
 
-    cuando este sprite se hace clic
-    esconder
-    enviar [start v]
+al hacer clic en este objeto
+esconder
+enviar [start v]
 ```
 
 Este código muestra el botón de 'empieza' cuando se inicia tu proyecto. Cuando se hace clic en el botón se esconde y luego envia un mensaje que iniciará el juego.
@@ -48,27 +48,27 @@ Este código muestra el botón de 'empieza' cuando se inicia tu proyecto. Cuando
     
 ```blocks
     al recibir [end v]
-    parar [other scripts in sprite v]
+    detener [otros programas en el objeto v]
 ```
 
 + Prueba tu botón de empezar el juego jugando algunas veces. Verás que el botón empieza se muestra después de cada partida. Para hacer más fáciles las pruebas puedes acortar cada juego de modo que solo dure unos segundos.
     
 ```blocks
-    establecer [time v] a [10]
+   fijar [hora v] a [10]
 ```
 
 + Incluso puedes cambiar la apariencia del botón cuando el ratón está sobre él.
     
 ```blocks
-    al presionar
-    mostrar
-    para siempre
-    si <touching [mouse-pointer v]?> entonces
-        establecer efecto [fisheye v] a (30)
-    o
-        establecer efecto [fisheye v] a (0)
-    Fin
-    Fin
+al presionar bandera verde
+mostrar
+por siempre 
+  si <¿tocando [puntero del ratón v] ?> entonces 
+    establecer efecto [ojo de pez v] a (30)
+  
+    establecer efecto [ojo de pez v] a (0)
+  end
+end
 ```
 
 ![screenshot](images/brain-fisheye.png)
