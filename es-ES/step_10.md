@@ -7,13 +7,13 @@
 Para hacer esto sólo necesitarás cambiar el código del contador de tiempo. ¿Ves lo que hay que cambiar?
 
 ```blocks
-    al recibir [comienzo v]
-    fijar[time v] a (30)
-    repetir hasta <(tiempo) = [0]>
-        espera (1) seg
-        cambiar[time v] por (-1)
-    fin
-    enviar[end v]
+al recibir [start v]
+fijar [hora v] a (30)
+repetir hasta que <(time) = [0]> 
+  esperar (1) segundos
+  cambiar [hora v] por (-1)
+end
+enviar [end v]
 ```
 
 --- /challenge ---
