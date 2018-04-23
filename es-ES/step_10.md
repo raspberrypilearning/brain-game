@@ -9,11 +9,11 @@ Para hacer esto sólo necesitarás cambiar el código del contador de tiempo. ¿
 ```blocks
 al recibir [start v]
 fijar [hora v] a (30)
-repetir hasta que <(time) = [0]> 
+repetir hasta que <(tiempo) = [0]> 
   esperar (1) segundos
   cambiar [hora v] por (-1)
 end
-enviar [end v]
+enviar [fin v]
 ```
 
 --- /challenge ---
