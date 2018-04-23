@@ -1,48 +1,43 @@
-## Crear las preguntas
+## Creación de preguntas
 
-Empezaremos por crear preguntas aleatorias que el jugador tendrá que contestar.
+Vamos a empezar creando preguntas aleatorias para que el jugador responda.
 
++ Crea un nuevo proyecto Scratch y elimina el sprite gato para que tu proyecto esté vacío. Puedes encontrar el editor de Scratch en línea en <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
 
++ Elige un personaje y un fondo para tu juego. ¡Puedes elegir lo que quieras! Aquí hay un ejemplo:
+    
+    ![screenshot](images/brain-setting.png)
 
-+ Empieza un nuevo proyecto de Scratch y borra el objeto gato para que el proyecto esté vacío. Puedes encontrar el editor en línea de Scratch en <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
++ Crea 2 nuevas variables llamadas `número 1`{:class="blockdata"} y `número 2`{class="blockdata"}. Estas variables almacenan los 2 números que se multiplican juntos.
+    
+    ![screenshot](images/brain-variables.png)
 
-+ Escoge un personaje y un fondo para tu juego. ¡Puedes escoger el que más te guste! Aquí tienes un ejemplo:
++ Añade código a tu personaje para establecer ambas variables en un número `aleatorio`{class:"blockoperators"} entre 2 y 12.
+    
+```blocks
+    al presionar bandera
+    fijar [número 1 v] a (número al azar entre (2) y (12))
+    fijar [número 2 v] a (número al azar entre (2) y (12))
+```
 
-	![screenshot](images/brain-setting.png)
++ Entonces puedes pedir al jugador la respuesta e informarle si tenía razón o no.
+    
+```blocks
+    al presionar bandera
+    fijar [número 1 v] a (número al azar entre (2) y (12))
+    fijar [number 2 v] a (número al azar entre(2) y (12))
+    preguntar (une (número 1)(une [ x ] (número 2))) y esperar
+    si <(respuesta) = ((úmero 1)*(número 2))> entonces
+        decir [¡sí! :)] por (2) segundos
+    o
+        decir [no :(] por (2) segundos
+    fin
+```
 
-+ Crea 2 nuevas variables llamadas `número 1`{:class="blockdata"} y `número 2`{:class="blockdata"}. Estas variables almacenarán los 2 números que se van a multiplicar.
++ Prueba el proyecto completo respondiendo una pregunta correctamente y una respuesta incorrecta.
 
-	![screenshot](images/brain-variables.png)
++ Añade un bucle `para siempre`{:class="blockcontrol"} alrededor de este código, para que al jugador se le hagan un montón de preguntas.
 
-+ Añade código a tu personaje, para fijar estas dos variables a un número `aleatorio`{:class="blockoperators"} entre 2 y 12.
++ Crea un temporizador de cuenta atrás en el escenario usando una variable llamada `tiempo`{:class=blockdata"}. ¡El proyecto de los 'Cazafantasmas' tiene las instrucciones para hacer un contador de tiempo (en el paso 5) si necesitas ayuda!
 
-	```blocks
-		al presionar bandera verde
-		fijar [número 1 v] a (número al azar entre (2) y (12))
-		fijar [número 2 v] a (número al azar entre (2) y (12))
-	```
-
-+ A continuación puedes pedir al jugador que dé una respuesta, y decirle si es correcta o incorrecta.
-
-	```blocks
-		al presionar bandera verde
-		fijar [número 1 v] a (número al azar entre (2) y (12))
-		fijar [número 2 v] a (número al azar entre (2) y (12))
-		preguntar (unir (número 1) (unir [x] (número 2))) y esperar
-		si <(respuesta) = ((número 1) * (número 2))> entonces
-   			decir [¡Sí! :)] por (2) segundos
-		si no
-   			decir [no :(] por (2) segundos
-		fin
-	```
-
-+ Prueba tu proyecto del todo, dando una respuesta correcta y una incorrecta.
-
-+ Añade un bucle `por siempre`{:class="blockcontrol"} alrededor de este código, para que se hagan un montón de preguntas al jugador.
-
-+ Crea un cronómetro de cuenta atrás en el escenario, usando una variable que se llame `tiempo`{:class="blockdata"}. Si necesitas ayuda, ¡el proyecto 'Globos' tiene las instrucciones para hacer un cronómetro (en el paso 6)!.
-
-+ Vuelve a probar tu proyecto. Deberías de poder continuar haciendo preguntas hasta que se agote el tiempo.
-
-
-
++ Prueba otra vez tu proyecto - debe ser capaz de seguir haciendo preguntas hasta que se acabe el tiempo.

@@ -1,18 +1,17 @@
 --- challenge ---
-## Desafío: Sonido y música
-¿Puedes añadir efectos de sonido y música a tu juego? Por ejemplo:
 
-+ Reproducir un sonido cuando el jugador da una respuesta correcta o errónea;
-+ Añadir un sonido de tic-tac al cronómetro de cuenta atrás;
-+ Reproducir un sonido cuando se haya acabado el tiempo;
+## Desafío: sonido y música
 
-	```blocks
-		tocar tambor (10 v) durante (0.1) pulsos
-	```
+¿Puedes añadir música y efectos de sonido a tu juego? Por ejemplo:
 
-+ También podrías reproducir música continuamente en un bucle (si no recuerdas cómo hacer esto, el paso 4 del proyecto 'Banda de Rock' te puede ayudar).
++ Reproducir un sonido cuando el jugador obtiene una respuesta correcta o incorrecta;
++ Agregar un tictac a tu temporizador de cuenta atrás;
++ Reproducir un sonido cuando se acabe el tiempo;
+    
+```blocks
+    toque el tambor(10v) por (0.1) latidos
+```
 
-
-
++ También puedes reproducir música sin parar en un bucle (si no estás seguro de cómo hacerlo, el paso 4 del proyecto 'Grupo de rock' te ayudará).
 
 --- /challenge ---

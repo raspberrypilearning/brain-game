@@ -1,14 +1,14 @@
 ---
-hero_image: images/brain-game.png
+hero_image: imagenes/juego-mental.png
 theme: red
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Juego de Cálculo Mental
-description: Aprende a crear un concurso de preguntas y respuestas.
-original_url: https://projects.raspberrypi.org/en/projects/brain-game
+title: Juego mental
+description: Aprende cómo crear una prueba.
+original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
 interests: games
 technologies: scratch
 site_areas: projects
@@ -16,15 +16,15 @@ hardware: ''
 software: scratch
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Introducción
-- title: Crear las preguntas
-- title: 'Desafío: Cambiar los disfraces'
-- title: 'Desafío: Añadir puntuación'
-- title: Múltiples partidas
-- title: 'Desafío: Pantalla de inicio'
-- title: Añadir gráficos
-- title: 'Desafío: Mejorar la animación'
-- title: 'Desafío: Sonido y música'
-- title: 'Desafío: Corre por 10 puntos'
-- title: 'Desafío: Pantalla de instrucciones'
+steps:
+  - title: Introducción
+  - title: Crear preguntas
+  - title: 'Desafío: Cambiar disfraces'
+  - title: 'Desafío: Añadir una puntuación'
+  - title: Múltiples juegos
+  - title: 'Desafío: Pantalla de inicio'
+  - title: Añadir gráficos
+  - title: 'Desafío: Animación mejorada'
+  - title: 'Desafío: Sonido y música'
+  - title: 'Desafío: Carrera hasta 10 puntos'
+  - title: 'Desafío: Pantalla de instrucciones'

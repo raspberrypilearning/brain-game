@@ -1,46 +1,43 @@
 ## Añadir gráficos
 
-En lugar de que tu personaje sólo diga `¡Sí! :)` o `No :(` al jugador, vamos a añadir algunos gráficos que ayuden al jugador a saber cómo lo está haciendo.
+En lugar de que tu personaje diga `sí :)` o `nope :(` al jugador, vamos a añadir algunos gráficos que le permitirán al jugador saber cómo le va.
 
-+ Crea un nuevo objeto con el nombre 'Resultado', que contenga un disfraz de 'visto bueno' y uno de 'cruz'.
++ Crea un sprite nuevo llamado 'Resultado' que contenga un disfraz de 'marca' y de 'cruz'.
+    
+    ![screenshot](images/brain-result.png)
 
-	![screenshot](images/brain-result.png)
++ Cambia el código de tu personaje para que en lugar de decirle al jugador cómo lo hicieron, transmita `mensajes de correcto`{:class="blockevents"} e `incorrecto`{:class="blockevents"} en su lugar.
+    
+    ![screenshot](images/brain-broadcast-answer.png)
 
-+ Cambia el código de tu personaje para que, en lugar de decir al jugador cómo lo está haciendo, envíe mensajes de `correcto`{:class="blockevents"} y `error`{:class="blockevents"}.
++ Ahora puedes usar estos mensajes para mostrar el disfraz "marca" o "cruz". Añade este código a tu nuevo sprite 'Resultado':
+    
+    ![screenshot](images/brain-show-answer.png)
 
-	![screenshot](images/brain-broadcast-answer.png)
++ Prueba tu juego de nuevo. ¡Deberías ver una marca cuando tu respuesta sea correcta, y una cruz cada vez que te equivoques!
+    
+    ![screenshot](images/brain-test-answer.png)
 
-+ Ahora ya puedes usar estos mensajes para que aparezcan los disfraces de 'visto bueno' o 'cruz'. Añade este código a tu nuevo objeto 'Resultado':
++ ¿Has notado que el código `al recibir correcto`{:class="blockevents"} y `al recibir incorrecto`{:class="blockevents"} es casi idéntico? Vamos a crear una función para hacerlo más fácil para que puedas realizar cambios en tu código.
+    
+    En tu sprite 'Resultado', haz clic en `Más bloques`{:class "blockmoreblocks"} y luego en 'Crear un bloque'. Crea una nueva función llamada `animar`{:class="blockmoreblocks"}.
+    
+    ![screenshot](images/brain-animate-function.png)
 
-	![screenshot](images/brain-show-answer.png)
++ Ahora puedes añadir el código de la animación en su nueva función de animación y luego sólo tienes que utilizar la función dos veces:
+    
+    ![screenshot](images/brain-use-function.png)
 
-+ Prueba de nuevo tu juego. ¡Deberías de ver un visto bueno siempre que des una respuesta correcta, y una cruz cuando te equivoques!
++ Ahora si deseas enseñar la marca y la cruz durante más o menos tiempo, sólo necesitas hacer un cambio en tu código. ¡Pruébalo!
 
-	![screenshot](images/brain-test-answer.png)
-
-+ ¿Te has dado cuenta de que el código para `al recibir correcto`{:class="blockevents"} y `al recibir error`{:class="blockevents"} es casi idéntico? Vamos a crear una función que te ayudará a hacer cambios en tu código más fácilmente.
-
-	En el objeto 'Resultado', haz clic en `Más Bloques`{:class="blockmoreblocks"}, y a continuación 'Crear un bloque'. Crea una nueva función llamada `animar`{:class="blockmoreblocks"}.
-
-	![screenshot](images/brain-animate-function.png)
-
-+ Entonces podrás añadir el código de la animación a tu nueva función de animación, y usar la función dos veces:
-
-	![screenshot](images/brain-use-function.png)
-
-+ Entonces, si quieres que el visto bueno y la cruz aparezcan durante más o menos tiempo, sólo necesitas hacer un cambio en tu código. ¡Pruébalo!
-
-+ En lugar de simplemente mostrar y esconder el visto bueno y la cruz, podrías cambiar tu función de animación para que los gráficos se desvanezcan.
-
-	```blocks
-		definir [animar]
-		establecer efecto [desvanecer v] a (100)
-		mostrar
-		repetir (25)
-   			cambiar efecto [desvanecer v] por (-4)
-		fin
-		esconder
-	```
-
-
-
++ En lugar de simplemente mostrar y esconder la marca y la cruz, puedes cambiar tu función de animación, para que los gráficos aparezcan gradualmente.
+    
+```blocks
+    definir [animate]
+    establecer el efecto [ghost v] a (100)
+    mostrar
+    repetir (25)
+        cambiar el efecto [ghost v] por (-4)
+    finalizar
+    esconder
+```

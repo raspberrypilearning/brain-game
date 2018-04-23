@@ -1,36 +1,59 @@
 ## Introducción
 
-En este proyecto vas a aprender a crear un juego de preguntas sobre las tablas de multiplicar, en el que tendrás que conseguir tantas respuestas correctas como puedas en 30 segundos.
+En este proyecto aprenderás cómo crear un juego de tablas de multiplicar, en el que debes responder correctamente a tantas preguntas como puedas en 30 segundos.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/218057049/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
+
+### Información adicional para líderes de club
+
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/brain-game/print).
 
 --- collapse ---
 ---
 title: Notas del líder del club
 ---
+## Introducción:
+
+En este proyecto, los niños aprenderán cómo hacer un juego de tablas de multiplicar, en el que el jugador debe responder a tantas preguntas de forma correcta como sea posible en 30 segundos.
 
 ## Recursos
-Para este proyecto se debería de usar Scratch 2. Scratch 2 puede usarse en línea en [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) o puede descargarse desde [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) y usarse sin estar conectado.
 
-La versión completa de este proyecto se puede encontrar <a href="http://scratch.mit.edu/projects/42225768/#editor">online</a>, o se puede descargar haciendo clic en el enlace 'Descargar materiales del proyecto', que contiene:
+Para este proyecto, se debe usar Scratch 2. Scratch 2 se puede usar en línea en [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) o se puede descargar desde [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) para usarlo sin conexión.
 
-+ BrainGame.sb2
+Puedes encontrar una versión completa de este proyecto [en línea](https://scratch.mit.edu/projects/218057049/#editor) o puedes descargarlo haciendo clic en el enlace 'Materiales del proyecto', que contiene:
 
-## Objetivos de aprendizaje
-+ Este proyecto consolida el aprendizaje de las habilidades de programación adquiridas anteriormente, y muestra cómo se puede utilizar "enviar" para crear un sistema sencillo de menú para el juego. 
+* BrainGame.sb2
+
+## Objetivos del Aprendizaje
+
+* El proyecto refuerza el aprendizaje de habilidades de programación que se han aprendido previamente, y muestra cómo las transmisiones se pueden utilizar para crear un juego simple con menús.
+
+Este proyecto incluye elementos desde los siguientes aspectos del [curríulo de digitalización de Raspberry Pi](http://rpf.io/curriculum):
+
+* [Combina construcciones de programación para resolver un problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Desafíos
-+ "Cambiar los disfraces" - cambiar la apariencia del personaje del juego en función de las respuestas correctas e incorrectas;
-+ "Añadir puntuación" - añadir un punto por cada respuesta correcta;
-+ "Pantalla de inicio" - cambiar el fondo del escenario en respuesta a los mensajes de envío de `inicio`{:class="blockevents"} y `fin`{:class="blockevents"}, creando así 2 'pantallas' de juego;
-+ "Mejorar la animación" - usar bucles y efectos para mejorar la animación de los gráficos de correcto/error;
-+ "Sonido y música" - consolidar el aprendizaje de los bucles de música y efectos de sonido;
-+ "Corre por 10 puntos" - cambiar la lógica del juego para establecer un nuevo objetivo del juego;
-+ "Pantalla de instrucciones" - consolidar el uso de "enviar" para crear un menú de juego, al añadir un nuevo botón de 'instrucciones' y una nueva pantalla.
 
+* "Cambiar disfraces" - cambiar la apariencia del personaje en respuesta a respuestas correctas e incorrectas;
+* "Añadir una puntuación" - añadir un punto por cada pregunta contestado correctamente;
+* "Pantalla de inicio" - cambiar el fondo en respuesta al `inicio`{:class="blockevents"} y `fin`{:class="blockevents"} transmitir mensajes, creando 2 'pantallas' del juego;
+* "Animación mejorada" - el uso de bucles y efectos para mejorar la animación gráfica correcta / incorrecta;
+* "Sonido y música" - consolidación del aprendizaje de bucles de música y efectos de sonido;
+* "Carrera hasta 10 puntos" - cambiar la lógica del juego para crear un nuevo objetivo;
+* "Pantalla de instrucciones": consolidación del uso de transmisiones para crear un menú del juego, al añadir un nuevo botón y pantalla de "instrucciones".
 
+--- /collapse ---
+
+--- collapse ---
+---
+title: materiales del proyecto
+---
+## Recursos del líder del club
+
+* [Proyecto Scratch 2 completado descargable](resources/BrainGame.sb2)
+* [Proyecto Scratch 2 completado en línea](https://scratch.mit.edu/projects/218057049/#editor)
 
 --- /collapse ---
