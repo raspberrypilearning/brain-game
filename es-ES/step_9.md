@@ -9,7 +9,7 @@
 + Reproducir un sonido cuando se acabe el tiempo;
     
     ```blocks
-    play drum (10 v) for (0.1) beats
+    toque el tambor(10v) por (0.1) latidos
 ```
 
 + También puedes reproducir música sin parar en un bucle (si no estás seguro de cómo hacerlo, el paso 4 del proyecto 'Grupo de rock' te ayudará).
