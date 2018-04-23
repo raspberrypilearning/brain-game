@@ -28,9 +28,9 @@ fijar [number 1 v] a (número al azar entre (2) y (12))
 fijar [number 2 v] a (número al azar entre (2) y (12))
 preguntar (unir (number 1) (unir [ x ] (number 2))) y esperar
 si <(answer) = ((number 1) * (number 2))> entonces 
-  decir [yes! :)] por (2) segundos
+  decir [¡sí! :)] por (2) segundos
 
-  decir [nope :(] por (2) segundos
+  decir [no :(] por (2) segundos
 end
 ```
 
