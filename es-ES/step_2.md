@@ -8,30 +8,30 @@ Vamos a empezar creando preguntas aleatorias para que el jugador responda.
     
     ![screenshot](images/brain-setting.png)
 
-+ Crea 2 nuevas variables llamadas `número 1`{:class="blockdata"} y `número 2`{class="blockdata"}. Estas variables almacenan los 2 números que se multiplican juntos.
++ Crea 2 nuevas variables llamadas `número 1`{:class="blockdata"} y `número 2`{:class="blockdata"}. Estas variables almacenan los 2 números que se multiplican juntos.
     
     ![screenshot](images/brain-variables.png)
 
-+ Añade código a tu personaje para establecer ambas variables en un número `aleatorio`{class:"blockoperators"} entre 2 y 12.
++ Añade código a tu personaje para establecer ambas variables en un número `aleatorio`{:class="blockoperators"} entre 2 y 12.
     
 ```blocks
-    al presionar bandera
-    fijar [número 1 v] a (número al azar entre (2) y (12))
+    al presionar bandera verde
+    fijar [número 1 v] a (número al azar entre (2) y (12))
     fijar [número 2 v] a (número al azar entre (2) y (12))
 ```
 
 + Entonces puedes pedir al jugador la respuesta e informarle si tenía razón o no.
     
 ```blocks
-    al presionar bandera
-    fijar [número 1 v] a (número al azar entre (2) y (12))
-    fijar [number 2 v] a (número al azar entre(2) y (12))
-    preguntar (une (número 1)(une [ x ] (número 2))) y esperar
-    si <(respuesta) = ((úmero 1)*(número 2))> entonces
-        decir [¡sí! :)] por (2) segundos
-    o
-        decir [no :(] por (2) segundos
-    fin
+al presionar bandera verde
+fijar [number 1 v] a (número al azar entre (2) y (12))
+fijar [number 2 v] a (número al azar entre (2) y (12))
+preguntar (unir (number 1) (unir [ x ] (number 2))) y esperar
+si <(answer) = ((number 1) * (number 2))> entonces 
+  decir [yes! :)] por (2) segundos
+
+  decir [nope :(] por (2) segundos
+end
 ```
 
 + Prueba el proyecto completo respondiendo una pregunta correctamente y una respuesta incorrecta.
