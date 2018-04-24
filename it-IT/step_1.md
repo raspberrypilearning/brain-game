@@ -37,8 +37,8 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 ## Sfide
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
-* "Adding a score" - adding a point for every correct question answered;
+* "Cambiare i costumi" - cambiare il modo in cui il personaggio del gioco appare in risposta a risposte corrette e sbagliate;
+* "Aggiunta di un punteggio" - aggiunta di un punto per ogni risposta corretta alla domanda;
 * "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
 * "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
 * "Sound and music" - consolidating learning of music loops and sound effects;
