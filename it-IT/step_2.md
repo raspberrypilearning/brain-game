@@ -12,29 +12,29 @@ Iniziamo creando domande casuali per consentire al giocatore di rispondere.
     
     ![screenshot](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
++ Aggiungi del codice al tuo personaggio, per impostare entrambe le variabili su un valore `casuale` {:class="blockoperators"} un numero compreso tra 2 e 12.
     
     ```blocks
     when flag clicked
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
+    set [numero 1 v] to (pick casuale (2) to (12))
+    set [numero 2 v] to (pick casuale (2) to (12))
 ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ Puoi quindi chiedere al giocatore la risposta e far sapere loro se avevano ragione o torto.
     
     ```blocks
     when flag clicked
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) secs
+    set [numero 1 v] to (pick casuale (2) to (12))
+    set [numero 2 v] to (pick casuale (2) to (12))
+    ask (join (numero 1)(join [ x ] (numero 2))) and wait
+    if <(answer) = ((numero 1)*(numero 2))> then
+        say [si! :)] for (2) secs
     else
-        say [nope :(] for (2) secs
+        say [no :(] for (2) secs
     end
 ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ Metti alla prova il tuo progetto completamente, rispondendo a una domanda correttamente e ad un'altra con la risposta sbagliata.
 
 + Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
 
