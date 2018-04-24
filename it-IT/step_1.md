@@ -29,13 +29,13 @@ Una versione completa di questo progetto può essere trovata [online](http://scr
 
 ## Obiettivi di apprendimento
 
-* Questo progetto consolida l'apprendimento delle precedenti abilità di programmazione apprese e mostra come le trasmissioni possono essere utilizzate per creare un semplice sistema di menu di gioco.
+* Questo progetto consolida l'apprendimento delle precedenti abilità di programmazione apprese e mostra come la diffusione può essere creata per creare un semplice sistema di menu di gioco.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combinare i costrutti base di un linguaggio di programmazione per risolvere un problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Sfide
 
 * "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
 * "Adding a score" - adding a point for every correct question answered;
