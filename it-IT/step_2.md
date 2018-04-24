@@ -1,14 +1,14 @@
-## Creating questions
+## Creare le domande
 
-Let's start by creating random questions for the player to answer.
+Iniziamo creando domande casuali per consentire al giocatore di rispondere.
 
-+ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Avvia un nuovo progetto Scratch ed elimina lo sprite a forma di gatto in modo che il tuo progetto sia vuoto. Per creare un nuovo progetto di Scratch usando l'editor online, vai su <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ Scegli un personaggio e uno sfondo per il tuo gioco. Puoi scegliere quello che ti piace! Ecco un esempio:
     
     ![screenshot](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ Crea 2 nuove variabili chiamate `numero 1` {:class="blockdata"} e `numero 2` {:class="blockdata"}. Queste variabili memorizzeranno i 2 numeri che verranno moltiplicati insieme.
     
     ![screenshot](images/brain-variables.png)
 
