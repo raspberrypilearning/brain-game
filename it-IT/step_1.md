@@ -29,7 +29,7 @@ Una versione completa di questo progetto può essere trovata [online](http://scr
 
 ## Obiettivi di apprendimento
 
-* Questo progetto consolida l'apprendimento delle precedenti abilità di programmazione apprese e mostra come la diffusione può essere creata per creare un semplice sistema di menu di gioco.
+* Questo progetto consolida l'apprendimento delle precedenti abilità di programmazione apprese e mostra come le trasmissioni possono essere usate per creare un semplice sistema di menu di gioco.
 
 Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum):
 
@@ -39,21 +39,21 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 * "Cambiare i costumi" - cambiare il modo in cui il personaggio del gioco appare in risposta a risposte corrette e sbagliate;
 * "Aggiunta di un punteggio" - aggiunta di un punto per ogni risposta corretta alla domanda;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
-* "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-* "Sound and music" - consolidating learning of music loops and sound effects;
-* "Race to 10 points" - changing the game logic to create a new game objective;
-* "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
+* "Schermata iniziale" - modifica dello sfondo dello stage in risposta a `start` {: class = "blockevents"} e `end` {: class = "blockevents"} messaggi trasmessi, creando 2 schermate di gioco;
+* "Animazione migliorata" - utilizzo di cicli ed effetti per migliorare l'animazione grafica nelle situazioni corrette / errate;
+* "Suono e musica": consolidamento dell'apprendimento dei cicli musicali e degli effetti sonori;
+* "Gareggia a 10 punti" - cambia la logica del gioco per creare un nuovo obiettivo di gioco;
+* "Schermata delle istruzioni": consolidamento dell'uso delle trasmissioni per creare un menu di gioco, aggiungendo un nuovo pulsante e una schermata "istruzioni".
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materiali del progetto
 
-## Club leader resources
+## Risorse per gli organizzatori del club
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Progetto Scratch 2 completo scaricabile](resources/BrainGame.sb2)
+* [Progetto Scratch 2 completo online](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
