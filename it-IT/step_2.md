@@ -36,8 +36,8 @@ Iniziamo creando domande casuali per consentire al giocatore di rispondere.
 
 + Metti alla prova il tuo progetto completamente, rispondendo a una domanda correttamente e ad un'altra con la risposta sbagliata.
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ Aggiungi un ciclo continuo `per sempre` {:class="blockcontrol"}, in modo che al giocatore vengano poste molte domande.
 
-+ Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
++ Crea un timer per il conto alla rovescia sullo stage, usando una variabile chiamata `tempo` {:class="blockdata"}. Se hai bisogno di aiuto, il progetto 'Ghostbusters' contiene istruzioni per fare un timer (nel passaggio 5)!
 
-+ Test your project again - you should be able to continue asking questions until the time runs out.
++ Metti alla prova di nuovo il tuo progetto - dovresti essere in grado di continuare a porre domande fino al termine del tempo.
