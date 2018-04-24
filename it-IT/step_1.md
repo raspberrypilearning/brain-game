@@ -39,7 +39,7 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 * "Cambiare i costumi" - cambiare il modo in cui il personaggio del gioco appare in risposta a risposte corrette e sbagliate;
 * "Aggiunta di un punteggio" - aggiunta di un punto per ogni risposta corretta alla domanda;
-* "Schermata iniziale" - modifica dello sfondo dello stage in risposta a `start` {: class = "blockevents"} e `end` {: class = "blockevents"} messaggi trasmessi, creando 2 schermate di gioco;
+* "Schermata iniziale" - modifica dello sfondo dello stage in risposta a `inizio` {:class="blockevents"} e `fine` {:class="blockevents"} messaggi trasmessi, creando 2 schermate di gioco;
 * "Animazione migliorata" - utilizzo di cicli ed effetti per migliorare l'animazione grafica nelle situazioni corrette / errate;
 * "Suono e musica": consolidamento dell'apprendimento dei cicli musicali e degli effetti sonori;
 * "Gareggia a 10 punti" - cambia la logica del gioco per creare un nuovo obiettivo di gioco;
