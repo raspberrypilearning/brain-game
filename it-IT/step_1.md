@@ -29,7 +29,7 @@ Una versione completa di questo progetto può essere trovata [online](http://scr
 
 ## Obiettivi di apprendimento
 
-* Questo progetto consolida l'apprendimento delle abilità di programmazione precedentemente acquisite e mostra come le trasmissioni possano essere usate per creare un semplice sistema di menù di gioco.
+* Questo progetto consolida l'apprendimento delle abilità di programmazione precedentemente acquisite e mostra come i messaggi possano essere usati per creare un semplice sistema di menù di gioco.
 
 Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum):
 
@@ -40,10 +40,10 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 * "Cambiare i costumi" - cambiare l'aspetto del personaggio del gioco in base al tipo di risposta, corretta o errata, fornita;
 * "Aggiunta di un punteggio" - aggiunta di un punto per ogni risposta corretta fornita;
 * "Schermata iniziale" - modifica dello sfondo dello stage in risposta ai messaggi `inizio` {:class="blockevents"} e `fine` {:class="blockevents"}, con la creazione di 2 'schermate' di gioco;
-* "Animazione migliorata" - utilizzo di cicli ed effetti per migliorare l'animazione grafica nelle situazioni corrette / errate;
-* "Suono e musica": consolidamento dell'apprendimento dei cicli musicali e degli effetti sonori;
-* "Gareggia a 10 punti" - cambia la logica del gioco per creare un nuovo obiettivo di gioco;
-* "Schermata delle istruzioni": consolidamento dell'uso delle trasmissioni per creare un menu di gioco, aggiungendo un nuovo pulsante e una schermata "istruzioni".
+* "Animazione migliorata" - utilizzo di circuiti ed effetti per migliorare l'animazione grafica nelle situazioni corrette/errate;
+* "Suono e musica" - consolidamento dell'apprendimento dei circuiti musicali e degli effetti sonori;
+* "Guadagnare 10 punti" - cambiare la logica del gioco per creare un nuovo obiettivo di gioco;
+* "Schermata delle istruzioni" - consolidamento dell'uso dei messaggi per creare un menù di gioco, aggiungendo un nuovo pulsante e la schermata "istruzioni".
 
 \--- /collapse \---
 
