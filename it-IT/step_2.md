@@ -1,18 +1,18 @@
 ## Creare le domande
 
-Iniziamo creando domande casuali per consentire al giocatore di rispondere.
+Iniziamo creando domande casuali a cui il giocatore deve rispondere.
 
 + Avvia un nuovo progetto Scratch ed elimina lo sprite a forma di gatto in modo che il tuo progetto sia vuoto. Per creare un nuovo progetto di Scratch usando l'editor online, vai su <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-+ Scegli un personaggio e uno sfondo per il tuo gioco. Puoi scegliere quello che ti piace! Ecco un esempio:
++ Scegli un personaggio e uno sfondo per il tuo gioco. Puoi scegliere quello che più ti piace! Ecco un esempio:
     
     ![screenshot](images/brain-setting.png)
 
-+ Crea 2 nuove variabili chiamate `numero 1` {:class="blockdata"} e `numero 2` {:class="blockdata"}. Queste variabili memorizzeranno i 2 numeri che verranno moltiplicati insieme.
++ Crea 2 nuove variabili chiamate `numero 1`{:class="blockdata"} e `numero 2`{:class="blockdata"}. Queste variabili memorizzeranno i 2 numeri che verranno moltiplicati tra loro.
     
     ![screenshot](images/brain-variables.png)
 
-+ Aggiungi del codice al tuo personaggio, per impostare entrambe le variabili su un valore `casuale` {:class="blockoperators"} un numero compreso tra 2 e 12.
++ Aggiungi del codice al tuo personaggio in modo da impostare entrambe le variabili su un valore `a caso`{:class="blockoperators"} compreso tra 2 e 12.
     
     ```blocks
     when flag clicked
