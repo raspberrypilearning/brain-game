@@ -15,23 +15,23 @@ Iniziamo creando domande casuali a cui il giocatore deve rispondere.
 + Aggiungi del codice al tuo personaggio in modo da impostare entrambe le variabili su un valore `a caso`{:class="blockoperators"} compreso tra 2 e 12.
     
     ```blocks
-    when flag clicked
-    set [numero 1 v] to (pick casuale (2) to (12))
-    set [numero 2 v] to (pick casuale (2) to (12))
+    quando si clicca su ⚑
+    porta [numero 1 v] a (numero a caso tra (2) e (12))
+    porta [numero 2 v] a (numero a caso tra (2) e (12))
 ```
 
-+ Puoi quindi chiedere al giocatore la risposta e far sapere loro se avevano ragione o torto.
++ Puoi quindi chiedere al giocatore qual è la risposta, e fargli/farle sapere se la risposta inserita è corretta o sbagliata.
     
     ```blocks
-    when flag clicked
-    set [numero 1 v] to (pick casuale (2) to (12))
-    set [numero 2 v] to (pick casuale (2) to (12))
-    ask (join (numero 1)(join [ x ] (numero 2))) and wait
-    if <(answer) = ((numero 1)*(numero 2))> then
-        say [si! :)] for (2) secs
-    else
-        say [no :(] for (2) secs
-    end
+    quando si clicca su ⚑
+    porta [numero 1 v] a (numero a caso tra (2) e (12))
+    porta [numero 2 v] a (numero a caso tra (2) e (12))
+    chiedi (unione di (numero 1) e (unione di [ x ] e (numero 2))) e attendi 
+    se <(risposta) = ((numero 1)*(numero 2))> allora 
+        dire [sì! :)] per (2) secondi
+    altrimenti
+        dire [no :(] per (2) secondi
+    fine
 ```
 
 + Metti alla prova il tuo progetto completamente, rispondendo a una domanda correttamente e ad un'altra con la risposta sbagliata.
