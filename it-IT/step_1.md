@@ -29,7 +29,7 @@ Una versione completa di questo progetto può essere trovata [online](http://scr
 
 ## Obiettivi di apprendimento
 
-* Questo progetto consolida l'apprendimento delle precedenti abilità di programmazione apprese e mostra come le trasmissioni possono essere usate per creare un semplice sistema di menu di gioco.
+* Questo progetto consolida l'apprendimento delle abilità di programmazione precedentemente acquisite e mostra come le trasmissioni possano essere usate per creare un semplice sistema di menù di gioco.
 
 Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum):
 
@@ -37,9 +37,9 @@ Questo progetto include elementi tratti dalle seguenti componenti del [Digital M
 
 ## Sfide
 
-* "Cambiare i costumi" - cambiare il modo in cui il personaggio del gioco appare in risposta a risposte corrette e sbagliate;
-* "Aggiunta di un punteggio" - aggiunta di un punto per ogni risposta corretta alla domanda;
-* "Schermata iniziale" - modifica dello sfondo dello stage in risposta a `inizio` {:class="blockevents"} e `fine` {:class="blockevents"} messaggi trasmessi, creando 2 schermate di gioco;
+* "Cambiare i costumi" - cambiare l'aspetto del personaggio del gioco in base al tipo di risposta, corretta o errata, fornita;
+* "Aggiunta di un punteggio" - aggiunta di un punto per ogni risposta corretta fornita;
+* "Schermata iniziale" - modifica dello sfondo dello stage in risposta ai messaggi `inizio` {:class="blockevents"} e `fine` {:class="blockevents"}, con la creazione di 2 'schermate' di gioco;
 * "Animazione migliorata" - utilizzo di cicli ed effetti per migliorare l'animazione grafica nelle situazioni corrette / errate;
 * "Suono e musica": consolidamento dell'apprendimento dei cicli musicali e degli effetti sonori;
 * "Gareggia a 10 punti" - cambia la logica del gioco per creare un nuovo obiettivo di gioco;
