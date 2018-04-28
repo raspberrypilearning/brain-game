@@ -9,15 +9,15 @@ In questo progetto imparerai come creare un quiz sulle tabelline, in cui dovrai 
 
 ### Ulteriori informazioni per gli organizzatori dei club
 
-Se intendi stampare questo progetto, clicca su [Versione stampabile](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 ## \--- collapse \---
 
-## title: Note per gli organizzatori dei club
+## title: Note per i volontari
 
 ## Introduzione:
 
-In questo progetto, i bambini impareranno come creare un gioco a quiz con tabellari, in cui il giocatore deve rispondere correttamente a quante più domande possibile in 30 secondi.
+In questo progetto, i bambini impareranno a creare un gioco a quiz sulle tabelline, in cui il giocatore deve rispondere correttamente al maggior numero di domande possibili in 30 secondi.
 
 ## Risorse
 
