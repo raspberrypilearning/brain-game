@@ -1,6 +1,6 @@
 ## Introduzione
 
-In questo progetto imparerai come creare un quiz con tabellari, in cui devi fornire il maggior numero di risposte corrette che puoi in 30 secondi.
+In questo progetto imparerai come creare un quiz sulle tabelline, in cui dovrai rispondere correttamente al maggior numero di domande possibili in 30 secondi.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
