@@ -1,15 +1,15 @@
-## Introduction
+## Introducere
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+În acest proiect veți învăța cum să creați un chestionar cu tabla înmulțirii, în care trebuie să obțineți cât mai multe răspunsuri corecte în 30 de secunde.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### Informații suplimentare pentru conducătorii e club
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Dacă doriți să imprimați acest proiect, vă rugăm să folosiți [Versiunea pentru imprimare](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 ## \--- collapse \---
 
