@@ -13,21 +13,21 @@ Dacă doriți să imprimați acest proiect, vă rugăm să folosiți [Versiunea 
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Note pentru conducătorul clubului
 
-## Introduction:
+## Introducere:
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+În acest proiect copiii vor învăța cum să creeze un joc ce conține un chestionar pentru tabla înmulțirii, în care jucătorul trebuie să răspundă la corect la cât mai multe întrebări în 30 de secunde.
 
-## Resources
+## Resurse
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Pentru acest proiect ar trebui folosit Scratch 2. Scratch 2 poate fi folosit online, la [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) sau poate fi descărcat de la [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) pentru a fi folosit offline.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Puteți găsi o versiune finalizată a acestui proiect [online](http://scratch.mit.edu/projects/42225768/#editor), sau o puteți descărca făcând click pe link-ul „Materiale pentru Proiect”, care conține:
 
 * BrainGame.sb2
 
-## Learning Objectives
+## Obiectivele învățării
 
 * This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
 
