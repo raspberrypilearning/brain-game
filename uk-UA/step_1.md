@@ -42,7 +42,7 @@
 * "Початковий екран" - зміна фону сцени у відповідь на `початок`{:class="blockevents"} і `кінець`{:class="blockevents"} передачі повідомлень, що створює 2 ігрових 'екрани';
 * "Вдосконалена анімація" - використання циклів та ефектів для покращення правильної/неправильної графічної анімації;
 * "Звук та музика" - закріплення вивчення музичних циклів та звукових ефектів;
-* "Race to 10 points" - changing the game logic to create a new game objective;
+* "Перегони до 10 балів" - зміна ігрової логіки для створення нової мети гри;
 * "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
 
 \--- /collapse \---
