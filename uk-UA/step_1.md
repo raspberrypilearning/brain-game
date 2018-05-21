@@ -1,6 +1,6 @@
 ## Вступ
 
-У цьому проекті ви дізнаєтеся як створити вікторину із відліком часу, у якій потрібно дати якнайбільше правильних відповідей за 30 секунд.
+У цьому проекті ви дізнаєтеся як створити вікторину з відліком часу, у якій потрібно дати якнайбільше правильних відповідей за 30 секунд.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
@@ -17,13 +17,13 @@
 
 ## Вступ:
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+У цьому проекті діти навчаться створювати гру-вікторину з відліком часу, у якій гравець повинен дати якомога більше правильних відповідей за 30 секунд.
 
-## Resources
+## Ресурси
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Для цього проекту слід використовувати Scratch 2. Scratch 2 можна використовувати онлайн на [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) або завантажити на [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) і використовувати офлайн.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Повну версію цього проекту ви можете знайти [онлайн](http://scratch.mit.edu/projects/42225768/#editor) або завантажити за посиланням "Матеріали проекту", яке містить:
 
 * BrainGame.sb2
 
