@@ -29,7 +29,7 @@
 
 ## Мета навчання
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* Цей проект закріплює вивчення попередніх навичок програмування та показує, як трансляції можуть використовуватись для створення простої системи меню гри.
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
