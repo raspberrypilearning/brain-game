@@ -35,7 +35,7 @@
 
 * [Для вирішення проблеми об'єднайте конструкції програмування.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Завдання
 
 * "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
 * "Adding a score" - adding a point for every correct question answered;
