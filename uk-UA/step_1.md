@@ -27,7 +27,7 @@
 
 * BrainGame.sb2
 
-## Learning Objectives
+## Мета навчання
 
 * This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
 
