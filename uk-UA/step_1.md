@@ -39,7 +39,7 @@
 
 * "Зміна одягу" - зміна зовнішнього вигляду персонажа гри, що залежить від правильності чи неправильності відповідей;
 * "Збільшення рахунку" - за кожну правильну відповідь на питання додається бал;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
+* "Початковий екран" - зміна фону сцени у відповідь на `початок`{:class="blockevents"} і `кінець`{:class="blockevents"} передачі повідомлень, що створює 2 ігрових 'екрани';
 * "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
 * "Sound and music" - consolidating learning of music loops and sound effects;
 * "Race to 10 points" - changing the game logic to create a new game objective;
