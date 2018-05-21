@@ -37,7 +37,7 @@
 
 ## Завдання
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
+* "Зміна одягу" - зміна зовнішнього вигляду персонажа гри, що залежить від правильності чи неправильності відповідей;
 * "Adding a score" - adding a point for every correct question answered;
 * "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
 * "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
