@@ -31,7 +31,7 @@
 
 * Цей проект закріплює вивчення попередніх навичок програмування та показує, як трансляції можуть використовуватись для створення простої системи меню гри.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Цей проект охоплює елементи з наступних напрямків навчального плану [ Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 * [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
