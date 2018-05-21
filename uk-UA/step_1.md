@@ -9,13 +9,13 @@
 
 ### Додаткова інформація для керівників гуртка
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Якщо Вам потрібно роздрукувати цей проект, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Нотатки керівника гуртка
 
-## Introduction:
+## Вступ:
 
 In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
 
