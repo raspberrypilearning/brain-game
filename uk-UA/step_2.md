@@ -12,12 +12,10 @@
     
     ![screenshot](images/brain-variables.png)
 
-+ Додайте код до вашого об'єкта, надавши змінним значення ` випадкове `{:class="blockoperators"} число від 2 до 12.
++ Додайте код до вашого об'єкта, надавши змінним значення ` випадкове число`{:class="blockoperators"} від 2 до 12.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
+        коли натиснуто прапорець     надайте змінній [1 v] значення (вибрати випадкове число від (2) до (12))     змінній [2 v] значення (вибрати випадкове число від (2) до (12))
     ```
 
 + You can then ask the player for the answer, and let them know if they were right or wrong.
