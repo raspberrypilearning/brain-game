@@ -1,6 +1,6 @@
 ## Створення запитань
 
-Розпочнемо зі створення рандомних запитань для гравців.
+Розпочнемо зі створення випадкових запитань для гравців.
 
 + Почніть новий проект у Scratch і видаліть з нього спрайт кота. Ознайомитись із редактором Scratch можна за посиланням <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
@@ -12,7 +12,7 @@
     
     ![screenshot](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
++ Додайте код до вашого об'єкта, надавши змінним значення ` випадкового`{:class="blockoperators"} числа від 2 до 12.
     
     ```blocks
         when flag clicked
