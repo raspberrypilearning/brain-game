@@ -8,7 +8,7 @@
     
     ![screenshot](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ Створіть 2 нові змінні `число 1`{:class="blockdata"} і `число 2`{:class="blockdata"}. Ці змінні збережуть 2 числа, що будуть перемножуватись.
     
     ![screenshot](images/brain-variables.png)
 
