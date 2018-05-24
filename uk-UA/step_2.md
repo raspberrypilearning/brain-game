@@ -15,18 +15,19 @@
 + Додайте код до вашого об'єкта, надавши змінним значення ` випадкове число`{:class="blockoperators"} від 2 до 12.
     
     ```blocks
-        коли натиснуто прапорець     надайте змінній [1 v] значення (вибрати випадкове число від (2) до (12))     змінній [2 v] значення (вибрати випадкове число від (2) до (12))
+        коли натиснуто ⚑    надати [number 1 v] значення (випадкове від (2) до (12))
+        надати [number 2 v] значення (випадкове від (2) до (12))
     ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ Тоді ви можете попросити гравця дати відповідь і повідомити його чи була вона правильною.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
-        ask (join (number 1)(join [ x ] (number 2))) and wait
-        if <(answer) = ((number 1)*(number 2))> then
-            say [yes! :)] for (2) secs
+        коли натиснуто ⚑
+    надати [number 1 v] значення (випадкове від (2) до (12))
+    надати [number 2 v] значення (випадкове від (2) до (12))
+    запитати (з'єднати (number 1) (з'єднати [ x ] (number 2))) і чекати
+    якщо <(answer) = ((number 1) * (number 2))>; то 
+      говорити [yes! :)] for (2) secs
         else
             say [nope :(] for (2) secs
         end
