@@ -1,10 +1,10 @@
 ## Створення запитань
 
-Почнемо зі створення рандомних запитань для гравців.
+Розпочнемо зі створення рандомних запитань для гравців.
 
 + Почніть новий проект у Scratch і видаліть з нього спрайт кота. Ознайомитись із редактором Scratch можна за посиланням <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ Оберіть персонажа і фон гри. Ви можете обрати що завгодно! Ось приклад:
     
     ![screenshot](images/brain-setting.png)
 
