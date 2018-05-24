@@ -12,7 +12,7 @@
     
     ![screenshot](images/brain-variables.png)
 
-+ Додайте код до вашого об'єкта, надавши змінним значення ` випадкового`{:class="blockoperators"} числа від 2 до 12.
++ Додайте код до вашого об'єкта, надавши змінним значення ` випадкове`{:class="blockoperators"} число від 2 до 12.
     
     ```blocks
         when flag clicked
