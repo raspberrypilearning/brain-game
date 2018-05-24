@@ -27,15 +27,15 @@
     надати [number 2 v] значення (випадкове від (2) до (12))
     запитати (з'єднати (number 1) (з'єднати [ x ] (number 2))) і чекати
     якщо <(answer) = ((number 1) * (number 2))>; то 
-      говорити [yes! :)] for (2) secs
-        else
-            say [nope :(] for (2) secs
-        end
+      говорити [yes! :\)\] for (2) secs
+    else
+    говорити [nope :(] (2) сек
+    end
     ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ Перевірте свій проект повною мірою: на одне питання дайте правильну відповідь, а на інше - неправильну.
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ Додайте команду `завжди`{:class="blockcontrol"} біля цього коду, щоб гравець мав багато запитань.
 
 + Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
 
