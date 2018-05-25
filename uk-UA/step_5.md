@@ -54,19 +54,19 @@ Let's add a 'play' button to your game, so that you can play lots of times.
 + Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
     
     ```blocks
-        set [time v] to [10]
+        надати [година v] значення [10]
     ```
 
 + You can even change how the button looks when the mouse hovers over it.
     
     ```blocks
-        when flag clicked
-        show
-        forever
-        if <touching [mouse-pointer v]?> then
-            set [fisheye v] effect to (30)
-        else
-            set [fisheye v] effect to (0)
+        коли натиснуто ⚑
+        показати
+        завжди 
+        якщо <touching [mouse-pointer v]?> то 
+        встановити ефект [вздуття v] в (30)
+      
+        встановити ефект [вздуття v] в (0)
         end
         end
     ```
