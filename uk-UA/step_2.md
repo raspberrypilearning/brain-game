@@ -2,15 +2,15 @@
 
 Розпочнемо зі створення випадкових запитань для гравців.
 
-+ Почніть новий проект у Scratch і видаліть з нього спрайт кота. Ознайомитись із редактором Scratch можна за посиланням <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Почніть новий проект у Scratch і видаліть з нього спрайт кота. Ознайомитись із Scratch editor можна за посиланням <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
 + Оберіть об'єкт і фон гри. Ви можете обрати що завгодно! Ось приклад:
     
-    ![screenshot](images/brain-setting.png)
+    ![знімок екрану](images/brain-setting.png)
 
 + Створіть 2 нові змінні `Число 1`{:class="blockdata"} і `Число 2`{:class="blockdata"}. Ці змінні збережуть 2 числа, що будуть перемножуватись.
     
-    ![screenshot](images/brain-variables.png)
+    ![знімок екрану](images/brain-variables.png)
 
 + Додайте код до вашого об'єкта, надавши змінним значення ` випадкове число`{:class="blockoperators"} від 2 до 12.
     
