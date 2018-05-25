@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: Changing costumes
+## Завдання: Зміна образів
 
 Can you change your character's costumes, so that they respond to the player's answer?
 
