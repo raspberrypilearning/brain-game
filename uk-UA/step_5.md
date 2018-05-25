@@ -1,4 +1,4 @@
-## Multiple games
+## Багаторазові ігри
 
 Додамо кнопку "Грати", щоб можна було відкрити гру багато разів.
 
@@ -51,7 +51,7 @@
         зупинити [інші скрипти цього спрайту v]
     ```
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
++ Зіграйте кілька разів у гру, щоб перевірити кнопку відтворення. Слід пересвідчитись, що кнопка відтворення з'являється після кожної гри. Щоб перевіряти було легше, можна скоротити кожну гру так, щоб вона займала лише кілька секунд.
     
     ```blocks
         надати [година v] значення [10]
