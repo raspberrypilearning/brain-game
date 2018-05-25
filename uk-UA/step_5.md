@@ -1,12 +1,12 @@
 ## Multiple games
 
-Додамо до гри кнопку "play", щоб можна було грати багато разів.
+Додамо до гри кнопку "Play", щоб можна було грати багато разів.
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
++ Створіть спрайт нової кнопки "Play", за допомогою якої гравець починатиме нову гру. Ви можете намалювати її або відредагувати спрайт із бібліотеки Scratch.
     
     ![знімок екрану](images/brain-play.png)
 
-+ Add this code to your new button.
++ Додайте цей код до нової кнопки.
     
     ```blocks
         коли натиснуто ⚑
