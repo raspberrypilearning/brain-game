@@ -9,7 +9,7 @@
 
 ### Додаткова інформація для керівників гуртка
 
-Якщо Вам потрібно роздрукувати цей проект, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Якщо вам потрібно роздрукувати цей проект, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 ## \--- collapse \---
 
