@@ -2,8 +2,8 @@
 
 ## Завдання: Зміна образів
 
-Can you change your character's costumes, so that they respond to the player's answer?
+Чи можете ви змінити образи об'єктів так, щоб вони відповідали відповідям гравця?
 
-![screenshot](images/brain-costume.png)
+![знімок екрану](images/brain-costume.png)
 
 \--- /challenge \---
