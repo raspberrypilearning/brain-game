@@ -21,7 +21,7 @@ Let's add a 'play' button to your game, so that you can play lots of times.
 
 + You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
     
-    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
+    Замініть код `коли натиснуто ⚑`{:class="blockevents"} на `коли я отримаю start`{:class="blockevents"}.
     
     ![знімок екрану](images/brain-start.png)
 
