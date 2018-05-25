@@ -25,7 +25,7 @@
     
     ![знімок екрану](images/brain-start.png)
 
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
++ Натисніть на зелений прапорець і на нову кнопку відтворення, щоб перевірити її. Слід переконатись, що гра не починається, доки ви не натиснули на кнопку.
 
 + Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
     
