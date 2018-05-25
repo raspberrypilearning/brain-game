@@ -33,7 +33,7 @@ Let's add a 'play' button to your game, so that you can play lots of times.
     
     Can you fix this problem?
 
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
++ Натисніть на сцену і замініть блок `зупинити все`{:class="blockcontrol"} на `зупинити цей скрипт`{:class="blockevents"}.
     
     ![знімок екрану](images/brain-end.png)
 
