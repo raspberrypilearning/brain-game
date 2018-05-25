@@ -1,6 +1,6 @@
 ## Multiple games
 
-Let's add a 'play' button to your game, so that you can play lots of times.
+Додамо до гри кнопку "play", щоб можна було грати багато разів.
 
 + Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
     
@@ -21,7 +21,7 @@ Let's add a 'play' button to your game, so that you can play lots of times.
 
 + You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
     
-    Замініть код `коли натиснуто ⚑`{:class="blockevents"} на `коли я отримаю `{:class="blockevents"} початок.
+    Замініть код `коли натиснуто ⚑`{:class="blockevents"} на `коли я отримаю `{:class="blockevents"} start.
     
     ![знімок екрану](images/brain-start.png)
 
@@ -33,7 +33,7 @@ Let's add a 'play' button to your game, so that you can play lots of times.
     
     Can you fix this problem?
 
-+ Натисніть на сцену і замініть блок `зупинити все`{:class="blockcontrol"} на `зупинити`{:class="blockevents"} повідомлення.
++ Натисніть на сцену і замініть блок `зупинити все`{:class="blockcontrol"} на `зупинити цей скрипт`{:class="blockevents"}.
     
     ![знімок екрану](images/brain-end.png)
 
