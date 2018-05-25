@@ -19,9 +19,9 @@
     
     Цей код показує кнопку відтворення, коли починається проект. При натисканні на кнопку він приховується і транслюється повідомлення, що запускає гру.
 
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
++ Потрібно відредагувати код об'єктів так, щоб гра запускалась, коли вони отримають повідомлення про `старт`, а не коли ви натиснули на прапорець.
     
-    Замініть код `коли натиснуто ⚑`{:class="blockevents"} на `коли я отримаю `{:class="blockevents"} start.
+    Замініть код `коли натиснуто ⚑`{:class="blockevents"} на `коли я отримаю `{:class="blockevents"} повідомлення про старт.
     
     ![знімок екрану](images/brain-start.png)
 
@@ -57,7 +57,7 @@
         надати [година v] значення [10]
     ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ Можна навіть змінити вигляд кнопки, навівши на неї курсор мишки.
     
     ```blocks
         коли натиснуто ⚑
