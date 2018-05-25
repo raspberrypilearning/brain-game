@@ -21,9 +21,9 @@
 
 ## Ресурси
 
-Для цього проекту слід використовувати Scratch 2. Scratch 2 можна використовувати онлайн [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) або завантажити [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) і використовувати офлайн.
+Для цього проекту слід використовувати Scratch 2. Scratch 2 можна знайти онлайн на [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) або завантажити на [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) і використовувати офлайн.
 
-Повну версію цього проекту ви можете знайти [онлайн](http://scratch.mit.edu/projects/42225768/#editor) або завантажити за посиланням "Матеріали проекту":
+Повну версію цього проекту можна знайти [онлайн](http://scratch.mit.edu/projects/42225768/#editor) або завантажити за посиланням "Матеріали проекту":
 
 * РозвиваючаГра.sb2
 
