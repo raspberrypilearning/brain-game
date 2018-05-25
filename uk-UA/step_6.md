@@ -2,9 +2,9 @@
 
 ## Завдання: Початковий екран
 
-Чи можете ви додати нове тло до сцени, яке стане початковим екраном вашої гри? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
+Чи можете ви додати нове тло до сцени, яке стане початковим екраном вашої гри? Щоб переключатись між тлами, можна використовувати блоки `коли я отримаю початок`{:class="blockevents"} і `коли я отримаю кінець`{:class="blockevents"}.
 
-You can also show and hide your character, and even show and hide your timer by using these blocks:
+Використовуючи ці блоки ви зможете показати і приховати змінні і навіть приховати таймер:
 
 ```blocks
 показати змінну [година v]
