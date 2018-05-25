@@ -17,7 +17,7 @@
     оповістити [start v]
     ```
     
-    This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
+    Цей код показує кнопку відтворення, коли починається проект. При натисканні на кнопку він приховується і транслюється повідомлення, що запускає гру.
 
 + You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
     
