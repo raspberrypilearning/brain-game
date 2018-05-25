@@ -2,6 +2,6 @@
 
 ## Завдання: Створення рахунку
 
-Can you add a score to your game? You can add a point for every correct answer. If you're feeling mean, you could even reset the player's score to 0 if they get a question wrong!
+Чи можете ви створити рахунок для гри? Ви можете додавати бал за кожну правильну відповідь. Якщо любите побешкетувати, ви навіть можете скинути бали гравця до 0, коли він неправильно відповість на питання!
 
 \--- /challenge \---
