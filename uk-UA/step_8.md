@@ -2,8 +2,8 @@
 
 ## Завдання: Удосконалення анімації
 
-Can you improve the animation of your graphics? You could code the tick and cross so that they fade out as well as fade in. Or, you could use other cool effects:
+Чи можна удосконалити анімацію графічних ефектів? Ви можете запрограмувати галочку і хрестик так, щоб вони з'являлись чи зникали. Або можна використати інші класні ефекти:
 
-![screenshot](images/brain-effects.png)
+![знімок екрану](images/brain-effects.png)
 
 \--- /challenge \---
