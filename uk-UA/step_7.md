@@ -18,7 +18,7 @@
     
     ![знімок екрану](images/brain-test-answer.png)
 
-+ Помітили, що код `коли я отримаю правильно`{:class="blockevents"} і `коли я отримаю неправильно`{:class="blockevents"} майже однаковий? Let's create a function to make it easier for you to make changes to your code.
++ Помітили, що код `коли я отримаю правильно`{:class="blockevents"} і `коли я отримаю неправильно`{:class="blockevents"} майже однаковий? Cтворимо функцію, щоб полегшити процес внесення змін до вашого коду.
     
     On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
     
