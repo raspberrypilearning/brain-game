@@ -20,11 +20,11 @@
 
 + Помітили, що код `коли я отримаю правильно`{:class="blockevents"} і `коли я отримаю неправильно`{:class="blockevents"} майже однаковий? Cтворимо функцію, щоб полегшити процес внесення змін до вашого коду.
     
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
+    У спрайті "Результат" натисніть `Більше блоків`{:class="blockmoreblocks"}, а тоді "Створити блок". Створіть нову функцію під назвою `анімація</0`{:class="blockmoreblocks"}.
     
     ![знімок екрану](images/brain-animate-function.png)
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
++ Щоб використати функцію двічі, можна до нової функції додати код анімації:
     
     ![знімок екрану](images/brain-use-function.png)
 
