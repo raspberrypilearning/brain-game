@@ -14,11 +14,11 @@
     
     ![знімок екрану](images/brain-show-answer.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
++ Перевірте гру знову. Кожного разу, коли ви відповідаєте правильно має з'являтись галочка, а коли неправильно - хрестик!
     
     ![знімок екрану](images/brain-test-answer.png)
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
++ Помітили, що код `коли я отримаю правильно`{:class="blockevents"} і `коли я отримаю неправильно`{:class="blockevents"} майже однаковий? Let's create a function to make it easier for you to make changes to your code.
     
     On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
     
