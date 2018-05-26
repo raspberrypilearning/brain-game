@@ -2,14 +2,14 @@
 
 ## Завдання: Екран з інструкцією
 
-Can you add an instructions screen to your game, telling your player how to play the game? You'll need an 'Instructions' button, and another stage background.
+Чи можна додати до гри екран з інструкцією, який пояснюватиме як її грати? Вам буде потрібна кнопка "Інструкції" і ще один фон сцени.
 
-![screenshot](images/brain-instructions.png)
+![знімок екрану](images/brain-instructions.png)
 
-You may also need a 'Back' button to take you to the main menu.
+Щоб повернутись до головного меню, знадобиться кнопка "Назад".
 
 ```blocks
-    broadcast [main menu v]
+    оповістити [main menu v]
 ```
 
 \--- /challenge \---
