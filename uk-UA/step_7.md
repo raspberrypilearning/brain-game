@@ -1,4 +1,4 @@
-## Додавання графіки
+## Додавання графічних ефектів
 
 Щоб об'єкт говорив не тільки `так!:)` або `ні:(`, додамо графіку, що дозволить гравцеві дізнатись свої результати.
 
@@ -28,7 +28,7 @@
     
     ![знімок екрану](images/brain-use-function.png)
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
++ Якщо ви хочете, щоб галочка і хрестик з'являлись на довший чи коротший проміжок часу, потрібно внести лише одну зміну до коду. Спробуйте!
 
 + Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
     
