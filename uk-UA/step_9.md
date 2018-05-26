@@ -4,14 +4,14 @@
 
 Чи можна додати до гри звукові ефекти та музику? Наприклад:
 
-+ Playing a sound when the player gets an answer right or wrong;
-+ Adding a ticking sound to your countdown timer;
-+ Playing a sound when the time is up;
++ Відтворювати звук, коли гравець відповідає правильно чи неправильно;
++ Додати звук цокання до таймера зворотнього відліку;
++ Відтворювати звук, коли закінчився час;
     
     ```blocks
-        play drum (10 v) for (0.1) beats
+        програти на барабані (10 v) (0.1) ударів
     ```
 
-+ You could also constantly play music on a loop (if you're not sure how to do this, step 4 of the 'Rock Band' project will help you).
++ Також можна зробити так, щоб музика грала постійно (якщо ви не знаєте як це зробити, вам допоможе крок 5 із проекту "Рок концерт").
 
 \--- /challenge \---
