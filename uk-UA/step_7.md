@@ -1,8 +1,8 @@
 ## Додавання графіки
 
-Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
+Щоб об'єкт говорив не тільки `так!:)` або `ні:(`, додамо графіку, що дозволить гравцеві дізнатись свої результати.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
++ Створіть новий спрайт із назвою "Результат", що включатиме образ галочки і хрестика.
     
     ![знімок екрану](images/brain-result.png)
 
