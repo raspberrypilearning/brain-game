@@ -15,24 +15,24 @@ Let's start by creating random questions for the player to answer.
 + Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
     
     ```blocks
-    when flag clicked
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-```
+        when flag clicked
+        set [number 1 v] to (pick random (2) to (12))
+        set [number 2 v] to (pick random (2) to (12))
+    ```
 
 + You can then ask the player for the answer, and let them know if they were right or wrong.
     
     ```blocks
-    when flag clicked
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) secs
-    else
-        say [nope :(] for (2) secs
-    end
-```
+        when flag clicked
+        set [number 1 v] to (pick random (2) to (12))
+        set [number 2 v] to (pick random (2) to (12))
+        ask (join (number 1)(join [ x ] (number 2))) and wait
+        if <(answer) = ((number 1)*(number 2))> then
+            say [yes! :)] for (2) secs
+        else
+            say [nope :(] for (2) secs
+        end
+    ```
 
 + Test your project fully, by answering one question correctly and one with the wrong answer.
 
