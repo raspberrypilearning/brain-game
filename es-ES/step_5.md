@@ -9,15 +9,15 @@ Vamos a añadir un botón de 'empieza' a tu juego para que puedas jugar muchas v
 + Añade este código a tu nuevo botón.
     
     ```blocks
-    cuando se marcó con un clic
-    mostrar
-
-    cuando este sprite se hace clic
-    esconder
-    enviar [start v]
-```
-
-Este código muestra el botón de 'empieza' cuando se inicia tu proyecto. Cuando se hace clic en el botón se esconde y luego envia un mensaje que iniciará el juego.
+        cuando se marcó con un clic
+        mostrar
+    
+        cuando este sprite se hace clic
+        esconder
+        enviar [start v]
+    ```
+    
+    Este código muestra el botón de 'empieza' cuando se inicia tu proyecto. Cuando se hace clic en el botón se esconde y luego envia un mensaje que iniciará el juego.
 
 + Tendrás que editar el código de tu personaje para que el juego comience cuando reciban el mensaje de ` empieza` {: class = "blockevents"}, y no cuando se hace clic en la bandera.
     
@@ -40,35 +40,35 @@ Este código muestra el botón de 'empieza' cuando se inicia tu proyecto. Cuando
 + Ahora puedes añadir código a tu botón para que aparezca de nuevo al final de cada juego.
     
     ```blocks
-    al recibir [end v]
-    mostrar
-```
+        al recibir [end v]
+        mostrar
+    ```
 
 + También necesitarás que tu personaje deje de hacer preguntas al final de cada juego:
     
     ```blocks
-    al recibir [end v]
-    parar [other scripts in sprite v]
-```
+        al recibir [end v]
+        parar [other scripts in sprite v]
+    ```
 
 + Prueba tu botón de empezar el juego jugando algunas veces. Verás que el botón empieza se muestra después de cada partida. Para hacer más fáciles las pruebas puedes acortar cada juego de modo que solo dure unos segundos.
     
     ```blocks
-    establecer [time v] a [10]
-```
+        establecer [time v] a [10]
+    ```
 
 + Incluso puedes cambiar la apariencia del botón cuando el ratón está sobre él.
     
     ```blocks
-    al presionar
-    mostrar
-    para siempre
-    si <touching [mouse-pointer v]?> entonces
-        establecer efecto [fisheye v] a (30)
-    o
-        establecer efecto [fisheye v] a (0)
-    Fin
-    Fin
-```
-
-![screenshot](images/brain-fisheye.png)
+        al presionar
+        mostrar
+        para siempre
+        si <touching [mouse-pointer v]?> entonces
+            establecer efecto [fisheye v] a (30)
+        o
+            establecer efecto [fisheye v] a (0)
+        Fin
+        Fin
+    ```
+    
+    ![screenshot](images/brain-fisheye.png)
