@@ -1,0 +1,41 @@
+---
+hero_image: εικόνες / brain-game.png
+theme: το κόκκινο
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, σχεδιασμός-0, προγραμματισμός-1, phys-comp-0, κατασκευή-0, κοινότητα-0
+title: Παιχνίδι εγκεφάλου
+description: Μάθετε πώς μπορείτε να δημιουργήσετε ένα κουίζ.
+original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
+interests: Παιχνίδια
+technologies: γρατσουνιά
+site_areas: έργα
+hardware: ''
+software: γρατσουνιά
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Εισαγωγή
+  - 
+    title: Δημιουργία ερωτήσεων
+  - 
+    title: 'Πρόκληση: Αλλαγή κοστουμιών'
+  - 
+    title: 'Πρόκληση: Προσθήκη βαθμολογίας'
+  - 
+    title: Πολλαπλά παιχνίδια
+  - 
+    title: 'Πρόκληση: Αρχική οθόνη'
+  - 
+    title: Προσθήκη γραφικών
+  - 
+    title: 'Πρόκληση: Βελτιωμένη κινούμενη εικόνα'
+  - 
+    title: 'Πρόκληση: Ήχος και μουσική'
+  - 
+    title: 'Πρόκληση: Αγωνιστείτε σε 10 πόντους'
+  - 
+    title: 'Πρόκληση: Οθόνη οδηγιών'
