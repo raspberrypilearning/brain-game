@@ -9,8 +9,8 @@
 + Reproducir un sonido cuando se acabe el tiempo;
     
     ```blocks
-    toque el tambor(10v) por (0.1) latidos
-```
+        toque el tambor(10v) por (0.1) latidos
+    ```
 
 + También puedes reproducir música sin parar en un bucle (si no estás seguro de cómo hacerlo, el paso 4 del proyecto 'Grupo de rock' te ayudará).
 
