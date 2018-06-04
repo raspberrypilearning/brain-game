@@ -33,11 +33,11 @@ Instead of your character just saying `yes! :)` or `nope :(` to the player, let'
 + Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
     
     ```blocks
-    define [animate]
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
-```
+        define [animate]
+        set [ghost v] effect to (100)
+        show
+        repeat (25)
+            change [ghost v] effect by (-4)
+        end
+        hide
+    ```
