@@ -15,24 +15,24 @@ Vamos a empezar creando preguntas aleatorias para que el jugador responda.
 + Añade código a tu personaje para establecer ambas variables en un número `aleatorio`{class:"blockoperators"} entre 2 y 12.
     
     ```blocks
-    al presionar bandera
-    fijar [número 1 v] a (número al azar entre (2) y (12))
-    fijar [número 2 v] a (número al azar entre (2) y (12))
-```
+        al presionar bandera
+        fijar [número 1 v] a (número al azar entre (2) y (12))
+        fijar [número 2 v] a (número al azar entre (2) y (12))
+    ```
 
 + Entonces puedes pedir al jugador la respuesta e informarle si tenía razón o no.
     
     ```blocks
-    al presionar bandera
-    fijar [número 1 v] a (número al azar entre (2) y (12))
-    fijar [number 2 v] a (número al azar entre(2) y (12))
-    preguntar (une (número 1)(une [ x ] (número 2))) y esperar
-    si <(respuesta) = ((úmero 1)*(número 2))> entonces
-        decir [¡sí! :)] por (2) segundos
-    o
-        decir [no :(] por (2) segundos
-    fin
-```
+        al presionar bandera
+        fijar [número 1 v] a (número al azar entre (2) y (12))
+        fijar [number 2 v] a (número al azar entre(2) y (12))
+        preguntar (une (número 1)(une [ x ] (número 2))) y esperar
+        si <(respuesta) = ((úmero 1)*(número 2))> entonces
+            decir [¡sí! :)] por (2) segundos
+        o
+            decir [no :(] por (2) segundos
+        fin
+    ```
 
 + Prueba el proyecto completo respondiendo una pregunta correctamente y una respuesta incorrecta.
 
