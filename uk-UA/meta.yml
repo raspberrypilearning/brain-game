@@ -18,21 +18,21 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Creating questions
+    title: Створення запитань
   - 
-    title: 'Challenge: Changing costumes'
+    title: 'Challenge: Зміна образів'
   - 
-    title: 'Challenge: Adding a score'
+    title: 'Challenge: Створення рахунку'
   - 
-    title: Multiple games
+    title: Багаторазові ігри
   - 
-    title: 'Challenge: Start screen'
+    title: 'Challenge: Початковий екран'
   - 
-    title: Adding graphics
+    title: Додавання графічних ефектів
   - 
-    title: 'Challenge: Improved animation'
+    title: 'Challenge: Удосконалення анімації'
   - 
     title: 'Challenge: Sound and music'
   - 
