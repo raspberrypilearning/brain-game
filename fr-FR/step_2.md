@@ -2,17 +2,17 @@
 
 Commençons par créer des questions aléatoires auxquelles le joueur devra répondre.
 
-+ Démarrez un nouveau projet Scratch et supprimez le lutin de chat afin que votre projet soit vide. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Démarrez un nouveau projet Scratch et supprimez le lutin de chat afin que votre projet soit vide. Vous pouvez trouver l'éditeur en ligne de Scratch à <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a> .
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ Choisissez un personnage et un arrière plan pour votre jeu. Vous pouvez choisir ce que vous aimez! Voici un exemple:
     
     ![screenshot](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ Créer 2 nouvelles variables appelées {: class = "blockdata"} ` numéro 1 ` et {: class = "blockdata"} ` numéro 2 ` . Ces variables vont stocker les 2 nombres qui seront multipliés ensemble.
     
     ![screenshot](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
++ Ajoutez un code à votre personnage, pour définir ces deux variables sur un{: class = "blockoperators"} ` nombre aléatoire ` entre 2 et 12.
     
     ```blocks
         when flag clicked
@@ -20,7 +20,7 @@ Commençons par créer des questions aléatoires auxquelles le joueur devra rép
         set [number 2 v] to (pick random (2) to (12))
     ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ Vous pouvez alors demander au joueur la réponse et lui faire savoir s'il s'est tromper ou non.
     
     ```blocks
         when flag clicked
