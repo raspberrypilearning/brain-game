@@ -1,23 +1,23 @@
-## Multiple games
+## Jeux multiples
 
-Let's add a 'play' button to your game, so that you can play lots of times.
+Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs fois.
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
++ Créez un nouveau lutin bouton de lecture, sur lequel votre joueur cliquera pour lancer une nouvelle partie. Vous pouvez le dessiner vous-même ou modifier un lutin à partir de la bibliothèque Scratch.
     
     ![screenshot](images/brain-play.png)
 
-+ Add this code to your new button.
++ Ajoutez ce code à votre nouveau bouton.
     
     ```blocks
-        when flag clicked
-        show
+        Lorsque le drapeau est cliqué
+        afficher
     
-        when this sprite clicked
-        hide
-        broadcast [start v]
+        quand ce lutin est cliqué 
+        masquer
+        envoyer a tous [début v]
     ```
     
-    This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
+    Ce code affiche le bouton de lecture lorsque votre projet est démarré. Lorsque le bouton est cliqué, il est masqué et envoie ensuite un message qui lancera le jeu.
 
 + You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
     
