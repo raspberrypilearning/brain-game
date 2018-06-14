@@ -29,16 +29,16 @@ Ukończoną wersję tego projektu można znaleźć [online](http://scratch.mit.e
 
 ## Cele kształcenia
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* Ten projekt umacnia wiedzę nt. poprzednich umiejętności programowania i demostruje jak można korzystać z transmisji celem stworzenia prostego systemu menu w grach.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ten projekt obejmuje elementy z następujących gałęzi [Programu Nauki o Kreatywności Cyfrowej Raspberry Pi.](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Połącz konstrukcje programowania, aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Wyzwania
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
-* "Adding a score" - adding a point for every correct question answered;
+* "Zmiana kostiumów" - zmienianie jak postać z gry wygląda w odpowiedzi na poprawne i niepoprawne odpowiedzi;
+* "Dodawanie wyniku" - dodanie punktu za każdą poprawnie udzieloną odpowiedź;
 * "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
 * "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
 * "Sound and music" - consolidating learning of music loops and sound effects;
