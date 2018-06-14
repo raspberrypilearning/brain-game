@@ -4,7 +4,7 @@ Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs f
 
 + Créez un nouveau lutin bouton de lecture, sur lequel votre joueur cliquera pour lancer une nouvelle partie. Vous pouvez le dessiner vous-même ou modifier un lutin à partir de la bibliothèque Scratch.
     
-    ![screenshot](images/brain-play.png)
+    ![capture d'écran](images/brain-play.png)
 
 + Ajoutez ce code à votre nouveau bouton.
     
@@ -23,41 +23,41 @@ Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs f
     
     Remplacer le code {: class = "blockevents"} ` lorsque le drapeau est cliqué ` avec {: class = "blockevents"} ` quand je reçois début ` 
     
-    ![screenshot](images/brain-start.png)
+    ![capture d'écran](images/brain-start.png)
 
 + Cliquez sur le drapeau vert, puis cliquez sur votre nouveau bouton de lecture pour le tester. Vous devriez voir que le jeu ne démarre pas tant que le bouton n'est pas cliqué.
 
 + Avez-vous remarqué que la minuterie commence quand on clique sur le drapeau vert, et non quand la partie commence?
     
-    ![screenshot](images/brain-timer-bug.png)
+    ![capture d'écran](images/brain-timer-bug.png)
     
     Pouvez-vous résoudre ce problème?
 
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
++ Cliquez sur la scène, et remplacez le {: class = "blockcontrol"} ` tout arrêter ` avec un bloc {: class = "blockevents"} ` fin`
     
-    ![screenshot](images/brain-end.png)
+    ![capture d'écran](images/brain-end.png)
 
-+ You can now add code to your button, to show it again at the end of each game.
-    
-    ```blocks
-        when I receive [end v]
-        show
-    ```
-
-+ You'll also need to stop your character asking questions at the end of each game:
++ Vous pouvez maintenant ajouter du code à votre bouton, pour le montrer à la fin de chaque partie.
     
     ```blocks
-        when I receive [end v]
-        stop [other scripts in sprite v]
+        quand je reçois [fin v]
+        montrer
     ```
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
++ Vous aurez également besoin d’arrêter votre personnage de poser des questions à la fin de chaque partie :
     
     ```blocks
-        set [time v] to [10]
+        quand je reçois [fin v] 
+        stop [autres scripts du lutin v]
     ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ Testez votre bouton de jeu en jouant quelques parties. Vous devriez remarquer que le bouton de lecture s'affiche après chaque partie. Pour faciliter les tests, vous pouvez raccourcir chaque partie de sorte qu'elle ne dure que quelques secondes.
+    
+    ```blocks
+        régler [temps v] sur [10]
+    ```
+
++ Vous pouvez même changer l'aspect du bouton lorsque la souris passe dessus.
     
     ```blocks
         when flag clicked
@@ -71,4 +71,4 @@ Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs f
         end
     ```
     
-    ![screenshot](images/brain-fisheye.png)
+    ![capture d'écran](images/brain-fisheye.png)
