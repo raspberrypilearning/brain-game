@@ -7,13 +7,14 @@ Pouvez-vous changer votre jeu, de sorte qu'au lieu de répondre à autant de que
 Pour ce faire, vous aurez seulement besoin de changer votre code temporel. Pouvez-vous voir ce qui doit être changé?
 
 ```blocks
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) secs
-        change [time v] by (-1)
-    end
-    broadcast [end v]
+    Quand je reçois [début v]
+    mettre [temps v] à (30)
+    répéter jusqu’à (temps) = [0]
+         attendre (1) seconde
+         mettre [temps v] à (-1)
+
+    fin
+    envoyer a tous [fin]
 ```
 
 \--- /défi \---
