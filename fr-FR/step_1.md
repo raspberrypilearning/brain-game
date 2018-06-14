@@ -21,39 +21,39 @@ Dans ce projet, les enfants apprendront comment faire un quiz chronométré, dan
 
 ## Ressources
 
-Pour ce projet, vous devrez utiliser Scratch 2. On peut utiliser Scratch 2 en ligne sur [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ou on peut le télécharger depuis [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) pour l'utiliser hors ligne.
+Pour ce projet, vous devrez utiliser Scratch 2. Scratch 2 est disponible en ligne sur [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ou depuis [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) pour l'utiliser hors ligne.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Vous pouvez trouver une version complète de ce projet [en ligne](http://scratch.mit.edu/projects/42225768/#editor) ou vous pouvez le télécharger en cliquant sur le lien 'Matériaux du Projet' pour ce projet, qui contient:
 
 * BrainGame.sb2
 
-## Learning Objectives
+## Objectifs d'apprentissage
 
 * This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ce projet couvre les éléments suivants du [Programme de Créativité Numérique de Raspberry Pi](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine des constructions de programmation pour résoudre un problème.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Défis
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
-* "Adding a score" - adding a point for every correct question answered;
+* "Changement de costumes" - changer l'apparence du personnage du jeu en fonction des réponses correctes ou incorrectes;
+* "Ajouter un score" - ajouter un point pour chaque réponse correcte ;
 * "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
-* "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-* "Sound and music" - consolidating learning of music loops and sound effects;
-* "Race to 10 points" - changing the game logic to create a new game objective;
+* "Animation améliorée" - en utilisant des boucles et des effets pour améliorer l'animation graphique selon les réponses correctes / incorrectes;
+* "Son et musique" - consolidation de l'apprentissage des boucles musicales et des effets sonores;
+* "Race to 10 points" - changer la logique du jeu pour créer un nouvel objectif de jeu;
 * "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
 
-\--- /collapse \---
+Question
 
-## \--- collapse \---
+## Question
 
-## title: Project materials
+## Matériel pour projet
 
-## Club leader resources
+## Ressources pour le responsable de club
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Projet Scratch 2 complet à télécharger](resources/BrainGame.sb2)
+* [Projet Scratch 2 complet en ligne](http://scratch.mit.edu/projects/42225768/#editor)
 
-\--- /collapse \---
+Question
