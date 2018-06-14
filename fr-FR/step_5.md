@@ -60,15 +60,13 @@ Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs f
 + Vous pouvez même changer l'aspect du bouton lorsque la souris passe dessus.
     
     ```blocks
-        when flag clicked
-        show
-        forever
-        if <touching [mouse-pointer v]?> then
-            set [fisheye v] effect to (30)
-        else
-            set [fisheye v] effect to (0)
-        end
-        end
+        quand le drapeau est cliqué
+        montrer
+        répéter indéfiniment
+         si (pointeur de souris v touché)
+            mettre l’effet [œil de poisson] à (30)
+         sinon mettre l’effet [œil de poisson] à (0)
+        fin 
     ```
     
     ![capture d'écran](images/brain-fisheye.png)
