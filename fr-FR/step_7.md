@@ -1,24 +1,24 @@
-## Adding graphics
+## Ajout de graphisme
 
-Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
+Au lieu que votre personnage dise simplement ` oui! :) ` ou ` non :( ` au joueur, ajoutons quelques graphiques qui permettront au joueur de savoir comment il repond.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
++ Créez un nouveau lutin appelé 'Résultats', contenant à la fois un costume 'tic' et 'croix'.
     
     ![screenshot](images/brain-result.png)
 
-+ Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
++ Changez le code de votre personnage, de sorte que, il diffuse les messages {: class = "blockevents"} ` correct ` et {: class = "blockevents"} ` faux ` à la place.
     
     ![screenshot](images/brain-broadcast-answer.png)
 
-+ You can now use these messages to show the 'tick' or 'cross' costume. Add this code to your new 'Result' sprite:
++ Vous pouvez maintenant utiliser ces messages pour montrer le costume «tic» ou «croix». Ajoutez ce code à votre nouveau lutin "Résultat":
     
     ![screenshot](images/brain-show-answer.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
++ Testez votre jeu à nouveau. Vous devriez voir une coche chaque fois que vous obtenez une question correcte, et une croix chaque fois que vous vous trompez!
     
     ![screenshot](images/brain-test-answer.png)
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
++ Avez-vous remarqué que le code pour {: class = "blockevents"} ` quand je reçois correct ` et {: class = "blockevents"} ` quand je reçois faux ` est presque identique? Créons une fonction pour faciliter la modification de votre code.
     
     On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
     
