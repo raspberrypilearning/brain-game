@@ -1,33 +1,33 @@
-## Introduction
+## Wprowadzenie
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+W ramach tego projektu dowiesz się jak stworzyć quiz z tabliczki mnożenia, w którym trzeba poprawnie odpowiedzieć na maksymalną ilość pytań w 30 sekund.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### Dodatkowe informacje dla prowadzących klub
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Jeśli potrzebujesz wydrukować ten projekt, skorzystaj z [Wersji dla drukarek](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
-## \--- collapse \---
+## \--- zminimalizuj \---
 
-## title: Club leader notes
+## tytuł: Notatki prowadzącego klub
 
-## Introduction:
+## Wprowadzenie:
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+W ramach tego projektu, dzieci nauczą się jak stworzyć grę na temat tabliczki mnożenia, w której gracze mają poprawnie odpowiedzieć na maksymalną ilość pytań w 30 sekund.
 
-## Resources
+## Zasoby
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Do tego projektu należy użyć Scratch 2. Scratch 2 można używać w internecie pod [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) lub też pobrać z [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) dla celów offline.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Ukończoną wersję tego projektu można znaleźć [online](http://scratch.mit.edu/projects/42225768/#editor) lub też można ją pobrać klikając w link 'Materiały Projektu' w tym projekcie, który zawiera:
 
 * BrainGame.sb2
 
-## Learning Objectives
+## Cele kształcenia
 
 * This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
 
