@@ -39,11 +39,11 @@ Ce projet couvre les éléments suivants du [Programme de Créativité Numériqu
 
 * "Changement de costumes" - changer l'apparence du personnage du jeu en fonction des réponses correctes ou incorrectes;
 * "Ajouter un score" - ajouter un point pour chaque réponse correcte ;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
+* "Écran de démarrage" - changer l'arrière plan en réponse au envoyer a tous {: class = "blockevents"} `début` et {: class = "blockevents"} ` fin ` en créant 2 écrans de jeux;
 * "Animation améliorée" - en utilisant des boucles et des effets pour améliorer l'animation graphique selon les réponses correctes / incorrectes;
 * "Son et musique" - consolidation de l'apprentissage des boucles musicales et des effets sonores;
 * "Race to 10 points" - changer la logique du jeu pour créer un nouvel objectif de jeu;
-* "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
+* "Écran d'instruction" - consolider l'utilisation de "envoyer a tous" pour créer un menu de jeu, en ajoutant un nouveau bouton et un écran "instructions".
 
 Question
 
