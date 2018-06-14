@@ -4,40 +4,40 @@ Au lieu que votre personnage dise simplement ` oui! :) ` ou ` non :( ` au joueur
 
 + Créez un nouveau lutin appelé 'Résultats', contenant à la fois un costume 'tic' et 'croix'.
     
-    ![screenshot](images/brain-result.png)
+    ![capture d'écran](images/brain-result.png)
 
 + Changez le code de votre personnage, de sorte que, il diffuse les messages {: class = "blockevents"} ` correct ` et {: class = "blockevents"} ` faux ` à la place.
     
-    ![screenshot](images/brain-broadcast-answer.png)
+    ![capture d'écran](images/brain-broadcast-answer.png)
 
 + Vous pouvez maintenant utiliser ces messages pour montrer le costume «tic» ou «croix». Ajoutez ce code à votre nouveau lutin "Résultat":
     
-    ![screenshot](images/brain-show-answer.png)
+    ![capture d'écran](images/brain-show-answer.png)
 
 + Testez votre jeu à nouveau. Vous devriez voir une coche chaque fois que vous obtenez une question correcte, et une croix chaque fois que vous vous trompez!
     
-    ![screenshot](images/brain-test-answer.png)
+    ![capture d'écran](images/brain-test-answer.png)
 
 + Avez-vous remarqué que le code pour {: class = "blockevents"} ` quand je reçois correct ` et {: class = "blockevents"} ` quand je reçois faux ` est presque identique? Créons une fonction pour faciliter la modification de votre code.
     
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
+    Sur votre sprite "Résultat", cliquez sur {: class = "blockmoreblocks"} ` Ajouter blocs ` , puis "créer un bloc". Créer une nouvelle fonction appelée ` animer ` {: class = "blockmoreblocks"}.
     
-    ![screenshot](images/brain-animate-function.png)
+    ![capture d'écran](images/brain-animate-function.png)
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
++ Vous pouvez ensuite ajouter le code d'animation dans votre nouvelle fonction d'animation, puis utilisez simplement la fonction deux fois:
     
-    ![screenshot](images/brain-use-function.png)
+    ![capture d'écran](images/brain-use-function.png)
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
++ Maintenant, si vous voulez afficher la coche et la croix pour un temps plus ou moins long, il vous suffit d'apporter une modification à votre code. Essayez !
 
-+ Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
++ Au lieu de simplement afficher et masquer le tick et la croix, vous pouvez changer votre fonction d'animation, de sorte que les graphiques s'affichent progressivement.
     
     ```blocks
-        define [animate]
-        set [ghost v] effect to (100)
-        show
-        repeat (25)
-            change [ghost v] effect by (-4)
-        end
-        hide
+        définir [animer]
+        mettre l'effet [fantôme] à (100)
+        montrer
+        répéter (25) fois
+           ajouter a l'effet [fantôme] (-4)
+        stop [tout v]
+        cacher
     ```
