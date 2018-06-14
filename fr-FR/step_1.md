@@ -29,7 +29,7 @@ Vous pouvez trouver une version complète de ce projet [en ligne](http://scratch
 
 ## Objectifs d'apprentissage
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* Ce projet consolide l'apprentissage des compétences de programmation antérieures et montre comment "envoyer a tous" peuvt être utilisé pour créer un système de menu de jeu simple.
 
 Ce projet couvre les éléments suivants du [Programme de Créativité Numérique de Raspberry Pi](http://rpf.io/curriculum):
 
