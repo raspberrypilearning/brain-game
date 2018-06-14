@@ -1,19 +1,19 @@
-\--- challenge \---
+\--- défi \---
 
-## Challenge: Start screen
+## Défi: écran de démarrage
 
-Can you add another backdrop to your stage, which will become your game's start screen? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
+Pouvez-vous ajouter un autre arrière plan à votre scène, qui deviendra l'écran de démarrage de votre jeu? Vous pouvez utiliser les blocs {: class = "blockevents"} ` quand je reçois début ` et {: class = "blockevents"} ` quand je reçois fin ` pour basculer entre les fonds.
 
-You can also show and hide your character, and even show and hide your timer by using these blocks:
+Vous pouvez également afficher et masquer votre personnage, et même afficher et masquer votre minuteur en utilisant ces blocs:
 
 ```blocks
-show variable [time v]
+montrer la variable [temps v]
 ```
 
 ```blocks
-hide variable [time v]
+cacher la variable [v fois]
 ```
 
-![screenshot](images/brain-startscreen.png)
+![capture d'écran](images/brain-startscreen.png)
 
-\--- /challenge \---
+\--- /défi \---
