@@ -11,7 +11,7 @@ W ramach tego projektu dowiesz się jak stworzyć quiz z tabliczki mnożenia, w 
 
 Jeśli potrzebujesz wydrukować ten projekt, skorzystaj z [Wersji dla drukarek](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
-## \--- zminimalizuj \---
+## \--- zwiń \---
 
 ## tytuł: Notatki prowadzącego klub
 
@@ -39,21 +39,21 @@ Ten projekt obejmuje elementy z następujących gałęzi [Programu Nauki o Kreat
 
 * "Zmiana kostiumów" - zmienianie jak postać z gry wygląda w odpowiedzi na poprawne i niepoprawne odpowiedzi;
 * "Dodawanie wyniku" - dodanie punktu za każdą poprawnie udzieloną odpowiedź;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
-* "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-* "Sound and music" - consolidating learning of music loops and sound effects;
-* "Race to 10 points" - changing the game logic to create a new game objective;
-* "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
+* "Ekran początkowy" - zmienianie tła sceny w odpowiedzi na komunikaty transmisji `start`{:class="blockevents"} oraz `end`{:class="blockevents"}, stworzenie dwóch 'ekranów' gry;
+* "Ulepszona animacja" - korzystanie z pętli oraz efektów w celu ulepszenia dobrej/złej animacji graficznej;
+* "Dźwięk i muzyka" - utrwalanie nauki na temat pętli muzycznych oraz efektów dźwiękowych;
+* "Wyścig do 10 punktów" - zmienianie logiki gry celem stworzenia nowego celu gry;
+* "Ekran z instrukcjami" - lepsze korzystanie z transmisji, aby stworzyć menu gry poprzez dodawanie nowych przycisków do instrukcji i ekranów.
 
-\--- /collapse \---
+\--- /zwiń \---
 
-## \--- collapse \---
+## \--- zwiń \---
 
-## title: Project materials
+## tytuł: Materiały projektu
 
-## Club leader resources
+## Zasoby dla prowadzącego klub
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Ukończony projekt Scratch 2 do pobrania](resources/BrainGame.sb2)
+* [Ukończony projekt Scratch 2 online](http://scratch.mit.edu/projects/42225768/#editor)
 
-\--- /collapse \---
+\--- /zwiń \---
