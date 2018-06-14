@@ -6,38 +6,36 @@ Commençons par créer des questions aléatoires auxquelles le joueur devra rép
 
 + Choisissez un personnage et un arrière plan pour votre jeu. Vous pouvez choisir ce que vous aimez! Voici un exemple:
     
-    ![screenshot](images/brain-setting.png)
+    ![capture d'écran](images/brain-setting.png)
 
 + Créer 2 nouvelles variables appelées {: class = "blockdata"} ` numéro 1 ` et {: class = "blockdata"} ` numéro 2 ` . Ces variables vont stocker les 2 nombres qui seront multipliés ensemble.
     
-    ![screenshot](images/brain-variables.png)
+    ![capture d'écran](images/brain-variables.png)
 
 + Ajoutez un code à votre personnage, pour définir ces deux variables sur un{: class = "blockoperators"} ` nombre aléatoire ` entre 2 et 12.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
+        lorsque le drapeau est cliqué
+        mettre [nombre 1 v] sur (choisissez aléatoire (2) à (12)) 
+        mettre [nombre 2 v] sur (choisissez aléatoire (2) à (12))
     ```
 
 + Vous pouvez alors demander au joueur la réponse et lui faire savoir s'il s'est tromper ou non.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
-        ask (join (number 1)(join [ x ] (number 2))) and wait
-        if <(answer) = ((number 1)*(number 2))> then
-            say [yes! :)] for (2) secs
-        else
-            say [nope :(] for (2) secs
-        end
+        quand le drapeau est cliqué 
+        mettre [nombre 1 v] à (nombre aléatoire (2) à (12))  
+        mettre [nombre 2 v] à (nombre aléatoire (2) à (12)) 
+        demander ((numéro 1) [x ] (numéro 2)) et attendez 
+        si ((réponse) = ((numéro 1) * (numéro 2))) 
+         alors dire [oui!] sinon dire [non :(] pendant 2 secondes
+        end  
     ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ Testez entièrement votre projet en répondant correctement à une question et à une avec une mauvaise réponse.
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ Ajouter un {: class = "blockcontrol"}` répéter indéfiniment ` autour de ce code, de sorte que le joueur ait beaucoup de question.
 
-+ Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
++ Créer un compte à rebours sur la scène, en utilisant une variable appelée {: class = "blockdata"} ` temps ` . Le projet 'Ghostbusters' a des instructions pour chronométrer (à l'étape 5) si vous avez besoin d'aide!
 
-+ Test your project again - you should be able to continue asking questions until the time runs out.
++ Testez à nouveau votre projet - vous devriez être en mesure de continuer à répondre au question jusqu'à la fin du temps imparti.
