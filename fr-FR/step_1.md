@@ -1,27 +1,27 @@
 ## Introduction
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+Dans ce projet, vous apprendrez comment créer un quiz chronométré, dans lequel vous devrez obtenir autant de réponses que possible en 30 secondes.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### Informations complémentaires pour les responsables de club
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
-## \--- collapse \---
+## Question
 
-## title: Club leader notes
+## Notes de leader du club
 
 ## Introduction:
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+Dans ce projet, les enfants apprendront comment faire un quiz chronométré, dans lequel le joueur doit répondre à autant de questions qu'il le peut en 30 secondes.
 
-## Resources
+## Ressources
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Pour ce projet, vous devrez utiliser Scratch 2. On peut utiliser Scratch 2 en ligne sur [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ou on peut le télécharger depuis [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) pour l'utiliser hors ligne.
 
 You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
 
