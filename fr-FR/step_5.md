@@ -19,19 +19,19 @@ Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs f
     
     Ce code affiche le bouton de lecture lorsque votre projet est démarré. Lorsque le bouton est cliqué, il est masqué et envoie ensuite un message qui lancera le jeu.
 
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
++ Vous devrez modifier le code de votre personnage afin que le jeu commence quand il recevra le message {: class = "blockevents"} ` début ` , et non lorsque le drapeau est cliqué.
     
-    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
+    Remplacer le code {: class = "blockevents"} ` lorsque le drapeau est cliqué ` avec {: class = "blockevents"} ` quand je reçois début ` 
     
     ![screenshot](images/brain-start.png)
 
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
++ Cliquez sur le drapeau vert, puis cliquez sur votre nouveau bouton de lecture pour le tester. Vous devriez voir que le jeu ne démarre pas tant que le bouton n'est pas cliqué.
 
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
++ Avez-vous remarqué que la minuterie commence quand on clique sur le drapeau vert, et non quand la partie commence?
     
     ![screenshot](images/brain-timer-bug.png)
     
-    Can you fix this problem?
+    Pouvez-vous résoudre ce problème?
 
 + Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
     
