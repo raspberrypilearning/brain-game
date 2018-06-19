@@ -20,7 +20,7 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
       altera [número 2] para (um valor ao acaso entre (2) e (12))
     ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ Pode então perguntar ao jogador a resposta e confirmar se ele estava certo ou errado.
     
     ```blocks
         when flag clicked
