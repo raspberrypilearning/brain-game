@@ -29,16 +29,16 @@ Você pode encontrar uma versão completa deste projeto [ online ](http://scratc
 
 ## Objetivos de Aprendizagem
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* Este projeto consolida anteriores aprendizagens de linguagens de programação e mostra como as transmissões de mensagens podem ser usadas para criar um sistema simples de jogos com menu.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry Pi Digital Making ](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine construções de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Desafios
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
-* "Adding a score" - adding a point for every correct question answered;
+* "Mudança de trajes" - mudando a aparência da personagem do jogo em resposta às respostas corretas e incorretas;
+* "Adicionando uma pontuação" - adicionando um ponto para cada pergunta correta respondida;
 * "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
 * "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
 * "Sound and music" - consolidating learning of music loops and sound effects;
