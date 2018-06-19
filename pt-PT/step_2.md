@@ -12,7 +12,7 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
     
     ![screenshot](images/brain-variables.png)
 
-+ Adicione o código ao seu personagem, para definir ambas as variáveis ​​para um ` aleatório ` {: class = "blockoperators"} número entre 2 e 12.
++ Adicione o código ao seu personagem, para definir ambas as variáveis ​​para ` um valor ao acaso entre ` {: class = "blockoperators"} 2 e 12.
     
     ```blocks
         when flag clicked
