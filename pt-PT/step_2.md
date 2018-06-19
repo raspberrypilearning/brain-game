@@ -15,9 +15,9 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
 + Adicione o código ao seu personagem, para definir ambas as variáveis ​​para ` um valor ao acaso entre ` {: class = "blockoperators"} 2 e 12.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
+        quando alguém clicar na bandeira
+      altera [número 1] para (um valor ao acaso entre (2) e (12)) 
+      altera [número 2] para (um valor ao acaso entre (2) e (12))
     ```
 
 + You can then ask the player for the answer, and let them know if they were right or wrong.
