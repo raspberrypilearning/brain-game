@@ -53,7 +53,7 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 
 ## Recursos do líder de clube
 
-* [Projeto de Scratch 2 para download](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Projeto de Scratch 2 completo para download](resources/BrainGame.sb2)
+* [Projeto de Scratch 2 completado on-line](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
