@@ -39,17 +39,17 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 
 * "Mudança de trajes" - mudando a aparência da personagem do jogo em resposta às respostas corretas e incorretas;
 * "Adicionando uma pontuação" - adicionando um ponto para cada pergunta correta respondida;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
-* "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-* "Sound and music" - consolidating learning of music loops and sound effects;
-* "Race to 10 points" - changing the game logic to create a new game objective;
-* "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
+* "Tela inicial" - alterar o pano de fundo de palco em resposta a `começar` {: classe = "blockevents"} e `acabar` {: classe = "blockevents"} transmitir mensagens, criando 2 'telas' para o jogo;
+* "Melhorar a animação" - usando loops e efeitos para melhorar a animação gráfica correto/errado;
+* "Som e música" - consolidando a aprendizagem de loops de música e efeitos sonoros;
+* "Corrida de 10 pontos" - mudar a lógica do jogo para criar um novo objectivo de jogo;
+* "Tela de instruções" - consolidando o uso de transmissão de mensagens para criar um menu do jogo, adicionando um novo botão e tela de "instruções".
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materiais do projeto
 
 ## Club leader resources
 
