@@ -1,36 +1,36 @@
 ---
 hero_image: images/brain-game.png
-theme: red
+theme: vermelho
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Brain Game
-description: Learn how to create a quiz.
+curriculum: 1, design-0, programação-0, computação-física-0, fabrico-0, comunidade-0
+title: Jogo do cérebro
+description: Aprenda como criar um teste.
 original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
-interests: games
+interests: jogos
 technologies: scratch
-site_areas: projects
+site_areas: projetos
 hardware: ''
 software: scratch
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Introdução
   - 
-    title: Creating questions
+    title: Criação de perguntas
   - 
-    title: 'Challenge: Changing costumes'
+    title: 'Desafio: Mudar costumes'
   - 
-    title: 'Challenge: Adding a score'
+    title: 'Desafio: Adicionar uma pontuação'
   - 
-    title: Multiple games
+    title: Múltiplos jogos
   - 
-    title: 'Challenge: Start screen'
+    title: 'Desafio: tela inicial'
   - 
-    title: Adding graphics
+    title: Adicionar gráficos
   - 
     title: 'Challenge: Improved animation'
   - 
