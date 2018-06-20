@@ -4,7 +4,7 @@ Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar muitas
 
 + Cria um novo objeto com um botão de ‘Jogar’, no qual o jogador irá clicar para iniciar um novo jogo. Podes desenha-lho tu mesmo ou editar um sprite da biblioteca Scratch.
     
-    ![screenshot](images/brain-play.png)
+    ![captura de ecrã](images/brain-play.png)
 
 + Adiciona este código ao teu botão novo.
     
@@ -23,19 +23,19 @@ Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar muitas
     
     Substituir o código `quando clicado bandeira` {: classe = "blockevents"} com `quando eu receber mensagem de começar ` {: classe = "blockevents"}.
     
-    ![screenshot](images/brain-start.png)
+    ![captura de ecrã](images/brain-start.png)
 
 + Faz clique na bandeira verde e depois pressiona o teu novo botão de jogo para o experimentares. O jogo só deve de começar ao fazeres clique em cima do botão.
 
 + Reparas-te que o cronómetro começa a contagem quando fazes clique na bandeira verde, e não quando começas o jogo?
     
-    ![screenshot](images/brain-timer-bug.png)
+    ![captura de ecrã](images/brain-timer-bug.png)
     
     Podes solucionar este problema?
 
 + Faz clique no cenário, e substitui o bloco ` parar todos ` Bloco {: class = "blockcontrol"} com uma mensagem ` Acabar` {: class = "blockevents"}.
     
-    ![screenshot](images/brain-end.png)
+    ![captura de ecrã](images/brain-end.png)
 
 + Agora podes inserir código ao botão para que ele volte a aparecer no fim de cada jogo.
     
@@ -44,20 +44,20 @@ Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar muitas
         mostra-me
     ```
 
-+ You'll also need to stop your character asking questions at the end of each game:
++ Também terás de fazer com que a tua personagem deixe de fazer perguntas no fim de cada jogo:
     
     ```blocks
-        when I receive [end v]
-        stop [other scripts in sprite v]
+        quando eu recebo [terminar] 
+        pare [outros scripts no sprite v]
     ```
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
++ Testa o botão jogando varias vezes. Deverás ver aparecer o botão de jogar depois de cada jogo. Para tornar o teste mais fácil, você pode encurtar cada jogo, de maneira a durar apenas alguns segundos.
     
     ```blocks
-        set [time v] to [10]
+        altera [tempo v] para [10]
     ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ Podes também fazer que a forma do botão mude quando lhe aproximes o rato.
     
     ```blocks
         when flag clicked
@@ -71,4 +71,4 @@ Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar muitas
         end
     ```
     
-    ![screenshot](images/brain-fisheye.png)
+    ![captura de ecrã](images/brain-fisheye.png)
