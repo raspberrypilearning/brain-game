@@ -26,11 +26,12 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
         quando alguém clicar na bandeira
          altera [número 1] para (um valor ao acaso entre (2) e (12)) 
          altera [número 2] para (um valor ao acaso entre (2) e (12))
-         pergunta (a junção de (número 1) com a junção de [ x ] com (número 2) ) e espera pela resposta
-    se &It;(resposta) = ((número 1)*(número 2))>! :)] for (2) secs
-        else
-            say [nope :(] for (2) secs
-        end
+         pergunta (a junção de (número 1) com a junção de [ x ] com (número 2)) e espera pela resposta
+    se <( a resposta) = ((número 1)*(número 2))> , então 
+            Difunde a mensagem [correto! :)] durante (2) segundos 
+    senão 
+              difunde  [errado :(] durante (2)
+    terminar
     ```
 
 + Test your project fully, by answering one question correctly and one with the wrong answer.
