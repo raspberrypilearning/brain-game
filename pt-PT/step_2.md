@@ -20,7 +20,7 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
       altera [número 2] para (um valor ao acaso entre (2) e (12))
     ```
 
-+ Pode então perguntar ao jogador a resposta e confirmar se ele estava certo ou errado.
++ Podes então pedir ao jogador a resposta e dizer-lhe se està certo ou errado.
     
     ```blocks
         quando alguém clicar na bandeira
@@ -34,10 +34,10 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
     terminar
     ```
 
-+ Teste seu projeto completamente, respondendo uma pergunta corretamente e outra com a resposta errada.
++ Experimenta o teu projeto duas vezes, na primeira escrevendo uma resposta correta e depois uma resposta incorreta.
 
-+ Adicione um loop ` repete para sempre ` {: class = "blockcontrol"} em torno deste código, de modo que o jogador é questionado com muitas questões.
++ Adicione um loop ` repete para sempre ` {: class = "blockcontrol"} em torno deste código, de modo que o jogador é questionado com muitas perguntas.
 
-+ Crie um cronômetro de contagem regressiva no palco, usando uma variável chamada ` tempo ` {: class = "blockdata"}. O projeto 'Ghostbusters' tem instruções para fazer um temporizador (no passo 5) se você precisar de ajuda!
++ Cria um cronometro de conta decrescente no cenário, utilizando uma variável que se chame ` tempo ` {: class = "blockdata"}. O projeto 'Ghostbusters' tem instruções para fazer um temporizador (no passo 5) se você precisar de ajuda!
 
-+ Seu projeto de teste novamente - você deve ser capaz de continuar a fazer perguntas, até que o tempo se esgote.
++ Experimenta novamente o teu projeto. Deveras de poder continuar a fazer perguntas até que o tempo acabe.
