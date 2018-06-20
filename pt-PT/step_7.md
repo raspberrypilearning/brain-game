@@ -2,7 +2,7 @@
 
 Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
++ Cria um novo objeto com o nome ‘Resultado’, que contenha os trajes de ‘certo’ e ‘errado’.
     
     ![screenshot](images/brain-result.png)
 
