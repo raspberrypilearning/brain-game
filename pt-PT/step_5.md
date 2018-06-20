@@ -33,15 +33,15 @@ Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar muitas
     
     Podes solucionar este problema?
 
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
++ Faz clique no cenário, e substitui o bloco ` parar todos ` Bloco {: class = "blockcontrol"} com uma mensagem ` Acabar` {: class = "blockevents"}.
     
     ![screenshot](images/brain-end.png)
 
-+ You can now add code to your button, to show it again at the end of each game.
++ Agora podes inserir código ao botão para que ele volte a aparecer no fim de cada jogo.
     
     ```blocks
-        when I receive [end v]
-        show
+        quando eu recebo [terminar] 
+        mostra-me
     ```
 
 + You'll also need to stop your character asking questions at the end of each game:
