@@ -33,11 +33,11 @@ Em vez de a tua personagem apenas dizer ` sim! :) ` ou ` não :(` ao jogador, va
 + Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
     
     ```blocks
-        define [animate]
-        set [ghost v] effect to (100)
-        show
-        repeat (25)
-            change [ghost v] effect by (-4)
-        end
-        hide
+        define (animação)
+    altera o teu efeito [fantasma v] para (100)
+    mostra-te
+    repete (25) vezes 
+      adiciona ao teu efeito [fantasma v] o valor (-4)
+    end
+    esconde-te
     ```
