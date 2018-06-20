@@ -8,11 +8,11 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
     
     ![captura de ecrã](images/brain-setting.png)
 
-+ Crie 2 novas variáveis ​​chamadas ` numero 1 ` {: class = "blockdata"} e ` número 2 ` {: class = "blockdata"}. Essas variáveis ​​armazenarão os 2 números que serão multiplicados juntos.
++ Cria 2 novas variáveis ​​chamadas ` numero 1 ` {: class = "blockdata"} e ` número 2 ` {: class = "blockdata"}. Estas variáveis ​​guardarão os 2 números que vão ser multiplicados.
     
     ![captura de ecrã](images/brain-variables.png)
 
-+ Adicione o código ao seu personagem, para definir ambas as variáveis ​​para ` um valor ao acaso entre ` {: class = "blockoperators"} 2 e 12.
++ Adiciona o código à tua personagem, para fixar ambas as variáveis ​​em ` um valor ao acaso entre ` {: class = "blockoperators"} 2 e 12.
     
     ```blocks
         quando alguém clicar na bandeira
