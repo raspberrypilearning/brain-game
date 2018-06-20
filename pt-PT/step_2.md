@@ -2,9 +2,9 @@
 
 Vamos começar criando perguntas aleatórias para o jogador responder.
 
-+ Inicie um novo projeto do Scratch e apague o sprite do gato para que seu projeto fique vazio. Pode encontrar o editor de Scratch online em <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
++ Cria um novo projeto no Scratch, e apaga o objeto gato de maneira a que o projeto fique totalmente vazio. Podes encontrar o editor online do Scratch em <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
 
-+ Escolha um personagem e um pano de fundo para o seu jogo. Você pode escolher o que quiser! Aqui está um exemplo:
++ Escolhe uma personagem e um fundo para o teu jogo. Podes escolher a que mais gostares! Exemplo:
     
     ![captura de ecrã](images/brain-setting.png)
 
