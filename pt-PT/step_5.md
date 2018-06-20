@@ -2,11 +2,11 @@
 
 Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar muitas vezes.
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
++ Cria um novo objeto com um botão de ‘Jogar’, no qual o jogador irá clicar para iniciar um novo jogo. Podes desenha-lho tu mesmo ou editar um sprite da biblioteca Scratch.
     
     ![screenshot](images/brain-play.png)
 
-+ Add this code to your new button.
++ Adiciona este código ao teu botão novo.
     
     ```blocks
         when flag clicked
