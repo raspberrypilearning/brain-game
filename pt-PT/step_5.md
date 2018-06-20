@@ -60,15 +60,13 @@ Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar muitas
 + Podes também fazer que a forma do botão mude quando lhe aproximes o rato.
     
     ```blocks
-        when flag clicked
-        show
-        forever
-        if <touching [mouse-pointer v]?> then
-            set [fisheye v] effect to (30)
-        else
-            set [fisheye v] effect to (0)
-        end
-        end
+        Quando alguém clicar na bandeira
+        mostra-te
+        repete para sempre
+        se estas a tocar em o ponteiro do rato, entao
+            altera o teu efeito olho de peixe para (30)
+        senao
+            altera o teu efeito olho de peixe para (0)
     ```
     
     ![captura de ecrã](images/brain-fisheye.png)
