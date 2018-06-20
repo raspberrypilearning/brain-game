@@ -2,8 +2,8 @@
 
 ## Challenge: Changing costumes
 
-Can you change your character's costumes, so that they respond to the player's answer?
+Podes mudar o traje da tua personagem, para que se adapte à resposta do jogador?
 
-![screenshot](images/brain-costume.png)
+![captura de ecrã](images/brain-costume.png)
 
 \--- /challenge \---
