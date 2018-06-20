@@ -6,11 +6,11 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
 
 + Escolha um personagem e um pano de fundo para o seu jogo. Você pode escolher o que quiser! Aqui está um exemplo:
     
-    ![screenshot](images/brain-setting.png)
+    ![captura de ecrã](images/brain-setting.png)
 
 + Crie 2 novas variáveis ​​chamadas ` numero 1 ` {: class = "blockdata"} e ` número 2 ` {: class = "blockdata"}. Essas variáveis ​​armazenarão os 2 números que serão multiplicados juntos.
     
-    ![screenshot](images/brain-variables.png)
+    ![captura de ecrã](images/brain-variables.png)
 
 + Adicione o código ao seu personagem, para definir ambas as variáveis ​​para ` um valor ao acaso entre ` {: class = "blockoperators"} 2 e 12.
     
@@ -30,14 +30,14 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
     se <( a resposta) = ((número 1)*(número 2))> , então 
             Difunde a mensagem [correto! :)] durante (2) segundos 
     senão 
-              difunde  [errado :(] durante (2)
+              difunde a mensagem [errado :(] durante (2)
     terminar
     ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ Teste seu projeto completamente, respondendo uma pergunta corretamente e outra com a resposta errada.
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ Adicione um loop ` repete para sempre ` {: class = "blockcontrol"} em torno deste código, de modo que o jogador é questionado com muitas questões.
 
-+ Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
++ Crie um cronômetro de contagem regressiva no palco, usando uma variável chamada ` tempo ` {: class = "blockdata"}. O projeto 'Ghostbusters' tem instruções para fazer um temporizador (no passo 5) se você precisar de ajuda!
 
-+ Test your project again - you should be able to continue asking questions until the time runs out.
++ Seu projeto de teste novamente - você deve ser capaz de continuar a fazer perguntas, até que o tempo se esgote.
