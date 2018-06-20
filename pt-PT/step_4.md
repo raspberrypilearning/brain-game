@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Adding a score
+## Desafio: Inserir pontuação
 
-Can you add a score to your game? You can add a point for every correct answer. If you're feeling mean, you could even reset the player's score to 0 if they get a question wrong!
+Podes inserir pontuação ao teu jogo? Podes somar um ponto por cada resposta correta. Se estiveres mal disposto, podes até redefinir a pontuação do jogador para 0 se ele tivere uma pergunta errada!
 
 \--- /challenge \---
