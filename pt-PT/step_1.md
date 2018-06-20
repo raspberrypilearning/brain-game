@@ -1,6 +1,6 @@
 ## Introdução
 
-Neste projeto, você aprenderá como criar um teste da tabela de multiplicação, no qual você precisa obter tantas respostas corretas quanto possível em 30 segundos.
+Neste projeto vais aprender a criar um jogo de perguntas sobre a tabuada de multiplicar, no qual terás que conseguir responder a um numero máximo de perguntas corretas em 30 segundos.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
