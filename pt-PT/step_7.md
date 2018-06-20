@@ -1,6 +1,6 @@
 ## Inserir ícones
 
-Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
+Em vez de a tua personagem apenas dizer ` sim! :) ` ou ` não :(` ao jogador, vamos inserir alguns ícones para que ajudem o jogador a saber como lhe está a correr.
 
 + Cria um novo objeto com o nome ‘Resultado’, que contenha os trajes de ‘certo’ e ‘errado’.
     
