@@ -9,29 +9,29 @@ Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar muitas
 + Adiciona este código ao teu botão novo.
     
     ```blocks
-        when flag clicked
-        show
+        Quando alguém clicar na bandeira
+        mostra-te
     
-        when this sprite clicked
-        hide
-        broadcast [start v]
+        Quando alguém clicar em ti
+        esconde-te
+        difunde a mensagem começar
     ```
     
-    This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
+    Este código mostra o botão de jogar quando o projeto começa. Ao clicar no botão, ele esconde-se e envia uma mensagem para que o jogo comece.
 
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
++ Precisas de editar o código da tua personagem para que o jogo comece quando receber a mensagem de `começar` {: classe = "blockevents"}, e não quando a bandeira é clicada.
     
-    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
+    Substituir o código `quando clicado bandeira` {: classe = "blockevents"} com `quando eu receber mensagem de começar ` {: classe = "blockevents"}.
     
     ![screenshot](images/brain-start.png)
 
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
++ Faz clique na bandeira verde e depois pressiona o teu novo botão de jogo para o experimentares. O jogo só deve de começar ao fazeres clique em cima do botão.
 
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
++ Reparas-te que o cronómetro começa a contagem quando fazes clique na bandeira verde, e não quando começas o jogo?
     
     ![screenshot](images/brain-timer-bug.png)
     
-    Can you fix this problem?
+    Podes solucionar este problema?
 
 + Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
     
