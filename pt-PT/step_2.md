@@ -27,11 +27,11 @@ Vamos começar por criar perguntas aleatórias para o jogador responder.
             altera [number 1 v] para (um valor ao acaso entre (2) e (12))
             altera [number 2 v] para (um valor ao acaso entre (2) e (12))
             pergunta (a junção de (number 1) com (a junção de [ x ] com (number 2))) e espera pela resposta
-            se &lt;<(answer) = ((number 1) * (number 2))>&gt; , então 
-                diz [certo!] :)] durante (2) segundos 
-    senão 
-              difunde a mensagem [errado :(] durante (2)
-    terminar
+            se <(answer) = ((number 1) * (number 2))>, então 
+                diz [certo! :)] durante (2) s
+            senão
+                diz [errado:(] durante (2) s
+            end
     ```
 
 + Experimenta o teu projeto duas vezes, na primeira escrevendo uma resposta correta e depois uma resposta incorreta.
