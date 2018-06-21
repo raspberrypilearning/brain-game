@@ -2,7 +2,7 @@
 
 Em vez de a tua personagem apenas dizer ` sim! :) ` ou ` não :(` ao jogador, vamos inserir alguns ícones para que ajudem o jogador a saber como lhe está a correr.
 
-+ Cria um novo objeto com o nome ‘Resultado’, que contenha os trajes de ‘certo’ e ‘errado’.
++ Cria um novo actor com o nome ‘resultado’, que contenha os trajes de ‘certo’ e ‘errado’.
     
     ![screenshot](images/brain-result.png)
 
