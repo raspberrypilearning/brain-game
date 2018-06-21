@@ -1,20 +1,20 @@
 ## Jogadas múltiplas
 
-Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar muitas vezes.
+Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar múltiplas vezes.
 
-+ Cria um novo objeto com um botão de ‘Jogar’, no qual o jogador irá clicar para iniciar um novo jogo. Podes desenha-lho tu mesmo ou editar um sprite da biblioteca Scratch.
++ Cria um novo objeto com um botão de ‘Jogar’, no qual o jogador irá clicar para iniciar um novo jogo. Podes desenha-lho tu mesmo ou editar um actor da biblioteca do Scratch.
     
     ![captura de ecrã](images/brain-play.png)
 
-+ Adiciona este código ao teu botão novo.
++ Adiciona este código ao teu botão novo:
     
     ```blocks
-        Quando alguém clicar na bandeira
-        mostra-te
+        Quando alguém clicar na bandeira verde
+           mostra-te
     
-        Quando alguém clicar em ti
-        esconde-te
-        difunde a mensagem começar
+           Quando alguém clicar em ti
+           esconde-te
+           difunde a mensagem [começar v]
     ```
     
     Este código mostra o botão de jogar quando o projeto começa. Ao clicar no botão, ele esconde-se e envia uma mensagem para que o jogo comece.
