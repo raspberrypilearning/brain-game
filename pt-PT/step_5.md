@@ -31,24 +31,24 @@ Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar múlti
     
     ![captura de ecrã](images/brain-timer-bug.png)
     
-    Can you fix this problem?
+    Podes resolver este problema?
 
-+ Faz clique no cenário, e substitui o bloco ` parar todos ` Bloco {: class = "blockcontrol"} com uma mensagem ` Acabar` {: class = "blockevents"}.
++ Faz clique no cenário, e substitui o bloco ` pára tudo` Bloco {: class = "blockcontrol"} com uma mensagem ` acabar` {: class = "blockevents"}.
     
     ![captura de ecrã](images/brain-end.png)
 
-+ Agora podes inserir código ao botão para que ele volte a aparecer no fim de cada jogo.
++ Agora podes adicionar código ao teu botão, para mostrá-lo novamente no final de cada jogo.
     
     ```blocks
-        quando eu recebo [terminar] 
-        mostra-me
+        Quando receberes a mensagem [acabar v]
+        mostra-te
     ```
 
 + Também terás de fazer com que a tua personagem deixe de fazer perguntas no fim de cada jogo:
     
     ```blocks
-        quando eu recebo [terminar] 
-        pare [outros scripts no sprite v]
+        Quando receberes a mensagem [acabar v]
+        pára [os teus outros guiões v]
     ```
 
 + Testa o botão jogando varias vezes. Deverás ver aparecer o botão de jogar depois de cada jogo. Para tornar o teste mais fácil, você pode encurtar cada jogo, de maneira a durar apenas alguns segundos.
