@@ -9,7 +9,7 @@ Podes adicionar uma tela de instruções ao seu jogo, dizendo ao seu jogador com
 Podes precisar também um botão "Voltar" para retornar ao menu principal.
 
 ```blocks
-    broadcast [main menu v]
+    difunde a mensagem [main menu v]
 ```
 
 \--- /challenge \---
