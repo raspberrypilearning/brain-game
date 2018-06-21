@@ -2,17 +2,17 @@
 
 Vamos começar por criar perguntas aleatórias para o jogador responder.
 
-+ Cria um novo projeto no Scratch, e apaga o objeto gato de maneira a que o projeto fique totalmente vazio. Podes encontrar o editor online do Scratch em <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
++ Cria um novo projeto no Scratch, e apaga o actor gato de maneira a que o projeto fique totalmente vazio. Podes encontrar o editor online do Scratch em <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
 
 + Escolhe uma personagem e um fundo para o teu jogo. Podes escolher a que mais gostares! Exemplo:
     
     ![screenshot](images/brain-setting.png)
 
-+ Cria 2 novas variáveis ​​chamadas ` numero 1 ` {: class = "blockdata"} e ` número 2 ` {: class = "blockdata"}. Estas variáveis ​​guardarão os 2 números que vão ser multiplicados.
++ Cria duas novas variáveis ​​chamadas ` numero 1 ` {: class = "blockdata"} e ` número 2 ` {: class = "blockdata"}. Estas variáveis vão ​​guardar os dois números que vão ser multiplicados.
     
     ![captura de ecrã](images/brain-variables.png)
 
-+ Adiciona o código à tua personagem, para fixar ambas as variáveis ​​em ` um valor ao acaso entre ` {: class = "blockoperators"} 2 e 12.
++ Adiciona o código à tua personagem, para defenir ambas as variáveis ​​em ` um valor ao acaso entre ` {: class = "blockoperators"} 2 e 12.
     
     ```blocks
         quando alguém clicar na bandeira
