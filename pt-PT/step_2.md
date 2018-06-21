@@ -4,7 +4,7 @@ Vamos começar por criar perguntas aleatórias para o jogador responder.
 
 + Cria um novo projeto no Scratch, e apaga o actor gato de maneira a que o projeto fique totalmente vazio. Podes encontrar o editor online do Scratch em <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
 
-+ Escolhe uma personagem e um fundo para o teu jogo. Podes escolher a que mais gostares! Exemplo:
++ Escolhe uma personagem e um pano de fundo para o teu jogo. Podes escolher os que mais gostares! Exemplo:
     
     ![screenshot](images/brain-setting.png)
 
@@ -15,20 +15,20 @@ Vamos começar por criar perguntas aleatórias para o jogador responder.
 + Adiciona o código à tua personagem, para defenir ambas as variáveis ​​em ` um valor ao acaso entre ` {: class = "blockoperators"} 2 e 12.
     
     ```blocks
-        quando alguém clicar na bandeira
-      altera [número 1] para (um valor ao acaso entre (2) e (12)) 
-      altera [número 2] para (um valor ao acaso entre (2) e (12))
+        Quando alguém clicar na bandeira verde
+            altera [number 1 v] para (um valor ao acaso entre (2) e (12))
+            altera [number 2 v] para (um valor ao acaso entre (2) e (12))
     ```
 
-+ Podes então pedir ao jogador a resposta e dizer-lhe se està certo ou errado.
++ Podes então pedir ao jogador a resposta e dizer-lhe se está certa ou errada.
     
     ```blocks
-        quando alguém clicar na bandeira
-         altera [número 1] para (um valor ao acaso entre (2) e (12)) 
-         altera [número 2] para (um valor ao acaso entre (2) e (12))
-         pergunta (a junção de (número 1) com a junção de [ x ] com (número 2)) e espera pela resposta
-    se <( a resposta) = ((número 1)*(número 2))> , então 
-            Difunde a mensagem [correto! :)] durante (2) segundos 
+        when flag clicked
+        set [number 1 v] to (pick random (2) to (12))
+        set [number 2 v] to (pick random (2) to (12))
+        ask (join (number 1)(join [ x ] (number 2))) and wait
+        if <(answer) = ((number 1)*(number 2))> then
+            say [yes! :)] durante (2) segundos 
     senão 
               difunde a mensagem [errado :(] durante (2)
     terminar
