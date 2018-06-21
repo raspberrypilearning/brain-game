@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Desafio: Mudar os trajes
+## Desafio: Trocar trajes
 
-Podes mudar o traje da tua personagem, para que se adapte à resposta do jogador?
+Podes trocar o traje da tua personagem, conforme o resultado da resposta do jogador?
 
-![captura de ecrã](images/brain-costume.png)
+![screenshot](images/brain-costume.png)
 
 \--- /challenge \---
