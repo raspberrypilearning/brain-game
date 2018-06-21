@@ -39,9 +39,9 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 
 * "Trocar trajes" - mudar a aparência da personagem do jogo em resposta às respostas corretas e incorretas;
 * "Adicionar uma pontuação" - adicionar um ponto para cada pergunta certa respondida;
-* "Tela inicial" - alterar o pano de fundo de palco em resposta a `começar` {: classe = "blockevents"} e `acabar` {: classe = "blockevents"} transmitir mensagens, criando 2 'telas' para o jogo;
-* "Melhorar a animação" - usando loops e efeitos para melhorar a animação gráfica correto/errado;
-* "Som e música" - consolidando a aprendizagem de loops de música e efeitos sonoros;
+* "Ecrã inicial" - alterar o pano de fundo do palco em resposta à difusão das mensagens `começar` {: classe = "blockevents"} e `acabar` {: classe = "blockevents"}, criando 2 'fundos' para o jogo;
+* "Melhorar a animação" - usar loops e efeitos para melhorar a animação dos ícones certo/errado;
+* "Som e música" - consolidar a aprendizagem de loops de música e efeitos sonoros;
 * "Corrida de 10 pontos" - mudar a lógica do jogo para criar um novo objectivo de jogo;
 * "Tela de instruções" - consolidando o uso de transmissão de mensagens para criar um menu do jogo, adicionando um novo botão e tela de "instruções".
 
