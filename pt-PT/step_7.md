@@ -10,11 +10,11 @@ Em vez de a tua personagem apenas dizer ` certo! :) ` ou ` errado! :(` ao jogado
     
     ![screenshot](images/brain-broadcast-answer.png)
 
-+ You can now use these messages to show the 'tick' or 'cross' costume. Add this code to your new 'Result' sprite:
++ Agora, podes usar estas mensagens para mostrar os trajes 'correcto' ou 'incorrecto'. Adiciona este código ao teu novo actor 'Resultado':
     
     ![screenshot](images/brain-show-answer.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
++ Testa o teu jogo novamente. Deverás ver um "certo" sempre que tiveres uma pergunta correta e uma cruz sempre que estiveres errado!
     
     ![screenshot](images/brain-test-answer.png)
 
