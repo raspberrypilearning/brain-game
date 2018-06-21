@@ -9,21 +9,21 @@ Neste projeto vais aprender a criar um jogo de perguntas sobre a tabuada de mult
 
 ### Informações adicionais para os líderes do clube
 
-Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Se precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 ## \--- collapse \---
 
-## title: Notas de líder do clube
+## title: Notas de líder de clube
 
 ## Introdução:
 
-Neste projeto, as crianças aprenderão como fazer um jogo de teste da tabela de multiplicação, no qual o jogador tem que responder o máximo possível de perguntas corretamente em 30 segundos.
+Neste projeto, as crianças aprenderão a fazer um jogo de teste da tabela de multiplicação, no qual o jogador tem que responder o máximo possível de perguntas corretamente em 30 segundos.
 
 ## Recursos
 
-Para este projeto, deve ser usado o Scratch 2. O Scratch 2 pode ser usado online em [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) ou pode ser descarregado de [ jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off) e usado offline.
+Para este projeto, deve ser usado o Scratch 2. O Scratch 2 pode ser usado online em [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) ou pode ser descarregado de [ jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off) para ser usado offline.
 
-Você pode encontrar uma versão completa deste projeto [ online ](http://scratch.mit.edu/projects/42225768/#editor), ou pode ser descarregado clicando no link 'Materiais do Projeto' para este projeto, que contém:
+Pode encontrar uma versão completa deste projeto [ online ](http://scratch.mit.edu/projects/42225768/#editor), ou pode descarregar clicando no link 'Materiais do Projeto' para este projeto, que contém:
 
 * BrainGame.sb2
 
