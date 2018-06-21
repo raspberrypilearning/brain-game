@@ -23,12 +23,12 @@ Vamos começar por criar perguntas aleatórias para o jogador responder.
 + Podes então pedir ao jogador a resposta e dizer-lhe se está certa ou errada.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
-        ask (join (number 1)(join [ x ] (number 2))) and wait
-        if <(answer) = ((number 1)*(number 2))> then
-            say [yes! :)] durante (2) segundos 
+        Quando alguém clicar na bandeira verde
+            altera [number 1 v] para (um valor ao acaso entre (2) e (12))
+            altera [number 2 v] para (um valor ao acaso entre (2) e (12))
+            pergunta (a junção de (number 1) com (a junção de [ x ] com (number 2))) e espera pela resposta
+            se &lt;<(answer) = ((number 1) * (number 2))>&gt; , então 
+                diz [certo!] :)] durante (2) segundos 
     senão 
               difunde a mensagem [errado :(] durante (2)
     terminar
