@@ -33,11 +33,11 @@ Em vez de a tua personagem apenas dizer ` certo! :) ` ou ` errado! :(` ao jogado
 + Em vez de apenas mostrar e esconder os ícones "certo" e cruz, podes alterar a tua função de animação, para que os ícones se materializem.
     
     ```blocks
-        define [animate]
-        set [ghost v] effect to (100)
-        show
-        repeat (25)
-            change [ghost v] effect by (-4)
+        Define (animate)
+        altera o teu efeito [fantasma v] para (100)
+        mostra-te
+        repete (25) vezes 
+            adiciona ao teu efeito [fantasma v] o valor (-4)
         end
-        hide
+        esconde-te
     ```
