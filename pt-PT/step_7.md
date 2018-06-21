@@ -28,16 +28,16 @@ Em vez de a tua personagem apenas dizer ` certo! :) ` ou ` errado! :(` ao jogado
     
     ![screenshot](images/brain-use-function.png)
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
++ Se quiseres mostrar o "certo" e a cruz por um tempo maior ou menor, só precisas fazer uma alteração ao teu código. Experimenta!
 
-+ Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
++ Em vez de apenas mostrar e esconder os ícones "certo" e cruz, podes alterar a tua função de animação, para que os ícones se materializem.
     
     ```blocks
-        define (animação)
-    altera o teu efeito [fantasma v] para (100)
-    mostra-te
-    repete (25) vezes 
-      adiciona ao teu efeito [fantasma v] o valor (-4)
-    end
-    esconde-te
+        define [animate]
+        set [ghost v] effect to (100)
+        show
+        repeat (25)
+            change [ghost v] effect by (-4)
+        end
+        hide
     ```
