@@ -6,7 +6,7 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
 
 + Escolhe uma personagem e um fundo para o teu jogo. Podes escolher a que mais gostares! Exemplo:
     
-    ![captura de ecrã](images/brain-setting.png)
+    ![screenshot](images/brain-setting.png)
 
 + Cria 2 novas variáveis ​​chamadas ` numero 1 ` {: class = "blockdata"} e ` número 2 ` {: class = "blockdata"}. Estas variáveis ​​guardarão os 2 números que vão ser multiplicados.
     
