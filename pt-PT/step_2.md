@@ -16,8 +16,8 @@ Vamos começar por criar perguntas aleatórias para o jogador responder.
     
     ```blocks
         Quando alguém clicar na bandeira verde
-            altera [number 1 v] para (um valor ao acaso entre (2) e (12))
-            altera [number 2 v] para (um valor ao acaso entre (2) e (12))
+            altera [numero 1 v] para (um valor ao acaso entre (2) e (12))
+            altera [numero 2 v] para (um valor ao acaso entre (2) e (12))
     ```
 
 + Podes então pedir ao jogador a resposta e dizer-lhe se está certa ou errada.
