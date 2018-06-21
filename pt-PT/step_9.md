@@ -9,9 +9,9 @@ Podes adicionar efeitos sonoros e música para ao teu jogo? Por exemplo:
 + Tocar um som quando o tempo acabou;
     
     ```blocks
-        play drum (10 v) for (0.1) beats
+        toca a percussão (10 v) durante (0.1) tempos
     ```
 
-+ You could also constantly play music on a loop (if you're not sure how to do this, step 4 of the 'Rock Band' project will help you).
++ Podes também tocar música constantemente num loop (se não tiveres a certeza de como fazeres isso, o passo 4 do projeto 'Rock Band' irá ajudar).
 
 \--- /challenge \---
