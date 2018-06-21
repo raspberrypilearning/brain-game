@@ -10,7 +10,7 @@ Vamos começar por criar perguntas aleatórias para o jogador responder.
 
 + Cria duas novas variáveis ​​chamadas ` numero 1 ` {: class = "blockdata"} e ` número 2 ` {: class = "blockdata"}. Estas variáveis vão ​​guardar os dois números que vão ser multiplicados.
     
-    ![captura de ecrã](images/brain-variables.png)
+    ![screenshot](images/brain-variables.png)
 
 + Adiciona o código à tua personagem, para defenir ambas as variáveis ​​em ` um valor ao acaso entre ` {: class = "blockoperators"} 2 e 12.
     
@@ -36,8 +36,8 @@ Vamos começar por criar perguntas aleatórias para o jogador responder.
 
 + Experimenta o teu projeto duas vezes, na primeira escrevendo uma resposta correta e depois uma resposta incorreta.
 
-+ Adicione um loop ` repete para sempre ` {: class = "blockcontrol"} em torno deste código, de modo que o jogador é questionado com muitas perguntas.
++ Adiciona um loop ` repete para sempre ` {: class = "blockcontrol"} em torno deste código, de modo que o jogador seja questionado com muitas perguntas.
 
-+ Cria um cronometro de conta decrescente no cenário, utilizando uma variável que se chame ` tempo ` {: class = "blockdata"}. O projeto 'Ghostbusters' tem instruções para fazer um temporizador (no passo 5) se você precisar de ajuda!
++ Cria um cronometro decrescente no cenário, utilizando uma variável que se chame ` tempo ` {: class = "blockdata"}. O projeto 'Caça Fantasmas' tem instruções para fazer um temporizador (no passo 5) se precisares de ajuda!
 
-+ Experimenta novamente o teu projeto. Deveras de poder continuar a fazer perguntas até que o tempo acabe.
++ Experimenta novamente o teu projeto. Deves poder continuar a fazer perguntas até que o tempo acabe.
