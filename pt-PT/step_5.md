@@ -4,7 +4,7 @@ Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar múlti
 
 + Cria um novo objeto com um botão de ‘Jogar’, no qual o jogador irá clicar para iniciar um novo jogo. Podes desenha-lho tu mesmo ou editar um actor da biblioteca do Scratch.
     
-    ![captura de ecrã](images/brain-play.png)
+    ![screenshot](images/brain-play.png)
 
 + Adiciona este código ao teu botão novo:
     
@@ -23,19 +23,19 @@ Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar múlti
     
     Substitui o código `quando alguém clicar na bandeira verde` {: classe = "blockevents"} com `quando receberes a mensagem começar ` {: classe = "blockevents"}.
     
-    ![captura de ecrã](images/brain-start.png)
+    ![screenshot](images/brain-start.png)
 
 + Faz clique na bandeira verde e depois pressiona o teu novo botão de jogo para o experimentares. O jogo só deve de começar depois de clicares no botão.
 
 + Reparas-te que o cronómetro começa a contagem quando fazes clique na bandeira verde, e não quando começas o jogo?
     
-    ![captura de ecrã](images/brain-timer-bug.png)
+    ![screenshot](images/brain-timer-bug.png)
     
     Podes resolver este problema?
 
-+ Faz clique no cenário, e substitui o bloco ` pára tudo` Bloco {: class = "blockcontrol"} com uma mensagem ` acabar` {: class = "blockevents"}.
++ Faz clique no cenário, e substitui o bloco ` pára tudo` Bloco {: class = "blockcontrol"} e difunde a mensagem ` acabar` {: class = "blockevents"}.
     
-    ![captura de ecrã](images/brain-end.png)
+    ![screenshot](images/brain-end.png)
 
 + Agora podes adicionar código ao teu botão, para mostrá-lo novamente no final de cada jogo.
     
@@ -51,22 +51,24 @@ Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar múlti
         pára [os teus outros guiões v]
     ```
 
-+ Testa o botão jogando varias vezes. Deverás ver aparecer o botão de jogar depois de cada jogo. Para tornar o teste mais fácil, você pode encurtar cada jogo, de maneira a durar apenas alguns segundos.
++ Testa o botão jogando varias vezes. Deverás ver aparecer o botão de jogar depois de cada jogo. Para tornar o teste mais fácil, podes encurtar o jogo, de maneira a durar apenas alguns segundos.
     
     ```blocks
         altera [tempo v] para [10]
     ```
 
-+ Podes também fazer que a forma do botão mude quando lhe aproximes o rato.
++ Podes também fazer a forma do botão mudar quando lhe aproximas o rato.
     
     ```blocks
-        Quando alguém clicar na bandeira
+        Quando alguém clicar na bandeira verde
         mostra-te
-        repete para sempre
-        se estas a tocar em o ponteiro do rato, entao
-            altera o teu efeito olho de peixe para (30)
-        senao
-            altera o teu efeito olho de peixe para (0)
+        repete para sempre 
+        se <touching [mouse-pointer v]?>, então 
+            altera o teu efeito [olho de peixe v] para (30)
+        senão
+            altera o teu efeito [olho de peixe v] para (0)
+      end
+    end
     ```
     
-    ![captura de ecrã](images/brain-fisheye.png)
+    ![screenshot](images/brain-fisheye.png)
