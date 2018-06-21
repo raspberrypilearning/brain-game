@@ -43,7 +43,7 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 * "Melhorar a animação" - usar loops e efeitos para melhorar a animação dos ícones certo/errado;
 * "Som e música" - consolidar a aprendizagem de loops de música e efeitos sonoros;
 * "Corrida de 10 pontos" - mudar a lógica do jogo para criar um novo objectivo de jogo;
-* "Tela de instruções" - consolidando o uso de transmissão de mensagens para criar um menu do jogo, adicionando um novo botão e tela de "instruções".
+* "Ecrã de instruções" - consolidar o uso da difusão de mensagens para criar um menu do jogo, adicionando um novo botão e ecrã de "instruções".
 
 \--- /collapse \---
 
@@ -53,7 +53,7 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 
 ## Recursos do líder de clube
 
-* [Projeto de Scratch 2 completo para download](resources/BrainGame.sb2)
-* [Projeto de Scratch 2 completado on-line](http://scratch.mit.edu/projects/42225768/#editor)
+* [Projeto acabado em Scratch 2 para descarregar](resources/BrainGame.sb2)
+* [Projeto acabado em Scratch 2 para trabalhar on-line](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
