@@ -1,12 +1,12 @@
 ## Inserir ícones
 
-Em vez de a tua personagem apenas dizer ` sim! :) ` ou ` não :(` ao jogador, vamos inserir alguns ícones para que ajudem o jogador a saber como lhe está a correr.
+Em vez de a tua personagem apenas dizer ` certo! :) ` ou ` errado! :(` ao jogador, vamos inserir alguns ícones para que ajudem o jogador a saber como lhe está a correr.
 
-+ Cria um novo actor com o nome ‘resultado’, que contenha os trajes de ‘certo’ e ‘errado’.
++ Cria um novo actor com o nome ‘resultado’, que contenha os trajes de ‘correcto’ e ‘incorrecto’.
     
     ![screenshot](images/brain-result.png)
 
-+ Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
++ Muda o código do teu personagem, para que em vez de dizer o resultado ao jogador ao jogador difunda mensagens ` certo ` {: class = "blockevents"} e ` errado ` {: class = "blockevents"}.
     
     ![screenshot](images/brain-broadcast-answer.png)
 
