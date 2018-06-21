@@ -29,16 +29,16 @@ Pode encontrar uma versão completa deste projeto [ online ](http://scratch.mit.
 
 ## Objetivos de Aprendizagem
 
-* Este projeto consolida anteriores aprendizagens de linguagens de programação e mostra como as transmissões de mensagens podem ser usadas para criar um sistema simples de jogos com menu.
+* Este projeto consolida anteriores aprendizagens de linguagens de programação e mostra como as difusões de mensagens podem ser usadas para criar um sistema de menu de um jogo simples.
 
 Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry Pi Digital Making ](http://rpf.io/curriculum):
 
-* [Combine construções de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combinar construções de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Desafios
 
-* "Mudança de trajes" - mudando a aparência da personagem do jogo em resposta às respostas corretas e incorretas;
-* "Adicionando uma pontuação" - adicionando um ponto para cada pergunta correta respondida;
+* "Trocar trajes" - mudar a aparência da personagem do jogo em resposta às respostas corretas e incorretas;
+* "Adicionar uma pontuação" - adicionar um ponto para cada pergunta certa respondida;
 * "Tela inicial" - alterar o pano de fundo de palco em resposta a `começar` {: classe = "blockevents"} e `acabar` {: classe = "blockevents"} transmitir mensagens, criando 2 'telas' para o jogo;
 * "Melhorar a animação" - usando loops e efeitos para melhorar a animação gráfica correto/errado;
 * "Som e música" - consolidando a aprendizagem de loops de música e efeitos sonoros;
