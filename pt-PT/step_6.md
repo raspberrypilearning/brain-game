@@ -7,13 +7,13 @@ Consegues inserir outro fundo ao teu cenário, para que se converta no ecrã de 
 Também podes mostrar e ocultar o teu personagem e até mesmo mostrar e ocultar o teu temporizador usando estes blocos:
 
 ```blocks
-show variable [time v]
+mostra a variável [tempo v]
 ```
 
 ```blocks
 esconde a variável [tempo v]
 ```
 
-![captura de ecrã](images/brain-startscreen.png)
+![screenshot](images/brain-startscreen.png)
 
 \--- /challenge \---
