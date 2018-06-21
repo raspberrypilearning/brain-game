@@ -18,13 +18,13 @@ Em vez de a tua personagem apenas dizer ` certo! :) ` ou ` errado! :(` ao jogado
     
     ![screenshot](images/brain-test-answer.png)
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
++ Notaste que o código para ` quando eu recebo a resposta correta? ` {: class = "blockevents"} e ` quando eu recebo a resposta errada ` {: class = "blockevents"} é quase idêntico? Vamos criar uma função para facilitar a alteração do teu código.
     
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
+    No teu actor 'Resultado', clica em ` Mais Blocos ` {: class = "blockmoreblocks"} e, em seguida, "Criar um Bloco". Crie uma nova função chamada ` animação ` {: class = "blockmoreblocks"}.
     
     ![screenshot](images/brain-animate-function.png)
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
++ Podes adicionar o código da animação na tua nova função de animação, e depois usa a função duas vezes:
     
     ![screenshot](images/brain-use-function.png)
 
