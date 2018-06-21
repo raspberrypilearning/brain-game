@@ -2,12 +2,12 @@
 
 ## Desafio: Ecrã de inicio
 
-Podes inserir outro fundo ao teu cenário, para que se converta no ecrã de inicio do jogo? Podes usar os blocos ` Quando receberes a mensagem começar ` {: class = "blockevents"} e ` Quando receberes a mensagem Acabar ` {: class = "blockevents"} para alternar entre os cenários.
+Consegues inserir outro fundo ao teu cenário, para que se converta no ecrã de inicio do jogo? Podes usar os blocos ` Quando receberes a mensagem começar ` {: class = "blockevents"} e ` Quando receberes a mensagem acabar ` {: class = "blockevents"} para alternar entre os cenários.
 
-Também podes mostrar e ocultar teu personagem e até mesmo mostrar e ocultar o teu temporizador usando estes blocos:
+Também podes mostrar e ocultar o teu personagem e até mesmo mostrar e ocultar o teu temporizador usando estes blocos:
 
 ```blocks
-mostra a variável [tempo v]
+show variable [time v]
 ```
 
 ```blocks
