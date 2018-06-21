@@ -17,21 +17,21 @@ Vamos inserir um botão de ‘Jogar’ ao teu jogo, para que possas jogar múlti
            difunde a mensagem [começar v]
     ```
     
-    Este código mostra o botão de jogar quando o projeto começa. Ao clicar no botão, ele esconde-se e envia uma mensagem para que o jogo comece.
+    Este código mostra o botão de jogar quando o projeto começa. Ao clicar no botão, este esconde-se e envia uma mensagem para que o jogo comece.
 
 + Precisas de editar o código da tua personagem para que o jogo comece quando receber a mensagem de `começar` {: classe = "blockevents"}, e não quando a bandeira é clicada.
     
-    Substituir o código `quando clicado bandeira` {: classe = "blockevents"} com `quando eu receber mensagem de começar ` {: classe = "blockevents"}.
+    Substitui o código `quando alguém clicar na bandeira verde` {: classe = "blockevents"} com `quando receberes a mensagem começar ` {: classe = "blockevents"}.
     
     ![captura de ecrã](images/brain-start.png)
 
-+ Faz clique na bandeira verde e depois pressiona o teu novo botão de jogo para o experimentares. O jogo só deve de começar ao fazeres clique em cima do botão.
++ Faz clique na bandeira verde e depois pressiona o teu novo botão de jogo para o experimentares. O jogo só deve de começar depois de clicares no botão.
 
 + Reparas-te que o cronómetro começa a contagem quando fazes clique na bandeira verde, e não quando começas o jogo?
     
     ![captura de ecrã](images/brain-timer-bug.png)
     
-    Podes solucionar este problema?
+    Can you fix this problem?
 
 + Faz clique no cenário, e substitui o bloco ` parar todos ` Bloco {: class = "blockcontrol"} com uma mensagem ` Acabar` {: class = "blockevents"}.
     
