@@ -1,21 +1,21 @@
-## Introduction
+## Uvod
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+U ovom projektu ćete naučiti kako izraditi kviz u kojem igrač treba pogoditi što više točnih odgovora u 30 sekundi.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### Dodatne informacije za voditelje kluba
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Ako želite ispisati ovaj projekt, molimo Vas da upotrijebite ovu [verziju za ispis](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
-## \--- collapse \---
+## \--- više \---
 
-## title: Club leader notes
+## naslov: Bilješke voditelja kluba
 
-## Introduction:
+## Uvod:
 
 In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
 
