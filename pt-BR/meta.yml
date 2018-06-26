@@ -6,10 +6,10 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Brain Game
-description: Learn how to create a quiz.
+title: Jogo de Raciocínio
+description: Aprenda como criar um teste.
 original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
-interests: games
+interests: jogos
 technologies: scratch
 site_areas: projects
 hardware: ''
