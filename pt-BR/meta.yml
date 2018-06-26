@@ -11,31 +11,31 @@ description: Aprenda como criar um teste.
 original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
 interests: jogos
 technologies: scratch
-site_areas: projects
+site_areas: projetos
 hardware: ''
 software: scratch
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Introdução
   - 
-    title: Creating questions
+    title: Criando perguntas
   - 
-    title: 'Challenge: Changing costumes'
+    title: 'Desafio: Trocar fantasias'
   - 
-    title: 'Challenge: Adding a score'
+    title: 'Desafio: Adicionando uma pontuação'
   - 
-    title: Multiple games
+    title: Vários jogos
   - 
-    title: 'Challenge: Start screen'
+    title: 'Desafio: tela inicial'
   - 
-    title: Adding graphics
+    title: Adicionando gráficos
   - 
-    title: 'Challenge: Improved animation'
+    title: 'Desafio: animação melhorada'
   - 
-    title: 'Challenge: Sound and music'
+    title: 'Desafio: som e música'
   - 
-    title: 'Challenge: Race to 10 points'
+    title: 'Desafio: Corrida até 10 pontos'
   - 
     title: 'Challenge: Instruction screen'
