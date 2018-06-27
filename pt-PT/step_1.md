@@ -1,6 +1,6 @@
 ## Introdução
 
-Neste projeto você vai aprender a criar um jogo de perguntas sobre a tabuada de multiplicar, no qual terá responder o máximo de perguntas corretas que conseguir, em 30 segundos.
+Neste projeto vais aprender a criar um jogo de perguntas sobre a tabuada de multiplicar, no qual terás que conseguir responder ao numero máximo de perguntas corretas em 30 segundos.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
@@ -23,7 +23,7 @@ Neste projeto, as crianças aprenderão a fazer um jogo de teste da tabela de mu
 
 Para este projeto, deve ser usado o Scratch 2. O Scratch 2 pode ser usado online em [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) ou pode ser descarregado de [ jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off) para ser usado offline.
 
-Você encontra uma versão completa deste projeto [online](http://scratch.mit.edu/projects/42225768/#editor), ou pode descarregar clicando no link 'Materiais do Projeto' para este projeto, que contém:
+Pode encontrar uma versão completa deste projeto [ online ](http://scratch.mit.edu/projects/42225768/#editor), ou pode descarregar clicando no link 'Materiais do Projeto' para este projeto, que contém:
 
 * BrainGame.sb2
 
@@ -53,7 +53,7 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 
 ## Recursos do líder de clube
 
-* [Projeto acabado em Scratch 2 para descarregar](resources/BrainGame.sb2)
+* [Projeto em Scratch 2 finalizado, para descarregar](resources/BrainGame.sb2)
 * [Projeto acabado em Scratch 2 para trabalhar on-line](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
