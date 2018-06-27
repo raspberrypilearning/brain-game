@@ -29,11 +29,11 @@ Ukończoną wersję tego projektu można znaleźć [online](http://scratch.mit.e
 
 ## Cele dydaktyczne
 
-* Ten projekt umacnia wiedzę nt. poprzednich umiejętności programowania i demostruje jak można korzystać z transmisji celem stworzenia prostego systemu menu w grach.
+* Ten projekt utrwala naukę zdobytych wcześniej umiejętności i pokazuje, jak wykorzystać nadawanie do stworzenia prostego systemu menu gry.
 
-Ten projekt obejmuje elementy z następujących gałęzi [Programu Nauki o Kreatywności Cyfrowej Raspberry Pi.](http://rpf.io/curriculum):
+Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nauczania Raspberry Pi](http://rpf.io/curriculum):
 
-* [Połącz konstrukcje programowania, aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Połącz konstrukcje programistyczne, aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Wyzwania
 
