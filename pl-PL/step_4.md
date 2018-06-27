@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Adding a score
+## Wyzwanie: Dodawanie wyniku
 
-Can you add a score to your game? You can add a point for every correct answer. If you're feeling mean, you could even reset the player's score to 0 if they get a question wrong!
+Czy możesz dodać wynik do swojej gry? Możesz dodać punkt za każdą poprawną odpowiedź. Jeśli chcesz być wredny, możesz nawet zresetować wynik gracza do 0, jeśli odpowie niepoprawnie!
 
 \--- /challenge \---
