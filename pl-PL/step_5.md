@@ -1,20 +1,20 @@
-## Multiple games
+## Wielokrotne gry
 
-Let's add a 'play' button to your game, so that you can play lots of times.
+Dodajmy do gry przycisk "Zagraj", żeby móc zagrać wiele razy.
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
++ Stwórz nowy duszek przycisku "Zagraj", którą gracz kliknie, aby rozpocząć nową grę. Możesz narysować go samodzielnie lub edytować obraz z biblioteki Scratch.
     
     ![screenshot](images/brain-play.png)
 
-+ Add this code to your new button.
++ Dodaj ten kod do nowego przycisku.
     
     ```blocks
-        when flag clicked
-        show
+        kiedy kliknięto zieloną flagę
+    pokaż
     
-        when this sprite clicked
-        hide
-        broadcast [start v]
+    kiedy duszek kliknięty
+    ukryj
+    nadaj [start v]
     ```
     
     This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
