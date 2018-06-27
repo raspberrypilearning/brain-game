@@ -1,6 +1,6 @@
 ## Introdução
 
-Neste projeto vais aprender a criar um jogo de perguntas sobre a tabuada de multiplicar, no qual terás que conseguir responder ao numero máximo de perguntas corretas em 30 segundos.
+Neste projeto você vai aprender a criar um jogo de perguntas sobre a tabuada de multiplicar, no qual terá responder o máximo de perguntas corretas que conseguir, em 30 segundos.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
