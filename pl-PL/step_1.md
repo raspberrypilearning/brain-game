@@ -11,7 +11,7 @@ W ramach tego projektu dowiesz się jak stworzyć quiz z tabliczki mnożenia, w 
 
 Jeśli potrzebujesz wydrukować ten projekt, skorzystaj z [Wersji dla drukarek](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
-## \--- zwiń \---
+## \--- collapse \---
 
 ## tytuł: Notatki prowadzących klub
 
@@ -45,15 +45,15 @@ Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nau
 * "Wyścig do 10 punktów" - zmienianie logiki gry, żeby stworzyć nowy cel gry;
 * "Ekran z instrukcjami" - połączenie użycia komunikatów, aby stworzyć menu gry poprzez dodawanie nowych przycisków do instrukcji i ekranów.
 
-\--- /zwiń \---
+\--- /collapse \---
 
-## \--- zwiń \---
+## \--- collapse \---
 
-## tytuł: Materiały projektu
+## title: Materiały do projektu
 
-## Zasoby dla prowadzącego klub
+## Zasoby dla prowadzących klub
 
 * [Ukończony projekt Scratch 2 do pobrania](resources/BrainGame.sb2)
 * [Ukończony projekt Scratch 2 online](http://scratch.mit.edu/projects/42225768/#editor)
 
-\--- /zwiń \---
+\--- /collapse \---
