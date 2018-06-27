@@ -37,13 +37,13 @@ Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nau
 
 ## Wyzwania
 
-* "Zmiana kostiumów" - zmienianie jak postać z gry wygląda w odpowiedzi na poprawne i niepoprawne odpowiedzi;
+* "Zmiana kostiumów" - zmiana wyglądu postaci gry w odpowiedzi na poprawne i niepoprawne odpowiedzi;
 * "Dodawanie wyniku" - dodanie punktu za każdą poprawnie udzieloną odpowiedź;
-* "Ekran początkowy" - zmienianie tła sceny w odpowiedzi na komunikaty transmisji `start`{:class="blockevents"} oraz `end`{:class="blockevents"}, stworzenie dwóch 'ekranów' gry;
-* "Ulepszona animacja" - korzystanie z pętli oraz efektów w celu ulepszenia dobrej/złej animacji graficznej;
-* "Dźwięk i muzyka" - utrwalanie nauki na temat pętli muzycznych oraz efektów dźwiękowych;
-* "Wyścig do 10 punktów" - zmienianie logiki gry celem stworzenia nowego celu gry;
-* "Ekran z instrukcjami" - lepsze korzystanie z transmisji, aby stworzyć menu gry poprzez dodawanie nowych przycisków do instrukcji i ekranów.
+* "Ekran początkowy" - zmienianie tła sceny w odpowiedzi na nadany komunikat `start`{:class="blockevents"} i `end`{:class="blockevents"}, stworzenie dwóch 'ekranów' gry;
+* "Ulepszona animacja" - korzystanie z pętli oraz efektów w celu ulepszenia animacji poprawnej/złej odpowiedzi;
+* "Dźwięk i muzyka" - utrwalanie wiedzy na temat pętli muzycznych oraz efektów dźwiękowych;
+* "Wyścig do 10 punktów" - zmienianie logiki gry, żeby stworzyć nowy cel gry;
+* "Ekran z instrukcjami" - połączenie użycia komunikatów, aby stworzyć menu gry poprzez dodawanie nowych przycisków do instrukcji i ekranów.
 
 \--- /zwiń \---
 
