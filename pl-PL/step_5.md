@@ -17,21 +17,21 @@ Dodajmy do gry przycisk "Zagraj", żeby móc zagrać wiele razy.
     nadaj [start v]
     ```
     
-    This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
+    Ten kod pokazuje przycisk "Zagraj" po uruchomieniu projektu. Po kliknięciu przycisku jest on ukrywany, a następnie nadajemy komunikat, który uruchomi grę.
 
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
++ Będziesz musiał edytować kod swojej postaci, aby gra zaczęła się, gdy otrzymasz komunikat `start`{:class="blockevents"}, a nie po kliknięciu flagi.
     
-    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
+    Zamień `kiedy kliknięto zieloną flagę`{:class="blockevents"} na `kiedy otrzymam [start v]`{:class="blockevents"}.
     
     ![screenshot](images/brain-start.png)
 
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
++ Kliknij zieloną flagę, a następnie kliknij nowy przycisk odtwarzania, aby go przetestować. Powinieneś zobaczyć, że gra nie rozpocznie się, dopóki przycisk nie zostanie kliknięty.
 
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
++ Czy zauważyłeś, że licznik czasu zaczyna się po kliknięciu zielonej flagi, a nie po rozpoczęciu gry?
     
     ![screenshot](images/brain-timer-bug.png)
     
-    Can you fix this problem?
+    Czy możesz rozwiązać ten problem?
 
 + Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
     
