@@ -1,43 +1,42 @@
-## Creating questions
+## Tworzenie pytań
 
-Let's start by creating random questions for the player to answer.
+Zacznijmy od stworzenia losowych pytań, na które gracz odpowie.
 
-+ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Otwórz nowy projekt Scratch i usuń obrazek kota, aby twój projekt był pusty. Możesz użyć edytor Scratch online pod adresem <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ Wybierz postać i tło dla swojej gry. Możesz wybrać, co chcesz! Na przykład:
     
-    ![screenshot](images/brain-setting.png)
+    ![zrzut ekranu](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ Utwórz 2 nowe zmienne o nazwie `numer 1`{:class="blockdata"} i `numer 2`{:class="blockdata"}. Te zmienne przechowują 2 liczby, które będą mnożone razem.
     
-    ![screenshot](images/brain-variables.png)
+    ![zrzut ekranu](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
-    
-    ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
-    ```
-
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ Dodaj kod do swojej postaci, aby ustawić obie te zmienne na `losuj`{:class="blockoperators"} od 2 do 12.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
-        ask (join (number 1)(join [ x ] (number 2))) and wait
-        if <(answer) = ((number 1)*(number 2))> then
-            say [yes! :)] for (2) secs
-        else
-            say [nope :(] for (2) secs
-        end
+        kiedy kliknięto zieloną flagę
+    ustaw [numer 1 v] na (losuj od (2) do (12))
+    ustaw [numer 2 v] na (losuj od (2) do (12))
     ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ Następnie możesz poprosić gracza o odpowiedź i dać im znać, czy są poprawne, czy nie.
+    
+    ```blocks
+        kiedy kliknięto zieloną flagę
+    ustaw [numer 1 v] na (losuj od (2) do (12))
+    ustaw [numer 2 v] na (losuj od (2) do (12))
+    zapytaj (połącz (numer 1) i (połącz [ x ] i (numer 2))) i czekaj
+    jeżeli <(odpowiedz) = ((numer 1) * (numer 2))> to 
+      powiedz [zgadza się! :)] przez (2) s
+      powiedz [nie bardzo :(] przez (2) s
+    end
+    ```
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ Sprawdź swój projekt dokładnie, odpowiadając jedno na pytanie poprawnie i na jedno podając błędną odpowiedź.
 
-+ Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
++ Dodaj pętlę `zawsze`{:class="blockcontrol"} dookoła tego kodu, żeby zadawać graczowi mnóstwo pytań.
 
-+ Test your project again - you should be able to continue asking questions until the time runs out.
++ Utwórz zegar odliczający czas na scenie, używając zmiennej o nazwie `czas`{:class="blockdata"}. Projekt "Ghostbusters" zawiera instrukcje dotyczące tworzenia timera (w punkcie 5), jeśli potrzebujesz pomocy!
+
++ Ponownie przetestuj swój projekt - powinieneś móc zadawać pytania, aż skończy się czas.
