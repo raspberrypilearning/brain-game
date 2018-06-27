@@ -27,7 +27,7 @@ Ukończoną wersję tego projektu można znaleźć [online](http://scratch.mit.e
 
 * BrainGame.sb2
 
-## Cele kształcenia
+## Cele dydaktyczne
 
 * Ten projekt umacnia wiedzę nt. poprzednich umiejętności programowania i demostruje jak można korzystać z transmisji celem stworzenia prostego systemu menu w grach.
 
