@@ -1,4 +1,4 @@
-## Adding graphics
+## Dodawanie grafiki
 
 Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
 
