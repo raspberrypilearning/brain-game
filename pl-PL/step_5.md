@@ -4,7 +4,7 @@ Dodajmy do gry przycisk "Zagraj", żeby móc zagrać wiele razy.
 
 + Stwórz nowy duszek przycisku "Zagraj", którą gracz kliknie, aby rozpocząć nową grę. Możesz narysować go samodzielnie lub edytować obraz z biblioteki Scratch.
     
-    ![screenshot](images/brain-play.png)
+    ![zrzut ekranu](images/brain-play.png)
 
 + Dodaj ten kod do nowego przycisku.
     
@@ -23,52 +23,52 @@ Dodajmy do gry przycisk "Zagraj", żeby móc zagrać wiele razy.
     
     Zamień `kiedy kliknięto zieloną flagę`{:class="blockevents"} na `kiedy otrzymam [start v]`{:class="blockevents"}.
     
-    ![screenshot](images/brain-start.png)
+    ![zrzut ekranu](images/brain-start.png)
 
 + Kliknij zieloną flagę, a następnie kliknij nowy przycisk odtwarzania, aby go przetestować. Powinieneś zobaczyć, że gra nie rozpocznie się, dopóki przycisk nie zostanie kliknięty.
 
 + Czy zauważyłeś, że licznik czasu zaczyna się po kliknięciu zielonej flagi, a nie po rozpoczęciu gry?
     
-    ![screenshot](images/brain-timer-bug.png)
+    ![zrzut ekranu](images/brain-timer-bug.png)
     
     Czy możesz rozwiązać ten problem?
 
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
++ Kliknij na scenie i zamień wszystkie `zatrzymaj wszystko`{:class="blockcontrol"} bloki na komunikat `koniec`{:class="blockevents"}.
     
-    ![screenshot](images/brain-end.png)
+    ![zrzut ekranu](images/brain-end.png)
 
-+ You can now add code to your button, to show it again at the end of each game.
++ Możesz teraz dodać kod do przycisku, aby pokazać go ponownie na końcu każdej gry.
     
     ```blocks
-        when I receive [end v]
-        show
+        kiedy otrzymam [koniec v]
+    pokaż
     ```
 
-+ You'll also need to stop your character asking questions at the end of each game:
++ Będziesz także musiał przestać zadawać pytania dla swojej postaci pod koniec każdej gry:
     
     ```blocks
-        when I receive [end v]
-        stop [other scripts in sprite v]
+        kiedy otrzymam [end v]
+    zatrzymaj [inne skrypty duszka v]
     ```
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
++ Sprawdź swój przycisk odtwarzania, grając w kilka gier. Powinieneś zauważyć, że przycisk "Zagraj" pokazuje po każdej grze. Aby ułatwić testowanie, możesz skrócić każdą grę, tak, aby trwała tylko kilka sekund.
     
     ```blocks
-        set [time v] to [10]
+        ustaw [godzina v] na [10]
     ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ Możesz nawet zmienić wygląd przycisku, gdy najedzie na niego mysz.
     
     ```blocks
-        when flag clicked
-        show
-        forever
-        if <touching [mouse-pointer v]?> then
-            set [fisheye v] effect to (30)
-        else
-            set [fisheye v] effect to (0)
-        end
-        end
+        kiedy kliknięto zieloną flagę
+    pokaż
+    zawsze 
+      jeżeli <touching [mouse-pointer v]?> to 
+        ustaw efekt [rybie oko v] na (30)
+     w przeciwnym razie
+        ustaw efekt [rybie oko v] na (0)
+      end
+    end
     ```
     
-    ![screenshot](images/brain-fisheye.png)
+    ![zrzut ekranu](images/brain-fisheye.png)
