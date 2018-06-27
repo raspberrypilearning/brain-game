@@ -13,7 +13,7 @@ Jeśli potrzebujesz wydrukować ten projekt, skorzystaj z [Wersji dla drukarek](
 
 ## \--- zwiń \---
 
-## tytuł: Notatki prowadzącego klub
+## tytuł: Notatki prowadzących klub
 
 ## Wprowadzenie:
 
@@ -21,7 +21,7 @@ W ramach tego projektu, dzieci nauczą się jak stworzyć grę na temat tabliczk
 
 ## Zasoby
 
-Do tego projektu należy użyć Scratch 2. Scratch 2 można używać w internecie pod [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) lub też pobrać z [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) dla celów offline.
+Do tego projektu należy użyć Scratch 2. Scratch 2 można używać online pod [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) albo pobrać z [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) do użycia w trybie offline.
 
 Ukończoną wersję tego projektu można znaleźć [online](http://scratch.mit.edu/projects/42225768/#editor) lub też można ją pobrać klikając w link 'Materiały Projektu' w tym projekcie, który zawiera:
 
