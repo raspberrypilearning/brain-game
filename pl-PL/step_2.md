@@ -2,7 +2,7 @@
 
 Zacznijmy od stworzenia losowych pytań, na które gracz odpowie.
 
-+ Otwórz nowy projekt Scratch i usuń obrazek kota, aby twój projekt był pusty. Możesz użyć edytor Scratch online pod adresem <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
++ Otwórz nowy projekt Scratch i usuń duszek kota, aby twój projekt był pusty. Możesz użyć edytor Scratch online pod adresem <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
 
 + Wybierz postać i tło dla swojej gry. Możesz wybrać, co chcesz! Na przykład:
     
