@@ -18,24 +18,24 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: Creating questions
+    title: إنشاء أسئلة
   - 
-    title: 'Challenge: Changing costumes'
+    title: 'التحدي: تغيير المظاهر'
   - 
-    title: 'Challenge: Adding a score'
+    title: 'التحدي: إضافة درجة'
   - 
-    title: Multiple games
+    title: ألعاب متعددة
   - 
-    title: 'Challenge: Start screen'
+    title: 'التحدي: شاشة البدء'
   - 
-    title: Adding graphics
+    title: إضافة رسومات
   - 
-    title: 'Challenge: Improved animation'
+    title: 'التحدي: رسوم متحركة محسنة'
   - 
-    title: 'Challenge: Sound and music'
+    title: 'التحدي: الصوت والموسيقى'
   - 
-    title: 'Challenge: Race to 10 points'
+    title: 'التحدي: سباق حتى 10 نقاط'
   - 
-    title: 'Challenge: Instruction screen'
+    title: 'التحدي: شاشة التعليمات'
