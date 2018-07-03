@@ -29,16 +29,16 @@ Sie können eine vollständige Version dieses Projekts unter [online](http://scr
 
 ## Lernziele
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* Dieses Projekt festigt die bisher gelernten Programmierfertigkeiten und zeigt anhand eines Beispiels wie die Funktion Nachricht in Verbindung mit einem Spielmenü in Scratch verwendet werden kann.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Problemlösung durch Kombination von Programmierstrukturen.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Herausforderungen
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
-* "Adding a score" - adding a point for every correct question answered;
+* "Kostümwechsel" - Veränderung des Aussehens der Spielfigur in Abhängigkeit der richtigen bzw. falschen Antwort;
+* "Einbau eines Punktezählers" - Hinzufügen eines Punktes zum Spielstand für jede richtige Antwort;
 * "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
 * "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
 * "Sound and music" - consolidating learning of music loops and sound effects;
