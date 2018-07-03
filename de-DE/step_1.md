@@ -21,13 +21,13 @@ In diesem Projekt lernen Kinder, wie sie ein Quiz mit Kopfrechnungsübungen zur 
 
 ## Benötigtes Material
 
-Für dieses Projekt sollte Scratch in der Version 2 verwendet werden. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Für dieses Projekt sollte Scratch in der Version 2 verwendet werden. Scratch 2 kann hierfür in der Online-Variante unter [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) verwendet werden oder in der Offline-Variante unter [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) heruntergeladen werden.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Sie können eine vollständige Version dieses Projekts unter [online](http://scratch.mit.edu/projects/42225768/#editor) aufrufen oder über Klick auf den Link 'Projektmaterial' heruntergeladen werden. Dieser beinhaltet:
 
 * BrainGame.sb2
 
-## Learning Objectives
+## Lernziele
 
 * This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
 
