@@ -1,8 +1,8 @@
-## Creating questions
+## Erzeugen von Aufgaben
 
-Let's start by creating random questions for the player to answer.
+Beginne damit zufällige Fragen zu generieren, die der Spieler beantworten soll.
 
-+ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Starte mit einem neuen Scratch-Projekt und lösche die Spielfigur 'Katze". Dein Projekt ist nun leer. Du findest den Online-Editor für Scratch unter <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
 + Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
     
