@@ -4,23 +4,23 @@ Beginne damit zufällige Fragen zu generieren, die der Spieler beantworten soll.
 
 + Starte mit einem neuen Scratch-Projekt und lösche die Spielfigur 'Katze". Dein Projekt ist nun leer. Du findest den Online-Editor für Scratch unter <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ Wähle eine Spielfigur und einen passenden Bühnenhintergrund für dein Spiel. Entscheide selbst, wie dein Spiel aussehen soll! Hier ein Beispiel:
     
     ![screenshot](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ Erstelle 2 neue Variablen mit den Namen `Zahl 1`{:class="blockdata"} und `Zahl 2`{:class="blockdata"}. Diese beiden Variablen speichern die beiden Zahlen, die miteinander multipliziert werden sollen.
     
     ![screenshot](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
++ Füge deiner Spielfigur Programmcode hinzu, damit beide Variablen per Zufall eine Zahl zwischen 2 und 12 zugewiesen bekommen `random`{:class="blockoperators"}.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
+        wenn Fahne angeklickt
+    setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
+    setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
     ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ Du kannst nun deinen Spieler nach der Antwort fragen und ihn wissen lassen. ob diese falsch oder richtig ist.
     
     ```blocks
         when flag clicked
