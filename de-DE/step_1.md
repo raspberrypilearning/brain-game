@@ -11,7 +11,7 @@ In diesem Projekt lernst du, wie du ein Quiz mit Kopfrechnungsübungen zur Multi
 
 Wenn du dieses Projekt ausdrucken möchtest, verwende die Option [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
-## Aus- und Einklappen
+## \--- collapse \---
 
 ## title: Hinweise für Gruppenleiter
 
@@ -49,11 +49,11 @@ Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Projektmaterial
 
-## Club leader resources
+## Material für Gruppenleiter
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Vollständiges Scratch 2-Projekt zum Herunterladen](resources/BrainGame.sb2)
+* [Vollständiges Scratch 2-Projekt online](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
