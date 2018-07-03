@@ -1,27 +1,27 @@
-## Introduction
+## Einführung
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+In diesem Projekt lernst du, wie du ein Quiz mit Kopfrechnungsübungen zur Multiplikation erstellst. In diesem Spiel sollst du versuchen, in 30 Sekunden möglichst viele richtige Antworten zu geben.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### Ergänzende Informationen für Gruppenleiter
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Wenn du dieses Projekt ausdrucken möchtest, verwende die Option [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
-## \--- collapse \---
+## Aus- und Einklappen
 
-## title: Club leader notes
+## title: Hinweise für Gruppenleiter
 
-## Introduction:
+## Einführung
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+In diesem Projekt lernen Kinder, wie sie ein Quiz mit Kopfrechnungsübungen zur Multiplikation erstellen. Ziel des Spiels ist es, in 30 Sekunden möglichst viele richtige Antworten zu geben.
 
-## Resources
+## Benötigtes Material
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Für dieses Projekt sollte Scratch in der Version 2 verwendet werden. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
 
 You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
 
