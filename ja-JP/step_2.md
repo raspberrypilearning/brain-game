@@ -1,10 +1,10 @@
-## Creating questions
+## 質問の作成
 
-Let's start by creating random questions for the player to answer.
+まずは適当な質問を作って、プレーヤーが答えられるようにしましょう。
 
-+ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ • 新しいスクラッチのプロジェクトを開いたら、まずネコのキャラクターを消してプロジェクトをからっぽにしましょう。 オンラインのエディターはここから開きます： <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>。
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ ゲームのキャラクターと背景を選びましょう。どれでも好きなものを選べます！ 例えばこんな感じです。
     
     ![screenshot](images/brain-setting.png)
 
