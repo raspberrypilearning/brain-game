@@ -1,59 +1,59 @@
-## Introduction
+## はじめに
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+このプロジェクトでは、30秒でできるだけたくさんのかけ算を解くクイズの作り方を学びます。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### クラブリーダーのための追加情報
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/brain-game/print)を使用してください。
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title：クラブリーダー・ノート
 
-## Introduction:
+## はじめに
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+このプロジェクトでは、30秒でできるだけたくさんのかけ算を解くクイズの作り方を学びます。
 
-## Resources
+## 資料
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+このプロジェクトでは、スクラッチ2を使用して下さい。 スクラッチ2は、オンラインで使用できます。 [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) また、こちら[jumpto.cc/scratchoff](http://jumpto.cc/scratch-off) からダウンロードしてオフラインで使用する事も可能です。
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+このプロジェクトの完成版は [こちら](http://scratch.mit.edu/projects/42225768/#editor)から確認できます。また、「プロジェクト資料のダウンロード」をクリックしてダウンロードすることもできます。中身は下記の通りです。
 
 * BrainGame.sb2
 
-## Learning Objectives
+## 学習のねらい
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* このプロジェクトは以前学んだプログラミングの方法をまとめ、シンプルなゲームのメニューを作るために「メッセージ」を送る方法を学びます。
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+このプロジェクトは [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum)の中から、以下の内容を取り扱います：
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [プログラミング構造を組み合わせて問題を解決する。](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## チャレンジ
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
-* "Adding a score" - adding a point for every correct question answered;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
-* "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-* "Sound and music" - consolidating learning of music loops and sound effects;
-* "Race to 10 points" - changing the game logic to create a new game objective;
-* "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
+* 「コスチュームを変える」：答えが正しいかどうかによって、キャラクターの見た目を変更します。
+* 「得点をつける」：正しく答えるごとに１点ずつ増やします。
+* 「スタート画面」：2つのゲーム画面を作り、 `スタート` {:class="blockevents"}と `終わり` {:class="blockevents"} のメッセージを送ることで背景を切りかえます。
+* 「アニメーション」：ループや特殊効果を使って、「正しい」か「間違い」か表示するアニメーションを加えます。
+* 「効果音と音楽」：音楽ループと効果音の学習のまとめを行います。
+* 「10点を目指す」：ゲームのロジックを変えて、新しい目的のゲームに変更します。
+* 「使い方の画面」：ゲームメニューを作成するメッセージの使用方法のまとめとして、「インストラクション」ボタンを作ります。
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: プロジェクト資料
 
-## Club leader resources
+## 指導者用資料
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [完成版Scratch2プロジェクト（ダウンロード）](resources/BrainGame.sb2)
+* [完成版Scratch2プロジェクト（オンライン）](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
