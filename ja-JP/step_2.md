@@ -8,7 +8,7 @@
     
     ![screenshot](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ 2つの変数ボックス`変数１`{:class="blockdata"} と`変数２`{:class="blockdata"}をつくります。これらのボックスには、かけ算に使用する2つの数字が入ります。
     
     ![screenshot](images/brain-variables.png)
 
