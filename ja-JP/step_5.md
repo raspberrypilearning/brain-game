@@ -1,74 +1,74 @@
-## Multiple games
+## 何回もプレーする
 
-Let's add a 'play' button to your game, so that you can play lots of times.
+ゲームに「プレー」（Play）というボタンを加えて、たくさんの問題を出しましょう。
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
++ 「プレー」ボタンを作って、プレーヤーがクリックしたときに新しいゲームを始められるようにしましょう。自分で絵をかくことも、スクラッチでつくることもできます。
     
-    ![screenshot](images/brain-play.png)
+    ![スクリーンショット](images/brain-play.png)
 
-+ Add this code to your new button.
++ 新しく作ったボタンにコードを加えます。
     
     ```blocks
-        when flag clicked
-        show
+        ⚑ がクリックされたとき
+    表示する
     
-        when this sprite clicked
-        hide
-        broadcast [start v]
+    このスプライトがクリックされたとき
+    隠す
+    [start v] を送る
     ```
     
-    This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
+    このコードを使うと、プロジェクトが始まる時に「プレー」ボタンを表示することができます。ボタンはクリックすると消えて、ゲームをスタートするメッセージを送ります。
 
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
++ メッセージを受け取ったときにゲームが始まるように、キャラクターのコードを下のように変えてください。
     
-    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
+    `フラグがクリックされたとき`{:class="blockevents"} を`スタートを受け取った時`{:class="blockevents"} と取りかえてください。
     
-    ![screenshot](images/brain-start.png)
+    ![スクリーンショット](images/brain-start.png)
 
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
++ 緑のフラグをクリックしたあと、新しく作った「プレー」ボタンをクリックしてテストしてみましょう。クリックするまでは、ゲームは始まらないはずです。
 
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
++ 緑のフラグをクリックすると、ゲームが始まっていないのにタイマーが動きだしてしまうことに気がつきましたか？
     
-    ![screenshot](images/brain-timer-bug.png)
+    ![スクリーンショット](images/brain-timer-bug.png)
     
-    Can you fix this problem?
+    この問題をなおすことはできますか？
 
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
++ `「すべて」`{:class="blockcontrol"} を止める を`「終わり」`{:class="blockevents"} を送ると取りかえてください。
     
-    ![screenshot](images/brain-end.png)
+    ![スクリーンショット](images/brain-end.png)
 
-+ You can now add code to your button, to show it again at the end of each game.
++ ゲームが終わったらボタンを表示するために下のようなコードを加えてください。
     
     ```blocks
-        when I receive [end v]
-        show
+        [end v] を受け取ったとき
+    表示する
     ```
 
-+ You'll also need to stop your character asking questions at the end of each game:
++ ゲームが終わったあと、キャラクターを止めることをわすれないでください。
     
     ```blocks
-        when I receive [end v]
-        stop [other scripts in sprite v]
+        [end v] を受け取ったとき
+    [スプライトの他のスクリプト v] を止める
     ```
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
++ 何回かゲームをして「プレー」ボタンをテストしてみましょう。 ゲームが終わったあと、「プレー」ボタンが出てくるのに気がつきましたか？ かんたんにテストができるように「時間」の数字を小さくしましょう。
     
     ```blocks
-        set [time v] to [10]
+        [時 v] を [10] にする
     ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ マウスポインターに触れたときに、ボタンの見た目を変えることもできます。
     
     ```blocks
-        when flag clicked
-        show
-        forever
-        if <touching [mouse-pointer v]?> then
-            set [fisheye v] effect to (30)
-        else
-            set [fisheye v] effect to (0)
-        end
-        end
+        ⚑ がクリックされたとき
+    表示する
+    ずっと 
+      もし <[マウスのポインター v] に触れた> なら 
+        [魚眼レンズ v] の効果を (30) にする
+      でなければ
+        [魚眼レンズ v] の効果を (0) にする
+      end
+    end
     ```
     
-    ![screenshot](images/brain-fisheye.png)
+    ![スクリーンショット](images/brain-fisheye.png)
