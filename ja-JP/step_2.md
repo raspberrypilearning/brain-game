@@ -12,31 +12,30 @@
     
     ![screenshot](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
++ 2から12までの数を変数ボックスにセットするためのコードを、作ったキャラクターに追加します。
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
+        ⚑ がクリックされたとき
+      [number 1 v] を ((2) から (12) までの乱数) にする
+      [number 2 v] を ((2) から (12) までの乱数) にする
     ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ プレーヤーが答を入れたら、正しいか間違いかを知らせるようにします。
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
-        ask (join (number 1)(join [ x ] (number 2))) and wait
-        if <(answer) = ((number 1)*(number 2))> then
-            say [yes! :)] for (2) secs
-        else
-            say [nope :(] for (2) secs
-        end
+        ⚑ がクリックされたとき
+    [number 1 v] を ((2) から (12) までの乱数) にする
+    [number 2 v] を ((2) から (12) までの乱数) にする
+    ((number 1) と ([ x ] と (number 2))) と聞いて待つ
+    もし <(answer) = ((number 1) * (number 2))> なら 
+      [yes! :)] と (2) 秒言う でなければ  
+    [nope :(] と (2) 秒言う
+    end
     ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ 正しい答を入れたり、わざと間違えたりして、プロジェクトをテストしてみましょう。
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ プレーヤーにたくさん質問できるように、コードに`ずっと`{:class="blockcontrol"}を加えましょう。
 
 + Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
 
