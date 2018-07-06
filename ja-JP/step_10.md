@@ -1,19 +1,19 @@
 \--- challenge \---
 
-## Challenge: Race to 10 points
+## チャレンジ：10点を目ざす
 
-Can you change your game, so that instead of answering as many questions as they can in 30 seconds, the player has to see how quickly they can get 10 questions correct?
+これまでは30秒でできるだけ多く答えるゲームでしたが、今度はできるだけ早く10回答えるゲームに変えてみましょう。
 
-To do this, you'll only need to change your timer code. Can you see what needs to be changed?
+そのためには、タイマーのコードを変えれば良いだけなのです。どこを変えれば良いかわかりますか？
 
 ```blocks
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) secs
-        change [time v] by (-1)
-    end
-    broadcast [end v]
+    [start v] を受け取ったとき
+[時 v] を (30) にする
+<(time) = [0]> まで繰り返す 
+  (1) 秒待つ
+  [時 v] を (-1) ずつ変える
+end
+[end v] を送る
 ```
 
 \--- /challenge \---
