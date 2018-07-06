@@ -6,11 +6,11 @@
 
 + ゲームのキャラクターと背景を選びましょう。どれでも好きなものを選べます！ 例えばこんな感じです。
     
-    ![screenshot](images/brain-setting.png)
+    ![スクリーンショット](images/brain-setting.png)
 
 + 2つの変数ボックス`変数１`{:class="blockdata"} と`変数２`{:class="blockdata"}をつくります。これらのボックスには、かけ算に使用する2つの数字が入ります。
     
-    ![screenshot](images/brain-variables.png)
+    ![スクリーンショット](images/brain-variables.png)
 
 + 2から12までの数を変数ボックスにセットするためのコードを、作ったキャラクターに追加します。
     
@@ -37,6 +37,6 @@
 
 + プレーヤーにたくさん質問できるように、コードに`ずっと`{:class="blockcontrol"}を加えましょう。
 
-+ Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
++ `時間`{:class="blockdata"}という変数を使って、カウントダウンのタイマーを作りましょう。「ゴーストバスター」プロジェクトを見れば、タイマーの作り方がわかります。
 
-+ Test your project again - you should be able to continue asking questions until the time runs out.
++ もう一度テストしてみましょう。今度は時間切れまでずっと問題が出てくるはずです。
