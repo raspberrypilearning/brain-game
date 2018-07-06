@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Instruction screen
+## チャレンジ：使い方の画面
 
-Can you add an instructions screen to your game, telling your player how to play the game? You'll need an 'Instructions' button, and another stage background.
+ゲームに使い方の画面を加えて、プレーヤーにゲームの遊び方を教えることはできますか？「インストラクション」ボタンともう一つの背景が必要になります。
 
-![screenshot](images/brain-instructions.png)
+![スクリーンショット](images/brain-instructions.png)
 
-You may also need a 'Back' button to take you to the main menu.
+メニューに戻れるように、「戻る」ボタンも加えたほうが良いでしょう。
 
 ```blocks
-    broadcast [main menu v]
+    [main menu v] を送る
 ```
 
 \--- /challenge \---
