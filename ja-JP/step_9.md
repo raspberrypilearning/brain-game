@@ -1,17 +1,17 @@
 \--- challenge \---
 
-## Challenge: Sound and music
+## チャレンジ：効果音と音楽
 
-Can you add sound effects and music to your game? For example:
+効果音や音楽をゲームに加えることはできるでしょうか？たとえば：
 
-+ Playing a sound when the player gets an answer right or wrong;
-+ Adding a ticking sound to your countdown timer;
-+ Playing a sound when the time is up;
++ プレーヤーの答えが正しいか間違っているかによって、音を鳴らす
++ タイマーのカウントにあわせて、チクタク音を鳴らす
++ 時間切れの時に音を鳴らす
     
     ```blocks
-        play drum (10 v) for (0.1) beats
+        (10 v) のドラムを (0.1) 拍鳴らす
     ```
 
-+ You could also constantly play music on a loop (if you're not sure how to do this, step 4 of the 'Rock Band' project will help you).
++ ループで音楽を流し続けることもできます。（やり方がわからない場合、「ロックバンド」プロジェクトのステップ４を見てみましょう。）
 
 \--- /challenge \---
