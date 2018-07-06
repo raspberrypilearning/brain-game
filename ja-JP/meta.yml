@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Brain Game
-description: Learn how to create a quiz.
+title: 脳力ゲーム
+description: クイズを作成する方法を学びます。
 original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
 interests: games
 technologies: scratch
@@ -18,24 +18,24 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: はじめに
   - 
-    title: Creating questions
+    title: 質問の作成
   - 
-    title: 'Challenge: Changing costumes'
+    title: 'チャレンジ：コスチュームを変える'
   - 
-    title: 'Challenge: Adding a score'
+    title: 'チャレンジ：得点をつける'
   - 
-    title: Multiple games
+    title: 何回もプレーする
   - 
-    title: 'Challenge: Start screen'
+    title: 'チャレンジ: スタート画面'
   - 
-    title: Adding graphics
+    title: 記号を表示する
   - 
-    title: 'Challenge: Improved animation'
+    title: 'チャレンジ：アニメーション'
   - 
-    title: 'Challenge: Sound and music'
+    title: 'チャレンジ：効果音と音楽'
   - 
-    title: 'Challenge: Race to 10 points'
+    title: 'チャレンジ：10点を目ざす'
   - 
-    title: 'Challenge: Instruction screen'
+    title: 'チャレンジ：使い方の画面'
