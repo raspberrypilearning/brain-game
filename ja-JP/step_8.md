@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Improved animation
+## チャレンジ：アニメーション
 
-Can you improve the animation of your graphics? You could code the tick and cross so that they fade out as well as fade in. Or, you could use other cool effects:
+画像のアニメーションをもっと良くすることはできるでしょうか？フェードインやフェードアウトを使うこともできますし、他にも楽しい効果を使うことができます。
 
-![screenshot](images/brain-effects.png)
+![スクリーンショット](images/brain-effects.png)
 
 \--- /challenge \---
