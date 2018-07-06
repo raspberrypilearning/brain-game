@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Changing costumes
+## チャレンジ：コスチュームを変える
 
-Can you change your character's costumes, so that they respond to the player's answer?
+プレーヤーの答によって、キャラクターの見た目を変えることはできますか？
 
-![screenshot](images/brain-costume.png)
+![スクリーンショット](images/brain-costume.png)
 
 \--- /challenge \---
