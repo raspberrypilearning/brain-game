@@ -4,40 +4,40 @@
 
 + أنشئ كائنًا جديدًا يُسمى 'النتيجة'، يحتوي على مظهر '✓' ومظهر '✘'.
     
-    ![screenshot](images/brain-result.png)
+    ![لقطة الشاشة](images/brain-result.png)
 
-+ Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
++ غيِّر التعليمة البرمجية للشخصية، بحيث تبث رسالَتي `صح`{:class="blockevents"} و`خطأ`{:class="blockevents"} بدلًا من النطق بالنتيجة.
     
-    ![screenshot](images/brain-broadcast-answer.png)
+    ![لقطة الشاشة](images/brain-broadcast-answer.png)
 
-+ You can now use these messages to show the 'tick' or 'cross' costume. Add this code to your new 'Result' sprite:
++ يمكنك الآن استخدام هاتين الرسالتين لإظهار مظهر '✓' أو مظهر '✘'. أضف هذه التعليمة البرمجية إلى كائن 'النتيجة' الجديد:
     
-    ![screenshot](images/brain-show-answer.png)
+    ![لقطة الشاشة](images/brain-show-answer.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
++ اختبر لعبتك مرة أخرى. سترى علامة ✓ عندما تجيب إجابة صحيحة، وعلامة ✘ عندما تجيب إجابة غير صحيحة!
     
-    ![screenshot](images/brain-test-answer.png)
+    ![لقطة الشاشة](images/brain-test-answer.png)
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
++ هل لاحظتَ أن التعليمتَين البرمجيتَين لكل من `عندما أتلقى صح`{:class="blockevents"} و`عندما أتلقى خطأ`{:class="blockevents"} متماثلتَان تقريبًا؟ لننشئ دالة تسهِّل عليك إجراء التغييرات على التعليمة البرمجية.
     
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
+    بكائن 'النتيجة'، انقر فوق `قوالب أخرى`{:class="blockmoreblocks"}، ثم انقر فوق 'إنشاء قالب'. أنشئ دالة جديدة تُسمى `تحريك`{:class="blockmoreblocks"}.
     
-    ![screenshot](images/brain-animate-function.png)
+    ![لقطة الشاشة](images/brain-animate-function.png)
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
++ يمكنك عندئذٍ إضافة التعليمة البرمجية الخاصة بالرسم المتحرك إلى دالة الرسم المتحرك الجديدة، ومن ثَمَّ استخدام الدالة مرتين فحسب:
     
-    ![screenshot](images/brain-use-function.png)
+    ![لقطة الشاشة](images/brain-use-function.png)
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
++ والآن، إذا كنت تريد إظهار علامة (صح) وعلامة (خطأ) لوقت أطول أو أقصر، فكل ما تحتاج إليه هو إجراء تغيير واحد على التعليمة البرمجية. جربها!
 
-+ Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
++ بدلًا من مجرد إظهار علامتَي (صح) و(خطأ) وإخفائهما، يمكنك تغيير دالة الرسم المتحرك، بحيث تتلاشى الرسومات.
     
     ```blocks
-        define [animate]
-        set [ghost v] effect to (100)
-        show
-        repeat (25)
-            change [ghost v] effect by (-4)
-        end
-        hide
+        	تعريف [animate]
+     	اجعل تأثير [الشبح v] مساوياً (100)
+     	اظهر
+     	كرِّر (25) مرة 
+     	  غيِّر تأثير [الشبح v] بمقدار (-4)
+     	end
+     	اختف
     ```
