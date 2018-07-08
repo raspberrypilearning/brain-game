@@ -23,19 +23,19 @@
     
     استبدل التعليمة البرمجية `عند النقر على العلم`{:class="blockevents"} بالتعليمة `عندما أتلقى بدء`{:class="blockevents"}.
     
-    ![screenshot](images/brain-start.png)
+    ![لقطة الشاشة](images/brain-start.png)
 
 + انقر على العلم الأخضر ثم انقر على زر (العب) الجديد لاختباره. سترى أن اللعبة لا تبدأ إلا عند النقر على الزر.
 
 + هل لاحظتَ أن الموقِّت يبدأ عند النقر على العلم الأخضر، لا عندما تبدأ اللعبة؟
     
-    ![screenshot](images/brain-timer-bug.png)
+    ![لقطة الشاشة](images/brain-timer-bug.png)
     
     هل يمكنك إصلاح هذه المشكلة؟
 
 + انقر على المنصة، واستبدل الكتلة البرمجية `أوقف الكل`{:class="blockcontrol"} برسالة `إنهاء`{:class="blockevents"}.
     
-    ![screenshot](images/brain-end.png)
+    ![لقطة الشاشة](images/brain-end.png)
 
 + يمكنك الآن إضافة تعليمة برمجية إلى الزر، لإظهاره مرة أخرى في نهاية كل لعبة.
     
@@ -71,4 +71,4 @@
      	end
     ```
     
-    ![screenshot](images/brain-fisheye.png)
+    ![لقطة الشاشة](images/brain-fisheye.png)
