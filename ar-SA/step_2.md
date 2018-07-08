@@ -1,26 +1,26 @@
-## Creating questions
+## إنشاء أسئلة
 
-Let's start by creating random questions for the player to answer.
+لنبدأ بإنشاء أسئلة عشوائية ليجيب عنها اللاعب.
 
-+ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ ابدأ مشروع Scratch جديد، واحذف كائن القطة ليكون المشروع فارغًا. يمكنك العثور على محرر الرسم لبرنامج Scratch عبر الإنترنت على <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ اختر شخصية وخلفية للعبتك. يمكنك اختيار ما يعجبك! إليك مثالًا:
     
     ![screenshot](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ أنشئ متغيرَين جديدَين أحدهما يُسمى الرقم `number 1`{:class="blockdata"} والآخر يُسمى الرقم `number 2`{:class="blockdata"}. سيخزِّن هذان المتغيران الرقمَين اللذين سيتم ضربهما معًا.
     
     ![screenshot](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
++ أضف تعليمة برمجية إلى الشخصية، لتعيين كِلا المتغيرين إلى `رقم عشوائي`{:class="blockoperators"} بين 2 و12.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
+        عند نقر ⚑
+     	اجعل [number 1 v] مساوياً (اختر عدداً عشوائياً بين (2) و (12))
+     	اجعل [number 2 v] مساوياً (اختر عدداً عشوائياً بين (2) و (12))
     ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ يمكنك حينئذٍ أن تطلب من اللاعب الإجابة ليعرف ما إذا كانت إجابته صحيحة أم غير صحيحة.
     
     ```blocks
         when flag clicked
