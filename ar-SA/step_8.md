@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Improved animation
+## التحدي: رسوم متحركة محسنة
 
-Can you improve the animation of your graphics? You could code the tick and cross so that they fade out as well as fade in. Or, you could use other cool effects:
+هل يمكنك تحسين حركة الرسوم؟ يمكنك كتابة تعليمات برمجية لعلامتَي صح وخطأ بحيث تظهران تدريجيًا وتتلاشيان. أو يمكنك استخدام مؤثرات أخرى رائعة:
 
-![screenshot](images/brain-effects.png)
+![لقطة الشاشة](images/brain-effects.png)
 
 \--- /challenge \---
