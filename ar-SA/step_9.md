@@ -6,12 +6,12 @@
 
 + تشغيل صوت عندما يجيب اللاعب إجابة صحيحة أو خاطئة;
 + إضافة صوت تكتكة إلى موقِّت العد التنازلي;
-+ Playing a sound when the time is up;
++ تشغيل صوت عند انتهاء الوقت;
     
     ```blocks
-        play drum (10 v) for (0.1) beats
+        دقَّ الطبل (10 v) لمدة (0.1) وحدة إيقاع
     ```
 
-+ You could also constantly play music on a loop (if you're not sure how to do this, step 4 of the 'Rock Band' project will help you).
++ يمكنك أيضًا تشغيل الموسيقى باستمرار في حلقة تكرار (إذا لم تكن تعرف كيفية القيام بذلك، فستساعدك الخطوة 4 من مشروع 'فرقة موسيقى الروك' على القيام بذلك).
 
 \--- /challenge \---
