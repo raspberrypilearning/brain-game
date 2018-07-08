@@ -1,43 +1,43 @@
-## Introduction
+## المقدمة
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+في هذا المشروع، ستتعلم كيف تنشئ اختبارًا قصيرًا في فترة زمنية محددة، بحيث تجيب فيه عن أكثر عدد ممكن من الأسئلة إجابات صحيحة خلال 30 ثانية.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### معلومات إضافية عن قادة النادي
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+إذا كنت بحاجة إلى طباعة هذا المشروع، [ فيُرجى استخدام نسخة سهلة الطباعة.](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: ملاحظات قادة النادي
 
-## Introduction:
+## المقدمة:
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+في هذا المشروع، سيتعلم الأطفال كيف يصنعون لعبة اختبار قصير في فترة زمنية محددة، بحيث يجيب فيه اللاعب عن أكبر عدد ممكن من الأسئلة خلال 30 ثانية.
 
-## Resources
+## الموارد
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+بالنسبة إلى هذا المشروع، يجب استخدام برنامج Scratch 2. ويمكن استخدام برنامج Scratch 2 عبر الإنترنت على [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) أو يمكن تنزيله من [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) واستخدامه دون اتصال بالإنترنت.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+يمكنك العثور على نسخة مكتملة من هذا المشروع [online](http://scratch.mit.edu/projects/42225768/#editor)، أو يمكن تنزيله بالنقر على الرابط 'مواد المشروع' الخاص بهذا المشروع، والذي يحتوي على:
 
 * BrainGame.sb2
 
-## Learning Objectives
+## أهداف التعلم
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* يدعم هذا المشروع تعلم مهارات البرمجة التي تم تعلمها مسبقًا، ويوضح كيف يمكن استخدام البرامج التلفزيونية لإنشاء نظام قائمة بسيط للعبة.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+يتناول هذا المشروع عناصر من الصفوف التالية من المناهج الرقمية الخاصة بـ [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [دمج الإنشاءات البرمجية لحل مشكلة.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## التحديات
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
+* "تغيير المظاهر" - تغيير مظهر شخصية اللعبة وفقًا للإجابات الصحيحة وغير الصحيحة;
 * "Adding a score" - adding a point for every correct question answered;
 * "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
 * "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
