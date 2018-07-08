@@ -38,22 +38,22 @@
 ## التحديات
 
 * "تغيير المظاهر" - تغيير مظهر شخصية اللعبة وفقًا للإجابات الصحيحة وغير الصحيحة;
-* "Adding a score" - adding a point for every correct question answered;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
-* "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-* "Sound and music" - consolidating learning of music loops and sound effects;
-* "Race to 10 points" - changing the game logic to create a new game objective;
-* "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
+* "إضافة درجة" - إضافة نقطة عند كل إجابة صحيحة عن السؤال;
+* "شاشة البدء" - تغيير خلفية المنصة وفقًا لرسالتَي البث `بدء`{:class="blockevents"} و`إنهاء`{:class="blockevents"}، وهو ما يؤدي إلى إنشاء 2 'شاشة' للعبة;
+* "رسوم متحركة محسنة" - استخدام حلقات التكرار باستمرار والمؤثرات لتحسين الرسوم المتحركة للإجابات الصحيحة/غير الصحيحة;
+* "الصوت والموسيقى" - دعم تعلم حلقات تكرار الموسيقى باستمرار والمؤثرات الصوتية;
+* "سباق حتى 10 نقاط" - تغيير منطق اللعبة لإنشاء أهداف جديدة للعبة;
+* "شاشة التعليمات" - دعم استخدام رسائل البث لإنشاء قائمة للعبة، وذلك عن طريق إضافة زر وشاشة جديدَين لـ 'التعليمات'.
 
 \--- /collapse \---
 
-## \--- collapse \---
+## \--- /collapse \---
 
-## title: Project materials
+## title: مواد المشروع
 
-## Club leader resources
+## موارد قادة النادي
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [مشروع Scratch 2 مكتمل قابل للتنزيل](resources/BrainGame.sb2)
+* [مشروع Scratch 2 مكتمل عبر الإنترنت](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
