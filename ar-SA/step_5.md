@@ -1,74 +1,74 @@
-## Multiple games
+## ألعاب متعددة
 
-Let's add a 'play' button to your game, so that you can play lots of times.
+لنضِف زر 'العب' إلى لعبتك، بحيث يمكنك اللعب مرات كثيرة.
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
++ أنشئ زرًا جديدًا يُسمى 'العب' على شكل كائن معين، بحيث ينقر فوقه اللاعب لبدء لعبة جديدة. يمكنك رسم الكائن بنفسك، أو تحرير كائن من مكتبة Scratch.
     
-    ![screenshot](images/brain-play.png)
+    ![لقطة الشاشة](images/brain-play.png)
 
-+ Add this code to your new button.
++ أضف هذه التعليمة البرمجية إلى الزر.
     
     ```blocks
-        when flag clicked
-        show
+        عند نقر ⚑
+    اظهر
     
-        when this sprite clicked
-        hide
-        broadcast [start v]
+    عند نقر هذا الكائن
+    اختف
+    بث [start v]
     ```
     
-    This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
+    تُظهر هذه التعليمة البرمجية زر (العب) عندما يبدأ المشروع. عند النقر على الزر، يختفي ثم يبث رسالة بدء اللعبة.
 
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
++ ستحتاج إلى تحرير التعليمة البرمجية للشخصية، بحيث تبدأ اللعبة عندما تتلقى الرسالة `بدء`{:class="blockevents"} ، لا عند النقر على العلم.
     
-    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
+    استبدل التعليمة البرمجية `عند النقر على العلم`{:class="blockevents"} بالتعليمة `عندما أتلقى بدء`{:class="blockevents"}.
     
     ![screenshot](images/brain-start.png)
 
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
++ انقر على العلم الأخضر ثم انقر على زر (العب) الجديد لاختباره. سترى أن اللعبة لا تبدأ إلا عند النقر على الزر.
 
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
++ هل لاحظتَ أن الموقِّت يبدأ عند النقر على العلم الأخضر، لا عندما تبدأ اللعبة؟
     
     ![screenshot](images/brain-timer-bug.png)
     
-    Can you fix this problem?
+    هل يمكنك إصلاح هذه المشكلة؟
 
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
++ انقر على المنصة، واستبدل الكتلة البرمجية `أوقف الكل`{:class="blockcontrol"} برسالة `إنهاء`{:class="blockevents"}.
     
     ![screenshot](images/brain-end.png)
 
-+ You can now add code to your button, to show it again at the end of each game.
++ يمكنك الآن إضافة تعليمة برمجية إلى الزر، لإظهاره مرة أخرى في نهاية كل لعبة.
     
     ```blocks
-        when I receive [end v]
-        show
+        عندما تستقبل [end v]
+     	اظهر
     ```
 
-+ You'll also need to stop your character asking questions at the end of each game:
++ ستحتاج أيضًا إلى إيقاف الشخصية عن طرح الأسئلة في نهاية كل لعبة:
     
     ```blocks
-        when I receive [end v]
-        stop [other scripts in sprite v]
+        عندما تستقبل [end v]
+     	أوقف [المقاطع الأخرى في الكائن v]
     ```
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
++ العب مرتين لاختبار زر (العب). ستلاحظ أن زر (العب) يظهر بعد نهاية كل لعبة. لتسهيل الاختبار، يمكنك تقليل زمن كل لعبة بحيث تستمر لبضع ثوان فقط.
     
     ```blocks
-        set [time v] to [10]
+        اجعل [الساعة v] مساوياً [10]
     ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ يمكنك أيضًا تغيير شكل الزر عند وضع الماوس فوقه.
     
     ```blocks
-        when flag clicked
-        show
-        forever
-        if <touching [mouse-pointer v]?> then
-            set [fisheye v] effect to (30)
-        else
-            set [fisheye v] effect to (0)
-        end
-        end
+        عند نقر ⚑
+     اظهر
+     كرر باستمرار 
+     إذا <ملامس لـ [مؤشر الفأرة v] ؟> 
+         اجعل تأثير [عين السمكة v] مساوياً (30)
+    
+     	    اجعل تأثير [عين السمكة v] مساوياً (0)
+       end
+     	end
     ```
     
     ![screenshot](images/brain-fisheye.png)
