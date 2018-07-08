@@ -2,7 +2,7 @@
 
 بدلًا من الشخصية التي لا تقول إلا `إجابة صحيحة! :)` أو `إجابة خاطئة :(` للاعب، لنضِف بعض الرسومات التي يمكن للاعب أن يعرف أداءه من خلالها.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
++ أنشئ كائنًا جديدًا يُسمى 'النتيجة'، يحتوي على مظهر '✓' ومظهر '✘'.
     
     ![screenshot](images/brain-result.png)
 
