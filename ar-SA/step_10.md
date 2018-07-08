@@ -1,19 +1,19 @@
 \--- challenge \---
 
-## Challenge: Race to 10 points
+## التحدي: سباق حتى 10 نقاط
 
-Can you change your game, so that instead of answering as many questions as they can in 30 seconds, the player has to see how quickly they can get 10 questions correct?
+هل يمكنك تغيير لعبتك، بحيث يحاول اللاعب الإجابة عن 10 أسئلة إجابة صحيحة في أسرع وقت ممكن، بدلًا من الإجابة عن أكثر عدد ممكن من الأسئلة خلال 30 ثانية؟
 
-To do this, you'll only need to change your timer code. Can you see what needs to be changed?
+لفعل ذلك، ستحتاج إلى تغيير التعليمة البرمجية للموقِّت. هل تعرف ما يحتاج إلى تغيير؟
 
 ```blocks
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) secs
-        change [time v] by (-1)
-    end
-    broadcast [end v]
+    	عندما تستقبل [start v]
+	اجعل [الساعة v] مساوياً (30)
+	كرِّر حتى <(time) = [0]> 
+	  انتظر (1) ثانية
+	  غيِّر [الساعة v] بمقدار (-1)
+	end
+	بث [end v]
 ```
 
 \--- /challenge \---
