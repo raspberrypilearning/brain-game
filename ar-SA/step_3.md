@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: Changing costumes
+## التحدي: تغيير المظاهر
 
-Can you change your character's costumes, so that they respond to the player's answer?
+هل يمكنك تغيير مظاهر الشخصية، بحيث تتناسب مع إجابات اللاعب؟
 
-![screenshot](images/brain-costume.png)
+![لقطة الشاشة](images/brain-costume.png)
 
 \--- /challenge \---
