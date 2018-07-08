@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Instruction screen
+## التحدي: شاشة التعليمات
 
-Can you add an instructions screen to your game, telling your player how to play the game? You'll need an 'Instructions' button, and another stage background.
+هل يمكنك إضافة شاشة تعليمات إلى لعبتك، توضح للاعب كيف يلعب اللعبة؟ ستحتاج إلى زر 'التعليمات'، وخلفية منصة أخرى.
 
-![screenshot](images/brain-instructions.png)
+![لقطة الشاشة](images/brain-instructions.png)
 
-You may also need a 'Back' button to take you to the main menu.
+قد تحتاج أيضًا إلى زر 'رجوع' للانتقال إلى القائمة الرئيسية.
 
 ```blocks
-    broadcast [main menu v]
+    بث [main menu v]
 ```
 
 \--- /challenge \---
