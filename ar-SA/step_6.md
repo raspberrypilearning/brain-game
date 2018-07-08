@@ -1,19 +1,19 @@
 \--- challenge \---
 
-## Challenge: Start screen
+## التحدي: شاشة البدء
 
-Can you add another backdrop to your stage, which will become your game's start screen? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
+هل يمكنك إضافة خلفية أخرى إلى المنصة، لتكون شاشة بدء اللعبة؟ يمكنك استخدام القالبين `عندما أتلقى بدء`{:class="blockevents"} و`عندما أتلقى إنهاء`{:class="blockevents"} للتبديل بين الخلفيتين.
 
-You can also show and hide your character, and even show and hide your timer by using these blocks:
+يمكنك أيضًا إظهار الشخصية وإخفاؤها، بل وإظهار الموقِّت وإخفاؤه باستخدام هذين القالبين:
 
 ```blocks
-show variable [time v]
+أظهر المتغير [الساعة v]
 ```
 
 ```blocks
-hide variable [time v]
+أخفِ المتغير [الساعة v]
 ```
 
-![screenshot](images/brain-startscreen.png)
+![لقطة الشاشة](images/brain-startscreen.png)
 
 \--- /challenge \---
