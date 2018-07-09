@@ -24,18 +24,20 @@ Commençons par créer des questions aléatoires auxquelles le joueur devra rép
     
     ```blocks
         quand le drapeau est cliqué 
-        mettre [nombre 1 v] à (nombre aléatoire (2) à (12))  
-        mettre [nombre 2 v] à (nombre aléatoire (2) à (12)) 
-        demander ((numéro 1) [x ] (numéro 2)) et attendez 
-        si ((réponse) = ((numéro 1) * (numéro 2))) 
-         alors dire [oui!] sinon dire [non :(] pendant 2 secondes
-        end  
+        mettre [nombre 1 v] à (nombre aléatoire entre (2) et (12))  
+        mettre [nombre 2 v] à (nombre aléatoire entre (2) et (12)) 
+        demander (regroupe (numéro 1)(regroupe [ x ] (numéro 2))) et attendre
+        si <(réponse) = ((numéro 1)*(numéro 2))> alors
+         dire [oui! :)] pendant (2) secondes
+    sinon 
+    dire [non :(] pendant (2) secondes
+    fin
     ```
 
-+ Testez entièrement votre projet en répondant correctement à une question et à une avec une mauvaise réponse.
++ Teste entièrement ton projet en répondant correctement à une question et à une avec une mauvaise réponse.
 
-+ Ajouter un {: class = "blockcontrol"}` répéter indéfiniment ` autour de ce code, de sorte que le joueur ait beaucoup de question.
++ Ajouter une boucle `répéter indéfiniment`{:class="blockcontrol"} autour de ce code, de sorte que le joueur ait beaucoup de question.
 
-+ Créer un compte à rebours sur la scène, en utilisant une variable appelée {: class = "blockdata"} ` temps ` . Le projet 'Ghostbusters' a des instructions pour chronométrer (à l'étape 5) si vous avez besoin d'aide!
++ Créer un compte à rebours sur la scène, en utilisant une variable appelée `temps`{: class="blockdata"}. Le projet 'Ghostbusters' a des instructions pour chronométrer (à l'étape 5) si tu as besoin d'aide!
 
-+ Testez à nouveau votre projet - vous devriez être en mesure de continuer à répondre au question jusqu'à la fin du temps imparti.
++ Teste à nouveau ton projet - tu devras être en mesure de continuer à répondre au question jusqu'à la fin du temps imparti.
