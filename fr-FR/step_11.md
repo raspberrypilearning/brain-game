@@ -1,15 +1,15 @@
-\--- défi \---
+\--- challange \---
 
 ## Défi: Écran d'instruction
 
-Pouvez-vous ajouter un écran d'instructions à votre jeu, indiquant à votre joueur comment jouer? Vous aurez besoin d'un bouton 'Instructions' et d'un autre arrière plan.
+Peux-tu ajouter un écran d'instructions à ton jeu, indiquant à ton joueur comment jouer? Tu auras besoin d'un bouton 'Instructions' et d'un autre arrière plan.
 
 ![capture d'écran](images/brain-instructions.png)
 
-Vous pouvez également avoir besoin d'un bouton «Retour» pour vous rendre au menu principal.
+Tu peux également avoir besoin d'un bouton «Retour» pour te rendre au menu principal.
 
 ```blocks
     envoyer a tous [menu principal v]
 ```
 
-\--- /défi \---
+\--- /challenge \---
