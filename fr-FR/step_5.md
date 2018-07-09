@@ -54,19 +54,21 @@ Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs f
 + Teste ton bouton de jeu en jouant quelques parties. Tu devrais remarquer que le bouton de lecture s'affiche après chaque partie. Pour faciliter les tests, Tu peux raccourcir chaque partie de sorte qu'elle ne dure que quelques secondes.
     
     ```blocks
-        régler [temps v] sur [10]
+        mettre [temps v] à [10]
     ```
 
-+ Vous pouvez même changer l'aspect du bouton lorsque la souris passe dessus.
++ Tu peux même changer l'aspect du bouton lorsque la souris passe dessus.
     
     ```blocks
         quand le drapeau est cliqué
-        montrer
-        répéter indéfiniment
-         si (pointeur de souris v touché)
-            mettre l’effet [œil de poisson] à (30)
-         sinon mettre l’effet [œil de poisson] à (0)
-        fin 
+    montrer
+    répéter indéfiniment
+    si <touching [mouse-pointer v]?> alors
+    ajouter l’effet [œil de poisson] (30)
+    sinon 
+    ajouter l’effet [œil de poisson] (0)
+    fin
+    fin
     ```
     
     ![capture d'écran](images/brain-fisheye.png)
