@@ -12,12 +12,12 @@ Commençons par créer des questions aléatoires auxquelles le joueur devra rép
     
     ![capture d'écran](images/brain-variables.png)
 
-+ Ajoutez un code à votre personnage, pour définir ces deux variables sur un{: class = "blockoperators"} ` nombre aléatoire ` entre 2 et 12.
++ Ajoute un code à ton personnage, pour définir ces deux variables sur un `nombre aléatoire`{ class="blockoperators"} entre 2 et 12.
     
     ```blocks
         lorsque le drapeau est cliqué
-        mettre [nombre 1 v] sur (choisissez aléatoire (2) à (12)) 
-        mettre [nombre 2 v] sur (choisissez aléatoire (2) à (12))
+        mettre [nombre 1 v] à (nombre aléatoire entre (2) et (12)) 
+        mettre [nombre 2 v] à (nombre aléatoire entre (2) et (12))
     ```
 
 + Vous pouvez alors demander au joueur la réponse et lui faire savoir s'il s'est tromper ou non.
