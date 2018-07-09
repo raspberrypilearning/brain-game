@@ -2,32 +2,32 @@
 
 Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs fois.
 
-+ Créez un nouveau lutin bouton de lecture, sur lequel votre joueur cliquera pour lancer une nouvelle partie. Vous pouvez le dessiner vous-même ou modifier un lutin à partir de la bibliothèque Scratch.
++ Crée un nouveau lutin "bouton de lecture", sur lequel votre joueur cliquera pour lancer une nouvelle partie. Tu peux le dessiner toi-même ou modifier un lutin à partir de la bibliothèque Scratch.
     
     ![capture d'écran](images/brain-play.png)
 
-+ Ajoutez ce code à votre nouveau bouton.
++ Ajoute ce code à ton nouveau bouton.
     
     ```blocks
-        Lorsque le drapeau est cliqué
-        afficher
+        quand le drapeau est cliqué
+    montrer
     
-        quand ce lutin est cliqué 
-        masquer
-        envoyer a tous [début v]
+    quand ce lutin est cliqué 
+    cacher
+    envoyer à tous [début v]
     ```
     
     Ce code affiche le bouton de lecture lorsque votre projet est démarré. Lorsque le bouton est cliqué, il est masqué et envoie ensuite un message qui lancera le jeu.
 
-+ Vous devrez modifier le code de votre personnage afin que le jeu commence quand il recevra le message {: class = "blockevents"} ` début ` , et non lorsque le drapeau est cliqué.
++ Tu devras modifier le code de ton personnage afin que le jeu commence quand il recevra le message `début`{:class="blockevents"}, et non lorsque le drapeau est cliqué.
     
-    Remplacer le code {: class = "blockevents"} ` lorsque le drapeau est cliqué ` avec {: class = "blockevents"} ` quand je reçois début ` 
+    Remplace le code `lorsque le drapeau est cliqué`{:class="blockevents"} avec `quand je reçois début`{:class="blockevents"}.
     
     ![capture d'écran](images/brain-start.png)
 
-+ Cliquez sur le drapeau vert, puis cliquez sur votre nouveau bouton de lecture pour le tester. Vous devriez voir que le jeu ne démarre pas tant que le bouton n'est pas cliqué.
++ Clique sur le drapeau vert, puis clique sur ton nouveau bouton de lecture pour le tester. Tu devrais voir que le jeu ne démarre pas tant que le bouton n'est pas cliqué.
 
-+ Avez-vous remarqué que la minuterie commence quand on clique sur le drapeau vert, et non quand la partie commence?
++ As-tu remarqué que la minuterie commence quand on clique sur le drapeau vert, et non quand la partie commence?
     
     ![capture d'écran](images/brain-timer-bug.png)
     
