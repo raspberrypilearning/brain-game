@@ -2,13 +2,13 @@
 
 Commençons par créer des questions aléatoires auxquelles le joueur devra répondre.
 
-+ Démarrez un nouveau projet Scratch et supprimez le lutin de chat afin que votre projet soit vide. Vous pouvez trouver l'éditeur en ligne de Scratch à <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a> .
++ Démarre un nouveau projet Scratch et supprime le lutin de chat afin que ton projet soit vide. Tu peux trouver l'éditeur en ligne de Scratch à <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a> .
 
-+ Choisissez un personnage et un arrière plan pour votre jeu. Vous pouvez choisir ce que vous aimez! Voici un exemple:
++ Choisis un personnage et un arrière plan pour ton jeu. Tu peux choisir ce que tu aimes ! Voici un exemple:
     
     ![capture d'écran](images/brain-setting.png)
 
-+ Créer 2 nouvelles variables appelées {: class = "blockdata"} ` numéro 1 ` et {: class = "blockdata"} ` numéro 2 ` . Ces variables vont stocker les 2 nombres qui seront multipliés ensemble.
++ Crée 2 nouvelles variables appelées `numéro 1`{:class="blockdata"} et `numéro 2 `{:class="blockdata"}. Ces variables vont stocker les 2 nombres qui seront multipliés ensemble.
     
     ![capture d'écran](images/brain-variables.png)
 
