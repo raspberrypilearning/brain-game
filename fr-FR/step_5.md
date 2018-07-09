@@ -31,27 +31,27 @@ Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs f
     
     ![capture d'écran](images/brain-timer-bug.png)
     
-    Pouvez-vous résoudre ce problème?
+    Peux-tu résoudre ce problème?
 
-+ Cliquez sur la scène, et remplacez le {: class = "blockcontrol"} ` tout arrêter ` avec un bloc {: class = "blockevents"} ` fin`
++ Clique sur la scène, et remplace le `stop tout`{:class="blockcontrol"} avec un message `fin`{:class="blockevents"}.
     
     ![capture d'écran](images/brain-end.png)
 
-+ Vous pouvez maintenant ajouter du code à votre bouton, pour le montrer à la fin de chaque partie.
++ Tu peux maintenant ajouter du code à ton bouton, pour le montrer à la fin de chaque partie.
     
     ```blocks
         quand je reçois [fin v]
         montrer
     ```
 
-+ Vous aurez également besoin d’arrêter votre personnage de poser des questions à la fin de chaque partie :
++ Tu auras également besoin d’arrêter ton personnage de poser des questions à la fin de chaque partie :
     
     ```blocks
         quand je reçois [fin v] 
         stop [autres scripts du lutin v]
     ```
 
-+ Testez votre bouton de jeu en jouant quelques parties. Vous devriez remarquer que le bouton de lecture s'affiche après chaque partie. Pour faciliter les tests, vous pouvez raccourcir chaque partie de sorte qu'elle ne dure que quelques secondes.
++ Teste ton bouton de jeu en jouant quelques parties. Tu devrais remarquer que le bouton de lecture s'affiche après chaque partie. Pour faciliter les tests, Tu peux raccourcir chaque partie de sorte qu'elle ne dure que quelques secondes.
     
     ```blocks
         régler [temps v] sur [10]
