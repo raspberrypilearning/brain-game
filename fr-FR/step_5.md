@@ -17,7 +17,7 @@ Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs f
     envoyer à tous [début v]
     ```
     
-    Ce code affiche le bouton de lecture lorsque votre projet est démarré. Lorsque le bouton est cliqué, il est masqué et envoie ensuite un message qui lancera le jeu.
+    Ce code affiche le bouton de lecture lorsque ton projet est démarré. Lorsque le bouton est cliqué, il est masqué et envoie ensuite un message qui lancera le jeu.
 
 + Tu devras modifier le code de ton personnage afin que le jeu commence quand il recevra le message `début`{:class="blockevents"}, et non lorsque le drapeau est cliqué.
     
