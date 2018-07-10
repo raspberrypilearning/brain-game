@@ -1,13 +1,13 @@
 ## المقدمة
 
-في هذا المشروع، ستتعلم كيف تنشئ اختبارًا قصيرًا في فترة زمنية محددة، بحيث تجيب فيه عن أكثر عدد ممكن من الأسئلة إجابات صحيحة خلال 30 ثانية.
+في هذا المشروع، ستتعلم كيف تنشئ اختبارًا قصيرًا في فترة زمنية محددة، بحيث تجيب فيه على أكثر عدد ممكن من الإجابات صحيحة خلال 30 ثانية.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### معلومات إضافية عن قادة النادي
+### معلومات إضافية لقادة النادي
 
 إذا كنت بحاجة إلى طباعة هذا المشروع، [ فيُرجى استخدام نسخة سهلة الطباعة.](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
