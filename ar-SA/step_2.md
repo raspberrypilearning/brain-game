@@ -2,7 +2,7 @@
 
 لنبدأ بإنشاء أسئلة عشوائية ليجيب عنها اللاعب.
 
-+ ابدأ مشروع Scratch جديد، واحذف كائن القطة ليكون المشروع فارغًا. يمكنك العثور على محرر الرسم لبرنامج Scratch عبر الإنترنت على <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ ابدأ مشروع Scratch جديد، واحذف كائن القطة ليكون المشروع فارغًا. يمكنك العثور على محرر برنامج Scratch عبر الإنترنت على <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
 + اختر شخصية وخلفية للعبتك. يمكنك اختيار ما يعجبك! إليك مثالًا:
     
