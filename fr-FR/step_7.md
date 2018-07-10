@@ -1,6 +1,6 @@
 ## Ajout de graphisme
 
-Au lieu que votre personnage dise simplement ` oui! :) ` ou ` non :( ` au joueur, ajoutons quelques graphiques qui permettront au joueur de savoir comment il repond.
+Au lieu que ton personnage dise simplement ` oui! :) ` ou ` non :( ` au joueur, ajoutons quelques éléments graphiques qui permettront au joueur de savoir comment il répond.
 
 + Créez un nouveau lutin appelé 'Résultats', contenant à la fois un costume 'tic' et 'croix'.
     
