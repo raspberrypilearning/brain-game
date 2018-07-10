@@ -2,23 +2,23 @@
 
 Au lieu que ton personnage dise simplement ` oui! :) ` ou ` non :( ` au joueur, ajoutons quelques éléments graphiques qui permettront au joueur de savoir comment il répond.
 
-+ Créez un nouveau lutin appelé 'Résultats', contenant à la fois un costume 'tic' et 'croix'.
++ Crée un nouveau lutin appelé 'Résultats', contenant à la fois un costume 'tic' et 'cross'.
     
     ![capture d'écran](images/brain-result.png)
 
-+ Changez le code de votre personnage, de sorte que, il diffuse les messages {: class = "blockevents"} ` correct ` et {: class = "blockevents"} ` faux ` à la place.
++ Change le code de votre personnage, de sorte que, il envoie les messages `correct` {:class="blockevents"} et `faux`{:class="blockevents"} à la place.
     
     ![capture d'écran](images/brain-broadcast-answer.png)
 
-+ Vous pouvez maintenant utiliser ces messages pour montrer le costume «tic» ou «croix». Ajoutez ce code à votre nouveau lutin "Résultat":
++ Tu peux maintenant utiliser ces messages pour montrer le costume «tic» ou «cross». Ajoute ce code à ton nouveau lutin "Résultat":
     
     ![capture d'écran](images/brain-show-answer.png)
 
-+ Testez votre jeu à nouveau. Vous devriez voir une coche chaque fois que vous obtenez une question correcte, et une croix chaque fois que vous vous trompez!
++ Teste ton jeu à nouveau. tu devrais voir une coche chaque fois que tu obtiens une question correcte, et une croix chaque fois que tu te trompes !
     
     ![capture d'écran](images/brain-test-answer.png)
 
-+ Avez-vous remarqué que le code pour {: class = "blockevents"} ` quand je reçois correct ` et {: class = "blockevents"} ` quand je reçois faux ` est presque identique? Créons une fonction pour faciliter la modification de votre code.
++ As-tu remarqué que le code pour `quand je reçois correct`{:class="blockevents"} et `quand je reçois faux`{:class="blockevents"} est presque identique? Créons une fonction pour faciliter la modification de ton code.
     
     Sur votre sprite "Résultat", cliquez sur {: class = "blockmoreblocks"} ` Ajouter blocs ` , puis "créer un bloc". Créer une nouvelle fonction appelée ` animer ` {: class = "blockmoreblocks"}.
     
