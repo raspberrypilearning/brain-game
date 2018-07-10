@@ -1,8 +1,8 @@
-\--- défi \---
+\--- challange \---
 
 ## Défi: écran de démarrage
 
-Pouvez-vous ajouter un autre arrière plan à votre scène, qui deviendra l'écran de démarrage de votre jeu? Vous pouvez utiliser les blocs {: class = "blockevents"} ` quand je reçois début ` et {: class = "blockevents"} ` quand je reçois fin ` pour basculer entre les fonds.
+Peux-tu ajouter un autre arrière plan à ta scène, qui deviendra l'écran de démarrage de ton jeu? Tu peux utiliser les blocs `quand je reçois début`{:class="blockevents"} et `quand je reçois fin`{:class="blockevents"} pour basculer entre les fonds.
 
 Vous pouvez également afficher et masquer votre personnage, et même afficher et masquer votre minuteur en utilisant ces blocs:
 
