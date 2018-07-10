@@ -20,17 +20,17 @@ Au lieu que ton personnage dise simplement ` oui! :) ` ou ` non :( ` au joueur, 
 
 + As-tu remarqué que le code pour `quand je reçois correct`{:class="blockevents"} et `quand je reçois faux`{:class="blockevents"} est presque identique? Créons une fonction pour faciliter la modification de ton code.
     
-    Sur votre sprite "Résultat", cliquez sur {: class = "blockmoreblocks"} ` Ajouter blocs ` , puis "créer un bloc". Créer une nouvelle fonction appelée ` animer ` {: class = "blockmoreblocks"}.
+    Sur ton lutin "Résultat", clique sur `Ajouter blocs`{:class="blockmoreblocks"}, puis "créer un bloc". Crée une nouvelle fonction appelée `animer` {:class="blockmoreblocks"}.
     
     ![capture d'écran](images/brain-animate-function.png)
 
-+ Vous pouvez ensuite ajouter le code d'animation dans votre nouvelle fonction d'animation, puis utilisez simplement la fonction deux fois:
++ Tu peux ensuite ajouter le code d'animation dans ta nouvelle fonction d'animation, puis simplement utiliser la fonction deux fois:
     
     ![capture d'écran](images/brain-use-function.png)
 
-+ Maintenant, si vous voulez afficher la coche et la croix pour un temps plus ou moins long, il vous suffit d'apporter une modification à votre code. Essayez !
++ Maintenant, si tu veux afficher la coche et la croix pour un temps plus ou moins long, il te suffit d'apporter une modification à ton code. Essaye !
 
-+ Au lieu de simplement afficher et masquer le tick et la croix, vous pouvez changer votre fonction d'animation, de sorte que les graphiques s'affichent progressivement.
++ Au lieu de simplement afficher et masquer la coche et la croix, tu peux changer ta fonction d'animation, de sorte que les graphiques s'affichent progressivement.
     
     ```blocks
         définir [animer]
