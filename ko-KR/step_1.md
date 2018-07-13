@@ -7,15 +7,15 @@ In this project you'll learn how to create a times table quiz, in which you have
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### 교육자들을 위한 추가 정보
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+이 프로젝트를 인쇄하려면 [프린트용 문서](https://projects.raspberrypi.org/en/projects/brain-game/print)를 사용하십시오.
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: 교육자 노트
 
-## Introduction:
+## 소개
 
 In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
 
