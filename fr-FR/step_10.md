@@ -1,4 +1,4 @@
---- challange ---
+--- challenge ---
 
 ## Défi: Course à 10 points
 
@@ -9,11 +9,11 @@ Pour ce faire, tu auras seulement besoin de changer le code de ton chronomètre.
 ```blocks
     quand je reçois [début v]
 mettre [temps v] à (30)
-répéter jusqu’à <(temps) = [0]>
-attendre (1) seconde
-ajouter à [temps v] (-1)
-fin
-envoyer a tous [fin v]
+répéter jusqu’à <(temps) = [0]> 
+  attendre (1) secondes
+  ajouter à [temps v] (-1)
+end
+envoyer à tous [fin v]
 ```
 
 --- /challenge ---
