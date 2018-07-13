@@ -1,79 +1,74 @@
 ## Jeux multiples
 
-Ajoutons un bouton 'jeu' à votre jeu, pour que vous puissiez jouer plusieurs fois.
+Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs fois.
 
++ Crée un nouveau lutin "bouton de lecture", sur lequel votre joueur cliquera pour lancer une nouvelle partie. Tu peux le dessiner toi-même ou modifier un lutin à partir de la bibliothèque Scratch.
+    
+    ![capture d'écran](images/brain-play.png)
 
++ Ajoute ce code à ton nouveau bouton.
+    
+    ```blocks
+        quand le drapeau est cliqué
+    montrer
+    
+    quand ce lutin est cliqué 
+    cacher
+    envoyer à tous [début v]
+    ```
+    
+    Ce code affiche le bouton de lecture lorsque ton projet est démarré. Lorsque le bouton est cliqué, il est masqué et envoie ensuite un message qui lancera le jeu.
 
-+ Créez un nouveau lutin du bouton 'Jouer', sur lequel votre joueur cliquera pour commencer un nouveau jeu. Vous pouvez le dessiner vous-même, ou modifier un lutin de la bibliothèque de Scratch.
++ Tu devras modifier le code de ton personnage afin que le jeu commence quand il recevra le message `début`{:class="blockevents"}, et non lorsque le drapeau est cliqué.
+    
+    Remplace le code `lorsque le drapeau est cliqué`{:class="blockevents"} avec `quand je reçois début`{:class="blockevents"}.
+    
+    ![capture d'écran](images/brain-start.png)
 
-	![screenshot](images/brain-play.png)
++ Clique sur le drapeau vert, puis clique sur ton nouveau bouton de lecture pour le tester. Tu devrais voir que le jeu ne démarre pas tant que le bouton n'est pas cliqué.
 
-+ Ajoutez ce code à votre nouveau bouton.
++ As-tu remarqué que la minuterie commence quand on clique sur le drapeau vert, et non quand la partie commence?
+    
+    ![capture d'écran](images/brain-timer-bug.png)
+    
+    Peux-tu résoudre ce problème?
 
-	```blocks
-		quand le drapeau vert pressé
-		montrer
++ Clique sur la scène, et remplace le `stop tout`{:class="blockcontrol"} avec un message `fin`{:class="blockevents"}.
+    
+    ![capture d'écran](images/brain-end.png)
 
-		quand ce lutin est cliqué
-		cacher
-		envoyer à tous [début v]
-	```
++ Tu peux maintenant ajouter du code à ton bouton, pour le montrer à la fin de chaque partie.
+    
+    ```blocks
+        quand je reçois [fin v]
+        montrer
+    ```
 
-	Ce code montre le bouton de jeu lorsque votre projet est commencé. Quand le bouton est cliqué, il est caché et diffuse ensuite un message qui commencera le jeu.
++ Tu auras également besoin d’arrêter ton personnage de poser des questions à la fin de chaque partie :
+    
+    ```blocks
+        quand je reçois [fin v] 
+        stop [autres scripts du lutin v]
+    ```
 
-+ Vous devrez modifier le code de votre personnage afin que le jeu débute lorsqu'il recevra le message `début`{:class="blockevents"} et non pas quand le drapeau est cliqué.
++ Teste ton bouton de jeu en jouant quelques parties. Tu devrais remarquer que le bouton de lecture s'affiche après chaque partie. Pour faciliter les tests, Tu peux raccourcir chaque partie de sorte qu'elle ne dure que quelques secondes.
+    
+    ```blocks
+        mettre [temps v] à [10]
+    ```
 
-	Remplacez le code `quand le drapeau cliqué `{:class="blockevents"} par `quand je reçois le début`{:class="blockevents"}.
-
-	![screenshot](images/brain-start.png)
-
-+ Cliquez sur le drapeau vert et cliquez ensuite sur votre nouveau bouton de jeu pour le tester. Vous devriez voir que le jeu ne débute pas tant que vous ne cliquez pas sur le bouton.
-
-+ Avez-vous remarqué que la minuterie commence lorsque le drapeau vert est cliqué et non quand le jeu commence?
-
-	![screenshot](images/brain-timer-bug.png)
-
-	Pouvez-vous réparer ce problème ?
-
-+ Cliquez sur la scène et remplacez le bloc `arrêter tout`{:class="blockcontrol"} avec le message `fin'`{:class="blockevents"}.
-
-	![screenshot](images/brain-end.png)
-
-+ Vous pouvez maintenant ajouter ce code à votre bouton pour le montrer de nouveau à la fin de chaque jeu.
-
-	```blocks
-		quand je reçois [end v]
-		montrer
-	```
-
-+ Vous devrez aussi arrêter votre personnage qui pose des questions à la fin de chaque jeu :
-
-	```blocks
-		quand je reçois [end v]
-		stop [D'autres scénarios dans lutin v]
-	```
-
-+ Testez votre bouton de jeu en jouant deux ou trois fois. Vous devriez remarquer que le bouton de jeu apparaît après chaque jeu. Pour le tester plus facilement, vous pouvez raccourcir chaque jeu afin qu'il ne dure seulement que quelques secondes.
-
-	```blocks
-		[time v] prend la valeur [10]
-	```
-
-+ Vous pouvez même changer l'apparence du bouton lorsque la souris le survole.
-
-	```blocks
-		quand le drapeau vert pressé
-		montrer
-		répéter indéfiniment
-   		si <[pointeur de souris v] touché?> alors
-      		choisir l'effet [oeil de poisson v] pour (30)
-   		sinon
-      		choisir l'effet [oeil de poisson v] pour (0)
-   		fin
-		fin
-	```
-
-	![screenshot](images/brain-fisheye.png)
-
-
-
++ Tu peux même changer l'aspect du bouton lorsque la souris passe dessus.
+    
+    ```blocks
+        quand le drapeau est cliqué
+    montrer
+    répéter indéfiniment
+    si <touching [mouse-pointer v]?> alors
+    ajouter l’effet [œil de poisson] (30)
+    sinon 
+    ajouter l’effet [œil de poisson] (0)
+    fin
+    fin
+    ```
+    
+    ![capture d'écran](images/brain-fisheye.png)

@@ -7,7 +7,7 @@ ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 title: Jeu d'ingéniosité
-description: Apprends à programmer ton propre quiz.
+description: Apprends comment créer un quiz.
 original_url: https://projects.raspberrypi.org/en/projects/brain-game
 interests: games
 technologies: scratch
@@ -16,15 +16,15 @@ hardware: ''
 software: scratch
 version: 3
 last_tested: 2017-01-01
-steps: 
-- title: Introduction
-- title: Création des questions
-- title: "Défi: Changement de costumes"
-- title: "Défi: Ajout d'un pointage"
-- title: Jeux multiples
-- title: "Défi: Écran du début"
-- title: Ajout de graphisme
-- title: "Défi: Animation améliorée"
-- title: "Défi: Son et musique"
-- title: "Défi: Course à 10 points"
-- title: "Défi: Écran d'instruction"
+steps:
+  - title: Introduction
+  - title: Création des questions
+  - title: 'Défi: Changement de costumes'
+  - title: "Défi: Ajout d''un pointage"
+  - title: Jeux multiples
+  - title: 'Défi: Écran du début'
+  - title: Ajout de graphisme
+  - title: 'Défi: Animation améliorée'
+  - title: 'Défi: Son et musique'
+  - title: 'Défi: Course à 10 points'
+  - title: "Défi: Écran d''instruction"
