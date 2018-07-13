@@ -9,7 +9,7 @@ Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs f
 + Ajoute ce code à ton nouveau bouton.
     
     ```blocks
-        quand le drapeau est cliqué
+        quand le drapeau vert pressé
     montrer
     
     quand ce lutin est cliqué 
@@ -60,15 +60,15 @@ Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs f
 + Tu peux même changer l'aspect du bouton lorsque la souris passe dessus.
     
     ```blocks
-        quand le drapeau est cliqué
-    montrer
-    répéter indéfiniment
-    si <touching [mouse-pointer v]?> alors
-    ajouter l’effet [œil de poisson] (30)
-    sinon 
-    ajouter l’effet [œil de poisson] (0)
-    fin
-    fin
+        quand le drapeau vert pressé
+        montrer
+        répéter indéfiniment 
+          si <[pointeur de souris v] touché?> alors 
+            mettre l'effet [oeil de poisson v] à (30)
+
+            mettre l'effet [oeil de poisson v] à (0)
+          end
+        end
     ```
     
     ![capture d'écran](images/brain-fisheye.png)
