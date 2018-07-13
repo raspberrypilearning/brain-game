@@ -1,4 +1,4 @@
---- challange ---
+--- challenge ---
 
 ## Défi: Changement de costumes
 
