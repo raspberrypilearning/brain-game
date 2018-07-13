@@ -1,0 +1,30 @@
+---
+hero_image: images/brain-game.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Розвиваюча гра
+description: Дізнайтесь як створити вікторину.
+original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
+interests: games
+technologies: scratch
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
+steps:
+  - title: Вступ
+  - title: Створення запитань
+  - title: 'Завдання: Зміна образів'
+  - title: 'Завдання: Створення рахунку'
+  - title: Багаторазові ігри
+  - title: 'Завдання: Початковий екран'
+  - title: Додавання графічних ефектів
+  - title: 'Завдання: Удосконалення анімації'
+  - title: 'Завдання: Звук і музика'
+  - title: 'Завдання: Забіг на 10 балів'
+  - title: 'Завдання: Екран з інструкцією'

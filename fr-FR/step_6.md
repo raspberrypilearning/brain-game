@@ -1,18 +1,19 @@
 --- challenge ---
-## Défi : Écran du début
-Pouvez-vous ajouter un autre arrière-plan à votre scène? Il deviendra l'écran d'accueil de votre jeu. Vous pouvez utiliser les blocs `quand je reçois début`{:class="blockevents"} et `quand je reçois fin`{:class="blockevents"} pour passer d'un arrière-plan à l'autre. 
 
-Vous pouvez aussi montrer et cacher votre personnage ainsi que votre minuterie, en utilisant ces blocs :
+## Défi: Écran de démarrage
+
+Peux-tu ajouter un autre arrière plan à ta scène, qui deviendra l'écran de démarrage de ton jeu? Tu peux utiliser les blocs `quand je reçois début`{:class="blockevents"} et `quand je reçois fin`{:class="blockevents"} pour basculer entre les arrières plans.
+
+Tu peux également afficher et masquer ton personnage, et même afficher et masquer ton minuteur en utilisant ces blocs:
+
 ```blocks
-montrer la variable [time v]
+montrer la variable [temps v]
 ```
+
 ```blocks
-cacher la variable [time v]
+cacher la variable [temps v]
 ```
 
-![screenshot](images/brain-startscreen.png)
-
-
-
+![capture d'écran](images/brain-startscreen.png)
 
 --- /challenge ---

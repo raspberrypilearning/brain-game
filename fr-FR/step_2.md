@@ -1,48 +1,43 @@
 ## Création des questions
 
-Commençons en créant des questions aléatoires pour le joueur.
+Commençons par créer des questions aléatoires auxquelles le joueur devra répondre.
 
++ Démarre un nouveau projet Scratch et supprime le lutin de chat afin que ton projet soit vide. Tu peux trouver l'éditeur en ligne de Scratch à <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a> .
 
++ Choisis un personnage et un arrière plan pour ton jeu. Tu peux choisir ce que tu aimes ! Voici un exemple:
+    
+    ![capture d'écran](images/brain-setting.png)
 
-+ Commencez un nouveau projet Scratch et supprimez le lutin de chat pour que votre projet soit vide. Vous pouvez trouver l'éditeur Scratch en ligne à <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
++ Crée 2 nouvelles variables appelées `numéro 1`{:class="blockdata"} et `numéro 2 `{:class="blockdata"}. Ces variables vont stocker les 2 nombres qui seront multipliés ensemble.
+    
+    ![capture d'écran](images/brain-variables.png)
 
-+ Choisissez un personnage et un arrière-plan pour votre jeu. Vous pouvez choisir ce que vous aimez! Voici un exemple :
++ Ajoute un code à ton personnage, pour définir ces deux variables sur un `nombre aléatoire`{ class="blockoperators"} entre 2 et 12.
+    
+    ```blocks
+        quand le drapeau vert pressé
+        mettre [nombre 1 v] à (nombre aléatoire entre (2) et (12)) 
+        mettre [nombre 2 v] à (nombre aléatoire entre (2) et (12))
+    ```
 
-	![screenshot](images/brain-setting.png)
++ Vous pouvez alors demander au joueur la réponse et lui faire savoir s'il s'est tromper ou non.
+    
+    ```blocks
+        quand le drapeau vert pressé
+        mettre [nombre 1 v] à (nombre aléatoire entre (2) et (12))  
+        mettre [nombre 2 v] à (nombre aléatoire entre (2) et (12)) 
+        demander (regroupe (numéro 1)(regroupe [ x ] (numéro 2))) et attendre
+        si <(réponse) = ((numéro 1)*(numéro 2))> alors
+         dire [oui! :)] pendant (2) secondes
+    sinon 
+    dire [non :(] pendant (2) secondes
+    fin
+    ```
 
-+ Créez 2 nouvelles variables appelées `numéro 1`{:class="blockdata"} Et `numéro 2`{:class="blockdata"}. Ces variables stockeront les 2 nombres qui seront multipliés ensemble.
++ Teste entièrement ton projet en répondant correctement à une question et à une avec une mauvaise réponse.
 
-	![screenshot](images/brain-variables.png)
++ Ajouter une boucle `répéter indéfiniment`{:class="blockcontrol"} autour de ce code, de sorte que le joueur ait beaucoup de question.
 
-+ Ajoutez le code à votre personnage afin de mettre ces deux variables à un `nombre aléatoire entre`{:class="blockoperators"} 2 et 12.
++ Créer un compte à rebours sur la scène, en utilisant une variable appelée `temps`{:class="blockdata"}. Le projet 'Ghostbusters' a des instructions pour chronométrer (à l'étape 5) si tu as besoin d'aide!
 
-	```blocks
-		quand le drapeau vert pressé
-		[number 1 v] prend la valeur (nombre aléatoire entre (2) et (12))
-	[number 2 v] prend la valeur (nombre aléatoire entre (2) et (12))
-	```
-
-+ Vous pouvez alors demander la réponse au joueur et lui indiquer si c'était vrai ou faux. 
-
-	```blocks
-		quand le drapeau vert pressé
-		[number 1 v] prend la valeur (nombre aléatoire entre (2) et (12))
-		[number 2 v] prend la valeur (nombre aléatoire entre (2) et (12))
-		demander (regroupe (number 1) (regroupe [x] (number 2))) et attendre
-		si <(réponse) = ((number 1) * (number 2))> alors
-   			dire [oui! :)] pendant (2) secondes
-		sinon
-   			dire [non :(] pendant (2) secondes
-		fin
-	```
-
-+ Testez votre projet entièrement en répondant une fois avec une bonne réponse et une fois avec une mauvaise réponse.
-
-+Ajoutez la boucle `répéter indéfiniment`{:class="blockcontrol"} autour de ce code, afin que plusieurs questions soient posées au joueur.
-
-+ Créez une minuterie sur la scène en utilisant une variable appelée `temps`{:class="blockdata"}. Si vous avez besoind d'aide, le projet 'GhostBuster' possède des instructions sur comment créer une minuterie (dans l'étape 6).
-
-+ Testez votre projet de nouveau, vous devriez pouvoir continuer à poser des questions jusqu'à ce que le temps soit écoulé.
-
-
-
++ Teste à nouveau ton projet - tu devras être en mesure de continuer à répondre au question jusqu'à la fin du temps imparti.

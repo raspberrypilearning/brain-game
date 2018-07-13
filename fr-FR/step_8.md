@@ -1,10 +1,9 @@
 --- challenge ---
-## Défi : Animation améliorée
-Pouvez-vous améliorer l'animation de votre graphisme? Vous pourriez coder le crochet et la croix afin qu'ils disparaissent en fondu. Sinon, vous pourriez utiliser d'autres effets:
 
-![screenshot](images/brain-effects.png)
+## Défi: Animation améliorée
 
+Peux-tu améliorer l'animation de tes graphiques? Tu peux coder la coche et la croix de sorte qu'elles disparaissent en fondu. Ou Tu peux utiliser d'autres effets sympas:
 
-
+![capture d'écran](images/brain-effects.png)
 
 --- /challenge ---

@@ -1,8 +1,7 @@
 --- challenge ---
-## Défi : Ajout d'un pointage
-Pouvez-vous ajouter un pointage à votre jeu? Vous pouvez ajouter un point pour chaque bonne réponse. Si vous vous sentez malin, vous pourriez même remettre le pointage du joueur à 0 s'il obtient une mauvaise réponse!
 
+## Défi: Ajout d'un score
 
-
+Peux-tu ajouter un score à ton jeu? Tu peux ajouter un point pour chaque bonne réponse. Si tu te sens méchant, tu peux même réinitialiser le score du joueur à 0 en cas de mauvaise réponse!
 
 --- /challenge ---
