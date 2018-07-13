@@ -1,4 +1,4 @@
---- challange ---
+--- challenge ---
 
 ## Défi: Ajout d'un score
 
