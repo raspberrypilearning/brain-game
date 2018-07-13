@@ -15,7 +15,7 @@ Commençons par créer des questions aléatoires auxquelles le joueur devra rép
 + Ajoute un code à ton personnage, pour définir ces deux variables sur un `nombre aléatoire`{ class="blockoperators"} entre 2 et 12.
     
     ```blocks
-        lorsque le drapeau est cliqué
+        quand le drapeau vert pressé
         mettre [nombre 1 v] à (nombre aléatoire entre (2) et (12)) 
         mettre [nombre 2 v] à (nombre aléatoire entre (2) et (12))
     ```
@@ -23,7 +23,7 @@ Commençons par créer des questions aléatoires auxquelles le joueur devra rép
 + Vous pouvez alors demander au joueur la réponse et lui faire savoir s'il s'est tromper ou non.
     
     ```blocks
-        quand le drapeau est cliqué 
+        quand le drapeau vert pressé
         mettre [nombre 1 v] à (nombre aléatoire entre (2) et (12))  
         mettre [nombre 2 v] à (nombre aléatoire entre (2) et (12)) 
         demander (regroupe (numéro 1)(regroupe [ x ] (numéro 2))) et attendre
