@@ -33,7 +33,7 @@
 
 يتناول هذا المشروع عناصر من معايير المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum):
 
-* [الجمع بين برمجة التركيبات لحل المشكلة.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [دمج الإنشاءات البرمجية لحل مشكلة.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## التحديات
 
