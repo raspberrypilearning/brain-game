@@ -1,8 +1,8 @@
 ## Mehrfache Spiele
 
-Lass uns einen 'start' Knopf zu deinem Spiel hinzufügen, damit du es mehrmals spielen kannst.
+Lass uns einen 'spielen' Knopf zu deinem Spiel hinzufügen, damit du es mehrmals spielen kannst.
 
-+ Erstelle eine neue 'start' Figur, welche der Spieler anklicken muss, um ein neues Spiel zu starten. Du kannst die Figur selber malen, oder eine Figur aus der Scratch Bibliothek berabeiten.
++ Erstelle eine neue 'spielen' Figur, welche der Spieler anklicken muss, um ein neues Spiel zu starten. Du kannst die Figur selber malen, oder eine Figur aus der Scratch Bibliothek berabeiten.
     
     ![screenshot](images/brain-play.png)
 
@@ -17,21 +17,21 @@ Lass uns einen 'start' Knopf zu deinem Spiel hinzufügen, damit du es mehrmals s
     sende [start v] an alle
     ```
     
-    Dieser Code zeigt deinen Start-Knopf, wenn dein Projekt gestartet wird. Wenn der Knopf angeklickt wird, wird er versteckt und sendet dann eine Nachricht, die das Spiel startet.
+    Dieser Code zeigt deinen Spielen-Knopf, wenn dein Projekt gestartet wird. Wenn der Knopf angeklickt wird, wird er versteckt und sendet dann eine Nachricht, die das Spiel startet.
 
 + Du musst den Code deiner Spielfigur anpassen, damit das Spiel beginnt, wenn die Figur die `start`{:class="blockevents"} Startmeldung erhält, und nicht erst wenn die Flagge angeklickt wird.
     
-    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
+    Ersetze den Code `Wenn die grüne Flagge angeklickt`{:class="blockevents"} mit `Wenn ich start empfange`{:class="blockevents"}.
     
     ![screenshot](images/brain-start.png)
 
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
++ Klicke die grüne Flagge an und klicke danach auf deinen Spielen-Knopf, um ihn zu testen. Du solltest sehen, dass die Spiel nicht startet, bis der Knopf gedrückt wurde.
 
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
++ Hast du bemerkt, dass die Zeituhr startet, wenn die grüne Flagge angeklickt wird und nicht, wenn das Spiel beginnt?
     
     ![screenshot](images/brain-timer-bug.png)
     
-    Can you fix this problem?
+    Kannst du das Problem lösen?
 
 + Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
     
