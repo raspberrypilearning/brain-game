@@ -9,7 +9,7 @@ Kannst du eine Anleitungs-Bildschirm zu deinem Spiel hinzufügen, indem du den S
 Du wirst vielleicht auch einen 'zurück'-Knopf brauchen, um dich wieder zum Hauptmenü zu bringen.
 
 ```blocks
-    broadcast [main menu v]
+    sende [main menu v] an alle
 ```
 
 \--- /challenge \---
