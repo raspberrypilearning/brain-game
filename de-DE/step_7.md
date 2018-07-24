@@ -1,6 +1,6 @@
-## Adding graphics
+## Grafiken hinzufügen
 
-Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
+Anstellt, dass deine Spielfigur nur `Richtig!` oder `Leider falsch!` zum Spieler sagt, können wir jetzt Grafik hinzufügen, damit der Spieler weiß, wie es um ihn bestellt ist.
 
 + Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
     
