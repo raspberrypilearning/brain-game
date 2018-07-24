@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: Start screen
+## Aufgabe: Start-Bildschirm
 
-Can you add another backdrop to your stage, which will become your game's start screen? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
+Kannst du einen weiteren Hintergrund zu deiner Bühne hinzufügen, welcher der Start-Bildschirm deines Spiels sein wird? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
 
 You can also show and hide your character, and even show and hide your timer by using these blocks:
 
