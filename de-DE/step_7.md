@@ -2,19 +2,19 @@
 
 Anstellt, dass deine Spielfigur nur `Richtig!` oder `Leider falsch!` zum Spieler sagt, können wir jetzt Grafik hinzufügen, damit der Spieler weiß, wie es um ihn bestellt ist.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
++ Erstelle eine neue Figur namens Ergebnis, die sowhol ein "Häkchen" als auch ein "Kreuz" Kostüm enthält.
     
     ![screenshot](images/brain-result.png)
 
-+ Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
++ Ändere den Code deiner Spielfigur, damit du, statt nur dem Spieler mitzuteilen, welchen Punktzahl er erreicht hat, ihm statt dessen auch die entsprechenden `richtig`{:class="blockevents"} und `falsch`{:class="blockevents"} Nachrichten senden kannst.
     
     ![screenshot](images/brain-broadcast-answer.png)
 
-+ You can now use these messages to show the 'tick' or 'cross' costume. Add this code to your new 'Result' sprite:
++ Du kannst jetzt diese Meldungen dazu benutzen, um entweder das "Häkchen" oder das "Kreuz" Kostüm anzuzeigen. Füge diesen Code zu deiner neuen Ergbnis Figur hinzu:
     
     ![screenshot](images/brain-show-answer.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
++ Teste dein Spiel erneut. Du solltest jedes mal, wenn du eine Frage richtig beantwortet hast, ein Häkchen sehen oder, wenn du die Frage falsch beantwortet hast, ein Kreuz sehen!
     
     ![screenshot](images/brain-test-answer.png)
 
