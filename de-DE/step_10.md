@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Race to 10 points
+## Aufgabe: Wettrennen zu 10 Punkten
 
-Can you change your game, so that instead of answering as many questions as they can in 30 seconds, the player has to see how quickly they can get 10 questions correct?
+Kannst du dein Spiel so ändern, dass der Spieler nicht so viele Frage beantworten muss, wie er in 30 Sekunden schaft, sondern wie schnell er 10 Fragen richtig beantworten kann?
 
-To do this, you'll only need to change your timer code. Can you see what needs to be changed?
+Um das zu machen, musst du lediglich den Code von deiner Uhr ändern. Weißt du was geändert werden muss?
 
 ```blocks
     when I receive [start v]
