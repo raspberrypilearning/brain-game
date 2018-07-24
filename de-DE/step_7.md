@@ -18,19 +18,19 @@ Anstellt, dass deine Spielfigur nur `Richtig!` oder `Leider falsch!` zum Spieler
     
     ![screenshot](images/brain-test-answer.png)
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
++ Hast du bemerkt, dass der Code für die `Wenn ich richtig empfange`{:class="blockevents"} und `Wenn ich falsch empfange`{:class="blockevents"} Blöcke nahezu identisch ist? Lass uns eine Funktion erstellen, damit es leichter für dich ist, Änderungen an deinem Code vorzunehmen.
     
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
+    Klicke auf `Weitere Blöcke`{:class="blockmoreblocks"} auf deiner Ergebnis Figur und dann auf 'Neuer Block'. Erstelle eine neue Funktion namens `animieren`{:class="blockmoreblocks"}.
     
     ![screenshot](images/brain-animate-function.png)
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
++ Du kannst den Animationscode zu deiner neuen animieren-Funktion hinzufügen und dann die Funktion zweimal benutzen:
     
     ![screenshot](images/brain-use-function.png)
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
++ Jetzt musst du nur eine Veränderung an deinem Code vornehmen, wenn du das Häkchen und das Kreuz für längere oder kürzere Zeit anzeigen möchtest. Probier es mal!
 
-+ Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
++ Anstatt das Häkchen und das Kreuz nur zu zeigen oder zu versteckene, kannst du auch die animieren-Funktion ändern, damit die Grafik eingeblendet wird.
     
     ```blocks
         define [animate]
