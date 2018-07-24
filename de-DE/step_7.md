@@ -33,11 +33,11 @@ Anstellt, dass deine Spielfigur nur `Richtig!` oder `Leider falsch!` zum Spieler
 + Anstatt das Häkchen und das Kreuz nur zu zeigen oder zu versteckene, kannst du auch die animieren-Funktion ändern, damit die Grafik eingeblendet wird.
     
     ```blocks
-        define [animate]
-        set [ghost v] effect to (100)
-        show
-        repeat (25)
-            change [ghost v] effect by (-4)
+        Definiere (animieren)
+        setze [Durchsichtigkeit v] -Effekt auf (100)
+        zeige dich
+        wiederhole (25) mal 
+             ändere [Durchsichtigkeit v] -Effekt um (-4)
         end
-        hide
+        verstecke dich
     ```
