@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: Changing costumes
+## Aufgabe: Kostüme wechseln
 
-Can you change your character's costumes, so that they respond to the player's answer?
+Kannst du die Kostüme deines Charakters ändern, sodass sie auf die Antwort des Spielers reagieren?
 
 ![screenshot](images/brain-costume.png)
 
