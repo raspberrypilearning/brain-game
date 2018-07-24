@@ -2,16 +2,16 @@
 
 ## Aufgabe: Start-Bildschirm
 
-Kannst du einen weiteren Hintergrund zu deiner Bühne hinzufügen, welcher der Start-Bildschirm deines Spiels sein wird? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
+Kannst du einen weiteren Hintergrund zu deiner Bühne hinzufügen, welcher der Start-Bildschirm deines Spiels sein wird? Du kannst die `Wenn ich Start empfange`{:class="blockevents"} und `Wenn ich Ende empfange`{:class="blockevents"} Blöcke verwenden, um zwischen den Hintergründen zu wechseln.
 
-You can also show and hide your character, and even show and hide your timer by using these blocks:
+Mit Hilfe dieser Blöcke kannst du sogar deine Spielfigur und deine Zeituhr entweder anzeigen oder auch verstecken:
 
 ```blocks
-show variable [time v]
+zeige Variable [zeit v]
 ```
 
 ```blocks
-hide variable [time v]
+verstecke Variable [zeit v]
 ```
 
 ![screenshot](images/brain-startscreen.png)
