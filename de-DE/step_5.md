@@ -57,16 +57,16 @@ Lass uns einen 'spielen' Knopf zu deinem Spiel hinzufügen, damit du es mehrmals
         setze [Zeit v] auf [10]
     ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ Du kannst das Aussehen des Knopfes auch ändern, wenn die Maus darüber gleitet.
     
     ```blocks
-        when flag clicked
-        show
-        forever
-        if <touching [mouse-pointer v]?> then
-            set [fisheye v] effect to (30)
-        else
-            set [fisheye v] effect to (0)
+        Wenn die grüne Flagge angeklickt
+        zeige dich
+        wiederhole fortlaufend 
+        falls <wird [Mauszeiger v] berührt?> dann
+            setze [Fischauge v] -Effekt auf (30)
+       sonst
+            setze [Fischauge v] -Effekt auf (0)
         end
         end
     ```
