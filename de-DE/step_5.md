@@ -1,6 +1,6 @@
-## Multiple games
+## Mehrfache Spiele
 
-Let's add a 'play' button to your game, so that you can play lots of times.
+Lass uns einen 'start' Knopf zu deinem Spiel hinzufügen, damit du es mehrmals spielen kannst.
 
 + Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
     
