@@ -2,24 +2,24 @@
 
 Lass uns einen 'start' Knopf zu deinem Spiel hinzufügen, damit du es mehrmals spielen kannst.
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
++ Erstelle eine neue 'start' Figur, welche der Spieler anklicken muss, um ein neues Spiel zu starten. Du kannst die Figur selber malen, oder eine Figur aus der Scratch Bibliothek berabeiten.
     
     ![screenshot](images/brain-play.png)
 
-+ Add this code to your new button.
++ Füge diesen Code zu deinem Knopf hinzu.
     
     ```blocks
-        when flag clicked
-        show
+        Wenn die grüne Flagge angeklickt
+    zeige dich
     
-        when this sprite clicked
-        hide
-        broadcast [start v]
+    Wenn ich angeklickt werde
+    verstecke dich
+    sende [start v] an alle
     ```
     
-    This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
+    Dieser Code zeigt deinen Start-Knopf, wenn dein Projekt gestartet wird. Wenn der Knopf angeklickt wird, wird er versteckt und sendet dann eine Nachricht, die das Spiel startet.
 
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
++ Du musst den Code deiner Spielfigur anpassen, damit das Spiel beginnt, wenn die Figur die `start`{:class="blockevents"} Startmeldung erhält, und nicht erst wenn die Flagge angeklickt wird.
     
     Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
     
