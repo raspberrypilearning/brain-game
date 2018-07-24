@@ -7,13 +7,13 @@ Kannst du dein Spiel so ändern, dass der Spieler nicht so viele Frage beantwort
 Um das zu machen, musst du lediglich den Code von deiner Uhr ändern. Weißt du was geändert werden muss?
 
 ```blocks
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) secs
-        change [time v] by (-1)
+    Wenn ich [Start v] empfange
+    setze [zeit v] auf (30)
+    wiederhole bis <(zeit) = [0]>
+        warte (1) Sek.
+        ändere [zeit v] um (-1)
     end
-    broadcast [end v]
+    sende [Ende v] an alle
 ```
 
 \--- /challenge \---
