@@ -1,0 +1,20 @@
+---
+hero_image: images/brain-game.png
+theme: red
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Jogo de calculo mental
+description: Neste projeto vais aprender a criar um jogo de perguntas sobre a tabuada de multiplicar, no qual terás que conseguir responder um numero máximo de perguntas corretas como possas em 30 segundos.
+original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
+interests: games
+technologies: scratch
+site_areas: projects
+hardware: ''
+software: scratch
+version: 3
+last_tested: 2017-01-01
+steps: 
+- title: Jogo de calculo mental
