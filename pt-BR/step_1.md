@@ -39,7 +39,7 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 
 * "Trocar trajes" - mudar a aparência da personagem do jogo conforme respostas corretas e incorretas;
 * "Adicionar uma pontuação" - adicionar um ponto para cada questão certa respondida;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
+* "Tela inicial" - alterar o pano de fundo quando acionar `começar` {: classe = "blockevents"} e `end` {: classe = "blockevents"} transmitir mensagens, criando 2 'telas' de jogo;
 * "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
 * "Sound and music" - consolidating learning of music loops and sound effects;
 * "Race to 10 points" - changing the game logic to create a new game objective;
