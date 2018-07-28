@@ -15,26 +15,26 @@ Vamos começar criando questões aleatórias para o jogador responder.
 + Adicione o código ao seu personagem, para definir ambas as variáveis ​​para um número `aleatório` {:class="blockoperators"} entre 2 e 12.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
+        quando alguém clicar na bandeira verde
+            altera [número 1 v] para (um valor aleatório entre (2) e (12))
+            altera [número 2 v] para (um valor aleatório entre (2) e (12))
     ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ Você pode então pedir ao jogador a resposta e dizer se estava certo ou errado.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
-        ask (join (number 1)(join [ x ] (number 2))) and wait
-        if <(answer) = ((number 1)*(number 2))> then
-            say [yes! :)] for (2) secs
-        else
-            say [nope :(] for (2) secs
-        end
+        quando alguém clicar na bandeira verde
+            altera [numero 1 v] para (um valor aleatório entre (2) e (12))
+            altera [numero 2 v] para (um valor aleatório entre (2) e (12))
+            pergunta (a junção de (numero 1) com (a junção de [ x ] com (numero 2))) e espera pela resposta
+            se <(resposta) = ((numero 1) * (numero 2))> então 
+                diz [certo! :)] durante (2) s
+            senão
+                diz [errado:(] durante (2) s
+            fim
     ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ Teste seu projeto completamente, respondendo uma questão corretamente e outra com a resposta errada.
 
 + Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
 
