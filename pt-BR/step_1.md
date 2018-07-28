@@ -40,20 +40,20 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 * "Trocar trajes" - mudar a aparência da personagem do jogo conforme respostas corretas e incorretas;
 * "Adicionar uma pontuação" - adicionar um ponto para cada questão certa respondida;
 * "Tela inicial" - alterar o pano de fundo quando acionar `começar` {: classe = "blockevents"} e `end` {: classe = "blockevents"} transmitir mensagens, criando 2 'telas' de jogo;
-* "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-* "Sound and music" - consolidating learning of music loops and sound effects;
-* "Race to 10 points" - changing the game logic to create a new game objective;
-* "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
+* "Melhorar a animação" - usar loops e efeitos para melhorar a animação dos ícones certo/errado;
+* "Som e música" - consolidar a aprendizagem de loops de música e efeitos sonoros;
+* "Corrida de 10 pontos" - mudar a lógica para criar um novo objetivo de jogo;
+* "Tela de instruções" - consolidando o uso de transmissões para criar um menu de jogos, adicionando um novo botão e tela de "instruções".
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## título: Materiais do projeto
 
-## Club leader resources
+## Recursos do líder do clube
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Download do projeto completo no Scratch 2](resources/BrainGame.sb2)
+* [Projeto concluído do Scratch 2 online](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
