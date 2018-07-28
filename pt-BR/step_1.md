@@ -17,19 +17,19 @@ Se precisar imprimir este projeto, por favor, use a [versão para impressão](ht
 
 ## Introdução:
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+Neste projeto, as crianças aprenderão a fazer um jogo de teste da tabela de multiplicação, no qual o jogador tem que responder o máximo possível de questões corretamente em 30 segundos.
 
-## Resources
+## Recursos
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Para este projeto, deve ser usado o Scratch 2. Scratch 2 pode ser usado online em [jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on)ou também ser baixado em [jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off)e ser usado o mesmo sem conexão à internet.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Você pode encontrar a versão completa deste projeto [ online](http://scratch.mit.edu/projects/42225768/#editor), ou poderá baixá-lo clicando no link 'Materiais do Projeto' para este projeto, que contém:
 
 * BrainGame.sb2
 
-## Learning Objectives
+## Objetivos de aprendizado
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* Este projeto consolida habilidades de programação anteriores aprendidas e mostra como transmissões podem ser usadas para criar um sistema de menu simples do jogo.
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
