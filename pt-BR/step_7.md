@@ -1,12 +1,12 @@
-## Adding graphics
+## Adicionando gráficos
 
-Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
+Ao invés do personagem somente dizer `sim! :)` ou `não :(` para o jogador, vamos adicionar alguns gráficos para que ajudem o jogador a entender como está indo.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
++ Crie um novo objeto chamado 'Resultado', contendo ambos um 'sinal de visto' e um 'sinal de errado'.
     
     ![screenshot](images/brain-result.png)
 
-+ Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
++ Mude o código de seu personagem, para que ao invés de dizer ao jogador o resultado, mostrar as mensagens `correto`{:class="blockevents"} e `errado`{:class="blockevents"}.
     
     ![screenshot](images/brain-broadcast-answer.png)
 
