@@ -28,16 +28,16 @@ Ao invés do personagem somente dizer `sim! :)` ou `não :(` para o jogador, vam
     
     ![screenshot](images/brain-use-function.png)
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
++ Agora, se você quiser mostrar o sinal de visto e o sinal de errado por um tempo mais longo ou curto, você só irá precisar fazer uma alteração no código. Tente!
 
-+ Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
++ Ao invés de somente mostrar e esconder o sinal de visto e o sinal de errado você pode mudar sua função de animação, para que os ícones apareçam.
     
     ```blocks
-        define [animate]
-        set [ghost v] effect to (100)
-        show
-        repeat (25)
-            change [ghost v] effect by (-4)
-        end
-        hide
+        defina [animar]
+     aterar efeito [ghost v] para (100)
+     mostrar
+     repetir (25)
+       mudar efeito [ghost v] para (-4)
+     fim
+    esconder
     ```
