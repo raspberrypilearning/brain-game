@@ -2,15 +2,15 @@
 
 Vamos começar por criar perguntas aleatórias para o jogador responder.
 
-+ Inicie um novo projeto do Scratch e exclua o sprite do gato para que seu projeto fique vazio. Você pode encontrar o editor online do Scratch em <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
++ Inicie um novo projeto do Scratch e exclua o sprite do gato para que seu projeto fique vazio. Para criar um novo projeto Scratch usando o editor online, acesse <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-+ Escolha um personagem um plano de fundo para o seu jogo. Você pode escolher qualquer coisa que gostar! Um exemplo:
++ Escolha um personagem e um pano de fundo para o seu jogo. Você pode escolher o que quiser! Aqui está um exemplo:
     
-    ![screenshot](images/brain-setting.png)
+    ![captura de tela](images/brain-setting.png)
 
-+ Cria duas novas variáveis ​​chamadas `número 1` {:class="blockdata"} e `número 2` {: class = "blockdata"}. Estas variáveis vão ​​guardar os dois números que vão ser multiplicados.
++ Crie 2 novas variáveis ​​chamadas `numero 1` {:class="blockdata"} e `numero 2 ` {:class="blockdata"}. Essas variáveis ​​armazenarão os 2 números que serão multiplicados juntos.
     
-    ![screenshot](images/brain-variables.png)
+    ![captura de tela](images/brain-variables.png)
 
 + Adicione o código ao seu personagem, para definir ambas as variáveis ​​para um número `aleatório` {:class="blockoperators"} entre 2 e 12.
     
@@ -36,8 +36,8 @@ Vamos começar por criar perguntas aleatórias para o jogador responder.
 
 + Teste seu projeto completamente, respondendo uma questão corretamente e outra com a resposta errada.
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ Adicione um `para sempre` {:class="blockcontrol"} circula em torno deste código, de modo que o jogador receba muitas questões.
 
-+ Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
++ Crie um cronômetro de contagem regressiva no palco, usando uma variável chamada `tempo`{:class="blockdata"}. O projeto 'Ghostbusters' tem instruções para fazer um temporizador (no passo 5) se você precisar de ajuda!
 
-+ Test your project again - you should be able to continue asking questions until the time runs out.
++ Teste seu projeto novamente - você deve poder continuar fazendo questões até que o tempo acabe.
