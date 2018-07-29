@@ -2,16 +2,16 @@
 
 ## Desafio: tela inicial
 
-Você pode adicionar outro pano de fundo para seu palco, que passará a ser a tela de início do jogo? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
+Você pode adicionar outro pano de fundo para seu palco, que passará a ser a tela de início do jogo? Você pode usar os blocos `quando eu receber o início`{:classe="blockevents"} e `quando recebo final`{:classe="blockevents"} para alternar entre cenários.
 
-You can also show and hide your character, and even show and hide your timer by using these blocks:
+Você pode também mostrar e esconder seu personagem, e até mesmo mostrar e esconder o contador utilizando esses blocos:
 
 ```blocks
-show variable [time v]
+mostrar variável [tempo v]
 ```
 
 ```blocks
-hide variable [time v]
+esconder variável [tempo v]
 ```
 
 ![screenshot](images/brain-startscreen.png)
