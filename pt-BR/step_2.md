@@ -1,6 +1,6 @@
-## Criando questões
+## Criação de perguntas
 
-Vamos começar criando questões aleatórias para o jogador responder.
+Vamos começar por criar perguntas aleatórias para o jogador responder.
 
 + Inicie um novo projeto do Scratch e exclua o sprite do gato para que seu projeto fique vazio. Você pode encontrar o editor online do Scratch em <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
 
