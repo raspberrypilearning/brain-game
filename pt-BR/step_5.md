@@ -4,7 +4,7 @@ Vamos inserir um botão de ‘Jogar’ ao seu jogo, para que possa jogar várias
 
 + Cria um novo objeto com um botão de ‘Jogar’, no qual o jogador irá clicar para iniciar um novo jogo. Você mesmo pode desenhar ou editar um ator da biblioteca do Scratch.
     
-    ![screenshot](images/brain-play.png)
+    ![captura de tela](images/brain-play.png)
 
 + Adicione este código ao seu novo botão.
     
@@ -22,52 +22,52 @@ Vamos inserir um botão de ‘Jogar’ ao seu jogo, para que possa jogar várias
     
     Substitua o código de`quando a bandeira for clicada`{:class="blockevents"} por `quando iniciar`{:class="blockevents"}.
     
-    ![screenshot](images/brain-start.png)
+    ![captura de tela](images/brain-start.png)
 
 + Clique na bandeira verde e então clique no seu novo botão Jogar para testá-lo. Você verá que o jogo não inicia mesmo quando o botão é clicado.
 
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
++ Você notou que o contador de tempo inicia quando a bandeira verde é clicada, e não quando o jogo começa?
     
-    ![screenshot](images/brain-timer-bug.png)
+    ![captura de tela](images/brain-timer-bug.png)
     
-    Can you fix this problem?
+    Consegue resolver este problema?
 
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
++ Clique no palo, e substitua o bloco `para tudo`{:class="blockcontrol"} por uma mensagem `fim`{:class="blockevents"}.
     
-    ![screenshot](images/brain-end.png)
+    ![captura de tela](images/brain-end.png)
 
-+ You can now add code to your button, to show it again at the end of each game.
++ Você agora pode adicionar código ao seu botão, para mostrá-lo denovo ao fim de cada partida.
     
     ```blocks
-        when I receive [end v]
-        show
+        quando eu receber [fim v]
+      mostrar
     ```
 
-+ You'll also need to stop your character asking questions at the end of each game:
++ Você também precisa impedir que o personagem faça novas questões ao final do jogo:
     
     ```blocks
-        when I receive [end v]
-        stop [other scripts in sprite v]
+        quando recebo [fim v]
+      pare [outros scripts no objeto v]
     ```
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
++ Teste seu botão jogar apenas jogando algumas partidas. Você pode observar que o botão Jogar aparece após cada partida. Para tornar o teste mais fácil, você pode encurtar cada partida, de modo que dure apenas alguns segundos.
     
     ```blocks
-        set [time v] to [10]
+        alterar[tempo v] para [10]
     ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ Você até pode mudar a aparência do botão quando o mouse passar por cima.
     
     ```blocks
-        when flag clicked
-        show
-        forever
-        if <touching [mouse-pointer v]?> then
-            set [fisheye v] effect to (30)
-        else
-            set [fisheye v] effect to (0)
-        end
-        end
+        quando a bandeira verde for clicada
+      mostrar
+      para sempre
+      se <touching [mouse-pointer v]?> então
+        altere efeito [olho de peixe v] para (30)
+      senão
+         altere o efeito [olho de peixe v] para (0)
+      fim
+      fim
     ```
     
-    ![screenshot](images/brain-fisheye.png)
+    ![captura de tela](images/brain-fisheye.png)
