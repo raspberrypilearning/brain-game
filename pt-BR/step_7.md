@@ -10,21 +10,21 @@ Ao invés do personagem somente dizer `sim! :)` ou `não :(` para o jogador, vam
     
     ![screenshot](images/brain-broadcast-answer.png)
 
-+ You can now use these messages to show the 'tick' or 'cross' costume. Add this code to your new 'Result' sprite:
++ Você pode aogra usar essas mensagens para mostar o 'sinal de confere' ou 'sinal de errado'. Adicione esse código ao seu novo objeto 'Resultado':
     
     ![screenshot](images/brain-show-answer.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
++ Teste seu jogo novamente. Você deve ver um 'sinal de visto' sempre que responder uma questão corretamente, e um 'sinal de errado' sempre que responder errado!
     
     ![screenshot](images/brain-test-answer.png)
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
++ Você notou que o código para `quando eu recebo correto`{:class="blockevents"} e `quando eu recebo errado`{:class="blockevents"} são quase idênticos? Vamos criar uma função para facilitar as alterações no código.
     
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
+    No seu objeto 'Resultado', clique em `Mais Blocos`{:class="blockmoreblocks"}, e então 'Criar um Bloco'. Crie uma nova função chamada `animar`{:class="blockmoreblocks"}.
     
     ![screenshot](images/brain-animate-function.png)
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
++ Você pode então adicionar o códico de animação em sua nova função de animação, e então usar a função duas vezes:
     
     ![screenshot](images/brain-use-function.png)
 
