@@ -39,7 +39,7 @@ Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digi
 
 * ''Promjena kostima'' - promjena izgleda karaktera kao odgovor na tačan ili netačan odgovora;
 * ''Dodavanje bodova'' - dodavanje boda za svaki tačan odgovor;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
+* ''Početni ekran'' - promjena pozadine pozornice kao odgovor na poslate poruke `kreni`{:class="blockevents"} i `kraj`{:class="blockevents"}, kreiranje dva 'ekrana' za igru;
 * "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
 * "Sound and music" - consolidating learning of music loops and sound effects;
 * "Race to 10 points" - changing the game logic to create a new game objective;
