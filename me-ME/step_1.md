@@ -1,29 +1,29 @@
-## Introduction
+## Uvod
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+U ovom projektu ćeš naučiti kako da napraviš kviz sa pitanjima iz tablice množenja u kojem treba da tačno odgovoriš na što više pitanja u 30 sekundi.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### Dodatne informacije za vođe kluba
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Bilješke za vođe kluba
 
-## Introduction:
+## Uvod:
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+U ovom projektu djeca će naučiti da kako da naprave igru kviza sa pitanjima iz tablice množenja u kojem igrač treba da tačno odgovori na što više pitanja u 30 sekundi.
 
-## Resources
+## Izvori
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Za ovaj projekat koristite Scratch 2. Scratch 2 možete koristiti online na [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ili ga preuzeti sa [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) i koristiti offline.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Završenu verziju projekta možete naći [online](http://scratch.mit.edu/projects/42225768/#editor) ili preuzeti klikom na link ‘Project Materials’ za ovaj projekat, koji sadrži:
 
 * BrainGame.sb2
 
