@@ -20,24 +20,24 @@ Počnimo sa izradom slučajno odabranih pitanja na koje igrač treba da odgovori
         set [broj 2 v] to (pick random (2) to (12))
     ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ Zatim možeš da zatražiš odgovor od igrača i da ga obavijestiš da li je njegov odgovor tačan ili netačan.
     
     ```blocks
         when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
-        ask (join (number 1)(join [ x ] (number 2))) and wait
-        if <(answer) = ((number 1)*(number 2))> then
-            say [yes! :)] for (2) secs
+        set [broj 1 v] to (pick random (2) to (12))
+        set [broj 2 v] to (pick random (2) to (12))
+        ask (join (broj 1)(join [ x ] (broj 2))) and wait
+        if <(answer) = ((broj 1)*(broj 2))> then
+            say [da! :)] for (2) secs
         else
-            say [nope :(] for (2) secs
+            say [ne :(] for (2) secs
         end
     ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ Isprobaj svoj projekat u cjelosti tako što ćeš na jedno pitanje odgovoriti tačno, a na drugo netačno.
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ Dodaj petlju `forever`{:class="blockcontrol"} (ponavljaj) oko ovoga kôda, tako da igraču bude postavljeno više pitanja.
 
-+ Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
++ Postavi brojač vremena na pozornicu, koristeći promjenljivu pod nazivom `vrijeme`{:class="blockdata"}. Ako ti je potrebna pomoć, u projektu 'Istjerivači duhova' (u koraku 5) nalaze se uputstva za kreiranje brojača vremena!
 
 + Test your project again - you should be able to continue asking questions until the time runs out.
