@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: Changing costumes
+## Izazov: Promjena kostima
 
-Can you change your character's costumes, so that they respond to the player's answer?
+Da li možeš da promijeniš kostim svog karaktera tako da odgovara na igračev odgovor?
 
 ![screenshot](images/brain-costume.png)
 
