@@ -27,15 +27,15 @@ Završenu verziju projekta možete naći [online](http://scratch.mit.edu/project
 
 * BrainGame.sb2
 
-## Learning Objectives
+## Ciljevi učenja
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* U ovom projektu utvrđuju se prethodno savladane vještine u programiranju. Pokazano je kako se slanje poruka može koristiti za izradu jednostavnog sistema menija za igru.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Kombinujte programske konstrukcije za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Izazovi
 
 * "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
 * "Adding a score" - adding a point for every correct question answered;
