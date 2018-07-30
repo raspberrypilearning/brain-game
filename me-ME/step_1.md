@@ -37,7 +37,7 @@ Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digi
 
 ## Izazovi
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
+* ''Promjena kostima'' - promjena izgleda karaktera kao odgovor na tačan ili netačan odgovora;
 * "Adding a score" - adding a point for every correct question answered;
 * "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
 * "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
