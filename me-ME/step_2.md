@@ -1,23 +1,23 @@
-## Creating questions
+## Izrada pitanja
 
-Let's start by creating random questions for the player to answer.
+Počnimo sa izradom slučajno odabranih pitanja na koje igrač treba da odgovori.
 
-+ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Otvori novi Scratch projekat i obriši lik mačke tako da tvoj projekat bude prazan. Online Scratch editor možeš naći na <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ Izaberi karaktera i pozadinu za svoju igru. Možeš da izabereš koje god želiš! Evo primjera:
     
     ![screenshot](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ Kreiraj 2 nove promjenljive (variables) i nazovi ih `broj 1`{:class="blockdata"} i `broj 2`{:class="blockdata"}. U ovim promjenljivim biće sačuvana 2 broja koja će biti pomnožena.
     
     ![screenshot](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
++ Dodaj kôd svom karakteru kako bi obje promjenljive bile postavljene na `slučajan`{:class="blockoperators"} (random) broj između 2 i 12. 
     
     ```blocks
         when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
+        set [broj 1 v] to (pick random (2) to (12))
+        set [broj 2 v] to (pick random (2) to (12))
     ```
 
 + You can then ask the player for the answer, and let them know if they were right or wrong.
