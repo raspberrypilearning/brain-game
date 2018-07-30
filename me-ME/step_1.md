@@ -49,11 +49,11 @@ Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digi
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Projektni materijali
 
-## Club leader resources
+## Izvori za vođe kluba
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Završen Scratch 2 projekat koji se može preuzeti](resources/BrainGame.sb2)
+* [Završen Scratch 2 projekat koji se može koristiti online](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
