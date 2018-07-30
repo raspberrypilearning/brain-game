@@ -40,4 +40,4 @@ Počnimo sa izradom slučajno odabranih pitanja na koje igrač treba da odgovori
 
 + Postavi brojač vremena na pozornicu, koristeći promjenljivu pod nazivom `vrijeme`{:class="blockdata"}. Ako ti je potrebna pomoć, u projektu 'Istjerivači duhova' (u koraku 5) nalaze se uputstva za kreiranje brojača vremena!
 
-+ Test your project again - you should be able to continue asking questions until the time runs out.
++ Ponovo isprobaj svoj projekat - trebalo bi da možeš da postavljaš pitanja sve dok ne istekne vrijeme.
