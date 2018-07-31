@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: Improved animation
+## Izazov: Poboljšana animacija
 
-Can you improve the animation of your graphics? You could code the tick and cross so that they fade out as well as fade in. Or, you could use other cool effects:
+Da li možeš da poboljšaš animaciju svojih grafika? Možeš da kodiraš kvačicu i krstić tako da se postepeno pojavljuju i nestaju. A možeš koristiš i druge sjajne efekte:
 
 ![screenshot](images/brain-effects.png)
 
