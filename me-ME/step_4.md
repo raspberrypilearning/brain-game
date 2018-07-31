@@ -1,7 +1,7 @@
 \--- challenge \---
 
-## Challenge: Adding a score
+## Izazov: Dodavanje bodova
 
-Can you add a score to your game? You can add a point for every correct answer. If you're feeling mean, you could even reset the player's score to 0 if they get a question wrong!
+Da li možeš u svoju igru da dodaš bodove? Možeš da dodaš bod za svaki tačan odgovor. Ako hoćeš da budeš zao, možeš čak da podesiš da se igračev broj bodova vrati na nulu ako igrač odgovori pogrešno na pitanje!
 
 \--- /challenge \---
