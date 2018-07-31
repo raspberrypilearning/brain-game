@@ -1,19 +1,19 @@
 \--- challenge \---
 
-## Challenge: Race to 10 points
+## Izazov: Trka do 10 bodova
 
-Can you change your game, so that instead of answering as many questions as they can in 30 seconds, the player has to see how quickly they can get 10 questions correct?
+Da li možeš da izmijeniš svoju igru tako da igrač, umjesto da odgovori na što više pitanja u 30 sekundi, može da provjeri koliko brzo može da dâ 10 tačnih odgovora?
 
-To do this, you'll only need to change your timer code. Can you see what needs to be changed?
+Da to uradiš, potrebno je samo da izmijeniš svoj kôd za brojač vremena. Možeš li da uočiš šta treba da se promijeni?
 
 ```blocks
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
+    when I receive [kreni v]
+    set [vrijeme v] to (30)
+    repeat until <(vrijeme) = [0]>
         wait (1) secs
-        change [time v] by (-1)
+        change [vrijeme v] by (-1)
     end
-    broadcast [end v]
+    broadcast [kraj v]
 ```
 
 \--- /challenge \---
