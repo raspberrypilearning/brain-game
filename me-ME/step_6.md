@@ -2,16 +2,16 @@
 
 ## Izazov: Početni ekran
 
-Da li možeš na pozornicu da dodaš još jednu pozadinu (backdrop) koja će biti početni ekran tvoje igre? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
+Da li možeš na pozornicu da dodaš još jednu pozadinu (backdrop) koja će biti početni ekran tvoje igre? Za zamjenu pozadina možeš da koristiš blokove `when I receive kreni`{:class="blockevents"} and `when I receive kraj`{:class="blockevents"}.
 
-You can also show and hide your character, and even show and hide your timer by using these blocks:
+Takođe možeš da prikažeš ili sakriješ svog karaktera, pa čak i da prikažeš ili sakriješ brojač vremena koristeći ove blokove:
 
 ```blocks
-show variable [time v]
+show variable [vrijeme v]
 ```
 
 ```blocks
-hide variable [time v]
+hide variable [vrijeme v]
 ```
 
 ![screenshot](images/brain-startscreen.png)
