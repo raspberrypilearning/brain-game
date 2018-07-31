@@ -1,6 +1,6 @@
 ## Dodavanje grafika
 
-Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
+Umjesto da tvoj karakter igraču samo govori `da! :)` ili `ne :(`, dodajmo i nekoliko grafika koje će igraču pokazivati kako mu ide.
 
 + Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
     
