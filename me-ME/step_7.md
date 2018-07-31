@@ -33,7 +33,7 @@ Umjesto da tvoj karakter igraču samo govori `da! :)` ili `ne :(`, dodajmo i nek
 + Umjesto da se kružić i kvačica samo prikazuju i nestaju, možeš promijeniti funkciju za animaciju tako da grafike postepeno nestaju.
     
     ```blocks
-        define [animate]
+        define [animiraj]
         set [ghost v] effect to (100)
         show
         repeat (25)
