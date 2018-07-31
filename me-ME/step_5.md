@@ -1,12 +1,12 @@
-## Multiple games
+## Više igara
 
-Let's add a 'play' button to your game, so that you can play lots of times.
+Hajde da u tvoju igru dodamo dugme 'pokreni', tako da možeš da je igraš više puta.
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
++ Kreiraj novi lik (sprite) dugmeta 'Pokreni' na koji će tvoj igrač kliknuti kako bi započeo novu igru. Možeš sam/sama da ga nacrtaš ili da urediš lik iz Scratch biblioteke (library).
     
     ![screenshot](images/brain-play.png)
 
-+ Add this code to your new button.
++ Dodaj sljedeći kôd svom novom dugmetu.
     
     ```blocks
         when flag clicked
@@ -14,7 +14,7 @@ Let's add a 'play' button to your game, so that you can play lots of times.
     
         when this sprite clicked
         hide
-        broadcast [start v]
+        broadcast [pokreni v]
     ```
     
     This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
