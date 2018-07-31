@@ -38,22 +38,22 @@ Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital M
 ## Udfordringer
 
 * "Ændring af kostumer" - ændring af hvordan spillets karakter ser ud ved svar på korrekte og forkerte svar;
-* "Adding a score" - adding a point for every correct question answered;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
-* "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-* "Sound and music" - consolidating learning of music loops and sound effects;
-* "Race to 10 points" - changing the game logic to create a new game objective;
-* "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
+* "Tilføjelse af en pointtal" - Tilføjelse af et point for hvert korrekt spørgsmål besvaret;
+* "Startskærm" - ændring af scenens baggrund som respons til`start` {: class = "blockevents"} og `slut`{: class = "blockevents"} broadcast-beskeder, skaber 2 spil-'skærme';
+* "Forbedret animation" - ved at gøre brug af sløjfer og effekter for at forbedre den korrekte/forkerte grafiske animation;
+* "Lyd og musik" - læring af musik loops og lydeffekter;
+* "Kapløb til 10 point" - ændring af spillogikken for at skabe et nyt spilmål;
+* "Instruktionsskærm" - brugen af ​​broadcasts for at oprette en spilmenu ved at tilføje en ny 'instruktioner' knap og skærm.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Projektmaterialer
 
-## Club leader resources
+## Klubleder resurser
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Downloadbart færdigt Scratch 2-projekt](resources/BrainGame.sb2)
+* [Online-færdigt Scratch 2 projekt](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
