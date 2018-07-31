@@ -1,35 +1,35 @@
 ## Introduction
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+I dette projekt lærer du, hvordan man laver en timespilsquiz, hvor man skal få så mange rigtige svar som muligt på 30 sekunder.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### Yderligere oplysninger for klubledere
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Hvis du har brug for at udskrive dette projekt skal du bruge den [Printventlige version](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Klubledernotater
 
-## Introduction:
+## Introduktion:
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+I dette projekt vil børn lære at lave en timespilsquiz, hvor spilleren skal besvare så mange spørgsmål som muligt på 30 sekunder.
 
-## Resources
+## Resurser
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Til dette projekt skal Scratch 2 bruges. Scratch 2 kan enten anvendes online på [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) eller kan downloades fra [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) og anvendes offline.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Du kan finde en færdig version af dette projekt [online](http://scratch.mit.edu/projects/42225768/#editor), eller det kan downloades ved at klikke på linket 'Projekt Materialer' for dette projekt, der indeholder:
 
 * BrainGame.sb2
 
-## Learning Objectives
+## Læringsmål
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* Dette projekt konsoliderer læring af tidligere programmeringsfærdigheder, og viser hvordan broadcasts kan bruges til at skabe et simpelt spilmenu-system.
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
