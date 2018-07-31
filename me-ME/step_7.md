@@ -2,23 +2,23 @@
 
 Umjesto da tvoj karakter igraču samo govori `da! :)` ili `ne :(`, dodajmo i nekoliko grafika koje će igraču pokazivati kako mu ide.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
++ Kreiraj novi lik (sprite) pod nazivom 'Rezultat' koji će imati dva kostima (costumes) - 'kvačica' i 'krstić'.
     
     ![screenshot](images/brain-result.png)
 
-+ Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
++ Izmijeni kôd svog karaktera tako da, umjesto da samo govori igraču kako mu ide, šalje poruke `tačno`{:class="blockevents"} i `netačno`{:class="blockevents"}.
     
     ![screenshot](images/brain-broadcast-answer.png)
 
-+ You can now use these messages to show the 'tick' or 'cross' costume. Add this code to your new 'Result' sprite:
++ Sada možeš upotrijebiti ove poruke za prikazivanje kostima 'kvačica' ili 'krstić'. Dodaj sljedeći kôd svom novom liku 'Rezultat':
     
     ![screenshot](images/brain-show-answer.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
++ Isprobaj ponovo svoju igru. Trebalo bi da vidiš kvačicu svaki put kada je odgovor tačan, a krstić svaki put kada je netačan!
     
     ![screenshot](images/brain-test-answer.png)
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
++ Da li primjećuješ da su kôdovi za `when I receive tačno`{:class="blockevents"} i `when I receive netačno`{:class="blockevents"} gotovo identični? Kreirajmo funkciju koja će ti olakšati da napraviš izmjene u svom kôdu.
     
     On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
     
