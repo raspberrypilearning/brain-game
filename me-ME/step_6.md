@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: Start screen
+## Izazov: Početni ekran
 
-Can you add another backdrop to your stage, which will become your game's start screen? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
+Da li možeš na pozornicu da dodaš još jednu pozadinu (backdrop) koja će biti početni ekran tvoje igre? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
 
 You can also show and hide your character, and even show and hide your timer by using these blocks:
 
