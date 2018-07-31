@@ -44,20 +44,20 @@ Hajde da u tvoju igru dodamo dugme 'igraj', tako da možeš da je igraš više p
         show
     ```
 
-+ You'll also need to stop your character asking questions at the end of each game:
++ Takođe će biti potrebno da zaustaviš svog karaktera da postavlja pitanja na kraju svake igre:
     
     ```blocks
-        when I receive [end v]
+        when I receive [kraj v]
         stop [other scripts in sprite v]
     ```
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
++ Isprobaj dugme 'Igraj' tako što ćeš odigrati nekoliko igara. Trebalo bi da vidiš da se dugme 'Igraj' pojavljuje nakon svake igre. Da olakšaš isprobavanje, svaku igru možeš da skratiš, tako da traje samo nekoliko sekundi.
     
     ```blocks
-        set [time v] to [10]
+        set [vrijeme v] to [10]
     ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ Možeš čak i da promijeniš izgled dugmeta kada mišem pređeš preko njega.
     
     ```blocks
         when flag clicked
