@@ -1,8 +1,8 @@
 ## Više igara
 
-Hajde da u tvoju igru dodamo dugme 'pokreni', tako da možeš da je igraš više puta.
+Hajde da u tvoju igru dodamo dugme 'igraj', tako da možeš da je igraš više puta.
 
-+ Kreiraj novi lik (sprite) dugmeta 'Pokreni' na koji će tvoj igrač kliknuti kako bi započeo novu igru. Možeš sam/sama da ga nacrtaš ili da urediš lik iz Scratch biblioteke (library).
++ Kreiraj novi lik (sprite) dugmeta 'Igraj' na koji će tvoj igrač kliknuti kako bi započeo novu igru. Možeš sam/sama da ga nacrtaš ili da urediš lik iz Scratch biblioteke (library).
     
     ![screenshot](images/brain-play.png)
 
@@ -14,33 +14,33 @@ Hajde da u tvoju igru dodamo dugme 'pokreni', tako da možeš da je igraš više
     
         when this sprite clicked
         hide
-        broadcast [pokreni v]
+        broadcast [igraj v]
     ```
     
-    This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
+    Ovaj kôd prikazuje dugme 'igraj' kada se započne projekat. Kada se klikne na dugme, ono se sakrije i, nakon toga, šalje poruku koja će započeti igru.
 
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
++ Biće potrebno da promijeniš kôd svog karaktera tako da igra počne kada karakter dobije poruku `kreni`{:class="blockevents"}, a ne kada se klikne na zastavicu.
     
-    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
+    Zamijeni kôd `when flag clicked`{:class="blockevents"} (kada se klikne na zastavicu) sa `when I receive start`{:class="blockevents"} (kada primim kreni).
     
     ![screenshot](images/brain-start.png)
 
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
++ Klikni na zelenu zastavicu, a zatim na novo dugme 'Igraj' da ga isprobaš. Trebalo bi da vidiš da igra ne počinje sve dok se ne pritisne dugme.
 
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
++ Da li primjećuješ da brojač vremena počinje da odbrojava kada se klikne na zelenu zastavicu, a ne kada igra počne?
     
     ![screenshot](images/brain-timer-bug.png)
     
-    Can you fix this problem?
+    Možeš li to da popraviš?
 
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
++ Klikni na pozornicu (stage) i zamijeni blok `stop all`{:class="blockcontrol"} (zaustavi sve) porukom `kraj`{:class="blockevents"}.
     
     ![screenshot](images/brain-end.png)
 
-+ You can now add code to your button, to show it again at the end of each game.
++ Sada možeš da dodaš kôd svom dugmetu kako bi se ono ponovo pojavilo na kraju svake igre.
     
     ```blocks
-        when I receive [end v]
+        when I receive [kraj v]
         show
     ```
 
