@@ -31,13 +31,13 @@ Du kan finde en færdig version af dette projekt [online](http://scratch.mit.edu
 
 * Dette projekt konsoliderer læring af tidligere programmeringsfærdigheder, og viser hvordan broadcasts kan bruges til at skabe et simpelt spilmenu-system.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Kombiner programmeringskonstruktioner for at løse et problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Udfordringer
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
+* "Ændring af kostumer" - ændring af hvordan spillets karakter ser ud ved svar på korrekte og forkerte svar;
 * "Adding a score" - adding a point for every correct question answered;
 * "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
 * "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
