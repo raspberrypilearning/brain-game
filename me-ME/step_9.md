@@ -1,17 +1,17 @@
 \--- challenge \---
 
-## Challenge: Sound and music
+## Izazov: Zvuk i muzika
 
-Can you add sound effects and music to your game? For example:
+Možeš li da dodaš zvučne efekte i muziku u svoju igru? Na primjer:
 
-+ Playing a sound when the player gets an answer right or wrong;
-+ Adding a ticking sound to your countdown timer;
-+ Playing a sound when the time is up;
++ Da se začuje zvuk kada igrač odgovori tačno ili netačno na pitanje;
++ Da se čuje otkucavanje brojača vremena;
++ Da se začuje zvuk kada istekne vrijeme;
     
     ```blocks
         play drum (10 v) for (0.1) beats
     ```
 
-+ You could also constantly play music on a loop (if you're not sure how to do this, step 4 of the 'Rock Band' project will help you).
++ Takođe možeš da napraviš da stalno svira muzika u petlji (ako ne znaš kako to da napraviš, korak 4 u projektu 'Rok grupa' će ti pomoći).
 
 \--- /challenge \---
