@@ -20,17 +20,17 @@ Umjesto da tvoj karakter igraču samo govori `da! :)` ili `ne :(`, dodajmo i nek
 
 + Da li primjećuješ da su kôdovi za `when I receive tačno`{:class="blockevents"} i `when I receive netačno`{:class="blockevents"} gotovo identični? Kreirajmo funkciju koja će ti olakšati da napraviš izmjene u svom kôdu.
     
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
+    U svom liku 'Rezultat', klikni na `More Blocks`{:class="blockmoreblocks"} (Više blokova), a zatim klikni na 'Make a Block' (Napravi blok). Kreiraj novu funkciju i nazovi je `animiraj`{:class="blockmoreblocks"}.
     
     ![screenshot](images/brain-animate-function.png)
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
++ Nakon toga, možeš da dodaš kôd za animaciju u svoju novu funkciju za animaciju, a zatim samo da je upotrijebiš dva puta:
     
     ![screenshot](images/brain-use-function.png)
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
++ Sada, ako želiš da prikazuješ kvačicu i krstić duže ili kraće vrijeme, potrebno je da napraviš samo jednu izmjenu u svom kôdu. Pokušaj!
 
-+ Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
++ Umjesto da se kružić i kvačica samo prikazuju i nestaju, možeš promijeniti funkciju za animaciju tako da grafike postepeno nestaju.
     
     ```blocks
         define [animate]
