@@ -23,7 +23,7 @@ U ovom projektu djeca će naučiti kako da naprave kviz sa pitanjima iz tablice 
 
 Za ovaj projekat koristite Scratch 2. Scratch 2 možete koristiti online na [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ili ga preuzeti sa [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) i koristiti offline.
 
-Završenu verziju projekta možete naći [online](http://scratch.mit.edu/projects/42225768/#editor) ili preuzeti klikom na link ‘Project Materials’ za ovaj projekat, koji sadrži:
+Završenu verziju projekta možete naći [online](http://scratch.mit.edu/projects/42225768/#editor) ili preuzeti klikom na link ‘Project Materials’, koji sadrži:
 
 * BrainGame.sb2
 
