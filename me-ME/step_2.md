@@ -1,6 +1,6 @@
 ## Izrada pitanja
 
-Počnimo sa izradom slučajno odabranih pitanja na koje igrač treba da odgovori.
+Počnimo sa izradom slučajnih pitanja na koje igrač treba da odgovori.
 
 + Otvori novi Scratch projekat i obriši lik mačke tako da tvoj projekat bude prazan. Online Scratch editor možeš naći na <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
