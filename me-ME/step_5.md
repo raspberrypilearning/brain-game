@@ -27,17 +27,17 @@ Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
 
 + Klikni na zelenu zastavicu, a zatim klikni na novo dugme 'Igraj' da ga isprobaš. Trebalo bi da vidiš da igra ne počinje sve dok se ne klikne na dugme.
 
-+ Da li primjećuješ da odbrojavanje počinje kada se klikne na zelenu zastavicu, a ne kada igra počne?
++ Da li primjećuješ da odbrojavanje vremena počinje kada se klikne na zelenu zastavicu, a ne kada igra počne?
     
     ![screenshot](images/brain-timer-bug.png)
     
-    Možeš li to da popraviš?
+    Možeš li da riješiš ovaj problem?
 
 + Klikni na pozornicu (stage) i zamijeni blok `stop all`{:class="blockcontrol"} (zaustavi sve) porukom `kraj`{:class="blockevents"}.
     
     ![screenshot](images/brain-end.png)
 
-+ Sada možeš da dodaš kôd svom dugmetu kako bi se ono ponovo pojavilo na kraju svake igre.
++ Sada možeš da dodaš kôd svom dugmetu da se ponovo prikaže na kraju svake igre.
     
     ```blocks
         when I receive [kraj v]
