@@ -8,11 +8,11 @@ Počnimo sa izradom slučajnih pitanja na koje igrač treba da odgovori.
     
     ![screenshot](images/brain-setting.png)
 
-+ Kreiraj 2 nove promjenljive (variables) i nazovi ih `broj 1`{:class="blockdata"} i `broj 2`{:class="blockdata"}. U ovim promjenljivim biće sačuvana 2 broja koja će biti pomnožena.
++ Kreiraj 2 nove promjenljive (variables) i nazovi ih `broj 1`{:class="blockdata"} i `broj 2`{:class="blockdata"}. Ove promjenljive sačuvaće 2 broja koja će biti pomnožena.
     
     ![screenshot](images/brain-variables.png)
 
-+ Dodaj kôd svom karakteru kako bi obje promjenljive bile postavljene na `slučajan`{:class="blockoperators"} (random) broj između 2 i 12. 
++ Dodaj kôd svom karakteru da obje promjenljive budu postavljene (set) na `slučajan`{:class="blockoperators"} (random) broj između 2 i 12.
     
     ```blocks
         when flag clicked
