@@ -21,13 +21,13 @@ Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
 
 + Treba da izmijeniš kôd svog karaktera tako da igra počne kada karakter dobije poruku `kreni`{:class="blockevents"}, a ne kada je kliknuto na zastavicu.
     
-    Zamijeni kôd `when flag clicked`{:class="blockevents"} (kada se klikne na zastavicu) sa `when I receive start`{:class="blockevents"} (kada primim kreni).
+    Zamijeni kôd `when flag clicked`{:class="blockevents"} (kada je kliknuto na zastavicu) sa `when I receive start`{:class="blockevents"} (kada primim kreni).
     
     ![screenshot](images/brain-start.png)
 
-+ Klikni na zelenu zastavicu, a zatim na novo dugme 'Igraj' da ga isprobaš. Trebalo bi da vidiš da igra ne počinje sve dok se ne pritisne dugme.
++ Klikni na zelenu zastavicu, a zatim klikni na novo dugme 'Igraj' da ga isprobaš. Trebalo bi da vidiš da igra ne počinje sve dok se ne klikne na dugme.
 
-+ Da li primjećuješ da brojač vremena počinje da odbrojava kada se klikne na zelenu zastavicu, a ne kada igra počne?
++ Da li primjećuješ da odbrojavanje počinje kada se klikne na zelenu zastavicu, a ne kada igra počne?
     
     ![screenshot](images/brain-timer-bug.png)
     
