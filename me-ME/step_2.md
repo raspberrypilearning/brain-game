@@ -34,7 +34,7 @@ Počnimo sa izradom slučajnih pitanja na koje igrač treba da odgovori.
         end
     ```
 
-+ Isprobaj svoj projekat u cjelosti tako što ćeš na jedno pitanje odgovoriti tačno, a na drugo netačno.
++ Isprobaj svoj projekat u potpunosti, tako što ćeš na jedno pitanje odgovoriti tačno, a na drugo netačno.
 
 + Dodaj petlju `forever`{:class="blockcontrol"} (ponavljaj) oko ovoga kôda, tako da igraču bude postavljeno više pitanja.
 
