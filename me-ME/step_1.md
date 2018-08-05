@@ -29,7 +29,7 @@ Završenu verziju projekta možete naći [online](http://scratch.mit.edu/project
 
 ## Ciljevi učenja
 
-* U ovom projektu utvrđuju se prethodno savladane vještine u programiranju. Pokazano je kako se slanje poruka može koristiti za izradu jednostavnog sistema menija za igru.
+* U ovom projektu utvrđuju se prethodno savladane vještine programiranja i pokazuje kako se slanje poruka može koristiti za izradu jednostavnog sistema menija igre.
 
 Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
