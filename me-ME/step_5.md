@@ -14,12 +14,12 @@ Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
     
         when this sprite clicked
         hide
-        broadcast [igraj v]
+        broadcast [kreni v]
     ```
     
     Ovaj kôd prikazuje dugme 'igraj' kada se započne projekat. Kada se klikne na dugme, ono se sakrije i šalje poruku koja će započeti igru.
 
-+ Biće potrebno da promijeniš kôd svog karaktera tako da igra počne kada karakter dobije poruku `kreni`{:class="blockevents"}, a ne kada se klikne na zastavicu.
++ Treba da izmijeniš kôd svog karaktera tako da igra počne kada karakter dobije poruku `kreni`{:class="blockevents"}, a ne kada je kliknuto na zastavicu.
     
     Zamijeni kôd `when flag clicked`{:class="blockevents"} (kada se klikne na zastavicu) sa `when I receive start`{:class="blockevents"} (kada primim kreni).
     
