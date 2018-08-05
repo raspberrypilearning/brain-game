@@ -38,6 +38,6 @@ Počnimo sa izradom slučajnih pitanja na koje igrač treba da odgovori.
 
 + Dodaj petlju `forever`{:class="blockcontrol"} (ponavljaj) oko ovoga kôda, da igraču bude postavljeno puno pitanja.
 
-+ Napravi odbrojavanje vremena na pozornici, koristeći promjenljivu (variable) pod nazivom `vrijeme`{:class="blockdata"}. Ako ti je potrebna pomoć, u projektu 'Istjerivači duhova' (u koraku 5) nalaze se uputstva za izradu brojača vremena!
++ Napravi odbrojavanje vremena na pozornici koristeći promjenljivu (variable) pod nazivom `vrijeme`{:class="blockdata"}. Ako ti je potrebna pomoć, projekat 'Istjerivači duhova' sadrži uputstva za izradu brojača vremena (u koraku 5)!
 
 + Ponovo isprobaj svoj projekat - trebalo bi da možeš da postavljaš pitanja sve dok ne istekne vrijeme.
