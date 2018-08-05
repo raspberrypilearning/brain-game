@@ -44,7 +44,7 @@ Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
         show
     ```
 
-+ Takođe će biti potrebno da zaustaviš svog karaktera da postavlja pitanja na kraju svake igre:
++ Takođe je potrebno da zaustaviš svog karaktera da postavlja pitanja na kraju svake igre:
     
     ```blocks
         when I receive [kraj v]
