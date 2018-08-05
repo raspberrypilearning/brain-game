@@ -17,7 +17,7 @@ Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
         broadcast [igraj v]
     ```
     
-    Ovaj kôd prikazuje dugme 'igraj' kada se započne projekat. Kada se klikne na dugme, ono se sakrije i, nakon toga, šalje poruku koja će započeti igru.
+    Ovaj kôd prikazuje dugme 'igraj' kada se započne projekat. Kada se klikne na dugme, ono se sakrije i šalje poruku koja će započeti igru.
 
 + Biće potrebno da promijeniš kôd svog karaktera tako da igra počne kada karakter dobije poruku `kreni`{:class="blockevents"}, a ne kada se klikne na zastavicu.
     
