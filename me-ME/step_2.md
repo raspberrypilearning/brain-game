@@ -20,7 +20,7 @@ Počnimo sa izradom slučajnih pitanja na koje igrač treba da odgovori.
         set [broj 2 v] to (pick random (2) to (12))
     ```
 
-+ Zatim možeš da zatražiš odgovor od igrača i da ga obavijestiš da li je njegov odgovor tačan ili netačan.
++ Zatim možeš da zatražiš (ask) odgovor (answer) od igrača i da ga obavijestiš da li je njegov odgovor tačan ili netačan.
     
     ```blocks
         when flag clicked
