@@ -2,7 +2,7 @@
 
 Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
 
-+ Napravi novi lik (sprite) dugmeta 'Igraj' na koje će tvoj igrač kliknuti da započne novu igru. Možeš sam/sama da ga nacrtaš ili da preurediš lik iz Scratch biblioteke (library).
++ Izradi novi lik (sprite) dugmeta 'Igraj' na koje će tvoj igrač kliknuti da započne novu igru. Možeš sam/sama da ga nacrtaš ili da preurediš lik iz Scratch biblioteke (library).
     
     ![screenshot](images/brain-play.png)
 
