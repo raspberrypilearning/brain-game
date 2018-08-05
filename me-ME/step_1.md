@@ -17,7 +17,7 @@ Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu]
 
 ## Uvod:
 
-U ovom projektu djeca će naučiti da kako da naprave igru kviza sa pitanjima iz tablice množenja u kojem igrač treba da tačno odgovori na što više pitanja u 30 sekundi.
+U ovom projektu djeca će naučiti kako da naprave kviz sa pitanjima iz tablice množenja u kojem igrač treba da tačno odgovori na što više pitanja u 30 sekundi.
 
 ## Izvori
 
