@@ -40,7 +40,7 @@ Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digi
 * ''Promjena kostima'' - promjena izgleda karaktera kao odgovor na tačan ili netačan odgovor;
 * ''Dodavanje bodova'' - dodavanje boda za svaki tačan odgovor;
 * ''Početni ekran'' - promjena pozadine pozornice kao odgovor na poruke `kreni`{:class="blockevents"} i `kraj`{:class="blockevents"}, kreiranje 2 'ekrana' igre;
-* ''Poboljšana animacija'' - korišćenje petlji i efekata za poboljšanje grafičke animacije tačno/netačno;
+* ''Poboljšana animacija'' - korišćenje petlji i efekata za poboljšanje animacije grafika tačno/netačno;
 * ''Zvuk i muzika'' - utvrđivanje znanja o muzičkim petljama i zvučnim efektima;
 * ''Trka do 10 bodova'' - promjena logike igre za kreiranje novog cilja igre;
 * ''Ekran sa uputstvima'' - utvrđivanje znanja o korišćenju poruka za kreiranje menija igre, dodavanjem novog dugmeta 'uputstva' i ekrana.
