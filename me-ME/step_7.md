@@ -14,7 +14,7 @@ Umjesto da tvoj karakter igraču samo govori `da! :)` ili `ne :(`, dodajmo i nek
     
     ![screenshot](images/brain-show-answer.png)
 
-+ Isprobaj ponovo svoju igru. Trebalo bi da vidiš kvačicu svaki put kada je odgovor tačan, a krstić svaki put kada je netačan!
++ Isprobaj ponovo svoju igru. Trebalo bi da vidiš kvačicu svaki put kada je tvoj odgovor tačan, a krstić svaki put kada je netačan!
     
     ![screenshot](images/brain-test-answer.png)
 
