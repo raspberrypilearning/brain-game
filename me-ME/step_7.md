@@ -30,7 +30,7 @@ Umjesto da tvoj karakter igraču samo govori `da! :)` ili `ne :(`, dodajmo i nek
 
 + Sada, ako želiš da prikazuješ kvačicu i krstić duže ili kraće vrijeme, potrebno je da napraviš samo jednu izmjenu u svom kôdu. Pokušaj!
 
-+ Umjesto da se kvačica i krstić samo prikazuju i nestaju, možeš promijeniti svoju funkciju animacije tako da se grafike postepeno pojavljuju i nestaju.
++ Umjesto da se kvačica i krstić samo prikazuju i nestaju, možeš promijeniti svoju funkciju animacije tako da se grafike postepeno pojavljuju.
     
     ```blocks
         define [animate]
