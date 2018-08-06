@@ -2,7 +2,7 @@
 
 ## Izazov: Ekran sa uputstvima
 
-Da li u svoju igru možeš da dodaš ekran sa uputstvima koji će tvom igraču govoriti kako da igra? Biće ti potrebno dugme 'Uputstva' i još jedna pozadina za pozornicu.
+Da li u svoju igru možeš da dodaš ekran sa uputstvima koji tvom igraču objašnjava kako da igra? Biće ti potrebno dugme 'Uputstva' i još jedna pozadina za pozornicu.
 
 ![screenshot](images/brain-instructions.png)
 
