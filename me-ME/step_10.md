@@ -2,7 +2,7 @@
 
 ## Izazov: Trka do 10 bodova
 
-Da li možeš da izmijeniš svoju igru tako da igrač, umjesto da odgovori na što više pitanja u 30 sekundi, može da provjeri koliko brzo može da dâ 10 tačnih odgovora?
+Da li možeš da izmijeniš svoju igru tako da igrač, umjesto da odgovori na što više pitanja u 30 sekundi, može da provjeri koliko brzo može odgovoriti tačno na 10 pitanja?
 
 Da to uradiš, potrebno je samo da izmijeniš svoj kôd za brojač vremena. Možeš li da uočiš šta treba da se promijeni?
 
