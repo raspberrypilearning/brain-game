@@ -4,8 +4,8 @@
 
 Možeš li da dodaš zvučne efekte i muziku u svoju igru? Na primjer:
 
-+ Da se začuje zvuk kada igrač odgovori tačno ili netačno;
-+ Da odbrojavanje vremena prate otkucaji;
++ Da se začuje zvuk kada igrač dobije odgovor tačno ili netačno;
++ Da se čuju otkucaji tokom odbrojavanja vremena;
 + Da se začuje zvuk kada istekne vrijeme;
     
     ```blocks
