@@ -2,11 +2,11 @@
 
 Umjesto da tvoj karakter igraču samo govori `da! :)` ili `ne :(`, dodajmo i nekoliko grafika koje će igraču pokazivati kako mu ide.
 
-+ Kreiraj novi lik (sprite) pod nazivom 'Rezultat' koji će imati dva kostima (costumes) - 'kvačica' i 'krstić'.
++ Izradi novi lik (sprite), pod nazivom 'Rezultat', koji ima dva kostima (costumes) - 'kvačicu' i 'krstić'.
     
     ![screenshot](images/brain-result.png)
 
-+ Izmijeni kôd svog karaktera tako da, umjesto da samo govori igraču kako mu ide, šalje poruke `tačno`{:class="blockevents"} i `netačno`{:class="blockevents"}.
++ Izmijeni kôd svog karaktera tako da, umjesto da govori igraču kako je odgovorio, šalje poruke `tačno`{:class="blockevents"} i `netačno`{:class="blockevents"}.
     
     ![screenshot](images/brain-broadcast-answer.png)
 
