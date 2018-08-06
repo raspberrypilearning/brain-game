@@ -37,21 +37,21 @@ Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
     
     ![screenshot](images/brain-end.png)
 
-+ Sada možeš da dodaš kôd svom dugmetu da se ponovo prikaže na kraju svake igre.
++ Sada možeš da dodaš kôd svom dugmetu da se ponovo prikaže na kraju svake partije.
     
     ```blocks
         when I receive [kraj v]
         show
     ```
 
-+ Takođe je potrebno da zaustaviš svog karaktera da postavlja pitanja na kraju svake igre:
++ Takođe je potrebno da zaustaviš svog karaktera da postavlja pitanja na kraju svake partije:
     
     ```blocks
         when I receive [kraj v]
         stop [other scripts in sprite v]
     ```
 
-+ Isprobaj dugme 'Igraj' tako što ćeš odigrati igru nekoliko puta. Trebalo bi da vidiš da se dugme 'Igraj' pojavljuje nakon svake partije. Da olakšaš isprobavanje, svaku igru možeš da skratiš, tako da traje samo nekoliko sekundi.
++ Isprobaj dugme 'Igraj' tako što ćeš odigrati nekoliko partija. Trebalo bi da vidiš da se dugme 'Igraj' pojavljuje nakon svake partije. Da olakšaš isprobavanje, svaku partiju možeš da skratiš, tako da traje samo nekoliko sekundi.
     
     ```blocks
         set [vrijeme v] to [10]
