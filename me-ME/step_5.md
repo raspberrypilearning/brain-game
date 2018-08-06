@@ -1,4 +1,4 @@
-## Više igara
+## Više partija
 
 Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
 
@@ -51,7 +51,7 @@ Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
         stop [other scripts in sprite v]
     ```
 
-+ Isprobaj dugme 'Igraj' tako što ćeš odigrati nekoliko igara. Trebalo bi da vidiš da se dugme 'Igraj' pojavljuje nakon svake igre. Da olakšaš isprobavanje, svaku igru možeš da skratiš, tako da traje samo nekoliko sekundi.
++ Isprobaj dugme 'Igraj' tako što ćeš odigrati igru nekoliko puta. Trebalo bi da vidiš da se dugme 'Igraj' pojavljuje nakon svake partije. Da olakšaš isprobavanje, svaku igru možeš da skratiš, tako da traje samo nekoliko sekundi.
     
     ```blocks
         set [vrijeme v] to [10]
