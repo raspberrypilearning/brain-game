@@ -6,7 +6,7 @@ Da li u svoju igru možeš da dodaš ekran sa uputstvima koji tvom igraču obja�
 
 ![screenshot](images/brain-instructions.png)
 
-Trebaće ti i dugme 'Nazad' da se vratiš na glavni meni.
+Možda će ti trebati i dugme 'Nazad' koje će te vratiti na glavni meni.
 
 ```blocks
     broadcast [main menu v]
