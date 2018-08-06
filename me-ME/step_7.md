@@ -24,16 +24,16 @@ Umjesto da tvoj karakter igraču samo govori `da! :)` ili `ne :(`, dodajmo i nek
     
     ![screenshot](images/brain-animate-function.png)
 
-+ Nakon toga, možeš da dodaš kôd za animaciju u svoju novu funkciju za animaciju, a zatim samo da je upotrijebiš dva puta:
++ Nakon toga, možeš da dodaš kôd za animaciju u svoju novu funkciju animacije, a zatim samo da je upotrijebiš dva puta:
     
     ![screenshot](images/brain-use-function.png)
 
 + Sada, ako želiš da prikazuješ kvačicu i krstić duže ili kraće vrijeme, potrebno je da napraviš samo jednu izmjenu u svom kôdu. Pokušaj!
 
-+ Umjesto da se kružić i kvačica samo prikazuju i nestaju, možeš promijeniti funkciju za animaciju tako da grafike postepeno nestaju.
++ Umjesto da se kvačica i krstić samo prikazuju i nestaju, možeš promijeniti svoju funkciju animacije tako da se grafike postepeno pojavljuju i nestaju.
     
     ```blocks
-        define [animiraj]
+        define [animate]
         set [ghost v] effect to (100)
         show
         repeat (25)
