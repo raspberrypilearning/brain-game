@@ -9,12 +9,13 @@ Aggiungiamo un pulsante 'play' al tuo gioco, in modo che tu possa giocare molte 
 + Aggiungi questo codice al tuo nuovo pulsante.
     
     ```blocks
-        when flag clicked
-        show
-    
-        when this sprite clicked
-        hide
-        broadcast [start v]
+        quando si clicca su ⚑
+          mostra
+          
+        quando si clicca su questo sprite
+          nascondi
+          invia a tutti [start v]
+             
     ```
     
     This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
