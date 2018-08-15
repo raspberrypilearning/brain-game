@@ -48,28 +48,28 @@ Aggiungiamo un pulsante 'play' al tuo gioco, in modo che tu possa giocare molte 
 + Dovrai anche fermare il tuo personaggio facendo domande alla fine di ogni partita:
     
     ```blocks
-        when I receive [end v]
-        stop [other scripts in sprite v]
+        quando ricevo [fine]
+           stop [altri script negli sprite]
     ```
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
++ Metti alla prova il tuo pulsante di gioco facendo un paio di partite. Dovresti notare cosa mostra il pulsante di gioco dopo ogni partita. Per semplificare le prove, puoi abbreviare ogni partita, in modo che duri solo pochi secondi.
     
     ```blocks
-        set [time v] to [10]
+        porta [tempo] a [10]
     ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ Puoi anche modificare l'aspetto del pulsante di gioco quando il mouse passa sopra di esso.
     
     ```blocks
-        when flag clicked
-        show
-        forever
-        if <touching [mouse-pointer v]?> then
-            set [fisheye v] effect to (30)
-        else
-            set [fisheye v] effect to (0)
-        end
-        end
+        quando si clicca su ⚑
+          mostra
+          per sempre
+          se <touching [mouse-pointer v]?> allora
+            porta [effetto fisheye] a (30)
+          altro
+            porta [effetto fisheye] a (0)
+          fine
+        fine
     ```
     
     ![screenshot](images/brain-fisheye.png)
