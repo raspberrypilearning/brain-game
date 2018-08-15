@@ -1,12 +1,12 @@
-## Multiple games
+## Giochi multipli
 
-Let's add a 'play' button to your game, so that you can play lots of times.
+Aggiungiamo un pulsante 'play' al tuo gioco, in modo che tu possa giocare molte volte.
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
++ Crea un nuovo sprite come pulsante 'Gioca', che il tuo giocatore userà per iniziare una nuova partita. Puoi disegnarlo da solo o modificare uno sprite dalla libreria di Scratch.
     
     ![screenshot](images/brain-play.png)
 
-+ Add this code to your new button.
++ Aggiungi questo codice al tuo nuovo pulsante.
     
     ```blocks
         when flag clicked
