@@ -34,18 +34,18 @@ Aggiungiamo un pulsante 'play' al tuo gioco, in modo che tu possa giocare molte 
     
     Puoi risolvere questo problema?
 
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
++ Fai clic sullo stage e sostituisci il blocco `ferma tutto` {:class="blockcontrol"} con un messaggio `fine ` {:class="blockevents"}.
     
     ![screenshot](images/brain-end.png)
 
-+ You can now add code to your button, to show it again at the end of each game.
++ Ora puoi aggiungere codice al tuo pulsante, per mostrarlo di nuovo alla fine di ogni partita.
     
     ```blocks
-        when I receive [end v]
-        show
+        quando ricevo [fine]
+           mostra
     ```
 
-+ You'll also need to stop your character asking questions at the end of each game:
++ Dovrai anche fermare il tuo personaggio facendo domande alla fine di ogni partita:
     
     ```blocks
         when I receive [end v]
