@@ -14,25 +14,25 @@ Aggiungiamo un pulsante 'play' al tuo gioco, in modo che tu possa giocare molte 
           
         quando si clicca su questo sprite
           nascondi
-          invia a tutti [start v]
+          invia a tutti [inizio v]
              
     ```
     
-    This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
+    Questo codice mostra il pulsante di riproduzione all'avvio del progetto. Quando si fa clic sul pulsante, questo viene nascosto e quindi trasmette un messaggio che avvierà il gioco.
 
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
++ Dovrai modificare il codice del tuo personaggio, in modo che il gioco inizi quando ricevono il messaggio `inizio` {:class="blockevents"}, e non quando viene cliccato il flag.
     
-    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
+    Sostituisci il codice `quando si clicca su ⚑` {:class="blockevents"} con `quando ricevo inizio` {:class="blockevents"}.
     
     ![screenshot](images/brain-start.png)
 
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
++ Fai clic sulla bandiera verde (vai) e quindi fare clic sul nuovo pulsante di gioco per fare la proca. Dovresti vedere che il gioco non si avvia finché non si fa clic sul pulsante "Gioca".
 
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
++ Hai notato che il timer inizia quando viene cliccata la bandiera verde, e non quando inizia il gioco?
     
     ![screenshot](images/brain-timer-bug.png)
     
-    Can you fix this problem?
+    Puoi risolvere questo problema?
 
 + Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
     
