@@ -37,14 +37,14 @@ Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
     
     ![screenshot](images/brain-end.png)
 
-+ Sada možeš da dodaš kôd svom dugmetu da se ponovo prikaže na kraju svake partije.
++ Sada možeš da dodaš kôd svom dugmetu da se ponovo prikaže na kraju svake igre.
     
     ```blocks
         when I receive [kraj v]
         show
     ```
 
-+ Takođe je potrebno da zaustaviš svog karaktera da postavlja pitanja na kraju svake partije:
++ Takođe je potrebno da zaustaviš svog karaktera da postavlja pitanja na kraju svake igre:
     
     ```blocks
         when I receive [kraj v]
