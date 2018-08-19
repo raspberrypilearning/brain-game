@@ -2,7 +2,7 @@
 
 ## Izazov: Početni ekran
 
-Da li možeš na pozornicu da dodaš još jednu pozadinu (backdrop) koja će biti početni ekran tvoje igre? Možeš da koristiš blokove `when I receive kreni`{:class="blockevents"} i `when I receive kraj`{:class="blockevents"} da zamjenjuješ jednu pozadinu drugom.
+Da li možeš pozornici da dodaš još jednu pozadinu (backdrop) koja će biti početni ekran tvoje igre? Možeš da koristiš blokove `when I receive kreni`{:class="blockevents"} i `when I receive kraj`{:class="blockevents"} da zamjenjuješ jednu pozadinu drugom.
 
 Takođe možeš da prikažeš i sakriješ svog karaktera, pa čak i da prikažeš i sakriješ odbrojavanje vremena, koristeći ove blokove:
 
