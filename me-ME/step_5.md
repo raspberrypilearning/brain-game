@@ -1,6 +1,6 @@
-## Više partija
+## Više igara
 
-Dodajmo u tvoju igru dugme 'igraj', tako da možeš da igraš više partija.
+Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
 
 + Izradi novi lik (sprite) dugmeta 'Igraj' na koje će tvoj igrač kliknuti da započne novu igru. Možeš sam/sama da ga nacrtaš ili da preurediš lik iz Scratch biblioteke (library).
     
