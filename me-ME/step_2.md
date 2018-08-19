@@ -8,7 +8,7 @@ Počnimo sa izradom slučajnih pitanja na koje igrač treba da odgovori.
     
     ![screenshot](images/brain-setting.png)
 
-+ Kreiraj 2 nove promjenljive (variables) i nazovi ih `broj 1`{:class="blockdata"} i `broj 2`{:class="blockdata"}. Ove promjenljive sačuvaće 2 broja koja će biti pomnožena.
++ Kreiraj 2 nove promjenljive (variables) i nazovi ih `broj 1`{:class="blockdata"} i `broj 2`{:class="blockdata"}. Ove promjenljive čuvaće 2 broja koja će biti pomnožena.
     
     ![screenshot](images/brain-variables.png)
 
