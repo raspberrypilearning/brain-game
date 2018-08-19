@@ -2,7 +2,7 @@
 
 Umjesto da tvoj karakter igraču samo govori `da! :)` ili `ne :(`, dodajmo i nekoliko grafika koje će igraču pokazivati kako mu ide.
 
-+ Izradi novi lik (sprite), pod nazivom 'Rezultat', koji ima dva kostima (costumes) - 'kvačicu' i 'krstić'.
++ Izradi novi lik pod nazivom 'Rezultat', koji ima dva kostima - 'kvačicu' i 'krstić'.
     
     ![screenshot](images/brain-result.png)
 
