@@ -1,6 +1,6 @@
 ## Više igara
 
-Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
+Dodajmo u tvoju igru dugme 'Igraj', tako da možeš da je igraš više puta.
 
 + Izradi novi lik (sprite) dugmeta 'Igraj' na koje će tvoj igrač kliknuti da započne novu igru. Možeš sam/sama da ga nacrtaš ili da preurediš lik iz Scratch biblioteke (library).
     
@@ -17,7 +17,7 @@ Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
         broadcast [kreni v]
     ```
     
-    Ovaj kôd prikazuje (show) dugme 'Igraj' kada se započne projekat. Kada se klikne na dugme, ono se sakrije (hide) i šalje poruku da igra započne.
+    Ovaj kôd prikazuje (shows) dugme 'Igraj' kada se započne projekat. Kada se klikne na dugme, ono se sakrije (hide) i šalje poruku da igra započne.
 
 + Treba da izmijeniš kôd svog karaktera tako da igra počne kada karakter dobije poruku `kreni`{:class="blockevents"}, a ne kada je kliknuto na zastavicu.
     
