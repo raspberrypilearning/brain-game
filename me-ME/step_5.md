@@ -57,7 +57,7 @@ Dodajmo u tvoju igru dugme 'igraj', tako da možeš da je igraš više puta.
         set [vrijeme v] to [10]
     ```
 
-+ Možeš čak i da promijeniš izgled dugmeta kada mišem pređeš preko njega.
++ Možeš čak i da napraviš da se izgled dugmeta promijeni kada se mišem pređe preko njega.
     
     ```blocks
         when flag clicked
