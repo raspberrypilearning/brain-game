@@ -57,7 +57,7 @@ Krenimo sa dodavanjem gumba "play" u igru, tako da je možete igrati mnogo puta.
         set [time v] to [10]
     ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ Čak možete promijeniti i način na koji gumb izgleda kada mišem prijeđete preko njega.
     
     ```blocks
         when flag clicked
