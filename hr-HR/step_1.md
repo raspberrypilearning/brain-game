@@ -39,7 +39,7 @@ Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry
 
 * "Promjena kostima" - mijenjanje izgleda karaktera igre kao odgovor na točne i netočne odgovore;
 * "Dodavanje rezultata" - dodavanje boda za svaki ispravno odgovoreno pitanje;
-* "Početni zaslon" - promjena pozadine kao odgovor na `početak` {: klasa = "blockevents"} `, a` {: klasa = "blockevents"} emitiranje poruke, stvaranje igre dva 'ekrana';
+* "Početni zaslon" - promjena pozadine kao odgovor na `start` {:class="blockevents"} i `end` {:class="blockevents"} emitiranje poruke, stvaranje igre dva 'ekrana';
 * "Poboljšana animacija" - pomoću petlje i efekata za poboljšanje točne/netočne grafičke animacije;
 * "Zvuk i glazba" - objedinjeno učenje glazbe petlje i zvučnih efekta;
 * "Utrka do 10 bodova" - promjena logike igare kako bi se stvorio novi cilj igre;
