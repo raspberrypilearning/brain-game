@@ -2,7 +2,7 @@
 
 Umjesto vašeg znaka samo govori `yes! :)` ili `nope :(` igraču, dodajmo neke grafike koje će omogućiti igraču informaciju o napretku.
 
-+ Napravite novi sprite zvan 'Rezultat', koji sadrži i 'krpelj' i 'križ' kostim.
++ Napravite novi sprite zvan 'Rezultat', koji sadrži i 'kvačicu' i 'križ' kostim.
     
     ![screenshot](images/brain-result.png)
 
@@ -30,7 +30,7 @@ Umjesto vašeg znaka samo govori `yes! :)` ili `nope :(` igraču, dodajmo neke g
 
 + Sada, ako želite pokazati kvačicu i križ duže ili kraće vrijeme, samo trebate napraviti jednu promjenu u kodu. Probaj!
 
-+ Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
++ Umjesto da samo prikazujete i skrivate kvačicu i križ, možete promijeniti svoju animacijsku funkciju, tako da grafika nestaje.
     
     ```blocks
         define [animate]
