@@ -21,24 +21,24 @@ U ovom projektu, djeca će naučiti kako napraviti tabličnu igru ​​s vremen
 
 ## Resursi
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Za ovaj projekt treba koristiti Scratch 2. Scratch 2 se može koristiti online na [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) ili se može preuzeti s [ jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off) i koristiti offline.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Dovršenu verziju ovog projekta možete pronaći [online](http://scratch.mit.edu/projects/42225768/#editor) ili preuzeti na poveznici 'Project Materials' koja sadrži:
 
 * BrainGame.sb2
 
-## Learning Objectives
+## Ciljevi učenja
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* Ovaj projekt objedinjuje učenje prethodnih vještina programiranja i pokazuje kako se emitiranje može koristiti za kreiranje jednostavnog igre izbornika sustava.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Kombinirajte programske konstrukcije kako biste riješili problem.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## Izazovi
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
-* "Adding a score" - adding a point for every correct question answered;
+* "Promjena kostima" - mijenjanje izgleda karaktera igre kao odgovor na ispravne i netočne odgovore;
+* "Dodavanje rezultata" - dodavanje boda za svaki ispravno odgovoreno pitanje;
 * "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
 * "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
 * "Sound and music" - consolidating learning of music loops and sound effects;
