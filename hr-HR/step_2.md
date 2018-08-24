@@ -2,17 +2,17 @@
 
 Počnimo stvaranjem slučajnih pitanja na koja igrači moraju odgovariti.
 
-+ Pokrenite novi Scratch projekt i izbrišite cat sprite kako bi vaš projekt bio prazan. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Pokrenite novi Scratch projekt i izbrišite cat sprite kako bi vaš projekt bio prazan. Možete pronaći online Scratch editor aplikacijz na <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ Odaberite znak i pozadinu za svoju igru. Možete odabrati bilo koju koja vam se sviđa! Na primjer:
     
     ![screenshot](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ Izradite dvije nove varijable nazvane ` number 1 ` {: class = "blockdata"} i ` number 2 ` {: Class = "blockdata"}. Ove varijable će pohraniti 2 broja koji će se pomnožiti zajedno.
     
     ![screenshot](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
++ Dodajte kôd svojem znaku da biste postavili obje varijable na `random` {: class = "blockoperators"} broj između 2 i 12.
     
     ```blocks
         when flag clicked
@@ -20,7 +20,7 @@ Počnimo stvaranjem slučajnih pitanja na koja igrači moraju odgovariti.
         set [number 2 v] to (pick random (2) to (12))
     ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ Zatim možete zatražiti od igrača odgovor i obavijestiti ih jesu li bili u pravu ili u krivu.
     
     ```blocks
         when flag clicked
@@ -34,10 +34,10 @@ Počnimo stvaranjem slučajnih pitanja na koja igrači moraju odgovariti.
         end
     ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ Testirajte svoj projekt u potpunosti, odgovarajući na jedno pitanje točno i jedno s pogrešnim odgovorom.
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ Dodaj `forever` {: class = "blockcontrol"} petlju oko ovog koda, tako da se igraču postavlja puno pitanja.
 
-+ Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
++ Napravite odbrojavanje na pozornici pomoću varijable pod nazivom `time` {:class = "blockdata"}. Projekt "Ghostbusters" sadrži upute za izradu mjerača vremena (u koraku 5) ukoliko vam je potrebna pomoć!
 
-+ Test your project again - you should be able to continue asking questions until the time runs out.
++ Ponovno testirajte svoj projekt - trebali biste nastaviti s postavljanjem pitanja dok ne istekne vrijeme.
