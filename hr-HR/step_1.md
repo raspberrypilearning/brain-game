@@ -17,9 +17,9 @@ Ako želite ispisati ovaj projekt, molimo Vas da upotrijebite ovu [verziju za is
 
 ## Uvod:
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+U ovom projektu, djeca će naučiti kako napraviti tabličnu igru ​​s vremenom, u kojoj igrač mora odgovoriti na što je moguće više pitanja u 30 sekundi.
 
-## Resources
+## Resursi
 
 For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
 
