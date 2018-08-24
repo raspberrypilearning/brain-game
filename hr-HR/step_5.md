@@ -1,12 +1,12 @@
-## Multiple games
+## Više igara
 
-Let's add a 'play' button to your game, so that you can play lots of times.
+Krenimo sa dodavanjem gumba "play" u igru, tako da je možete igrati mnogo puta.
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
++ Izradite novi gumb "Igraj", koji će vaš igrač kliknuti za početak nove igre. Možete ga sami nacrtati, ili urediti sprite iz Scratch knjižnice.
     
     ![screenshot](images/brain-play.png)
 
-+ Add this code to your new button.
++ Dodajte ovaj kôd na svoj novi gumb.
     
     ```blocks
         when flag clicked
@@ -17,41 +17,41 @@ Let's add a 'play' button to your game, so that you can play lots of times.
         broadcast [start v]
     ```
     
-    This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
+    Ovaj kôd prikazuje igraj gumb kada je vaš projekt pokrenut. Kada kliknete gumb, skriva se i zatim emitira poruku koja će pokrenuti igru.
 
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
++ Morat ćete urediti kôd svog znaka, tako da igra započinje kada dobiju `start` {:class="blockevents"}, a ne kada kliknete na zastavu.
     
-    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
+    Zamijenite `when flag clicked` {:class="blockevents"} kod sa `when I receive start` {:class="blockevents"}.
     
     ![screenshot](images/brain-start.png)
 
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
++ Kliknite na zelenu zastavu, a zatim kliknite svoj novi igraj gumb biste je testirali. Trebali biste vidjeti da se igra ne počinje dok se ne klikne na gumb.
 
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
++ Jeste li primijetili da brojač počinje kada se klikne na zelenu zastavu, a ne kada počne igra?
     
     ![screenshot](images/brain-timer-bug.png)
     
-    Can you fix this problem?
+    Možete li rješiti ovaj problem?
 
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
++ Kliknite na pozornicu i zamijenite `stop all` {:class="blockcontrol"} blok sa `end` {:class="blockevents"} poruku.
     
     ![screenshot](images/brain-end.png)
 
-+ You can now add code to your button, to show it again at the end of each game.
++ Sada možete dodati kôd na vaš gumb, da biste ga ponovno prikazali na kraju svake igre.
     
     ```blocks
         when I receive [end v]
         show
     ```
 
-+ You'll also need to stop your character asking questions at the end of each game:
++ Također ćete morati zaustaviti svoj znak postavljanjem pitanja na kraju svake igre:
     
     ```blocks
         when I receive [end v]
         stop [other scripts in sprite v]
     ```
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
++ Testirajte vaš igraj gumb igranjem nekoliko igara. Trebali biste primijetiti da se igraj gumb prikazuje nakon svake igre. Da biste olakšali testiranje, možete skratiti svaku igru, ​​tako da traje samo nekoliko sekundi.
     
     ```blocks
         set [time v] to [10]
