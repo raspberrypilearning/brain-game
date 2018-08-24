@@ -37,23 +37,23 @@ Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry
 
 ## Izazovi
 
-* "Promjena kostima" - mijenjanje izgleda karaktera igre kao odgovor na ispravne i netočne odgovore;
+* "Promjena kostima" - mijenjanje izgleda karaktera igre kao odgovor na točne i netočne odgovore;
 * "Dodavanje rezultata" - dodavanje boda za svaki ispravno odgovoreno pitanje;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
-* "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-* "Sound and music" - consolidating learning of music loops and sound effects;
-* "Race to 10 points" - changing the game logic to create a new game objective;
-* "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
+* "Početni zaslon" - promjena pozadine kao odgovor na `početak` {: klasa = "blockevents"} `, a` {: klasa = "blockevents"} emitiranje poruke, stvaranje igre dva 'ekrana';
+* "Poboljšana animacija" - pomoću petlje i efekata za poboljšanje točne/netočne grafičke animacije;
+* "Zvuk i glazba" - objedinjeno učenje glazbe petlje i zvučnih efekta;
+* "Utrka do 10 bodova" - promjena logike igare kako bi se stvorio novi cilj igre;
+* "Zaslon sa uputama" - konsolidiranje korištenja emisija radi stvaranja izbornika igare, dodavanjem novog gumba 'upute' i zaslona.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materijali projekta
 
-## Club leader resources
+## Resursi za voditelja kluba
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Dovršeni Scratch 2 projekt dostupan za preuzimanje](resources/BrainGame.sb2)
+* [Dostupan završen Scratch 2 projekt](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
