@@ -1,34 +1,34 @@
-## Adding graphics
+## Dodavanje grafike
 
-Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
+Umjesto vašeg znaka samo govori `yes! :)` ili `nope :(` igraču, dodajmo neke grafike koje će omogućiti igraču informaciju o napretku.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
++ Napravite novi sprite zvan 'Rezultat', koji sadrži i 'krpelj' i 'križ' kostim.
     
     ![screenshot](images/brain-result.png)
 
-+ Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
++ Promijenite kôd svog znaka, tako da umjesto da govori igraču kako napreduje, on emitira `correct`{:class="blockevents"} i `wrong`{:class="blockevents"} umjesto poruke.
     
     ![screenshot](images/brain-broadcast-answer.png)
 
-+ You can now use these messages to show the 'tick' or 'cross' costume. Add this code to your new 'Result' sprite:
++ Sada možete upotrijebiti poruke za prikazivanje kostima "kvačicu" ili "križa". Dodajte ovaj kôd na novi sprite "Rezultat":
     
     ![screenshot](images/brain-show-answer.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
++ Ponovno provjerite svoju igru. Trebali biste vidjeti kvačicu svaki put kad dobijete točno pitanje, i križ svaki put kad dobijete pogrešno!
     
     ![screenshot](images/brain-test-answer.png)
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
++ Primijetili ste da je kôd za `when I receive correct`{:class="blockevents"} i `when I receive wrong`{:class="blockevents"} je gotovo identičan? Izradimo funkciju kako bismo vam olakšali izmjenu vašeg koda.
     
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
+    Na sprite "Rezultat" kliknite `More Blocks`{:class="blockmoreblocks"}, a zatim 'Izradi blok'. Stvorite novu funkciju pod nazivom `animate`{:class="blockmoreblocks"}.
     
     ![screenshot](images/brain-animate-function.png)
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
++ Zatim možete dodati kôd animacije u svoju novu animacijsku funkciju, a zatim dvaput upotrijebiti funkciju:
     
     ![screenshot](images/brain-use-function.png)
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
++ Sada, ako želite pokazati kvačicu i križ duže ili kraće vrijeme, samo trebate napraviti jednu promjenu u kodu. Probaj!
 
 + Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
     
