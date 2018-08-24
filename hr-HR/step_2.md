@@ -1,8 +1,8 @@
-## Creating questions
+## Izrada pitanja
 
-Let's start by creating random questions for the player to answer.
+Počnimo stvaranjem slučajnih pitanja na koja igrači moraju odgovariti.
 
-+ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Pokrenite novi Scratch projekt i izbrišite cat sprite kako bi vaš projekt bio prazan. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
 + Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
     
