@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Challenge: Instruction screen
+## Izazov: zaslon sa uputama
 
-Can you add an instructions screen to your game, telling your player how to play the game? You'll need an 'Instructions' button, and another stage background.
+Možete li dodati zaslon sa uputama u vašu igru, objašnjavajući Uputevašem igraču kako igrati igru? Trebat će vam gumb 'Instructions' i još jednu fazu pozadine.
 
 ![screenshot](images/brain-instructions.png)
 
-You may also need a 'Back' button to take you to the main menu.
+Možda će vam trebati i gumb 'Back' koji će vas odvesti na glavni izbornik.
 
 ```blocks
     broadcast [main menu v]
