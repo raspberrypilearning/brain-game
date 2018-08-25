@@ -2,7 +2,7 @@
 
 ## Izazov: Poboljšana animacija
 
-Can you improve the animation of your graphics? You could code the tick and cross so that they fade out as well as fade in. Or, you could use other cool effects:
+Možete li poboljšati animaciju vaše grafike? Možete programirati kôd kvačice i križića tako da mogu polako nestajati kao i pojavljivanje istih. Ili biste mogli koristiti druge sjajne efekte:
 
 ![screenshot](images/brain-effects.png)
 
