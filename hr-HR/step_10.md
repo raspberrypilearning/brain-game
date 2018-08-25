@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Race to 10 points
+## Izazov: utrka do 10 bodova
 
-Can you change your game, so that instead of answering as many questions as they can in 30 seconds, the player has to see how quickly they can get 10 questions correct?
+Možete li promijeniti igru ​​tako da, umjesto da odgovaranja na što više pitanja u 30 sekundi, igrač mora vidjeti koliko brzo mogu točno odgovoriti na 10 pitanja?
 
-To do this, you'll only need to change your timer code. Can you see what needs to be changed?
+Da biste to učinili, morat ćete samo promijeniti svoj kôd brojača. Možete li vidjeti što treba mijenjati?
 
 ```blocks
     when I receive [start v]
