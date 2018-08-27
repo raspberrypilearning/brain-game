@@ -1,6 +1,6 @@
 ## Giochi multipli
 
-Aggiungiamo un pulsante 'play' al tuo gioco, in modo che tu possa giocare molte volte.
+Aggiungiamo un pulsante 'Gioca' al tuo gioco, in modo che tu possa giocare molte volte.
 
 + Crea un nuovo sprite come pulsante 'Gioca', che il tuo giocatore userà per iniziare una nuova partita. Puoi disegnarlo da solo o modificare uno sprite dalla libreria di Scratch.
     
