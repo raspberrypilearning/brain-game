@@ -1,19 +1,19 @@
 \--- challenge \---
 
-## Challenge: Race to 10 points
+## Sfida: Guadagna 10 punti
 
-Can you change your game, so that instead of answering as many questions as they can in 30 seconds, the player has to see how quickly they can get 10 questions correct?
+Puoi cambiare il tuo gioco, in modo che, invece di rispondere a quante più domande possibili in 30 secondi, il giocatore deve vedere quanto velocemente può ottenere 10 domande corrette?
 
-To do this, you'll only need to change your timer code. Can you see what needs to be changed?
+Per fare ciò, dovrai solo cambiare il tuo codice del timer. Riesci a vedere cosa deve essere cambiato?
 
 ```blocks
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) secs
-        change [time v] by (-1)
-    end
-    broadcast [end v]
+    quando ricevo [inizio v]
+    porta [tempo v] a (30)
+    ripeti fino a quanto <(tempo) = [0]>
+        attendi (1) secondi
+        cambia [tempo v] di (-1)
+    fine
+    invia a tutti [fine v]
 ```
 
 \--- /challenge \---
