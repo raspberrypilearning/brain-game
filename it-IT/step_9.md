@@ -1,12 +1,12 @@
 \--- challenge \---
 
-## Challenge: Sound and music
+## Sfida: Aggiungi Suono e musica
 
-Can you add sound effects and music to your game? For example:
+Puoi aggiungere effetti sonori e musica al tuo gioco? Per esempio:
 
-+ Playing a sound when the player gets an answer right or wrong;
-+ Adding a ticking sound to your countdown timer;
-+ Playing a sound when the time is up;
++ Suonare un suono quando il giocatore ottiene una risposta giusta o errata;
++ Aggiunta di un ticchettio al tuo conto alla rovescia;
++ Riproduzione di un suono quando il tempo è scaduto;
     
     ```blocks
         play drum (10 v) for (0.1) beats
