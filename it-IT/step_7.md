@@ -20,24 +20,24 @@ Il tuo personaggio ora sta solo dicendo al giocatore solo `si! :)` o `no :(`, pu
 
 + Hai notato che il codice è quasi identico per `quando ricevo corretto` {:class="blockevents"} e `quando ricevo errato` {:class="blockevents"} ? Creiamo una funzione per rendere più semplice la modifica del tuo codice.
     
-    Sul tuo sprite 'Risultato', fai clic su `Altri Blocchi` {:class="blockmoreblocks"}, quindi "Crea un Blocco". Crea una nuova funzione chiamata `animata` {: Class = "blockmoreblocks"}.
+    Sul tuo sprite 'Risultato', fai clic su `Altri Blocchi` {:class="blockmoreblocks"}, quindi "Crea un Blocco". Crea una nuova funzione chiamata `animate` {: Class = "blockmoreblocks"}.
     
     ![screenshot](images/brain-animate-function.png)
 
 + È quindi possibile aggiungere il codice di animazione alla nuova funzione di animazione, quindi utilizzare la funzione due volte:
     
-    ![screenshot](images/brain-use-function.png)
+    ![schermata](images/brain-use-function.png)
 
 + Ora, se vuoi mostrare il segno di spunta e la croce per un tempo più o meno lungo, devi solo apportare una modifica al tuo codice. Provaci!
 
 + Invece di mostrare e nascondere il segno di spunta e la croce, è possibile modificare la funzione di animazione, in modo che la grafica si dissolva.
     
     ```blocks
-        define [animate]
-        set [ghost v] effect to (100)
-        show
-        repeat (25)
-            change [ghost v] effect by (-4)
-        end
-        hide
+        definisci [animate]
+        porta effetto [ghost v] a (100)
+        mostra
+        ripeti 25 volte
+            cambia effetto [ghost v] di (-4)
+        fine
+        nascondi[animate]
     ```
