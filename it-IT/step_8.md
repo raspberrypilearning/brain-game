@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: Improved animation
+## Sfida: Animazione migliorata
 
-Can you improve the animation of your graphics? You could code the tick and cross so that they fade out as well as fade in. Or, you could use other cool effects:
+Puoi migliorare l'animazione della tua grafica? Puoi codificare il segno di spunta e croce in modo che svaniscano e si dissolvano. Oppure puoi usare altri effetti interessanti:
 
 ![screenshot](images/brain-effects.png)
 
