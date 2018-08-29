@@ -2,7 +2,7 @@
 
 Il tuo personaggio ora sta solo dicendo al giocatore solo `si! :)` o `no :(`, puoi aggiungere alcuni elementi grafici che permetteranno al giocatore di avere informazioni aggiuntive sull'andamento.
 
-+ Crea un nuovo sprite chiamato "Risultato", contenente sia un costume "spunta" che un costume "croce".
++ Crea un nuovo sprite chiamato "Result", contenente sia un costume "spunta" che un costume "croce".
     
     ![screenshot](images/brain-result.png)
 
