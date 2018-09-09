@@ -29,7 +29,7 @@ Sie können eine vollständige Version dieses Projekts unter [online](http://scr
 
 ## Lernziele
 
-* Dieses Projekt festigt die bisher gelernten Programmierfertigkeiten und zeigt anhand eines Beispiels wie die Funktion Nachricht in Verbindung mit einem Spielmenü in Scratch verwendet werden kann.
+* Dieses Projekt festigt die bisher gelernten Programmierfertigkeiten und zeigt, wie die Funktion "sende... an alle" für ein einfaches Spielmenü verwendet werden kann.
 
 Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
 
@@ -51,7 +51,7 @@ Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making
 
 ## title: Projektmaterial
 
-## Material für Gruppenleiter
+## Ressourcen für Clubleiter
 
 * [Vollständiges Scratch 2-Projekt zum Herunterladen](resources/BrainGame.sb2)
 * [Vollständiges Scratch 2-Projekt online](http://scratch.mit.edu/projects/42225768/#editor)
