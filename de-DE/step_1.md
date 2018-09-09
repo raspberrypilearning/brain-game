@@ -1,4 +1,4 @@
-## Einführung
+## Einleitung
 
 In diesem Projekt lernst du, wie du ein Quiz mit Kopfrechnungsübungen zur Multiplikation erstellst. In diesem Spiel sollst du versuchen, in 30 Sekunden möglichst viele richtige Antworten zu geben.
 
@@ -7,15 +7,15 @@ In diesem Projekt lernst du, wie du ein Quiz mit Kopfrechnungsübungen zur Multi
   <img src="images/brain-final.png">
 </div>
 
-### Ergänzende Informationen für Gruppenleiter
+### Additional information for club leaders
 
-Wenn du dieses Projekt ausdrucken möchtest, verwende die Option [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Falls du dieses Projekt ausdrucken musst, verwende bitte die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 ## \--- collapse \---
 
-## title: Hinweise für Gruppenleiter
+## title: Anmerkungen für Clubleiter
 
-## Einführung
+## Einleitung:
 
 In diesem Projekt lernen Kinder, wie sie ein Quiz mit Kopfrechnungsübungen zur Multiplikation erstellen. Ziel des Spiels ist es, in 30 Sekunden möglichst viele richtige Antworten zu geben.
 
