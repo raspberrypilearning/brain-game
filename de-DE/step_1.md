@@ -19,11 +19,11 @@ Falls du dieses Projekt ausdrucken musst, verwende bitte die [druckfreundliche V
 
 In diesem Projekt lernen Kinder, wie sie ein Quiz mit Kopfrechnungsübungen zur Multiplikation erstellen. Ziel des Spiels ist es, in 30 Sekunden möglichst viele richtige Antworten zu geben.
 
-## Benötigtes Material
+## Ressourcen
 
-Für dieses Projekt sollte Scratch in der Version 2 verwendet werden. Scratch 2 kann hierfür in der Online-Variante unter [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) verwendet werden oder in der Offline-Variante unter [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) heruntergeladen werden.
+Für dieses Projekt sollte Scratch 2 verwendet werden. Scratch 2 kann entweder online bei [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) verwendet werden oder unter [ jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) heruntergeladen und offline benutzt werden.
 
-Sie können eine vollständige Version dieses Projekts unter [online](http://scratch.mit.edu/projects/42225768/#editor) aufrufen oder über Klick auf den Link 'Projektmaterial' heruntergeladen werden. Dieser beinhaltet:
+Sie können eine vollständige Version dieses Projekts unter [online](http://scratch.mit.edu/projects/42225768/#editor) aufrufen oder über Klick auf den Link 'Projektmaterial' herunterladen. Dieser beinhaltet:
 
 * BrainGame.sb2
 
