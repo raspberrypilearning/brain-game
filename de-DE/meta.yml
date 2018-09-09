@@ -18,23 +18,23 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Einführung
+    title: Einleitung
   - 
     title: Fragen zusammenstellen
   - 
-    title: 'Aufgabe: Kostüm ändern'
+    title: 'Herausforderung: Kostüm ändern'
   - 
     title: 'Aufgabe: Eine Punktzahl hinzufügen'
   - 
     title: Mehrfache Spiele
   - 
-    title: 'Aufgabe: Start-Bildschirm'
+    title: 'Herausforderung: Startbildschirm'
   - 
     title: Grafik hinzufügen
   - 
-    title: 'Aufgabe: Verbesserte Animation'
+    title: 'Herausforderung: Verbesserte Animation'
   - 
-    title: 'Aufgabe: Sound und Musik'
+    title: 'Herausforderung: Sound und Musik'
   - 
     title: 'Aufgabe: Wettrennen zu 10 Punkten'
   - 
