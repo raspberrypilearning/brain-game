@@ -1,36 +1,36 @@
-## Adding graphics
+## Добавление графики
 
-Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
+Вместо того, чтобы ваш персонаж просто сказал `да! :)` или `нет :(` игроку, давайте добавим некоторые графики, которые позволят игроку узнать, как они это делают.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
++ Создайте новый спрайт под названием «Результат», содержащий как «тик», так и «крест».
     
-    ![screenshot](images/brain-result.png)
+    ![Скриншот](images/brain-result.png)
 
-+ Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
++ Измените код своего персонажа, чтобы вместо того, чтобы сообщать игроку, как они это сделали, он передает `правильных`{: class = "blockevents"} и `неправильных`{: class = "blockevents"} сообщения вместо этого.
     
-    ![screenshot](images/brain-broadcast-answer.png)
+    ![Скриншот](images/brain-broadcast-answer.png)
 
-+ You can now use these messages to show the 'tick' or 'cross' costume. Add this code to your new 'Result' sprite:
++ Теперь вы можете использовать эти сообщения, чтобы показать костюм «тик» или «крест». Добавьте этот код в свой новый спрайт «Результат»:
     
-    ![screenshot](images/brain-show-answer.png)
+    ![Скриншот](images/brain-show-answer.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
++ Проверьте свою игру снова. Вы должны видеть тик, когда вы получите правильный вопрос, и крест, когда вы ошибаетесь!
     
-    ![screenshot](images/brain-test-answer.png)
+    ![Скриншот](images/brain-test-answer.png)
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
++ Вы заметили, что код для `когда я получаю правильные`{: class = "blockevents"} и `когда я получаю неправильные`{: class = "blockevents"}, почти идентичен? Давайте создадим функцию, которая упростит вам внесение изменений в ваш код.
     
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
+    На спрайте «Результат» нажмите `Больше блоков`{: class = "blockmoreblocks"}, а затем «Сделать блок». Создайте новую функцию под названием `animate`{: class = "blockmoreblocks"}.
     
-    ![screenshot](images/brain-animate-function.png)
+    ![Скриншот](images/brain-animate-function.png)
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
++ Затем вы можете добавить код анимации в свою новую функцию анимации, а затем просто используйте эту функцию дважды:
     
-    ![screenshot](images/brain-use-function.png)
+    ![Скриншот](images/brain-use-function.png)
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
++ Теперь, если вы хотите показать тик и крест в течение более длительного или более короткого времени, вам нужно всего лишь внести одно изменение в свой код. Попробуй!
 
-+ Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
++ Вместо того, чтобы просто показывать и скрывать тик и крест, вы можете изменить свою анимационную функцию, чтобы графика затухала.
     
     ```blocks
         define [animate]
