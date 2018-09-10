@@ -1,19 +1,19 @@
-\--- challenge \---
+\--- вызов \---
 
-## Challenge: Race to 10 points
+## Задача: гонка до 10 очков
 
-Can you change your game, so that instead of answering as many questions as they can in 30 seconds, the player has to see how quickly they can get 10 questions correct?
+Можете ли вы изменить свою игру, чтобы вместо ответа на столько вопросов, сколько они могут за 30 секунд, игрок должен увидеть, как быстро они могут получить 10 вопросов правильно?
 
-To do this, you'll only need to change your timer code. Can you see what needs to be changed?
+Для этого вам нужно будет только изменить код таймера. Вы видите, что нужно изменить?
 
 ```blocks
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) secs
-        change [time v] by (-1)
+    когда я получаю [start v]
+    установить [время v] в (30)
+    повторить до <(время) = [0]>
+        ждать (1) секунд
+        изменить [время v] на (-1)
     end
     broadcast [end v]
 ```
 
-\--- /challenge \---
+\--- /вызов \---
