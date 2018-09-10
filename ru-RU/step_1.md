@@ -1,59 +1,59 @@
-## Introduction
+## Введение
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+В этом проекте вы узнаете, как создать викторину таблицы времени, в которой вы должны получить столько ответов, сколько сможете за 30 секунд.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### Дополнительная информация для лидеров клуба
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Если вам нужно распечатать этот проект, воспользуйтесь [Версия для печати](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
-## \--- collapse \---
+## \--- коллапс \---
 
-## title: Club leader notes
+## название: заметки лидера клуба
 
-## Introduction:
+## Введение:
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+В этом проекте дети узнают, как сделать игру с викториной таблицы времени, в которой игрок должен ответить на столько вопросов правильно, как может за 30 секунд.
 
-## Resources
+## Ресурсы
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Для этого проекта необходимо использовать Scratch 2. Царапина 2 может быть использована онлайн по адресу [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) или может быть загружена с [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) и использована в автономном режиме.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Вы можете найти завершенную версию этого проекта [онлайн](http://scratch.mit.edu/projects/42225768/#editor), или его можно загрузить, щелкнув ссылку «Материалы проекта» для этого проекта, которая содержит:
 
 * BrainGame.sb2
 
-## Learning Objectives
+## Цели обучения
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* Этот проект объединяет изучение ранее приобретенных навыков программирования и показывает, как широковещательные передачи могут использоваться для создания простой системы меню игры.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Этот проект охватывает элементы из следующих направлений: [Малина Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-* [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Объедините конструкции программирования для решения проблемы.](https://www.raspberrypi.org/curriculum/programming/builder)
 
-## Challenges
+## проблемы
 
-* "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
-* "Adding a score" - adding a point for every correct question answered;
-* "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
-* "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-* "Sound and music" - consolidating learning of music loops and sound effects;
-* "Race to 10 points" - changing the game logic to create a new game objective;
-* "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
+* «Изменение костюмов» - изменение характера игрового персонажа в ответ на правильные и неправильные ответы;
+* «Добавление оценки» - добавление точки для ответа на каждый правильный вопрос;
+* «Начальный экран» - изменение фона сцены в ответ на `стартов`{: class = "blockevents"} и `end`{: class = "blockevents"} широковещательные сообщения, создание 2 игровых экранов;
+* «Улучшенная анимация» - использование петель и эффектов для улучшения правильной / неправильной графической анимации;
+* «Звук и музыка» - консолидация обучения музыкальных петель и звуковых эффектов;
+* «Гонка до 10 очков» - изменение игровой логики для создания новой игровой цели;
+* «Экран инструкций» - консолидация использования трансляций для создания игрового меню, добавив новую кнопку «инструкции» и экран.
 
-\--- /collapse \---
+\--- / свернуть \---
 
-## \--- collapse \---
+## \--- коллапс \---
 
-## title: Project materials
+## название: материалы проекта
 
-## Club leader resources
+## Ресурсы лидера клуба
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [Загруженный завершенный проект Scratch 2](resources/BrainGame.sb2)
+* [Онлайн-проект Scratch 2](http://scratch.mit.edu/projects/42225768/#editor)
 
-\--- /collapse \---
+\--- / свернуть \---
