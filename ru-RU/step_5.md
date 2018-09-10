@@ -1,74 +1,74 @@
-## Multiple games
+## Несколько игр
 
-Let's add a 'play' button to your game, so that you can play lots of times.
+Давайте добавим в игру кнопку «играть», чтобы вы могли играть много раз.
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
++ Создайте новую кнопку справки «Играть», которую ваш игрок нажмет, чтобы начать новую игру. Вы можете сделать это самостоятельно или отредактировать спрайт из библиотеки Scratch.
     
-    ![screenshot](images/brain-play.png)
+    ![Скриншот](images/brain-play.png)
 
-+ Add this code to your new button.
++ Добавьте этот код в свою новую кнопку.
     
     ```blocks
-        when flag clicked
+        когда флаг щелкнул
+        показать
+    
+        когда этот спрайт нажал
+        скрыть
+        трансляции [начать v]
+    ```
+    
+    Этот код показывает кнопку воспроизведения при запуске вашего проекта. Когда кнопка нажата, она скрыта, а затем передает сообщение, которое запустит игру.
+
++ Вам нужно будет отредактировать код своего персонажа, чтобы игра начиналась, когда они получали сообщение `start`{: class = "blockevents"}, а не при щелчке по флагу.
+    
+    Замените `когда флаг щелкнул`{: class = "blockevents"} код с `когда я получаю start`{: class = "blockevents"}.
+    
+    ![Скриншот](images/brain-start.png)
+
++ Нажмите зеленый флаг, а затем нажмите кнопку нового воспроизведения, чтобы проверить его. Вы должны увидеть, что игра не запускается до тех пор, пока не будет нажата кнопка.
+
++ Вы заметили, что таймер запускается при нажатии на зеленый флаг, а не при запуске игры?
+    
+    ![Скриншот](images/brain-timer-bug.png)
+    
+    Вы можете решить эту проблему?
+
++ Нажмите на сцене, и замените `остановить все`{: класс = «blockcontrol»} блок с `конца`{: класс = «blockevents»} сообщения.
+    
+    ![Скриншот](images/brain-end.png)
+
++ Теперь вы можете добавить код в свою кнопку, чтобы показать его снова в конце каждой игры.
+    
+    ```blocks
+        когда я получаю [end v]
         show
-    
-        when this sprite clicked
-        hide
-        broadcast [start v]
-    ```
-    
-    This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
-
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
-    
-    Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
-    
-    ![screenshot](images/brain-start.png)
-
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
-
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
-    
-    ![screenshot](images/brain-timer-bug.png)
-    
-    Can you fix this problem?
-
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
-    
-    ![screenshot](images/brain-end.png)
-
-+ You can now add code to your button, to show it again at the end of each game.
-    
-    ```blocks
-        when I receive [end v]
-        show
     ```
 
-+ You'll also need to stop your character asking questions at the end of each game:
++ Вам также необходимо остановить своего персонажа, задающего вопросы в конце каждой игры:
     
     ```blocks
-        when I receive [end v]
-        stop [other scripts in sprite v]
+        когда я получаю [end v]
+        stop [другие скрипты в спрайте v]
     ```
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
++ Проверьте свою игру, сыграв пару игр. Вы должны заметить, что кнопка воспроизведения отображается после каждой игры. Чтобы облегчить тестирование, вы можете сократить каждую игру, чтобы она длилась всего несколько секунд.
     
     ```blocks
-        set [time v] to [10]
+        установить [время v] на [10]
     ```
 
-+ You can even change how the button looks when the mouse hovers over it.
++ Вы можете даже изменить, как выглядит кнопка, когда мышь нависает над ней.
     
     ```blocks
-        when flag clicked
-        show
-        forever
-        if <touching [mouse-pointer v]?> then
-            set [fisheye v] effect to (30)
+        когда флаг щелкнул
+        показ
+        навсегда
+        если <touching [mouse-pointer v]?> затем
+            установить [fisheye v] effect to (30)
         else
             set [fisheye v] effect to (0)
         end
         end
     ```
     
-    ![screenshot](images/brain-fisheye.png)
+    ![Скриншот](images/brain-fisheye.png)
