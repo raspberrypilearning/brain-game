@@ -1,19 +1,19 @@
-\--- challenge \---
+\--- вызов \---
 
-## Challenge: Start screen
+## Задача: начальный экран
 
-Can you add another backdrop to your stage, which will become your game's start screen? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
+Можете ли вы добавить еще один фон для своей сцены, который станет началом экрана вашей игры? Вы можете использовать `когда я получаю start`{: class = "blockevents"} и `когда я получаю блокировку`{: class = "blockevents"} для переключения между фонами.
 
-You can also show and hide your character, and even show and hide your timer by using these blocks:
+Вы также можете показывать и скрывать свой персонаж, а также показывать и скрывать свой таймер, используя эти блоки:
 
 ```blocks
-show variable [time v]
+показать переменную [время v]
 ```
 
 ```blocks
-hide variable [time v]
+скрыть переменную [время v]
 ```
 
-![screenshot](images/brain-startscreen.png)
+![Скриншот](images/brain-startscreen.png)
 
-\--- /challenge \---
+\--- /вызов \---
