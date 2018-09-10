@@ -1,43 +1,43 @@
-## Creating questions
+## Создание вопросов
 
-Let's start by creating random questions for the player to answer.
+Начнем с создания случайных вопросов для игрока.
 
-+ Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Начните новый проект Scratch и удалите кошачий спрайт, чтобы ваш проект пуст. Вы можете найти онлайн-редактор Scratch по адресу <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-+ Choose a character and a backdrop for your game. You can choose any you like! Here's an example:
++ Выберите персонажа и фона для вашей игры. Вы можете выбрать любой понравившийся! Вот пример:
     
-    ![screenshot](images/brain-setting.png)
+    ![Скриншот](images/brain-setting.png)
 
-+ Create 2 new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the 2 numbers that will be multiplied together.
++ Создайте 2 новые переменные, которые называются `number 1`{: class = "blockdata"} и `number 2`{: class = "blockdata"}. Эти переменные будут хранить 2 числа, которые будут умножены вместе.
     
-    ![screenshot](images/brain-variables.png)
+    ![Скриншот](images/brain-variables.png)
 
-+ Add code to your character, to set both of these variables to a `random`{:class="blockoperators"} number between 2 and 12.
++ Добавьте код в свой символ, чтобы установить обе эти переменные в `случайных`{: class = "blockoperators"} число от 2 до 12.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
+        при нажатии флага
+        установите [номер 1 v] на (выберите случайное (2) - (12))
+        установите [число 2 v] на (выберите случайное (2) - (12))
     ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ Затем вы можете попросить игрока ответить и сообщить им, были ли они правильными или неправильными.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
-        ask (join (number 1)(join [ x ] (number 2))) and wait
-        if <(answer) = ((number 1)*(number 2))> then
-            say [yes! :)] for (2) secs
+        при выборе флага
+        установите [число 1 v] на (выберите случайное (2) - (12))
+        установите [число 2 v] на (выберите случайное (2) - (12))
+        ask (join (номер 1) присоедините [x] (номер 2))) и подождите
+        если <(ответ) = ((номер 1) * (номер 2))> затем
+            скажите [да! :)] for (2) secs
         else
-            say [nope :(] for (2) secs
+            say [nope :(] для (2) secs
         end
     ```
 
-+ Test your project fully, by answering one question correctly and one with the wrong answer.
++ Полностью проверьте свой проект, правильно ответив на один вопрос, а другой - на неправильный ответ.
 
-+ Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
++ Добавьте `forever`{: class = "blockcontrol"} вокруг этого кода, так что игроку задают много вопросов.
 
-+ Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The 'Ghostbusters' project has instructions for making a timer (in step 5) if you need help!
++ Создайте таймер обратного отсчета на сцене, используя переменную с именем `time`{: class = "blockdata"}. Проект «Ghostbusters» имеет инструкции для создания таймера (на шаге 5), если вам нужна помощь!
 
-+ Test your project again - you should be able to continue asking questions until the time runs out.
++ Проверьте свой проект еще раз - вы должны быть в состоянии продолжать задавать вопросы, пока не закончится время.
