@@ -1,9 +1,9 @@
-\--- challenge \---
+\--- вызов \---
 
-## Challenge: Improved animation
+## Задача: улучшенная анимация
 
-Can you improve the animation of your graphics? You could code the tick and cross so that they fade out as well as fade in. Or, you could use other cool effects:
+Можете ли вы улучшить анимацию своей графики? Вы можете закодировать галочку и крестик, чтобы они исчезли, а также исчезли. Или вы могли бы использовать другие интересные эффекты:
 
-![screenshot](images/brain-effects.png)
+![Скриншот](images/brain-effects.png)
 
-\--- /challenge \---
+\--- /вызов \---
