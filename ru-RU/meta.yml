@@ -1,41 +1,41 @@
 ---
-hero_image: images/brain-game.png
-theme: red
+hero_image: Изображения / мозг game.png
+theme: красный
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Brain Game
-description: Learn how to create a quiz.
+curriculum: 1, design-0, programming-1, phys-comp-0, production-0, community-0
+title: Мозговая игра
+description: Узнайте, как создать викторину.
 original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
-interests: games
-technologies: scratch
-site_areas: projects
+interests: игры
+technologies: царапина
+site_areas: проектов
 hardware: ''
-software: scratch
+software: царапина
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Введение
   - 
-    title: Creating questions
+    title: Создание вопросов
   - 
-    title: 'Challenge: Changing costumes'
+    title: 'Задача: изменение костюмов'
   - 
-    title: 'Challenge: Adding a score'
+    title: 'Задача: добавление оценки'
   - 
-    title: Multiple games
+    title: Несколько игр
   - 
-    title: 'Challenge: Start screen'
+    title: 'Задача: начальный экран'
   - 
-    title: Adding graphics
+    title: Добавление графики
   - 
-    title: 'Challenge: Improved animation'
+    title: 'Задача: улучшенная анимация'
   - 
-    title: 'Challenge: Sound and music'
+    title: 'Задача: Звук и музыка'
   - 
-    title: 'Challenge: Race to 10 points'
+    title: 'Задача: гонка до 10 очков'
   - 
-    title: 'Challenge: Instruction screen'
+    title: 'Вызов: экран инструкций'
