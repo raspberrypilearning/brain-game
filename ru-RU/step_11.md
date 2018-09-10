@@ -1,15 +1,15 @@
-\--- challenge \---
+\--- вызов \---
 
-## Challenge: Instruction screen
+## Вызов: экран инструкций
 
-Can you add an instructions screen to your game, telling your player how to play the game? You'll need an 'Instructions' button, and another stage background.
+Можете ли вы добавить в игру экран инструкций, рассказывая игроку, как играть в игру? Вам понадобится кнопка «Инструкции» и еще один этап.
 
-![screenshot](images/brain-instructions.png)
+![Скриншот](images/brain-instructions.png)
 
-You may also need a 'Back' button to take you to the main menu.
+Вам также может понадобиться кнопка «Назад», чтобы перейти в главное меню.
 
 ```blocks
-    broadcast [main menu v]
+    трансляция [главное меню v]
 ```
 
-\--- /challenge \---
+\--- /вызов \---
