@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: Improved animation
+## Desafio: Melhorar a animação
 
-Can you improve the animation of your graphics? You could code the tick and cross so that they fade out as well as fade in. Or, you could use other cool effects:
+Você pode melhorar a animação de seus gráficos? Você pode programar o tique-taque e cruzar para que eles desapareçam e também diminuam. Ou você pode usar outros efeitos interessantes:
 
 ![screenshot](images/brain-effects.png)
 
