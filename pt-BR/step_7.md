@@ -10,7 +10,7 @@ Ao invés do personagem somente dizer `sim! :)` ou `não :(` para o jogador, vam
     
     ![screenshot](images/brain-broadcast-answer.png)
 
-+ Você pode aogra usar essas mensagens para mostar o 'sinal de confere' ou 'sinal de errado'. Adicione esse código ao seu novo objeto 'Resultado':
++ Você pode aogra usar essas mensagens para mostar o 'sinal de visto' ou 'sinal de errado'. Adicione esse código ao seu novo objeto 'Resultado':
     
     ![screenshot](images/brain-show-answer.png)
 
