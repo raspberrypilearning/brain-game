@@ -1,6 +1,6 @@
-## Erzeugen von Aufgaben
+## Aufgaben erzeugen
 
-Beginne damit zufällige Fragen zu generieren, die der Spieler beantworten soll.
+Beginnen wir damit, zufällige Fragen zu erzeugen, die der Spieler beantworten soll.
 
 + Starte mit einem neuen Scratch-Projekt und lösche die Spielfigur 'Katze". Dein Projekt ist nun leer. Du findest den Online-Editor für Scratch unter <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
