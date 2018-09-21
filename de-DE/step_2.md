@@ -38,6 +38,6 @@ Beginnen wir damit, zufällige Fragen zu erzeugen, die der Spieler beantworten s
 
 + Lege um diesen Code eine `Wiederhole fortlaufend`-Schleife, damit der Spieler jede Menge Aufgaben gestellt bekommt.
 
-+ Erstelle einen Countdown-Timer auf der Bühne, indem du eine Variable namens `Zeit`{:class="blockdata"} erstellst. Falls du Hilfe brauchst: Das Ghostbuster-Projekt beinhaltet (in Schritt 5) eine Anleitung zur Erstellung eines Timers!
++ Richte auf der Bühne einen Countdown-Timer ein, und zwar mithilfe einer Variablen namens `Zeit`{:class="blockdata"}. Falls du Hilfe brauchst: Das Ghostbuster-Projekt beinhaltet (in Schritt 5) eine Anleitung zur Erstellung eines Timers!
 
 + Teste dein Projekt nochmals - du solltest nun solange Fragen gestellt bekommen, bis die Zeit abgelaufen ist.
