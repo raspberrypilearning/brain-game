@@ -1,6 +1,6 @@
 ## Einleitung
 
-In diesem Projekt lernst du, wie du ein Quiz mit Kopfrechnungsübungen zur Multiplikation erstellst. In diesem Spiel sollst du versuchen, in 30 Sekunden möglichst viele richtige Antworten zu geben.
+In diesem Projekt lernst du, wie du ein Einmaleins-Quiz programmierst, in dem du versuchen sollst, in 30 Sekunden möglichst viele richtige Antworten zu geben.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
