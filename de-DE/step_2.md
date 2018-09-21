@@ -2,15 +2,15 @@
 
 Beginnen wir damit, zufällige Fragen zu erzeugen, die der Spieler beantworten soll.
 
-+ Starte mit einem neuen Scratch-Projekt und lösche die Spielfigur 'Katze". Dein Projekt ist nun leer. Du findest den Online-Editor für Scratch unter <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Starte ein neues Scratch-Projekt und lösche die Katzenfigur. Dein Projekt ist nun leer. Du findest den Online-Editor für Scratch unter <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-+ Wähle eine Spielfigur und einen passenden Bühnenhintergrund für dein Spiel. Entscheide selbst, wie dein Spiel aussehen soll! Hier ein Beispiel:
++ Wähle eine Figur und einen Bühnenhintergrund für dein Spiel. Du kannst selbst entscheiden welche dir gefallen! Hier ein Beispiel:
     
-    ![Screenshot](images/brain-setting.png)
+    ![screenshot](images/brain-setting.png)
 
 + Erstelle 2 neue Variablen mit den Namen `Zahl 1`{:class="blockdata"} und `Zahl 2`{:class="blockdata"}. Diese beiden Variablen speichern die beiden Zahlen, die miteinander multipliziert werden sollen.
     
-    ![Screenshot](images/brain-variables.png)
+    ![screenshot](images/brain-variables.png)
 
 + Füge deiner Spielfigur Programmcode hinzu, damit beide Variablen per Zufall eine Zahl zwischen 2 und 12 zugewiesen bekommen `random`{:class="blockoperators"}.
     
