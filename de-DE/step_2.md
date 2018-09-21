@@ -15,7 +15,7 @@ Beginnen wir damit, zufällige Fragen zu erzeugen, die der Spieler beantworten s
 + Füge deiner Spielfigur Programmcode hinzu, sodass beide Variablen eine `Zufallszahl`{:class="blockoperators"}zwischen 2 und 12 zugewiesen bekommen.
     
     ```blocks
-        wenn Fahne angeklickt
+        Wenn die grüne Flagge angeklickt
     setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
     setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
     ```
@@ -23,20 +23,20 @@ Beginnen wir damit, zufällige Fragen zu erzeugen, die der Spieler beantworten s
 + Du kannst nun deinen Spieler nach der Antwort fragen und ihn wissen lassen. ob seine richtig oder falsch ist.
     
     ```blocks
-        wenn Fahne angeklickt
-    setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
-    setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
-    frage (verbinde (Zahl 1)(verbinde [x] (number 2))) und warte
+        Wenn die grüne Flagge angeklickt
+    setze [zahl 1 v] auf (Zufallszahl von (2) bis (12))
+    setze [zahl 2 v] auf (Zufallszahl von (2) bis (12))
+    frage (verbinde (Zahl 1)(verbinde [x] (Zahl 2))) und warte
     falls <(Antwort) = ((Zahl 1)*(Zahl 2))> dann
-    sage [Richtig! :) für (2) Sek.
+    sage [Richtig! :)] für (2) Sek.
     sonst
     sage [Falsch! :(] für (2) Sek.
     end
     ```
 
-+ Teste dein Projekt vollständig, indem du einmal die richtige und einmal die falsche Lösung eingibst.
++ Teste dein Projekt vollständig, indem du einmal die richtige und einmal eine falsche Lösung eingibst.
 
-+ Füge um diesen Code eine `Wiederhole fortlaufend`-Schleife ein, sodass der Spieler viele Aufgaben gestellt bekommt.
++ Lege um diesen Code eine `Wiederhole fortlaufend`-Schleife, damit der Spieler jede Menge Aufgaben gestellt bekommt.
 
 + Erstelle einen Countdown-Timer auf der Bühne, indem du eine Variable namens `Zeit`{:class="blockdata"} erstellst. Falls du Hilfe brauchst: Das Ghostbuster-Projekt beinhaltet (in Schritt 5) eine Anleitung zur Erstellung eines Timers!
 
