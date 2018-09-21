@@ -12,7 +12,7 @@ Beginnen wir damit, zufällige Fragen zu erzeugen, die der Spieler beantworten s
     
     ![screenshot](images/brain-variables.png)
 
-+ Füge deiner Spielfigur Programmcode hinzu, damit beide Variablen per Zufall eine Zahl zwischen 2 und 12 zugewiesen bekommen `random`{:class="blockoperators"}.
++ Füge deiner Spielfigur Programmcode hinzu, sodass beide Variablen eine `Zufallszahl`{:class="blockoperators"}zwischen 2 und 12 zugewiesen bekommen.
     
     ```blocks
         wenn Fahne angeklickt
@@ -20,7 +20,7 @@ Beginnen wir damit, zufällige Fragen zu erzeugen, die der Spieler beantworten s
     setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
     ```
 
-+ Du kannst nun deinen Spieler nach der Antwort fragen und ihn wissen lassen. ob diese falsch oder richtig ist.
++ Du kannst nun deinen Spieler nach der Antwort fragen und ihn wissen lassen. ob seine richtig oder falsch ist.
     
     ```blocks
         wenn Fahne angeklickt
