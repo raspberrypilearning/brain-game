@@ -37,7 +37,7 @@ Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making
 
 ## Herausforderungen
 
-* "Kostümwechsel" - Veränderung des Aussehens der Spielfigur in Abhängigkeit der richtigen bzw. falschen Antwort;
+* "Kostümwechsel" - Veränderung des Aussehens der Spielfigur als Reaktion auf richtige bzw. falsche Antworten;
 * "Einbau eines Punktezählers" - Hinzufügen eines Punktes zum Spielstand für jede richtige Antwort;
 * "Startbildschirm" - Wechsel des Bühnenbildes in Abhängigkeit zu Spielanfang `start`{:class="blockevents"} bzw. -ende `end`{:class="blockevents"} und Senden von Nachrichten, Erstellung zweier 'Gamescreens';
 * "Erweiterte Animation" - Verwendung von Schleifen und Effekten, um die graphischen Animationen bei richtigen/falschen Antworten zu verbessern;
