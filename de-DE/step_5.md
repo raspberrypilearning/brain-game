@@ -1,6 +1,6 @@
 ## Mehrmals spielen
 
-Lass uns einen 'spielen' Knopf zu deinem Spiel hinzufügen, damit du es mehrmals spielen kannst.
+Lass uns einen "Spielen"-Knopf zu deinem Spiel hinzufügen, damit du es mehrmals nacheinander spielen kannst.
 
 + Erstelle eine neue 'spielen' Figur, welche der Spieler anklicken muss, um ein neues Spiel zu starten. Du kannst die Figur selber malen, oder eine Figur aus der Scratch Bibliothek berabeiten.
     
