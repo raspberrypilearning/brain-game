@@ -2,7 +2,7 @@
 
 Lass uns einen "Spielen"-Knopf zu deinem Spiel hinzufügen, damit du es mehrmals nacheinander spielen kannst.
 
-+ Erstelle eine neue 'spielen' Figur, welche der Spieler anklicken muss, um ein neues Spiel zu starten. Du kannst die Figur selber malen, oder eine Figur aus der Scratch Bibliothek berabeiten.
++ Mache eine neue 'spielen' Figur, welche der Spieler anklicken muss, um ein neues Spiel zu starten. Du kannst die Figur selber entwerfen, oder eine aus der Scratch-Bibliothek bearbeiten.
     
     ![screenshot](images/brain-play.png)
 
