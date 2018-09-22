@@ -51,10 +51,10 @@ Lass uns einen "Spielen"-Knopf zu deinem Spiel hinzufügen, damit du es mehrmals
     stoppe [andere Skripte der Figur v]
     ```
 
-+ Teste deinen Spielen-Knopf, indem du ein paar Spiele spielst. Du solltest merken, dass der Spielen-Knopf nach jedem Spiel angezeigt wird. Um das Testen leichter zu machen, kannst du dein Spiel abkürzen, damit es nur ein paar Sekunden dauert.
++ Teste deinen Spielen-Knopf, indem du ein paar Spiele spielst. Du solltest sehen, dass sich der Spielen-Knopf nach jedem Spiel zeigt. Um das Testen leichter zu machen, kannst du die Spielrunden verkürzen, damit sie nur ein paar Sekunden dauern.
     
     ```blocks
-        setze [Zeit v] auf [10]
+        setze [zeit v] auf [10]
     ```
 
 + Du kannst das Aussehen des Knopfes auch ändern, wenn die Maus darüber gleitet.
