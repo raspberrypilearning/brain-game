@@ -19,21 +19,21 @@ Lass uns einen "Spielen"-Knopf zu deinem Spiel hinzufügen, damit du es mehrmals
     
     Dieser Code zeigt den Spielen-Knopf, wenn dein Projekt gestartet wird. Wenn der Knopf angeklickt wird, wird er versteckt und sendet dann eine Meldung, die das Spiel startet.
 
-+ Du musst den Code deiner Spielfigur so anpassen, dass das Spiel beginnt, wenn die Figur die `Start`{:class="blockevents"}-Meldung erhält, und nicht wenn die grüne Flagge angeklickt wird.
++ Du musst den Code deiner Spielfigur so anpassen, dass das Spiel beginnt, wenn die Figur die `Start`{:class="blockevents"}-Meldung erhält und nicht, wenn die grüne Flagge angeklickt wird.
     
     Ersetze den Code `Wenn die grüne Flagge angeklickt`{:class="blockevents"} durch `Wenn ich Start empfange`{:class="blockevents"}.
     
     ![screenshot](images/brain-start.png)
 
-+ Klicke die grüne Flagge an und klicke danach auf deinen Spielen-Knopf, um ihn zu testen. Du solltest sehen, dass die Spiel nicht startet, bis der Knopf gedrückt wurde.
++ Klicke die grüne Flagge an und klicke danach auf deinen Spielen-Knopf, um ihn zu testen. Du solltest sehen, dass das Spiel nicht beginnt, bis der Knopf gedrückt wurde.
 
 + Hast du bemerkt, dass die Zeituhr startet, wenn die grüne Flagge angeklickt wird und nicht, wenn das Spiel beginnt?
     
     ![screenshot](images/brain-timer-bug.png)
     
-    Kannst du das Problem lösen?
+    Kannst du dieses Problem lösen?
 
-+ Klicke auf die Bühne und ersetze den `stoppe alles`{:class="blockcontrol"} Block mit einer `Ende`{:class="blockevents"} Nachricht.
++ Klicke auf die Bühne und ersetze den `stoppe alles`{:class="blockcontrol"}-Block mit einer `Ende`{:class="blockevents"}-Nachricht.
     
     ![screenshot](images/brain-end.png)
 
