@@ -1,4 +1,4 @@
-## Mehrfache Spiele
+## Mehrmals spielen
 
 Lass uns einen 'spielen' Knopf zu deinem Spiel hinzufügen, damit du es mehrmals spielen kannst.
 
