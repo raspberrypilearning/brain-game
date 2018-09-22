@@ -10,14 +10,14 @@ Lass uns einen "Spielen"-Knopf zu deinem Spiel hinzufügen, damit du es mehrmals
     
     ```blocks
         Wenn die grüne Flagge angeklickt
-        zeige dich
+    zeige dich
     
-        Wenn ich angeklickt werde
-        verstecke dich
-        sende [Start v] an alle
+    Wenn ich angeklickt werde
+    verstecke dich
+    sende [Start v] an alle
     ```
     
-    Dieser Code zeigt deinen Spielen-Knopf, wenn dein Projekt gestartet wird. Wenn der Knopf angeklickt wird, wird er versteckt und sendet dann eine Nachricht, die das Spiel startet.
+    Dieser Code zeigt den Spielen-Knopf, wenn dein Projekt gestartet wird. Wenn der Knopf angeklickt wird, wird er versteckt und sendet dann eine Meldung, die das Spiel startet.
 
 + Du musst den Code deiner Spielfigur anpassen, damit das Spiel beginnt, wenn die Figur die `start`{:class="blockevents"} Startmeldung erhält, und nicht erst wenn die Flagge angeklickt wird.
     
