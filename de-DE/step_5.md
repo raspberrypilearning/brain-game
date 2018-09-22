@@ -37,11 +37,11 @@ Lass uns einen "Spielen"-Knopf zu deinem Spiel hinzufügen, damit du es mehrmals
     
     ![screenshot](images/brain-end.png)
 
-+ Du kannst jetzt den Code zu deinem Knopf hinzufügen, um ihn bei Spielende erneut anzuzeigen.
++ Du kannst jetzt den Code für deinen Knopf schreiben, damit er bei Spielende erneut angezeigt wird.
     
     ```blocks
-        Wenn ich [Ende v] empfange
-        zeige dich
+        Wenn ich [end v] empfange
+    zeige dich
     ```
 
 + Du musst auch den Code deiner Spielfigur beenden, damit sie keine weiteren Fragen beim Spielende stellt:
