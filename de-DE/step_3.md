@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Aufgabe: Kostüme wechseln
+## Herausforderung: Kostüme wechseln
 
 Kannst du die Kostüme deines Charakters ändern, sodass sie auf die Antwort des Spielers reagieren?
 
