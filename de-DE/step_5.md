@@ -44,11 +44,11 @@ Lass uns einen "Spielen"-Knopf zu deinem Spiel hinzufügen, damit du es mehrmals
     zeige dich
     ```
 
-+ Du musst auch den Code deiner Spielfigur beenden, damit sie keine weiteren Fragen beim Spielende stellt:
++ Außerdem musst du deine Spielfigur daran hindern, nach Spielende immer weiter Fragen zu stellen:
     
     ```blocks
         Wenn ich [Ende v] empfange
-        stoppe [andere Skripte der Figur v]
+    stoppe [andere Skripte der Figur v]
     ```
 
 + Teste deinen Spielen-Knopf, indem du ein paar Spiele spielst. Du solltest merken, dass der Spielen-Knopf nach jedem Spiel angezeigt wird. Um das Testen leichter zu machen, kannst du dein Spiel abkürzen, damit es nur ein paar Sekunden dauert.
