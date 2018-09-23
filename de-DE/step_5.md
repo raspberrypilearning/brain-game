@@ -61,14 +61,14 @@ Lass uns einen "Spielen"-Knopf zu deinem Spiel hinzufügen, damit du es mehrmals
     
     ```blocks
         Wenn die grüne Flagge angeklickt
-        zeige dich
-        wiederhole fortlaufend 
-        falls <wird [Mauszeiger v] berührt?> dann
-            setze [Fischauge v] -Effekt auf (30)
-       sonst
-            setze [Fischauge v] -Effekt auf (0)
-        end
-        end
+    zeige dich
+    wiederhole fortlaufend 
+      falls <touching [mouse-pointer v]?> dann 
+        setze [Fischauge v] -Effekt auf (30)
+      
+        setze [Fischauge v] -Effekt auf (0)
+      end
+    end
     ```
     
     ![screenshot](images/brain-fisheye.png)
