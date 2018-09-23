@@ -57,7 +57,7 @@ Lass uns einen "Spielen"-Knopf zu deinem Spiel hinzufügen, damit du es mehrmals
         setze [zeit v] auf [10]
     ```
 
-+ Du kannst das Aussehen des Knopfes auch ändern, wenn die Maus darüber gleitet.
++ Du kannst sogar das Aussehen des Knopfes ändern, wenn die Maus darüber gleitet.
     
     ```blocks
         Wenn die grüne Flagge angeklickt
