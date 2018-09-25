@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Aufgabe: Start-Bildschirm
+## Herausforderung: Startbildschirm
 
 Kannst du einen weiteren Hintergrund zu deiner Bühne hinzufügen, welcher der Start-Bildschirm deines Spiels sein wird? Du kannst die `Wenn ich Start empfange`{:class="blockevents"} und `Wenn ich Ende empfange`{:class="blockevents"} Blöcke verwenden, um zwischen den Hintergründen zu wechseln.
 
