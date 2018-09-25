@@ -1,8 +1,8 @@
 ## Mehrmals spielen
 
-Lass uns einen "Spielen"-Knopf zu deinem Spiel hinzufügen, damit du es mehrmals nacheinander spielen kannst.
+Lass uns dein Spiel mit einem "Startknopf" versehen, damit du es mehrmals nacheinander spielen kannst.
 
-+ Mache eine neue 'spielen' Figur, welche der Spieler anklicken muss, um ein neues Spiel zu starten. Du kannst die Figur selber entwerfen, oder eine aus der Scratch-Bibliothek bearbeiten.
++ Mache eine neue Startknopf-Figur, welche der Spieler anklicken muss, um ein neues Spiel zu starten. Du kannst die Figur selber entwerfen, oder eine aus der Scratch-Bibliothek bearbeiten.
     
     ![screenshot](images/brain-play.png)
 
