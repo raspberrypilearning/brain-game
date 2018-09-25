@@ -6,7 +6,7 @@ Lass uns dein Spiel mit einem "Startknopf" versehen, damit du es mehrmals nachei
     
     ![screenshot](images/brain-play.png)
 
-+ Füge diesen Code zu deinem Knopf hinzu.
++ Füge diesen Code deinem Knopf bei.
     
     ```blocks
         Wenn die grüne Flagge angeklickt
@@ -17,7 +17,7 @@ Lass uns dein Spiel mit einem "Startknopf" versehen, damit du es mehrmals nachei
     sende [Start v] an alle
     ```
     
-    Dieser Code zeigt den Spielen-Knopf, wenn dein Projekt gestartet wird. Wenn der Knopf angeklickt wird, wird er versteckt und sendet dann eine Meldung, die das Spiel startet.
+    Dieser Code zeigt den Startknopf am Anfang deines Programms. Wenn der Knopf angeklickt wird, wird er versteckt und sendet dann eine Meldung, die das Spiel startet.
 
 + Du musst den Code deiner Spielfigur so anpassen, dass das Spiel beginnt, wenn die Figur die `Start`{:class="blockevents"}-Meldung erhält und nicht, wenn die grüne Flagge angeklickt wird.
     
@@ -51,7 +51,7 @@ Lass uns dein Spiel mit einem "Startknopf" versehen, damit du es mehrmals nachei
     stoppe [andere Skripte der Figur v]
     ```
 
-+ Teste deinen Spielen-Knopf, indem du ein paar Spiele spielst. Du solltest sehen, dass sich der Spielen-Knopf nach jedem Spiel zeigt. Um das Testen leichter zu machen, kannst du die Spielrunden verkürzen, damit sie nur ein paar Sekunden dauern.
++ Teste deinen Startknopf, indem du ein paar Runden spielst. Du solltest feststellen, dass sich der Startknopf nach jedem Spiel zeigt. Um das Testen leichter zu machen, kannst du die Spielrunden verkürzen, damit sie nur ein paar Sekunden dauern.
     
     ```blocks
         setze [zeit v] auf [10]
@@ -65,7 +65,7 @@ Lass uns dein Spiel mit einem "Startknopf" versehen, damit du es mehrmals nachei
     wiederhole fortlaufend 
       falls <touching [mouse-pointer v]?> dann 
         setze [Fischauge v] -Effekt auf (30)
-      
+      sonst
         setze [Fischauge v] -Effekt auf (0)
       end
     end
