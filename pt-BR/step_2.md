@@ -8,7 +8,7 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
     
     ![captura de tela](images/brain-setting.png)
 
-+ Crie 2 novas variáveis ​​chamadas `numero 1` {:class="blockdata"} e `numero 2 ` {:class="blockdata"}. Essas variáveis ​​armazenarão os 2 números que serão multiplicados juntos.
++ Crie 2 novas variáveis ​​chamadas `numero 1` {:class="blockdata"} e `numero 2 ` {:class="blockdata"}. Essas variáveis ​​vão armazenar os 2 números que serão multiplicados juntos.
     
     ![captura de tela](images/brain-variables.png)
 
@@ -20,7 +20,7 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
             altera [número 2 v] para (um valor aleatório entre (2) e (12))
     ```
 
-+ Você pode então pedir ao jogador a resposta e dizer se estava certo ou errado.
++ Você pode então pedir ao jogador a resposta e dizer se ele estava certo ou errado.
     
     ```blocks
         quando alguém clicar na bandeira verde
@@ -34,10 +34,10 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
             fim
     ```
 
-+ Teste seu projeto completamente, respondendo uma questão corretamente e outra com a resposta errada.
++ Teste todo o seu projeto, respondendo uma questão corretamente e outra com a resposta errada.
 
 + Adicione um `para sempre` {:class="blockcontrol"} circula em torno deste código, de modo que o jogador receba muitas questões.
 
-+ Crie um cronômetro de contagem regressiva no palco, usando uma variável chamada `tempo`{:class="blockdata"}. O projeto 'Ghostbusters' tem instruções para fazer um temporizador (no passo 5) se você precisar de ajuda!
++ Crie um cronômetro de contagem regressiva no palco, usando uma variável chamada `tempo`{:class="blockdata"}. O projeto 'Ghostbusters' tem instruções para fazer um cronômetro (no passo 5) se você precisar de ajuda!
 
-+ Teste seu projeto novamente - você deve poder continuar fazendo questões até que o tempo acabe.
++ Teste seu projeto novamente - você deve conseguir continuar fazendo perguntas até que o tempo acabe.
