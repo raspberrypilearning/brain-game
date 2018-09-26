@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Desafio: tela inicial
+## Desafio: Tela inicial
 
 Você pode adicionar outro pano de fundo para seu palco, que passará a ser a tela de início do jogo? Você pode usar os blocos `quando eu receber o início`{:classe="blockevents"} e `quando recebo final`{:classe="blockevents"} para alternar entre cenários.
 
