@@ -1,6 +1,6 @@
 ## Introdução
 
-Neste projeto você vai aprender a criar um jogo de tabuada de multiplicação, no qual terá que conseguir responder ao numero máximo de questões corretas em 30 segundos.
+Neste projeto você vai aprender a criar um jogo de perguntas sobre a tabuada de multiplicação, no qual terá que responder corretamente ao máximo de questões que conseguir em 30 segundos.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
@@ -17,7 +17,7 @@ Se precisar imprimir este projeto, por favor, use a [versão para impressão](ht
 
 ## Introdução:
 
-Neste projeto, as crianças aprenderão a fazer um jogo de teste da tabela de multiplicação, no qual o jogador tem que responder o máximo possível de questões corretamente em 30 segundos.
+Neste projeto, as crianças vão aprender a fazer um jogo de perguntas sobre a tabela de multiplicação, no qual o jogador tem que responder corretamente ao máximo possível de questões em 30 segundos.
 
 ## Recursos
 
@@ -37,7 +37,7 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 
 ## Desafios
 
-* "Trocando fantasias" - mudar a aparência da personagem do jogo conforme respostas corretas e incorretas;
+* "Trocando fantasias" - mudar a aparência da personagem do jogo de acordo com as respostas corretas e incorretas;
 * "Adicionando uma pontuação" - adicionar um ponto para cada questão certa respondida;
 * "Tela inicial" - alterar o pano de fundo quando acionar `começar` {: classe = "blockevents"} e `end` {: classe = "blockevents"} transmitir mensagens, criando 2 'telas' de jogo;
 * "Melhorar a animação" - usar loops e efeitos para melhorar a animação dos ícones certo/errado;
