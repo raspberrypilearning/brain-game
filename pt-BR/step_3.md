@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Desafio: Trocar trajes
+## Desafio: Trocando fantasias
 
-Você pode mudar as roupas de seu personagem, de modo que elas reajam à resposta do jogador?
+Você pode mudar as roupas do seu personagem de modo que elas conforme à resposta do jogador?
 
 ![screenshot](images/brain-costume.png)
 
