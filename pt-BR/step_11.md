@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Desafio: tela de instruções
+## Desafio: Tela de instruções
 
-Você pode adicionar uma tela de instruções ao seu jogo, dizendo ao seu jogador como jogar o jogo? Você precisará de um botão "Instruções" e outro plano de fundo.
+Você pode adicionar uma tela de instruções ao seu jogo, para explicar ao seu jogador como jogar o jogo? Você vai precisar de um botão "Instruções" e outro plano de fundo.
 
-![screenshot](images/brain-instructions.png)
+![captura de tela](images/brain-instructions.png)
 
 Você também vai precisar de um botão "Voltar" para levá-lo ao menu principal.
 
 ```blocks
-    difunde a mensagem [main menu v]
+    transmissão [main menu v]
 ```
 
 \--- /challenge \---
