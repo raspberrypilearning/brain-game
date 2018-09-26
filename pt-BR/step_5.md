@@ -43,20 +43,20 @@ Vamos inserir um botão de ‘Jogar’ ao seu jogo, para que você possa jogar v
       mostrar
     ```
 
-+ Você também precisa impedir que o personagem faça novas questões ao final do jogo:
++ Você também precisa impedir que o personagem faça novas perguntas ao fim de cada jogo:
     
     ```blocks
         quando recebo [fim v]
       pare [outros scripts no objeto v]
     ```
 
-+ Teste seu botão jogar apenas jogando algumas partidas. Você pode observar que o botão Jogar aparece após cada partida. Para tornar o teste mais fácil, você pode encurtar cada partida, de modo que dure apenas alguns segundos.
++ Teste o seu botão ao jogar algumas partidas. Você pode observar que o botão Jogar aparece após cada partida. Para tornar o teste mais fácil, você pode encurtar cada partida, de modo que ela dure apenas alguns segundos.
     
     ```blocks
         alterar[tempo v] para [10]
     ```
 
-+ Você até pode mudar a aparência do botão quando o mouse passar por cima.
++ Você pode até mesmo mudar a aparência do botão quando o mouse passar por cima dele.
     
     ```blocks
         quando a bandeira verde for clicada
