@@ -2,7 +2,7 @@
 
 ## Desafio: Som e música
 
-Você pode adicionar efeitos sonoros e música ao seu jogo? Por exemplo:
+Você pode adicionar efeitos sonoros e música no seu jogo? Por exemplo:
 
 + Tocar um som quando o jogador acerta uma resposta ou erra;
 + Adicionar um som de tique-taque à tua contagem regressiva;
