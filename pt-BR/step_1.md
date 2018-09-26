@@ -1,6 +1,6 @@
 ## Introdução
 
-Neste projeto você vai aprender a criar um jogo de tabuada de multiplicar, no qual terá que conseguir responder ao numero máximo de questões corretas em 30 segundos.
+Neste projeto você vai aprender a criar um jogo de tabuada de multiplicação, no qual terá que conseguir responder ao numero máximo de questões corretas em 30 segundos.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
@@ -13,7 +13,7 @@ Se precisar imprimir este projeto, por favor, use a [versão para impressão](ht
 
 ## \--- collapse \---
 
-## title: Notas dos líderes dos clubes
+## title: Notas do líder do clube
 
 ## Introdução:
 
@@ -37,13 +37,13 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 
 ## Desafios
 
-* "Trocar trajes" - mudar a aparência da personagem do jogo conforme respostas corretas e incorretas;
-* "Adicionar uma pontuação" - adicionar um ponto para cada questão certa respondida;
+* "Trocando fantasias" - mudar a aparência da personagem do jogo conforme respostas corretas e incorretas;
+* "Adicionando uma pontuação" - adicionar um ponto para cada questão certa respondida;
 * "Tela inicial" - alterar o pano de fundo quando acionar `começar` {: classe = "blockevents"} e `end` {: classe = "blockevents"} transmitir mensagens, criando 2 'telas' de jogo;
 * "Melhorar a animação" - usar loops e efeitos para melhorar a animação dos ícones certo/errado;
 * "Som e música" - consolidar a aprendizagem de loops de música e efeitos sonoros;
 * "Corrida de 10 pontos" - mudar a lógica para criar um novo objetivo de jogo;
-* "Tela de instruções" - consolidando o uso de transmissões para criar um menu de jogos, adicionando um novo botão e tela de "instruções".
+* "Tela de instruções" - consolidar o uso de transmissões para criar um menu de jogos, adicionando um novo botão e tela de "instruções".
 
 \--- /collapse \---
 
@@ -54,6 +54,6 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 ## Recursos do líder do clube
 
 * [Download do projeto completo no Scratch 2](resources/BrainGame.sb2)
-* [Projeto concluído do Scratch 2 online](http://scratch.mit.edu/projects/42225768/#editor)
+* [Projeto concluído no Scratch 2 online](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
