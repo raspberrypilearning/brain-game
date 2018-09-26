@@ -28,9 +28,9 @@ Beginnen wir damit, zufällige Fragen zu erzeugen, die der Spieler beantworten s
     setze [zahl 2 v] auf (Zufallszahl von (2) bis (12))
     frage (verbinde (Zahl 1)(verbinde [x] (Zahl 2))) und warte
     falls <(Antwort) = ((Zahl 1)*(Zahl 2))> dann
-    sage [Richtig! :)] für (2) Sek.
+    sage [Genau! :)] für (2) Sek.
     sonst
-    sage [Falsch! :(] für (2) Sek.
+    sage [Nö :(] für (2) Sek.
     end
     ```
 
