@@ -1,18 +1,18 @@
 ## Adicionando gráficos
 
-Ao invés do personagem somente dizer `sim! :)` ou `não :(` para o jogador, vamos adicionar alguns gráficos para que ajudem o jogador a entender como está indo.
+Ao invés do personagem dizer somente `sim! :)` ou `não :(` para o jogador, vamos adicionar alguns gráficos que vão ajudar o jogador a entender como ele está indo.
 
-+ Crie um novo objeto chamado 'Resultado', contendo ambos um 'sinal de visto' e um 'sinal de errado'.
++ Crie um novo objeto chamado 'Resultado', contendo ambos um sinal de "visto" e um de "errado".
     
-    ![screenshot](images/brain-result.png)
+    ![captura de tela](images/brain-result.png)
 
-+ Mude o código de seu personagem, para que ao invés de dizer ao jogador o resultado, mostrar as mensagens `correto`{:class="blockevents"} e `errado`{:class="blockevents"}.
++ Mude o código de seu personagem para que, ao invés de dizer ao jogador o resultado, ele mostre as mensagens `correto`{:class="blockevents"} e `errado`{:class="blockevents"}.
     
-    ![screenshot](images/brain-broadcast-answer.png)
+    ![captura de tela](images/brain-broadcast-answer.png)
 
-+ Você pode aogra usar essas mensagens para mostar o 'sinal de visto' ou 'sinal de errado'. Adicione esse código ao seu novo objeto 'Resultado':
++ Agora você pode usar essas mensagens para mostar o sinal de "visto' ou de "errado'. Adicione esse código ao seu novo objeto "Resultado":
     
-    ![screenshot](images/brain-show-answer.png)
+    ![captura de tela](images/brain-show-answer.png)
 
 + Teste seu jogo novamente. Você deve ver um 'sinal de visto' sempre que responder uma questão corretamente, e um 'sinal de errado' sempre que responder errado!
     
