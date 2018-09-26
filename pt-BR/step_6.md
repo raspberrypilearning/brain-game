@@ -2,9 +2,9 @@
 
 ## Desafio: Tela inicial
 
-Você pode adicionar outro pano de fundo para seu palco, que passará a ser a tela de início do jogo? Você pode usar os blocos `quando eu receber o início`{:classe="blockevents"} e `quando recebo final`{:classe="blockevents"} para alternar entre cenários.
+Você pode adicionar outro pano de fundo para o seu palco, que vai passar a ser a tela inicial do jogo? Você pode usar os blocos `quando eu receber o início`{:classe="blockevents"} e `quando recebo final`{:classe="blockevents"} para alternar entre cenários.
 
-Você pode também mostrar e esconder seu personagem, e até mesmo mostrar e esconder o contador utilizando esses blocos:
+Você pode também mostrar e esconder o seu personagem, e até mesmo mostrar e esconder o contador utilizando esses blocos:
 
 ```blocks
 mostrar variável [tempo v]
@@ -14,6 +14,6 @@ mostrar variável [tempo v]
 esconder variável [tempo v]
 ```
 
-![screenshot](images/brain-startscreen.png)
+![captura de tela](images/brain-startscreen.png)
 
 \--- /challenge \---
