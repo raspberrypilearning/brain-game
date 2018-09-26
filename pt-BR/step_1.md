@@ -37,7 +37,7 @@ Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry 
 
 ## Desafios
 
-* "Trocando fantasias" - mudar a aparência da personagem do jogo de acordo com as respostas corretas e incorretas;
+* "Trocando fantasias" - mudar a aparência do personagem do jogo de acordo com as respostas corretas e incorretas;
 * "Adicionando uma pontuação" - adicionar um ponto para cada questão certa respondida;
 * "Tela inicial" - alterar o pano de fundo quando acionar `começar` {: classe = "blockevents"} e `end` {: classe = "blockevents"} transmitir mensagens, criando 2 'telas' de jogo;
 * "Melhorar a animação" - usar loops e efeitos para melhorar a animação dos ícones certo/errado;
