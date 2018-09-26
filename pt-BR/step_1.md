@@ -7,7 +7,7 @@ Neste projeto você vai aprender a criar um jogo de tabuada de multiplicar, no q
   <img src="images/brain-final.png">
 </div>
 
-### Informação adicional para líderes de clubes
+### Informação adicional para líderes dos clubes
 
 Se precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
@@ -21,7 +21,7 @@ Neste projeto, as crianças aprenderão a fazer um jogo de teste da tabela de mu
 
 ## Recursos
 
-Para este projeto, deve ser usado o Scratch 2. Scratch 2 pode ser usado online em [jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on)ou também ser baixado em [jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off)e ser usado o mesmo sem conexão à internet.
+Para este projeto, deve ser utilizado o Scratch 2. Scratch 2 pode ser utilizado online em [jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on)ou também baixado em [jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off)e ser utilizado mesmo sem conexão à internet.
 
 Você pode encontrar a versão completa deste projeto [ online](http://scratch.mit.edu/projects/42225768/#editor), ou poderá baixá-lo clicando no link 'Materiais do Projeto' para este projeto, que contém:
 
@@ -29,11 +29,11 @@ Você pode encontrar a versão completa deste projeto [ online](http://scratch.m
 
 ## Objetivos de aprendizado
 
-* Este projeto consolida habilidades de programação anteriores aprendidas e mostra como transmissões podem ser usadas para criar um sistema de menu simples do jogo.
+* Este projeto consolida habilidades de programação aprendidas anteriormente e mostra como transmissões podem ser usadas para criar um sistema de menu de um jogo simples.
 
 Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry Pi Digital Making ](http://rpf.io/curriculum):
 
-* [Combine construções de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Combine estruturas de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Desafios
 
