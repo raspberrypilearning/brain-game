@@ -2,7 +2,7 @@
 
 ## Desafio: Corrida de 10 pontos
 
-Você pode mudar o seu jogo de modo que, ao invés de ter que responder todas as perguntas possíveis em 30 segundos, o jogador tenha que ver o quão rápido consegue responder 10 questões corretamente?
+Você pode mudar o seu jogo de uma maneira que, ao invés de ter que responder todas as perguntas possíveis em 30 segundos, o jogador tenha que ver o quão rápido ele consegue responder 10 questões corretamente?
 
 Para fazer isso, você só vai precisar alterar o código do seu cronômetro. Você consegue ver o que precisa ser mudado?
 
