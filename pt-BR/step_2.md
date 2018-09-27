@@ -4,7 +4,7 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
 
 + Inicie um novo projeto Scratch e exclua o sprite do gato para que o seu projeto fique vazio. Para criar um novo projeto Scratch usando o editor online, acesse <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-+ Escolha um personagem e um pano de fundo para o seu jogo. Você pode escolher o que quiser! Aqui está um exemplo:
++ Escolha um personagem e um pano de fundo para o seu jogo. Você pode escolher o que você quiser! Aqui está um exemplo:
     
     ![captura de tela](images/brain-setting.png)
 
@@ -34,7 +34,7 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
             fim
     ```
 
-+ Teste todo o seu projeto, respondendo uma questão corretamente e outra com a resposta errada.
++ Teste todo o seu projeto, respondendo uma questão com a resposta certa e outra com a errada.
 
 + Adicione um `para sempre` {:class="blockcontrol"} circula em torno deste código, de modo que o jogador receba muitas questões.
 
