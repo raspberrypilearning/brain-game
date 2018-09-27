@@ -38,6 +38,6 @@ Vamos começar criando perguntas aleatórias para o jogador responder.
 
 + Adicione um `para sempre` {:class="blockcontrol"} circula em torno deste código, de modo que o jogador receba muitas questões.
 
-+ Crie um cronômetro de contagem regressiva no palco, usando uma variável chamada `tempo`{:class="blockdata"}. O projeto 'Ghostbusters' tem instruções para fazer um cronômetro (no passo 5) se você precisar de ajuda!
++ Crie um cronômetro de contagem regressiva no palco, usando uma variável chamada `tempo`{:class="blockdata"}. O projeto 'Caça-Fantasmas' tem instruções para fazer um cronômetro (no passo 5) se você precisar de ajuda!
 
-+ Teste seu projeto novamente - você deve conseguir continuar fazendo perguntas até que o tempo acabe.
++ Teste o seu projeto novamente - você deve conseguir continuar fazendo perguntas até que o tempo acabe.
