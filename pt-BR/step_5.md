@@ -18,7 +18,7 @@ Vamos inserir um botão de ‘Jogar’ ao seu jogo, para que você possa jogar v
     
     Este código mostra um botão Jogar quando seu projeto é iniciado. O botão se esconde quando é clicado e então é transmitida uma mensagem que vai iniciar jogo.
 
-+ Você vai precisar editar o código do seu personagem, para que o jogo comece quando eles receberem o `início`{:class="blockevents"}, e não quando a bandeira é clicada.
++ Você vai precisar editar o código do seu personagem para que o jogo comece quando eles receberem o `início`{:class="blockevents"}, e não quando a bandeira for clicada.
     
     Substitua o código de`quando a bandeira for clicada`{:class="blockevents"} por `quando iniciar`{:class="blockevents"}.
     
