@@ -1,4 +1,4 @@
-## Grafiken hinzufügen
+## Grafische Anzeige
 
 Anstatt deine Spielfigur nur `Genau! :)` oder `Nö :(` zum Spieler sagen zu lassen, können wir jetzt Grafik benutzen, damit der Spieler weiß, wie er dasteht.
 
