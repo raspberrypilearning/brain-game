@@ -6,7 +6,7 @@ Anstatt deine Spielfigur nur `Genau! :)` oder `Nö :(` zum Spieler sagen zu lass
     
     ![screenshot](images/brain-result.png)
 
-+ Ändere den Code deiner Spielfigur, damit du, statt nur dem Spieler mitzuteilen, welchen Punktzahl er erreicht hat, ihm statt dessen auch die entsprechenden `richtig`{:class="blockevents"} und `falsch`{:class="blockevents"} Nachrichten senden kannst.
++ Ändere den Code deiner Spielfigur, sodass dem Spieler nicht nur angezeigt wird, ob seine Lösung stimmt, sondern entsprechende `richtig`{:class="blockevents"} und `falsch`{:class="blockevents"}-Nachrichten gesendet werden.
     
     ![screenshot](images/brain-broadcast-answer.png)
 
