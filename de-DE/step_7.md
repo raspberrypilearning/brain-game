@@ -2,7 +2,7 @@
 
 Anstatt deine Spielfigur nur `Genau! :)` oder `Nö :(` zum Spieler sagen zu lassen, können wir jetzt Grafik benutzen, damit der Spieler weiß, wie er dasteht.
 
-+ Erstelle eine neue Figur namens Ergebnis, die sowhol ein "Häkchen" als auch ein "Kreuz" Kostüm enthält.
++ Erstelle eine neue Figur namens "Lösung", die sowohl ein "Häkchen" als auch ein "Kreuz" Kostüm enthält.
     
     ![screenshot](images/brain-result.png)
 
