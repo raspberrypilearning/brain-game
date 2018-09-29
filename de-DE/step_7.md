@@ -10,7 +10,7 @@ Anstatt deine Spielfigur nur `Genau! :)` oder `Nö :(` zum Spieler sagen zu lass
     
     ![screenshot](images/brain-broadcast-answer.png)
 
-+ Du kannst jetzt diese Meldungen dazu benutzen, um entweder das "Häkchen" oder das "Kreuz" Kostüm anzuzeigen. Füge diesen Code zu deiner neuen Ergbnis Figur hinzu:
++ Du kannst jetzt diese Meldungen dazu benutzen, um entweder das "Häkchen" oder das "Kreuz" Kostüm anzuzeigen. Deine neue Figur "Lösung" bekommt den folgenden Code:
     
     ![screenshot](images/brain-show-answer.png)
 
