@@ -2,6 +2,6 @@
 
 ## Izazov: Dodavanje rezultata
 
-Možete li dodati rezultat u svojoj igri? Možete dodati točku za svaki točan odgovor. Ako se osjećate ljuto, možete čak resetirati rezultat igrača na 0 ako dobijete pogrešno pitanje!
+Možeš li dodati rezultat svojoj igri? Možeš davati bod za svaki točan odgovor. Želiš li otežati igru, možeš vratiti igračev rezultat na nulu ako odgovori pogrešno!
 
 \--- /challenge \---
