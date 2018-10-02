@@ -31,19 +31,19 @@ Dovršenu verziju ovog projekta možete pronaći [online](http://scratch.mit.edu
 
 * Ovaj projekt objedinjuje prethodno znanje o programiranju i pokazuje kako se prijenos poruka može koristiti za izradu jednostavnog izbornika za igricu.
 
-Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovaj projekt obuhvaća elemente iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) nastavnog plana i programa:
 
-* [Kombinirajte programske konstrukcije kako biste riješili problem.](https://www.raspberrypi.org/curriculum/programming/builder)
+* [Uporaba različitih programskih struktura za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 
 ## Izazovi
 
-* "Promjena kostima" - mijenjanje izgleda karaktera igre kao odgovor na točne i netočne odgovore;
-* "Dodavanje rezultata" - dodavanje boda za svaki ispravno odgovoreno pitanje;
-* "Početni zaslon" - promjena pozadine kao odgovor na `start` {:class="blockevents"} i `end` {:class="blockevents"} emitiranje poruke, stvaranje igre dva 'ekrana';
-* "Poboljšana animacija" - pomoću petlje i efekata za poboljšanje točne/netočne grafičke animacije;
-* "Zvuk i glazba" - objedinjeno učenje glazbe petlje i zvučnih efekta;
-* "Utrka do 10 bodova" - promjena logike igare kako bi se stvorio novi cilj igre;
-* "Zaslon sa uputama" - konsolidiranje korištenja emisija radi stvaranja izbornika igare, dodavanjem novog gumba 'upute' i zaslona.
+* "Promjena kostima" - mijenjanje izgleda lika u odnosu na točne i netočne odgovore;
+* "Dodavanje rezultata" - dodavanje boda za svako ispravno odgovoreno pitanje;
+* "Početni zaslon" - promjena pozadine pozornice u odnosu na `start`{:class="blockevents"} i `end`{:class="blockevents"} poruke, čime se kreiraju dva 'ekrana' za igru;
+* "Poboljšavanje animacije" - korištenje petlji i efekata za poboljšanje animacije;
+* "Zvuk i glazba" - objedinjavanje naučenog o glazbenim petljama i zvučnim efektima;
+* "Utrka do 10 bodova" - promjena logike igre kako bi se stvorio novi cilj igre;
+* "Zaslon sa uputama" - objedinjavanje slanja poruka kako bi se izradio izbornik igre dodavanjem novog gumba 'upute' i zaslona.
 
 \--- /collapse \---
 
@@ -54,6 +54,6 @@ Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry
 ## Resursi za voditelja kluba
 
 * [Dovršeni Scratch 2 projekt dostupan za preuzimanje](resources/BrainGame.sb2)
-* [Dostupan završen Scratch 2 projekt](http://scratch.mit.edu/projects/42225768/#editor)
+* [Dovršeni online Scratch 2 projekt](http://scratch.mit.edu/projects/42225768/#editor)
 
 \--- /collapse \---
