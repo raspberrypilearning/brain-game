@@ -1,26 +1,26 @@
 ## Dodavanje grafike
 
-Umjesto vašeg znaka samo govori `yes! :)` ili `nope :(` igraču, dodajmo neke grafike koje će omogućiti igraču informaciju o napretku.
+Umjesto da tvoj lik igraču samo govori `točno! :)` ili `netočno:(`, možeš dodati grafiku koja će igraču pokazivati kako mu ide.
 
-+ Napravite novi sprite zvan 'Rezultat', koji sadrži i 'kvačicu' i 'križ' kostim.
++ Dodaj novog lika i nazovi ga 'Rezultat'. Liku dodaj dva prikladna kostima - jedan za točan (kvačica), a jedan za netočan (križić) rezultat.
     
     ![screenshot](images/brain-result.png)
 
-+ Promijenite kôd svog znaka, tako da umjesto da govori igraču kako napreduje, on emitira `correct`{:class="blockevents"} i `wrong`{:class="blockevents"} umjesto poruke.
++ Promijeni kôd lika tako da, umjesto da samo govori igraču kako napreduje, šalje poruke `točno`{:class="blockevents"} i `netočno`{:class="blockevents"}.
     
     ![screenshot](images/brain-broadcast-answer.png)
 
-+ Sada možete upotrijebiti poruke za prikazivanje kostima "kvačicu" ili "križa". Dodajte ovaj kôd na novi sprite "Rezultat":
++ Sada možeš upotrijebiti ove poruke za prikazivanje 'kvačica' ili 'križić' kostima. Dodaj sljedeći kôd svom novom liku:
     
     ![screenshot](images/brain-show-answer.png)
 
-+ Ponovno provjerite svoju igru. Trebali biste vidjeti kvačicu svaki put kad dobijete točno pitanje, i križ svaki put kad dobijete pogrešno!
++ Ponovno isprobaj igru. Trebaš vidjeti kvačicu svaki put kad je odgovor točan, a križić svaki put kad je pogrešan!
     
     ![screenshot](images/brain-test-answer.png)
 
-+ Primijetili ste da je kôd za `when I receive correct`{:class="blockevents"} i `when I receive wrong`{:class="blockevents"} je gotovo identičan? Izradimo funkciju kako bismo vam olakšali izmjenu vašeg koda.
++ Primjećuješ li da su kôdovi za `kada primim točno`{:class="blockevents"} i `kada primim netočno`{:class="blockevents"} gotovo identični? Napravimo funkciju koja će olakšati izmjene u kôdu.
     
-    Na sprite "Rezultat" kliknite `More Blocks`{:class="blockmoreblocks"}, a zatim 'Izradi blok'. Stvorite novu funkciju pod nazivom `animate`{:class="blockmoreblocks"}.
+    Odaberi lik 'Rezultat' i grupu naredbi `Više blokova`{:class="blockmoreblocks"}. Zatim klikni na gumb 'Napravi blok' i napravi novu funkciju koju ćeš nazvati `animiraj`{:class="blockmoreblocks"}.
     
     ![screenshot](images/brain-animate-function.png)
 
