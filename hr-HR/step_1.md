@@ -17,19 +17,19 @@ Ako želite ispisati ovaj projekt, molimo Vas da koristite [verziju koja je pril
 
 ## Uvod:
 
-U ovom projektu, djeca će naučiti kako napraviti tabličnu igru ​​s vremenom, u kojoj igrač mora odgovoriti na što je moguće više pitanja u 30 sekundi.
+U ovom projektu djeca će naučiti kako napraviti tabličnu igru ​​s mjeračem vremena, u kojoj igrač mora točno odgovoriti na što je moguće više pitanja u 30 sekundi.
 
 ## Resursi
 
-Za ovaj projekt treba koristiti Scratch 2. Scratch 2 se može koristiti online na [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) ili se može preuzeti s [ jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off) i koristiti offline.
+Za ovaj projekt treba koristiti Scratch 2. Scratch 2 se može koristiti online na [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ili se može preuzeti s [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) i koristiti offline.
 
-Dovršenu verziju ovog projekta možete pronaći [online](http://scratch.mit.edu/projects/42225768/#editor) ili preuzeti na poveznici 'Project Materials' koja sadrži:
+Dovršenu verziju ovog projekta možete pronaći [online](http://scratch.mit.edu/projects/42225768/#editor) ili preuzeti na poveznici 'Materijali projekta' koja sadrži:
 
 * BrainGame.sb2
 
-## Ciljevi učenja
+## Ishodi učenja
 
-* Ovaj projekt objedinjuje učenje prethodnih vještina programiranja i pokazuje kako se emitiranje može koristiti za kreiranje jednostavnog igre izbornika sustava.
+* Ovaj projekt objedinjuje prethodno znanje o programiranju i pokazuje kako se prijenos poruka može koristiti za izradu jednostavnog izbornika za igricu.
 
 Ovaj projekt pokriva elemente iz sljedećih dijelova plana i programa [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
