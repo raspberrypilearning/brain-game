@@ -2,16 +2,16 @@
 
 ## Izazov: Zvuk i glazba
 
-Možete li dodati zvučne efekte i glazbu vašoj igri? Na primjer:
+Možeš li dodati zvučne efekte i glazbu svojoj igri? Na primjer:
 
-+ Reprodukcija zvuka kad igrač dobiva odgovor točno ili netočno;
-+ Dodavanje zvuka kvačice vašem brojaču vremena;
-+ Reprodukcija zvuka kad je vrijeme isteklo;
++ Pojavljivanje zvuka kad igrač odgovori točno ili pogrešno;
++ Dodavanje zvuka brojaču vremena;
++ Pojavljivanje zvuka kada vrijeme istekne;
     
     ```blocks
-        play drum (10 v) for (0.1) beats
+        bubnjaj po (10 v) (0.1) puta
     ```
 
-+ Također možete stalno reproducirati glazbu pomoću petlje (ako niste sigurni kako to učiniti, korak 4 projekta "Rock Band" će vam pomoći).
++ Također možeš stalno ponavljati glazbu pomoću petlje (ako ne znaš kako to napraviti, korak 4 projekta 'Rock grupa' će ti pomoći).
 
 \--- /challenge \---
