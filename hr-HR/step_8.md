@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Izazov: Poboljšana animacija
+## Izazov: Poboljšavanje animacije
 
-Možete li poboljšati animaciju vaše grafike? Možete programirati kôd kvačice i križića tako da mogu polako nestajati kao i pojavljivanje istih. Ili biste mogli koristiti druge sjajne efekte:
+Možeš li poboljšati animaciju grafike? Možeš napisati kôd kojim će kvačica i križić polako nestajati i pojavljivati se. A možeš koristiti i druge super efekte:
 
 ![screenshot](images/brain-effects.png)
 
