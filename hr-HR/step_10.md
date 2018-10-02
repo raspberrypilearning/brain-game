@@ -4,16 +4,16 @@
 
 Možeš li promijeniti igru ​​tako da, umjesto odgovaranja na što više pitanja u 30 sekundi, igrač provjeri koliko brzo može točno odgovoriti na 10 pitanja?
 
-Da biste to učinili, morat ćete samo promijeniti svoj kôd brojača. Možete li vidjeti što treba mijenjati?
+To možeš napraviti mijenjanjem kôda brojača. Vidiš li što treba promijeniti?
 
 ```blocks
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) secs
-        change [time v] by (-1)
-    end
-    broadcast [end v]
+    kada primim [kreni v]
+postavi [vrijeme v] na (30)
+ponavljaj dok nije <(vrijeme) = [0]>
+čekaj (1) sekundi
+promijeni [vrijeme v] za (-1)
+end
+pošalji [kraj v]
 ```
 
 \--- /challenge \---
