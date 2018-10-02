@@ -6,12 +6,12 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Brain Game
-description: Saznajte kako izraditi kviz.
+title: Mozgalica
+description: Naučite izraditi kviz.
 original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
 interests: games
 technologies: scratch
-site_areas: projekti
+site_areas: projects
 hardware: ''
 software: scratch
 version: 3
@@ -32,10 +32,10 @@ steps:
   - 
     title: Dodavanje grafike
   - 
-    title: 'Izazov: Poboljšana animacija'
+    title: 'Izazov: Poboljšavanje animacije'
   - 
     title: 'Izazov: Zvuk i glazba'
   - 
-    title: 'Izazov: utrka do 10 bodova'
+    title: 'Izazov: Utrka do 10 bodova'
   - 
-    title: 'Izazov: zaslon sa uputama'
+    title: 'Izazov: Ekran s uputama'
