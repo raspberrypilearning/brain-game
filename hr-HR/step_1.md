@@ -1,6 +1,6 @@
 ## Uvod
 
-U ovom projektu ćete naučiti kako izraditi kviz u kojem igrač treba pogoditi što više točnih odgovora u 30 sekundi.
+U ovom projektu ćeš naučiti kako izraditi kviz u kojem igrač treba točno odgovoriti na što više pitanja u 30 sekundi.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
@@ -9,11 +9,11 @@ U ovom projektu ćete naučiti kako izraditi kviz u kojem igrač treba pogoditi 
 
 ### Dodatne informacije za voditelje kluba
 
-Ako želite ispisati ovaj projekt, molimo Vas da upotrijebite ovu [verziju za ispis](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Ako želite ispisati ovaj projekt, molimo Vas da koristite [verziju koja je prilagođena za ispis](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
-## \--- više \---
+## \--- collapse \---
 
-## naslov: Bilješke voditelja kluba
+## title: Bilješke za voditelja kluba
 
 ## Uvod:
 
