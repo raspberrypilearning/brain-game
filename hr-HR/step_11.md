@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Izazov: zaslon sa uputama
+## Izazov: Ekran s uputama
 
-Možete li dodati zaslon sa uputama u vašu igru, objašnjavajući Uputevašem igraču kako igrati igru? Trebat će vam gumb 'Instructions' i još jednu fazu pozadine.
+Možeš li u igru dodati ekran s uputama koje će objašnjavati igraču kako igrati igru? Trebat će ti gumb 'Upute' i još jedna pozadina za pozornicu.
 
 ![screenshot](images/brain-instructions.png)
 
-Možda će vam trebati i gumb 'Back' koji će vas odvesti na glavni izbornik.
+Također će ti trebati gumb 'Povratak' koji će odvesti igrača na glavni izbornik.
 
 ```blocks
-    broadcast [main menu v]
+    pošalji [glavni izbornik v]
 ```
 
 \--- /challenge \---
