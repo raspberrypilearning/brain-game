@@ -24,20 +24,20 @@ Umjesto da tvoj lik igraču samo govori `točno! :)` ili `netočno:(`, možeš d
     
     ![screenshot](images/brain-animate-function.png)
 
-+ Zatim možete dodati kôd animacije u svoju novu animacijsku funkciju, a zatim dvaput upotrijebiti funkciju:
++ Dodaj sljedeće naredbe u svoju novu funkciju, a zatim ju dva puta upotrijebi:
     
     ![screenshot](images/brain-use-function.png)
 
-+ Sada, ako želite pokazati kvačicu i križ duže ili kraće vrijeme, samo trebate napraviti jednu promjenu u kodu. Probaj!
++ Želiš li da se kvačica i križić prikazuju dulje ili kraće vrijeme, trebaš napraviti samo jednu promjenu u kôdu. Pokušaj!
 
-+ Umjesto da samo prikazujete i skrivate kvačicu i križ, možete promijeniti svoju animacijsku funkciju, tako da grafika nestaje.
++ Umjesto da se kvačica i križić samo prikazuju i nestaju, možeš promijeniti funkciju animacije tako da se grafika polako pojavljuje i nestaje.
     
     ```blocks
-        define [animate]
-        set [ghost v] effect to (100)
-        show
-        repeat (25)
-            change [ghost v] effect by (-4)
-        end
-        hide
+        definiraj [animate]
+    postavi efekt [duh v] na (100)
+    prikaži
+    ponovi (25)
+    promijeni efekt [duh v] za (-4)
+    end
+    sakrij
     ```
