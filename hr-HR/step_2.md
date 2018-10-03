@@ -16,27 +16,27 @@ Krenimo s izradom slučajnih pitanja na koja igrač mora odgovoriti.
     
     ```blocks
         kada je zastavica kliknut
-        postavi [broj 1 v] na (slučajni broj (2) do (12))
-        postavi [broj 2 v] na (slučajni broj (2) do (12))
+    postavi [broj 1 v] na (slučajni broj (2) do (12))
+    postavi [broj 2 v] na (slučajni broj (2) do (12))
     ```
 
-+ Zatim možete zatražiti od igrača odgovor i obavijestiti ih jesu li bili u pravu ili u krivu.
++ Zatim možeš zatražiti od igrača odgovor i obavijestiti ga je li točan ili netočan.
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
-        ask (join (number 1)(join [ x ] (number 2))) and wait
-        if <(answer) = ((number 1)*(number 2))> then
-            say [yes! :)] for (2) secs
-        else
-            say [nope :(] for (2) secs
-        end
+        kada je zastavica kliknut
+    postavi [broj 1 v] na (slučajni broj od (2) do (12))
+    postavi [broj 2 v] na (slučajni broj od (2) do (12))
+    pitaj (spoji (broj 1)(spoji [ x ] (broj 2))) i čekaj
+    ako <(odgovor) = ((broj 1)*(broj 2))> onda
+    govori [Točno! :)] (2) sekundi
+    inače
+    govori [Netočno :(] (2) sekundi
+    end
     ```
 
-+ Testirajte svoj projekt u potpunosti, odgovarajući na jedno pitanje točno i jedno s pogrešnim odgovorom.
++ Isprobaj projekt odgovarajući na jedno pitanje točno, a na drugo pogrešno.
 
-+ Dodaj `forever` {: class = "blockcontrol"} petlju oko ovog koda, tako da se igraču postavlja puno pitanja.
++ Dodaj petlju `ponavljaj`{:class="blockcontrol"} oko ovog kôda. Na taj način će igraču biti postavljeno više pitanja.
 
 + Napravite odbrojavanje na pozornici pomoću varijable pod nazivom `time` {:class = "blockdata"}. Projekt "Ghostbusters" sadrži upute za izradu mjerača vremena (u koraku 5) ukoliko vam je potrebna pomoć!
 
