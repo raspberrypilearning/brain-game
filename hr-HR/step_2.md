@@ -12,12 +12,12 @@ Krenimo s izradom slučajnih pitanja na koja igrač mora odgovoriti.
     
     ![screenshot](images/brain-variables.png)
 
-+ Dodajte kôd svojem znaku da biste postavili obje varijable na `random` {: class = "blockoperators"} broj između 2 i 12.
++ Za postavljanje varijabli na na `slučajan`{:class="blockoperators"} broj između 2 i 12, dodaj svom liku sljedeće naredbe:
     
     ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
+        kada je zastavica kliknut
+        postavi [broj 1 v] na (slučajni broj (2) do (12))
+        postavi [broj 2 v] na (slučajni broj (2) do (12))
     ```
 
 + Zatim možete zatražiti od igrača odgovor i obavijestiti ih jesu li bili u pravu ili u krivu.
