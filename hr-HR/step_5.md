@@ -1,6 +1,6 @@
 ## Više igara
 
-Krenimo sa dodavanjem gumba "play" u igru, tako da je možete igrati mnogo puta.
+Želiš li igrati igru više puta, možeš dodati gumb 'Pokreni'.
 
 + Izradite novi gumb "Igraj", koji će vaš igrač kliknuti za početak nove igre. Možete ga sami nacrtati, ili urediti sprite iz Scratch knjižnice.
     
