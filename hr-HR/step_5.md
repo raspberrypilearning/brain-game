@@ -37,21 +37,21 @@
     
     ![screenshot](images/brain-end.png)
 
-+ Sada možete dodati kôd na vaš gumb, da biste ga ponovno prikazali na kraju svake igre.
++ Sada dodaj sljedeće naredbe svome gumbu kako bi se na kraju igre ponovno prikazao.
     
     ```blocks
-        when I receive [end v]
-        show
+        kada primim [kraj v]
+    prikaži
     ```
 
-+ Također ćete morati zaustaviti svoj znak postavljanjem pitanja na kraju svake igre:
++ Sljedećim naredbama postići ćeš da lik na kraju igre prestane postavljati pitanja:
     
     ```blocks
-        when I receive [end v]
-        stop [other scripts in sprite v]
+        kada primim [kraj v]
+    zaustavi [ostale skripte lika v]
     ```
 
-+ Testirajte vaš igraj gumb igranjem nekoliko igara. Trebali biste primijetiti da se igraj gumb prikazuje nakon svake igre. Da biste olakšali testiranje, možete skratiti svaku igru, ​​tako da traje samo nekoliko sekundi.
++ Isprobaj gumb 'Pokreni' tako što ćeš odigrati igricu nekoliko puta. Trebali biste primijetiti da se igraj gumb prikazuje nakon svake igre. Da biste olakšali testiranje, možete skratiti svaku igru, ​​tako da traje samo nekoliko sekundi.
     
     ```blocks
         set [time v] to [10]
