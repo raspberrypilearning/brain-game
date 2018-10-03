@@ -51,13 +51,13 @@
     zaustavi [ostale skripte lika v]
     ```
 
-+ Isprobaj gumb 'Pokreni' tako što ćeš odigrati igricu nekoliko puta. Trebali biste primijetiti da se igraj gumb prikazuje nakon svake igre. Da biste olakšali testiranje, možete skratiti svaku igru, ​​tako da traje samo nekoliko sekundi.
++ Isprobaj gumb 'Pokreni' tako što ćeš odigrati igricu nekoliko puta. Primijetit ćeš da se gumb ponovno prikazuje nakon svake igre. Kako bi testiranje bilo lakše, možeš skratiti trajanje igre ​​tako da traje samo nekoliko sekundi.
     
     ```blocks
-        set [time v] to [10]
+        postavi [vrijeme v] na [10]
     ```
 
-+ Čak možete promijeniti i način na koji gumb izgleda kada mišem prijeđete preko njega.
++ Možeš čak i promijeniti izgled gumba kada miš prijeđe preko njega.
     
     ```blocks
         when flag clicked
