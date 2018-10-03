@@ -25,15 +25,15 @@
     
     ![screenshot](images/brain-start.png)
 
-+ Kliknite na zelenu zastavu, a zatim kliknite svoj novi igraj gumb biste je testirali. Trebali biste vidjeti da se igra ne počinje dok se ne klikne na gumb.
++ Klikni na zelenu zastavicu, a zatim na gumb 'Pokreni' i isprobaj program. Vidjet ćeš da igra ne počinje sve dok igrač ne klikne na gumb.
 
-+ Jeste li primijetili da brojač počinje kada se klikne na zelenu zastavu, a ne kada počne igra?
++ Primjećuješ li da odbrojavanje počinje kada se klikne zelena zastavica, a ne kada počne igra?
     
     ![screenshot](images/brain-timer-bug.png)
     
-    Možete li rješiti ovaj problem?
+    Možeš li to popraviti?
 
-+ Kliknite na pozornicu i zamijenite `stop all` {:class="blockcontrol"} blok sa `end` {:class="blockevents"} poruku.
++ Klikni na pozornicu i zamijeni naredbu `zaustavi sve`{:class="blockcontrol"} porukom `kraj`{:class="blockevents"}.
     
     ![screenshot](images/brain-end.png)
 
