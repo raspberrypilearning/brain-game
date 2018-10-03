@@ -2,24 +2,24 @@
 
 Želiš li igrati igru više puta, možeš dodati gumb 'Pokreni'.
 
-+ Izradite novi gumb "Igraj", koji će vaš igrač kliknuti za početak nove igre. Možete ga sami nacrtati, ili urediti sprite iz Scratch knjižnice.
++ Dodaj lik gumba iz biblioteke likova (možeš ga i nacrtati) na kojeg će igrač kliknuti kako bi pokrenuo novu igru. U kostimima dodaj na gumb tekst 'Pokreni'.
     
     ![screenshot](images/brain-play.png)
 
-+ Dodajte ovaj kôd na svoj novi gumb.
++ Gumbu dodaj sljedeće naredbe:
     
     ```blocks
-        when flag clicked
-        show
+        kada je zastavica kliknut
+    prikaži
     
-        when this sprite clicked
-        hide
-        broadcast [start v]
+    kada je lik kliknut
+    sakrij
+    pošalji [kreni v]
     ```
     
-    Ovaj kôd prikazuje igraj gumb kada je vaš projekt pokrenut. Kada kliknete gumb, skriva se i zatim emitira poruku koja će pokrenuti igru.
+    Ovaj kôd će prikazati gumb 'Pokreni' kada se projekt pokrene. Kada igrač klikne na njega, gumb nestaje i šalje se poruka koja će pokrenuti igru.
 
-+ Morat ćete urediti kôd svog znaka, tako da igra započinje kada dobiju `start` {:class="blockevents"}, a ne kada kliknete na zastavu.
++ Promijeni kôd svog lika tako da igra započne kada on dobije poruku `kreni`{:class="blockevents"}, a ne kada je zastavica kliknuta.
     
     Zamijenite `when flag clicked` {:class="blockevents"} kod sa `when I receive start` {:class="blockevents"}.
     
