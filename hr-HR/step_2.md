@@ -1,14 +1,14 @@
 ## Izrada pitanja
 
-Počnimo stvaranjem slučajnih pitanja na koja igrači moraju odgovariti.
+Krenimo s izradom slučajnih pitanja na koja igrač mora odgovoriti.
 
-+ Pokrenite novi Scratch projekt i izbrišite cat sprite kako bi vaš projekt bio prazan. Možete pronaći online Scratch editor aplikacijz na <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
++ Otvori novi Scratch projekt i obriši lik mačke da dobiješ prazan projekt. Online Scratch nalazi se na adresi <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
-+ Odaberite znak i pozadinu za svoju igru. Možete odabrati bilo koju koja vam se sviđa! Na primjer:
++ Odaberi lika i pozadinu za igru. Možeš odabrati što god želiš! Na primjer:
     
     ![screenshot](images/brain-setting.png)
 
-+ Izradite dvije nove varijable nazvane ` number 1 ` {: class = "blockdata"} i ` number 2 ` {: Class = "blockdata"}. Ove varijable će pohraniti 2 broja koji će se pomnožiti zajedno.
++ Kreiraj dvije nove varijable koje se zovu `broj 1`{:class="blockdata"} i `broj 2`{:class="blockdata"}. U njih će se spremiti dva broja koja će se pomnožiti.
     
     ![screenshot](images/brain-variables.png)
 
