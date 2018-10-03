@@ -38,6 +38,6 @@ Krenimo s izradom slučajnih pitanja na koja igrač mora odgovoriti.
 
 + Dodaj petlju `ponavljaj`{:class="blockcontrol"} oko ovog kôda. Na taj način će igraču biti postavljeno više pitanja.
 
-+ Napravite odbrojavanje na pozornici pomoću varijable pod nazivom `time` {:class = "blockdata"}. Projekt "Ghostbusters" sadrži upute za izradu mjerača vremena (u koraku 5) ukoliko vam je potrebna pomoć!
++ Na pozornicu dodaj mjerač vremena koristeći varijablu `vrijeme`{:class="blockdata"}. Ako trebaš pomoć, potraži projekt 'Istjerivači duhova'. On sadrži upute za izradu mjerača vremena (u koraku 5).
 
-+ Ponovno testirajte svoj projekt - trebali biste nastaviti s postavljanjem pitanja dok ne istekne vrijeme.
++ Ponovno isprobaj projekt - pitanja bi se trebala pojavljivati sve dok vrijeme ne istekne.
