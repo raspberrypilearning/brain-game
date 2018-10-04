@@ -21,7 +21,7 @@
 
 + Promijeni kôd svog lika tako da igra započne kada on dobije poruku `kreni`{:class="blockevents"}, a ne kada je zastavica kliknuta.
     
-    Zamijenite `when flag clicked` {:class="blockevents"} kod sa `when I receive start` {:class="blockevents"}.
+    Zamijeni naredbu `kada je ⚑ kliknut`{:class="blockevents"} sa `kada primim kreni`{:class="blockevents"}.
     
     ![screenshot](images/brain-start.png)
 
@@ -60,15 +60,15 @@
 + Možeš čak i promijeniti izgled gumba kada miš prijeđe preko njega.
     
     ```blocks
-        when flag clicked
-        show
-        forever
-        if <touching [mouse-pointer v]?> then
-            set [fisheye v] effect to (30)
-        else
-            set [fisheye v] effect to (0)
-        end
-        end
+        kada je ⚑ kliknut
+    prikaži
+    ponavljaj
+    ako <touching [mouse-pointer v]?> onda
+    postavi efekt [riblje oko v] na (30)
+    inače
+    postavi efekt [riblje oko v] na (0)
+    end
+    end
     ```
     
     ![screenshot](images/brain-fisheye.png)
