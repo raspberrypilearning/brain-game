@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Aufgabe: Wettrennen zu 10 Punkten
+## Herausforderung: 10 Punkte-Partie
 
-Kannst du dein Spiel so ändern, dass der Spieler nicht so viele Frage beantworten muss, wie er in 30 Sekunden schaft, sondern wie schnell er 10 Fragen richtig beantworten kann?
+Kannst du dein Spiel so verändern, dass der Spieler nicht so viele Fragen wie möglich in 30 Sekunden, sondern möglichst schnell 10 Fragen richtig beantworten muss?
 
 Um das zu machen, musst du lediglich den Code von deiner Uhr ändern. Weißt du was geändert werden muss?
 
