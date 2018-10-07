@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Aufgabe: Ton und Musik
+## Herausforderung: Ton und Musik
 
-Kannst du Ton Effekte und Musik zu deinem Spiel hinzufügen? Zum Beispiel:
+Kannst du dein Spiel um Geräuscheffekte und Musik erweitern? Zum Beispiel:
 
 + Einen Ton abspielen, wenn der Spieler eine Antwort richtig oder falsch beantwortet;
 + Oder deine Uhr ticken lassen;
