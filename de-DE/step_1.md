@@ -43,7 +43,7 @@ Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making
 * "Erweiterte Animation" - Verwendung von Schleifen und Effekten, um die graphischen Animationen bei richtigen/falschen Antworten zu verbessern;
 * "Töne und Musik" - Festigung des Wissens über Musikloops und -effekte;
 * "Erreiche 10 Punkte" - Wechsel der Spiellogik zur Gestaltung eines neuen Spielziels;
-* "Anleitungsbildschirm" - Festigung der Verwendung von Nachrichten zur Erstellung eines Spielmenüs durch Hinzufügen eines neuen "Anleitung"-Buttons und -Bildschirms.
+* "Anleitungsbildschirm" - Festigung der Verwendung von Nachrichten zur Erstellung eines Spielmenüs durch Hinzufügen eines neuen "Anleitungs"-Buttons und -bildschirms.
 
 \--- /collapse \---
 
