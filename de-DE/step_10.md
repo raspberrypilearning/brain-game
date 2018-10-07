@@ -4,7 +4,7 @@
 
 Kannst du dein Spiel so verändern, dass der Spieler nicht so viele Fragen wie möglich in 30 Sekunden, sondern möglichst schnell 10 Fragen richtig beantworten muss?
 
-Um das zu machen, musst du lediglich den Code von deiner Uhr ändern. Weißt du was geändert werden muss?
+Um das zu erreichen, musst du lediglich den Code deines Timers ändern. Weißt du was geändert werden muss?
 
 ```blocks
     Wenn ich [Start v] empfange
