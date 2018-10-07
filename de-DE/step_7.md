@@ -20,11 +20,11 @@ Anstatt deine Spielfigur nur `Genau! :)` oder `Nö :(` zum Spieler sagen zu lass
 
 + Hast du bemerkt, dass der Code für die `Wenn ich richtig empfange`{:class="blockevents"} und `Wenn ich falsch empfange`{:class="blockevents"} Blöcke nahezu identisch ist? Lass uns eine Funktion erstellen, die dir Änderungen an deinem Code erleichtern wird.
     
-    Klicke auf `Weitere Blöcke`{:class="blockmoreblocks"} auf deiner Ergebnis Figur und dann auf 'Neuer Block'. Erstelle eine neue Funktion namens `animieren`{:class="blockmoreblocks"}.
+    Klicke für deine "Lösung"-Figur auf `Weitere Blöcke`{:class="blockmoreblocks"} und dann auf 'Neuer Block'. Erstelle eine neue Funktion namens `animieren`{:class="blockmoreblocks"}.
     
     ![screenshot](images/brain-animate-function.png)
 
-+ Du kannst den Animationscode zu deiner neuen animieren-Funktion hinzufügen und dann die Funktion zweimal benutzen:
++ Du kannst den Animationscode in deine neuen "animieren"-Funktion verschieben und dann die Funktion einfach zweimal benutzen:
     
     ![screenshot](images/brain-use-function.png)
 
