@@ -22,15 +22,15 @@ steps:
   - 
     title: Fragen zusammenstellen
   - 
-    title: 'Herausforderung: Kostüm ändern'
+    title: 'Herausforderung: Kostümwechsel'
   - 
-    title: 'Aufgabe: Eine Punktzahl hinzufügen'
+    title: 'Herausforderung: Hinzufügen eines Punktestandes'
   - 
     title: Mehrmals spielen
   - 
     title: 'Herausforderung: Startbildschirm'
   - 
-    title: Grafik hinzufügen
+    title: Grafische Anzeige
   - 
     title: 'Herausforderung: Verbesserte Animation'
   - 
@@ -38,4 +38,4 @@ steps:
   - 
     title: 'Herausforderung: 10-Punkte-Partie'
   - 
-    title: 'Aufgabe: Anweisungsbildschirm'
+    title: 'Herausforderung: Anleitungsbildschirm'
