@@ -2,7 +2,7 @@
 
 ## Herausforderung: Anleitungsbildschirm
 
-Kannst du dein Spiel um einen Anleitungsbildschirm ergänzen, der deinem Spieler erklärt wie man dein Spiel spielt? Du wirst einen 'Anleitung'-Knopf und ein anderes Bühnenbild brauchen.
+Kannst du dein Spiel um einen Anleitungsbildschirm ergänzen, der deinem Spieler erklärt wie man dein Spiel spielt? Du wirst einen Knof namens 'Anleitung' und ein anderes Bühnenbild brauchen.
 
 ![screenshot](images/brain-instructions.png)
 
