@@ -12,6 +12,6 @@ Kannst du dein Spiel um Geräuscheffekte und Musik erweitern? Zum Beispiel:
         spiele Schlaginstrument (10 v) für (0.1) Schläge
     ```
 
-+ Du könntest auch Musik in einer Schleife laufen lassen (wenn du dir nicht sicher bist, wie du das machen kannst, dann wird dir der 4 Schritt aus dem 'Rock Band' Projekt helfen).
++ Du könntest auch Musik in einer Schleife laufen lassen (wenn du dir nicht sicher bist, wie du das machen kannst, dann wird dir Schritt 4 aus dem 'Rock Band'-Projekt helfen).
 
 \--- /challenge \---
