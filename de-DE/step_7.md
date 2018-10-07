@@ -14,11 +14,11 @@ Anstatt deine Spielfigur nur `Genau! :)` oder `Nö :(` zum Spieler sagen zu lass
     
     ![screenshot](images/brain-show-answer.png)
 
-+ Teste dein Spiel erneut. Du solltest jedes mal, wenn du eine Frage richtig beantwortet hast, ein Häkchen sehen oder, wenn du die Frage falsch beantwortet hast, ein Kreuz sehen!
++ Teste dein Spiel erneut. Du solltest nach jeder richtigen Antwort ein Häkchen und wenn du mal falsch gelegen hast ein Kreuz sehen!
     
     ![screenshot](images/brain-test-answer.png)
 
-+ Hast du bemerkt, dass der Code für die `Wenn ich richtig empfange`{:class="blockevents"} und `Wenn ich falsch empfange`{:class="blockevents"} Blöcke nahezu identisch ist? Lass uns eine Funktion erstellen, damit es leichter für dich ist, Änderungen an deinem Code vorzunehmen.
++ Hast du bemerkt, dass der Code für die `Wenn ich richtig empfange`{:class="blockevents"} und `Wenn ich falsch empfange`{:class="blockevents"} Blöcke nahezu identisch ist? Lass uns eine Funktion erstellen, die dir Änderungen an deinem Code erleichtern wird.
     
     Klicke auf `Weitere Blöcke`{:class="blockmoreblocks"} auf deiner Ergebnis Figur und dann auf 'Neuer Block'. Erstelle eine neue Funktion namens `animieren`{:class="blockmoreblocks"}.
     
