@@ -1,11 +1,11 @@
 \--- challenge \---
 
-## Herausforderung: Ton und Musik
+## Herausforderung: Sound und Musik
 
 Kannst du dein Spiel um Geräuscheffekte und Musik erweitern? Zum Beispiel:
 
 + Einen Ton abspielen, wenn der Spieler eine Antwort richtig oder falsch beantwortet;
-+ Oder deine Uhr ticken lassen;
++ Deine Uhr um ein Ticken erweitern;
 + Einen Ton abspielen, wenn die Zeit um ist;
     
     ```blocks
