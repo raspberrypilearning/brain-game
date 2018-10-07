@@ -7,7 +7,7 @@ In diesem Projekt lernst du, wie du ein Einmaleins-Quiz programmierst, in dem du
   <img src="images/brain-final.png">
 </div>
 
-### Additional information for club leaders
+### Zusätzliche Information für Clubleiter
 
 Falls du dieses Projekt ausdrucken musst, verwende bitte die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
