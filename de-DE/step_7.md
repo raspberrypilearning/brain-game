@@ -24,13 +24,13 @@ Anstatt deine Spielfigur nur `Genau! :)` oder `Nö :(` zum Spieler sagen zu lass
     
     ![screenshot](images/brain-animate-function.png)
 
-+ Du kannst den Animationscode in deine neuen "animieren"-Funktion verschieben und dann die Funktion einfach zweimal benutzen:
++ Du kannst den Animationscode in deiner neuen "animieren"-Funktion unterbringen und sie dann einfach zweimal benutzen:
     
     ![screenshot](images/brain-use-function.png)
 
 + Jetzt musst du nur eine Veränderung an deinem Code vornehmen, wenn du das Häkchen und das Kreuz für längere oder kürzere Zeit anzeigen möchtest. Probier es mal!
 
-+ Anstatt das Häkchen und das Kreuz nur zu zeigen oder zu verstecken, kannst du deine "animieren"-Funktion auch so verändern, dass die Grafik eingeblendet wird.
++ Anstatt das Häkchen und das Kreuz nur zu zeigen oder zu verstecken, kannst du deine "animieren"-Funktion auch so verändern, dass die Grafik langsam eingeblendet wird.
     
     ```blocks
         Definiere (animieren)
