@@ -23,7 +23,7 @@ In diesem Projekt lernen Kinder, wie sie ein Quiz mit Kopfrechnungsübungen zur 
 
 Für dieses Projekt sollte Scratch 2 verwendet werden. Scratch 2 kann entweder online bei [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) verwendet werden oder unter [ jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) heruntergeladen und offline benutzt werden.
 
-Sie können eine vollständige Version dieses Projekts unter [online](http://scratch.mit.edu/projects/42225768/#editor) aufrufen oder über Klick auf den Link 'Projektmaterial' herunterladen. Dieser beinhaltet:
+Sie finden eine vollständige Version dieses Projekts [online](http://scratch.mit.edu/projects/42225768/#editor) oder zum Download unter dem Link "Projektmaterial" für dieses Projekt, der Folgendes enthält:
 
 * BrainGame.sb2
 
