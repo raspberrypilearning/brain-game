@@ -40,7 +40,7 @@ Dieses Projekt deckt die folgenden Kernbereiche des [Raspberry Pi Digital Making
 * "Kostümwechsel" - Veränderung des Aussehens der Spielfigur als Reaktion auf richtige bzw. falsche Antworten;
 * "Hinzufügen eines Punktestandes" - Hinzufügen eines Punktes zum Spielstand für jede richtige Antwort;
 * "Startbildschirm" - Wechsel des Bühnenbildes mithilfe der `Start`{:class="blockevents"}- bzw. - `Ende`{:class="blockevents"}-Nachrichten, Erstellung zweier 'Gamescreens';
-* "Verbesserte Animation" - Verwendung von Schleifen und Effekten, um die graphischen Animationen bei richtigen/falschen Antworten zu verbessern;
+* "Erweiterte Animation" - Verwendung von Schleifen und Effekten, um die graphischen Animationen bei richtigen/falschen Antworten zu verbessern;
 * "Sound und Musik" - Festigung des Wissens über Musikloops und -effekte;
 * "10 Punkte-Partie" - Wechsel der Spiellogik zur Gestaltung eines neuen Spielziels;
 * "Anleitungsbildschirm" - Festigung der Verwendung von Nachrichten zur Erstellung eines Spielmenüs durch Hinzufügen eines neuen "Anleitungs"-Buttons und -bildschirms.
