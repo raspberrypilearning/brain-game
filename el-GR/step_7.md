@@ -6,19 +6,16 @@
     
     ![screenshot](images/brain-result.png)
 
-+ Άλλαξε τον κώδικα του χαρακτήρα σου, έτσι ώστε αντί να λέει στον παίκτη πώς τα πηγαίνει, να μεταδίδει μηνύματα `correct`{: class = "blockevents"} (σωστά) και `wrong`{: class = "blockevents"} (λάθος).
-    
-    ![screenshot](images/brain-broadcast-answer.png)
++ Άλλαξε τον κώδικα του χαρακτήρα σου, έτσι ώστε αντί να λέει στον παίκτη πώς τα πηγαίνει, να μεταδίδει μηνύματα `correct`{:class="blockevents"} (σωστά) και `wrong</0{:class="blockevents"} (λάθος).</p>
 
-+ Τώρα μπορείς να χρησιμοποιήσεις αυτά τα μηνύματα για να εμφανίσεις το κοστούμι 'tick' ή 'cross'. Πρόσθεσε αυτόν τον κώδικα στο νέο σου sprite "Result":
-    
-    ![screenshot](images/brain-show-answer.png)
+<p><img src="images/brain-broadcast-answer.png" alt="screenshot" /></p></li>
+<li><p>Τώρα μπορείς να χρησιμοποιήσεις αυτά τα μηνύματα για να εμφανίσεις το κοστούμι 'tick' ή 'cross'. Πρόσθεσε αυτόν τον κώδικα στο νέο σου sprite "Result":</p>
 
-+ Δοκίμασε ξανά το παιχνίδι σου. Θα δεις ένα τικ κάθε φορά που θα έχεις μια σωστή ερώτηση και ένα χι κάθε φορά που θα έχεις μια λάθος!
-    
-    ![screenshot](images/brain-test-answer.png)
+<p><img src="images/brain-show-answer.png" alt="screenshot" /></p></li>
+<li><p>Δοκίμασε ξανά το παιχνίδι σου. Θα δεις ένα τικ κάθε φορά που θα έχεις μια σωστή ερώτηση και ένα χι κάθε φορά που θα έχεις μια λάθος!</p>
 
-+ Παρατήρησες ότι ο κώδικας για το `when I receive correct`{: class = "blockevents"} και `when I receive wrong`{: class = "blockevents"} είναι σχεδόν πανομοιότυπος; Ας δημιουργήσουμε μια συνάρτηση που θα σε διευκολύνει να κάνεις αλλαγές στον κώδικά σου.
+<p><img src="images/brain-test-answer.png" alt="screenshot" /></p></li>
+<li><p>Παρατήρησες ότι ο κώδικας για το <code>when I receive correct`{: class = "blockevents"} και `when I receive wrong`{: class = "blockevents"} είναι σχεδόν πανομοιότυπος; Ας δημιουργήσουμε μια συνάρτηση που θα σε διευκολύνει να κάνεις αλλαγές στον κώδικά σου.
     
     Στο sprite "Result", κάνε κλικ στο κουμπί `More Blocks`{: class = "blockmoreblocks"} (περισσότερα μπλοκ) και, στη συνέχεια, κάνε "Make a Block" (Δημιουργία μπλοκ). Δημιούργησε μια νέα συνάρτηση που ονομάζεται `animate`{: class = "blockmoreblocks"} (κίνηση εικόνας).
     
