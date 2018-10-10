@@ -15,8 +15,9 @@ Choose a character and a backdrop for your game. You can choose any you like! He
 --- /task ---
 
 --- task ---
-Create two new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the numbers that will be multiplied together.
+Make sure you have your character sprite selected. Create two new variables called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}. These variables will store the numbers that will be multiplied together.
 
+![screenshot](images/giga-sprite.png)
 ![screenshot](images/brain-variables.png)
 
 --- /task ---
@@ -53,19 +54,9 @@ You can then ask the player for the answer, and let them know if they were right
 --- /task ---
 
 --- task ---
-Test your project by answering one question correctly and one with the wrong answer.
+Test your project twice, answering one question correctly and one with the wrong answer.
 --- /task ---
 
 --- task ---
-Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions.
---- /task ---
-
---- task ---
-Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}.
-
-[[[generic-scratch-timer]]]
---- /task ---
-
---- task ---
-Test your project again - you should be able to continue asking questions until the time runs out.
+Add a `forever`{:class="blockcontrol"} loop around this code, so that the player is asked lots of questions in a row.
 --- /task ---

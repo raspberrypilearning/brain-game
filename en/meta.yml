@@ -9,7 +9,7 @@ last_tested: 2018-10-03
 steps:
 - title: Introduction
 - title: Creating questions
-- title: 'Challenge: Changing costumes'
+- title: Add a timer
 - title: 'Challenge: Adding a score'
 - title: Multiple games
 - title: 'Challenge: Start screen'
