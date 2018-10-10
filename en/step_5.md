@@ -2,78 +2,111 @@
 
 Let's add a 'play' button to your game, so that you can play lots of times.
 
+--- task ---
+Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
 
+![screenshot](images/brain-play.png)
 
-+ Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
+--- /task ---
 
-	![screenshot](images/brain-play.png)
+--- task ---
+Add this code to your new button.
 
-+ Add this code to your new button.
+![Button sprite](images/button-sprite.png)
 
-	```blocks
-		when flag clicked
-		show
+```blocks
+	when flag clicked
+	show
 
-		when this sprite clicked
-		hide
-		broadcast [start v]
-	```
+	when this sprite clicked
+	hide
+	broadcast [start v]
+```
 
-	This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
+--- /task ---
 
-+ You'll need to edit your character's code, so that the game starts when they receive the `start`{:class="blockevents"} message, and not when the flag is clicked.
+This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that will start the game.
 
-	Replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
+Now you need the game to start when the character receives the `start`{:class="blockevents"} message, instead of when the flag is clicked.
 
-	![screenshot](images/brain-start.png)
+--- task ---
+In your character sprite, replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
 
-+ Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
+![Giga sprite](images/giga-sprite.png)
 
-+ Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
+```blocks
+	- when flag clicked
+    + when I receive [start v]
+	set [number 1 v] to (pick random (2) to (12))
+	set [number 2 v] to (pick random (2) to (12))
+	ask (join (number 1)(join [ x ] (number 2))) and wait
+	if <(answer) = ((number 1)*(number 2))> then
+		say [yes! :)] for (2) secs
+	else
+		say [nope :(] for (2) secs
+	end
+```
+--- /task ---
 
-	![screenshot](images/brain-timer-bug.png)
+--- task ---
+Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
+--- /task ---
 
-	Can you fix this problem?
+Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
 
-+ Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
+![screenshot](images/brain-timer-bug.png)
 
-	![screenshot](images/brain-end.png)
+--- task ---
+Can you change the timer so that it starts when the button is pressed?
+--- /task ---
 
-+ You can now add code to your button, to show it again at the end of each game.
+--- task ---
+Click on the stage, and replace the `stop all`{:class="blockcontrol"} block with an `end`{:class="blockevents"} message.
 
-	```blocks
-		when I receive [end v]
-		show
-	```
+![screenshot](images/brain-end.png)
+--- /task ---
 
-+ You'll also need to stop your character asking questions at the end of each game:
+--- task ---
+You can now add code to your button, to show it again at the end of each game.
 
-	```blocks
-		when I receive [end v]
-		stop [other scripts in sprite v]
-	```
+```blocks
+	when I receive [end v]
+	show
+```
+--- /task ---
 
-+ Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
+--- task ---
+You'll also need to stop your character asking questions at the end of each game:
 
-	```blocks
-		set [time v] to [10]
-	```
+```blocks
+	when I receive [end v]
+	stop [other scripts in sprite v]
+```
+--- /task ---
 
-+ You can even change how the button looks when the mouse hovers over it.
+--- task ---
+Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
 
-	```blocks
-		when flag clicked
-		show
-		forever
-		if <touching [mouse-pointer v]?> then
-			set [fisheye v] effect to (30)
-		else
-			set [fisheye v] effect to (0)
-		end
-		end
-	```
+```blocks
+	set [time v] to [10]
+```
 
-	![screenshot](images/brain-fisheye.png)
+--- /task ---
 
+--- task ---
+You can even change how the button looks when the mouse hovers over it.
 
+```blocks
+	when flag clicked
+	show
+	forever
+	if <touching [mouse-pointer v]?> then
+		set [fisheye v] effect to (30)
+	else
+		set [fisheye v] effect to (0)
+	end
+	end
+```
 
+![screenshot](images/brain-fisheye.png)
+--- /task ---
