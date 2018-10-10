@@ -21,7 +21,7 @@ Click the button to start. Type in the answers to the questions you are asked, f
 title: What you will learn
 ---
 + Using broadcasts
-+ Something else
++ Creating and using a custom block
 
 --- /collapse ---
 
