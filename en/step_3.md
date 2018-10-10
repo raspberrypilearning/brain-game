@@ -9,7 +9,7 @@ Create a countdown timer on the stage, using a variable called `time`{:class="bl
 --- /task ---
 
 --- task ---
-Create a broadcast called `end`{:class="blockcontrol"} and add the code so that it will broadcast when the timer reaches 0.
+Create a broadcast called `end`{:class="blockcontrol"}. A broadcast is like an announcement over a loudspeaker - it can be 'heard' by all of your sprites. Add the broadcast block to the end of the timer code so that it will broadcast when the timer reaches 0.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -19,13 +19,13 @@ Create a broadcast called `end`{:class="blockcontrol"} and add the code so that 
 --- /task ---
 
 --- task ---
-Go back to your character sprite and add some code to stop all scripts when the `end`{:class="blockcontrol"} broadcast is received.
+Go back to your character sprite and add some code to stop the scripts when the `end`{:class="blockcontrol"} broadcast is received.
 
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks
     when I receive [end v]
-    stop all
+    stop [other scripts in sprite v]
 ```
 --- /task ---
 
