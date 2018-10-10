@@ -12,6 +12,8 @@ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' cost
 --- task ---
 Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
 
+![Character sprite](images/character-sprite.png)
+
 ```blocks
     if <(answer) = ((number 1)*(number 2))> then
 	   - say [yes! :)] for (2) secs
@@ -78,7 +80,7 @@ hide
 --- /task ---
 
 --- task ---
-Now add the block `animate`{:class="blockmoreblocks"} to happen after the costume switch:
+Now remove the other blocks and add the block `animate`{:class="blockmoreblocks"} to happen after the costume switch:
 
 ![Result sprite](images/result-sprite.png)
 
@@ -106,7 +108,7 @@ Instead of just showing and hiding the tick and the cross, you could change your
 ![Result sprite](images/result-sprite.png)
 
 ```blocks
-	define [animate]
+	define animate
 	set [ghost v] effect to (100)
 	show
 	repeat (25)
@@ -115,3 +117,7 @@ Instead of just showing and hiding the tick and the cross, you could change your
 	hide
 ```
 --- /task ---
+
+Can you improve the animation of your graphics? You could code the tick and cross so that they fade out as well as fade in. Or, you could use other cool effects:
+
+![screenshot](images/brain-effects.png)
