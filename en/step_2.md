@@ -3,7 +3,13 @@
 Let's start by creating random questions for the player to answer.
 
 --- task ---
-Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
+
+Open a new Scratch project.
+
+**Online:** Open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon).
+
+**Offline:** Open a new project in the offline editor.
+If you need to download the Scratch offline editor you will find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
 
 --- /task ---
 
