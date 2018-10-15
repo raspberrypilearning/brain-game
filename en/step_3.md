@@ -41,7 +41,7 @@ repeat until <(time) = (0)>
 end
 ```
 --- /hint ---
---- hints ---
+--- /hints ---
 
 --- /task ---
 
