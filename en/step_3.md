@@ -13,7 +13,7 @@ Create a `variable`{:class="blockdata"} called time which begins at 30 seconds a
 Here are the blocks you will need:
 
 ```blocks
-repeat
+repeat until
 
 end
 
