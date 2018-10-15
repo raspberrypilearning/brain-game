@@ -46,8 +46,9 @@ title: What you will need
 ---
 title: Additional notes for educators
 ---
-
+--- no-print ---
 If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+--- /no-print ---
 
 [Here is a link to the resources for this project](http://rpf.io/p/brain-game-go).
 
