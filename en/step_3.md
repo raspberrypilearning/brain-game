@@ -1,11 +1,46 @@
 ## Add a timer
 
 --- task ---
-Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The timer should count down from 30 seconds to 0 seconds.
+Create a countdown timer on the stage, using a variable called `time`{:class="blockdata"}. The time should begin at 30 seconds and count down to 0 seconds.
 
 ![Stage sprite](images/stage-sprite.png)
 
-[[[generic-scratch-timer]]]
+--- hints ---
+--- hint ---
+--- /hint ---
+--- hint ---
+Here are the blocks you will need:
+
+```blocks
+repeat
+end
+
+wait (1) secs
+
+change [time v] by (1)
+
+(time)
+
+when flag clicked
+
+<() = ()>
+
+set [time v] to [0]
+```
+--- /hint ---
+--- hint ---
+Here is the code you will need:
+```blocks
+when flag clicked
+set [time v] to [30]
+repeat until <(time) = (0)>
+    wait (1) secs
+    change [time v] by (-1)
+end
+```
+--- /hint ---
+--- hints ---
+
 --- /task ---
 
 --- task ---
