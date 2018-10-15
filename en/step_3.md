@@ -7,12 +7,14 @@ Create a countdown timer on the stage, using a variable called `time`{:class="bl
 
 --- hints ---
 --- hint ---
+Create a `variable`{:class="blockdata"} called time which begins at 30 seconds and counts down to 0 seconds. To do this, subtract 1 from the timer every 1 second, and repeat this until the timer equals 0.
 --- /hint ---
 --- hint ---
 Here are the blocks you will need:
 
 ```blocks
 repeat
+
 end
 
 wait (1) secs
