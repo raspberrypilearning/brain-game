@@ -37,7 +37,7 @@ title: What you will need
 
 ### Downloads
 
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor){:target="_blank"}
++ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/250234955/#editor){:target="_blank"}
 
 --- /collapse ---
 
