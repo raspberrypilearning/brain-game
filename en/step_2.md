@@ -6,10 +6,10 @@ Let's start by creating random questions for the player to answer.
 
 Open a new Scratch project.
 
-**Online:** Open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon).
+**Online:** Open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
 
 **Offline:** Open a new project in the offline editor.
-If you need to download the Scratch offline editor you will find it at [rpf.io/scratchoff](http://rpf.io/scratchoff).
+If you need to download the Scratch offline editor you will find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
