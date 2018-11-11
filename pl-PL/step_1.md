@@ -9,11 +9,11 @@ W ramach tego projektu dowiesz się jak stworzyć quiz z tabliczki mnożenia, w 
 
 ### Dodatkowe informacje dla prowadzących klub
 
-Jeśli potrzebujesz wydrukować ten projekt, skorzystaj z [Wersji dla drukarek](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 ## \--- collapse \---
 
-## tytuł: Notatki prowadzących klub
+## title: Notatki dla liderów klubów
 
 ## Wprowadzenie:
 
@@ -29,7 +29,7 @@ Ukończoną wersję tego projektu można znaleźć [online](http://scratch.mit.e
 
 ## Cele dydaktyczne
 
-* Ten projekt utrwala naukę zdobytych wcześniej umiejętności i pokazuje, jak wykorzystać nadawanie do stworzenia prostego systemu menu gry.
+* Ten projekt umacnia wiedzę nt. poprzednich umiejętności programowania i demonstruje jak można korzystać z rozgłaszania celem stworzenia prostego systemu menu w grach.
 
 Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nauczania Raspberry Pi](http://rpf.io/curriculum):
 
