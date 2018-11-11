@@ -1,15 +1,15 @@
 \--- challenge \---
 
-## Challenge: Instruction screen
+## Wyzwanie: okno instrukcji
 
-Can you add an instructions screen to your game, telling your player how to play the game? You'll need an 'Instructions' button, and another stage background.
+Czy możesz dodać ekran instrukcji do gry, informujący gracza, jak grać? Będziesz potrzebował przycisku "Instrukcje" i innego tła etapowego.
 
-![screenshot](images/brain-instructions.png)
+![zrzut ekranu](images/brain-instructions.png)
 
-You may also need a 'Back' button to take you to the main menu.
+Możesz również potrzebować przycisku "Wstecz", aby przejść do menu głównego.
 
 ```blocks
-    broadcast [main menu v]
+    nadaj [manu główne v]
 ```
 
 \--- /challenge \---
