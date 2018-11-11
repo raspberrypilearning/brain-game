@@ -6,8 +6,8 @@ listed: true
 ingredient: false
 copyedit: false
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Brain Game
-description: Learn how to create a quiz.
+title: Gra mózgowa
+description: Dowiedz się, jak utworzyć quiz.
 original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
 interests: games
 technologies: scratch
@@ -18,24 +18,24 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Wprowadzenie
   - 
-    title: Creating questions
+    title: Tworzenie pytań
   - 
-    title: 'Challenge: Changing costumes'
+    title: 'Wyzwanie: zmiana kostiumów'
   - 
-    title: 'Challenge: Adding a score'
+    title: 'Wyzwanie: Dodawanie wyniku'
   - 
-    title: Multiple games
+    title: Wielokrotne gry
   - 
-    title: 'Challenge: Start screen'
+    title: 'Wyzwanie: ekran startowy'
   - 
-    title: Adding graphics
+    title: Dodawanie grafiki
   - 
-    title: 'Challenge: Improved animation'
+    title: 'Wyzwanie: ulepszona animacja'
   - 
-    title: 'Challenge: Sound and music'
+    title: 'Wyzwanie: dźwięk i muzyka'
   - 
-    title: 'Challenge: Race to 10 points'
+    title: 'Wyzwanie: Wyścig do 10 punktów'
   - 
-    title: 'Challenge: Instruction screen'
+    title: 'Wyzwanie: okno instrukcji'
