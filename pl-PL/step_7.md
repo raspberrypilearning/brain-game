@@ -1,36 +1,36 @@
 ## Dodawanie grafiki
 
-Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
+Zamiast twojej postaci, mówiącej graczowi tylko `tak!:)` lub `nie :(`, dodajmy trochę grafiki, która pozwoli graczowi dowiedzieć się, jak sobie radzi.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
++ Stwórz nowego duszka o nazwie "Wynik", zawierający zarówno strój "haczyka", jak i "krzyżyk".
     
     ![screenshot](images/brain-result.png)
 
-+ Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
++ Zmień kod swojej postaci, aby zamiast mówić graczowi, jak oni to zrobili, nadaje `correct`{:class="blockevents"} i `wrong`{:class="blockevents"}.
     
     ![screenshot](images/brain-broadcast-answer.png)
 
-+ You can now use these messages to show the 'tick' or 'cross' costume. Add this code to your new 'Result' sprite:
++ Możesz teraz używać tych wiadomości, aby pokazać kostium "haczyka" lub "krzyżyka". Dodaj ten kod do nowego duszka "Wynik":
     
     ![screenshot](images/brain-show-answer.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
++ Sprawdź swoją grę ponownie. Powinieneś zobaczyć haczyk, gdy uzyskasz poprawne pytanie, i krzyżyk za każdym razem, gdy popełnisz błąd!
     
     ![screenshot](images/brain-test-answer.png)
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
++ Czy zauważyłeś, że kod dla `kiedy otrzymam correct`{:class="blockevents"} i `kiedy otrzymam wrong`{:class="blockevents"} jest prawie identyczny? Stwórzmy funkcję, która ułatwi wprowadzanie zmian w kodzie.
     
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
+    Na ikonce "Wynik" kliknij przycisk `Więcej bloków`{:class="blockmoreblocks"}, a następnie "Utwórz blok". Utwórz nową funkcję o nazwie `animate`{:class="blockmoreblocks"}.
     
     ![screenshot](images/brain-animate-function.png)
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
++ Następnie możesz dodać kod animacji do swojej nowej funkcji animacji, a następnie po prostu użyj tej funkcji dwa razy:
     
     ![screenshot](images/brain-use-function.png)
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
++ Teraz, jeśli chcesz pokazać tick i krzyżyk przez dłuższy lub krótszy czas, wystarczy wprowadzić jedną zmianę w kodzie. Spróbuj!
 
-+ Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
++ Zamiast pokazywać i ukrywać tyknięcie i krzyżyk, możesz zmienić funkcję animacji, aby grafika rozmywała się.
     
     ```blocks
         define [animate]
