@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: Sound and music
+## Wyzwanie: dźwięk i muzyka
 
-Can you add sound effects and music to your game? For example:
+Czy możesz dodać efekty dźwiękowe i muzykę do swojej gry? Na przykład:
 
 + Playing a sound when the player gets an answer right or wrong;
 + Adding a ticking sound to your countdown timer;
