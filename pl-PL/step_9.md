@@ -4,14 +4,14 @@
 
 Czy możesz dodać efekty dźwiękowe i muzykę do swojej gry? Na przykład:
 
-+ Playing a sound when the player gets an answer right or wrong;
-+ Adding a ticking sound to your countdown timer;
-+ Playing a sound when the time is up;
++ Odtwarzanie dźwięku, gdy gracz poda odpowiedź prawidłową lub niewłaściwą;
++ Dodanie tykającego dźwięku do odliczanego czasu;
++ Odtwarzanie dźwięku, gdy czas się skończy;
     
     ```blocks
-        play drum (10 v) for (0.1) beats
+        zagraj nutę (10 v) przez (0.1) uderzenia
     ```
 
-+ You could also constantly play music on a loop (if you're not sure how to do this, step 4 of the 'Rock Band' project will help you).
++ Możesz także ciągle odtwarzać muzykę w pętli (jeśli nie wiesz, jak to zrobić, krok 4 z projektu "Zespół rockowy" pomoże ci).
 
 \--- /challenge \---
