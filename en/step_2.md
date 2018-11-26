@@ -56,7 +56,7 @@ You can then `ask the player`{:class="blocksensing"} for the answer, and let the
 	+ if <(answer) = ((number 1)*(number 2))> then
 		+ say [yes! :)] for (2) secs
 	+ else
-		+ say [nope :(] for (2) secs
+		+ say [no :(] for (2) secs
 	+ end
 ```
 --- /task ---
@@ -91,7 +91,7 @@ Here is the code you will need:
     	if <(answer) = ((number 1)*(number 2))> then
     		say [yes! :)] for (2) secs
     	else
-    		say [nope :(] for (2) secs
+    		say [no :(] for (2) secs
     	end
     end
 ```
