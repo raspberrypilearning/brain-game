@@ -1,10 +1,10 @@
 ## Introduction
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
 
 ### What you will make
 --- no-print ---
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+Click the button to start. Type in the answers to the questions you are asked, followed by the Enter key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0"></iframe>
@@ -20,8 +20,8 @@ Click the button to start. Type in the answer to the question, and then press th
 ---
 title: What you will learn
 ---
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Using broadcasts
++ Creating and using a custom block
 
 --- /collapse ---
 
@@ -30,7 +30,7 @@ title: What you will learn
 title: What you will need
 ---
 ### Hardware
-+ A computer capable of running Scratch 2.0
++ Computer capable of running Scratch 2.0
 
 ### Software
 + Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
@@ -47,9 +47,9 @@ title: What you will need
 title: Additional notes for educators
 ---
 --- no-print ---
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
 --- /no-print ---
 
-Find the [resources for this project here](http://rpf.io/p/brain-game-go){:target="_blank"}.
+[Here is a link to the resources for this project](http://rpf.io/p/brain-game-go){:target="_blank"}.
 
 --- /collapse ---

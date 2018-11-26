@@ -1,9 +1,9 @@
-## Challenge: instruction screen
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+## Challenge: Instruction screen
+Can you add an instructions screen to your game, telling your player how to play the game? You'll need an 'Instructions' button, and another stage background.
 
 ![screenshot](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the main menu.
+You may also need a 'Back' button to take you to the main menu.
 
 ```blocks
 	broadcast [main menu v]

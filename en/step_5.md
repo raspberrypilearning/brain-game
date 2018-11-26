@@ -1,18 +1,16 @@
 ## Multiple games
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Let's add a 'play' button to your game, so that you can play lots of times.
 
 --- task ---
-Create a new 'Play' button sprite that the player needs to click to start a new game.
-
-You can draw the sprite yourself, or edit a sprite from the library.
+Create a new 'Play' button sprite, which your player will click to start a new game. You can draw it yourself, or edit a sprite from the Scratch library.
 
 ![Picture of the play button](images/brain-play.png)
 
 --- /task ---
 
 --- task ---
-Add this code to your button sprite:
+Add this code to your new button.
 
 ![Button sprite](images/button-sprite.png)
 
@@ -28,14 +26,14 @@ Add this code to your button sprite:
 
 --- /task ---
 
-The new code includes another `broadcast`{:class="blockevents"} block, which sends the message 'start'.
+We have added another broadcast here, this time to broadcast the message `start`{:class:blockevents}.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+This code shows the play button when your project is started. When the button is clicked, it is hidden and then broadcasts a message that other sprites will react to in order to start the game.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="blockevents"}.
+Now you need to change the code so that the game will start when the character receives the `start`{:class="blockevents"} message, instead of when the flag is clicked.
 
 --- task ---
-Select your character sprite and, in its code section, replace the `when flag clicked`{:class="blockevents"} block with a `when I receive start`{:class="blockevents"} block.
+In your character sprite, replace the `when flag clicked`{:class="blockevents"} code with `when I receive start`{:class="blockevents"}.
 
 ![Character sprite](images/giga-sprite.png)
 
@@ -54,23 +52,19 @@ Select your character sprite and, in its code section, replace the `when flag cl
 --- /task ---
 
 --- task ---
-
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
-
+Click the green flag and then click your new play button to test it. You should see that the game doesn't start until the button is clicked.
 --- /task ---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Did you notice that the timer starts when the green flag is clicked, and not when the game starts?
 
 ![Timer has started](images/brain-timer-bug.png)
 
 --- task ---
-
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
-
+Can you change the timer so that it starts when the button is pressed?
 --- /task ---
 
 --- task ---
-Add code to your button sprite so that the button shows again at the end of each game.
+Add code to your button to show it again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
@@ -81,10 +75,7 @@ Add code to your button sprite so that the button shows again at the end of each
 --- /task ---
 
 --- task ---
-
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
-
-To test the game more quickly, you can change the value of `time`{:class="blockdata"} so that each game is only a few seconds long.
+Test your play button by playing a couple of games. You should notice that the play button shows after each game. To make testing easier, you can shorten each game, so that it only lasts a few seconds.
 
 ![Stage](images/stage-sprite.png)
 
@@ -95,7 +86,7 @@ To test the game more quickly, you can change the value of `time`{:class="blockd
 --- /task ---
 
 --- task ---
-You can change how the button looks when the mouse pointer hovers over it.
+You can change how the button looks when the mouse hovers over it.
 
 ![Button](images/button-sprite.png)
 

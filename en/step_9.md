@@ -1,7 +1,7 @@
-## Challenge: race to 10 points
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+## Challenge: Race to 10 points
+Can you change your game, so that instead of answering as many questions as they can in 30 seconds, the player has to see how quickly they can get 10 questions correct?
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+To do this, you'll only need to change your timer code. Can you see what needs to be changed?
 
 ```blocks
 	when I receive [start v]

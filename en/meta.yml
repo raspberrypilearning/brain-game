@@ -2,19 +2,19 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
+title: Brain Game
+description: Learn how to create a quiz.
 version: 4.0.0
 last_tested: 2018-10-03
 steps:
 - title: Introduction
-- title: Create questions
+- title: Creating questions
 - title: Add a timer
-- title: 'Challenge: add a score and reactions'
+- title: 'Challenge: Scoring and reactions'
 - title: Multiple games
-- title: 'Challenge: create a start screen'
-- title: Add graphics
-- title: 'Challenge: sound and music'
-- title: 'Challenge: race to 10 points'
-- title: 'Challenge: instruction screen'
+- title: 'Challenge: Start screen'
+- title: Adding graphics
+- title: 'Challenge: Sound and music'
+- title: 'Challenge: Race to 10 points'
+- title: 'Challenge: Instruction screen'
 - title: What next?
