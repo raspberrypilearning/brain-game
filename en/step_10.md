@@ -3,8 +3,8 @@ Can you add an instructions screen that tells the player how to play the game? F
 
 ![screenshot](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the main menu.
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
 ```blocks
-	broadcast [main menu v]
+	broadcast [start screen v]
 ```
