@@ -1,12 +1,12 @@
-## Challenge: Sound and music
-Can you add sound effects and music to your game? For example:
+## Challenge: sound and music
+Can you add sound effects and music to your game? For example, you could have your game:
 
-+ Playing a sound when the player gets an answer right or wrong;
-+ Adding a ticking sound to your countdown timer;
-+ Playing a sound when the time is up;
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
 ```blocks
 	play drum (10 v) for (0.1) beats
 ```
 
-+ You could also constantly play background music on a loop.
+Your game could also constantly play background music on a loop.
