@@ -2,7 +2,7 @@
 
 Zamiast twojej postaci, mówiącej graczowi tylko `tak!:)` lub `nie :(`, dodajmy trochę grafiki, która pozwoli graczowi dowiedzieć się, jak sobie radzi.
 
-+ Stwórz nowego duszka o nazwie "Wynik", zawierający zarówno strój "haczyka", jak i "krzyżyk".
++ Stwórz nowego duszka o nazwie "Wynik", zawierający zarówno strój "haczyk", jak i "krzyżyk".
     
     ![zrzut ekranu](images/brain-result.png)
 
@@ -18,9 +18,9 @@ Zamiast twojej postaci, mówiącej graczowi tylko `tak!:)` lub `nie :(`, dodajmy
     
     ![zrzut ekranu](images/brain-test-answer.png)
 
-+ Czy zauważyłeś, że kod dla `kiedy otrzymam correct`{:class="blockevents"} i `kiedy otrzymam wrong`{:class="blockevents"} jest prawie identyczny? Stwórzmy funkcję, która ułatwi wprowadzanie zmian w kodzie.
++ Czy zauważyłeś, że kod dla `kiedy otrzymam poprawna`{:class="blockevents"} i `kiedy otrzymam błędna`{:class="blockevents"} jest prawie identyczny? Stwórzmy funkcję, która ułatwi wprowadzanie zmian w kodzie.
     
-    Na ikonce "Wynik" kliknij przycisk `Więcej bloków`{:class="blockmoreblocks"}, a następnie "Utwórz blok". Utwórz nową funkcję o nazwie `animate`{:class="blockmoreblocks"}.
+    Na ikonce "Wynik" kliknij przycisk `Więcej bloków`{:class="blockmoreblocks"}, a następnie "Utwórz blok". Utwórz nową funkcję o nazwie `animacja`{:class="blockmoreblocks"}.
     
     ![zrzut ekranu](images/brain-animate-function.png)
 
@@ -33,11 +33,11 @@ Zamiast twojej postaci, mówiącej graczowi tylko `tak!:)` lub `nie :(`, dodajmy
 + Zamiast pokazywać i ukrywać tyknięcie i krzyżyk, możesz zmienić funkcję animacji, aby grafika rozmywała się.
     
     ```blocks
-        definiuj [animate]
+        definiuj [animacja]
        ustaw efekt [duch v] na (100)
        pokaż
        powtórz (25) razy
           zmień efekt [duch v] o (-4)
        koniec
-       ukryj
+       ukryj[animacja]
     ```
