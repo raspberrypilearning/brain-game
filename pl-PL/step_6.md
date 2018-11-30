@@ -7,11 +7,11 @@ Czy możesz dodać kolejne tło do swojej sceny, które stanie się ekranem star
 Możesz także pokazać i ukryć swoją postać, a nawet pokazać i ukryć swój zegar, używając tych bloków:
 
 ```blocks
-pokaż zmienną [godzina v]
+pokaż zmienną [czas v]
 ```
 
 ```blocks
-ukryj zmienną [godzina v]
+ukryj zmienną [czas v]
 ```
 
 ![zrzut ekranu](images/brain-startscreen.png)
