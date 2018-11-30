@@ -47,14 +47,14 @@ Dodajmy do gry przycisk "Zagraj", żeby móc zagrać wiele razy.
 + Będziesz także musiał przestać zadawać pytania dla swojej postaci pod koniec każdej gry:
     
     ```blocks
-        kiedy otrzymam [end v]
+        kiedy otrzymam [koniec v]
     zatrzymaj [inne skrypty duszka v]
     ```
 
 + Sprawdź swój przycisk odtwarzania, grając w kilka gier. Powinieneś zauważyć, że przycisk "Zagraj" pokazuje po każdej grze. Aby ułatwić testowanie, możesz skrócić każdą grę, tak, aby trwała tylko kilka sekund.
     
     ```blocks
-        ustaw [godzina v] na [10]
+        ustaw [czas v] na [10]
     ```
 
 + Możesz nawet zmienić wygląd przycisku, gdy najedzie na niego mysz.
