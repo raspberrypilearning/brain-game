@@ -39,7 +39,7 @@ Projekt ten obejmuje elementy z następujących wątków [Cyfrowego programu nau
 
 * "Zmiana kostiumów" - zmiana wyglądu postaci gry w odpowiedzi na poprawne i niepoprawne odpowiedzi;
 * "Dodawanie wyniku" - dodanie punktu za każdą poprawnie udzieloną odpowiedź;
-* "Ekran początkowy" - zmienianie tła sceny w odpowiedzi na nadany komunikat `start`{:class="blockevents"} i `end`{:class="blockevents"}, stworzenie dwóch 'ekranów' gry;
+* "Ekran początkowy" - zmienianie tła sceny w odpowiedzi na nadany komunikat `start`{:class="blockevents"} i `koniec`{:class="blockevents"}, stworzenie dwóch 'ekranów' gry;
 * "Ulepszona animacja" - korzystanie z pętli oraz efektów w celu ulepszenia animacji poprawnej/złej odpowiedzi;
 * "Dźwięk i muzyka" - utrwalanie wiedzy na temat pętli muzycznych oraz efektów dźwiękowych;
 * "Wyścig do 10 punktów" - zmienianie logiki gry, żeby stworzyć nowy cel gry;
