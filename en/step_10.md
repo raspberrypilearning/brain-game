@@ -5,6 +5,6 @@ Can you add an instructions screen that tells the player how to play the game? F
 
 You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
+```blocks3
 	broadcast [start screen v]
 ```

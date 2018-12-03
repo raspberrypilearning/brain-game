@@ -5,7 +5,7 @@ Can you add sound effects and music to your game? For example, you could have yo
 + Play a ticking sound as the countdown timer runs
 + Play a sound when the player's time is up
 
-```blocks
+```blocks3
 	play drum (10 v) for (0.1) beats
 ```
 

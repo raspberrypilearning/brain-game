@@ -22,21 +22,21 @@ Add a character sprite and a backdrop for your game. You can choose any you like
 --- /task ---
 
 --- task ---
-Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="blockdata"} and `number 2`{:class="blockdata"}, to store the numbers for the quiz questions.
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
 
 ![screenshot](images/giga-sprite.png)
 ![screenshot](images/brain-variables.png)
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]]
 
 --- /task ---
 
 --- task ---
-Add code to your character sprite to set both of the `variables`{:class="blockdata"} to a `random`{:class="blockoperators"} number between 2 and 12.
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
 
 ![screenshot](images/giga-sprite.png)
 
-```blocks
+```blocks3
 	when flag clicked
 	set [number 1 v] to (pick random (2) to (12))
 	set [number 2 v] to (pick random (2) to (12))
@@ -45,11 +45,11 @@ Add code to your character sprite to set both of the `variables`{:class="blockda
 --- /task ---
 
 --- task ---
-Add code to `ask`{:class="blocksensing"} the player for the answer, and then `say for 2 seconds`{:class="blocklooks"} whether the answer was right or wrong:
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
 
 ![screenshot](images/giga-sprite.png)
 
-```blocks
+```blocks3
 	when flag clicked
 	set [number 1 v] to (pick random (2) to (12))
 	set [number 2 v] to (pick random (2) to (12))
@@ -70,25 +70,25 @@ Test your project twice: answer one question correctly, and the other incorrectl
 
 --- task ---
 
-Add a `forever`{:class="blockcontrol"} loop around this code, so that the game asks the player lots of questions in a row.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
 --- hints ---
 --- hint ---
 
-You need to add a `forever`{:class="blockcontrol"} block, and put all of the code except the `when flag clicked`{:class="blockcontrol"} block into it.
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
 
 --- /hint ---
 --- hint ---
 Here is the block you need:
 
-```blocks
+```blocks3
 forever
 end
 ```
 --- /hint ---
 --- hint ---
 Here is what your code should look like:
-```blocks
+```blocks3
 	when flag clicked
     forever
     	set [number 1 v] to (pick random (2) to (12))
