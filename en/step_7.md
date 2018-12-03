@@ -4,7 +4,7 @@ At the moment, the character sprite just says `yes! :)` or `no :(` to the player
 
 --- task ---
 
-Create a new sprite called 'Result', and give it a 'tick' and a 'cross' costume.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
 ![Sprite with tick and cross costumes](images/brain-result.png)
 
@@ -12,9 +12,9 @@ Create a new sprite called 'Result', and give it a 'tick' and a 'cross' costume.
 
 --- task ---
 
-Change your character sprite's code so that, instead of saying something to the player, it broadcasts{:class="block3events"} the messages 'correct' or 'wrong'.
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![Character sprite](images/character-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
     if <(answer) = ((number 1)*(number 2))> then
@@ -66,7 +66,9 @@ So you can change your code more easily, you are going to create a custom block.
 
 --- task ---
 
-Select the 'Result' sprite. Then click on `More Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+
+![Result sprite](images/result-sprite.png)
 
 ![Create a block called animate](images/brain-animate-function.png)
 
