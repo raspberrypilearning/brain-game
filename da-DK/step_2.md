@@ -1,6 +1,6 @@
-## Creating questions
+## Oprettelse af spørgsmål
 
-Let's start by creating random questions for the player to answer.
+Lad os begynde med at oprette tilfældige spørgsmål, som spilleren skal svare på.
 
 + Start a new Scratch project, and delete the cat sprite so that your project is empty. You can find the online Scratch editor at <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
 
