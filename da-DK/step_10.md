@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Race to 10 points
+## Udfordring: Kapløb til 10 point
 
-Can you change your game, so that instead of answering as many questions as they can in 30 seconds, the player has to see how quickly they can get 10 questions correct?
+Kan du ændre dit spil, så i stedet for at besvare så mange spørgsmål som muligt inden for 30 sekunder, skal spilleren se, hvor hurtigt de kan få 10 spørgsmål korrekt?
 
-To do this, you'll only need to change your timer code. Can you see what needs to be changed?
+For at gøre dette skal du kun ændre din timerkode. Kan du se, hvad der skal ændres?
 
 ```blocks
     when I receive [start v]
