@@ -1,4 +1,4 @@
-## Introduction
+## Introduktion
 
 I dette projekt lærer du, hvordan man laver en timespilsquiz, hvor man skal få så mange rigtige svar som muligt på 30 sekunder.
 
