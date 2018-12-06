@@ -53,7 +53,7 @@
 
 ## 교육자를 위한 자료
 
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+* [다운로드 가능한 스크래치 2 프로젝트 완성본](resources/BrainGame.sb2)
+* [온라인 스크래치 2 프로젝트 완성본](http://scratch.mit.edu/projects/42225768/#editor)
 
-\--- /collapse \---
+\--- /중간생략 \---
