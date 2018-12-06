@@ -1,6 +1,6 @@
 ## 들어가며
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+이 프로젝트에서는 30초 안에 올바른 답을 얻을 수 있는 시간표 퀴즈를 만드는 방법을 배우게됩니다.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
@@ -11,25 +11,25 @@ In this project you'll learn how to create a times table quiz, in which you have
 
 이 프로젝트를 인쇄하려면 [프린트용 문서](https://projects.raspberrypi.org/en/projects/brain-game/print)를 사용하십시오.
 
-## \--- collapse \---
+## \--- 중간생략 \---
 
-## title: 교육자 노트
+## 제목: 교육자 노트
 
 ## 소개
 
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+이 프로젝트에서 아이들은 30초 안에 정확하게 많은 질문에 대답해야하는 times table quiz 게임을 만드는 방법을 배우게 됩니다.
 
-## Resources
+## 자료
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+이 프로젝트에서는 Scratch 2를 사용합니다. Scratch 2는 [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) 에서 온라인으로 사용하거나 [ jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off) 에서 다운받아서 오프라인으로 사용할 수 있습니다.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/42225768/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+이 프로젝트의 완성 버전을 [온라인](http://scratch.mit.edu/projects/42225768/#editor)에서 확인하거나 '프로젝트 자료' 링크를 클릭하여 아래의 파일을 다운받을 수 있습니다.
 
 * BrainGame.sb2
 
-## Learning Objectives
+## 학습 목표
 
-* This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
+* 이 프로젝트는 이전에 배운 프로그래밍 기술에 대한 학습을 통합하고 방송을 사용하여 게임 메뉴 시스템을 만드는 방법을 보여줍니다.
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
