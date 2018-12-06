@@ -1,6 +1,6 @@
-\--- challenge \---
+\--- 도전 \---
 
-## Challenge: Instruction screen
+## 도전: 지시 화면
 
 Can you add an instructions screen to your game, telling your player how to play the game? You'll need an 'Instructions' button, and another stage background.
 
