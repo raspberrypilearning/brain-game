@@ -6,7 +6,7 @@ Can you add sound effects and music to your game? For example, you could have yo
 + Play a sound when the player's time is up
 
 ```blocks3
-	play drum (10 v) for (0.1) beats
+	play sound [pop v] until done
 ```
 
 Your game could also constantly play background music on a loop.

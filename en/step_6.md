@@ -1,6 +1,6 @@
 ## Challenge: create a start screen
 
-Can you add another backdrop that is going to be the start screen for you game?
+Can you add another backdrop that is going to be the start screen for your game?
 
 You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
