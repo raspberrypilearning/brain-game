@@ -17,13 +17,13 @@ Change your character sprite's code so that, instead of saying something to the 
 ![Character sprite](images/character-sprite.png)
 
 ```blocks3
-    if <(answer) = ((number 1)*(number 2))> then
-	   - say [yes! :)] for (2) secs
-       + broadcast [correct v]
-	else
-	   - say [nope :(] for (2) secs
-       + broadcast [wrong v]
-	end
+if <(answer) = ((number 1)*(number 2))> then
+- say [yes! :)] for (2) secs
++ broadcast [correct v]
+else
+- say [nope :(] for (2) secs
++ broadcast [wrong v]
+end
 ```
 
 --- /task ---
