@@ -22,7 +22,7 @@ Add this code to your button sprite:
 
 	when this sprite clicked
 	hide
-	broadcast [start v]
+	broadcast (start v)
 ```
 
 
@@ -103,7 +103,7 @@ You can change how the button looks when the mouse pointer hovers over it.
 	when flag clicked
 	show
 	forever
-	if <touching [mouse-pointer v]?> then
+	if <touching (mouse-pointer v)?> then
 		set [fisheye v] effect to (30)
 	else
 		set [fisheye v] effect to (0)

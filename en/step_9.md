@@ -10,5 +10,5 @@ To make this change, you only need to change your timer code. Can you see which 
 		wait (1) secs
 		change [time v] by (-1)
 	end
-	broadcast [end v]
+	broadcast (end v)
 ```

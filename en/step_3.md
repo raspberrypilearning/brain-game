@@ -56,7 +56,7 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    broadcast [end v]
+    broadcast (end v)
 ```
 --- /task ---
 
