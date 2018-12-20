@@ -36,11 +36,7 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 
 ![screenshot](images/giga-sprite.png)
 
-```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-```
+![blocks_1545305912_6229644](images/blocks_1545305912_6229644.png)
 
 --- /task ---
 
@@ -49,17 +45,7 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 
 ![screenshot](images/giga-sprite.png)
 
-```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
-+ end
-```
+![blocks_1545305913_6990714](images/blocks_1545305913_6990714.png)
 --- /task ---
 
 --- task ---
@@ -81,26 +67,11 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 --- hint ---
 Here is the block you need:
 
-```blocks3
-forever
-end
-```
+![blocks_1545305914_8944762](images/blocks_1545305914_8944762.png)
 --- /hint ---
 --- hint ---
 Here is what your code should look like:
-```blocks3
-when flag clicked
-forever
-	set [number 1 v] to (pick random (2) to (12))
-	set [number 2 v] to (pick random (2) to (12))
-	ask (join (number 1)(join [ x ] (number 2))) and wait
-	if <(answer) = ((number 1)*(number 2))> then
-		say [yes! :)] for (2) seconds
-	else
-		say [no :(] for (2) seconds
-	end
-end
-```
+![blocks_1545305915_9814396](images/blocks_1545305915_9814396.png)
 --- /hint ---
 --- /hints ---
 
