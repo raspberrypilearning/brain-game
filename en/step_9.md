@@ -7,7 +7,7 @@ To make this change, you only need to change your timer code. Can you see which 
 	when I receive [start v]
 	set [time v] to (30)
 	repeat until <(time) = [0]>
-		wait (1) secs
+		wait (1) seconds
 		change [time v] by (-1)
 	end
 	broadcast (end v)

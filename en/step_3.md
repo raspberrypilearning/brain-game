@@ -21,7 +21,7 @@ repeat until < >
 
 end
 
-wait (1) secs
+wait (1) seconds
 
 change [time v] by (1)
 
@@ -40,7 +40,7 @@ Here is the what your new code should look like:
 when flag clicked
 set [time v] to [30]
 repeat until <(time) = (0)>
-    wait (1) secs
+    wait (1) seconds
     change [time v] by (-1)
 end
 ```

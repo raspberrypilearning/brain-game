@@ -18,10 +18,10 @@ Change your character sprite's code so that, instead of saying something to the 
 
 ```blocks3
 if <(answer) = ((number 1)*(number 2))> then
-- say [yes! :)] for (2) secs
+- say [yes! :)] for (2) seconds
 + broadcast (correct v)
 else
-- say [nope :(] for (2) secs
+- say [nope :(] for (2) seconds
 + broadcast (wrong v)
 end
 ```
@@ -38,13 +38,13 @@ Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cr
     when I receive [correct v]
     switch costume to (tick v)
     show
-    wait (1) secs
+    wait (1) seconds
     hide
 
     when I receive [wrong v]
     switch costume to (cross v)
     show
-    wait (1) secs
+    wait (1) seconds
     hide
 
     when flag clicked
@@ -82,7 +82,7 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ```blocks3
 define animate
 show
-wait (1) secs
+wait (1) seconds
 hide
 ```
 --- /task ---
