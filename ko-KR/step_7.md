@@ -18,19 +18,19 @@
     
     ![screenshot](images/brain-test-answer.png)
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
++ `내가 옳음을 받았을 때`{:class="blockevents"} 와 `내가 틀림을 받았을 때`{:class="blockevents"}의 코드는 거의 동일합니까? 코드를 더 쉽게 변경할 수있는 함수를 만들어 보겠습니다.
     
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
+    '결과'스프라이트에서 `추가 블록` {: class = "blockmoreblocks"}, 그리고 나서 'Make a Block'을 선택하십시오. ` animate` {: class = "blockmoreblocks"} 라는 새로운 함수를 만듭니다. 
     
     ![screenshot](images/brain-animate-function.png)
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
++ 그런 다음 새 애니메이션 함수에 애니메이션 코드를 추가 한 다음이 함수를 두 번 사용할 수 있습니다.
     
     ![screenshot](images/brain-use-function.png)
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
++ 이제 체크와 x표를 길게 또는 짧게 표시하려면 코드를 한 번만 변경하면됩니다. 시도 해보십시오!
 
-+ Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
++ 체크와 x표 표시만 보이고 숨기는 대신 그래픽 기능이 사라지도록 애니메이션 기능을 변경할 수 있습니다.
     
     ```blocks
         define [animate]
