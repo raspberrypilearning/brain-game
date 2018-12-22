@@ -1,9 +1,9 @@
-\--- challenge \---
+\--- 도전 \---
 
-## Challenge: Improved animation
+## 도전: 향상된 애니메이션
 
-Can you improve the animation of your graphics? You could code the tick and cross so that they fade out as well as fade in. Or, you could use other cool effects:
+그래픽 애니메이션을 향상시킬 수 있습니까? 체크와 x표를 코드화하여 페이드 아웃 (fade out)하거나 페이드 인 (fade in) 할 수 있습니다. 또는 다른 멋진 효과를 사용할 수도 있습니다.
 
-![screenshot](images/brain-effects.png)
+![스크린샷](images/brain-effects.png)
 
-\--- /challenge \---
+\--- /도전 \---
