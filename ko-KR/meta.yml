@@ -1,41 +1,41 @@
 ---
-hero_image: images/brain-game.png
-theme: red
+hero_image: 이미지/뇌-게임.png
+theme: 빨간
 duration: 2
 listed: true
 ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Brain Game
-description: Learn how to create a quiz.
+curriculum: 1, 디자인 -0, 프로그래밍 -1, phys-comp-0, 제조 -0, 커뮤니티 -0
+title: 두뇌 게임
+description: 퀴즈를 만드는 방법에 대해 알아보십시오.
 original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
-interests: games
-technologies: scratch
-site_areas: projects
+interests: 게임
+technologies: 스크래치
+site_areas: 프로젝트
 hardware: ''
-software: scratch
+software: 스크래치
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: 소개
   - 
-    title: Creating questions
+    title: 질문 만들기
   - 
-    title: 'Challenge: Changing costumes'
+    title: '도전: 의상 변경'
   - 
-    title: 'Challenge: Adding a score'
+    title: '도전: 점수 추가'
   - 
-    title: Multiple games
+    title: 여러 게임
   - 
-    title: 'Challenge: Start screen'
+    title: '도전: 시작 화면'
   - 
-    title: Adding graphics
+    title: 그래픽 추가하기
   - 
-    title: 'Challenge: Improved animation'
+    title: '도전: 향상된 애니메이션'
   - 
-    title: 'Challenge: Sound and music'
+    title: '도전: 소리와 음악'
   - 
-    title: 'Challenge: Race to 10 points'
+    title: '도전: 10 점까지 레이스'
   - 
-    title: 'Challenge: Instruction screen'
+    title: '도전: 지시 화면'
