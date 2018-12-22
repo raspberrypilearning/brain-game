@@ -1,9 +1,9 @@
-\--- challenge \---
+\--- 도전 \---
 
-## Challenge: Changing costumes
+## 도전: 의상 변경
 
-Can you change your character's costumes, so that they respond to the player's answer?
+캐릭터의 의상을 바꾸어 플레이어의 답변에 응답 할 수 있습니까?
 
-![screenshot](images/brain-costume.png)
+![스크린샷](images/brain-costume.png)
 
-\--- /challenge \---
+\--- /도전 \---
