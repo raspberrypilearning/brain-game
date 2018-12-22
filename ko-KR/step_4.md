@@ -1,7 +1,7 @@
-\--- challenge \---
+\--- 도전 \---
 
-## Challenge: Adding a score
+## 도전: 점수 추가
 
-Can you add a score to your game? You can add a point for every correct answer. If you're feeling mean, you could even reset the player's score to 0 if they get a question wrong!
+게임에 점수를 추가 할 수 있습니까? 모든 정답에 대해 포인트를 추가 할 수 있습니다. 평균을 느끼는 경우, 질문을 잘못하면 점수를 0으로 재설정 할 수도 있습니다!
 
-\--- /challenge \---
+\--- /도전 \---
