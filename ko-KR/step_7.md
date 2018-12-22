@@ -1,20 +1,20 @@
-## Adding graphics
+## 그래픽 추가하기
 
-Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
+` 예! :) ` 또는 ` 없음 :( `이라고 당신의 캐릭터에게 단지 말하는 것 대신에 플레이어에게 그들이하는 일을 플레이어가 알 수 있게 해주는 그래픽을 추가합시다.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
++ '체크'와 'x표'를 모두 포함하는 '결과'라는 새로운 스프라이트를 만듭니다.
     
     ![screenshot](images/brain-result.png)
 
-+ Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
++ 캐릭터의 코드를 변경하여 플레이어에게 어떻게 했는지 알려주는 것 대신에 `옳음` {: class = "blockevents"} 및 `틀림` {: class = "blockevents"} 메시지를 보내주십시오.
     
     ![screenshot](images/brain-broadcast-answer.png)
 
-+ You can now use these messages to show the 'tick' or 'cross' costume. Add this code to your new 'Result' sprite:
++ 이제 메시지를 사용하여 '체크'또는 'x표'를 표시 할 수 있습니다. 이 코드를 새 '결과'스프라이트에 추가하십시오.
     
     ![screenshot](images/brain-show-answer.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
++ 게임을 다시 테스트 해보십시오. 정확한 질문을 할 때마다 체크가 보일 것이며, 잘못 될 때마다 x표가 보일 것입니다.
     
     ![screenshot](images/brain-test-answer.png)
 
