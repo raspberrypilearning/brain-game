@@ -20,7 +20,7 @@
         [2 번 v]에 (2)에서 (12)을 무작위 선택하여 설정
     ```
 
-+ You can then ask the player for the answer, and let them know if they were right or wrong.
++ 그런 다음에 플레이에에게 대답을 요청할 수 있으며, 그들이 옳았는지 또는 잘못되었는지를 알려줄 수 있습니다.
     
     ```blocks
         when flag clicked
