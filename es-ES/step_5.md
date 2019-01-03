@@ -1,74 +1,73 @@
 ## Múltiples juegos
 
-Vamos a añadir un botón de 'empieza' a tu juego para que puedas jugar muchas veces.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
-+ Crea un nuevo botón de sprite 'Empieza' en el que tu jugador hará clic para empezar un juego nuevo. Puedes dibujarlo tu mismo, o editar un sprite desde la biblioteca de Scratch.
-    
-    ![screenshot](images/brain-play.png)
+\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-+ Añade este código a tu nuevo botón.
-    
-    ```blocks
-        cuando se marcó con un clic
-        mostrar
-    
-        cuando este sprite se hace clic
-        esconder
-        enviar [start v]
-    ```
-    
-    Este código muestra el botón de 'empieza' cuando se inicia tu proyecto. Cuando se hace clic en el botón se esconde y luego envia un mensaje que iniciará el juego.
+You can draw the sprite yourself, or edit a sprite from the library.
 
-+ Tendrás que editar el código de tu personaje para que el juego comience cuando reciban el mensaje de ` empieza` {: class = "blockevents"}, y no cuando se hace clic en la bandera.
-    
-    Reemplaza el código `al presionar`{:class="blockevents"} con `al recibir empieza`{:class="blockevents"}.
-    
-    ![screenshot](images/brain-start.png)
+![Picture of the play button](images/brain-play.png)
 
-+ Haz clic en la bandera verde y después haz clic en tu nuevo botón de empezar para probarlo. Deberías ver que el juego no se inicia hasta que se hace clic en el botón.
+\--- /task \---
 
-+ ¿Notaste que el temporizador comienza cuando se hace clic en la bandera verde, y no cuando comienza el juego?
-    
-    ![screenshot](images/brain-timer-bug.png)
-    
-    ¿Puedes arreglar este problema?
+\--- task \--- Add this code to your button sprite:
 
-+ Haz clic en el escenario y reemplaza el bloque `parar todos` {: clase = "blockcontrol"} con un mensaje de `fin` {: clase = "blockevents"}.
-    
-    ![screenshot](images/brain-end.png)
+![Button sprite](images/button-sprite.png)
 
-+ Ahora puedes añadir código a tu botón para que aparezca de nuevo al final de cada juego.
-    
-    ```blocks
-        al recibir [end v]
-        mostrar
-    ```
+![blocks_1545305921_6740985](images/blocks_1545305921_6740985.png)
 
-+ También necesitarás que tu personaje deje de hacer preguntas al final de cada juego:
-    
-    ```blocks
-        al recibir [end v]
-        parar [other scripts in sprite v]
-    ```
+\--- /task \---
 
-+ Prueba tu botón de empezar el juego jugando algunas veces. Verás que el botón empieza se muestra después de cada partida. Para hacer más fáciles las pruebas puedes acortar cada juego de modo que solo dure unos segundos.
-    
-    ```blocks
-        establecer [time v] a [10]
-    ```
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-+ Incluso puedes cambiar la apariencia del botón cuando el ratón está sobre él.
-    
-    ```blocks
-        al presionar
-        mostrar
-        para siempre
-        si <touching [mouse-pointer v]?> entonces
-            establecer efecto [fisheye v] a (30)
-        o
-            establecer efecto [fisheye v] a (0)
-        Fin
-        Fin
-    ```
-    
-    ![screenshot](images/brain-fisheye.png)
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+
+\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
+
+![blocks_1545305922_804054](images/blocks_1545305922_804054.png) \--- /task \---
+
+\--- task \---
+
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+
+\--- /task \---
+
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+
+![Timer has started](images/brain-timer-bug.png)
+
+\--- task \---
+
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
+
+\--- /task \---
+
+\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
+
+![blocks_1545305924_03983](images/blocks_1545305924_03983.png) \--- /task \---
+
+\--- task \---
+
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+
+![Stage](images/stage-sprite.png)
+
+![blocks_1545305925_1097581](images/blocks_1545305925_1097581.png)
+
+\--- /task \---
+
+\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
+
+![blocks_1545305926_1618237](images/blocks_1545305926_1618237.png)
+
+![screenshot](images/brain-fisheye.png) \--- /task \---
