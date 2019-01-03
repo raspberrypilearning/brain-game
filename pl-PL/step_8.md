@@ -1,9 +1,11 @@
-\--- challenge \---
+## Challenge: sound and music
 
-## Wyzwanie: ulepszona animacja
+Can you add sound effects and music to your game? For example, you could have your game:
 
-Czy możesz poprawić animację swojej grafiki? Możesz zakodować haczyk i krzyżyk, tak aby zanikały, oraz się pojawiały. Możesz też użyć innych fajnych efektów:
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
-![zrzut ekranu](images/brain-effects.png)
+![blocks_1546522097_363168](images/blocks_1546522097_363168.png)
 
-\--- /challenge \---
+Your game could also constantly play background music on a loop.
