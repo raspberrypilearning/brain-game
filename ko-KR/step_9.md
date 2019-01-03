@@ -1,17 +1,7 @@
-\--- 도전 \---
+## Challenge: race to 10 points
 
-## 도전: 소리와 음악
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-사운드 효과와 음악을 게임에 추가 할 수 있습니까? 예를 들어:
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-+ 플레이어가 정답을 얻었을 때 소리 내기;
-+ 귀하의 카운트 다운 타이머에 똑딱 소리를 추가;
-+ 시간이 다되었을 때 소리 내기;
-    
-    ```blocks
-        (0.1) 박자의 경우 드럼 연주 (10 v)
-    ```
-
-+ 루프에서 음악을 계속 연주 할 수도 있습니다 (이 작업을 수행하는 방법을 모르는 경우 '록 밴드'프로젝트의 4 단계가 도움이 될 것입니다).
-
-\--- /도전 \---
+![blocks_1546522098_9819555](images/blocks_1546522098_9819555.png)
