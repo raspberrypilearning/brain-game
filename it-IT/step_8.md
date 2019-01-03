@@ -1,9 +1,11 @@
-\--- challenge \---
+## Challenge: sound and music
 
-## Sfida: Animazione migliorata
+Can you add sound effects and music to your game? For example, you could have your game:
 
-Puoi migliorare l'animazione della tua grafica? Puoi codificare il segno di spunta e croce in modo che svaniscano e si dissolvano. Oppure puoi usare altri effetti interessanti:
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
-![screenshot](images/brain-effects.png)
+![blocks_1546522097_363168](images/blocks_1546522097_363168.png)
 
-\--- /challenge \---
+Your game could also constantly play background music on a loop.
