@@ -1,19 +1,9 @@
-\--- challenge \---
+## Challenge: instruction screen
 
-## Challenge: race naar 10 punten
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-Kun je je spel veranderen, zodat de speler in plaats van zoveel vragen te beantwoorden als ze kunnen in 30 seconden, moet zien hoe snel ze 10 vragen goed kunnen beantwoorden?
+![screenshot](images/brain-instructions.png)
 
-Om dit te doen, hoef je alleen je timercode te wijzigen. Kun je zien wat er moet worden veranderd?
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
-    wanneer ik signaal [start v] ontvang
-maak [time v] (30)
-herhaal tot <(time) = [0]>
-   wacht (1) sec.
-   verander [time v] met (-1)
-einde
-zend signaal [einde v]
-```
-
-\--- /challenge \---
+![blocks_1546522064_9808652](images/blocks_1546522064_9808652.png)
