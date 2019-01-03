@@ -1,9 +1,11 @@
-\--- challenge \---
+## Challenge: sound and music
 
-## Izazov: Poboljšavanje animacije
+Can you add sound effects and music to your game? For example, you could have your game:
 
-Možeš li poboljšati animaciju grafike? Možeš napisati kôd kojim će kvačica i križić polako nestajati i pojavljivati se. A možeš koristiti i druge super efekte:
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
-![screenshot](images/brain-effects.png)
+![blocks_1546522097_363168](images/blocks_1546522097_363168.png)
 
-\--- /challenge \---
+Your game could also constantly play background music on a loop.
