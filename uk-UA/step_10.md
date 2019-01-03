@@ -1,19 +1,9 @@
-\--- challenge \---
+## Challenge: instruction screen
 
-## Завдання: Забіг на 10 балів
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-Можете змінити гру так, щоб замість того, щоб відповідати на максимальну кількість запитань за 30 секунд, гравець міг дізнатись наскільки швидко він може правильно відповісти на 10 запитань?
+![screenshot](images/brain-instructions.png)
 
-Для цього вам потрібно змінити лише код таймера. Бачите, що треба змінити?
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
-    коли я отримаю [старт v]
-надати [час v] значення (30)
-повторити поки не <(час) = [0]> 
-  чекати (1) секунд
-  змінити [часv] на (-1)
-end
-оповістити [кінець v]
-```
-
-\--- /challenge \---
+![blocks_1546522064_9808652](images/blocks_1546522064_9808652.png)
