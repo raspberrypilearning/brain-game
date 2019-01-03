@@ -1,17 +1,7 @@
-\--- challenge \---
+## Challenge: race to 10 points
 
-## Sfida: Aggiungi Suono e musica
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-Puoi aggiungere effetti sonori e musica al tuo gioco? Per esempio:
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-+ Suonare un suono quando il giocatore ottiene una risposta giusta o errata;
-+ Aggiunta di un ticchettio al tuo conto alla rovescia;
-+ Riproduzione di un suono quando il tempo è scaduto;
-    
-    ```blocks
-        suona tamburo (10 v) per (0,1) battute
-    ```
-
-+ Puoi anche riprodurre continuamente la musica in loop (se non sei sicuro di come farlo, il passaggio 4 del progetto "Rock Band" ti aiuterà).
-
-\--- / challenge \---
+![blocks_1546522098_9819555](images/blocks_1546522098_9819555.png)
