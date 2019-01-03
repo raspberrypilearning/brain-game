@@ -1,19 +1,9 @@
-\--- challenge \---
+## Challenge: instruction screen
 
-## Desafio: Corrida de 10 pontos
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-Você pode mudar o seu jogo de uma maneira que, ao invés de ter que responder todas as perguntas possíveis em 30 segundos, o jogador tenha que ver o quão rápido ele consegue responder 10 questões corretamente?
+![screenshot](images/brain-instructions.png)
 
-Para fazer isso, você só vai precisar alterar o código do seu cronômetro. Você consegue ver o que precisa ser mudado?
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
-    quando receber a mensagem [começar v]
-    alterar [tempo v] para (30)
-    até que <(tempo) = [0]>, repete 
-        espera (1) s
-        adiciona a [tempo v] o valor (-1)
-    end
-    difunde a mensagem [acabar v]
-```
-
-\--- /challenge \---
+![blocks_1546522064_9808652](images/blocks_1546522064_9808652.png)
