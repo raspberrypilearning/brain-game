@@ -36,7 +36,7 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 
 ![screenshot](images/giga-sprite.png)
 
-![blocks_1545305912_6229644](images/blocks_1545305912_6229644.png)
+![blocks_1546522067_7563314](images/blocks_1546522067_7563314.png)
 
 --- /task ---
 
@@ -45,7 +45,7 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 
 ![screenshot](images/giga-sprite.png)
 
-![blocks_1545305913_6990714](images/blocks_1545305913_6990714.png)
+![blocks_1546522069_3830361](images/blocks_1546522069_3830361.png)
 --- /task ---
 
 --- task ---
@@ -67,11 +67,11 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 --- hint ---
 Here is the block you need:
 
-![blocks_1545305914_8944762](images/blocks_1545305914_8944762.png)
+![blocks_1546522071_116141](images/blocks_1546522071_116141.png)
 --- /hint ---
 --- hint ---
 Here is what your code should look like:
-![blocks_1545305915_9814396](images/blocks_1545305915_9814396.png)
+![blocks_1546522072_739986](images/blocks_1546522072_739986.png)
 --- /hint ---
 --- /hints ---
 

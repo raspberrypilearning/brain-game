@@ -16,7 +16,7 @@ Change your character sprite's code so that, instead of saying something to the 
 
 ![Character sprite](images/giga-sprite.png)
 
-![blocks_1545305927_2811775](images/blocks_1545305927_2811775.png)
+![blocks_1546522089_0997837](images/blocks_1546522089_0997837.png)
 
 --- /task ---
 
@@ -26,7 +26,7 @@ Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cr
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1545305928_4052043](images/blocks_1545305928_4052043.png)
+![blocks_1546522090_7473073](images/blocks_1546522090_7473073.png)
 
 --- /task ---
 
@@ -56,7 +56,7 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1545305929_5948997](images/blocks_1545305929_5948997.png)
+![blocks_1546522092_426247](images/blocks_1546522092_426247.png)
 --- /task ---
 
 --- task ---
@@ -66,7 +66,7 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1545305930_741688](images/blocks_1545305930_741688.png)
+![blocks_1546522094_0312188](images/blocks_1546522094_0312188.png)
 
 --- /task ---
 
@@ -83,7 +83,7 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1545305931_8592923](images/blocks_1545305931_8592923.png)
+![blocks_1546522095_674256](images/blocks_1546522095_674256.png)
 --- /task ---
 
 Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
