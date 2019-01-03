@@ -1,19 +1,9 @@
-\--- challenge \---
+## Challenge: instruction screen
 
-## チャレンジ：10点を目ざす
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-これまでは30秒でできるだけ多く答えるゲームでしたが、今度はできるだけ早く10回答えるゲームに変えてみましょう。
+![screenshot](images/brain-instructions.png)
 
-そのためには、タイマーのコードを変えれば良いだけなのです。どこを変えれば良いかわかりますか？
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
-    [start v] を受け取ったとき
-[時 v] を (30) にする
-<(time) = [0]> まで繰り返す 
-  (1) 秒待つ
-  [時 v] を (-1) ずつ変える
-end
-[end v] を送る
-```
-
-\--- /challenge \---
+![blocks_1546522064_9808652](images/blocks_1546522064_9808652.png)
