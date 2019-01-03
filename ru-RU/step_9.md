@@ -1,17 +1,7 @@
-\--- вызов \---
+## Challenge: race to 10 points
 
-## Задача: Звук и музыка
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-Можете ли вы добавить в игру звуковые эффекты и музыку? Например:
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-+ Воспроизведение звука, когда игрок получает ответ правильно или неправильно;
-+ Добавление тикающего звука к таймеру обратного отсчета;
-+ Воспроизведение звука при увеличении времени;
-    
-    ```blocks
-        барабан игры (10 v) для (0.1) ударов
-    ```
-
-+ Вы также можете постоянно воспроизводить музыку в цикле (если вы не знаете, как это сделать, вам поможет шаг 4 проекта «Рок-группа»).
-
-\--- /вызов \---
+![blocks_1546522098_9819555](images/blocks_1546522098_9819555.png)
