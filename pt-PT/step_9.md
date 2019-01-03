@@ -1,17 +1,7 @@
-\--- challenge \---
+## Challenge: race to 10 points
 
-## Desafio: Som e música
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-Podes adicionar efeitos sonoros e música para ao teu jogo? Por exemplo:
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-+ Tocar um som quando o jogador recebe uma resposta certa ou errada;
-+ Adicionar um som de tique-taque à tua contagem regressiva;
-+ Tocar um som quando o tempo acabou;
-    
-    ```blocks
-        toca a percussão (10 v) durante (0.1) tempos
-    ```
-
-+ Podes também tocar música constantemente num loop (se não tiveres a certeza de como fazeres isso, o passo 4 do projeto 'Rock Band' irá ajudar).
-
-\--- /challenge \---
+![blocks_1546522098_9819555](images/blocks_1546522098_9819555.png)
