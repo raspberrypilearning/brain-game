@@ -1,7 +1,11 @@
-\--- challenge \---
+## Challenge: add a score and reactions
 
-## Sfida: Aggiungi un punteggio
+Can you add a score to your game?
 
-E' possibile segnare un punto nel tuo gioco? Puoi ottenere un punto per ogni risposta corretta. Se ti senti cattivo, potresti persino azzerare il punteggio del giocatore a 0 se sbagliano una domanda!
+You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
-\--- /challenge \---
+[[[generic-scratch3-high-score]]]
+
+Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+
+![screenshot](images/brain-costume.png)
