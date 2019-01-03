@@ -1,44 +1,63 @@
-## Створення запитань
+## Create questions
 
-Розпочнемо зі створення випадкових запитань для гравців.
+You're going to start by creating random questions that the player has to answer.
 
-+ Почніть новий проект у Scratch і видаліть з нього спрайт кота. Ознайомитись із Scratch editor можна за посиланням <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
+\--- task \---
 
-+ Оберіть об'єкт і тло гри. Можна обрати що завгодно! Ось приклад:
-    
-    ![знімок екрану](images/brain-setting.png)
+Open a new Scratch project.
 
-+ Створіть 2 нові змінні `Число 1`{:class="blockdata"} і `Число 2`{:class="blockdata"}. Ці змінні збережуть 2 числа, що будуть перемножуватись.
-    
-    ![знімок екрану](images/brain-variables.png)
+**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
 
-+ Додайте код до вашого об'єкта, надавши змінним значення ` випадкове `{:class="blockoperators"} від 2 до 12.
-    
-    ```blocks
-        коли натиснуто ⚑
-    надати [номер 1 v] значення (випадкове від (2) до (12))
-    надати [номер 2 v] значення (випадкове від (2) до (12))
-    ```
+**Offline:** open a new project in the offline editor.
 
-+ Ви можете попросити гравця дати відповідь на запитання і повідомити його чи вона була правильною.
-    
-    ```blocks
-        коли натиснуто ⚑
-    надати [номер 1 v] значення (випадкове від (2) до (12))
-    надати [номер 2 v] значення (випадкове від (2) до (12))
-    запитати (з'єднати (номер 1) (з'єднати [ x ] (номер 2))) і чекати
-    якщо <(answer) = ((номер 1) * (номер 2))> то 
-      говорити [так!]
-    end! :)] (2) сек
-    
-      говорити [ні :(] (2) сек
-    end
-    ```
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-+ Повністю перевірте свій проект: на одне питання дайте правильну відповідь, а на інше - неправильну.
+\--- /task \---
 
-+ Додайте команду `завжди`{:class="blockcontrol"} біля цього коду, щоб гравець міг відповісти на багато запитань.
+\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
-+ Використовуючи змінну `таймер`{:class="blockdata"} створіть таймер зворотнього відліку. Якщо вам потрібна допомога, у проекті "Мисливці за привидами" є інструкції зі створення таймера (крок 5)!
+![screenshot](images/brain-setting.png)
 
-+ Перевірте свій проект знову - потрібно, щоб можна було відповідати на запитання доки не закінчиться час.
+\--- /task \---
+
+\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
+
+![blocks_1545305912_6229644](images/blocks_1545305912_6229644.png)
+
+\--- /task \---
+
+\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
+
+![blocks_1545305913_6990714](images/blocks_1545305913_6990714.png) \--- /task \---
+
+\--- task \---
+
+Test your project twice: answer one question correctly, and the other incorrectly.
+
+\--- /task \---
+
+\--- task \---
+
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+
+\--- hints \--- \--- hint \---
+
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \--- \--- hint \--- Here is the block you need:
+
+![blocks_1545305914_8944762](images/blocks_1545305914_8944762.png) \--- /hint \--- \--- hint \--- Here is what your code should look like: ![blocks_1545305915_9814396](images/blocks_1545305915_9814396.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
