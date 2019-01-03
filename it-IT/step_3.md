@@ -12,7 +12,7 @@ Then add code to count `time`{:class="block3variables"} down to 0 within 30 seco
 
 \--- /hint \--- \--- hint \--- Here are the blocks you need:
 
-![blocks_1545305917_1494923](images/blocks_1545305917_1494923.png) \--- /hint \--- \--- hint \--- Here is the what your new code should look like: ![blocks_1545305918_313704](images/blocks_1545305918_313704.png) \--- /hint \--- \--- /hints \---
+![blocks_1546522074_4516828](images/blocks_1546522074_4516828.png) \--- /hint \--- \--- hint \--- Here is the what your new code should look like: ![blocks_1546522076_1045043](images/blocks_1546522076_1045043.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -22,13 +22,13 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 
 ![Stage sprite](images/stage-sprite.png)
 
-![blocks_1545305919_4771678](images/blocks_1545305919_4771678.png) \--- /task \---
+![blocks_1546522077_7669947](images/blocks_1546522077_7669947.png) \--- /task \---
 
 \--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
 
 ![Giga sprite](images/giga-sprite.png)
 
-![blocks_1545305920_5680425](images/blocks_1545305920_5680425.png) \--- /task \---
+![blocks_1546522079_383912](images/blocks_1546522079_383912.png) \--- /task \---
 
 \--- task \---
 
