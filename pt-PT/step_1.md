@@ -1,59 +1,55 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+
+\--- /no-print \---
+
 ## Introdução
 
-Neste projeto vais aprender a criar um jogo de perguntas sobre a tabuada de multiplicar, no qual terás que conseguir responder ao numero máximo de perguntas corretas em 30 segundos.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+
+### What you will make
+
+\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Informações adicionais para os líderes do clube
+\--- /no-print \---
 
-Se precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/brain-game/print).
+\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Notas de líder de clube
+## title: What you will learn
 
-## Introdução:
-
-Neste projeto, as crianças aprenderão a fazer um jogo de teste da tabela de multiplicação, no qual o jogador tem que responder o máximo possível de perguntas corretamente em 30 segundos.
-
-## Recursos
-
-Para este projeto, deve ser usado o Scratch 2. O Scratch 2 pode ser usado online em [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) ou pode ser descarregado de [ jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off) para ser usado offline.
-
-Pode encontrar uma versão completa deste projeto [ online ](http://scratch.mit.edu/projects/42225768/#editor), ou pode descarregar clicando no link 'Materiais do Projeto' para este projeto, que contém:
-
-* BrainGame.sb2
-
-## Objetivos de Aprendizagem
-
-* Este projeto consolida anteriores aprendizagens de linguagens de programação e mostra como as difusões de mensagens podem ser usadas para criar um sistema de menu de um jogo simples.
-
-Este projeto abrange elementos das seguintes vertentes do [ Curriculo Raspberry Pi Digital Making ](http://rpf.io/curriculum):
-
-* [Combinar construções de programação para resolver um problema.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Desafios
-
-* "Trocar trajes" - mudar a aparência da personagem do jogo em resposta às respostas corretas e incorretas;
-* "Adicionar uma pontuação" - adicionar um ponto para cada pergunta certa respondida;
-* "Ecrã inicial" - alterar o pano de fundo do palco em resposta à difusão das mensagens `começar` {: classe = "blockevents"} e `acabar` {: classe = "blockevents"}, criando 2 'fundos' para o jogo;
-* "Melhorar a animação" - usar loops e efeitos para melhorar a animação dos ícones certo/errado;
-* "Som e música" - consolidar a aprendizagem de loops de música e efeitos sonoros;
-* "Corrida de 10 pontos" - mudar a lógica do jogo para criar um novo objectivo de jogo;
-* "Ecrã de instruções" - consolidar o uso da difusão de mensagens para criar um menu do jogo, adicionando um novo botão e ecrã de "instruções".
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Materiais do projeto
+## title: What you will need
 
-## Recursos do líder de clube
+### Hardware
 
-* [Projeto em Scratch 2 finalizado, para descarregar](resources/BrainGame.sb2)
-* [Projeto acabado em Scratch 2 para trabalhar on-line](http://scratch.mit.edu/projects/42225768/#editor)
++ A computer capable of running Scratch 3
+
+### Software
+
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional notes for educators
+
+\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+
+Find the [solution for this project here](http://rpf.io/p/en/brain-game-go){:target="_blank"}.
 
 \--- /collapse \---
