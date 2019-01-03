@@ -1,74 +1,73 @@
 ## 여러 게임
 
-게임에 '재생'버튼을 추가하면 많은 시간을 할 수 있습니다.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
-+ 플레이어가 새로운 게임을 시작하기 위해 클릭하는 새로운 '재생'버튼 스프라이트를 만듭니다. 스크래치 라이브러리에서 직접 그릴 수도 있고 스프라이트를 편집 할 수도 있습니다.
-    
-    ![스크린샷](images/brain-play.png)
+\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-+ 이 코드를 새 버튼에 추가하십시오.
-    
-    ```blocks
-        플래그가 클릭되었을 때
-        표시
-    
-        이 스프라이트가 클릭되었을 때
-        숨기기
-        브로드 캐스트 [시작 v]
-    ```
-    
-    이 코드는 프로젝트가 시작될 때 재생 버튼을 보여줍니다. 단추를 클릭하면 숨겨진 다음 게임을 시작할 메시지를 브로드 캐스트합니다.
+You can draw the sprite yourself, or edit a sprite from the library.
 
-+ 캐릭터의 코드를 편집할 필요가 있을 때, ` 시작` {: class = "blockevents"} 메세지를 받으면 플래그가 클릭되지 않아도 게임이 시작될 수 있습니다.
-    
-    ` 클릭 할 때 ` {: class = "blockevents"} 코드를 ` 시작을 받았을 때 ` {: class = "blockevents"}로 대체할 수 있습니다. 
-    
-    ![스크린샷](images/brain-start.png)
+![Picture of the play button](images/brain-play.png)
 
-+ 녹색 플래그를 클릭 한 다음 새 재생 버튼을 클릭하여 테스트하십시오. 단추를 클릭 할 때까지 게임이 시작되지 않는 것을 확인해야합니다.
+\--- /task \---
 
-+ 게임이 시작될 때가 아니라 녹색 깃발이 클릭되었을 때 타이머가 시작된다는 것을 주의했습니까? 
-    
-    ![스크린샷](images/brain-timer-bug.png)
-    
-    이 문제를 해결할 수 있습니까?
+\--- task \--- Add this code to your button sprite:
 
-+ 무대를 클릭하고 `모든 것을 중단`{:class="blockcontrol"} 블록을 `끝`{:class="blockevents"} 메세지로 대체하시오.
-    
-    ![스크린샷](images/brain-end.png)
+![Button sprite](images/button-sprite.png)
 
-+ 이제 버튼에 코드를 추가하여 각 게임이 끝날 때 코드를 다시 표시 할 수 있습니다.
-    
-    ```blocks
-        [끝 v]을 받았을 때
-        보여준다
-    ```
+![blocks_1545305921_6740985](images/blocks_1545305921_6740985.png)
 
-+ 또한 각 게임의 끝에 캐릭터가 질문해야하는 것을 중지 해야 합니다.
-    
-    ```blocks
-        [끝 v]을 받았을 때
-        중지 [다른 스크립트는 스프라이트 v]
-    ```
+\--- /task \---
 
-+ 몇 가지 게임을 실행하여 재생 버튼을 테스트 해보십시오. 각 게임이 끝나면 재생 버튼이 표시됩니다. 테스트를 쉽게하기 위해 각 게임을 짧게 할 수 있으므로 몇 초만 지속됩니다.
-    
-    ```blocks
-        [시간 v]을 [10]으로 설정
-    ```
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-+ 마우스로 가리키어 단추 모양을 변경할 수 있습니다.
-    
-    ```blocks
-        플래그 클릭 했을 때
-        표시
-        영원히
-        만약 <touching [mouse-pointer v]?>이라면 다음에
-            [어안 V] 효과 (30) 설정
-        그 밖의    
-            [어안 V] 효과 (0) 설정
-        끝
-        끝
-    ```
-    
-    ![스크린샷](images/brain-fisheye.png)
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+
+\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
+
+![blocks_1545305922_804054](images/blocks_1545305922_804054.png) \--- /task \---
+
+\--- task \---
+
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+
+\--- /task \---
+
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+
+![Timer has started](images/brain-timer-bug.png)
+
+\--- task \---
+
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
+
+\--- /task \---
+
+\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
+
+![blocks_1545305924_03983](images/blocks_1545305924_03983.png) \--- /task \---
+
+\--- task \---
+
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+
+![Stage](images/stage-sprite.png)
+
+![blocks_1545305925_1097581](images/blocks_1545305925_1097581.png)
+
+\--- /task \---
+
+\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
+
+![blocks_1545305926_1618237](images/blocks_1545305926_1618237.png)
+
+![screenshot](images/brain-fisheye.png) \--- /task \---
