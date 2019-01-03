@@ -1,19 +1,9 @@
-\--- challenge \---
+## Challenge: instruction screen
 
-## Herausforderung: 10 Punkte-Partie
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-Kannst du dein Spiel so verändern, dass der Spieler nicht so viele Fragen wie möglich in 30 Sekunden, sondern möglichst schnell 10 Fragen richtig beantworten muss?
+![screenshot](images/brain-instructions.png)
 
-Um das zu erreichen, musst du lediglich den Code deines Timers ändern. Weißt du was geändert werden muss?
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
-    Wenn ich [Start v] empfange
-    setze [zeit v] auf (30)
-    wiederhole bis <(zeit) = [0]>
-        warte (1) Sek.
-        ändere [zeit v] um (-1)
-    end
-    sende [Ende v] an alle
-```
-
-\--- /challenge \---
+![blocks_1546522064_9808652](images/blocks_1546522064_9808652.png)
