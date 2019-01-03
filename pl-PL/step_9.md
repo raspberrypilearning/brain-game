@@ -1,17 +1,7 @@
-\--- challenge \---
+## Challenge: race to 10 points
 
-## Wyzwanie: dźwięk i muzyka
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-Czy możesz dodać efekty dźwiękowe i muzykę do swojej gry? Na przykład:
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-+ Odtwarzanie dźwięku, gdy gracz poda odpowiedź prawidłową lub niewłaściwą;
-+ Dodanie tykającego dźwięku do odliczanego czasu;
-+ Odtwarzanie dźwięku, gdy czas się skończy;
-    
-    ```blocks
-        zagraj nutę (10 v) przez (0.1) uderzenia
-    ```
-
-+ Możesz także ciągle odtwarzać muzykę w pętli (jeśli nie wiesz, jak to zrobić, krok 4 z projektu "Zespół rockowy" pomoże ci).
-
-\--- /challenge \---
+![blocks_1546522098_9819555](images/blocks_1546522098_9819555.png)
