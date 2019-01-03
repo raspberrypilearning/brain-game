@@ -1,7 +1,11 @@
-\--- challenge \---
+## Challenge: add a score and reactions
 
-## Завдання: Створення рахунку
+Can you add a score to your game?
 
-Можете створити рахунок для гри? Ви можете додавати бал за кожну правильну відповідь. Якщо ж любите побешкетувати, то навіть можна скинути бали гравця до 0, якщо він відповість неправильно!
+You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
-\--- /challenge \---
+[[[generic-scratch3-high-score]]]
+
+Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+
+![screenshot](images/brain-costume.png)
