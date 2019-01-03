@@ -1,9 +1,11 @@
-\--- вызов \---
+## Challenge: sound and music
 
-## Задача: улучшенная анимация
+Can you add sound effects and music to your game? For example, you could have your game:
 
-Можете ли вы улучшить анимацию своей графики? Вы можете закодировать галочку и крестик, чтобы они исчезли, а также исчезли. Или вы могли бы использовать другие интересные эффекты:
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
-![Скриншот](images/brain-effects.png)
+![blocks_1546522097_363168](images/blocks_1546522097_363168.png)
 
-\--- /вызов \---
+Your game could also constantly play background music on a loop.
