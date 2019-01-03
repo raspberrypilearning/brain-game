@@ -1,41 +1,31 @@
 ---
 hero_image: imagenes/juego-mental.png
-theme: rojo
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Juego mental
-description: Aprende cómo crear una prueba.
-original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+title: Brain game
+description: Learn how to create a quiz
+version: 4.0.0
+last_tested: 2018-10-03
 steps:
   - 
     title: Introducción
   - 
-    title: Crear preguntas
+    title: Create questions
   - 
-    title: 'Desafío: Cambiar disfraces'
+    title: Add a timer
   - 
-    title: 'Desafío: Añadir una puntuación'
+    title: 'Challenge: add a score and reactions'
   - 
     title: Múltiples juegos
   - 
-    title: 'Desafío: Pantalla de inicio'
+    title: 'Challenge: create a start screen'
   - 
-    title: Añadir gráficos
+    title: Add graphics
   - 
-    title: 'Desafío: Animación mejorada'
+    title: 'Challenge: sound and music'
   - 
-    title: 'Desafío: Sonido y música'
+    title: 'Challenge: race to 10 points'
   - 
-    title: 'Desafío: Carrera hasta 10 puntos'
+    title: 'Challenge: instruction screen'
   - 
-    title: 'Desafío: Pantalla de instrucciones'
+    title: What next?
