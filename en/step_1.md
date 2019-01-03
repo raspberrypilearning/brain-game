@@ -1,62 +1,57 @@
+--- no-print ---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
-In this project you'll learn how to create a times table quiz, in which you have to get as many answers correct as you can in 30 seconds.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+
+### What you will make
+--- no-print ---
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
+--- /no-print ---
 
-### Additional information for club leaders
-
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
-
+--- print-only ---
+![Brain Game](images/brain-final.png)
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Club leader notes
+title: What you will learn
 ---
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
+--- /collapse ---
 
-## Introduction:
-In this project, children will learn how to make a times table quiz game, in which the player has to answer as many questions correctly as they can in 30 seconds.
+--- collapse ---
+---
+title: What you will need
+---
+### Hardware
++ A computer capable of running Scratch 3
 
-## Resources
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
-
-You can find a completed version of this project <a href="http://scratch.mit.edu/projects/42225768/#editor">online</a>, or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
-
-+ BrainGame.sb2
-
-## Learning Objectives
-+ This project consolidates learning of previous programming skills learnt, and shows how broadcasts can be used to create a simple game menu system.
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Challenges
-+ "Changing costumes" - changing how the game character looks in response to correct and incorrect answers;
-+ "Adding a score" - adding a point for every correct question answered;
-+ "Start screen" - changing the stage backdrop in response to the `start`{:class="blockevents"} and `end`{:class="blockevents"} broadcast messages, creating 2 game 'screens';
-+ "Improved animation" - using loops and effects to improve the correct/wrong graphics animation;
-+ "Sound and music" - consolidating learning of music loops and sound effects;
-+ "Race to 10 points" - changing the game logic to create a new game objective;
-+ "Instruction screen" - consolidating the use of broadcasts to create a game menu, by adding a new 'instructions' button and screen.
-
-
+### Software
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 --- /collapse ---
 
 
 --- collapse ---
 ---
-title: Project materials
+title: Additional notes for educators
 ---
+--- no-print ---
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+--- /no-print ---
 
-
-## Club leader resources
-* [Downloadable completed Scratch 2 project](resources/BrainGame.sb2)
-* [Online completed Scratch 2 project](http://scratch.mit.edu/projects/42225768/#editor)
+Find the [solution for this project here](http://rpf.io/p/en/brain-game-go){:target="_blank"}.
 
 --- /collapse ---

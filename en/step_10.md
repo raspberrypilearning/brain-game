@@ -1,20 +1,8 @@
---- challenge ---
-## Challenge: Race to 10 points
-Can you change your game, so that instead of answering as many questions as they can in 30 seconds, the player has to see how quickly they can get 10 questions correct?
+## Challenge: instruction screen
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-To do this, you'll only need to change your timer code. Can you see what needs to be changed?
+![screenshot](images/brain-instructions.png)
 
-```blocks
-	when I receive [start v]
-	set [time v] to (30)
-	repeat until <(time) = [0]>
-		wait (1) secs
-		change [time v] by (-1)
-	end
-	broadcast [end v]
-```
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-
-
-
---- /challenge ---
+![blocks_1545305910_7037363](images/blocks_1545305910_7037363.png)

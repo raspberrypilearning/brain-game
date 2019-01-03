@@ -1,10 +1,10 @@
---- challenge ---
-## Challenge: Improved animation
-Can you improve the animation of your graphics? You could code the tick and cross so that they fade out as well as fade in. Or, you could use other cool effects:
+## Challenge: sound and music
+Can you add sound effects and music to your game? For example, you could have your game:
 
-![screenshot](images/brain-effects.png)
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
+![blocks_1545305933_007307](images/blocks_1545305933_007307.png)
 
-
-
---- /challenge ---
+Your game could also constantly play background music on a loop.

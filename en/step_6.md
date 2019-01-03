@@ -1,19 +1,11 @@
---- challenge ---
-## Challenge: Start screen
-Can you add another backdrop to your stage, which will become your game's start screen? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
+## Challenge: create a start screen
 
-You can also show and hide your character, and even show and hide your timer by using these blocks:
+Can you add another backdrop that is going to be the start screen for your game?
 
-```blocks
-show variable [time v]
-```
-```blocks
-hide variable [time v]
-```
+You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
-![screenshot](images/brain-startscreen.png)
+To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
+To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
 
-
-
---- /challenge ---
+![Start screen](images/brain-startscreen.png)

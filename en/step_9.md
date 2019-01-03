@@ -1,18 +1,6 @@
---- challenge ---
-## Challenge: Sound and music
-Can you add sound effects and music to your game? For example:
+## Challenge: race to 10 points
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-+ Playing a sound when the player gets an answer right or wrong;
-+ Adding a ticking sound to your countdown timer;
-+ Playing a sound when the time is up;
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-	```blocks
-		play drum (10 v) for (0.1) beats
-	```
-
-+ You could also constantly play music on a loop (if you're not sure how to do this, step 4 of the 'Rock Band' project will help you).
-
-
-
-
---- /challenge ---
+![blocks_1545305934_1381645](images/blocks_1545305934_1381645.png)
