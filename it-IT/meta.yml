@@ -1,41 +1,31 @@
 ---
 hero_image: images/brain-game.png
-theme: red
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-title: Giochi di Mente
-description: Impara a creare un quiz.
-original_url: https://projects.raspberrypi.org/en/projects/brain-game
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+title: Brain game
+description: Learn how to create a quiz
+version: 4.0.0
+last_tested: 2018-10-03
 steps:
   - 
     title: Introduzione
   - 
-    title: Creare le domande
+    title: Create questions
   - 
-    title: 'Sfida: Cambia i costumi'
+    title: Add a timer
   - 
-    title: 'Sfida: Aggiungi un punteggio'
+    title: 'Challenge: add a score and reactions'
   - 
     title: Giochi multipli
   - 
-    title: 'Sfida: Schermata iniziale'
+    title: 'Challenge: create a start screen'
   - 
-    title: Aggiungi grafiche
+    title: Add graphics
   - 
-    title: 'Sfida: Animazione migliorata'
+    title: 'Challenge: sound and music'
   - 
-    title: 'Sfida: Suono e musica'
+    title: 'Challenge: race to 10 points'
   - 
-    title: 'Sfida: Guadagna 10 punti'
+    title: 'Challenge: instruction screen'
   - 
-    title: 'Sfida: Schermata delle istruzioni'
+    title: What next?
