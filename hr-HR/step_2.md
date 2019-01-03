@@ -1,43 +1,63 @@
-## Izrada pitanja
+## Create questions
 
-Krenimo s izradom slučajnih pitanja na koja igrač mora odgovoriti.
+You're going to start by creating random questions that the player has to answer.
 
-+ Otvori novi Scratch projekt i obriši lik mačke da dobiješ prazan projekt. Online Scratch nalazi se na adresi <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
+\--- task \---
 
-+ Odaberi lika i pozadinu za igru. Možeš odabrati što god želiš! Na primjer:
-    
-    ![screenshot](images/brain-setting.png)
+Open a new Scratch project.
 
-+ Kreiraj dvije nove varijable koje se zovu `broj 1`{:class="blockdata"} i `broj 2`{:class="blockdata"}. U njih će se spremiti dva broja koja će se pomnožiti.
-    
-    ![screenshot](images/brain-variables.png)
+**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
 
-+ Za postavljanje varijabli na na `slučajan`{:class="blockoperators"} broj između 2 i 12, dodaj svom liku sljedeće naredbe:
-    
-    ```blocks
-        kada je zastavica kliknut
-    postavi [broj 1 v] na (slučajni broj (2) do (12))
-    postavi [broj 2 v] na (slučajni broj (2) do (12))
-    ```
+**Offline:** open a new project in the offline editor.
 
-+ Zatim možeš zatražiti od igrača odgovor i obavijestiti ga je li točan ili netočan.
-    
-    ```blocks
-        kada je zastavica kliknut
-    postavi [broj 1 v] na (slučajni broj od (2) do (12))
-    postavi [broj 2 v] na (slučajni broj od (2) do (12))
-    pitaj (spoji (broj 1)(spoji [ x ] (broj 2))) i čekaj
-    ako <(odgovor) = ((broj 1)*(broj 2))> onda
-    govori [Točno! :)] (2) sekundi
-    inače
-    govori [Netočno :(] (2) sekundi
-    end
-    ```
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-+ Isprobaj projekt odgovarajući na jedno pitanje točno, a na drugo pogrešno.
+\--- /task \---
 
-+ Dodaj petlju `ponavljaj`{:class="blockcontrol"} oko ovog kôda. Na taj način će igraču biti postavljeno više pitanja.
+\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
-+ Na pozornicu dodaj mjerač vremena koristeći varijablu `vrijeme`{:class="blockdata"}. Ako trebaš pomoć, potraži projekt 'Istjerivači duhova'. On sadrži upute za izradu mjerača vremena (u koraku 5).
+![screenshot](images/brain-setting.png)
 
-+ Ponovno isprobaj projekt - pitanja bi se trebala pojavljivati sve dok vrijeme ne istekne.
+\--- /task \---
+
+\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
+
+![blocks_1545305912_6229644](images/blocks_1545305912_6229644.png)
+
+\--- /task \---
+
+\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
+
+![blocks_1545305913_6990714](images/blocks_1545305913_6990714.png) \--- /task \---
+
+\--- task \---
+
+Test your project twice: answer one question correctly, and the other incorrectly.
+
+\--- /task \---
+
+\--- task \---
+
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+
+\--- hints \--- \--- hint \---
+
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \--- \--- hint \--- Here is the block you need:
+
+![blocks_1545305914_8944762](images/blocks_1545305914_8944762.png) \--- /hint \--- \--- hint \--- Here is what your code should look like: ![blocks_1545305915_9814396](images/blocks_1545305915_9814396.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
