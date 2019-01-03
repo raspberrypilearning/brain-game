@@ -1,9 +1,11 @@
-\--- 도전 \---
+## Challenge: sound and music
 
-## 도전: 향상된 애니메이션
+Can you add sound effects and music to your game? For example, you could have your game:
 
-그래픽 애니메이션을 향상시킬 수 있습니까? 체크와 x표를 코드화하여 페이드 아웃 (fade out)하거나 페이드 인 (fade in) 할 수 있습니다. 또는 다른 멋진 효과를 사용할 수도 있습니다.
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
-![스크린샷](images/brain-effects.png)
+![blocks_1546522097_363168](images/blocks_1546522097_363168.png)
 
-\--- /도전 \---
+Your game could also constantly play background music on a loop.
