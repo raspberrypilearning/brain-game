@@ -1,9 +1,11 @@
-\--- challenge \---
+## Challenge: sound and music
 
-## Challenge: verbeterde animatie
+Can you add sound effects and music to your game? For example, you could have your game:
 
-Kun jij de animatie van je graphics verbeteren? Je kunt het vinkje en kruisje coderen zodat ze vervagen en verschijnen. Je kunt ook andere coole effecten gebruiken:
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
-![screenshot](images/brain-effects.png)
+![blocks_1546522097_363168](images/blocks_1546522097_363168.png)
 
-\--- /challenge \---
+Your game could also constantly play background music on a loop.
