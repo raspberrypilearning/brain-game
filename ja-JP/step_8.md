@@ -1,9 +1,11 @@
-\--- challenge \---
+## Challenge: sound and music
 
-## チャレンジ：アニメーション
+Can you add sound effects and music to your game? For example, you could have your game:
 
-画像のアニメーションをもっと良くすることはできるでしょうか？フェードインやフェードアウトを使うこともできますし、他にも楽しい効果を使うことができます。
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
-![スクリーンショット](images/brain-effects.png)
+![blocks_1546522097_363168](images/blocks_1546522097_363168.png)
 
-\--- /challenge \---
+Your game could also constantly play background music on a loop.
