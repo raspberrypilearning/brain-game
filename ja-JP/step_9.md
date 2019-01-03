@@ -1,17 +1,7 @@
-\--- challenge \---
+## Challenge: race to 10 points
 
-## チャレンジ：効果音と音楽
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-効果音や音楽をゲームに加えることはできるでしょうか？たとえば：
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-+ プレーヤーの答えが正しいか間違っているかによって、音を鳴らす
-+ タイマーのカウントにあわせて、チクタク音を鳴らす
-+ 時間切れの時に音を鳴らす
-    
-    ```blocks
-        (10 v) のドラムを (0.1) 拍鳴らす
-    ```
-
-+ ループで音楽を流し続けることもできます。（やり方がわからない場合、「ロックバンド」プロジェクトのステップ４を見てみましょう。）
-
-\--- /challenge \---
+![blocks_1546522098_9819555](images/blocks_1546522098_9819555.png)
