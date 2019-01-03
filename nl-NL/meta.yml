@@ -1,41 +1,31 @@
 ---
 hero_image: images/brain-game.png
-theme: rood
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Hersenkraker
-description: Leer hoe je een quiz maakt.
-original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+title: Brain game
+description: Learn how to create a quiz
+version: 4.0.0
+last_tested: 2018-10-03
 steps:
   - 
     title: Inleiding
   - 
-    title: Vragen maken
+    title: Create questions
   - 
-    title: 'Uitdaging: Van uiterlijk veranderen'
+    title: Add a timer
   - 
-    title: 'Uitdaging: Een score toevoegen'
+    title: 'Challenge: add a score and reactions'
   - 
     title: Meerdere spellen
   - 
-    title: 'Uitdaging: startscherm'
+    title: 'Challenge: create a start screen'
   - 
-    title: Afbeeldingen toevoegen
+    title: Add graphics
   - 
-    title: 'Uitdaging: Verbeterde animatie'
+    title: 'Challenge: sound and music'
   - 
-    title: 'Uitdaging: Geluid en muziek'
+    title: 'Challenge: race to 10 points'
   - 
-    title: 'Uitdaging: Race naar 10 punten'
+    title: 'Challenge: instruction screen'
   - 
-    title: 'Uitdaging: Instructiescherm'
+    title: What next?
