@@ -1,43 +1,63 @@
-## Vragen maken
+## Create questions
 
-Laten we beginnen met het maken van willekeurige vragen die de speler moet beantwoorden.
+You're going to start by creating random questions that the player has to answer.
 
-+ Start een nieuw Scratch-project en verwijder de cat-sprite zodat je project leeg is. Je kunt de online Scratch-editor vinden op <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
+\--- task \---
 
-+ Kies een personage en een achtergrond voor je spel. Je kunt kiezen wat je wilt! Hier is een voorbeeld:
-    
-    ![screenshot](images/brain-setting.png)
+Open a new Scratch project.
 
-+ Maak 2 nieuwe variabelen met de naam ` nummer 1 ` {: class = "blockdata"} en ` nummer 2 ` {: Class = "blockdata"}. Deze variabelen slaan de 2 cijfers op die samen worden vermenigvuldigd.
-    
-    ![screenshot](images/brain-variables.png)
+**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
 
-+ Voeg code toe aan je karakter, om beide variabelen willekeurig in te stellen op ` ` {: class = "blockoperators"} een getal tussen 2 en 12.
-    
-    ```blocks
-        wanneer ⚑ wordt aangeklikt
-    maak [nummer 1 v] (willekeurig getal tussen (2) en (12))
-    maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
-    ```
+**Offline:** open a new project in the offline editor.
 
-+ Je kunt de speler vervolgens om het antwoord vragen en hem laten weten of ze gelijk hebben of niet.
-    
-    ```blocks
-        wanneer groene vlag wordt aangeklikt
-    maak [number 1 v] (willekeurig getal tussen (2) en (12))
-    maak [number 2 v] (willekeurig getal tussen (2) en (12))
-    vraag (voeg (number 1) en (voeg [ x ] en (number 2) samen) samen) en wacht
-    als <(answer) = ((number 1) * (number 2))> dan 
-      zeg [yes! ] (2) sec.
-    anders
-      zeg [jammer :(] (2) sec.
-    end
-    ```
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-+ Test je project volledig, door één vraag goed te beantwoorden en één vraag met het verkeerde antwoord.
+\--- /task \---
 
-+ Voeg een `herhaal` {: class = "blockcontrol"} lus toe aan de code, zodat de speler veel vragen krijgt.
+\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
-+ Maak een afteltimer op het podium met een variabele met de naam ` tijd ` {: Class = "blockdata"}. Het project 'Ghostbusters' bevat instructies voor het maken van een timer (in stap 5) als je hulp nodig hebt!
+![screenshot](images/brain-setting.png)
 
-+ Test je project opnieuw - je zou in staat moeten zijn om vragen te blijven stellen totdat de tijd om is.
+\--- /task \---
+
+\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
+
+![blocks_1545305912_6229644](images/blocks_1545305912_6229644.png)
+
+\--- /task \---
+
+\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
+
+![blocks_1545305913_6990714](images/blocks_1545305913_6990714.png) \--- /task \---
+
+\--- task \---
+
+Test your project twice: answer one question correctly, and the other incorrectly.
+
+\--- /task \---
+
+\--- task \---
+
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+
+\--- hints \--- \--- hint \---
+
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \--- \--- hint \--- Here is the block you need:
+
+![blocks_1545305914_8944762](images/blocks_1545305914_8944762.png) \--- /hint \--- \--- hint \--- Here is what your code should look like: ![blocks_1545305915_9814396](images/blocks_1545305915_9814396.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
