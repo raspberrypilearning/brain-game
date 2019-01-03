@@ -1,17 +1,7 @@
-\--- challenge \---
+## Challenge: race to 10 points
 
-## Herausforderung: Sound und Musik
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-Kannst du dein Spiel um Geräuscheffekte und Musik erweitern? Zum Beispiel:
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-+ Einen Ton abspielen, wenn der Spieler eine Antwort richtig oder falsch beantwortet;
-+ Deine Uhr um ein Ticken erweitern;
-+ Einen Ton abspielen, wenn die Zeit um ist;
-    
-    ```blocks
-        spiele Schlaginstrument (10 v) für (0.1) Schläge
-    ```
-
-+ Du könntest auch Musik in einer Schleife laufen lassen (wenn du dir nicht sicher bist, wie du das machen kannst, dann wird dir Schritt 4 aus dem 'Rock Band'-Projekt helfen).
-
-\--- /challenge \---
+![blocks_1546522098_9819555](images/blocks_1546522098_9819555.png)
