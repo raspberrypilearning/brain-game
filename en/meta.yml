@@ -4,7 +4,7 @@ listed: true
 copyedit: false
 title: Brain game
 description: Learn how to create a quiz
-version: 4.0.0
+version: 4.0.1
 last_tested: 2018-10-03
 steps:
 - title: Introduction
