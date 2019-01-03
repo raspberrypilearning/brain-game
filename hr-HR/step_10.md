@@ -1,19 +1,9 @@
-\--- challenge \---
+## Challenge: instruction screen
 
-## Izazov: Utrka do 10 bodova
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-Možeš li promijeniti igru ​​tako da, umjesto odgovaranja na što više pitanja u 30 sekundi, igrač provjeri koliko brzo može točno odgovoriti na 10 pitanja?
+![screenshot](images/brain-instructions.png)
 
-To možeš napraviti mijenjanjem kôda brojača. Vidiš li što treba promijeniti?
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
-    kada primim [kreni v]
-postavi [vrijeme v] na (30)
-ponavljaj dok nije <(vrijeme) = [0]>
-čekaj (1) sekundi
-promijeni [vrijeme v] za (-1)
-end
-pošalji [kraj v]
-```
-
-\--- /challenge \---
+![blocks_1546522064_9808652](images/blocks_1546522064_9808652.png)
