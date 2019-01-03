@@ -1,59 +1,55 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+
+\--- /no-print \---
+
 ## Вступ
 
-У цьому проекті ви дізнаєтеся як створити вікторину з відліком часу, у якій потрібно дати якнайбільше правильних відповідей за 30 секунд.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+
+### What you will make
+
+\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Додаткова інформація для керівників гуртка
+\--- /no-print \---
 
-Якщо вам потрібно роздрукувати цей проект, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/brain-game/print).
+\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Нотатки керівника гуртка
+## title: What you will learn
 
-## Вступ:
-
-У цьому проекті діти навчаться створювати гру-вікторину з відліком часу, у якій гравець повинен дати якомога більше правильних відповідей за 30 секунд.
-
-## Ресурси
-
-Для цього проекту слід використовувати Scratch 2. Можна користуватись Scratch 2 онлайн на [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on)або завантажити на[jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) і використовувати офлайн.
-
-Повну версію цього проекту можна знайти [онлайн](http://scratch.mit.edu/projects/42225768/#editor) або завантажити за посиланням "Матеріали проекту":
-
-* BrainGame.sb2
-
-## Мета навчання
-
-* Цей проект закріплює вивчення попередніх навичок програмування та показує, як трансляції можуть використовуватись для створення простої системи меню гри.
-
-Цей проект охоплює елементи з наступних напрямків навчального плану [ Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-* [Для вирішення проблеми об'єднайте конструкції програмування.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Завдання
-
-* "Зміна образів" - зміна вигляду об'єкта гри, що залежить від правильності чи неправильності відповідей;
-* "Створення рахунку" - за кожну правильну відповідь на питання додається бал;
-* "Початковий екран" - змінюється тло сцени у відповідь на `початок`{:class="blockevents"} і `кінець`{:class="blockevents"} передачі повідомлень при створенні 2 ігрових "екранів";
-* "Удосконалення анімації" - використання циклів та графічних ефектів для анімації повідомлень "правильно"/"неправильно";
-* "Звук і музика" - закріплення знань про музичні цикли та звукові ефекти;
-* "Забіг на 10 балів" - зміна ігрової логіки для створення нової мети гри;
-* "Екран з інструкцією" - закріплення використання трансляцій для створення меню гри за допомогою додавання нової кнопки "Інструкції" та екрану.
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Матеріали проекту
+## title: What you will need
 
-## Ресурси керівника гуртка
+### Hardware
 
-* [Завантажте завершений проект Scratch 2](resources/BrainGame.sb2)
-* [Завершений проект Scratch 2 онлайн](http://scratch.mit.edu/projects/42225768/#editor)
++ A computer capable of running Scratch 3
+
+### Software
+
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional notes for educators
+
+\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+
+Find the [solution for this project here](http://rpf.io/p/en/brain-game-go){:target="_blank"}.
 
 \--- /collapse \---
