@@ -1,19 +1,9 @@
-\--- вызов \---
+## Challenge: instruction screen
 
-## Задача: гонка до 10 очков
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-Можете ли вы изменить свою игру, чтобы вместо ответа на столько вопросов, сколько они могут за 30 секунд, игрок должен увидеть, как быстро они могут получить 10 вопросов правильно?
+![screenshot](images/brain-instructions.png)
 
-Для этого вам нужно будет только изменить код таймера. Вы видите, что нужно изменить?
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
-    когда я получаю [start v]
-    установить [время v] в (30)
-    повторить до <(время) = [0]>
-        ждать (1) секунд
-        изменить [время v] на (-1)
-    end
-    broadcast [end v]
-```
-
-\--- /вызов \---
+![blocks_1546522064_9808652](images/blocks_1546522064_9808652.png)
