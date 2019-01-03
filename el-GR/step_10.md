@@ -1,19 +1,9 @@
-\--- challenge \---
+## Challenge: instruction screen
 
-## Πρόκληση: Αγώνας ταχύτητας μέχρι τις δέκα ερωτήσεις
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-Μπορείς να αλλάξεις το παιχνίδι σου, έτσι ώστε αντί να απαντήσει ο παίκτης σε όσο το δυνατόν περισσότερες ερωτήσεις σε 30 δευτερόλεπτα, να πρέπει να δει πόσο γρήγορα μπορεί να απαντήσει 10 ερωτήσεις σωστά;
+![screenshot](images/brain-instructions.png)
 
-Για να γίνει αυτό, θα χρειαστεί μόνο να αλλάξεις τον κώδικα του χρονόμετρου. Μπορείς να δεις τι πρέπει να αλλάξει;
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) secs
-        change [time v] by (-1)
-    end
-    broadcast [end v]
-```
-
-\--- /challenge \---
+![blocks_1546522064_9808652](images/blocks_1546522064_9808652.png)
