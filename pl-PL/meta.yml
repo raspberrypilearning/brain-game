@@ -1,41 +1,31 @@
 ---
 hero_image: images/brain-game.png
-theme: red
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Tabliczka mnożenia
-description: Dowiedz się, jak utworzyć quiz.
-original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+title: Brain game
+description: Learn how to create a quiz
+version: 4.0.0
+last_tested: 2018-10-03
 steps:
   - 
     title: Wprowadzenie
   - 
-    title: Tworzenie pytań
+    title: Create questions
   - 
-    title: 'Wyzwanie: zmiana kostiumów'
+    title: Add a timer
   - 
-    title: 'Wyzwanie: Dodawanie wyniku'
+    title: 'Challenge: add a score and reactions'
   - 
     title: Wielokrotne gry
   - 
-    title: 'Wyzwanie: ekran startowy'
+    title: 'Challenge: create a start screen'
   - 
-    title: Dodawanie grafiki
+    title: Add graphics
   - 
-    title: 'Wyzwanie: ulepszona animacja'
+    title: 'Challenge: sound and music'
   - 
-    title: 'Wyzwanie: dźwięk i muzyka'
+    title: 'Challenge: race to 10 points'
   - 
-    title: 'Wyzwanie: Wyścig do 10 punktów'
+    title: 'Challenge: instruction screen'
   - 
-    title: 'Wyzwanie: okno instrukcji'
+    title: What next?
