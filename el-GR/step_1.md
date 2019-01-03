@@ -1,59 +1,55 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+
+\--- /no-print \---
+
 ## Εισαγωγή
 
-Σε αυτό το έργο θα μάθεις να δημιουργείς ένα κουίζ χρόνου, στο οποίο πρέπει να δώσεις όσες περισσότερες σωστές απαντήσεις μπορείς μέσα σε 30 δευτερόλεπτα.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+
+### What you will make
+
+\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Πρόσθετες πληροφορίες για τους αρχηγούς των ομάδων
+\--- /no-print \---
 
-Αν χρειαστεί να εκτυπώσεις αυτό το έργο, παρακαλούμε να χρησιμοποιήσεις την [εκτυπώσιμη](https://projects.raspberrypi.org/en/projects/brain-game/print) έκδοση.
+\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Σημειώσεις συντονιστή ομάδας
+## title: What you will learn
 
-## Εισαγωγή:
-
-Σε αυτό το έργο, τα παιδιά θα μάθουν πώς να δημιουργούν ένα κουίζ χρόνου, στο οποίο ο παίκτης πρέπει να απαντήσει σωστά σε όσες περισσότερες ερωτήσεις μπορεί μέσα σε 30 δευτερόλεπτα.
-
-## Πόροι
-
-Για το έργο αυτό, θα πρέπει να χρησιμοποιηθεί το Scratch 2. Το Scratch 2 μπορεί είτε να χρησιμοποιηθεί online στο [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) είτε να κατέβει από το [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) και να χρησιμοποιηθεί εκτός σύνδεσης.
-
-Μπορείς να βρεις μια ολοκληρωμένη έκδοση αυτού του έργου [online](http://scratch.mit.edu/projects/42225768/#editor) ή μπορείς να το κατεβάσεις κάνοντας κλικ στο σύνδεσμο «Υλικό έργου» για αυτό το έργο, το οποίο περιέχει:
-
-* BrainGame.sb2
-
-## Στόχοι μάθησης
-
-* Αυτό το έργο βοηθά στην εμπέδωση δεξιοτήτων προγραμματισμού που έχουν διδαχθεί προηγουμένως και δείχνει πώς μπορούν να χρησιμοποιηθούν οι εντολές broadcast ώστε να δημιουργηθεί ένα απλό σύστημα μενού για ένα παιχνίδι.
-
-Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Προγράμματος Μαθημάτων Ψηφιακής Δημιουργίας του Raspberry Pi](http://rpf.io/curriculum):
-
-* [Συνδύασε δομές προγραμματισμού για να λύσεις ένα πρόβλημα.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Προκλήσεις
-
-* "Αλλαγή κοστουμιών" - αλλαγή του τρόπου εμφάνισης του χαρακτήρα του παιχνιδιού ανάλογα με το αν οι απαντήσεις είναι σωστές ή λανθασμένες.
-* "Προσθήκη βαθμολογίας" - πρόσθεση ενός βαθμού για κάθε ερώτηση που απαντήθηκε σωστά.
-* "Οθόνη Εκκίνησης" - αλλαγή του σκηνικού ανάλογα με το broadcast μήνυμα `έναρξης`{:class="blockevents"} και `τέλους`{:class="blockevents"}, δημιουργώντας 2 'οθόνες' για το παιχνίδι μας
-* "Βελτιωμένη κινούμενη εικόνα" - χρήση βρόχων και εφέ για τη βελτίωση της κίνησης των γραφικών σε σωστές και λανθασμένες απαντήσεις.
-* "Ήχος και μουσική" - εμπεδώνοντας την εκμάθηση μουσικών βρόχων και ηχητικών εφέ.
-* "Αγώνας ταχύτητας μέχρι τις 10 απαντήσεις" - αλλάζοντας τη λογική του παιχνιδιού ώστε να δημιουργήσεις ένα νέο στόχο για τον παίκτη.
-* "Οθόνη οδηγιών" - εμπεδώνοντας τη χρήση broadcast μηνυμάτων για τη δημιουργία μενού παιχνιδιού, με την προσθήκη ενός νέου κουμπιού και οθόνης για "οδηγίες".
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Υλικό έργου
+## title: What you will need
 
-## Πόροι συντονιστή ομάδας
+### Hardware
 
-* [Λήψη ολοκληρωμένου έργου σε Scratch 2](resources/BrainGame.sb2)
-* [Online ολοκληρωμένο έργο σε Scratch 2](http://scratch.mit.edu/projects/42225768/#editor)
++ A computer capable of running Scratch 3
+
+### Software
+
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional notes for educators
+
+\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+
+Find the [solution for this project here](http://rpf.io/p/en/brain-game-go){:target="_blank"}.
 
 \--- /collapse \---
