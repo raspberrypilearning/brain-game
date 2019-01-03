@@ -1,19 +1,9 @@
-\--- challenge \---
+## Challenge: instruction screen
 
-## تحدي: سباق حتى 10 نقاط
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-هل يمكنك تغيير لعبتك، بحيث يحاول اللاعب الإجابة عن 10 أسئلة إجابة صحيحة في أسرع وقت ممكن، بدلًا من الإجابة عن أكثر عدد ممكن من الأسئلة خلال 30 ثانية؟
+![screenshot](images/brain-instructions.png)
 
-لفعل ذلك، ستحتاج إلى تغيير التعليمة البرمجية للموقِّت. هل تعرف ما الذي يجب تغييره؟
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
-    عندما تستقبل [start v]
-اجعل [الساعة v] مساوياً (30)
-كرِّر حتى <(time) = [0]> 
-  انتظر (1) ثانية
-  غيِّر [الساعة v] بمقدار (-1)
-end
-بث [end v]
-```
-
-\--- /challenge \---
+![blocks_1546522064_9808652](images/blocks_1546522064_9808652.png)
