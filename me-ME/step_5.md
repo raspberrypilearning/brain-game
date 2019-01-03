@@ -1,74 +1,73 @@
 ## Više igara
 
-Dodajmo u tvoju igru dugme 'Igraj', tako da možeš da je igraš više puta.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
-+ Izradi novi lik (sprite) dugmeta 'Igraj' na koje će tvoj igrač kliknuti da započne novu igru. Možeš sam/sama da ga nacrtaš ili da preurediš lik iz Scratch biblioteke (library).
-    
-    ![screenshot](images/brain-play.png)
+\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-+ Dodaj sljedeći kôd svom novom dugmetu.
-    
-    ```blocks
-        when flag clicked
-        show
-    
-        when this sprite clicked
-        hide
-        broadcast [kreni v]
-    ```
-    
-    Ovaj kôd prikazuje (shows) dugme 'Igraj' kada se započne projekat. Kada se klikne na dugme, ono se sakrije (hide) i šalje poruku da igra započne.
+You can draw the sprite yourself, or edit a sprite from the library.
 
-+ Treba da izmijeniš kôd svog karaktera tako da igra počne kada karakter dobije poruku `kreni`{:class="blockevents"}, a ne kada je kliknuto na zastavicu.
-    
-    Zamijeni kôd `when flag clicked`{:class="blockevents"} (kada je kliknuto na zastavicu) sa `when I receive start`{:class="blockevents"} (kada primim kreni).
-    
-    ![screenshot](images/brain-start.png)
+![Picture of the play button](images/brain-play.png)
 
-+ Klikni na zelenu zastavicu, a zatim klikni na novo dugme 'Igraj' da ga isprobaš. Trebalo bi da vidiš da igra ne počinje sve dok se ne klikne na dugme.
+\--- /task \---
 
-+ Da li primjećuješ da odbrojavanje vremena počinje kada se klikne na zelenu zastavicu, a ne kada igra počne?
-    
-    ![screenshot](images/brain-timer-bug.png)
-    
-    Možeš li da riješiš ovaj problem?
+\--- task \--- Add this code to your button sprite:
 
-+ Klikni na pozornicu (stage) i zamijeni blok `stop all`{:class="blockcontrol"} (zaustavi sve) porukom `kraj`{:class="blockevents"}.
-    
-    ![screenshot](images/brain-end.png)
+![Button sprite](images/button-sprite.png)
 
-+ Sada možeš da dodaš kôd svom dugmetu da se ponovo prikaže na kraju svake igre.
-    
-    ```blocks
-        when I receive [kraj v]
-        show
-    ```
+![blocks_1545305921_6740985](images/blocks_1545305921_6740985.png)
 
-+ Takođe je potrebno da zaustaviš svog karaktera da postavlja pitanja na kraju svake igre:
-    
-    ```blocks
-        when I receive [kraj v]
-        stop [other scripts in sprite v]
-    ```
+\--- /task \---
 
-+ Isprobaj dugme 'Igraj' tako što ćeš odigrati nekoliko partija. Trebalo bi da vidiš da se dugme 'Igraj' pojavljuje nakon svake partije. Da olakšaš isprobavanje, svaku partiju možeš da skratiš, tako da traje samo nekoliko sekundi.
-    
-    ```blocks
-        set [vrijeme v] to [10]
-    ```
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-+ Možeš čak i da napraviš da se izgled dugmeta promijeni kada se mišem pređe preko njega.
-    
-    ```blocks
-        when flag clicked
-        show
-        forever
-        if <touching [mouse-pointer v]?> then
-            set [fisheye v] effect to (30)
-        else
-            set [fisheye v] effect to (0)
-        end
-        end
-    ```
-    
-    ![screenshot](images/brain-fisheye.png)
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+
+\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
+
+![blocks_1545305922_804054](images/blocks_1545305922_804054.png) \--- /task \---
+
+\--- task \---
+
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+
+\--- /task \---
+
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+
+![Timer has started](images/brain-timer-bug.png)
+
+\--- task \---
+
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
+
+\--- /task \---
+
+\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
+
+![blocks_1545305924_03983](images/blocks_1545305924_03983.png) \--- /task \---
+
+\--- task \---
+
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+
+![Stage](images/stage-sprite.png)
+
+![blocks_1545305925_1097581](images/blocks_1545305925_1097581.png)
+
+\--- /task \---
+
+\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
+
+![blocks_1545305926_1618237](images/blocks_1545305926_1618237.png)
+
+![screenshot](images/brain-fisheye.png) \--- /task \---
