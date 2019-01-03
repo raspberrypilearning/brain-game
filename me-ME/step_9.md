@@ -1,17 +1,7 @@
-\--- challenge \---
+## Challenge: race to 10 points
 
-## Izazov: Zvuk i muzika
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-Možeš li da dodaš zvučne efekte i muziku u svoju igru? Na primjer:
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-+ Da se začuje zvuk kada igrač odgovori tačno ili netačno;
-+ Da se čuju otkucaji tokom odbrojavanja vremena;
-+ Da se začuje zvuk kada istekne vrijeme;
-    
-    ```blocks
-        play drum (10 v) for (0.1) beats
-    ```
-
-+ Takođe možeš da napraviš da stalno svira muzika u petlji (ako ne znaš kako to da napraviš, projekat 'Rok grupa' će ti pomoći).
-
-\--- /challenge \---
+![blocks_1546522098_9819555](images/blocks_1546522098_9819555.png)
