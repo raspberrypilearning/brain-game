@@ -1,43 +1,63 @@
-## Δημιουργία ερωτήσεων
+## Create questions
 
-Ας ξεκινήσουμε δημιουργώντας τυχαίες ερωτήσεις για να απαντήσει ο παίκτης.
+You're going to start by creating random questions that the player has to answer.
 
-+ Ξεκίνησε ένα νέο έργο Scratch και διέγραψε το αντικείμενο (sprite) της γάτας έτσι ώστε το έργο να είναι άδειο. Μπορείς να βρεις τον online επεξεργαστή Scratch στο <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
+\--- task \---
 
-+ Επίλεξε έναν χαρακτήρα και ένα σκηνικό για το παιχνίδι σου. Μπορείς να επιλέξεις ότι σου αρέσει! Ακολουθεί ένα παράδειγμα:
-    
-    ![screenshot](images/brain-setting.png)
+Open a new Scratch project.
 
-+ Δημιούργησε 2 νέες μεταβλητές που ονομάζονται `number 1`{:class="blockdata"} (αριθμός 1) και `number 2`{:class="blockdata"} (αριθμός 2). Αυτές οι μεταβλητές θα αποθηκεύσουν τους 2 αριθμούς που θα πολλαπλασιαστούν μαζί.
-    
-    ![screenshot](images/brain-variables.png)
+**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
 
-+ Πρόσθεσε κώδικα στον χαρακτήρα σου, ώστε να ορίσεις και για τις δύο αυτές μεταβλητές μία `τυχαία`{:class="blockoperators"} τιμή μεταξύ 2 και 12.
-    
-    ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
-    ```
+**Offline:** open a new project in the offline editor.
 
-+ Στη συνέχεια, μπορείς να ζητήσεις από τον παίκτη την απάντηση και να τον ενημερώσεις εάν ήταν σωστή ή λανθασμένη.
-    
-    ```blocks
-        when flag clicked
-        set [number 1 v] to (pick random (2) to (12))
-        set [number 2 v] to (pick random (2) to (12))
-        ask (join (number 1)(join [ x ] (number 2))) and wait
-        if <(answer) = ((number 1)*(number 2))> then
-            say [yes! :)] for (2) secs
-        else
-            say [nope :(] for (2) secs
-        end
-    ```
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-+ Δοκίμασε όλο το σενάριο, απαντώντας σωστά σε μία ερώτηση και λάθος σε μία άλλη.
+\--- /task \---
 
-+ Πρόσθεσε ένα βρόχο `forever`{:class="blockcontrol"} ώστε να περιλαμβάνει αυτόν τον κώδικα, για να τεθούν πολλές ερωτήσεις στον παίκτη.
+\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
-+ Δημιούργησε ένα χρονόμετρο αντίστροφης μέτρησης στο σκηνικό, χρησιμοποιώντας μια μεταβλητή που ονομάζεται `time`{:class="blockdata"} (χρόνος). Το έργο "Κυνηγοί Φαντασμάτων" έχει οδηγίες για τη δημιουργία ενός χρονομετρητή (στο βήμα 5) εάν χρειάζεσαι βοήθεια!
+![screenshot](images/brain-setting.png)
 
-+ Δοκίμασε ξανά το έργο σου - θα πρέπει να είσαι σε θέση να συνεχίσεις να υποβάλλεις ερωτήσεις μέχρι να τελειώσει ο χρόνος.
+\--- /task \---
+
+\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
+
+![blocks_1545305912_6229644](images/blocks_1545305912_6229644.png)
+
+\--- /task \---
+
+\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
+
+![blocks_1545305913_6990714](images/blocks_1545305913_6990714.png) \--- /task \---
+
+\--- task \---
+
+Test your project twice: answer one question correctly, and the other incorrectly.
+
+\--- /task \---
+
+\--- task \---
+
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+
+\--- hints \--- \--- hint \---
+
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \--- \--- hint \--- Here is the block you need:
+
+![blocks_1545305914_8944762](images/blocks_1545305914_8944762.png) \--- /hint \--- \--- hint \--- Here is what your code should look like: ![blocks_1545305915_9814396](images/blocks_1545305915_9814396.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
