@@ -1,17 +1,7 @@
-\--- challenge \---
+## Challenge: race to 10 points
 
-## تحدي: الصوت والموسيقى
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-هل يمكنك إضافة مؤثرات صوتية وموسيقى للعبتك؟ على سبيل المثال:
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-+ تشغيل صوت عندما يُجيب اللاعب إجابة صحيحة أو خاطئة؛
-+ إضافة صوت تكتكة إلى موقِّت العد التنازلي؛
-+ تشغيل صوت عند انتهاء الوقت؛
-    
-    ```blocks
-        دقَّ الطبل (10 v) لمدة (0.1) وحدة إيقاع
-    ```
-
-+ يمكنك أيضًا تشغيل الموسيقى باستمرار في حلقة تكرار (إذا لم تكن تعرف كيف تقوم بذلك، فستساعدك الخطوة 4 من مشروع 'فرقة الروك الموسيقى' على القيام بذلك).
-
-\--- /challenge \---
+![blocks_1546522098_9819555](images/blocks_1546522098_9819555.png)
