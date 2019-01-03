@@ -1,41 +1,31 @@
 ---
 hero_image: images/brain-game.png
-theme: red
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Mozgalica
-description: Naučite izraditi kviz.
-original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+title: Brain game
+description: Learn how to create a quiz
+version: 4.0.0
+last_tested: 2018-10-03
 steps:
   - 
     title: Uvod
   - 
-    title: Izrada pitanja
+    title: Create questions
   - 
-    title: 'Izazov: Promjena kostima'
+    title: Add a timer
   - 
-    title: 'Izazov: Dodavanje rezultata'
+    title: 'Challenge: add a score and reactions'
   - 
     title: Više igara
   - 
-    title: 'Izazov: Početni zaslon'
+    title: 'Challenge: create a start screen'
   - 
-    title: Dodavanje grafike
+    title: Add graphics
   - 
-    title: 'Izazov: Poboljšavanje animacije'
+    title: 'Challenge: sound and music'
   - 
-    title: 'Izazov: Zvuk i glazba'
+    title: 'Challenge: race to 10 points'
   - 
-    title: 'Izazov: Utrka do 10 bodova'
+    title: 'Challenge: instruction screen'
   - 
-    title: 'Izazov: Ekran s uputama'
+    title: What next?
