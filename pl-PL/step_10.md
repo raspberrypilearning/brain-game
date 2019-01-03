@@ -1,19 +1,9 @@
-\--- challenge \---
+## Challenge: instruction screen
 
-## Wyzwanie: Wyścig do 10 punktów
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-Czy możesz zmienić swoją grę, aby zamiast odpowiadać na pytania w ciągu 30 sekund, gracz musi sprawdzić, jak szybko mogą poprawnie odpowiedzieć na 10 pytań?
+![screenshot](images/brain-instructions.png)
 
-Aby to zrobić, musisz tylko zmienić kod stopera. Czy widzisz, co trzeba zmienić?
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
-    kiedy otrzymam [start v]
-  ustaw [czas v] na (30)
-  powtarzaj aż <(czas) =[0]>
-      czekaj(1) s
-      zmień [czas v] o (-1)
-  koniec
-  nadaj [ koniec v]
-```
-
-\--- /challenge \---
+![blocks_1546522064_9808652](images/blocks_1546522064_9808652.png)
