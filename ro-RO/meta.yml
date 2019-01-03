@@ -1,41 +1,31 @@
 ---
 hero_image: images/brain-game.png
-theme: red
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Jocul Minții
-description: Învățați cum să creați un chestionar.
-original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
-interests: jocuri
-technologies: scratch
-site_areas: proiecte
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017-01-01
+title: Brain game
+description: Learn how to create a quiz
+version: 4.0.0
+last_tested: 2018-10-03
 steps:
   - 
     title: Introducere
   - 
-    title: Crearea întrebărilor
+    title: Create questions
   - 
-    title: 'Provocare: Schimbarea costumelor'
+    title: Add a timer
   - 
-    title: 'Provocare: adăugarea unui scor'
+    title: 'Challenge: add a score and reactions'
   - 
     title: Mai multe jocuri
   - 
-    title: 'Provocare: Ecranul de start'
+    title: 'Challenge: create a start screen'
   - 
-    title: Adăugarea de conținut vizual
+    title: Add graphics
   - 
-    title: 'Provocare: animație îmbunătățită'
+    title: 'Challenge: sound and music'
   - 
-    title: 'Provocare: Sunete și muzică'
+    title: 'Challenge: race to 10 points'
   - 
-    title: 'Provocare: Cursă până la 10 puncte'
+    title: 'Challenge: instruction screen'
   - 
-    title: 'Provocare: Ecran cu instrucțiuni'
+    title: What next?
