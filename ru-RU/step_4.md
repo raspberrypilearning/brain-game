@@ -1,7 +1,11 @@
-\--- вызов \---
+## Challenge: add a score and reactions
 
-## Задача: добавление оценки
+Can you add a score to your game?
 
-Можете ли вы добавить счет в свою игру? Вы можете добавить точку для каждого правильного ответа. Если вы чувствуете скупость, вы можете даже сбросить счет игрока до 0, если они ошибаются!
+You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
-\--- /вызов \---
+[[[generic-scratch3-high-score]]]
+
+Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+
+![screenshot](images/brain-costume.png)
