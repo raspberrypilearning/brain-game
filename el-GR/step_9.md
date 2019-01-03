@@ -1,17 +1,7 @@
-\--- challenge \---
+## Challenge: race to 10 points
 
-## Πρόκληση: Ήχος και μουσική
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-Μπορείς να προσθέσεις ηχητικά εφέ και μουσική στο παιχνίδι σου; Για παράδειγμα:
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-+ Αναπαραγωγή ήχου όταν ο παίκτης δίνει μια σωστή ή λανθασμένη απάντηση.
-+ Προσθήκη ήχου ρολογιού στο χρονόμετρο αντίστροφης μέτρησης.
-+ Αναπαραγωγή ήχου όταν ο χρόνος έχει τελειώσει.
-    
-    ```blocks
-        play drum (10 v) for (0.1) beats
-    ```
-
-+ Μπορείς επίσης να παίζεις συνεχώς μουσική (αν δεν είσαι βέβαιος πώς να το κάνεις αυτό, το βήμα 4 του έργου 'Ροκ Μπάντα' θα σε βοηθήσει).
-
-\--- /challenge \---
+![blocks_1546522098_9819555](images/blocks_1546522098_9819555.png)
