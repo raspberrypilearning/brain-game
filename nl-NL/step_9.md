@@ -1,17 +1,7 @@
-\--- challenge \---
+## Challenge: race to 10 points
 
-## Challenge: Geluid en muziek
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-Kun je geluidseffecten en muziek aan je spel toevoegen? Bijvoorbeeld:
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-+ Een geluid afspelen als de speler een goed of fout antwoord geeft;
-+ Een tikkend geluid toevoegen aan je afteltimer;
-+ Een geluid afspelen als de tijd om is;
-    
-    ```blocks
-        speel slagwerk (10 v) (0.1) tellen
-    ```
-
-+ Je kunt ook constant muziek afspelen in een lus (als je niet zeker weet hoe je dit moet doen, zal stap 4 van het 'Rock Band'-project je helpen).
-
-\--- /challenge \---
+![blocks_1546522098_9819555](images/blocks_1546522098_9819555.png)
