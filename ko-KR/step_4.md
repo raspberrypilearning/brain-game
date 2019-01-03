@@ -1,7 +1,11 @@
-\--- 도전 \---
+## Challenge: add a score and reactions
 
-## 도전: 점수 추가
+Can you add a score to your game?
 
-게임에 점수를 추가 할 수 있습니까? 모든 정답에 대해 포인트를 추가 할 수 있습니다. 평균을 느끼는 경우, 질문을 잘못하면 점수를 0으로 재설정 할 수도 있습니다!
+You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
-\--- /도전 \---
+[[[generic-scratch3-high-score]]]
+
+Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+
+![screenshot](images/brain-costume.png)
