@@ -1,41 +1,31 @@
 ---
 hero_image: images/brain-game.png
-theme: rød
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-title: Hjernespillet
-description: Lær at lave en quiz.
-original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
-interests: spil
-technologies: scratch
-site_areas: projekter
-hardware: ''
-software: scratch
-version: 3
-last_tested: 2017/01/01
+title: Brain game
+description: Learn how to create a quiz
+version: 4.0.0
+last_tested: 2018-10-03
 steps:
   - 
     title: Introduktion
   - 
-    title: Hvordan man laver spørgsmål
+    title: Create questions
   - 
-    title: 'Udfordring: Ændring af kostumer'
+    title: Add a timer
   - 
-    title: 'Udfordring: Tilføjelse af en score'
+    title: 'Challenge: add a score and reactions'
   - 
     title: Mange spil
   - 
-    title: 'Udfordring: Startskærmen'
+    title: 'Challenge: create a start screen'
   - 
-    title: Tilføjelse af grafik
+    title: Add graphics
   - 
-    title: 'Udfordring: Forbedret animation'
+    title: 'Challenge: sound and music'
   - 
-    title: 'Udfordring: Lyd og musik'
+    title: 'Challenge: race to 10 points'
   - 
-    title: 'Udfordring: Kapløb til 10 point'
+    title: 'Challenge: instruction screen'
   - 
-    title: 'Udfordring: Instruktionsskærm'
+    title: What next?
