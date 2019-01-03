@@ -1,19 +1,9 @@
-\--- challenge \---
+## Challenge: instruction screen
 
-## Udfordring: Kapløb til 10 point
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-Kan du ændre dit spil, så i stedet for at besvare så mange spørgsmål som muligt inden for 30 sekunder, skal spilleren se, hvor hurtigt de kan få 10 spørgsmål korrekt?
+![screenshot](images/brain-instructions.png)
 
-For at gøre dette skal du kun ændre din timerkode. Kan du se, hvad der skal ændres?
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) secs
-        change [time v] by (-1)
-    end
-    broadcast [end v]
-```
-
-\--- /challenge \---
+![blocks_1546522064_9808652](images/blocks_1546522064_9808652.png)
