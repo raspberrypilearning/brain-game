@@ -1,43 +1,63 @@
-## Создание вопросов
+## Create questions
 
-Начнем с создания случайных вопросов для игрока.
+You're going to start by creating random questions that the player has to answer.
 
-+ Начните новый проект Scratch и удалите кошачий спрайт, чтобы ваш проект пуст. Вы можете найти онлайн-редактор Scratch по адресу <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
+\--- task \---
 
-+ Выберите персонажа и фона для вашей игры. Вы можете выбрать любой понравившийся! Вот пример:
-    
-    ![Скриншот](images/brain-setting.png)
+Open a new Scratch project.
 
-+ Создайте 2 новые переменные, которые называются `number 1`{: class = "blockdata"} и `number 2`{: class = "blockdata"}. Эти переменные будут хранить 2 числа, которые будут умножены вместе.
-    
-    ![Скриншот](images/brain-variables.png)
+**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
 
-+ Добавьте код в свой символ, чтобы установить обе эти переменные в `случайных`{: class = "blockoperators"} число от 2 до 12.
-    
-    ```blocks
-        при нажатии флага
-        установите [номер 1 v] на (выберите случайное (2) - (12))
-        установите [число 2 v] на (выберите случайное (2) - (12))
-    ```
+**Offline:** open a new project in the offline editor.
 
-+ Затем вы можете попросить игрока ответить и сообщить им, были ли они правильными или неправильными.
-    
-    ```blocks
-        при выборе флага
-        установите [число 1 v] на (выберите случайное (2) - (12))
-        установите [число 2 v] на (выберите случайное (2) - (12))
-        ask (join (номер 1) присоедините [x] (номер 2))) и подождите
-        если <(ответ) = ((номер 1) * (номер 2))> затем
-            скажите [да! :)] for (2) secs
-        else
-            say [nope :(] для (2) secs
-        end
-    ```
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-+ Полностью проверьте свой проект, правильно ответив на один вопрос, а другой - на неправильный ответ.
+\--- /task \---
 
-+ Добавьте `forever`{: class = "blockcontrol"} вокруг этого кода, так что игроку задают много вопросов.
+\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
-+ Создайте таймер обратного отсчета на сцене, используя переменную с именем `time`{: class = "blockdata"}. Проект «Ghostbusters» имеет инструкции для создания таймера (на шаге 5), если вам нужна помощь!
+![screenshot](images/brain-setting.png)
 
-+ Проверьте свой проект еще раз - вы должны быть в состоянии продолжать задавать вопросы, пока не закончится время.
+\--- /task \---
+
+\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
+
+![blocks_1545305912_6229644](images/blocks_1545305912_6229644.png)
+
+\--- /task \---
+
+\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
+
+![blocks_1545305913_6990714](images/blocks_1545305913_6990714.png) \--- /task \---
+
+\--- task \---
+
+Test your project twice: answer one question correctly, and the other incorrectly.
+
+\--- /task \---
+
+\--- task \---
+
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+
+\--- hints \--- \--- hint \---
+
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \--- \--- hint \--- Here is the block you need:
+
+![blocks_1545305914_8944762](images/blocks_1545305914_8944762.png) \--- /hint \--- \--- hint \--- Here is what your code should look like: ![blocks_1545305915_9814396](images/blocks_1545305915_9814396.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
