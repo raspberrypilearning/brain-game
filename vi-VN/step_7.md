@@ -1,43 +1,85 @@
-## Adding graphics
+## Add graphics
 
-Instead of your character just saying `yes! :)` or `nope :(` to the player, let's add some graphics that will let the player know how they are doing.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
-+ Create a new sprite called 'Result', containing both a 'tick' and a 'cross' costume.
-    
-    ![screenshot](images/brain-result.png)
+\--- task \---
 
-+ Change your character's code, so that instead of telling the player how they did, it broadcasts `correct`{:class="blockevents"} and `wrong`{:class="blockevents"} messages instead.
-    
-    ![screenshot](images/brain-broadcast-answer.png)
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-+ You can now use these messages to show the 'tick' or 'cross' costume. Add this code to your new 'Result' sprite:
-    
-    ![screenshot](images/brain-show-answer.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
-+ Test out your game again. You should see a tick whenever you get a question correct, and a cross whenever you get one wrong!
-    
-    ![screenshot](images/brain-test-answer.png)
+\--- /task \---
 
-+ Have you noticed that the code for `when I receive correct`{:class="blockevents"} and `when I receive wrong`{:class="blockevents"} is nearly identical? Let's create a function to make it easier for you to make changes to your code.
-    
-    On your 'Result' sprite, click `More Blocks`{:class="blockmoreblocks"}, and then 'Make a Block'. Create a new function called `animate`{:class="blockmoreblocks"}.
-    
-    ![screenshot](images/brain-animate-function.png)
+\--- task \---
 
-+ You can then add the animation code into your new animation function, and then just use the function twice:
-    
-    ![screenshot](images/brain-use-function.png)
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-+ Now, if you want to show the tick and the cross for a longer or shorter time, you only need to make one change to your code. Try it!
+![Character sprite](images/giga-sprite.png)
 
-+ Instead of just showing and hiding the tick and the cross, you could change your animation function, so that the graphics fade in.
-    
-    ```blocks
-        define [animate]
-        set [ghost v] effect to (100)
-        show
-        repeat (25)
-            change [ghost v] effect by (-4)
-        end
-        hide
-    ```
+![blocks_1546522089_0997837](images/blocks_1546522089_0997837.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+
+![Result sprite](images/result-sprite.png)
+
+![blocks_1546522090_7473073](images/blocks_1546522090_7473073.png)
+
+\--- /task \---
+
+\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+
+\--- /task \---
+
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+
+So you can change your code more easily, you are going to create a custom block.
+
+\--- task \---
+
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+
+![Result sprite](images/result-sprite.png)
+
+![Create a block called animate](images/brain-animate-function.png)
+
+\--- /task \---
+
+\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
+
+![blocks_1546522092_426247](images/blocks_1546522092_426247.png) \--- /task \---
+
+\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
+
+![blocks_1546522094_0312188](images/blocks_1546522094_0312188.png)
+
+\--- /task \---
+
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+
+\--- task \---
+
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+
+\--- /task \---
+
+\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+
+![Result sprite](images/result-sprite.png)
+
+![blocks_1546522095_674256](images/blocks_1546522095_674256.png) \--- /task \---
+
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+
+![screenshot](images/brain-effects.png)
