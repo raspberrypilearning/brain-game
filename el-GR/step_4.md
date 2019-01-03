@@ -1,7 +1,11 @@
-\--- challenge \---
+## Challenge: add a score and reactions
 
-## Πρόκληση: Προσθήκη βαθμολογίας
+Can you add a score to your game?
 
-Μπορείς να προσθέσεις βαθμολογία στο παιχνίδι σου; Μπορείς να προσθέτεις ένα βαθμό για κάθε σωστή απάντηση. Εάν θέλεις να το παίξεις κακός, θα μπορούσες ακόμη και να επαναφέρεις το σκορ του παίκτη στο 0 αν απαντήσει σε μια ερώτηση λάθος!
+You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
-\--- /challenge \---
+[[[generic-scratch3-high-score]]]
+
+Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+
+![screenshot](images/brain-costume.png)
