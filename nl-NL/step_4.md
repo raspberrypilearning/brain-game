@@ -1,7 +1,11 @@
-\--- challenge \---
+## Challenge: add a score and reactions
 
-## Challenge: een score toevoegen
+Can you add a score to your game?
 
-Kun je een score toevoegen aan je game? Je kunt een punt toevoegen voor elk correct antwoord. Als je gemeen bent, kun je zelfs de score van de speler op 0 zetten als ze een vraag verkeerd hebben!
+You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
-\--- /challenge \---
+[[[generic-scratch3-high-score]]]
+
+Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+
+![screenshot](images/brain-costume.png)
