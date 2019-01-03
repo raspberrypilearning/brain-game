@@ -1,59 +1,55 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+
+\--- /no-print \---
+
 ## Uvod
 
-U ovom projektu ćeš naučiti kako izraditi kviz u kojem igrač treba točno odgovoriti na što više pitanja u 30 sekundi.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+
+### What you will make
+
+\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/42225768/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-### Dodatne informacije za voditelje kluba
+\--- /no-print \---
 
-Ako želite ispisati ovaj projekt, molimo Vas da koristite [verziju koja je prilagođena za ispis](https://projects.raspberrypi.org/en/projects/brain-game/print).
+\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Bilješke za voditelja kluba
+## title: What you will learn
 
-## Uvod:
-
-U ovom projektu djeca će naučiti kako napraviti tabličnu igru ​​s mjeračem vremena, u kojoj igrač mora točno odgovoriti na što je moguće više pitanja u 30 sekundi.
-
-## Resursi
-
-Za ovaj projekt treba koristiti Scratch 2. Scratch 2 se može koristiti online na [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ili se može preuzeti s [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) i koristiti offline.
-
-Dovršenu verziju ovog projekta možete pronaći [online](http://scratch.mit.edu/projects/42225768/#editor) ili preuzeti na poveznici 'Materijali projekta' koja sadrži:
-
-* BrainGame.sb2
-
-## Ishodi učenja
-
-* Ovaj projekt objedinjuje prethodno znanje o programiranju i pokazuje kako se prijenos poruka može koristiti za izradu jednostavnog izbornika za igricu.
-
-Ovaj projekt obuhvaća elemente iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) nastavnog plana i programa:
-
-* [Uporaba različitih programskih struktura za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Izazovi
-
-* "Promjena kostima" - mijenjanje izgleda lika u odnosu na točne i netočne odgovore;
-* "Dodavanje rezultata" - dodavanje boda za svako ispravno odgovoreno pitanje;
-* "Početni zaslon" - promjena pozadine pozornice u odnosu na `start`{:class="blockevents"} i `end`{:class="blockevents"} poruke, čime se kreiraju dva 'ekrana' za igru;
-* "Poboljšavanje animacije" - korištenje petlji i efekata za poboljšanje animacije;
-* "Zvuk i glazba" - objedinjavanje naučenog o glazbenim petljama i zvučnim efektima;
-* "Utrka do 10 bodova" - promjena logike igre kako bi se stvorio novi cilj igre;
-* "Zaslon sa uputama" - objedinjavanje slanja poruka kako bi se izradio izbornik igre dodavanjem novog gumba 'upute' i zaslona.
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Materijali projekta
+## title: What you will need
 
-## Resursi za voditelja kluba
+### Hardware
 
-* [Dovršeni Scratch 2 projekt dostupan za preuzimanje](resources/BrainGame.sb2)
-* [Dovršeni online Scratch 2 projekt](http://scratch.mit.edu/projects/42225768/#editor)
++ A computer capable of running Scratch 3
+
+### Software
+
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional notes for educators
+
+\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+
+Find the [solution for this project here](http://rpf.io/p/en/brain-game-go){:target="_blank"}.
 
 \--- /collapse \---
