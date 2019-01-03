@@ -1,19 +1,9 @@
-\--- 도전 \---
+## Challenge: instruction screen
 
-## 과제: 10 점까지의 레이스
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-그들은 30 초 내에 많은 질문에 대답 하는 대신 플레이어가 얻을 수 있는 10개 질문이 게임을 올바르게 변경할 수 있습니까?
+![screenshot](images/brain-instructions.png)
 
-이렇게 하려면, 타이어 코드만 변경하면 됩니다. 무엇을 변경해야 볼 수 있습니까?
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
-```blocks
-    [시작 v] 를 받을 때
-    [time v] 에 (30) 을 설정
-    <(time) = [0]> 까지 반복
-        (1) 초 대기
-        [time v] 를 (-1) 로 변경
-    끝
-    [끝 v] 선언
-```
-
-\--- /도전 \---
+![blocks_1546522064_9808652](images/blocks_1546522064_9808652.png)
