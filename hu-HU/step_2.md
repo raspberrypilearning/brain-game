@@ -32,7 +32,11 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 ![screenshot](images/giga-sprite.png)
 
-![blocks_1546522067_7563314](images/blocks_1546522067_7563314.png)
+```blocks3
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+```
 
 \--- /task \---
 
@@ -40,7 +44,20 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 ![screenshot](images/giga-sprite.png)
 
-![blocks_1546522069_3830361](images/blocks_1546522069_3830361.png) \--- /task \---
+```blocks3
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -58,6 +75,28 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 
 \--- /hint \--- \--- hint \--- Here is the block you need:
 
-![blocks_1546522071_116141](images/blocks_1546522071_116141.png) \--- /hint \--- \--- hint \--- Here is what your code should look like: ![blocks_1546522072_739986](images/blocks_1546522072_739986.png) \--- /hint \--- \--- /hints \---
+```blocks3
+forever
+end
+```
+
+\--- /hint \--- \--- hint \--- Here is what your code should look like:
+
+```blocks3
+when flag clicked
+
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
+```
+
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
