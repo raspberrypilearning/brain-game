@@ -14,7 +14,14 @@ You can draw the sprite yourself, or edit a sprite from the library.
 
 ![Button sprite](images/button-sprite.png)
 
-![blocks_1546522081_0195825](images/blocks_1546522081_0195825.png)
+```blocks3
+    when flag clicked
+    show
+
+    when this sprite clicked
+    hide
+    broadcast (start v)
+```
 
 \--- /task \---
 
@@ -28,7 +35,20 @@ At the moment, the character sprite starts asking questions when the player clic
 
 ![Character sprite](images/giga-sprite.png)
 
-![blocks_1546522082_6086671](images/blocks_1546522082_6086671.png) \--- /task \---
+```blocks3
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if &lt;(answer) = ((number 1)*(number 2))&gt; then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -50,7 +70,12 @@ Can you change the code for the timer so that the timer starts when the player c
 
 ![Button sprite](images/button-sprite.png)
 
-![blocks_1546522084_2958853](images/blocks_1546522084_2958853.png) \--- /task \---
+```blocks3
+    when I receive [end v]
+    show
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -60,7 +85,9 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 ![Stage](images/stage-sprite.png)
 
-![blocks_1546522085_863439](images/blocks_1546522085_863439.png)
+```blocks3
+    set [time v] to [10]
+```
 
 \--- /task \---
 
@@ -68,6 +95,16 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 ![Button](images/button-sprite.png)
 
-![blocks_1546522087_4507313](images/blocks_1546522087_4507313.png)
+```blocks3
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
+```
 
 ![screenshot](images/brain-fisheye.png) \--- /task \---
