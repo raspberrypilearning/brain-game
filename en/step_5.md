@@ -16,7 +16,14 @@ Add this code to your button sprite:
 
 ![Button sprite](images/button-sprite.png)
 
-![blocks_1546522081_0195825](images/blocks_1546522081_0195825.png)
+```blocks3
+	when flag clicked
+	show
+
+	when this sprite clicked
+	hide
+	broadcast (start v)
+```
 
 
 --- /task ---
@@ -32,7 +39,18 @@ Select your character sprite and, in its code section, replace the `when flag cl
 
 ![Character sprite](images/giga-sprite.png)
 
-![blocks_1546522082_6086671](images/blocks_1546522082_6086671.png)
+```blocks3
+- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+	say [yes! :)] for (2) seconds
+else
+	say [nope :(] for (2) seconds
+end
+```
 --- /task ---
 
 --- task ---
@@ -56,7 +74,10 @@ Add code to your button sprite so that the button shows again at the end of each
 
 ![Button sprite](images/button-sprite.png)
 
-![blocks_1546522084_2958853](images/blocks_1546522084_2958853.png)
+```blocks3
+	when I receive [end v]
+	show
+```
 --- /task ---
 
 --- task ---
@@ -67,7 +88,9 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 ![Stage](images/stage-sprite.png)
 
-![blocks_1546522085_863439](images/blocks_1546522085_863439.png)
+```blocks3
+	set [time v] to [10]
+```
 
 --- /task ---
 
@@ -76,7 +99,17 @@ You can change how the button looks when the mouse pointer hovers over it.
 
 ![Button](images/button-sprite.png)
 
-![blocks_1546522087_4507313](images/blocks_1546522087_4507313.png)
+```blocks3
+	when flag clicked
+	show
+	forever
+	if <touching (mouse-pointer v)?> then
+		set [fisheye v] effect to (30)
+	else
+		set [fisheye v] effect to (0)
+	end
+	end
+```
 
 ![screenshot](images/brain-fisheye.png)
 --- /task ---
