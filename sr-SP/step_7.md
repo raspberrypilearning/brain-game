@@ -16,7 +16,16 @@ Change your character sprite's code so that, instead of saying something to the 
 
 ![Character sprite](images/giga-sprite.png)
 
-![blocks_1546522089_0997837](images/blocks_1546522089_0997837.png)
+```blocks3
+if <(answer) = ((number 1)*(number 2))> then
+
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
+```
 
 \--- /task \---
 
@@ -26,7 +35,22 @@ Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cr
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1546522090_7473073](images/blocks_1546522090_7473073.png)
+```blocks3
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
+
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
+
+    when flag clicked
+    hide
+```
 
 \--- /task \---
 
@@ -54,7 +78,14 @@ Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, 
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1546522092_426247](images/blocks_1546522092_426247.png) \--- /task \---
+```blocks3
+define animate
+show
+wait (1) seconds
+hide
+```
+
+\--- /task \---
 
 \--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
@@ -62,7 +93,15 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1546522094_0312188](images/blocks_1546522094_0312188.png)
+```blocks3
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
+
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
+```
 
 \--- /task \---
 
@@ -78,7 +117,17 @@ Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1546522095_674256](images/blocks_1546522095_674256.png) \--- /task \---
+```blocks3
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
+```
+
+\--- /task \---
 
 Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
