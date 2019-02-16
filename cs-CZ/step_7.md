@@ -4,7 +4,7 @@ Zatím tvá postava reaguje na hráčovy odpovědi bublinkou `jo! :)` nebo `ne :
 
 \--- task \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+Vytvoř novou postavu 'Výsledek' a přidej ji kostým 'Fajfka' a 'Křížek'.
 
 ![Sprite with tick and cross costumes](images/brain-result.png)
 
