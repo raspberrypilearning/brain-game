@@ -8,9 +8,9 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 V tomto projektu vytvoříte hru, ve které hráč během 30 sekund odpovídá na matematické kvízy a snaží se získat co nejvíce bodů za správné odpovědi.
 
-### What you will make
+### Co vytvoříš
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+Hru spustíš kliknutím na zelenou vlajku. Odpověz na otázku a stiskni klávesu <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
