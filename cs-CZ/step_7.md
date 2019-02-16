@@ -6,7 +6,7 @@ Zatím tvá postava reaguje na hráčovy odpovědi bublinkou `jo! :)` nebo `ne :
 
 Vytvoř novou postavu 'Výsledek' a přidej ji kostým 'Fajfka' a 'Křížek'.
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![Postava s kostýmem fajfky a křížku](images/brain-result.png)
 
 \--- /task \---
 
@@ -14,7 +14,7 @@ Vytvoř novou postavu 'Výsledek' a přidej ji kostým 'Fajfka' a 'Křížek'.
 
 Uprav scénář u postavy tak, aby namísto povídání odesílala `zprávu`{:class="block3events"} 'správně' nebo 'špatně'.
 
-![Character sprite](images/giga-sprite.png)
+![Postava](images/giga-sprite.png)
 
 ```blocks3
 if <(answer) = ((number 1)*(number 2))> then
@@ -33,7 +33,7 @@ end
 
 Teď můžeš díky zprávám `zobrazit` kostým 'fajfky' nebo 'křížku'. Přidej následující kód ke scénaři postavy 'Výsledek':
 
-![Result sprite](images/result-sprite.png)
+![Postava Výsledek](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -56,7 +56,7 @@ Teď můžeš díky zprávám `zobrazit` kostým 'fajfky' nebo 'křížku'. Při
 
 \--- task \--- Čas na testování! Po každé správné odpovědi by se ti měla zobrazit fajka a křížek po každé chybě.
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![Fajfka pro správnou, křížek pro špatnou odpověď](images/brain-test-answer.png)
 
 \--- /task \---
 
@@ -68,15 +68,15 @@ Aby se nám v budoucnu kód lépe spravoval uděláme z něj tzv. vlastní blok.
 
 Vyber postavu 'Výsledek'. Klikni do sekce `Moje bloky`{:class="block3myblocks"} a pak na na tlačítko **Vytvořit blok**. Vytvoř nový blok a pojmenuj jej `animuj`{:class="block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![Postava Výsledek](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![Vytvoř vlastní blok s názvem animuj](images/brain-animate-function.png)
 
 \--- /task \---
 
 \--- task \--- Přesuň kód který `zobrazoval`{:class="block3looks"} a `schovával`{:class="block3looks"} postavu 'Výsledek' do bloku `animuj`{:class="block3myblocks"}:
 
-![Result sprite](images/result-sprite.png)
+![Postava Výsledek](images/result-sprite.png)
 
 ```blocks3
 define animate
@@ -91,7 +91,7 @@ hide
 
 A teď přidej blok `animuj`{:class="block3myblocks"} k oboum blokům `změň kostým`{:class="block3looks"}. Tvůj kód by měl vypadat takto:
 
-![Result sprite](images/result-sprite.png)
+![Postava Výsledek](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -113,9 +113,9 @@ Uprav kód tak aby se kostým 'Fajfka' nebo 'Křížek' zobrazil na 2 sekundy.
 
 \--- /task \---
 
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+\--- task \--- Co kdyby se kostým Fajfky či Křížku namísto okamžitého `zobrazení`{:class="block3looks"} pomalinku, jakoby z mlhy, objevoval? Stačí upravit blok `animuj`{:class="block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![Postava Výsledek](images/result-sprite.png)
 
 ```blocks3
     define animate
@@ -129,6 +129,6 @@ Uprav kód tak aby se kostým 'Fajfka' nebo 'Křížek' zobrazil na 2 sekundy.
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Dokázal by si animaci dále vylepšit? Můžeš například použít opačný efekt i při mizení postavy, anebo vymysli svůj vlastní způsob s použitím některého z efektů:
 
 ![screenshot](images/brain-effects.png)
