@@ -20,7 +20,7 @@ Pokud chceš Scratch používat offline, stáhni si jej a nainstaluj z adresy [r
 
 \--- /task \---
 
-\--- task \--- Ujisti se že máš vybranou svou postavu. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- task \--- Ujisti se že máš vybranou svou postavu. Vytvoř dvě nové proměnné nazvané `číslo 1`{:class="block3variables"} a `číslo 2`{:class="block3variables"}. Do nich si budeš ukládat čísla pro kvízové otázky.
 
 ![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
 
@@ -28,7 +28,7 @@ Pokud chceš Scratch používat offline, stáhni si jej a nainstaluj z adresy [r
 
 \--- /task \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- task \--- Přidej k postavě následující scénář, který do obou `proměnných`{:class="block3variables"} vloží `náhodné`{:class="block3operators"} číslo mezi 2 a 12.
 
 ![screenshot](images/giga-sprite.png)
 
@@ -40,7 +40,7 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- /task \---
 
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+\--- task \--- Nyní přidej scénář který se bude hráče `ptát`{:class="block3sensing"} na odpověď a poté mu na `2 sekundy zobrazí bublinu`{:class="block3looks"} s hláškou, jestli jeho odpověď byla správná nebo ne:
 
 ![screenshot](images/giga-sprite.png)
 
