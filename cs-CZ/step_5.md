@@ -1,8 +1,8 @@
 ## Více her
 
-Nyní přidáme do hry tlačítko 'Hrát', díky kterému si tvou hru budou moci hráči zahrát vícekrát po sobě.
+Nyní přidáme do projektu tlačítko, kterým budou moci hráči tvou hru spustit vícekrát po sobě.
 
-\--- task \--- Vytvoř novou postavu v podobě tlačítka 'Hrát', které po kliknutí spustí hru.
+\--- task \--- Vytvoř novou postavu v podobě tlačítka 'Hrát'. Po kliknutí na něj spusť hru.
 
 Tlačítko můžeš nakreslit sám nebo si vyber již hotové z knihovny a uprav jej podle libosti.
 
@@ -66,7 +66,7 @@ Dokážeš změnit kód časovače tak aby odpočet začal až po kliknutí na t
 
 \--- /task \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- task \--- Přidej k postavě tlačítka nový kód, který zajistí jeho opětovné vykreslení na konci hry.
 
 ![Obrázek tlačítka](images/button-sprite.png)
 
@@ -79,9 +79,9 @@ Dokážeš změnit kód časovače tak aby odpočet začal až po kliknutí na t
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Pořádně prověř chování tlačítka 'Hrát'. Zahraj si hru několikrát po sobě a zkontroluj, že na konci každé z nich se tlačítko znovu objeví na obrazovce.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+Aby sis testování trochu urychlil, můžeš změnit hodnotu `čas`{:class="block3variables"} na menší hodnotu, takže hra bude trvat jen pár sekund.
 
 ![Scéna](images/stage-sprite.png)
 
@@ -91,7 +91,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- Vzhled tlačítka můžeš změnit pokud nad něj najedeš kurzorem myši.
 
 ![Tlačítko](images/button-sprite.png)
 
