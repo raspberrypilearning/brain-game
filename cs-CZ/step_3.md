@@ -8,9 +8,9 @@
 
 Vytvoř `proměnnou`{:class="block3variables"}, pojmenuj ji 'čas' a nastav její hodnotu na `30`.
 
-Potom přidej kód který bude zmenšovat `čas`{:class="block3variables"} až na 0. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Potom přidej kód který bude zmenšovat `čas`{:class="block3variables"} až na 0. Mužeš to provést tak, že každou `1` sekundu odečteš od `čas`{:class="block3variables"} číslo `1`. A to tak dlouho, dokud `čas`{:class="block3variables"} nebude roven `0`.
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- /hint \--- \--- hint \--- Tohle jsou bloky které potřebuješ:
 
 ```blocks3
 repeat until < >
@@ -30,7 +30,7 @@ when flag clicked
 set [time v] to [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- /hint \--- \--- hint \--- Takto by měl vypadat tvůj kód:
 
 ```blocks3
 when flag clicked
@@ -47,7 +47,7 @@ end
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Vlož blok `vyšli zprávu`{:class="block3control"}, který odešle zprávu 'konec'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
