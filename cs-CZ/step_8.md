@@ -2,12 +2,12 @@
 
 Dokážeš do své hry přidat zvuky a hudbu? Co třeba kdyby tvá hra:
 
-+ Play a sound when the player gives a correct or incorrect answer
-+ Play a ticking sound as the countdown timer runs
-+ Play a sound when the player's time is up
++ Vydala zvuk po každé správné či špatné odpovědi
++ Tikla s každou změnou časovače
++ Přehrála nějaký zvuk když hráči vyprší čas
 
 ```blocks3
     play sound (pop v) until done
 ```
 
-Your game could also constantly play background music on a loop.
+Samozřejmě že kromě zvuků a ruchů můžeš do hry přidat i hudbu, která bude po celou dobu hrát na pozadí.
