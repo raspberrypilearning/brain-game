@@ -29,9 +29,9 @@ Kód obsahuje další blok `vyšli`{:class="block3events"}, který tentokrát od
 
 Po spuštění hry zelenou vlajkou se tlačítko ukáže na obrazovce. Když na něj hráč klikne, tlačítko se skryje a odešle zprávu na kterou mohou zareagovat ostatní postavy.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+Zatím tvůj kód kód funguje tak, že postava začne hráči pokládat otázky ihned po kliknutí na vlajku. To musíme změnit! Uprav svůj kód tak aby postava začala klást otázky až ve chvíli kdy obdrží `zprávu`{:class="block3events"} 'start'.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- Vyber svou postavu a nahraď v jejím scénaři blok `po kliknutí na zelenou vlajku`{:class="block3events"} za `po obdržení zprávy start`{:class="block3events"}.
 
 ![Obrázek postavy](images/giga-sprite.png)
 
@@ -52,17 +52,17 @@ end
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Potřebujem tvůj kód pořádně protestovat! Klikni na zelenou vlajku a pak na nové tlačítko 'Hrát'. Pokud vše funguje jak má, hra by měla začít až po kliknutí na tlačítko.
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Všiml sis že časovač začal odpočítávat hned po kliknutí na zelenou vlajku?
 
 ![Časovač spuštěn](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Dokážeš změnit kód časovače tak aby odpočet začal až po kliknutí na tlačítko?
 
 \--- /task \---
 
