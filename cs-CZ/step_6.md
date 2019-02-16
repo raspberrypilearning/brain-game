@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: Start screen
+## Výzva: Úvodní obrazovka
 
-Can you add another backdrop to your stage, which will become your game's start screen? You can use the `when I receive start`{:class="blockevents"} and `when I receive end`{:class="blockevents"} blocks to switch between backdrops.
+Dokážeš do své hry přidat nové pozadí, které se bude zobrazovat jen na začátku hry? Pro přepínání pozadí využij bloky `po obdržení zprávy start`{:class="blockevents"} a `po obdržení zprávy konec`{:class="blockevents"}.
 
-You can also show and hide your character, and even show and hide your timer by using these blocks:
+Podobným způsobem můžeš skrýt/ukázat postavu a dokonce i časovač:
 
 ```blocks
 show variable [time v]
