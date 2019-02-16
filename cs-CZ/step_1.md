@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Toto je **Scratch 3** verze projektu. K dispozici je také verze pro [Scratch 2](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Úvod
 
 V tomto projektu vytvoříte hru, ve které hráč během 30 sekund odpovídá na matematické kvízy a snaží se získat co nejvíce bodů za správné odpovědi.
 
 ### Co vytvoříš
 
-Hru spustíš kliknutím na zelenou vlajku. Odpověz na otázku a stiskni klávesu <kbd>Enter</kbd>.
+\--- no-print \--- Hru spustíš kliknutím na zelenou vlajku. Odpověz na otázku a stiskni klávesu <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,33 +23,33 @@ Hru spustíš kliknutím na zelenou vlajku. Odpověz na otázku a stiskni kláve
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Co se naučíš
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Jak ve Scratchi vysílat zprávy
++ Jak vytvořit a používat vlastní Scratch blok
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Co budeš potřebovat
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Počítač schopný spustit aplikaci Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (buď [online](http://rpf.io/scratchon){:target="_blank"} nebo [offline](http://rpf.io/scratchoff){:target="_blank"} verzi"})
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Doplňující poznámky pro lektory
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- Potřebujete-li tento projekt vytisknout, použijte verzi [pro-tisk](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Řešení pro tento projekt [naleznete zde](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
