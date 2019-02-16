@@ -12,7 +12,7 @@ Vytvoř novou postavu 'Výsledek' a přidej ji kostým 'Fajfka' a 'Křížek'.
 
 \--- task \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+Uprav scénář u postavy tak, aby namísto povídání odesílala `zprávu`{:class="block3events"} 'správně' nebo 'špatně'.
 
 ![Character sprite](images/giga-sprite.png)
 
@@ -54,7 +54,7 @@ Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cr
 
 \--- /task \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\--- task \--- Čas na testování! Po každé správné odpovědi by se ti měla zobrazit fajka a křížek po každé chybě.
 
 ![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
