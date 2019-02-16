@@ -89,7 +89,7 @@ hide
 
 \--- task \--- Zkontroluj že jsi opravdu odstranil bloky `ukaž se`{:class="block3looks"} a `skryj se`{:class="block3looks"} pro **obě** verze bloku `změň kostým`.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+A teď přidej blok `animuj`{:class="block3myblocks"} k oboum blokům `změň kostým`{:class="block3looks"}. Tvůj kód by měl vypadat takto:
 
 ![Result sprite](images/result-sprite.png)
 
@@ -105,11 +105,11 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+Když by si chtěl zobrazit postavu 'Výsledek' na delší či kratší dobu, budeš teď díky vlastnímu bloku `animuj`{:class="block3myblocks"} muset upravit pouze jediné místo v kódu.
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+Uprav kód tak aby se kostým 'Fajfka' nebo 'Křížek' zobrazil na 2 sekundy.
 
 \--- /task \---
 
