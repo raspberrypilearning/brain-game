@@ -1,6 +1,6 @@
-## Challenge: sound and music
+## Výzva: zvuky a hudba
 
-Can you add sound effects and music to your game? For example, you could have your game:
+Dokážeš do své hry přidat zvuky a hudbu? Co třeba kdyby tvá hra:
 
 + Play a sound when the player gives a correct or incorrect answer
 + Play a ticking sound as the countdown timer runs
