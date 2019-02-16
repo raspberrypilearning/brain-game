@@ -8,29 +8,29 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Introduction
+    title: Úvod
   - 
-    title: Create questions
+    title: Vytvoření otázek
   - 
-    title: Add a timer
+    title: Přidej časovač
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Výzva: přidej skóre a reakce'
     challenge: true
   - 
-    title: Multiple games
+    title: Více her
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Výzva: Úvodní obrazovka'
     challenge: true
   - 
-    title: Add graphics
+    title: Přidej grafiku
   - 
-    title: 'Challenge: sound and music'
+    title: 'Výzva: zvuky a hudba'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Výzva: desetibodový závod'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Výzva: nápověda ke hře'
     challenge: true
   - 
-    title: What next?
+    title: Co dál?
