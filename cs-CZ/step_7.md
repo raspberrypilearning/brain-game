@@ -31,7 +31,7 @@ end
 
 \--- task \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+Teď můžeš díky zprávám `zobrazit` kostým 'fajfky' nebo 'křížku'. Přidej následující kód ke scénaři postavy 'Výsledek':
 
 ![Result sprite](images/result-sprite.png)
 
@@ -60,13 +60,13 @@ Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cr
 
 \--- /task \---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+Všiml sis že kód pro `po obdržení zprávy správně`{:class="block3events"} a `po obdržení zprávy špatně`{:class="block3events"} je skoro stejný?
 
-So you can change your code more easily, you are going to create a custom block.
+Aby se nám v budoucnu kód lépe spravoval uděláme z něj tzv. vlastní blok.
 
 \--- task \---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+Vyber postavu 'Výsledek'. Klikni do sekce `Moje bloky`{:class="block3myblocks"} a pak na na tlačítko **Vytvořit blok**. Vytvoř nový blok a pojmenuj jej `animuj`{:class="block3myblocks"}.
 
 ![Result sprite](images/result-sprite.png)
 
@@ -74,7 +74,7 @@ Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, 
 
 \--- /task \---
 
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+\--- task \--- Přesuň kód který `zobrazoval`{:class="block3looks"} a `schovával`{:class="block3looks"} postavu 'Výsledek' do bloku `animuj`{:class="block3myblocks"}:
 
 ![Result sprite](images/result-sprite.png)
 
