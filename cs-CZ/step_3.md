@@ -6,9 +6,9 @@
 
 \--- hints \--- \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Vytvoř `proměnnou`{:class="block3variables"}, pojmenuj ji 'čas' a nastav její hodnotu na `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Potom přidej kód který bude zmenšovat `čas`{:class="block3variables"} až na 0. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
 
 \--- /hint \--- \--- hint \--- Here are the blocks you need:
 
