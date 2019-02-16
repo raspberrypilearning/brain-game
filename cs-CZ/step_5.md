@@ -25,9 +25,9 @@ Tlačítko můžeš nakreslit sám nebo si vyber již hotové z knihovny a uprav
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Kód obsahuje další blok `vyšli`{:class="block3events"}, který tentokrát odešle zprávu 'start'.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Po spuštění hry zelenou vlajkou se tlačítko ukáže na obrazovce. Když na něj hráč klikne, tlačítko se skryje a odešle zprávu na kterou mohou zareagovat ostatní postavy.
 
 At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
