@@ -87,7 +87,7 @@ hide
 
 \--- /task \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- task \--- Zkontroluj že jsi opravdu odstranil bloky `ukaž se`{:class="block3looks"} a `skryj se`{:class="block3looks"} pro **obě** verze bloku `změň kostým`.
 
 Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
 
