@@ -1,6 +1,6 @@
-## Add graphics
+## Přidej grafiku
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+Zatím tvá postava reaguje na hráčovy odpovědi bublinkou `jo! :)` nebo `ne :(`. Pojďme hru vylepšit novou grafikou ze které hráč pozná jestli jeho odpověď byla správná nebo ne.
 
 \--- task \---
 
