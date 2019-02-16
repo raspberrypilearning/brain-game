@@ -1,6 +1,6 @@
-## Add a timer
+## Přidej časovač
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- task \--- Vytvoř novou proměnnou `čas`{:class="block3variables"}, která bude reprezentovat časovač. Nastav ji na 30 vteřin a odpočítávej až k 0.
 
 ![Postava](images/stage-sprite.png)
 
@@ -57,7 +57,7 @@ Vlož blok `vyšli zprávu`{:class="block3control"}, který odešle zprávu 'kon
 
 \--- /task \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- Vyber svou postavu a přidej k ní kód který po obdržení zprávy `konec`{:class="block3control"} `zastaví ostatní scénáře`{:class="block3control"}.
 
 ![Postava Giga](images/giga-sprite.png)
 
@@ -70,6 +70,6 @@ Vlož blok `vyšli zprávu`{:class="block3control"}, který odešle zprávu 'kon
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Znovu si svou hru otestuj. Měla by ti pokládat jednu otázku za druhou až do chvíle, kdy časovač klesne na 0.
 
 \--- /task \---
