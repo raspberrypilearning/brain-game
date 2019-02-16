@@ -52,7 +52,7 @@ end
 
 \--- task \---
 
-Potřebujem tvůj kód pořádně protestovat! Klikni na zelenou vlajku a pak na nové tlačítko 'Hrát'. Pokud vše funguje jak má, hra by měla začít až po kliknutí na tlačítko.
+A nyní je třeba kód pořádně protestovat! Klikni na zelenou vlajku a pak na nové tlačítko 'Hrát'. Pokud vše funguje jak má, hra by měla začít až po kliknutí na tlačítko.
 
 \--- /task \---
 
