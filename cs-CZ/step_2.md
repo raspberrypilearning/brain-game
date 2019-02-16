@@ -61,13 +61,13 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+Otestuj si svůj projekt pro oba možné případy: jednou odpověz správně a podruhé špatně.
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+Vlož svůj kód do bloku `opakuj stále`{:class="block3control"} aby Scratch pokládal hráčům jednu otázku za druhou.
 
 \--- hints \--- \--- hint \---
 
