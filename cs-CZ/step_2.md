@@ -14,13 +14,13 @@ Pokud chceš Scratch používat offline, stáhni si jej a nainstaluj z adresy [r
 
 \--- /task \---
 
-\--- task \--- Přidej do hry libovolnou postavu a pozadí, například:
+\--- task \--- Přidej do hry postavu a pozadí které se ti líbí, například:
 
 ![screenshot](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- Ujisti se že máš vybranou svou postavu. Vytvoř dvě nové proměnné nazvané `číslo 1`{:class="block3variables"} a `číslo 2`{:class="block3variables"}. Do nich si budeš ukládat čísla pro kvízové otázky.
+\--- task \--- Ujisti se že máš vybranou postavu. Vytvoř dvě nové proměnné nazvané `číslo 1`{:class="block3variables"} a `číslo 2`{:class="block3variables"}. Do nich si budeš ukládat čísla pro kvízové otázky.
 
 ![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
 
@@ -71,16 +71,16 @@ Vlož svůj kód do bloku `opakuj stále`{:class="block3control"} aby Scratch po
 
 \--- hints \--- \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+Musíš do scénáře přidat blok `opakuj stále`{:class="block3control"} a všechen svůj kód s vyjímkou `po kliknutí na zelenou vlajku`{:class="block3control"} vložit dovnitř.
 
-\--- /hint \--- \--- hint \--- Here is the block you need:
+\--- /hint \--- \--- hint \--- Tohle je blok který potřebuješ:
 
 ```blocks3
 forever
 end
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- Takto by měl vypadat tvůj upravený kód:
 
 ```blocks3
 when flag clicked
