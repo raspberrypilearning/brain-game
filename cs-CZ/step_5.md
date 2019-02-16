@@ -1,18 +1,18 @@
-## Multiple games
+## Více her
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Nyní přidáme do hry tlačítko 'Hrát', díky kterému si tvou hru budou moci hráči zahrát vícekrát po sobě.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- Vytvoř novou postavu v podobě tlačítka 'Hrát', které po kliknutí spustí hru.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Tlačítko můžeš nakreslit sám nebo si vyber již hotové z knihovny a uprav jej podle libosti.
 
-![Picture of the play button](images/brain-play.png)
+![Obrázek tlačítka pro spuštění hry](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- Přidej následující kód k postavě tlačítka:
 
-![Button sprite](images/button-sprite.png)
+![Obrázek tlačítka](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -33,7 +33,7 @@ At the moment, the character sprite starts asking questions when the player clic
 
 \--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
 
-![Character sprite](images/giga-sprite.png)
+![Obrázek postavy](images/giga-sprite.png)
 
 ```blocks3
 <br />- when flag clicked
@@ -58,7 +58,7 @@ Click the green flag, and then click on the new 'Play' button to test whether it
 
 Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
 
-![Timer has started](images/brain-timer-bug.png)
+![Časovač spuštěn](images/brain-timer-bug.png)
 
 \--- task \---
 
@@ -68,7 +68,7 @@ Can you change the code for the timer so that the timer starts when the player c
 
 \--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
 
-![Button sprite](images/button-sprite.png)
+![Obrázek tlačítka](images/button-sprite.png)
 
 ```blocks3
     when I receive [end v]
@@ -83,7 +83,7 @@ Test the 'Play' button by playing a couple of games. The button should show at t
 
 To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Stage](images/stage-sprite.png)
+![Scéna](images/stage-sprite.png)
 
 ```blocks3
     set [time v] to [10]
@@ -93,7 +93,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- task \--- You can change how the button looks when the mouse pointer hovers over it.
 
-![Button](images/button-sprite.png)
+![Tlačítko](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
