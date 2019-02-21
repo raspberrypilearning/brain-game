@@ -1,6 +1,6 @@
-## Challenge: race to 10 points
+## Thử thách: cuộc đua tới 10 điểm
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+Bạn có thể thay đổi trò chơi của bạn để cho người chơi, thay vì trả lời càng nhiều câu hỏi càng tốt trong vòng 30 giây, hãy trả lời 10 câu hỏi càng nhanh càng tốt.
 
 To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
