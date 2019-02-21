@@ -1,6 +1,6 @@
-## Challenge: sound and music
+## Thử thách: âm thanh và nhạc
 
-Can you add sound effects and music to your game? For example, you could have your game:
+Bạn có thể thêm hiệu ứng âm thanh và âm nhạc vào trò chơi của bạn? Ví dụ: bạn có thể có trò chơi của mình:
 
 + Play a sound when the player gives a correct or incorrect answer
 + Play a ticking sound as the countdown timer runs
