@@ -1,110 +1,110 @@
-## Multiple games
+## 多場比賽
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+現在，您將添加一個“播放”按鈕，以便玩家可以多次玩遊戲。
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- 創建一個新的'Play'按鈕精靈，玩家需要點擊該精靈才能開始新的遊戲。
 
-You can draw the sprite yourself, or edit a sprite from the library.
+您可以自己繪製精靈，也可以從庫中編輯精靈。
 
-![Picture of the play button](images/brain-play.png)
+![播放按鈕的圖片](images/brain-play.png)
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- 將此代碼添加到按鈕精靈中：
 
-![Button sprite](images/button-sprite.png)
+![按鈕精靈](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    當標記點擊時
+    顯示
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    當此精靈點擊時
+    隱藏
+    廣播（開始v）
 ```
 
-\--- /task \---
+\--- /任務\---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+新代碼包括另一個 `廣播`{：class =“block3events”}塊，它發送消息'start'。
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+當玩家點擊旗幟時，新代碼會顯示“播放”按鈕精靈。 當玩家點擊按鈕精靈時，精靈會隱藏然後廣播其他精靈可以做出反應的消息。
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+此時，角色精靈在玩家點擊旗幟時開始提問。 讓性格精靈開始提問的時候它接收到'開始'更改遊戲的代碼 `廣播`{：類=“block3events”}。
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- \---任務 選擇你的性格精靈和，在其代碼部分中替換 `時標誌點擊`{：類=“block3events”}與塊 `時收到開始`{：類=“block3events”阻止。
 
-![Character sprite](images/giga-sprite.png)
+![人物精靈](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
+<br />- 當標誌點擊
++當我收到[start v]
+set [number 1 v] to（pick random（2）to（12））
+set [number 2 v] to（pick random（2）to（12） ）
+問（加入（數字1）（加入[x]（數字2）））並等待
+如果 &lt;（回答）=（（數字1）*（數字2））&gt; 然後
+    說[是！ :)] for（2）秒
 else
-    say [nope :(] for (2) seconds
-end
+    說[nope :(] for（2）秒
+結束
 ```
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \---
+\---任務\---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+單擊綠色標記，然後單擊新的“播放”按鈕以測試它是否有效。您應該看到在單擊按鈕之前遊戲沒有啟動。
 
-\--- /task \---
+\--- /任務\---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+你能看到點擊綠色標誌時計時器開始，而不是遊戲開始時？
 
-![Timer has started](images/brain-timer-bug.png)
+![定時器已經啟動](images/brain-timer-bug.png)
 
-\--- task \---
+\---任務\---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+你可以更改計時器的代碼，以便在玩家點擊按鈕時啟動計時器嗎？
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- task \--- 將代碼添加到按鈕精靈中，以便在每個遊戲結束時再次顯示該按鈕。
 
-![Button sprite](images/button-sprite.png)
+![按鈕精靈](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    當我收到[結束v]
+    節目
 ```
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \---
+\---任務\---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+通過玩幾個遊戲來測試“播放”按鈕。該按鈕應在每場比賽結束時顯示。
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+要更快地測試遊戲，您可以更改 `時間`{：class =“block3variables”}的值，以便每個遊戲只有幾秒鐘。
 
-![Stage](images/stage-sprite.png)
+![階段](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    將[時間v]設置為 [10]
 ```
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- 您可以更改鼠標指針懸停在按鈕上時按鈕的外觀。
 
-![Button](images/button-sprite.png)
+![按鍵](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    當標誌點擊
+    顯示
+    永遠
+    如果 <touching (mouse-pointer v)?> 然後
+        設置[魚眼v]效果到（30）
+    否則
+        設置[魚眼v]效果到（0）
+    結束
+    結束
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![截圖](images/brain-fisheye.png) \--- /任務\---
