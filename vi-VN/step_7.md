@@ -4,27 +4,27 @@ Lúc này, nhân vật sprite chỉ nói `có!)`hoặc`không:(` cho câu trả 
 
 \---nhiệm vụ\---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+Tạo một đối tượng mới gọi là 'Kết quả', và cho nó 'chọn/kiểm tra' và bộ trang phục 'gạch ngang'.
 
 ![Sprite with tick and cross costumes](images/brain-result.png)
 
-\--- /task \---
+\---/nhiệm vụ\---
 
-\--- task \---
+\--- nhiệm vụ \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+Thay mã đối tượng của bạn để, thay vì nói gì đó với người chơi, nó ` phát tin ` {: class = "block3events"} các thông báo 'chính xác' hoặc 'sai'.
 
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-if <(answer) = ((number 1)*(number 2))> then
+nếu <(câu trả lời) = ((số 1) * (số 2))> thì
 
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
-end
+- nói [có! :)] for (2) giây
++ phát sóng (đúng v)
+khác
+- nói [nope :(] for (2) giây
++ phát sóng (sai v)
+cuối
 ```
 
 \--- /task \---
