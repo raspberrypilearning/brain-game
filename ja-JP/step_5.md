@@ -71,8 +71,8 @@ Can you change the code for the timer so that the timer starts when the player c
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    [end v] を受け取ったとき
+表示する
 ```
 
 \--- /task \---
@@ -86,14 +86,14 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    [時 v] を [10] にする
 ```
 
 \--- /task \---
 
 \--- task \--- You can change how the button looks when the mouse pointer hovers over it.
 
-![Button](images/button-sprite.png)
+![ボタン](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -107,4 +107,4 @@ To test the game more quickly, you can change the value of `time`{:class="block3
     end
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![スクリーンショット](images/brain-fisheye.png) \--- /task \---
