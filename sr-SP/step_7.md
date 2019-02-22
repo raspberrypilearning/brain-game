@@ -1,134 +1,134 @@
-## Add graphics
+## Адд грапхицс
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+У овом тренутку, лик сприте само каже `да! :)` или `не :(` до одговора играча. Додајте неке графике како би играч знао да ли је њихов одговор тачан или нетачан.
 
-\--- task \---
+\--- задатак \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+Направите нови сприте назван 'Ресулт', и дајте му 'тицк / цхецк' и 'цросс' костим.
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![Сприте са костимима са крпељима и крстовима](images/brain-result.png)
 
-\--- /task \---
+\--- /задатак \---
 
-\--- task \---
+\--- задатак \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+Промена кода ваш карактер Сприте тако да, уместо да кажете нешто на плејера, `емитује`{: цласс = "блоцк3евентс"} поруке "исправан" или "погрешан".
 
-![Character sprite](images/giga-sprite.png)
-
-```blocks3
-if <(answer) = ((number 1)*(number 2))> then
-
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
-end
-```
-
-\--- /task \---
-
-\--- task \---
-
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
-
-![Result sprite](images/result-sprite.png)
+![Цхарацтер сприте](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+ако је <(одговор) = ((број 1) * (број 2))> затим
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
-
-    when flag clicked
-    hide
+- реци [да! :)] фор (2) сецондс
++ броадцаст (ригхт в)
+елсе
+- саи [нопе :(] фор (2) сецондс
++ броадцаст (вронг в)
+енд
 ```
 
-\--- /task \---
+\--- /задатак \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\--- задатак \---
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+Сада можете користити ове поруке у `схов`{: цласс = "блоцк3лоокс"} костим 'квачица' или 'крст'. Додајте следећи код у 'Резултат':
 
-\--- /task \---
-
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
-
-So you can change your code more easily, you are going to create a custom block.
-
-\--- task \---
-
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
-
-![Result sprite](images/result-sprite.png)
-
-![Create a block called animate](images/brain-animate-function.png)
-
-\--- /task \---
-
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
-
-![Result sprite](images/result-sprite.png)
+![Резултат сприте](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+    када примим [исправити в]
+    пребацити костим на (откуцати в)
+    показати
+    чекати (1) секунди
+    сакрити
+
+    када примим [погрешно в]
+    пребацити костим на (цросс в)
+    показати
+    чекати (1) секунде
+    сакриј
+
+    када је заставица кликнула
+    сакриј
 ```
 
-\--- /task \---
+\--- /задатак \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- задатак \--- Поново тестирајте игру. Требало би да видите квачицу кад год одговорите на питање тачно, а крст кад год одговорите погрешно!
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+![Означите за исправно, криж за погрешан одговор](images/brain-test-answer.png)
 
-![Result sprite](images/result-sprite.png)
+\--- /задатак \---
+
+Можете ли видјети да је код за `када примим исправну`: цласс = "блоцк3евентс" и `када примим погрешан`{цласс = "блоцк3евентс"} је готово идентичан?
+
+Тако да можете лакше да мењате код, креираћете прилагођени блок.
+
+\--- задатак \---
+
+Изаберите сприте 'Ресулт'. Затим кликните на `Ми Блоцкс`{: цласс = "блоцк3миблоцкс"}, а затим на **Маке а Блоцк**. Направите нови блок и назовите га `анимате`{: цласс = "блоцк3миблоцкс"}.
+
+![Резултат сприте](images/result-sprite.png)
+
+![Направите блок који се зове анимација](images/brain-animate-function.png)
+
+\--- /задатак \---
+
+\--- задатак \--- Премјестите код на `схов`{: цласс = "блоцк3лоокс"} и `хиде`{: цласс = "блоцк3лоокс"} 'Резултат' сприте у `анимате`{: цласс = " блоцк3миблоцкс "} блок:
+
+![Резултат сприте](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
-
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+дефине анимате
+схов
+ваит (1) сецондс
+хиде
 ```
 
-\--- /task \---
+\--- /задатак \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+\--- задатак \--- Провјерите јесте ли уклонили `схов`{: цласс = "блоцк3лоокс"} и `хиде`{: цласс = "блоцк3лоокс"} блокови испод **оба** од `свитцх цостуме`{: цласс = "блоцк3лоокс"} блоки.
 
-\--- task \---
+Затим додати `анимате`{: цласс = "блоцк3миблоцкс"} блок испод оба из `прекидача костима`{: цласс = "блоцк3лоокс"} блокова. Ваш код сада треба да изгледа овако:
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
-
-\--- /task \---
-
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
-
-![Result sprite](images/result-sprite.png)
+![Резултат сприте](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    када примим [исправан в]
+    пребаците костим на (откуцајте в)
+    анимате :: цустом
+
+    када примим [погрешно в]
+    пребаците костим на (цросс в)
+    анимате :: цустом
 ```
 
-\--- /task \---
+\--- /задатак \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Због блока прилагођеног `анимате`{: цласс = "блоцк3миблоцкс"}, сада само требате направити једну промјену у коду ако желите приказати костиме "Ресулта" духа или краћег времена.
 
-![screenshot](images/brain-effects.png)
+\--- задатак \---
+
+Промените свој код тако да се костим "квачица" или "крст" прикаже на 2 секунде.
+
+\--- /задатак \---
+
+\--- задатак \--- Уместо `показује`{: цласс = "блоцк3лоокс"} и `крију`{: цласс = "блоцк3лоокс"} је "тицк" или "цросс" костима, можете да промените `анимате`{: цласс = "блоцк3миблоцкс"} блок тако да костими блиједе.
+
+![Резултат сприте](images/result-sprite.png)
+
+```blocks3
+    дефинирајте анимате
+    сет [гхост в] ефект на (100)
+    прикажи
+    понављање (25)
+        промени [гхост в] ефекат (-4)
+    крај
+    сакриј
+```
+
+\--- /задатак \---
+
+Можете ли побољшати анимацију графике 'квачица' или 'крижа'? Могли бисте додати код како би и костими нестали, или бисте могли користити друге кул ефекте:
+
+![сцреенсхот](images/brain-effects.png)
