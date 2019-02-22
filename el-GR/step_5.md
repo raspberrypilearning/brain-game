@@ -50,7 +50,7 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
@@ -60,7 +60,7 @@ Can you see that the timer starts when the green flag is clicked, instead of whe
 
 ![Timer has started](images/brain-timer-bug.png)
 
-\--- task \---
+\--- task --
 
 Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
@@ -77,13 +77,13 @@ Can you change the code for the timer so that the timer starts when the player c
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
 To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Stage](images/stage-sprite.png)
+![Φάση](images/stage-sprite.png)
 
 ```blocks3
     set [time v] to [10]
