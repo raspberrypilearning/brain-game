@@ -1,3 +1,3 @@
-## What next?
+## তারপর কি?
 
-Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
+একটি প্রতিক্রিয়া খেলা তৈরি করার জন্য [ডট](https://projects.raspberrypi.org/en/projects/catch-the-dots) প্রকল্প ধরুন! সেই প্রজেক্টে আপনি স্প্রাইটের ক্লোনগুলি কীভাবে তৈরি করবেন এবং কীভাবে একটি পরিবর্তনশীল ব্যবহার করবেন তা ধীরে ধীরে গেমটিকে গতিতে শিখতে চলেছেন।
