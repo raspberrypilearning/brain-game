@@ -1,55 +1,55 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Dette er **Scratch 3** versionen af projektet. Der er også en [Scratch 2 version af projektet](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- /no-print \---
+\--- / no-print \---
 
 ## Introduktion
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+I dette projekt opretter du et matematisk quiz-spil, hvor spilleren har 30 sekunder til at give så mange korrekte svar som muligt.
 
-### What you will make
+### Hvad du vil lave
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Klik på knappen for at starte. Indtast svaret på spørgsmålet, og tryk derefter på <kbd>Enter</kbd> tasten.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- /no-print \---
+\--- / no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- kun print \--- ![Brain Game](images/brain-final.png) \--- / kun print
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Du kommer til at lære følgende
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Sådan bruges udsendelser i Scratch
++ Sådan opretter og bruger du en brugerdefineret Scratch-blok
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Du får brug for følgende
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ En computer, der er i stand til at køre Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (enten [online](http://rpf.io/scratchon){: target = "_ blank"} eller [offline](http://rpf.io/scratchoff){: target = "_ blank"})
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## titel: Yderligere noter til undervisere
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- Hvis du har brug for at udskrive dette projekt, skal du bruge den [printervenlige version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Find [løsningen til dette projekt her](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
 
 \--- /collapse \---
