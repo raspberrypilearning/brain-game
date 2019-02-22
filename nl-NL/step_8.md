@@ -1,4 +1,4 @@
-## Challenge: sound and music
+## Uitdaging: Verbeterde animatie
 
 Can you add sound effects and music to your game? For example, you could have your game:
 
