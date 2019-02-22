@@ -8,7 +8,7 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Introduction
+    title: Giới thiệu
   - 
     title: Create questions
   - 
@@ -22,15 +22,15 @@ steps:
     title: 'Challenge: create a start screen'
     challenge: true
   - 
-    title: Add graphics
+    title: Thêm đồ họa
   - 
-    title: 'Challenge: sound and music'
+    title: 'Thử thách: âm thanh và nhạc'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Thử thách: cuộc đua tới 10 điểm'
     challenge: true
   - 
     title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: What next?
+    title: Bước tiếp theo?
