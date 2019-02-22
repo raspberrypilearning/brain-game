@@ -1,110 +1,110 @@
-## Multiple games
+## משחקים מרובים
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+עכשיו אתה הולך להוסיף כפתור 'הפעל', כך השחקן יכול לשחק את המשחק שלך הרבה פעמים.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- משימה \--- צור חדש 'Play' כפתור sprite כי השחקן צריך ללחוץ כדי להתחיל משחק חדש.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+אתה יכול לצייר את ספרייט עצמך, או לערוך ספרייט מהספרייה.
 
-![Picture of the play button](images/brain-play.png)
+![תמונה של לחצן ההפעלה](images/brain-play.png)
 
-\--- /task \---
+\--- / משימה \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- הוסף את הקוד לכפתור שלך sprite:
 
-![Button sprite](images/button-sprite.png)
-
-```blocks3
-    when flag clicked
-    show
-
-    when this sprite clicked
-    hide
-    broadcast (start v)
-```
-
-\--- /task \---
-
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
-
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
-
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
-
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
-
-![Character sprite](images/giga-sprite.png)
+![כפתור sprite](images/button-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+    כאשר דגל לחץ
+    להראות
+
+    כאשר זה ספרייט לחץ
+    להסתיר
+    שידור (להתחיל V)
 ```
 
-\--- /task \---
+\--- / משימה \---
 
-\--- task \---
+הקוד החדש כולל עוד `שידור`:: class = "block3events"} בלוק, אשר שולח את ההודעה 'התחל'.
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+הקוד החדש הופך את הלחצן 'הפעל' לחיצות על הלחצן כאשר שחקן לוחץ על הדגל. כאשר השחקן לוחץ על כפתור ספרייט, הספרייט מסתיר ואז משדר הודעה שדברי שדונים אחרים יכולים להגיב עליה.
 
-\--- /task \---
+כרגע, הדמות ספרייט מתחיל לשאול שאלות כאשר השחקן לוחץ על הדגל. שנה את קוד המשחק שלך, כך שספריית תווים מתחילה לשאול שאלות כאשר היא מקבלת את 'התחל' `שידור`{: class = "block3events"}.
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+\--- משימה \--- בחר ספרייט הדמות שלך, בסעיף הקוד שלה, להחליף את `כאשר דגל לוחצים`{: class = "block3events"} לחסום עם `כאשר אני מקבל להתחיל`{: class = "block3events" } לחסום.
 
-![Timer has started](images/brain-timer-bug.png)
-
-\--- task \---
-
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
-
-\--- /task \---
-
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
-
-![Button sprite](images/button-sprite.png)
+![שדון תווים](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+<br />- כאשר הדגל ילחץ על
++ כאשר אני מקבל [set v]
+[מספר 1 v] ל (בחר אקראי) 2 (עד) 12 ()
+בחר [מספר 2 v] ל (בחר אקראי) 2 (עד) 12 (
+) שאל (הצטרף מספר 1) (הצטרף [x] (מספר 2)) ולחכות
+אם &lt;(תשובה) = ((מספר 1) * (מספר 2))&gt; ואז
+    לומר [כן! :)] עבור (2) שניות
+אחר
+    לומר [nope :(] עבור (2) שניות
+סוף
 ```
 
-\--- /task \---
+\--- / משימה \---
 
-\--- task \---
+\--- \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+לחץ על הדגל הירוק ולאחר מכן לחץ על הלחצן 'הפעל' החדש כדי לבדוק אם הוא פועל. אתה צריך לראות את המשחק לא מתחיל לפני שאתה לוחץ על הכפתור.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+\--- / משימה \---
 
-![Stage](images/stage-sprite.png)
+האם אתה יכול לראות שהטיימר מתחיל כאשר לוחצים על הדגל הירוק, במקום כאשר מתחיל המשחק?
+
+![טיימר התחיל](images/brain-timer-bug.png)
+
+\--- \---
+
+האם אתה יכול לשנות את הקוד עבור הטיימר כך טיימר מתחיל כאשר הנגן לוחץ על הכפתור?
+
+\--- / משימה \---
+
+\--- משימה \--- הוסף קוד על הלחצן שלך ספרייט כך כפתור מופיע שוב בסוף כל משחק.
+
+![כפתור sprite](images/button-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    כאשר אני מקבל [end v]
+    הצג
 ```
 
-\--- /task \---
+\--- / משימה \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- \---
 
-![Button](images/button-sprite.png)
+בדוק את הלחצן 'הפעל' על ידי הפעלת שני משחקים. הכפתור אמור להופיע בסוף כל משחק.
+
+כדי לבדוק את המשחק מהר יותר, אתה יכול לשנות את הערך של `פעם`{: class = "block3variables"}, כך שכל משחק הוא רק כמה שניות.
+
+![שלב](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    הגדר את [time v] ל- [10]
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+\--- / משימה \---
+
+\--- משימה \--- אתה יכול לשנות את האופן שבו הכפתור נראה כאשר מצביע העכבר מרחף מעל זה.
+
+![כפתור](images/button-sprite.png)
+
+```blocks3
+    כאשר הדגל לוחצים
+    הראה
+    לעד
+    אם <touching (mouse-pointer v)?> אז
+        סט [v עין הדג] תוקף (30)
+    אחר
+        סט [v עין הדג] תוקף (0)
+    סוף
+    סוף
+```
+
+![צילום מסך](images/brain-fisheye.png) \--- / משימה \---
