@@ -8,4 +8,4 @@ You could add code so that the player scores a point for every correct answer. I
 
 Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
 
-![screenshot](images/brain-costume.png)
+![captură de ecran](images/brain-costume.png)
