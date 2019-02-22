@@ -1,19 +1,11 @@
-\--- challenge \---
+## Challenge: create a start screen
 
-## Πρόκληση: Αρχική οθόνη
+Can you add another backdrop that is going to be the start screen for your game?
 
-Μπορείς να προσθέσεις ένα άλλο φόντο στο σκηνικό σου, το οποίο να γίνει η οθόνη έναρξης του παιχνιδιού σου; Μπορείς να χρησιμοποιήσεις τα μπλοκ `when I receive start`{:class="blockevents"} και `when I receive end`{:class="blockevents"} για να αλλάζεις ανάμεσα στα σκηνικά.
+You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
-Μπορείς επίσης να εμφανίσεις και να εξαφανίσεις τον χαρακτήρα σου, ακόμα και να εμφανίσεις και να εξαφανίσεις το χρονόμετρό σου χρησιμοποιώντας αυτά τα μπλοκ:
+To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
-```blocks
-show variable [time v]
-```
+To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
 
-```blocks
-hide variable [time v]
-```
-
-![screenshot](images/brain-startscreen.png)
-
-\--- /challenge \---
+![Start screen](images/brain-startscreen.png)
