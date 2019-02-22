@@ -2,12 +2,12 @@
 
 Bạn có thể thêm hiệu ứng âm thanh và nhạc vào trò chơi của bạn? Ví dụ: bạn có thể thêm vào trò chơi của mình:
 
-+ Play a sound when the player gives a correct or incorrect answer
-+ Play a ticking sound as the countdown timer runs
-+ Play a sound when the player's time is up
++ Phát một âm thanh khi người chơi trả lời đúng hoặc sai
++ Phát âm thanh tích tắc cho bộ đếm ngược thời gian
++ Phát một âm thanh khi người chơi hết thời gian
 
 ```blocks3
-    play sound (pop v) until done
+    chơi âm thanh (pop v) tới hết
 ```
 
-Your game could also constantly play background music on a loop.
+Trò chơi của bạn cũng nên phát một bản nhạc nền bằng một vòng lặp.
