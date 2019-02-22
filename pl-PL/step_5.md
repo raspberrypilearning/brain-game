@@ -71,8 +71,8 @@ Can you change the code for the timer so that the timer starts when the player c
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    kiedy otrzymam [koniec v]
+pokaż
 ```
 
 \--- /task \---
@@ -86,7 +86,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    ustaw [czas v] na [10]
 ```
 
 \--- /task \---
@@ -96,15 +96,15 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    kiedy kliknięto zieloną flagę
+pokaż
+zawsze 
+  jeżeli <touching (mouse-pointer v)?> to 
+    ustaw efekt [rybie oko v] na (30)
+ w przeciwnym razie
+    ustaw efekt [rybie oko v] na (0)
+  end
+end
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![zrzut ekranu](images/brain-fisheye.png) \--- /task \---
