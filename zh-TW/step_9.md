@@ -1,15 +1,15 @@
-## Challenge: race to 10 points
+## 挑戰：比賽達到10分
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+你可以改變你的遊戲，讓玩家盡可能快地回答10個問題，而不是在30秒內回答盡可能多的問題。
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+要進行此更改，您只需更改計時器代碼即可。你能看出哪些塊需要不同嗎？
 
 ```blocks3
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) seconds
-        change [time v] by (-1)
-    end
-    broadcast (end v)
+    當我收到[開始v]
+    設置[時間v]到（30）
+    重複到 <（時間）= [0]>
+        等待（1）秒
+        改變[時間v]乘以（-1）
+    結束
+    廣播（結束） v）
 ```
