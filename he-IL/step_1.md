@@ -1,55 +1,55 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+זוהי **Scratch 3** גרסה של הפרויקט. יש גם גרסה [שריטה 2 של הפרויקט](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- /no-print \---
+\--- / no-print \---
 
-## Introduction
+## מבוא
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+בפרויקט זה תוכלו ליצור משחק חידון במתמטיקה שבו השחקן יש 30 שניות לתת תשובות נכונות רבות ככל האפשר.
 
-### What you will make
+### מה תעשה
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- אין-הדפסה \--- לחץ על הלחצן כדי להתחיל. הקלד את התשובה לשאלה ולאחר מכן הקש על המקש <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- /no-print \---
+\--- / no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- print-only \--- ![Brain Game](images/brain-final.png) \--- / print-only \---
 
-## \--- collapse \---
+## \--- An קבוצה
 
-## title: What you will learn
+## title: מה תלמד
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ כיצד להשתמש בשידורים ב - Scratch
++ כיצד ליצור ולהשתמש בלוק שריטה מותאם אישית
 
-\--- /collapse \---
+\--- / קריסה \---
 
-## \--- collapse \---
+## \--- An קבוצה
 
-## title: What you will need
+## הכותרת: מה שאתה צריך
 
-### Hardware
+### חומרה
 
-+ A computer capable of running Scratch 3
++ מחשב המסוגל להריץ Scratch 3
 
-### Software
+### תוכנה
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (או [מקוון](http://rpf.io/scratchon){: target = "_ blank"} או [לא מקוון](http://rpf.io/scratchoff): {target = "_ blank"})
 
-\--- /collapse \---
+\--- / קריסה \---
 
-## \--- collapse \---
+## \--- An קבוצה
 
-## title: Additional notes for educators
+## title: הערות נוספות למחנכים
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- אם אתה צריך להדפיס את הפרויקט הזה, בבקשה להשתמש [גירסה ידידותית למדפסת](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+מצא את [פתרון עבור פרויקט זה כאן](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
 
-\--- /collapse \---
+\--- / קריסה \---
