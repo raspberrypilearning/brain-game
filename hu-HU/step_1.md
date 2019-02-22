@@ -1,55 +1,55 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Ez a projekt **Scratch 3** verziója. Van is egy [Scratch 2 változata a projekt](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- /no-print \---
+\--- / nincs nyomtatás \---
 
-## Introduction
+## Bevezetés
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+Ebben a projektben létrehoz egy matematikai kvíz játékot, amelyben a játékosnak 30 másodperc van, hogy minél több helyes választ adjon.
 
-### What you will make
+### Mit fogsz tenni
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Kattintson a gombra az indításhoz. Írja be a választ a kérdésre, majd nyomja meg az <kbd>Enter</kbd> gombot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- /no-print \---
+\--- / nincs nyomtatás \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- csak nyomtatás \--- ![Brain Game](images/brain-final.png) \--- csak nyomtatás \---
 
-## \--- collapse \---
+## \--- összeomlás \---
 
-## title: What you will learn
+## title: Mit tanulni fog
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Hogyan használjuk a Scratch-adásokat
++ Egyéni Scratch blokk létrehozása és használata
 
-\--- /collapse \---
+\--- / összeomlás \---
 
-## \--- collapse \---
+## \--- összeomlás \---
 
-## title: What you will need
+## title: Amire szüksége lesz
 
-### Hardware
+### Hardver
 
-+ A computer capable of running Scratch 3
++ A Scratch 3 futtatására alkalmas számítógép
 
-### Software
+### Szoftver
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ( [online](http://rpf.io/scratchon){: target = "_ blank"} vagy [offline](http://rpf.io/scratchoff){: target = "_ blank"})
 
-\--- /collapse \---
+\--- / összeomlás \---
 
-## \--- collapse \---
+## \--- összeomlás \---
 
-## title: Additional notes for educators
+## title: További megjegyzések az oktatók számára
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- Ha ki kell nyomtatnia ezt a projektet, kérjük, használja az [nyomtatóbarát változat](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / nincs nyomtatás \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Keresse meg a [megoldást erre a projektre](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
 
-\--- /collapse \---
+\--- / összeomlás \---
