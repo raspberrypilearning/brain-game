@@ -1,4 +1,4 @@
-## Add a timer
+## Timer hinzufügen
 
 \--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
@@ -41,7 +41,7 @@ repeat until <(time) = (0)>
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / Hinweis \--- \--- / Hinweise \---
 
 \--- /task \---
 
@@ -62,8 +62,8 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    Wenn ich [Ende v] empfange
+stoppe [andere Skripte der Figur v]
 ```
 
 \--- /task \---
