@@ -1,4 +1,4 @@
-## Challenge: add a score and reactions
+## Uitdaging: Een score toevoegen
 
 Can you add a score to your game?
 
