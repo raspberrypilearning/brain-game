@@ -2,13 +2,13 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
-version: 4.0.2
-last_tested: 2018-10-03
+title: Jogo de calculo mental
+description: Neste projeto vais aprender a criar um jogo de perguntas sobre a tabuada de multiplicar, no qual terás que conseguir responder um numero máximo de perguntas corretas como possas em 30 segundos.
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
-    title: Introdução
+    title: Jogo de calculo mental
   - 
     title: Create questions
   - 
