@@ -1,110 +1,110 @@
-## Multiple games
+## একাধিক গেম
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+এখন আপনি একটি 'প্লে' বোতাম যুক্ত করতে যাচ্ছেন, যাতে প্লেয়ার আপনার গেমটি অনেক বার খেলতে পারে।
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- টাস্ক \--- একটি নতুন 'প্লে' বোতাম স্প্রাইট তৈরি করুন যা প্লেয়ারকে নতুন গেমটি শুরু করতে ক্লিক করতে হবে।
 
-You can draw the sprite yourself, or edit a sprite from the library.
+আপনি স্প্রাইট নিজেকে আঁকতে পারেন, অথবা লাইব্রেরি থেকে একটি sprite সম্পাদনা করতে পারেন।
 
-![Picture of the play button](images/brain-play.png)
+![খেলার বাটন ছবি](images/brain-play.png)
 
 \--- /কাজ \---
 
-\--- task \--- Add this code to your button sprite:
+\--- টাস্ক \--- আপনার বোতামে এই কোডটি যোগ করুন sprite:
 
-![Button sprite](images/button-sprite.png)
+![বোতাম স্প্রাইট](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    যখন পতাকা ক্লিক
+    প্রদর্শনী
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    এই পরী ক্লিক
+    লুকান
+    ব্রডকাস্ট (শুরু উ)
 ```
 
 \--- /কাজ \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+নতুন কোডটিতে অন্য `সম্প্রচার`{: class = "block3events"} ব্লক রয়েছে যা বার্তাটি 'শুরু' পাঠায়।
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+যখন প্লেয়ার ফ্ল্যাগে ক্লিক করে তখন নতুন কোড 'প্লে' বাটন স্প্রাইট প্রদর্শন করে। যখন প্লেয়ার বাটন স্প্রাইটে ক্লিক করে, তখন স্প্রাইট লুকিয়ে থাকে এবং তারপরে অন্য স্প্রাইটগুলি প্রতিক্রিয়া জানাতে পারে এমন একটি বার্তা প্রচার করে।
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+মুহূর্তে, চরিত্রটি ফ্ল্যাগে ক্লিক করলে প্রশ্ন জিজ্ঞাসা শুরু করে। আপনার খেলার কোডটি পরিবর্তন করুন যাতে অক্ষর স্প্রিটটি 'শুরু' `সম্প্রচার`{: class = "block3events"} গ্রহণ করে প্রশ্ন জিজ্ঞাসা করা শুরু করে।
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- টাস্ক \--- আপনার ক্যারেক্টার স্প্রাইট নির্বাচন করুন এবং তার কোড বিভাগে `প্রতিস্থাপিত করুন যখন ফ্ল্যাশ`{ক্লাস = "ব্লক 3events"} `দিয়ে শুরু হয় যখন আমি শুরু করি`{class = "block3events" } ব্লক।
 
-![Character sprite](images/giga-sprite.png)
-
-```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
-```
-
-\--- /কাজ \---
-
-\--- কাজ \---
-
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
-
-\--- /কাজ \---
-
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
-
-![Timer has started](images/brain-timer-bug.png)
-
-\--- কাজ \---
-
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
-
-\--- /কাজ \---
-
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
-
-![Button sprite](images/button-sprite.png)
+![অক্ষর স্প্রাইট](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+<br />- যখন আমি
+ক্লিক করি তখন + ফ্ল্যাগে ক্লিক করুন [শুরু v]
+সেট [সংখ্যা 1 ভি] থেকে (র্যান্ডম (2) থেকে (12))
+সেট [সংখ্যা 2 ভি] থেকে (র্যান্ডম (2) থেকে (12) )
+জিজ্ঞাসা করুন (যোগদানের (নম্বর 1) (যোগদানের [X] (নম্বর 2))) এবং অপেক্ষা করুন
+যদি &lt;(উত্তর) = ((নম্বর 1) * (সংখ্যা 2))&gt; তারপর
+    বলে [হ্যাঁ! :)] জন্য (2) সেকেন্ড
+অন্য
+    বলুন [নাপ :(] জন্য (2) সেকেন্ড
+শেষ
 ```
 
 \--- /কাজ \---
 
 \--- কাজ \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+সবুজ পতাকা ক্লিক করুন, এবং তারপরে নতুন 'প্লে' বাটনে ক্লিক করুন কিনা তা যাচাই করতে ক্লিক করুন। আপনি বাটন ক্লিক করার আগে খেলা শুরু হবে না দেখতে হবে।
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+\--- /কাজ \---
 
-![Stage](images/stage-sprite.png)
+আপনি খেলা শুরু করার পরিবর্তে সবুজ পতাকা ক্লিক করা হয় যখন টাইমার শুরু হয় দেখতে পারেন?
+
+![টাইমার শুরু হয়েছে](images/brain-timer-bug.png)
+
+\--- কাজ \---
+
+আপনি টাইমারের জন্য কোডটি পরিবর্তন করতে পারেন যাতে প্লেয়ার বাটনটি ক্লিক করলে টাইমারটি শুরু হয়?
+
+\--- /কাজ \---
+
+\--- টাস্ক \--- আপনার বোতামে কোড যুক্ত করুন যাতে বোতামটি প্রতিটি খেলার শেষে আবার দেখা যায়।
+
+![বোতাম স্প্রাইট](images/button-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    যখন আমি [শেষ ভি]
+    শো পাবেন
 ```
 
 \--- /কাজ \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- কাজ \---
 
-![Button](images/button-sprite.png)
+কয়েকটি গেম খেলতে 'প্লে' বোতামটি পরীক্ষা করুন। বাটন প্রতিটি খেলা শেষে প্রদর্শন করা উচিত।
+
+খেলাটি আরো দ্রুত পরীক্ষা করার জন্য, আপনি `সময়`{: class = "block3variables"} এর মান পরিবর্তন করতে পারেন যাতে প্রতিটি গেমটি মাত্র কয়েক সেকেন্ড দীর্ঘ হয়।
+
+![পর্যায়](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    সেট [সময় ভি] থেকে [10]
+```
+
+\--- /কাজ \---
+
+\--- টাস্ক \--- মাউস পয়েন্টার এটির উপর hovers যখন আপনি বাটন কিভাবে দেখায় পরিবর্তন করতে পারেন।
+
+![বোতাম](images/button-sprite.png)
+
+```blocks3
+    যখন ফ্ল্যাগটি
+    শো
+    চিরতরে ক্লিক করে
+ <touching (mouse-pointer v)?> তারপর
+        সেট [ফিশেয় ভি] প্রভাবটি (30)
+    অন্য
+        সেট [ফিশেইএ ভি] প্রভাব (0)
+    শেষ
+    শেষের দিকে
 ```
 
 ![screenshot](images/brain-fisheye.png) \--- /কাজ \---
