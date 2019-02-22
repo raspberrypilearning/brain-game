@@ -1,13 +1,13 @@
-## Challenge: sound and music
+## Задача: звук и музыка
 
-Can you add sound effects and music to your game? For example, you could have your game:
+Можете ли вы добавить звуковые эффекты и музыку в свою игру? Например, вы могли бы иметь свою игру:
 
-+ Play a sound when the player gives a correct or incorrect answer
-+ Play a ticking sound as the countdown timer runs
-+ Play a sound when the player's time is up
++ Воспроизвести звук, когда игрок дает правильный или неправильный ответ
++ Воспроизвести тикающий звук во время таймера обратного отсчета
++ Воспроизвести звук, когда время игрока истекло
 
 ```blocks3
-    play sound (pop v) until done
+    играть звук (поп V), пока не будет сделано
 ```
 
-Your game could also constantly play background music on a loop.
+Ваша игра также может постоянно проигрывать фоновую музыку по кругу.
