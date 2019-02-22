@@ -1,77 +1,77 @@
 ## Mange spil
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Nu skal du tilføje en 'Play' -knap, så spilleren kan spille dit spil mange gange.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- opgave \--- Opret en ny 'Play' knap sprite, som afspilleren skal klikke for at starte et nyt spil.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Du kan tegne sprite dig selv eller redigere et sprite fra biblioteket.
 
-![Picture of the play button](images/brain-play.png)
+![Billede af afspilningsknappen](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Add this code to your button sprite:
+\--- opgave \--- Føj denne kode til din knap sprite:
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    når flag klikket
+    viser
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    da dette sprite klikket
+    skjul
+    udsendelser (start v)
 ```
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Den nye kode indeholder en anden `udsendt`{: class = "block3events"} blok, som sender meddelelsen 'start'.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Den nye kode gør 'Play' knappen sprite show, når spilleren klikker på flag. Når afspilleren klikker på knappen sprite, skjuler sprite og sender derefter en besked, som andre sprites kan reagere på.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+I øjeblikket begynder tegnsprogen at stille spørgsmål, når spilleren klikker på flagget. Skift dit spil kode, så tegnsprite begynder at stille spørgsmål, når den modtager 'start' `udsendelsen`{: class = "block3events"}.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- opgave \--- Vælg din tegnsprit og erstat `når flag klikket`{: class = "block3events"} bloker med en `når jeg modtager start`{: class = "block3events" } blok.
 
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+<br />- når flag klikker
++ når jeg modtager [start v]
+sæt [nummer 1 v] til (vælg tilfældigt (2) til (12))
+sæt [nummer 2 v] til (vælg tilfældigt (2) til (12) )
+spørg (join nummer 1) (join [x] (nummer 2))) og vent
+hvis &lt;(svar) = ((nummer 1) * (nummer 2))&gt; så
+    siger [ja! :)] for (2) sekunder
+andet
+    siger [nope :(] for (2) sekunder
+ende
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Klik på det grønne flag, og klik derefter på den nye 'Afspil' knap for at teste om det virker. Du skal se, at spillet ikke starter, før du klikker på knappen.
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Kan du se, at timeren starter, når det grønne flag klikkes, i stedet for når spillet starter?
 
-![Timer has started](images/brain-timer-bug.png)
+![Timeren er startet](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Kan du ændre koden til timeren, så timeren starter, når afspilleren klikker på knappen?
 
 \--- /task \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- opgave \--- Tilføj kode til din knap sprite, så knappen vises igen i slutningen af hvert spil.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
+    når jeg modtager [end v]
     show
 ```
 
@@ -79,32 +79,32 @@ Can you change the code for the timer so that the timer starts when the player c
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Test 'Play' knappen ved at spille et par spil. Knappen skal vise i slutningen af hvert spil.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+For at teste spillet hurtigere kan du ændre værdien på `time`{: class = "block3variables"}, så hvert spil er kun få sekunder lang.
 
-![Stage](images/stage-sprite.png)
+![Scene](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    indstil [tid v] til [10]
 ```
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- opgave \--- Du kan ændre, hvordan knappen ser ud, når musemarkøren svæver over den.
 
-![Button](images/button-sprite.png)
+![Knap](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    når flag klikket
+    viser
+    evigt
+    hvis <touching (mouse-pointer v)?> derefter
+        sæt [fisheye v] effekt til (30)
+    andet
+        sæt [fisheye v] effekt til (0)
+    ende
+    ende
 ```
 
 ![skærmbillede](images/brain-fisheye.png) \--- /task \---
