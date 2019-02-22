@@ -1,15 +1,15 @@
-## Challenge: race to 10 points
+## אתגר: מרוץ ל -10 נקודות
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+אתה יכול לשנות את המשחק שלך כך השחקן, במקום לענות על שאלות רבות ככל האפשר בתוך 30 שניות, לענות על 10 שאלות מהר ככל האפשר.
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+כדי לבצע שינוי זה, עליך לשנות את קוד הטיימר בלבד. אתה יכול לראות אילו בלוקים צריך להיות שונה?
 
 ```blocks3
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) seconds
-        change [time v] by (-1)
+    כאשר אני מקבל [start v]
+    קבע את [time v] עד (30)
+    חזור עד <(time) = [0]>
+        המתן (1) שניות
+        [time v] by (-1)
     end
     broadcast (end v)
 ```
