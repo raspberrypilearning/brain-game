@@ -1,11 +1,11 @@
-## Challenge: create a start screen
+## אתגר: צור מסך פתיחה
 
-Can you add another backdrop that is going to be the start screen for your game?
+אתה יכול להוסיף רקע נוסף כי הוא הולך להיות מסך התחלה עבור המשחק שלך?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+אתה יכול להשתמש ב `כאשר אני מקבל את תחילת`{: class = "block3events"} ו `כאשר אני מקבל סוף`{: class = "block3events"} בלוקים כדי לעבור בין הרקע.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+כדי להציג או להסתיר את התווים כאשר המשחק עובר בין תפאורות, ניתן להשתמש ב- `show`{: class = "block3looks"} ו- `להסתיר`{: class = "block3looks"}.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+כדי להציג או להסתיר את הטיימר ואת הציון כאשר המשחק עובר בין תפאורות, ניתן להשתמש ב `משתנה משתנה`{: class = "block3variables"} ו `להסתיר המשתנה`:: class = "block3variables"} בלוקים.
 
-![Start screen](images/brain-startscreen.png)
+![התחל מסך](images/brain-startscreen.png)
