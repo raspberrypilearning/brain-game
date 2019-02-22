@@ -1,15 +1,3 @@
-\--- challenge \---
+## What next?
 
-## Завдання: Екран з інструкцією
-
-Можете додати до гри екран з інструкцією, який пояснюватиме як правильно грати? Вам буде потрібна кнопка "Інструкції" і ще один фон сцени.
-
-![знімок екрану](images/brain-instructions.png)
-
-Щоб повернутись до головного меню, знадобиться кнопка "Назад".
-
-```blocks
-    оповістити [головне меню v]
-```
-
-\--- /challenge \---
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
