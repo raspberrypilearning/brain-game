@@ -1,13 +1,13 @@
-## Challenge: sound and music
+## Kihívás: hang és zene
 
-Can you add sound effects and music to your game? For example, you could have your game:
+Tud adni hanghatásokat és zenét a játékra? Például lehet, hogy a játékod:
 
-+ Play a sound when the player gives a correct or incorrect answer
-+ Play a ticking sound as the countdown timer runs
-+ Play a sound when the player's time is up
++ Játsszon hangot, ha a lejátszó helyes vagy helytelen választ ad
++ Játssz egy csengő hangot, mint a visszaszámlálás
++ Játsszon hangot, amikor a játékos ideje megtelik
 
 ```blocks3
-    play sound (pop v) until done
+    hang lejátszása (pop v), amíg kész
 ```
 
-Your game could also constantly play background music on a loop.
+A játékod folyamatosan háttérzenét is játszhat egy hurkon.
