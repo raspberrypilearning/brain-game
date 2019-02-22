@@ -71,7 +71,7 @@ Can you change the code for the timer so that the timer starts when the player c
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
+    when I receive [kraj v]
     show
 ```
 
@@ -86,7 +86,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    set [vrijeme v] to [10]
 ```
 
 \--- /task \---
