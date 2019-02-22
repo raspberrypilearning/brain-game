@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
-version: 4.0.2
-last_tested: 2018-10-03
+title: Hersenkraker
+description: Leer hoe je een quiz maakt.
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
     title: Inleiding
   - 
-    title: Create questions
+    title: Vragen maken
   - 
-    title: Add a timer
+    title: 'Uitdaging: Van uiterlijk veranderen'
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Uitdaging: Een score toevoegen'
     challenge: true
   - 
     title: Meerdere spellen
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Uitdaging: startscherm'
     challenge: true
   - 
-    title: Add graphics
+    title: Afbeeldingen toevoegen
   - 
-    title: 'Challenge: sound and music'
+    title: 'Uitdaging: Verbeterde animatie'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Uitdaging: Geluid en muziek'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Uitdaging: Race naar 10 punten'
     challenge: true
   - 
-    title: What next?
+    title: 'Uitdaging: Instructie scherm'
