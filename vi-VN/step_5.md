@@ -33,7 +33,7 @@ At the moment, the character sprite starts asking questions when the player clic
 
 \--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
 
-![Character sprite](images/giga-sprite.png)
+![Đối tượng nhân vật](images/giga-sprite.png)
 
 ```blocks3
 <br />- when flag clicked
@@ -107,4 +107,4 @@ To test the game more quickly, you can change the value of `time`{:class="block3
     end
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![ảnh chụp màn hình](images/brain-fisheye.png) \--- /task \---
