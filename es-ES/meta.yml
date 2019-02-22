@@ -3,9 +3,9 @@ hero_image: imagenes/juego-mental.png
 listed: true
 copyedit: false
 title: Juego mental
-description: Aprende cómo crear una prueba.
+description: Aprende cómo crear una prueba
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-03
 steps:
   - 
     title: Introducción
@@ -33,4 +33,4 @@ steps:
     title: 'Desafío: Carrera hasta 10 puntos'
     challenge: true
   - 
-    title: 'Desafío: Pantalla de instrucciones'
+    title: 'Desafío: más colores'
