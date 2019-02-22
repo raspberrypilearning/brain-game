@@ -2,13 +2,13 @@
 
 Lúc này, nhân vật sprite chỉ nói `có!)`hoặc`không:(` cho câu trả lời của người chơi. Thêm một vài đồ hoạ để người chơi biết câu trả lời của họ chính xác hay không.
 
-\---nhiệm vụ\---
+\--- task \---
 
 Tạo một đối tượng mới gọi là 'Kết quả', và cho nó 'chọn/kiểm tra' và bộ trang phục 'gạch ngang'.
 
 ![Đối tượng với trang phục chọn và chéo](images/brain-result.png)
 
-\---/nhiệm vụ\---
+\--- /task \---
 
 \--- nhiệm vụ \---
 
@@ -27,9 +27,9 @@ ngược lại
 kết thúc
 ```
 
-\---/nhiệm vụ\---
+\--- /task \---
 
-\---nhiệm vụ\---
+\--- task \---
 
 Bây giờ bạn có thể sử dụng các tin nhắn này để ` hiển thị ` {: class = "block3looks"} trang phục 'tick' hoặc 'cross'. Thêm mã sau vào sprite 'Kết quả':
 
@@ -52,46 +52,46 @@ Bây giờ bạn có thể sử dụng các tin nhắn này để ` hiển thị
     ẩn
 ```
 
-\---/nhiệm vụ\---
+\--- /task \---
 
 \---nhiệm vụ\--- Kiểm tra lại trò chơi của bạn. Bạn có thể thấy dấu chọn bất cứ khi nào bạn trả lời đúng, và dấu chéo khi bạn trả lời câu hỏi không chính xác!
 
 ![Chọn cho đúng, chéo cho câu trả lời sai](images/brain-test-answer.png)
 
-\---/nhiệm vụ\---
+\--- /task \---
 
 Bạn có thể thấy rằng mã cho ` khi tôi nhận được chính xác ` {: class = "block3events"} và ` khi tôi nhận được sai ` {: class = "block3events"} gần giống nhau?
 
 Vì vậy bạn có thể thay đổi mã của mình dễ dàng hơn, bạn sẽ tạo một khối tùy chỉnh.
 
-\---nhiệm vụ\---
+\--- task \---
 
 Chọn đối tượng 'Kết quả'. Sau đó nhấp vào ` Khối của tôi ` {: class = "block3myblocks"}, và sau đó trên ** Tạo khối **. Tạo một khối mới và gọi nó là ` animate ` {: class = "block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![Đối tượng kết quả](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![Tạo một khối gọi là animate](images/brain-animate-function.png)
 
-\---/nhiệm vụ\---
+\--- /task \---
 
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+\--- task \--- Di chuyển mã đến ` hiển thị ` {: class = "block3looks"} và ` ẩn ` {: class = "block3looks"} sprite 'Kết quả' thành ` animate ` {: class = "block3myblocks"}:
 
-![Result sprite](images/result-sprite.png)
+![Đối tượng kết quả](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+định nghĩa animate
+hiển thị
+chờ (1) giây
+ẩn
 ```
 
-\---/nhiệm vụ\---
+\--- /task \---
 
 \--- nhiệm vụ \--- Đảm bảo bạn đã loại bỏ `hiển thị` {: class = "block3looks"} và ` ẩn ` {: class = "block3looks"} khối bên dưới ** cả hai ** đổi trang phục ` ` {: class = "block3looks"} khối.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+Sau đó thêm ` animate ` {: class = "block3myblocks"} bên dưới cả hai ` đổi trang phục`khối {: class = "block3looks"}. Mã của bạn bây giờ trông như thế này:
 
-![Result sprite](images/result-sprite.png)
+![Đối tượng kết quả](images/result-sprite.png)
 
 ```blocks3
     khi tôi nhận được [đúng v]
@@ -103,19 +103,19 @@ khi tôi nhận được [sai v]
 animate:: custom
 ```
 
-\---/nhiệm vụ\---
+\--- /task \---
 
 Vì tuỳ chỉnh khối`animate`khối{:class="block3myblocks"}, bây giờ chỉ cần làm một thay đổi cho mã của bạn nếu bạn muốn hiện đối tượng tuỳ chỉnh 'Kết quả' với thời gian lâu hơn hoặc nhanh hơn.
 
-\---nhiệm vụ\---
+\--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+Thay đổi mã của bạn để trang phục 'chọn' hoặc 'chéo' hiển thị trong 2 giây.
 
-\---/nhiệm vụ\---
+\--- /task \---
 
 \--- nhiệm vụ \--- Thay vì `hiển thị` {:class="block3looks"} và `ẩn` {:class="block3looks"} trang phục 'chọn' hoặc 'chéo', bạn có thể thay đổi khối `animate` {:class="block3myblocks"} của bạn để trang phục mờ dần đi.
 
-![Result sprite](images/result-sprite.png)
+![Đối tượng kết quả](images/result-sprite.png)
 
 ```blocks3
     xác định hiệu ứng animate
@@ -127,8 +127,8 @@ Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
     ẩn
 ```
 
-\---/nhiệm vụ\---
+\--- /task \---
 
 Bạn có thể cải thiện ảnh động của đồ họa 'chọn' hoặc 'chéo' không? Bạn có thể thêm mã để làm cho trang phục mờ dần, hoặc bạn có thể sử dụng các hiệu ứng thú vị khác:
 
-![screenshot](images/brain-effects.png)
+![ảnh chụp màn hình](images/brain-effects.png)
