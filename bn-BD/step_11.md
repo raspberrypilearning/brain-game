@@ -1,15 +1,3 @@
-\--- challenge \---
+## What next?
 
-## Challenge: Instruction screen
-
-Can you add an instructions screen to your game, telling your player how to play the game? You'll need an 'Instructions' button, and another stage background.
-
-![screenshot](images/brain-instructions.png)
-
-You may also need a 'Back' button to take you to the main menu.
-
-```blocks
-    broadcast [main menu v]
-```
-
-\--- /challenge \---
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
