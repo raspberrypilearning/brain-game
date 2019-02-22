@@ -1,55 +1,55 @@
-\--- no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+এই **স্ক্র্যাচ 3** প্রকল্পের সংস্করণ। প্রকল্প</a>এর স্ক্র্যাচ ২ সংস্করণ রয়েছে।</p> 
 
-\--- /no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
-## Introduction
+## পরিচিতি
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+এই প্রজেক্টে আপনি গণিতের একটি ক্যুইজ গেম তৈরি করবেন যা প্লেয়ারের 30 সেকেন্ডে যতটা সম্ভব সঠিক উত্তর দেবে।
 
-### What you will make
+### যা তৈরি করতে হবে
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- কোন মুদ্রণ \--- শুরু করার বোতাম ক্লিক করুন। প্রশ্নের উত্তরটি টাইপ করুন, এবং তারপরে <kbd>Enter</kbd> কী টিপুন।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- /no-print \---
+\----প্রিন্ট করা লাগবেনা --
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
-
-\--- /collapse \---
+\--- শুধুমাত্র মুদ্রণ \--- ![Brain Game](images/brain-final.png) \--- / মুদ্রণ শুধুমাত্র \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## যা শিখতে পারবেন
 
-### Hardware
++ স্ক্র্যাচ মধ্যে সম্প্রচার ব্যবহার করুন
++ কিভাবে একটি কাস্টম স্ক্র্যাচ ব্লক তৈরি এবং ব্যবহার করতে
 
-+ A computer capable of running Scratch 3
+-- /collapse \---
 
-### Software
+## \--- collapse \---
+
+## যা যা প্রয়োজন
+
+### হার্ডওয়্যার
+
++ একটি কম্পিউটার যেথানে স্ক্র্যাচ ২.০ (Scratch 3) চালানো যাবে
+
+### সফটওয়্যার
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-\--- /collapse \---
+-- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## শিরোনাম: শিক্ষাবিদদের জন্য অতিরিক্ত নোট
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- কোন মুদ্রণ \--- যদি আপনি এই প্রকল্পটি মুদ্রণ করতে চান তবে দয়া করে [প্রিন্টার-বান্ধব সংস্করণ](https://projects.raspberrypi.org/en/projects/brain-game/print)। \--- / কোন মুদ্রণ \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+এখানে এই প্রকল্পের জন্য [সমাধান খুঁজুন](http://rpf.io/p/en/brain-game-get){: লক্ষ্য = "_ blank"}।
 
-\--- /collapse \---
+-- /collapse \---
