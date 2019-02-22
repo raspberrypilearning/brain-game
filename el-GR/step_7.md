@@ -2,7 +2,7 @@
 
 At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
-\--- task \---
+\--- task --
 
 Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
@@ -10,7 +10,7 @@ Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' co
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
@@ -29,7 +29,7 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
 
@@ -64,7 +64,7 @@ Can you see that the code for `when I receive correct`{:class="block3events"} an
 
 So you can change your code more easily, you are going to create a custom block.
 
-\--- task \---
+\--- task --
 
 Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
@@ -107,7 +107,7 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 
 Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
 
-\--- task \---
+\--- task --
 
 Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
