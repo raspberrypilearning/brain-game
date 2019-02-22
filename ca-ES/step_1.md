@@ -1,55 +1,55 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Aquesta és la versió **Scratch 3** del projecte. També hi ha una versió [Scratch 2 del projecte](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- /no-print \---
+\--- / no-print \---
 
-## Introduction
+## Introducció
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+En aquest projecte, crearàs un joc de prova de matemàtiques en el qual el jugador té 30 segons per donar tantes respostes correctes com sigui possible.
 
-### What you will make
+### El que faràs
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Feu clic al botó per començar. Escriviu la resposta a la pregunta i, a continuació, premeu la tecla <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- /no-print \---
+\--- / no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- print-only \--- ![Brain Game](images/brain-final.png) \--- / print-only \---
 
-## \--- collapse \---
+## \--- col·lapsar \---
 
-## title: What you will learn
+## títol: el que aprendràs
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Com s'utilitzen les emissions a Scratch
++ Com es crea i utilitza un bloc de notes personalitzat
 
-\--- /collapse \---
+\--- / col · lapse \---
 
-## \--- collapse \---
+## \--- col·lapsar \---
 
-## title: What you will need
+## títol: el que necessitaràs
 
-### Hardware
+### Maquinari
 
-+ A computer capable of running Scratch 3
++ Una computadora capaç d'executar Scratch 3
 
-### Software
+### Programari
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ( [en línia](http://rpf.io/scratchon)(: target = "_ blank"} o [fora de línia](http://rpf.io/scratchoff)(: target = "_ blank"})
 
-\--- /collapse \---
+\--- / col · lapse \---
 
-## \--- collapse \---
+## \--- col·lapsar \---
 
-## title: Additional notes for educators
+## títol: notes addicionals per a educadors
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- Si necessiteu imprimir aquest projecte, utilitzeu la [versió per a imprimir](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Troba el [solució per a aquest projecte aquí](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
 
-\--- /collapse \---
+\--- / col · lapse \---
