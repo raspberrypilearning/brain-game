@@ -1,75 +1,75 @@
-## Add a timer
+## 타이머 추가
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- task \--- `시간`{{class = "block3variables"}라는 새 변수를 사용하여 스테이지에 카운트 다운 타이머를 만듭니다. 타이머는 30 초에서 시작하여 0 초로 계산됩니다.
 
-![Stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+`변수`{{class = "block3variables"}}을 만들고, 'time'이라고 부르고, 값을 `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+그런 다음 30 초 내에 `시간`{{class = "block3variables"}}을 0으로 계산하는 코드를 추가하십시오. 이렇게하려면 빼기 `1` 에서 `시간`{: 클래스 = "block3variables"}마다 `1` 초 때까지이 작업을 반복 `시간`{: 클래스 = "block3variables을"}와 동일 `0`.
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- / 힌트 \--- \--- 힌트 \--- 필요한 블록은 다음과 같습니다.
 
 ```blocks3
-repeat until < >
+< >
 
-end
+끝
 
-wait (1) seconds
+대기 (1) 초
 
-change [time v] by (1)
+플래그를 클릭 할 때 (1)
 
-(time)
+(시간)
 
-when flag clicked
+[시간 v] 변경
 
 <() = ()>
 
-set [time v] to [0]
+[시간 v]를 [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- / 힌트 \--- \--- 힌트 \--- 다음은 새 코드의 모양입니다.
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
-end
+플래그 클릭시
+[시간 v]를 [30]
+ <(시간) = (0)>
+    대기 (1) 초
+    [시간 v]를 (-1)
+끝으로 변경
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / 귀뜸말 \--- \--- / 귀뜸말 \---
 
 \--- /task \---
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+'end'라는 메시지를 보내는 `브로드 캐스트`{: class = "block3control"}을 만듭니다. `브로드 캐스트`{: class = "block3control"}은 라우드 스피커를 통한 발표와 같으며 모든 스프라이트에서들을 수 있습니다. `시간`{: class = "block3variables"}이 `계산되면 코드가 전송되고 '종료'메시지가되도록 타이머 코드 끝에 <code>브로드 캐스트`{: class = "block3control"} 블록을 추가하십시오 0</code>.
 
-![Stage sprite](images/stage-sprite.png)
+![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    방송 (끝 v)
 ```
 
 \--- /task \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- 문자 스프라이트를 선택하고 sprite `이 <code>end`{: class = "block3control"} 메시지를받을 때 다른 스크립트</code>{{class = "block3control"}을 중지하도록 코드를 추가하십시오 .
 
-![Giga sprite](images/giga-sprite.png)
+![기가 스프라이트](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    [끝 v]을 받았을 때
+    중지 [다른 스크립트는 스프라이트 v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+게임을 다시 테스트하십시오. 타이머가 0으로 계산 될 때까지 질문을 계속해야합니다.
 
 \--- /task \---
