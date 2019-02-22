@@ -1,36 +1,36 @@
 ---
-hero_image: images/brain-game.png
+hero_image: images / hjärn game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
+title: Hjärnspel
+description: Lär dig hur du skapar en frågesport
 version: 4.0.2
-last_tested: 2018-10-03
+last_tested: 2018/10/03
 steps:
   - 
-    title: Introduction
+    title: Introduktion
   - 
-    title: Create questions
+    title: Skapa frågor
   - 
-    title: Add a timer
+    title: Lägg till en timer
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Utmaning: lägg till en poäng och reaktioner'
     challenge: true
   - 
-    title: Multiple games
+    title: Flera spel
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Utmaning: Skapa en startskärm'
     challenge: true
   - 
-    title: Add graphics
+    title: Lägg till grafik
   - 
-    title: 'Challenge: sound and music'
+    title: 'Utmaning: ljud och musik'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Utmaning: ras till 10 poäng'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Utmaning: instruktionsskärm'
     challenge: true
   - 
-    title: What next?
+    title: Vad nästa?
