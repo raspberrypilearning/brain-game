@@ -1,15 +1,15 @@
-## Challenge: race to 10 points
+## Kihívás: verseny 10 pontra
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+Megváltoztathatja a játékát úgy, hogy a játékos, ahelyett, hogy 30 másodpercen belül annyi kérdésre válaszolna, a lehető leggyorsabban válaszoljon 10 kérdésre.
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+A módosításhoz csak az időzítő kódját kell módosítania. Láthatja, hogy melyik blokkoknak másnak kell lenniük?
 
 ```blocks3
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) seconds
-        change [time v] by (-1)
-    end
-    broadcast (end v)
+    mikor kapok [start v]
+    beállítást [idő v] - (30)
+    ismétlés, amíg <(idő) = [0]>
+        várakozás (1) másodperc
+        változtatás [idő v] a (-1)
+    vég
+    sugárzás (vége) v)
 ```
