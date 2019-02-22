@@ -6,7 +6,7 @@ Lúc này, nhân vật sprite chỉ nói `có!)`hoặc`không:(` cho câu trả 
 
 Tạo một đối tượng mới gọi là 'Kết quả', và cho nó 'chọn/kiểm tra' và bộ trang phục 'gạch ngang'.
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![Đối tượng với trang phục chọn và chéo](images/brain-result.png)
 
 \---/nhiệm vụ\---
 
@@ -14,7 +14,7 @@ Tạo một đối tượng mới gọi là 'Kết quả', và cho nó 'chọn/k
 
 Thay mã đối tượng của bạn để, thay vì nói gì đó với người chơi, nó ` phát tin ` {: class = "block3events"} các thông báo 'chính xác' hoặc 'sai'.
 
-![Character sprite](images/giga-sprite.png)
+![Đối tượng nhân vật](images/giga-sprite.png)
 
 ```blocks3
 nếu <(đáp án) = ((số 1) * (số 2))> thì
@@ -33,7 +33,7 @@ kết thúc
 
 Bây giờ bạn có thể sử dụng các tin nhắn này để ` hiển thị ` {: class = "block3looks"} trang phục 'tick' hoặc 'cross'. Thêm mã sau vào sprite 'Kết quả':
 
-![Result sprite](images/result-sprite.png)
+![Đối tượng kết quả](images/result-sprite.png)
 
 ```blocks3
     khi tôi nhận được [đúng v]
@@ -56,7 +56,7 @@ Bây giờ bạn có thể sử dụng các tin nhắn này để ` hiển thị
 
 \---nhiệm vụ\--- Kiểm tra lại trò chơi của bạn. Bạn có thể thấy dấu chọn bất cứ khi nào bạn trả lời đúng, và dấu chéo khi bạn trả lời câu hỏi không chính xác!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![Chọn cho đúng, chéo cho câu trả lời sai](images/brain-test-answer.png)
 
 \---/nhiệm vụ\---
 
@@ -94,18 +94,18 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    khi tôi nhận được [đúng v]
+đổi trang phục thành (tick v)
+animate:: custom
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+khi tôi nhận được [sai v]
+đổi trang phục thành (chéo v)
+animate:: custom
 ```
 
 \---/nhiệm vụ\---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+Vì tuỳ chỉnh khối`animate`khối{:class="block3myblocks"}, bây giờ chỉ cần làm một thay đổi cho mã của bạn nếu bạn muốn hiện đối tượng tuỳ chỉnh 'Kết quả' với thời gian lâu hơn hoặc nhanh hơn.
 
 \---nhiệm vụ\---
 
@@ -113,22 +113,22 @@ Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
 \---/nhiệm vụ\---
 
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+\--- nhiệm vụ \--- Thay vì `hiển thị` {:class="block3looks"} và `ẩn` {:class="block3looks"} trang phục 'chọn' hoặc 'chéo', bạn có thể thay đổi khối `animate` {:class="block3myblocks"} của bạn để trang phục mờ dần đi.
 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    xác định hiệu ứng animate
+    đặt [ghost v] thành (100)
+    hiển thị
+    lặp lại (25) lần
+        thay đổi hiệu ứng [ghost v] bằng (-4)
+    kết thúc
+    ẩn
 ```
 
 \---/nhiệm vụ\---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Bạn có thể cải thiện ảnh động của đồ họa 'chọn' hoặc 'chéo' không? Bạn có thể thêm mã để làm cho trang phục mờ dần, hoặc bạn có thể sử dụng các hiệu ứng thú vị khác:
 
 ![screenshot](images/brain-effects.png)
