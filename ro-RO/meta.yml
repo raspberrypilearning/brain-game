@@ -3,34 +3,34 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Brain Game
-description: În acest proiect vei învăţa cum să creezi, un chestionar cu intrebari din tabla înmulţirii, la care trebuie să răspunzi corect la cât mai multe întrebări în 30 de secunde.
+description: Învățați cum să creați un chestionar
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-03
 steps:
   - 
     title: Brain Game
   - 
-    title: Create questions
+    title: Creați întrebări
   - 
-    title: Add a timer
+    title: Adăugați un cronometru
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Provocare: adăugați un scor și reacții'
     challenge: true
   - 
     title: Mai multe jocuri
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Provocare: creați un ecran de pornire'
     challenge: true
   - 
-    title: Add graphics
+    title: Adăugați grafică
   - 
-    title: 'Challenge: sound and music'
+    title: 'Provocare: sunet și muzică'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Provocare: Cursa la 10 puncte'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Provocare: ecran de instrucțiuni'
     challenge: true
   - 
-    title: What next?
+    title: Ce urmează?
