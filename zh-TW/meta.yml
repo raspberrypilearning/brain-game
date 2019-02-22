@@ -1,36 +1,36 @@
 ---
-hero_image: images/brain-game.png
+hero_image: 圖片/腦game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
+title: 腦力遊戲
+description: 了解如何創建測驗
 version: 4.0.2
-last_tested: 2018-10-03
+last_tested: 2018年10月3日
 steps:
   - 
-    title: Introduction
+    title: 介紹
   - 
-    title: Create questions
+    title: 創建問題
   - 
-    title: Add a timer
+    title: 添加計時器
   - 
-    title: 'Challenge: add a score and reactions'
+    title: '挑戰：添加分數和反應'
     challenge: true
   - 
-    title: Multiple games
+    title: 多場比賽
   - 
-    title: 'Challenge: create a start screen'
+    title: '挑戰：創建一個開始屏幕'
     challenge: true
   - 
-    title: Add graphics
+    title: 添加圖形
   - 
-    title: 'Challenge: sound and music'
+    title: '挑戰：聲音和音樂'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: '挑戰：比賽達到10分'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: '挑戰：指導屏幕'
     challenge: true
   - 
-    title: What next?
+    title: 接下來是什麼？
