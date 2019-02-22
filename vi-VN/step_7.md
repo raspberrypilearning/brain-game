@@ -1,6 +1,6 @@
-## Add graphics
+## Thêm đồ họa
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+Lúc này, nhân vật sprite chỉ nói `có!)`hoặc`không:(` cho câu trả lời của người chơi. Thêm một vài đồ hoạ để người chơi biết câu trả lời của họ chính xác hay không.
 
 \--- task \---
 
