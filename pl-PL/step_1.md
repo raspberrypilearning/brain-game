@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Ta wersja projektu jest przeznaczona dla języka **Scratch 3**. Projekt dostępny jest również [w wersji dla języka Scratch 2](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
 ## Wprowadzenie
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+W tym projekcie stworzysz grę quizów matematycznych, w której gracz ma 30 sekund na udzielenie jak największej liczby poprawnych odpowiedzi.
 
-### What you will make
+### Co będziesz robił
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Kliknij przycisk, aby rozpocząć. Wpisz odpowiedź na pytanie, a następnie naciśnij klawisz <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,37 +19,37 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 \--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- tylko do wydruku \--- ![Brain Game](images/brain-final.png) \--- / tylko do wydruku \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Czego się nauczysz
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Jak korzystać z transmisji w Scratch
++ Jak utworzyć i użyć niestandardowego bloku Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Czego będziesz potrzebować
 
-### Hardware
+### Sprzęt
 
-+ A computer capable of running Scratch 3
++ Komputer, na którym można uruchomić Scratch 3
 
-### Software
+### Oprogramowanie
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} lub [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## tytuł: Dodatkowe uwagi dla nauczycieli
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- Jeśli chcesz wydrukować ten projekt, użyj [wersji](https://projects.raspberrypi.org/en/projects/brain-game/print)przyjaznej dla drukarki. \--- / brak wydruku \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Znajdź rozwiązanie [dla tego projektu tutaj](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
 
 \--- /collapse \---
