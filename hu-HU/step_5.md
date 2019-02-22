@@ -1,110 +1,110 @@
-## Multiple games
+## Több játék
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Most hozzáad egy "Play" gombot, hogy a játékos sokszor játszhasson a játékban.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- Hozzon létre egy új 'Play' gombot, amire a játékosnak szüksége van egy új játék elindításához.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+A Sprite-ot magad is rajzolhatod, vagy szerkeszthetsz egy sprite-ot a könyvtárból.
 
-![Picture of the play button](images/brain-play.png)
+![A lejátszás gomb képe](images/brain-play.png)
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- Adja hozzá ezt a kódot a gomb sprite-hez:
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    amikor zászló kattintott
+    mutatják
 
-    when this sprite clicked
+    , ha ez a szellem kattintottak
     hide
-    broadcast (start v)
+    adás (start v)
 ```
 
-\--- /task \---
+\--- / feladat \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Az új kód egy másik `sugárzást tartalmaz`{: class = "block3events"} blokkot, amely elküldi az "start" üzenetet.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Az új kód a „Play” gomb sprite-t mutatja, amikor a játékos rákattint a zászlóra. Amikor a játékos rákattint a sprite-ra, a sprite elrejti és aztán üzenetet küld, hogy más spritek reagálhatnak.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+Abban a pillanatban, a karakter sprite elkezdi kérdéseket feltenni, amikor a játékos rákattint a zászlóra. Változtassa meg a játékkódját úgy, hogy a karakterlövész megkérdezzen kérdéseket, amikor megkapja a ' `' sugárzást`{: class = "block3events"}.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- Jelölje ki a karakterláncot, és a kódrészében cserélje ki az `amikor a`jelzésre kattintott: {= class = "block3events"} egy `mal, amikor elkezdem a`indítást {: class = "block3events" } Blokk.
 
-![Character sprite](images/giga-sprite.png)
+![Karakter sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+<br />- amikor a zászló +
++ -ra kattintott, amikor [start v]
+kapok, állítsuk be a [szám 1 v] -ta (véletlenszerű (2) -ig (12))
+állítsuk be a [2-es számot] a (véletlenszerű (2) -ig (12) -ig) )
+kérje (csatlakozzon (1. szám) (csatlakozzon az [x] -hez (2-es szám))) és várjon
+ha &lt;(válasz) = ((1-es szám) * (2. szám))&gt; majd
+    mondja [igen! :)] (2) másodpercig
+más
+    mondja [nope :(] (2) másodperc
+végére
 ```
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Kattintson a zöld zászlóra, majd kattintson az új "Play" gombra, hogy tesztelje, hogy működik-e. Látnia kell, hogy a játék nem indul el, mielőtt a gombra kattint.
 
-\--- /task \---
+\--- / feladat \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Láthatja, hogy az időzítő akkor kezdődik, amikor a zöld zászlót rákattintják ahelyett, hogy a játék elindulna?
 
-![Timer has started](images/brain-timer-bug.png)
+![Megkezdődött az időzítő](images/brain-timer-bug.png)
 
-\--- task \---
+\--- feladat \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Megváltoztathatja az időzítő kódját, hogy az időzítő elinduljon, amikor a játékos rákattint a gombra?
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- task \--- Add kódot a gomb sprite-hez, hogy a gomb ismét megjelenik a játék végén.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    mikor megkapom a [vége v]
+    show-t
 ```
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Teszteld a 'Play' gombot néhány játék lejátszásával. A gombnak minden játék végén meg kell jelennie.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+A játék gyorsabb teszteléséhez módosíthatja a `time`{: class = "block3variables"} értékét, hogy minden játék csak néhány másodperc legyen.
 
-![Stage](images/stage-sprite.png)
+![Színpad](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    állítsa be az [idő v] értékét [10]
 ```
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- Megváltoztathatja, hogyan néz ki a gomb, amikor az egérmutató fölé mozog.
 
-![Button](images/button-sprite.png)
+![Gomb](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    ha a jelző
+    kattint,
+    örökre
+    ha <touching (mouse-pointer v)?> majd
+        állítsa be a [halszem v] hatást (30)
+    másikra
+        állítsa be a [halszem v] hatást a (0)
+    vég
+    végére
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![screenshot](images/brain-fisheye.png) \--- / feladat \---
