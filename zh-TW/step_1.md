@@ -1,55 +1,55 @@
-\--- no-print \---
+\---沒有印刷\---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+這是該項目的 **Scratch 3** 版本。項目</a>還有 Scratch 2版本。</p> 
 
-\--- /no-print \---
+\--- /無印刷\---
 
-## Introduction
+## 介紹
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+在這個項目中，你將創建一個數學測驗遊戲，玩家有30秒的時間給出盡可能多的正確答案。
 
-### What you will make
+### 你要做什麼
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- 單擊按鈕開始。輸入問題的答案，然後按 <kbd>Enter</kbd> 鍵。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- /no-print \---
+\--- /無印刷\---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\---僅打印\--- ![Brain Game](images/brain-final.png) \--- /僅打印\---
 
-## \--- collapse \---
+## - - 坍方 - -
 
-## title: What you will learn
+## 標題：你將學到什麼
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ 如何在Scratch中使用廣播
++ 如何創建和使用自定義Scratch塊
 
-\--- /collapse \---
+- - /坍方 - -
 
-## \--- collapse \---
+## - - 坍方 - -
 
-## title: What you will need
+## 標題：你需要什麼
 
-### Hardware
+### 硬件
 
-+ A computer capable of running Scratch 3
++ 能夠運行Scratch 3的計算機
 
-### Software
+### 軟件
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ 從頭開始3（ [在線](http://rpf.io/scratchon){：target =“_ blank”}或 [離線](http://rpf.io/scratchoff){：target =“_ blank”}）
 
-\--- /collapse \---
+- - /坍方 - -
 
-## \--- collapse \---
+## - - 坍方 - -
 
-## title: Additional notes for educators
+## 標題：教育工作者的附加說明
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- 如果您需要打印此項目，請使用 [個適合打印的版本](https://projects.raspberrypi.org/en/projects/brain-game/print)。 \--- /無印刷\---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+在這裡找到這個項目的 [解決方案](http://rpf.io/p/en/brain-game-get){：target =“_ blank”}。
 
-\--- /collapse \---
+- - /坍方 - -
