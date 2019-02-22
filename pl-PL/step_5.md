@@ -1,74 +1,74 @@
 ## Wielokrotne gry
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Teraz masz zamiar dodać przycisk "Graj", aby gracz mógł grać w grę wiele razy.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- Utwórz nową ikonkę przycisku "Graj", którą gracz musi kliknąć, aby rozpocząć nową grę.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Możesz samemu narysować sprite'a lub edytować duszek z biblioteki.
 
-![Picture of the play button](images/brain-play.png)
+![Obraz przycisku odtwarzania](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- Dodaj ten kod do swojego sprite przycisku:
 
-![Button sprite](images/button-sprite.png)
+![Przycisk sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    kiedy flaga kliknęła
+    pokaż
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    kiedy ten duszek kliknął
+    ukryj
+    transmisje (start v)
 ```
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Nowy kod zawiera kolejny blok `broadcast`{: class = "block3events}}, który wysyła komunikat" start ".
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Nowy kod sprawia, że ikonka "Graj" pojawia się, gdy gracz kliknie flagę. Kiedy gracz kliknie na ikonkę przycisku, sprite ukrywa, a następnie nadaje komunikat, na który mogą reagować inne sprite'y.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+W tej chwili sprite znaków zaczyna zadawać pytania, gdy gracz kliknie flagę. Zmień kod swojej gry, aby sprite postaci zaczynał zadawać pytania, gdy otrzyma komunikat "start" ``{: class = "block3events"}.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- zadanie \--- Wybierz swoją postać i sprite w swojej sekcji kodu, wymienić `po kliknięciu flagi`{: class = "block3events"} blok z `kiedy zacząć odbierać`{: class = "block3events" } blokuj.
 
-![Character sprite](images/giga-sprite.png)
+![Charakter sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+<br />- kiedy flaga kliknęła
++ kiedy otrzymam [start v]
+ustaw [numer 1 v] na (wybierz losowo (2) do (12))
+ustaw [numer 2 v] na (wybierz losowo (2) do (12) )
+zapytaj (dołącz (numer 1) (dołącz [x] (numer 2)) i poczekaj
+jeśli &lt;(odpowiedź) = ((numer 1) * (numer 2))&gt; a następnie
+    powiedz [tak! :)] przez (2) sekundy
+jeszcze
+    powiedz [nope :(] przez (2) sekundy
+koniec
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Kliknij zieloną flagę, a następnie kliknij przycisk "Odtwórz", aby sprawdzić, czy działa. Powinieneś zobaczyć, że gra nie uruchamia się, zanim klikniesz przycisk.
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Czy widzisz, że licznik czasu zaczyna się po kliknięciu zielonej flagi, a nie po uruchomieniu gry?
 
-![Timer has started](images/brain-timer-bug.png)
+![Timer się rozpoczął](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Czy możesz zmienić kod timera tak, aby timer zaczął się, gdy gracz kliknie przycisk?
 
 \--- /task \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- task \--- Dodaj kod do sprite'a na przycisk, aby przycisk pojawiał się ponownie na końcu każdej gry.
 
-![Button sprite](images/button-sprite.png)
+![Przycisk sprite](images/button-sprite.png)
 
 ```blocks3
     kiedy otrzymam [koniec v]
@@ -79,11 +79,11 @@ pokaż
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Przetestuj przycisk "Graj", grając w kilka gier. Przycisk powinien pojawić się na końcu każdej gry.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+Aby szybciej przetestować grę, możesz zmienić wartość `raz`{: class = "block3variables"}, aby każda gra trwała tylko kilka sekund.
 
-![Stage](images/stage-sprite.png)
+![Etap](images/stage-sprite.png)
 
 ```blocks3
     ustaw [czas v] na [10]
@@ -91,9 +91,9 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- Możesz zmienić sposób wyświetlania przycisku, gdy wskaźnik myszy najedzie na niego.
 
-![Button](images/button-sprite.png)
+![Przycisk](images/button-sprite.png)
 
 ```blocks3
     kiedy kliknięto zieloną flagę
