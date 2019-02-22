@@ -1,102 +1,102 @@
-## Create questions
+## צור שאלות
 
-You're going to start by creating random questions that the player has to answer.
+אתה הולך להתחיל על ידי יצירת שאלות אקראיות כי השחקן צריך לענות.
 
-\--- task \---
+\--- \---
 
-Open a new Scratch project.
+פתח פרוייקט חדש של Scratch.
 
-**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
+**מקוון:** לפתוח פרויקט חדש באינטרנט שריטה ב [rpf.io / scratchon](http://rpf.io/scratchon){: target = "_ _ ריק"}.
 
-**Offline:** open a new project in the offline editor.
+**מקוון:** פתח פרוייקט חדש בעורך הלא מקוון.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+אם עליך להוריד ולהתקין את העורך הלא מקוון של Scratch, תוכל למצוא אותו ב [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ _ blank"}.
 
-\--- /task \---
+\--- / משימה \---
 
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+\--- משימה \--- הוסף שדון דמות רקע עבור המשחק שלך. אתה יכול לבחור כל מה שאתה אוהב! הנה דוגמה:
 
-![screenshot](images/brain-setting.png)
+![צילום מסך](images/brain-setting.png)
 
-\--- /task \---
+\--- / משימה \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- משימה \--- ודא שיש לך ספרייט הדמות שבחרת. צור שני משתנים חדשים, הנקראים `מספר 1`{: class = "block3variables"} ו- `number 2`{: class = "block3variables"}, כדי לאחסן את המספרים עבור שאלות החידון.
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![צילום מסך](images/giga-sprite.png) ![צילום מסך](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /task \---
+\--- / משימה \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- משימה \--- קוד הוסף ספרייט הדמות שלך כדי להגדיר את שתיהן `משתנה`{: class = "block3variables"} למסע `אקראי`{: class = "block3operators"} מספר בין 2 ו 12.
 
-![screenshot](images/giga-sprite.png)
-
-```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-```
-
-\--- /task \---
-
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
-
-![screenshot](images/giga-sprite.png)
+![צילום מסך](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
-+ end
+כאשר הדגל לחץ על
+קבע מספר [1] כדי לבחור (אקראי) 2 (עד) 12 ()
+[מספר 2 v] ל (בחר אקראי) 2 (עד) 12
 ```
 
-\--- /task \---
+\--- / משימה \---
 
-\--- task \---
+\--- משימה \--- להוסיף קוד `לשאול`{: class = "block3sensing"} השחקן על התשובה, ולאחר מכן `לומר 2 שניות`{: class = "block3looks"} אם התשובה צדק או שגוי:
 
-Test your project twice: answer one question correctly, and the other incorrectly.
-
-\--- /task \---
-
-\--- task \---
-
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
-
-\--- hints \--- \--- hint \---
-
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
-
-\--- /hint \--- \--- hint \--- Here is the block you need:
+![צילום מסך](images/giga-sprite.png)
 
 ```blocks3
-forever
-end
+כאשר מספר הדקות לחץ על
+[מספר [1]] ל (בחר אקראי) 2 (עד) 12 ()
+[מספר 2 v] ל (בחר אקראי (2) עד (12))
+
++ שאל (הצטרף למספר 1) (2)) והמתן
++ אם <(תשובה) = (מספר 1) * (מספר 2))> ואז
++ אומר [כן! :)] עבור (2) שניות
++ אחר
++ say [no :(] עבור (2) שניות
++ סוף
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- / משימה \---
+
+\--- \---
+
+בדוק את הפרוייקט פעמיים: ענה על שאלה אחת בצורה נכונה והשני שגוי.
+
+\--- / משימה \---
+
+\--- \---
+
+הוסף `לנצח`{: class = "block3control"} לולאה סביב קוד זה, כך המשחק שואל את השחקן המון שאלות ברציפות.
+
+\--- רמזים \--- \--- רמז \---
+
+אתה צריך להוסיף `לנצח`{: class = "block3control"} לחסום, ולשים את כל הקוד למעט `כאשר הדגל נלחץ`{: class = "block3control"} לחסום אותו.
+
+\--- / רמז \--- \--- רמז \--- הנה הבלוק שאתה צריך:
 
 ```blocks3
-when flag clicked
-
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
+לנצח
+סוף
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / רמז \--- \--- רמז \--- הנה מה הקוד שלך צריך להיראות כמו:
 
-\--- /task \---
+```blocks3
+כאשר הדגל לוחץ
+
++ לנצח
+    סט [מספר 1 v] כדי (איסוף אקראי (2) עד (12))
+    סט [מספר 2 v] כדי (איסוף אקראי (2) עד (12))
+    לשאול (להצטרף (מספר 1) (הצטרף [x] (מספר 2)) והמתן
+    אם <(תשובה) = ((מספר 1) (מספר 2))> ואז
+        אומר [כן! :)] עבור (2) שניות
+    אחר
+        לומר [no :(] עבור (2) שניות
+    סוף
+סוף
+```
+
+\--- / hint \--- \--- / hints \---
+
+\--- / משימה \---
