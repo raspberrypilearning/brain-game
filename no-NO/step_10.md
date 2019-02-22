@@ -1,11 +1,11 @@
-## Challenge: instruction screen
+## Utfordring: instruksjonsskjerm
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+Kan du legge til en instruksjonsskjerm som forteller spilleren hvordan du spiller spillet? For dette trenger du en 'Instruksjoner' -knapp og en annen Bakgrunn.
 
-![screenshot](images/brain-instructions.png)
+![skjermbilde](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Du må kanskje også legge til en "Back" -knapp som lar spilleren gå tilbake til startskjermbildet.
 
 ```blocks3
-    broadcast (start screen v)
+    kringkasting (startskjerm v)
 ```
