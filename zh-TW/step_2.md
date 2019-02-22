@@ -1,102 +1,103 @@
-## Create questions
+## 創建問題
 
-You're going to start by creating random questions that the player has to answer.
+您將首先創建玩家必須回答的隨機問題。
 
-\--- task \---
+\---任務\---
 
-Open a new Scratch project.
+打開一個新的Scratch項目。
 
-**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
+**在線：** 在 [rpf.io/scratchon](http://rpf.io/scratchon){：target =“_ blank”}打開一個新的在線Scratch項目。
 
-**Offline:** open a new project in the offline editor.
+**離線：** 在離線編輯器中打開一個新項目。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+如果您需要下載並安裝Scratch離線編輯器，可以在 [rpf.io/scratchoff](http://rpf.io/scratchoff){：target =“_ blank”}找到它。
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+\--- task \--- 為你的遊戲添加角色精靈和背景。你可以選擇任何你喜歡的！這是一個例子：
 
-![screenshot](images/brain-setting.png)
+![截圖](images/brain-setting.png)
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- task \--- 確保選擇了你的角色精靈。 創建兩個新變量，稱為 `number 1`{：class =“block3variables”}和 `number 2`{：class =“block3variables”}，以存儲測驗問題的數字。
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![截圖](images/giga-sprite.png) ![截圖](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- task \--- 在你的角色精靈中添加代碼，將 `變量`{：class =“block3variables”}設置為2到12之間的 `隨機`{：class =“block3operators”}數字。
 
-![screenshot](images/giga-sprite.png)
+![截圖](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+當標記點擊時
+設置[數字1 v]到（選擇隨機（2）到（12））
+設置[數字2 v]到（選擇隨機（2）到（12））
 ```
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+\---任務\--- 添加代碼 `問`{：class =“block3sensing”}玩家的答案，然後 `說2秒`{：class =“block3looks”}答案是否正確或錯誤：
 
-![screenshot](images/giga-sprite.png)
+![截圖](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+當標記點擊時
+設置[數字1 v]到（選擇隨機（2）到（12））
+設置[數字2 v]到（選擇隨機（2）到（12））
 
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
++問（加入（數字1）） （加入[x]（數字2）））並等待
++如果 <（回答）=（（數字1）*（數字2））> 然後
++說[是！ :)] for（2）seconds
 + else
-+ say [no :(] for (2) seconds
++ say [no :(] for（2）seconds
 + end
 ```
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \---
+\---任務\---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+測試您的項目兩次：正確回答一個問題，另一個錯誤回答。
 
-\--- /task \---
+\--- /任務\---
 
-\--- task \---
+\---任務\---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+在此代碼周圍添加 `永遠`{：class =“block3control”}循環，以便遊戲連續向玩家詢問很多問題。
 
-\--- hints \--- \--- hint \---
+\---提示\--- \---提示\---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+你需要添加一個 `永遠`{：class =“block3control”}塊，並將標記點擊</code>{{class =“block3control”}塊時除 `之外的所有代碼放入其中。</p>
 
-\--- /hint \--- \--- hint \--- Here is the block you need:
+<p>--- /提示---
+---提示---
+這是你需要的塊：</p>
+
+<pre><code class="blocks3">永遠
+結束
+`</pre> 
+
+\--- /提示\--- \---提示\--- 這是你的代碼應該是這樣的：
 
 ```blocks3
-forever
-end
-```
+當標誌點擊
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
-
-```blocks3
-when flag clicked
-
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
++永遠
+    集[數字1 v]到（挑選隨機（2）到（12））
+    設置[數字2 v]到（挑選隨機（2）到（12））
+    問（加入（數字） 1）（加入[x]（數字2）））並等待
+    如果 <（回答）=（（數字1）*（數字2））> 然後
+        說[是！ :)] for（2）秒
     else
-        say [no :(] for (2) seconds
+        說[no :(] for（2）seconds
     end
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /提示\--- \--- /提示\---
 
-\--- /task \---
+\--- /任務\---
