@@ -1,102 +1,102 @@
-## Create questions
+## ایجاد سوالات
 
-You're going to start by creating random questions that the player has to answer.
+شما با ایجاد سوالات تصادفی که بازیکن باید پاسخگو باشد شروع می شود.
 
-\--- task \---
+\--- وظیفه \---
 
-Open a new Scratch project.
+پروژه جدید خراش را باز کنید.
 
-**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
+**آنلاین:** پروژه جدید آنلاین Scratch را در [rpf.io/scratchon](http://rpf.io/scratchon){: target = "_ blank"} باز کنید.
 
-**Offline:** open a new project in the offline editor.
+**آفلاین:** پروژه جدید را در ویرایشگر آفلاین باز کنید.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+اگر شما نیاز به دانلود و نصب ویرایشگر آفلاین Scratch دارید، می توانید آن را در [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"} پیدا کنید.
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+\--- وظیفه \--- اضافه کردن یک کاراکتر شخصیت و پس زمینه برای بازی شما. شما می توانید هر چه دوست دارید را انتخاب کنید! در اینجا یک مثال است:
 
-![screenshot](images/brain-setting.png)
+![تصویری](images/brain-setting.png)
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- وظیفه \--- اطمینان حاصل کنید که کاراکتر شخصیت شما انتخاب شده است. ایجاد دو متغیر جدید با نام `شماره 1`{: class = "block3variables"} و `شماره 2`{: class = "block3variables"} برای ذخیره اعداد برای سوالات مسابقه.
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![تصویری](images/giga-sprite.png) ![تصویری](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- task \--- اضافه کردن کد به کاراکتر شخصیت خود را برای تنظیم هر دو از `متغیر`{: class = "block3variables"} به `تصادفی`{: class = "block3operators"} بین 2 تا 12.
 
-![screenshot](images/giga-sprite.png)
-
-```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-```
-
-\--- /task \---
-
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
-
-![screenshot](images/giga-sprite.png)
+![تصویری](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
-+ end
+هنگامی که پرچم روی دکمه
+تنظیم [شماره 1 V] به (انتخاب تصادفی (2) به (12))
+مجموعه [شماره 2 V] به (انتخاب تصادفی (2) به (12))
 ```
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \---
+\--- وظیفه \--- اضافه کردن کد به `درخواست`{: class = "block3sensing"} بازیکن برای پاسخ، و سپس `برای 2 ثانیه می گویند`{: class = "block3looks"} یا پاسخ درست بود یا اشتباه:
 
-Test your project twice: answer one question correctly, and the other incorrectly.
-
-\--- /task \---
-
-\--- task \---
-
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
-
-\--- hints \--- \--- hint \---
-
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
-
-\--- /hint \--- \--- hint \--- Here is the block you need:
+![تصویری](images/giga-sprite.png)
 
 ```blocks3
-forever
-end
+وقتی پرچم با کلیک بر روی
+تنظیم [شماره 1 V] به (انتخاب تصادفی (2) به (12))
+مجموعه [شماره 2 V] به (انتخاب تصادفی (2) به (12))
+
++ درخواست (پیوستن (شماره 1) (پیوستن به [x] (شماره 2))) و منتظر
++ اگر <(پاسخ) = ((شماره 1) * (شماره 2))> سپس
++ می گویند [بله! :)) برای (2) ثانیه
++ دیگر
++ می گویند [no :(] برای (2) ثانیه
++ پایان
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /وظیفه \---
+
+\--- وظیفه \---
+
+پروژه خود را دو بار تکرار کنید: یک سوال را به درستی پاسخ دهید، و دیگری نادرست است.
+
+\--- /وظیفه \---
+
+\--- وظیفه \---
+
+یک حلقه `برای همیشه لطفا برای`{: class = "block3control"} در اطراف این کد اضافه کنید، به این ترتیب بازی به تعداد زیادی سوالات در یک ردیف پاسخ می دهد.
+
+\--- نکات \--- \--- \--- اشاره
+
+شما باید یک `برای همیشه`{: class = "block3control"} را اضافه کنید و تمام کد را به جز `وقتی که پرچم`{: class = "block3control"} را به آن متصل می شود.
+
+\--- / hint \--- \--- hint \--- در اینجا بلوک شما نیاز دارید:
 
 ```blocks3
-when flag clicked
-
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
+برای همیشه
+پایان
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- hint \--- در اینجا چیزی است که کد شما باید شبیه باشد:
 
-\--- /task \---
+```blocks3
+هنگامی که پرچم روی
+
++ برای همیشه کلیک کنید
+    مجموعه [شماره 1 V] به (انتخاب تصادفی (2) به (12))
+    مجموعه [شماره 2 V] به (انتخاب تصادفی (2) به (12))
+    درخواست (پیوستن 1) (پیوستن به [x] (شماره 2))) و منتظر
+    اگر <(پاسخ) = ((شماره 1) * (شماره 2))> سپس
+        می گویند [بله! :) برای (2) ثانیه
+    دیگر
+        می گویند [no :(] برای (2) ثانیه
+    پایان
+پایان
+```
+
+\--- / اشاره \--- \--- / نکات \---
+
+\--- /وظیفه \---
