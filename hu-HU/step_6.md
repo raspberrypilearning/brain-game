@@ -1,11 +1,11 @@
-## Challenge: create a start screen
+## Kihívás: hozzon létre egy kezdőképernyőt
 
-Can you add another backdrop that is going to be the start screen for your game?
+Lehet hozzáadni egy másik hátteret, amely a játék kezdőképernyője lesz?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+A `at akkor használhatja, ha az`startot {: class = "block3events"} és `amikor a`véget {: class = "block3events"} blokkolom, hogy átváltsunk a hátterek között.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+A karakter megjelenítéséhez vagy elrejtéséhez, ha a játék a hátterek között vált, használhatja a `show`{: class = "block3looks"} és `hide`{: class = "block3looks"} blokkokat.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+Az időzítő és a pontszám megjelenítéséhez vagy elrejtéséhez, ha a játék a hátterek között vált, használhatja a ``változót {: class = "block3variables"} és `elrejteni a`változót {: class = "block3variables"}.
 
-![Start screen](images/brain-startscreen.png)
+![Kezdőképernyő](images/brain-startscreen.png)
