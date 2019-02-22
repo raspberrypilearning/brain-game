@@ -1,102 +1,102 @@
-## Create questions
+## Lag spørsmål
 
-You're going to start by creating random questions that the player has to answer.
+Du skal begynne med å lage tilfeldige spørsmål som spilleren må svare på.
 
-\--- task \---
+\--- oppgave \---
 
-Open a new Scratch project.
+Åpne et nytt Scratch-prosjekt.
 
-**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** Åpne et nytt online Scratch-prosjekt på [rpf.io/scratchon](http://rpf.io/scratchon){: target = "_ blank"}.
 
-**Offline:** open a new project in the offline editor.
+**Frakoblet:** Åpne et nytt prosjekt i offline-editoren.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Hvis du trenger å laste ned og installere Scratch offline editoren, kan du finne den på [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
 
-\--- /task \---
+\--- / oppgave \---
 
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+\--- Oppgave \--- Legg til et tegnsprite og et bakteppe for spillet ditt. Du kan velge noe du liker! Her er et eksempel:
 
-![screenshot](images/brain-setting.png)
+![skjermbilde](images/brain-setting.png)
 
-\--- /task \---
+\--- / oppgave \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- Oppgave \--- Pass på at du har valgt din karaktersprite. Opprett to nye variabler, kalt `nummer 1`{: class = "block3variables"} og `nummer 2`{: class = "block3variables"}, for å lagre tallene for quiz-spørsmålene.
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![skjermbilde](images/giga-sprite.png) ![skjermbilde](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /task \---
+\--- / oppgave \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- oppgave \--- Legg til kode til karaktersprite for å sette begge `variablene`{: class = "block3variables"} til et `tilfeldig`{: class = "block3operators"} tall mellom 2 og 12.
 
-![screenshot](images/giga-sprite.png)
-
-```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-```
-
-\--- /task \---
-
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
-
-![screenshot](images/giga-sprite.png)
+![skjermbilde](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
-+ end
+når flagget klikket
+sett [nummer 1 v] til (velg tilfeldig (2) til (12))
+sett [nummer 2 v] til (velg tilfeldig (2) til (12))
 ```
 
-\--- /task \---
+\--- / oppgave \---
 
-\--- task \---
+\--- oppgave \--- Legg til kode til `spør`{: class = "block3sensing"} spilleren for svaret, og så `si i 2 sekunder`{: class = "block3looks"} om svaret var riktig eller feil:
 
-Test your project twice: answer one question correctly, and the other incorrectly.
-
-\--- /task \---
-
-\--- task \---
-
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
-
-\--- hints \--- \--- hint \---
-
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
-
-\--- /hint \--- \--- hint \--- Here is the block you need:
+![skjermbilde](images/giga-sprite.png)
 
 ```blocks3
-forever
-end
+når flagget klikket
+sett [nummer 1 v] til (velg tilfeldig (2) til (12))
+sett [nummer 2 v] til (velg tilfeldig (2) til (12))
+
++ spør (bli med [x] (nummer 2))) og vent
++ hvis <(svar) = ((nummer 1) * (nummer 2))> så
++ si [ja! :)] for (2) sekunder
++ annet
++ si [nei :(] for (2) sekunder
++ slutt
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- / oppgave \---
+
+\--- oppgave \---
+
+Test prosjektet ditt to ganger: Svar ett spørsmål riktig, og det andre feil.
+
+\--- / oppgave \---
+
+\--- oppgave \---
+
+Legg en `alltid`{: class = "block3control"} loop rundt denne koden, slik at spillet spør spilleren mange spørsmål på rad.
+
+\--- hint \--- \--- hint \---
+
+Du må legge til en `alltid`blokkering av blokkene {: class = "block3control"}, og sett all koden unntatt `når flagget klikket`{: class = "block3control"} blokkert inn i det.
+
+\--- / hint \--- \--- hint \--- Her er blokken du trenger:
 
 ```blocks3
-when flag clicked
-
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
+for alltid
+ende
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- hint \--- Her er hva koden din skal se ut som:
 
-\--- /task \---
+```blocks3
+når flagget klikkte
+
++ for alltid
+    sett [tall 1 v] til (velg tilfeldig (2) til (12))
+    sett [nummer 2 v] til (velg tilfeldig (2) til (12))
+    spør 1) (bli med [x] (nummer 2))) og vent
+    hvis <(svar) = ((nummer 1) * (nummer 2))> så
+        si [ja! :)] for (2) sekunder
+    annet
+        si [nei :(] for (2) sekunder
+    ende
+ende
+```
+
+\--- / hint \--- \--- / hint \---
+
+\--- / oppgave \---
