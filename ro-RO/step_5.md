@@ -1,110 +1,110 @@
 ## Mai multe jocuri
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Acum, veți adăuga un buton "Play", astfel încât jucătorul să poată juca jocul dvs. de multe ori.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- Creați un nou buton de joc "Sprite" pe care trebuie să faceți clic pentru a porni un nou joc.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Puteți desena sprite singur, sau puteți edita un sprite din bibliotecă.
 
-![Picture of the play button](images/brain-play.png)
+![Imagine a butonului de redare](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- Adăugați acest cod la butonul dvs. sprite:
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    când steagul a făcut clic pe
+    arată
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    când acest sprite a făcut clic pe
+    ascunde
+    difuzat (începe v)
 ```
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Noul cod include un alt bloc `transmisie`{: class = "block3events"}, care trimite mesajul "start".
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Noul cod face ca butonul "Play" să fie afișat atunci când un jucător dă clic pe pavilion. Când jucătorul dă clic pe butonul Sprite, sprite-ul se ascunde și transmite apoi un mesaj pe care pot reacționa alte sprite.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+În momentul de față, personajul sprite începe să pună întrebări atunci când jucătorul dă clic pe pavilion. Schimbați codul jocului astfel încât sprite de caractere să înceapă să pună întrebări atunci când primește difuzarea "start" ``{: class = "block3events"}.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- Selectați caracterul dvs. sprite și, în secțiunea sa de cod, înlocuiți `când blițul a făcut clic pe blocul`{: class = "block3events"} cu `atunci când primesc startul`{: class = "block3events" } bloc.
 
-![Character sprite](images/giga-sprite.png)
+![Sprite de caractere](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+<br />- atunci când pavilionul a făcut clic pe
++ când primesc [start v]
+set [numărul 1 v] la (alegeți aleatoriu 2 la 12)
+setați [numărul 2 v] )
+cere (JOIN (numărul 1) ( se alăture [x] (numărul 2))) și așteptați
+dacă &lt;(răspuns) = ((numărul 1) * (numărul 2))&gt; , apoi
+    spun [da! :)] pentru (2) secunde
+altceva
+    spune [nope :(] pentru (2) secunde
+sfarsit
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Faceți clic pe steagul verde, apoi faceți clic pe noul buton "Redare" pentru a testa dacă funcționează. Ar trebui să vedeți că jocul nu începe înainte de a da clic pe buton.
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Puteți vedea că cronometrul începe când se face clic pe steagul verde, în loc de când începe jocul?
 
-![Timer has started](images/brain-timer-bug.png)
+![Timerul a început](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Puteți schimba codul pentru cronometru astfel încât să înceapă cronometrul când player-ul face clic pe buton?
 
 \--- /task \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- task \--- Adăugați codul la butonul dvs. sprite, astfel încât butonul să apară din nou la sfârșitul fiecărui joc.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    când primesc [sfârșitul v]
+    arată
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Testați butonul "Redare" jucând câteva jocuri. Butonul ar trebui să apară la sfârșitul fiecărui joc.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+Pentru a testa jocul mai repede, puteți modifica valoarea `timp`{: class = "block3variables"} astfel încât fiecare joc să dureze doar câteva secunde.
 
-![Stage](images/stage-sprite.png)
+![Etapă](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    setați ora [v] la [10]
 ```
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- Puteți schimba modul în care arată butonul când indicatorul mouse-ului se află peste el.
 
-![Button](images/button-sprite.png)
+![Buton](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    când pavilionul apăsat
+    arată
+    pentru totdeauna
+    dacă <touching (mouse-pointer v)?> apoi
+        setați [fishheye v] effect to (30)
+    altceva
+        set [efect fisheye v] efect la (0)
+    sfârșitul
+
 ```
 
 ![captură de ecran](images/brain-fisheye.png) \--- /task \---
