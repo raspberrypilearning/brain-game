@@ -1,11 +1,11 @@
-## Challenge: create a start screen
+## Haaste: luo aloitusnäyttö
 
-Can you add another backdrop that is going to be the start screen for your game?
+Voitko lisätä toisen taustan, joka tulee olemaan pelin aloitusnäyttö?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+Voi käyttää `, kun saan aloittaa`{: class = "block3events"}, ja `, kun saan lopussa`{: class = "block3events"} lohkojen vaihtaa taustoja.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+Jos haluat näyttää tai piilottaa merkin, kun pelin vaihto vaihtuu taaksepäin, voit käyttää `Näytä`{: class = "block3looks"} ja `piilota`{: class = "block3looks"} lohkoa.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+Näyttää tai piilottaa ajastin ja pisteet kun peli vaihtaa taustoja, voit käyttää `näytä muuttuvan`{: class = "block3variables"} ja `piilottaa muuttujan`{: class = "block3variables"} lohkoja.
 
-![Start screen](images/brain-startscreen.png)
+![Aloitusnäyttö](images/brain-startscreen.png)
