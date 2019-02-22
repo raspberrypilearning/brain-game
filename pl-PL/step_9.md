@@ -1,15 +1,15 @@
-## Challenge: race to 10 points
+## Wyzwanie: wyścig do 10 punktów
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+Czy możesz zmienić swoją grę tak, aby gracz, zamiast odpowiadać na jak najwięcej pytań w ciągu 30 sekund, odpowiedział na 10 pytań tak szybko, jak to możliwe.
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+Aby to zmienić, wystarczy zmienić kod czasowy. Czy widzisz, które bloki muszą być różne?
 
 ```blocks3
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) seconds
-        change [time v] by (-1)
-    end
-    broadcast (end v)
+    kiedy otrzymam [start v]
+    ustaw [czas v] na (30)
+    powtórz, aż <(czas) = [0]>
+        zaczekaj (1) sekund
+        zmień [czas v] przez (-1)
+    koniec
+    transmisji (koniec v)
 ```
