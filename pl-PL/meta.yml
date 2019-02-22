@@ -3,34 +3,34 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Tabliczka mnożenia
-description: Naucz się, jak wykonać quiz z tabliczki mnożenia.
+description: Dowiedz się, jak utworzyć quiz
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-03
 steps:
   - 
-    title: Tabliczka mnożenia
+    title: Życzenia urodzinowe
   - 
-    title: Create questions
+    title: Twórz pytania
   - 
-    title: Add a timer
+    title: Dodaj licznik czasu
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Wyzwanie: dodaj ocenę i reakcje'
     challenge: true
   - 
     title: Wielokrotne gry
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Wyzwanie: utwórz ekran startowy'
     challenge: true
   - 
-    title: Add graphics
+    title: Dodaj grafikę
   - 
-    title: 'Challenge: sound and music'
+    title: 'Wyzwanie: dźwięk i muzyka'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Wyzwanie: wyścig do 10 punktów'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Wyzwanie: ekran instrukcji'
     challenge: true
   - 
-    title: What next?
+    title: Co następne?
