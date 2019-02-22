@@ -1,36 +1,36 @@
 ---
-hero_image: images/brain-game.png
+hero_image: images / brain-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
+title: Joc cervell
+description: Esbrineu com crear un qüestionari
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Introduction
+    title: Introducció
   - 
-    title: Create questions
+    title: Crea preguntes
   - 
-    title: Add a timer
+    title: Afegiu un temporitzador
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Desafiament: afegiu una puntuació i reaccions'
     challenge: true
   - 
-    title: Multiple games
+    title: Diversos jocs
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Desafiament: crea una pantalla d''inici'
     challenge: true
   - 
-    title: Add graphics
+    title: Afegeix gràfics
   - 
-    title: 'Challenge: sound and music'
+    title: 'Desafiament: so i música'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Desafiament: carrera fins a 10 punts'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Desafiament: pantalla d''instruccions'
     challenge: true
   - 
-    title: What next?
+    title: Què veig?
