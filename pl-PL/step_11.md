@@ -1,15 +1,3 @@
-\--- challenge \---
+## What next?
 
-## Wyzwanie: okno instrukcji
-
-Czy możesz dodać ekran instrukcji do gry, informujący gracza, jak grać? Będziesz potrzebował przycisku "Instrukcje" i innego tła etapowego.
-
-![zrzut ekranu](images/brain-instructions.png)
-
-Możesz również potrzebować przycisku "Wstecz", aby przejść do menu głównego.
-
-```blocks
-    nadaj [manu główne v]
-```
-
-\--- /challenge \---
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
