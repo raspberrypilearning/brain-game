@@ -2,10 +2,10 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
-version: 4.0.2
-last_tested: 2018-10-03
+title: Jogo da Tabuada
+description: Neste projeto você aprederá a construir um jogo com a tabuada, no qual o jogador terá que acertar quantas respostas forem possíveis em 30 segundos.
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
     title: Introdução
