@@ -1,110 +1,110 @@
 ## Несколько игр
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Теперь вы собираетесь добавить кнопку «Играть», чтобы игрок мог играть в вашу игру много раз.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- Создайте новый спрайт кнопки Play, который игрок должен щелкнуть, чтобы начать новую игру.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Вы можете нарисовать спрайт самостоятельно или отредактировать спрайт из библиотеки.
 
-![Picture of the play button](images/brain-play.png)
+![Изображение кнопки воспроизведения](images/brain-play.png)
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \--- Add this code to your button sprite:
+\--- задача \--- Добавьте этот код к кнопке спрайта:
 
-![Button sprite](images/button-sprite.png)
+![Спрайт кнопки](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    когда флаг нажал
+    показать
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    когда этот спрайт нажал
+    скрыть
+    трансляции (начало v)
 ```
 
-\--- /task \---
+\--- / задача \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Новый код включает в себя еще один `широковещательный`{: class = "block3events"} блок, который отправляет сообщение "start"
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Новый код заставляет спрайт кнопки «Play» показывать, когда игрок нажимает на флаг. Когда игрок нажимает кнопку спрайта, спрайт скрывается, а затем передает сообщение, на которое могут реагировать другие спрайты.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+В данный момент спрайт персонажа начинает задавать вопросы, когда игрок нажимает на флаг. Измените код своей игры так, чтобы спрайт персонажа начал задавать вопросы, когда он получает 'start' `broadcast`{: class = "block3events"}.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- Выберите свой символьный спрайт и в его разделе кода замените `когда флаг нажал`{: class = "block3events"}, блоком `при получении start`{: class = "block3events" } блок.
 
-![Character sprite](images/giga-sprite.png)
+![Спрайт персонажа](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+<br />- когда флаг щелкнул
++, когда я получил [start v]
+установите [number 1 v] в (выберите random (2) в (12))
+установите [number 2 v] в (выберите random (2) в (12) )
+спросить (присоединиться (номер 1) (присоединиться к [x] (номер 2))) и ждать
+если &lt;(ответ) = ((номер 1) * (номер 2))&gt; затем
+    сказать [да! :)] в течение (2) секунд
+иначе
+    произнесите [nope :(] в течение (2) секунд
+конца
 ```
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Нажмите зеленый флажок, а затем нажмите новую кнопку «Play», чтобы проверить, работает ли она. Вы должны увидеть, что игра не запускается, прежде чем нажать на кнопку.
 
-\--- /task \---
+\--- / задача \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Видите ли вы, что таймер запускается при нажатии зеленого флажка, а не при запуске игры?
 
-![Timer has started](images/brain-timer-bug.png)
+![Таймер запущен](images/brain-timer-bug.png)
 
-\--- task \---
+\--- задача \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Можете ли вы изменить код таймера, чтобы таймер запускался, когда игрок нажимал на кнопку?
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- task \--- Добавьте код к вашему спрайту кнопки, чтобы кнопка снова отображалась в конце каждой игры.
 
-![Button sprite](images/button-sprite.png)
+![Спрайт кнопки](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    когда я получу [конец v]
+    шоу
 ```
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Проверьте кнопку «Играть», сыграв пару игр. Кнопка должна отображаться в конце каждой игры.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+Чтобы проверить игру быстрее, вы можете изменить значение `раз`{: class = "block3variables"}, чтобы каждая игра длилась всего несколько секунд.
 
-![Stage](images/stage-sprite.png)
+![стадия](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    установите [время v] на [10]
 ```
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- Вы можете изменить внешний вид кнопки при наведении на нее указателя мыши.
 
-![Button](images/button-sprite.png)
+![кнопка](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
+    когда флажок установлен,
+    показывает
+    навсегда
+    если <touching (mouse-pointer v)?> то
+        установите для эффекта [fisheye v] значение (30)
+    иначе для
+        установите для эффекта [fisheye v] значение (0)
     end
     end
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![Скриншот](images/brain-fisheye.png) \--- / задача \---
