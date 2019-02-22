@@ -17,54 +17,54 @@ Thay mã đối tượng của bạn để, thay vì nói gì đó với ngườ
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-nếu <(câu trả lời) = ((số 1) * (số 2))> thì
+nếu <(đáp án) = ((số 1) * (số 2))> thì
 
-- nói [có! :)] for (2) giây
-+ phát sóng (đúng v)
-khác
-- nói [nope :(] for (2) giây
+- nói [có! :)] trong (2) giây
++ phát tin (đúng v)
+ngược lại
+- nói [không :(] trong (2) giây
 + phát sóng (sai v)
-cuối
+kết thúc
 ```
 
-\--- /task \---
+\---/nhiệm vụ\---
 
-\--- task \---
+\---nhiệm vụ\---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+Bây giờ bạn có thể sử dụng các tin nhắn này để ` hiển thị ` {: class = "block3looks"} trang phục 'tick' hoặc 'cross'. Thêm mã sau vào sprite 'Kết quả':
 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+    khi tôi nhận được [đúng v]
+    chuyển trang phục sang (chọn v)
+    hiển thị
+    chờ (1) giây
+    ẩn
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
+    khi tôi nhận [sai v]
+    chuyển trang phục sang (chéo v)
+    hiển thị
+    chờ (1) giây
+    ẩn
 
-    when flag clicked
-    hide
+    khi cờ được nhấp
+    ẩn
 ```
 
-\--- /task \---
+\---/nhiệm vụ\---
 
 \--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
 
 ![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
-\--- /task \---
+\---/nhiệm vụ\---
 
 Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
 So you can change your code more easily, you are going to create a custom block.
 
-\--- task \---
+\---nhiệm vụ\---
 
 Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
@@ -72,7 +72,7 @@ Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, 
 
 ![Create a block called animate](images/brain-animate-function.png)
 
-\--- /task \---
+\---/nhiệm vụ\---
 
 \--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
 
@@ -85,7 +85,7 @@ wait (1) seconds
 hide
 ```
 
-\--- /task \---
+\---/nhiệm vụ\---
 
 \--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
@@ -103,15 +103,15 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
     animate:: custom
 ```
 
-\--- /task \---
+\---/nhiệm vụ\---
 
 Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
 
-\--- task \---
+\---nhiệm vụ\---
 
 Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
-\--- /task \---
+\---/nhiệm vụ\---
 
 \--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
 
@@ -127,7 +127,7 @@ Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
     hide
 ```
 
-\--- /task \---
+\---/nhiệm vụ\---
 
 Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
