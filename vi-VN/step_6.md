@@ -1,11 +1,11 @@
-## Challenge: create a start screen
+## Thử thách: tạo màn hình bắt đầu
 
-Can you add another backdrop that is going to be the start screen for your game?
+Bạn có thể thêm một phông nền khác sẽ là màn hình bắt đầu cho trò chơi của bạn không?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+Bạn có thể sử dụng khối ` khi tôi nhận được bắt đầu ` {: class = "block3events"} và ` khi tôi nhận được kết thúc ` {: class = "block3events"} để chuyển giữa các phông nền.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+Để hiển thị hoặc ẩn nhân vật khi trò chơi của bạn chuyển giữa các phông nền, bạn có thể sử dụng các khối ` hiển thị ` {: class = "block3looks"} và ` ẩn ` {: class = "block3looks"}.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+Để hiển thị hoặc ẩn nhân vật khi trò chơi của bạn chuyển giữa các phông nền, bạn có thể sử dụng các khối ` hiển thị ` {: class = "block3looks"} và ` ẩn ` {: class = "block3looks"}.
 
-![Start screen](images/brain-startscreen.png)
+![Màn hình bắt đầu](images/brain-startscreen.png)
