@@ -1,19 +1,11 @@
-\--- challenge \---
+## Challenge: create a start screen
 
-## チャレンジ: スタート画面
+Can you add another backdrop that is going to be the start screen for your game?
 
-別の背景をステージに入れてスタート画面を変えることはできますか？ `スタートを受け取った時`{:class="blockevents"}と`終わりを受け取った時`{:class="blockevents"}を使って背景を切りかえましょう。
+You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
-下のコードのようにブロックを入れると、キャラクターやタイマーを表示したり隠したりすることができます。
+To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
-```blocks
-変数 [時 v] を表示する
-```
+To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
 
-```blocks
-変数 [時 v] を隠す
-```
-
-![スクリーンショット](images/brain-startscreen.png)
-
-\--- /challenge \---
+![Start screen](images/brain-startscreen.png)
