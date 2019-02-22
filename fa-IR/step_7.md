@@ -1,134 +1,134 @@
-## Add graphics
+## اضافه کردن گرافیک
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+در حال حاضر، شخصیت ادعا فقط می گوید `بله! :)` یا `no :(` به پاسخ بازیکن. اضافه کردن برخی از گرافیک به اجازه بازیکن می دانم که آیا پاسخ آنها صحیح و یا نادرست است.
 
-\--- task \---
+\--- وظیفه \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+یک قاتل جدید به نام «نتیجه» ایجاد کنید و یک تیک / چک و یک صحنه «صلیب» بدهید.
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![قهرمان با لباس تیک و کراس](images/brain-result.png)
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \---
+\--- وظیفه \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+رمز عبور شخصی خود را تغییر دهید به طوری که، به جای اینکه چیزی را به بازیکن بگوید، `پخش`{: class = "block3events"} پیام "صحیح" یا "اشتباه" است.
 
-![Character sprite](images/giga-sprite.png)
-
-```blocks3
-if <(answer) = ((number 1)*(number 2))> then
-
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
-end
-```
-
-\--- /task \---
-
-\--- task \---
-
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
-
-![Result sprite](images/result-sprite.png)
+![امضا شخصیت](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+اگر <(جواب) = ((شماره 1) * (شماره 2))> سپس
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
-
-    when flag clicked
-    hide
+- می گویند [بله! (2) ثانیه
++ پخش (درست V)
+دیگر
+- می گویند [nope :(] برای (2) ثانیه پخش
++ (اشتباه V)
+پایان
 ```
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\--- وظیفه \---
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+حالا شما می توانید از این پیام ها به `نشان دهید`{: class = "block3looks"} صحنه "تیک" یا "صلیب". کد زیر را به فیلد "نتیجه" اضافه کنید:
 
-\--- /task \---
-
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
-
-So you can change your code more easily, you are going to create a custom block.
-
-\--- task \---
-
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
-
-![Result sprite](images/result-sprite.png)
-
-![Create a block called animate](images/brain-animate-function.png)
-
-\--- /task \---
-
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
-
-![Result sprite](images/result-sprite.png)
+![نتیجه جستجو](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+    هنگامی که من دریافت می کنم [صحیح V]
+    لباس سوئیچ به (تیک V)
+    نشان می دهد
+    صبر کنید (1) ثانیه
+    پنهان
+
+    زمانی که من دریافت [اشتباه V]
+    سوئیچ لباس (عبور V)
+    نشان می دهد
+    صبر کنید (1) ثانیه
+    پنهان
+
+    زمانی که پرچم
+    پنهان را کلیک کرد
 ```
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- وظیفه \--- تست بازی خود را دوباره. شما باید هر زمان که به سؤال صحیح پاسخ می دهید، تیک بزنید و هر زمان صحیح جواب می دهید، صلیب را ببینید!
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+![برای صحیح، صلیب برای پاسخ اشتباه تایپ کنید](images/brain-test-answer.png)
 
-![Result sprite](images/result-sprite.png)
+\--- /وظیفه \---
+
+آیا می توانم ببینم که کد `برای دریافت صحیح`{: class = "block3events"} و `وقتی اشتباه دریافت میکنم`{: class = "block3events"} تقریبا یکسان است؟
+
+بنابراین شما می توانید کد خود را به راحتی تغییر دهید، شما می خواهید یک بلوک سفارشی ایجاد کنید.
+
+\--- وظیفه \---
+
+فیلد 'نتیجه' را انتخاب کنید. سپس بر روی `My Blocks`{: class = "block3myblocks"} کلیک کنید و سپس روی **Make Block**. یک بلوک جدید ایجاد کنید و آن را `الهام بگیرید`{: class = "block3myblocks"}.
+
+![نتیجه جستجو](images/result-sprite.png)
+
+![ایجاد یک بلوک به نام ناامیدی](images/brain-animate-function.png)
+
+\--- /وظیفه \---
+
+\--- وظیفه \--- کد را به `نمایش دهید`{: class = "block3looks"} و `پنهان`{: class = "block3looks"} جریحه "نتیجه" را به `تحریک`{: class = " block3myblocks "} بلوک:
+
+![نتیجه جستجو](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
-
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+تعریف کردن
+نمایش
+انتظار (1) ثانیه
+پنهان کردن
 ```
 
-\--- /task \---
+\--- /وظیفه \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+\--- وظیفه \--- اطمینان حاصل کنید که شما `نمایش`{: class = "block3looks"} را حذف کرده اید و `پنهان`{: class = "block3looks"} بلوک زیر **هر دو** از `لباس سوئیچ`{: class = "block3looks"} بلوک.
 
-\--- task \---
+سپس بلوک `متحرک`{: class = "block3myblocks"} را زیر هر کدام از بلوک های `switch costume`{: class = "block3looks"} اضافه کنید. کد شما اکنون باید اینگونه باشد:
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
-
-\--- /task \---
-
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
-
-![Result sprite](images/result-sprite.png)
+![نتیجه جستجو](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    هنگامی که من دریافت می کنم [صحیح v]
+    سوئیچ لباس به (تیک V)
+    تحریک و خوشنویسی :: سفارشی
+
+    هنگامی که من دریافت [اشتباه v]
+    سوئیچ لباس به (تقسیم V)
+    تحریک و تشجیع :: سفارشی
 ```
 
-\--- /task \---
+\--- /وظیفه \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+به دلیل اینکه سفارشی `متحرک`{: class = "block3myblocks"} بلوکه شده است، اکنون فقط باید یک تغییر در کد خود داشته باشید، اگر میخواهید لباسهای "Result" sprite را مدت زمان طولانی یا کوتاهتر نشان دهید.
 
-![screenshot](images/brain-effects.png)
+\--- وظیفه \---
+
+کد خود را تغییر دهید تا لباسهای "تیک" یا "کراس" برای 2 ثانیه نمایش داده شود.
+
+\--- /وظیفه \---
+
+\--- کار \--- به جای `نشان دادن`{: کلاس = "block3looks"} و `پنهان`{: کلاس = "block3looks"} که "تیک تیک" یا لباس 'متقابل'، شما می توانید خود را تغییر دهید `تحریک و تشجیع`{: class = "block3myblocks"} بلوک کردن به طوری که لباس ها از بین می روند.
+
+![نتیجه جستجو](images/result-sprite.png)
+
+```blocks3
+    تعریف تعریف
+    تنظیم [اثر روح v] به (100)
+    نمایش
+    تکرار (25)
+        تغییر [روح v] اثر توسط (-4)
+    پایان
+    پنهان
+```
+
+\--- /وظیفه \---
+
+آیا می توانید انیمیشن گرافیک "تیک" یا "متقابل" را بهبود بخشید؟ شما می توانید کد را اضافه کنید تا لباس ها هم محو شوند و یا می توانید از سایر ویژگی های خنک استفاده کنید:
+
+![تصویری](images/brain-effects.png)
