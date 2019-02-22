@@ -1,3 +1,3 @@
-## What next?
+## Hva nå?
 
-Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
+Prøv [Fang prikkene](https://projects.raspberrypi.org/en/projects/catch-the-dots) prosjekt for å lage et reaksjonsspill! I det prosjektet skal du lære å lage kloner av sprites, og hvordan du bruker en variabel for gradvis å øke hastigheten på spillet.
