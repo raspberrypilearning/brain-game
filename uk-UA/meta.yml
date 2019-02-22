@@ -3,12 +3,12 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Розвиваюча гра
-description: Дізнайтесь як створити вікторину.
+description: Дізнайтесь як створити вікторину
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-03
 steps:
   - 
-    title: Вступ
+    title: З днем народження
   - 
     title: Створення запитань
   - 
@@ -33,4 +33,4 @@ steps:
     title: 'Завдання: Забіг на 10 балів'
     challenge: true
   - 
-    title: 'Завдання: Екран з інструкцією'
+    title: Що далі?
