@@ -1,110 +1,110 @@
-## Multiple games
+## Flera spel
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Nu ska du lägga till en "Play" -knapp så att spelaren kan spela ditt spel många gånger.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- uppgift \--- Skapa en ny "Play" -knappsprite som spelaren behöver klicka för att starta ett nytt spel.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Du kan rita spritet själv eller redigera en sprite från biblioteket.
 
-![Picture of the play button](images/brain-play.png)
+![Bild på spelknappen](images/brain-play.png)
 
-\--- /task \---
+\--- / uppgift \---
 
-\--- task \--- Add this code to your button sprite:
+\--- uppgift \--- Lägg till den här koden till din knapp sprite:
 
-![Button sprite](images/button-sprite.png)
+![Button Sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    när flaggan klickade
+    visar
 
-    when this sprite clicked
+    när den här sprite klickade
     hide
     broadcast (start v)
 ```
 
-\--- /task \---
+\--- / uppgift \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Den nya koden innehåller ett annat `sändningsblock`{: class = "block3events"} som skickar meddelandet "start".
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Den nya koden gör spelshowen "Play" när när spelaren klickar på flaggan. När spelaren klickar på knappspriten, skjuter sprite och sänder sedan ett meddelande som andra sprites kan reagera på.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+För tillfället börjar teckensprayen ställa frågor när spelaren klickar på flaggan. Ändra ditt spelets kod så att charactersprite börjar ställa frågor när den tar emot "start" `sändningen`{: class = "block3events"}.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- uppgift \--- Välj din karaktärsprite och ersätt `när flaggan klickar`{: class = "block3events"} blockera med en `när jag får start`{: class = "block3events" } block.
 
-![Character sprite](images/giga-sprite.png)
+![Karaktärsprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+<br />- när flaggan klickade
++ när jag mottar [start v]
+set [number 1 v] till (välj slumpvis (2) till (12))
+set [nummer 2 v] till (välj slumpvis (2) till (12) )
+fråga (ansluta (nummer 1) (gå med i [x] (nummer 2))) och vänta
+om &lt;(svar) = ((nummer 1) * (nummer 2))&gt; då
+    säga [ja! :)] för (2) sekunder
+annars
+    säga [nope :(] för (2) sekunder
+slutet
 ```
 
-\--- /task \---
+\--- / uppgift \---
 
-\--- task \---
+\--- uppgift \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Klicka på den gröna flaggan och klicka sedan på den nya "Play" -knappen för att testa om det fungerar. Du bör se att spelet inte startar innan du klickar på knappen.
 
-\--- /task \---
+\--- / uppgift \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Kan du se att timern börjar när den gröna flaggan klickas, istället för när spelet börjar?
 
-![Timer has started](images/brain-timer-bug.png)
+![Timern har startat](images/brain-timer-bug.png)
 
-\--- task \---
+\--- uppgift \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Kan du ändra koden för timern så att timern börjar när spelaren klickar på knappen?
 
-\--- /task \---
+\--- / uppgift \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- uppgift \--- Lägg till kod till din knappsprid så att knappen visar igen i slutet av varje spel.
 
-![Button sprite](images/button-sprite.png)
+![Button Sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
+    när jag får [end v]
     show
 ```
 
-\--- /task \---
+\--- / uppgift \---
 
-\--- task \---
+\--- uppgift \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Testa "Spela" -knappen genom att spela ett par spel. Knappen ska visas i slutet av varje spel.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+För att testa spelet snabbare kan du ändra värdet på `time`{: class = "block3variables"} så att varje spel är bara några sekunder lång.
 
-![Stage](images/stage-sprite.png)
-
-```blocks3
-    set [time v] to [10]
-```
-
-\--- /task \---
-
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
-
-![Button](images/button-sprite.png)
+![Skede](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    sätt [tid v] till [10]
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+\--- / uppgift \---
+
+\--- uppgift \--- Du kan ändra hur knappen ser ut när muspekaren svänger över den.
+
+![Knapp](images/button-sprite.png)
+
+```blocks3
+    när flaggan klickade
+    visa
+    alltid
+    om <touching (mouse-pointer v)?> sedan
+        sätt [fisheye v] effekt till (30)
+    annat
+        set [fisheye v] effekt till (0)
+    slutet
+    slutet
+```
+
+![skärmdump](images/brain-fisheye.png) \--- / uppgift \---
