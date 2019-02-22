@@ -2,7 +2,7 @@
 
 You're going to start by creating random questions that the player has to answer.
 
-\--- task \---
+\--- task --
 
 Open a new Scratch project.
 
@@ -59,13 +59,13 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Test your project twice: answer one question correctly, and the other incorrectly.
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
@@ -80,7 +80,7 @@ forever
 end
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- Έτσι πρέπει να μοιάζει με ο κώδικάς σου:
 
 ```blocks3
 when flag clicked
