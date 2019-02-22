@@ -1,134 +1,134 @@
-## Add graphics
+## Pridajte grafiku
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+V súčasnej dobe postava sprite hovorí `áno! :)` alebo `no :(` odpovede hráča. Pridajte nejakú grafiku a nechajte prehrávač vedieť, či je jeho odpoveď správna alebo nesprávna.
 
-\--- task \---
+\--- úloha \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+Vytvorte nový skript nazývaný "Výsledok" a zverte ho "krížikom" a "krížovým" kostýmom.
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![Sprite s kliešťami a krížovými kostýmami](images/brain-result.png)
 
-\--- /task \---
+\--- / úloha \---
 
-\--- task \---
+\--- úloha \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+Zmeňte kód vášho znakového sprite tak, že namiesto toho, aby niečo povedal hráčovi, `vysiela`{: class = "block3events"} správy "správne" alebo "zlé".
 
-![Character sprite](images/giga-sprite.png)
-
-```blocks3
-if <(answer) = ((number 1)*(number 2))> then
-
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
-end
-```
-
-\--- /task \---
-
-\--- task \---
-
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
-
-![Result sprite](images/result-sprite.png)
+![Sprite znakov](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+ak <(odpoveď) = ((číslo 1) * (číslo 2))> potom
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
-
-    when flag clicked
-    hide
+- povedzte [yes! :)] pre (2) sekúnd,
++ vysielanie (správny objem)
+iný
+- povedzme [Nie :(] pre (2) sekúnd,
++ vysielanie (zle v)
+koniec
 ```
 
-\--- /task \---
+\--- / úloha \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\--- úloha \---
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+Teraz môžete použiť tieto správy na `zobraziť`{: class = "block3looks"} "kliešť" alebo "cross" kostým. Pridajte nasledujúci kód do výsledku Sprite:
 
-\--- /task \---
-
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
-
-So you can change your code more easily, you are going to create a custom block.
-
-\--- task \---
-
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
-
-![Result sprite](images/result-sprite.png)
-
-![Create a block called animate](images/brain-animate-function.png)
-
-\--- /task \---
-
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
-
-![Result sprite](images/result-sprite.png)
+![Výsledok sprite](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+    keď dostanem [správne v]
+    prepínač kostým na (začiarknite v)
+    zobraziť
+    čakať (1) sekundy
+    skryť
+
+    keď dostanem [nesprávne v]
+    kostým prepnúť na (kríž v)
+    zobraziť
+    čakať (1) sekúnd
+    skryť
+
+    keď sa vlajka klikne
+    skryť
 ```
 
-\--- /task \---
+\--- / úloha \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- task \--- Otestuj svoju hru znovu. Tie by ste mali vidieť, kedykoľvek odpoviete na otázku správne a krížik vždy, keď odpoviete nesprávne!
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+![Začiarknite správne, skrížte chybnú odpoveď](images/brain-test-answer.png)
 
-![Result sprite](images/result-sprite.png)
+\--- / úloha \---
+
+Vidíte, že kód pre `keď dostanem správne`{: class = "block3events"} a `keď dostanem nesprávne`{: class = "block3events"} je takmer totožný?
+
+Takže môžete ľahšie zmeniť svoj kód, vytvoríte vlastný blok.
+
+\--- úloha \---
+
+Vyberte sprite "Výsledok". Potom kliknite na `My Blocks`{: class = "block3myblocks"} a potom na **Make a Block**. Vytvorte nový blok a zavolajte ho `animovať`{: class = "block3myblocks"}.
+
+![Výsledok sprite](images/result-sprite.png)
+
+![Vytvorte blok nazvaný animate](images/brain-animate-function.png)
+
+\--- / úloha \---
+
+\--- úloha \--- Presuňte kód na `zobrazenie`{: class = "block3looks"} a `skryť`{: class = "block3looks"} Sprite do výsledku `animate`{: class = block3myblocks "} blok:
+
+![Výsledok sprite](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
-
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+definovať animovať
+zobraziť
+čakať (1) sekundy
+skryť
 ```
 
-\--- /task \---
+\--- / úloha \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+\--- úloha \--- Uistite sa, že ste odstránili `zobrazenie`{: class = "block3looks"} a `skryť`{: class = "block3looks"} bloky pod **obidvoch** zo `kostýmu spínača`{ class = "block3looks"} bloky.
 
-\--- task \---
+Potom pridajte `Animovať`{: class = "block3myblocks"} blok pod obaja z `spínače kostýmu`{: class = "block3looks"} bloky. Váš kód by mal teraz vyzerať takto:
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
-
-\--- /task \---
-
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
-
-![Result sprite](images/result-sprite.png)
+![Výsledok sprite](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    keď dostanem [správne v]
+    kostým prepnúť na (zaškrtnite v)
+    animate :: vlastné
+
+    keď dostanem [nesprávne v]
+    prepnúť kostým na (kríž v)
+    animate :: vlastné
 ```
 
-\--- /task \---
+\--- / úloha \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Kvôli vlastnému bloku `animate`{: class = "block3myblocks"}, stačí len urobiť jednu zmenu v kóde, ak chcete zobraziť kostýmy Sprite 'Result' dlhšie alebo kratšie.
+
+\--- úloha \---
+
+Zmeňte svoj kód tak, aby sa na 2 sekundy zobrazili kostýmy "zaškrtnite" alebo "kríž".
+
+\--- / úloha \---
+
+\--- úloha \--- Miesto `ukazuje`{: class = "block3looks"} a `skrýva`{: class = "block3looks"} len 'kliešť' alebo 'priečne' kostýmov, môžete zmeniť `Animovať`{: class = "block3myblocks"} zablokovať, aby sa kostýmy vytratili.
+
+![Výsledok sprite](images/result-sprite.png)
+
+```blocks3
+    definovať animovať
+    nastaviť [ghost v] efekt na (100)
+    zobraziť
+    opakovať (25)
+        zmeniť [ghost v] efekt podľa (-4)
+    koniec
+    skryť
+```
+
+\--- / úloha \---
+
+Môžete zlepšiť animáciu grafiky 'tick' alebo 'cross'? Môžete pridať kód, aby sa kostýmy vybledli rovnako, alebo môžete použiť iné cool efekty:
 
 ![screenshot](images/brain-effects.png)
