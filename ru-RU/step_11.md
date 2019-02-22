@@ -1,15 +1,3 @@
-\--- вызов \---
+## What next?
 
-## Вызов: экран инструкций
-
-Можете ли вы добавить в игру экран инструкций, рассказывая игроку, как играть в игру? Вам понадобится кнопка «Инструкции» и еще один этап.
-
-![Скриншот](images/brain-instructions.png)
-
-Вам также может понадобиться кнопка «Назад», чтобы перейти в главное меню.
-
-```blocks
-    трансляция [главное меню v]
-```
-
-\--- /вызов \---
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
