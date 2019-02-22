@@ -1,75 +1,75 @@
-## Add a timer
+## Добавить таймер
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- task \--- Создать таймер обратного отсчета в рабочей области с помощью новой переменной с именем `time`{: class = "block3variables"} Таймер должен начинаться с 30 секунд и отсчитывать до 0 секунд.
 
-![Stage sprite](images/stage-sprite.png)
+![Стадия спрайт](images/stage-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- подсказки \--- \--- подсказка \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Создайте переменную ``{: class = "block3variables"}, назовите ее time и установите для ее значения значение `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Затем добавьте код для отсчета `раз`{: class = "block3variables"} до 0 в течение 30 секунд. Для этого вычитайте `1` из `раз`{: class = "block3variables"} каждые `1` секунд и повторяйте это до `раз`{: class = "block3variables"} равняется `0`
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- / подсказка \--- \--- подсказка \--- Вот блоки, которые вам нужны:
 
 ```blocks3
-repeat until < >
+повторять до < >
 
-end
+конец
 
-wait (1) seconds
+ждать (1) секунды
 
-change [time v] by (1)
+изменить [время v] на (1)
 
-(time)
+(время)
 
-when flag clicked
+при нажатии флага
 
 <() = ()>
 
-set [time v] to [0]
+установить [время v] на [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- / подсказка \--- \--- подсказка \--- Вот как должен выглядеть ваш новый код:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
-end
+при нажатии флага
+установите [время v] на [30]
+повторяйте до <(время) = (0)>
+    подождите (1) секунды
+    измените [время v] на (-1)
+конец
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / подсказка \--- \--- / подсказка \---
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Создайте `рассылку`{: class = "block3control"}, которая отправляет сообщение 'end'. Трансляция ``{: class = "block3control"} похожа на объявление через громкоговоритель: его могут услышать все ваши спрайты. Добавьте блок `широковещательный`{: class = "block3control"} в конец кода таймера, чтобы код отправлял сообщение "end", когда `раза`{: class = "block3variables"} отсчитал до `0`.
 
-![Stage sprite](images/stage-sprite.png)
+![Стадия спрайт](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    трансляция (конец V)
 ```
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- Выберите свой символьный спрайт и добавьте некоторый код, чтобы спрайт `останавливал другие сценарии`{: class = "block3control"} при получении сообщения `end`{: class = "block3control"} ,
 
-![Giga sprite](images/giga-sprite.png)
+![Гига спрайт](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    когда я получаю [end v]
+    stop [другие скрипты в sprite v]
 ```
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Проверь свою игру снова. Он должен продолжать задавать вопросы, пока таймер не обратится к 0.
 
-\--- /task \---
+\--- / задача \---
