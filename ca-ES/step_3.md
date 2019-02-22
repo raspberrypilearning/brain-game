@@ -1,14 +1,14 @@
-## Add a timer
+## Afegiu un temporitzador
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- tasca \--- Crea un temporitzador de compte enrere a l'Estadi amb l'ajuda d'una nova variable anomenada `vegada`{: class = "block3variables"}. El temporitzador ha de començar a 30 segons i comptar fins a 0 segons.
 
-![Stage sprite](images/stage-sprite.png)
+![Sprite d'etapa](images/stage-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- consells \--- \--- suggeriment \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Crear un `variable d'`{: class = "block3variables"}, en diuen 'temps' i estableixi el seu valor a `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+A continuació, afegiu el codi per comptar `temps`{: class = "block3variables"} fins a 0 en 30 segons. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
 
 \--- /hint \--- \--- hint \--- Here are the blocks you need:
 
