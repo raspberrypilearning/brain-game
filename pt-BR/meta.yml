@@ -3,9 +3,9 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Jogo da Tabuada
-description: Neste projeto você aprederá a construir um jogo com a tabuada, no qual o jogador terá que acertar quantas respostas forem possíveis em 30 segundos.
+description: Aprenda como criar um teste
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-03
 steps:
   - 
     title: Introdução
@@ -33,4 +33,4 @@ steps:
     title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: What next?
+    title: E agora?
