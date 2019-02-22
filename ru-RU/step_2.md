@@ -1,102 +1,102 @@
-## Create questions
+## Создать вопросы
 
-You're going to start by creating random questions that the player has to answer.
+Вы начнете с создания случайных вопросов, на которые игрок должен ответить.
 
-\--- task \---
+\--- задача \---
 
-Open a new Scratch project.
+Откройте новый проект Scratch.
 
-**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
+**Онлайн:** откройте новый онлайн проект Scratch по адресу [rpf.io/scratchon](http://rpf.io/scratchon){: target = "_ blank"}.
 
-**Offline:** open a new project in the offline editor.
+**Offline:** открыть новый проект в автономном редакторе.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Если вам нужно скачать и установить автономный редактор Scratch, вы можете найти его по адресу [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+\--- задача \--- Добавить спрайт персонажа и фон для вашей игры. Вы можете выбрать любой понравившийся! Вот пример:
 
-![screenshot](images/brain-setting.png)
+![Скриншот](images/brain-setting.png)
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- задача \--- Убедитесь, что выбран ваш спрайт персонажа. Создайте две новые переменные, называемые `число 1`{: class = "block3variables"} и `число 2`{: class = "block3variables"}, чтобы сохранить числа для вопросов викторины.
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![Скриншот](images/giga-sprite.png) ![Скриншот](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- task \--- Добавьте код к вашему символьному спрайту, чтобы установить обе из `переменной`{: class = "block3variables"} в `случайных числа`{: class = "block3operators"} между 2 и 12.
 
-![screenshot](images/giga-sprite.png)
-
-```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-```
-
-\--- /task \---
-
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
-
-![screenshot](images/giga-sprite.png)
+![Скриншот](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
-+ end
+когда флаг щелкнул
+набор [номер 1 V] , чтобы (выбрать случайный (2) (12))
+комплект [номер 2 v] , чтобы (выбрать случайный (2) (12))
 ```
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- task \--- Добавьте код к `спросите`{: class = "block3sensing"} игрока о ответе, а затем `скажите в течение 2 секунд`{: class = "block3looks"}, был ли ответ правильным или неправильно:
 
-Test your project twice: answer one question correctly, and the other incorrectly.
-
-\--- /task \---
-
-\--- task \---
-
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
-
-\--- hints \--- \--- hint \---
-
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
-
-\--- /hint \--- \--- hint \--- Here is the block you need:
+![Скриншот](images/giga-sprite.png)
 
 ```blocks3
-forever
-end
+когда флаг щелкнул
+установите [число 1 v] в (выберите случайное число (2) в (12))
+установите [число 2 v] в значение (выберите случайное значение (2) в (12))
+
++ спросите (объедините (номер 1) (присоединиться к [x] (номер 2))) и ждать
++, если <(ответ) = ((номер 1) * (номер 2))> затем
++ сказать [да! :)] в течение (2) секунд
++ еще
++ сказать [нет :(] в течение (2) секунд
++ конец
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- / задача \---
+
+\--- задача \---
+
+Протестируйте свой проект дважды: ответьте на один вопрос правильно, а другой - неправильно.
+
+\--- / задача \---
+
+\--- задача \---
+
+Добавьте цикл `навсегда`{: class = "block3control"} вокруг этого кода, чтобы игра задавала игроку много вопросов подряд.
+
+\--- подсказки \--- \--- подсказка \---
+
+Вам нужно добавить блок `навсегда`{: class = "block3control"} и поместить в него весь код, кроме `когда флаг щелкнул`{: class = "block3control"}.
+
+\--- / подсказка \--- \--- подсказка \--- Вот блок, который вам нужен:
 
 ```blocks3
-when flag clicked
-
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
+навсегда
+конец
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / подсказка \--- \--- подсказка \--- Вот как должен выглядеть ваш код:
 
-\--- /task \---
+```blocks3
+когда щелкнул флаг
+
++ навсегда
+    установите [число 1 v] в (выберите случайное число (2) в (12))
+    установите [число 2 v] в (выберите случайное значение (2) - (12))
+    спросите (объедините (число 1) (присоединиться к [x] (номер 2))) и подождать
+    если <(ответ) = ((номер 1) * (номер 2))> затем
+        сказать [да! :)] в течение (2) секунд
+    иначе
+        произнесите [нет :(] в течение (2) секунд
+    конец
+конец
+```
+
+\--- / подсказка \--- \--- / подсказка \---
+
+\--- / задача \---
