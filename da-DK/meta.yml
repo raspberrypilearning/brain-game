@@ -3,34 +3,34 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Hjernetræning
-description: I dette projekt skal du lære, hvordan du laver et tidsbaseret quizprogram, hvor du har 30 sekunder til at svare rigtigt på så mange spørgsmål som muligt.
+description: Lær at lave en quiz
 version: 3
 last_tested: 2017-01-01
 steps:
   - 
-    title: Hjernetræning
+    title: Tillykke Med Fødselsdagen
   - 
-    title: Create questions
+    title: Lav spørgsmål
   - 
-    title: Add a timer
+    title: Tilføj en timer
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Udfordring: Tilføj en score og reaktioner'
     challenge: true
   - 
     title: Mange spil
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Udfordring: Opret en startskærm'
     challenge: true
   - 
-    title: Add graphics
+    title: Tilføj grafik
   - 
-    title: 'Challenge: sound and music'
+    title: 'Udfordring: lyd og musik'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Udfordring: Race til 10 point'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Udfordring: instruktionsskærm'
     challenge: true
   - 
-    title: What next?
+    title: Hvad er det næste?
