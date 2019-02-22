@@ -1,11 +1,11 @@
-## Challenge: create a start screen
+## Изазов: креирајте почетни екран
 
-Can you add another backdrop that is going to be the start screen for your game?
+Можете ли додати још једну позадину која ће бити почетни екран за вашу игру?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+Можете да користите `када примим старт`{: цласс = "блоцк3евентс"} и `када примим крај`{: цласс = "блоцк3евентс"} блокова за пребацивање између позадина.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+Да бисте приказали или сакрили карактер када се игра пребацује између позадина, можете користити `схов`{: цласс = "блоцк3лоокс"} и `хиде`{: цласс = "блоцк3лоокс"} блокове.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+Да бисте приказали или сакрили тајмер и забележили када се ваша игра пребацује између позадина, можете користити `схов вариабле`{: цласс = "блоцк3вариаблес"} и `хиде варијабле`{: цласс = "блоцк3вариаблес"} блокове.
 
-![Start screen](images/brain-startscreen.png)
+![Почетни екран](images/brain-startscreen.png)
