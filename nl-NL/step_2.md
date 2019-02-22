@@ -1,4 +1,4 @@
-## Create questions
+## Vragen maken
 
 You're going to start by creating random questions that the player has to answer.
 
@@ -80,7 +80,7 @@ forever
 end
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- / hint \--- \--- hint \--- Hier is hoe je blok eruit zou moeten zien:
 
 ```blocks3
 when flag clicked
