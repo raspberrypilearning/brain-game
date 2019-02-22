@@ -1,36 +1,36 @@
 ---
-hero_image: images/brain-game.png
+hero_image: images / agy-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
+title: Agy játék
+description: Ismerje meg, hogyan kell létrehozni egy kvízet
 version: 4.0.2
-last_tested: 2018-10-03
+last_tested: 2018/10/03
 steps:
   - 
-    title: Introduction
+    title: Bevezetés
   - 
-    title: Create questions
+    title: Kérdések létrehozása
   - 
-    title: Add a timer
+    title: Idõzítõ hozzáadása
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Kihívás: hozzáad egy pontszámot és reakciókat'
     challenge: true
   - 
-    title: Multiple games
+    title: Több játék
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Kihívás: hozzon létre egy kezdőképernyőt'
     challenge: true
   - 
-    title: Add graphics
+    title: Grafika hozzáadása
   - 
-    title: 'Challenge: sound and music'
+    title: 'Kihívás: hang és zene'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Kihívás: verseny 10 pontra'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Kihívás: utasítás képernyő'
     challenge: true
   - 
-    title: What next?
+    title: Mi a következő?
