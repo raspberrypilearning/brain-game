@@ -1,55 +1,55 @@
-\--- no-print \---
+\--- bez tlačenia \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Toto je verzia **Scratch 3** projektu. K dispozícii je tiež verzia [Scratch 2 projektu](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- /no-print \---
+\--- / no-print \---
 
-## Introduction
+## úvod
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+V tomto projekte vytvoríte hru s matematickým kvízom, v ktorom má hráč 30 sekúnd, aby poskytol toľko správnych odpovedí, ako je to možné.
 
-### What you will make
+### Čo urobíte
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Kliknite na tlačidlo pre spustenie. Zadajte odpoveď na otázku a stlačte tlačidlo <kbd>Zadajte</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- /no-print \---
+\--- / no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
-
-\--- /collapse \---
+\--- len na tlač \--- ![Brain Game](images/brain-final.png) \--- / len na tlač \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## názov: Čo sa naučíte
 
-### Hardware
++ Ako používať vysielanie v aplikácii Scratch
++ Ako vytvoriť a použiť vlastný blok Scratch
 
-+ A computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
-
-\--- /collapse \---
+\--- / collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## názov: Čo budete potrebovať
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+### technické vybavenie
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
++ Počítač schopný spustiť aplikáciu Scratch 3
 
-\--- /collapse \---
+### softvér
+
++ Scratch 3 (buď [online](http://rpf.io/scratchon){: target = "_ blank"} alebo [offline](http://rpf.io/scratchoff){: target = "_ blank"})
+
+\--- / collapse \---
+
+## \--- collapse \---
+
+## názov: Ďalšie poznámky pre pedagógov
+
+\--- no-print \--- Ak potrebujete tento projekt vytlačiť, použite [verziu](https://projects.raspberrypi.org/en/projects/brain-game/print)vhodnú pre tlačiarne. \--- / no-print \---
+
+Nájdite riešenie [pre tento projekt tu](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+
+\--- / collapse \---
