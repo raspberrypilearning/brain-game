@@ -2,7 +2,7 @@
 
 Lúc này, nhân vật sprite chỉ nói `có!)`hoặc`không:(` cho câu trả lời của người chơi. Thêm một vài đồ hoạ để người chơi biết câu trả lời của họ chính xác hay không.
 
-\--- task \---
+\---nhiệm vụ\---
 
 Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
