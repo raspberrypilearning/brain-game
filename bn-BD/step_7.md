@@ -1,134 +1,136 @@
-## Add graphics
+## গ্রাফিক্স যোগ করুন
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+মুহূর্তে, চরিত্র পরী ঠিক বলেছেন `হ্যাঁ! :)` বা `নং :(` প্লেয়ারের উত্তরের জন্য। প্লেয়ারটিকে তাদের উত্তরটি সঠিক বা ভুল কিনা তা জানার জন্য কিছু গ্রাফিক্স যোগ করুন।
 
 \--- কাজ \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+'ফলাফল' নামক একটি নতুন স্প্রাইট তৈরি করুন এবং এটি একটি 'টিক / চেক' এবং একটি 'ক্রস' পরিচ্ছদ দিন।
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![টিক এবং ক্রস পোশাক সঙ্গে স্প্রাইট](images/brain-result.png)
 
 \--- /কাজ \---
 
 \--- কাজ \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+পরিবর্তে, এটা খেলোয়াড় কিছু বলার অপেক্ষা রাখে না, যাতে আপনার চরিত্র পরী এর কোড পরিবর্তন করুন `সম্প্রচার`{: শ্রেণি = "block3events"} বার্তা 'সঠিক' অথবা 'ভুল'।
 
-![Character sprite](images/giga-sprite.png)
+![অক্ষর স্প্রাইট](images/giga-sprite.png)
 
 ```blocks3
-if <(answer) = ((number 1)*(number 2))> then
+যদি <(উত্তর) = ((সংখ্যা 1) * (সংখ্যা 2))> তারপর
 
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
-end
+- বলুন [হ্যাঁ! :)] জন্য (2) সেকেন্ড
++ সম্প্রচার (সঠিক v)
+অন্য
+- বলুন [নাপ :(] জন্য (2) সেকেন্ড
++ সম্প্রচার (ভুল v)
+শেষ
 ```
 
 \--- /কাজ \---
 
 \--- কাজ \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+এখন আপনি এই বার্তাগুলি `দেখানোর জন্য`{: class = "block3looks"} টি 'টিক' বা 'ক্রস' পরিচ্ছদ ব্যবহার করতে পারেন। নিম্নলিখিত ফলাফলটি 'ফলাফল' স্প্রাইটে যুক্ত করুন:
 
-![Result sprite](images/result-sprite.png)
+![ফলাফল স্প্রাইট](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+    যখন আমি [সঠিক v]
+    সুইচ পরিচ্ছদ পেতে (টিক ভ)
+    শো
+    অপেক্ষা (1) সেকেন্ড
+    আমি যখন পাই তখন
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
+    
+ গোপন করুন [ভুল v]
+    সুইচ পরিচ্ছদ (ক্রস ভ)
+    শো
+    অপেক্ষা (1) সেকেন্ড
 
-    when flag clicked
-    hide
+
+
+    লুকান যখন পতাকাটি 
+ লুকিয়ে থাকে
 ```
 
 \--- /কাজ \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\--- টাস্ক \--- আপনার খেলা আবার পরীক্ষা করুন। যখনই আপনি সঠিকভাবে কোনও প্রশ্নের উত্তর দেবেন এবং ক্রসটি উত্তর দিবেন তখনই আপনি টিকটি দেখতে পাবেন!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![সঠিক উত্তর জন্য ভুল, ভুল উত্তর জন্য ক্রস](images/brain-test-answer.png)
 
 \--- /কাজ \---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+আমি দেখতে পাচ্ছি যে `জন্য কোডটি যখন আমি সঠিক`{: class = "block3events"} এবং `পেয়েছি তখন ভুল`{class = "block3events"} প্রায় অভিন্ন?
 
-So you can change your code more easily, you are going to create a custom block.
+সুতরাং আপনি আরও সহজেই আপনার কোড পরিবর্তন করতে পারেন, আপনি একটি কাস্টম ব্লক তৈরি করতে যাচ্ছেন।
 
 \--- কাজ \---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+'ফলাফল' স্প্রাইট নির্বাচন করুন। নির্বাচন করুন তারপর `আমার ব্লক`{: শ্রেণি = "block3myblocks"}, এবং তারপর **একটি ব্লক করুন**। একটি নতুন ব্লক তৈরি করুন এবং সেটিতে কল `সজীব`{: শ্রেণি = "block3myblocks"}।
 
-![Result sprite](images/result-sprite.png)
+![ফলাফল স্প্রাইট](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![অ্যানিমেশন বলা একটি ব্লক তৈরি করুন](images/brain-animate-function.png)
 
 \--- /কাজ \---
 
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+\--- টাস্ক \--- কোডটি `শো`{{class = "block3looks"} এবং `লুকান`{class = "block3looks"} 'ফলাফল' `অ্যানিম্যাটে স্প্রাইট করুন`{: class = " block3myblocks "} ব্লক:
 
-![Result sprite](images/result-sprite.png)
+![ফলাফল স্প্রাইট](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+অ্যানিমেশন নির্ধারণ
+শো
+অপেক্ষা (1) সেকেন্ড
+লুকান
 ```
 
 \--- /কাজ \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- কাজের \--- আপনি সরিয়েছি নিশ্চিত করুন `প্রদর্শনী`{: শ্রেণি = "block3looks"} এবং `লুকান`{: শ্রেণি = "block3looks"} নিচের ব্লক **উভয়** এর `সুইচ পরিচ্ছদ`{: ক্লাস = "block3looks"} ব্লক।
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+তারপরে `অ্যানিমেশন`{: ক্লাস = "ব্লক 3myblocks"} `সুইচ পরিচ্ছদ`এর নীচে ব্লক করুন {{ক্লাস = "ব্লক 3looks"} ব্লক। আপনার কোড এখন এই মত হওয়া উচিত:
 
-![Result sprite](images/result-sprite.png)
+![ফলাফল স্প্রাইট](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    যখন আমি [সঠিক v]
+    সুইচ পরিচ্ছদটি পেতে (টিক v)
+    অ্যানিমেশন :: কাস্টম
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+    পাই তখন [ভুল v]
+    সুইচ পরিচ্ছদ (ক্রস ভ)
+    অ্যানিমেশন :: কাস্টম
 ```
 
 \--- /কাজ \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+কাস্টম `এনিমেট`{: class = "block3myblocks"} ব্লকের কারণে, যদি আপনি 'ফলাফল' স্প্রাইটের পোশাকগুলিকে দীর্ঘ বা স্বল্প সময়ের জন্য প্রদর্শন করতে চান তবে আপনাকে কেবল আপনার কোডে একটি পরিবর্তন করতে হবে।
 
 \--- কাজ \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+আপনার কোডটি পরিবর্তন করুন যাতে 'টিক' বা 'ক্রস' পোশাক 2 সেকেন্ডের জন্য প্রদর্শিত হয়।
 
 \--- /কাজ \---
 
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+\--- কাজের \--- পরিবর্তে `দেখাচ্ছে`{: শ্রেণি = "block3looks"} এবং `গোপন`{: শ্রেণি = "block3looks"} 'টিক' বা 'ক্রস' পরিধানসমূহ, আপনি আপনার পরিবর্তন হতে পারে `সজীব`{: ক্লাস = "ব্লক 3myblocks"} ব্লক যাতে পরিচ্ছদ বিবর্ণ।
 
-![Result sprite](images/result-sprite.png)
+![ফলাফল স্প্রাইট](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    অ্যানিমেট নির্ধারণ
+    সেট [ভূত ভী] প্রভাব থেকে (100)
+    শো
+    পুনরাবৃত্তি (25)
+        পরিবর্তন [ভূত ভী] প্রভাব দ্বারা প্রভাবিত (-4)
+    শেষ
+    লুকান
 ```
 
 \--- /কাজ \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+আপনি 'টিক' বা 'ক্রস' গ্রাফিক্স এর অ্যানিমেশন উন্নত করতে পারেন? আপনি পোশাকগুলিও বিবর্ণ করতে কোড যোগ করতে পারেন, অথবা আপনি অন্যান্য শীতল প্রভাবগুলি ব্যবহার করতে পারেন:
 
 ![screenshot](images/brain-effects.png)
