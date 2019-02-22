@@ -1,4 +1,4 @@
-## Add graphics
+## إضافة رسومات
 
 At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
@@ -8,7 +8,7 @@ Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' co
 
 ![Sprite with tick and cross costumes](images/brain-result.png)
 
-\--- /task \---
+\---/task--
 
 \--- task \---
 
@@ -131,4 +131,4 @@ Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
 Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
-![screenshot](images/brain-effects.png)
+![لقطة الشاشة](images/brain-effects.png)
