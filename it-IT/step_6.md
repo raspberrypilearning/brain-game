@@ -1,19 +1,11 @@
-\--- challenge \---
+## Challenge: create a start screen
 
-## Sfida: Schermata iniziale
+Can you add another backdrop that is going to be the start screen for your game?
 
-Puoi aggiungere un altro sfondo al tuo stage, che diventerà la schermata iniziale del tuo gioco? Puoi usare i blocchi `quando ricevo inizio` {:class="blockevents"} e `quando ricevo fine` {:class="blockevents"} per passare da uno sfondo all'altro.
+You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
-Puoi anche mostrare e nascondere il tuo personaggio e persino mostrare e nascondere il tuo timer usando questi blocchi:
+To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
-```blocks
-mostra la variabile [tempo v]
-```
+To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
 
-```blocks
-nascondi la variabile [tempo v]
-```
-
-![screenshot](images/brain-startscreen.png)
-
-\--- /challenge \---
+![Start screen](images/brain-startscreen.png)
