@@ -1,11 +1,11 @@
-## Challenge: instruction screen
+## Thử thách: màn hình hướng dẫn
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+Bạn có thể thêm một màn hình hướng dẫn cho người chơi biết cách chơi trò chơi không? Đối với điều này, bạn cần một nút 'Hướng dẫn', và một phông nền khác.
 
-![screenshot](images/brain-instructions.png)
+![ảnh chụp màn hình](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Bạn cũng có thể cần thêm nút 'Quay lại' để cho phép người chơi quay lại màn hình bắt đầu.
 
 ```blocks3
-    broadcast (start screen v)
+    phát tin (màn hình bắt đầu v)
 ```
