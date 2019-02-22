@@ -1,4 +1,4 @@
-## Challenge: instruction screen
+## Sfida: Gareggia fino ai 10 punti
 
 Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
