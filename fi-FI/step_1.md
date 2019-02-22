@@ -1,55 +1,55 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Tämä on hankkeen **Scratch 3** -versio. Myös [Scratch 2 projektin versiosta](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- /no-print \---
+\--- / ei-tulosta \---
 
-## Introduction
+## esittely
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+Tässä projektissa luodaan matematiikka-tietokilpailu, jossa soittimella on 30 sekuntia antaa mahdollisimman monta oikeaa vastausta.
 
-### What you will make
+### Mitä teet
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Aloita napsauttamalla painiketta. Kirjoita vastaus kysymykseen ja paina sitten <kbd>Enter</kbd> -näppäintä.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- /no-print \---
+\--- / ei-tulosta \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- vain tulostettava \--- ![Brain Game](images/brain-final.png) \--- / vain tulostus \---
 
-## \--- collapse \---
+## \--- romahdus \---
 
-## title: What you will learn
+## otsikko: Mitä opit
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Miten lähetyksiä käytetään Scratchissa
++ Mukautetun raaputuslohkon luominen ja käyttäminen
 
-\--- /collapse \---
+\--- / romahtaa \---
 
-## \--- collapse \---
+## \--- romahdus \---
 
-## title: What you will need
+## otsikko: Mitä tarvitset
 
-### Hardware
+### Laitteisto
 
-+ A computer capable of running Scratch 3
++ Tietokone, joka pystyy suorittamaan Scratch 3: n
 
-### Software
+### Ohjelmisto
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (joko [online](http://rpf.io/scratchon){: target = "_ tyhjä"} tai [offline](http://rpf.io/scratchoff){: target = "_ blank"})
 
-\--- /collapse \---
+\--- / romahtaa \---
 
-## \--- collapse \---
+## \--- romahdus \---
 
-## title: Additional notes for educators
+## nimi: Lisätiedot opettajille
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- Jos haluat tulostaa tämän projektin, käytä [tulostinystävällistä versiota](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / ei-tulosta \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Etsi [ratkaisu tähän projektiin](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
 
-\--- /collapse \---
+\--- / romahtaa \---
