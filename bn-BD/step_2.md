@@ -1,102 +1,102 @@
-## Create questions
+## প্রশ্ন তৈরি করুন
 
-You're going to start by creating random questions that the player has to answer.
+আপনি প্লেয়ার উত্তর দিতে চান যে এলোমেলো প্রশ্ন তৈরি করে শুরু করতে যাচ্ছি।
 
-\--- task \---
+\--- কাজ \---
 
-Open a new Scratch project.
+একটি নতুন স্ক্র্যাচ প্রকল্প খুলুন।
 
-**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
+**অনলাইন:** এ একটি নতুন অনলাইন ভূত প্রকল্পের খুলতে [rpf.io/scratchon](http://rpf.io/scratchon){: টার্গেট = "_ blank"}।
 
-**Offline:** open a new project in the offline editor.
+**অফলাইন:** অফলাইন সম্পাদকটিতে একটি নতুন প্রকল্প খুলুন।
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+আপনি যদি স্ক্র্যাচ অফলাইন সম্পাদক ডাউনলোড এবং ইনস্টল করতে চান তবে আপনি এটি [rpf.io/scratchoff](http://rpf.io/scratchoff)এ পাবেন: {target = "_ blank"}।
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+\--- টাস্ক \--- চরিত্রের স্প্রেট এবং আপনার খেলার জন্য একটি ব্যাকড্রপ যোগ করুন। আপনি যে কোনও পছন্দ করতে পারেন! এখানে একটি উদাহরণ:
 
 ![screenshot](images/brain-setting.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- টাস্ক \--- আপনার অক্ষর sprite নির্বাচিত নিশ্চিত করুন। কুইজ প্রশ্নগুলির সংখ্যাগুলি সংরক্ষণ করতে, দুটি নতুন ভেরিয়েবল তৈরি করুন, যাকে `সংখ্যা 1`{: class = "block3variables"} এবং `সংখ্যা 2`{: class = "block3variables"} বলা হয়।
 
 ![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
-
-![screenshot](images/giga-sprite.png)
-
-```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-```
-
-\--- /task \---
-
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+\--- টাস্ক \--- আপনার ক্যারেক্টার স্প্রাইটে কোডটি `ভেরিয়েবল`সেট করতে {{class = "block3variables"} `র্যান্ডম`{: class = "block3operators"} 2 এবং 1২ এর মধ্যে সেট করুন।
 
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
-+ end
+যখন পতাকা
+সেট [সংখ্যা 1 ভি] ক্লিক করে (র্যান্ডম (2) থেকে (12))
+সেট [সংখ্যা 2 ভি] থেকে (র্যান্ডম (2) থেকে (12) বাছাই করুন)
 ```
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজের \--- যোগ করার জন্য কোড `জিজ্ঞাসা`{: শ্রেণি = "block3sensing"} উত্তরের জন্য প্লেয়ার, এবং তারপর `2 সেকেন্ডের বলতে`{: শ্রেণি = "block3looks"} কিনা উত্তর ঠিক ছিল বা ভুল:
 
-Test your project twice: answer one question correctly, and the other incorrectly.
-
-\--- /task \---
-
-\--- task \---
-
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
-
-\--- hints \--- \--- hint \---
-
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
-
-\--- /hint \--- \--- hint \--- Here is the block you need:
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
-forever
-end
+যখন পতাকা ক্লিক
+সেট [1 নম্বর বনাম] এ (র্যান্ডম (2) এর (12) বাছাই)
+সেট [NUMBER 2 বনাম] এ (বাছাই র্যান্ডম (2) এর (12))
+
++ + জিজ্ঞাসা করুন (1 নম্বর যোগদানের () ([x] (সংখ্যা 2) যোগ দিন) এবং অপেক্ষা করুন
++ যদি <(উত্তর) = ((সংখ্যা 1) * (সংখ্যা 2))> তারপর
++ বলুন [হ্যাঁ! :)] জন্য (2) সেকেন্ড
++ অন্য
++ বলুন [না :(] (2) সেকেন্ড
++ শেষ
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /কাজ \---
+
+\--- কাজ \---
+
+আপনার প্রকল্পের দুইবার পরীক্ষা করুন: সঠিকভাবে একটি প্রশ্ন উত্তর দিন, এবং অন্যটি ভুলভাবে।
+
+\--- /কাজ \---
+
+\--- কাজ \---
+
+একটি যোগ করুন `চিরকাল`{: শ্রেণি = "block3control"} লুপ এই কোড চারপাশের, যাতে খেলা একটি সারিতে প্রশ্ন খেলোয়াড় প্রচুর অনুরোধ।
+
+\--- ইঙ্গিত \--- \--- ইঙ্গিত \---
+
+আপনি একটি যোগ করতে হবে `চিরকাল`ব্যতীত কোডের ব্লক, এবং করা সব: {বর্গ = "block3control"} `যখন পতাকা ক্লিক`{: শ্রেণি = "block3control"} তা অবরোধ করুন।
+
+\--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে আপনার প্রয়োজন ব্লক:
 
 ```blocks3
-when flag clicked
+চিরতরে
+শেষ
+```
 
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
+\--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে আপনার কোডটি কেমন হওয়া উচিত:
+
+```blocks3
+যখন পতাকাটি
+
++ সর্বদা
+    সেট [সংখ্যা 1 ভি] তে ক্লিক করে (র্যান্ডম (2) থেকে (12))
+    সেট [সংখ্যা 2 ভি] থেকে (র্যান্ডম (2) থেকে (12) বাছাই করুন)
+    জিজ্ঞাসা করুন (যোগ দিন (যোগ করুন 1) (যোগদানের [X] (নম্বর 2))) এবং অপেক্ষা করুন
+    যদি <(উত্তর) = ((নম্বর 1) * (সংখ্যা 2))> তারপর
+        বলে [হ্যাঁ! :)] জন্য (2) সেকেন্ড
+    অন্য
+        বলুন [না :(] (2) সেকেন্ড
+    শেষ
+শেষ
 ```
 
 \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- /কাজ \---
