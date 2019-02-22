@@ -1,134 +1,134 @@
-## Add graphics
+## Adăugați grafică
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+În momentul de față, personajul sprite spune doar `da! :)` sau `nu :(` la răspunsurile jucătorului. Adăugați unele grafice pentru a lăsa jucătorul să știe dacă răspunsul lor este corect sau incorect.
 
 \--- proba\---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+Creați un nou sprite numit "Rezultat" și dați-i un costum "bifați / verificați" și "încrucișați".
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![Sprite cu bici și costume încrucișate](images/brain-result.png)
 
 \--- /task \---
 
 \--- task \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+Schimbați codul sprite al caracterului, astfel încât, în loc să spună ceva jucătorului, acesta `transmite`{: class = "block3events"} mesajele "corecte" sau "greșite".
 
-![Character sprite](images/giga-sprite.png)
+![Sprite de caractere](images/giga-sprite.png)
 
 ```blocks3
-if <(answer) = ((number 1)*(number 2))> then
+dacă <(răspuns) = ((numărul 1) * (numărul 2))> atunci
 
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
-end
+- spuneți [da! :)] pentru (2) secunde
++ broadcast (v corect)
+altceva
+- spun [nope :(] pentru (2) secunde
++ broadcast (v greșit)
+capăt
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+Acum puteți utiliza aceste mesaje de la `show -`{: class = „block3looks“} „capusa“ sau costum „cruce“. Adăugați următorul cod la sprite "Rezultat":
 
-![Result sprite](images/result-sprite.png)
+![Sprite rezultat](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+    atunci când primesc [v corect]
+    costum comutator la (căpușe v)
+    arată
+    wait (1) secunde
+    ascunde
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
+    atunci când primesc [v greșit]
+    costum comutator la (cruce v)
+    arată
+    așteptați (1) secunde
+    ascunde
 
-    when flag clicked
-    hide
+    când steagul a făcut clic pe
+    ascunde
 ```
 
 \--- /task \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\--- task \--- Testați-vă din nou jocul. Ar trebui să vedeți bifarea ori de câte ori răspundeți la o întrebare corectă și crucea ori de câte ori răspundeți incorect!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![Bifați pentru corect, cruce pentru răspuns greșit](images/brain-test-answer.png)
 
 \--- /task \---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+Puteți vedea că codul pentru `când primesc corect`{: class = "block3events"} și `când primesc greșit`{: class = "block3events"} este aproape identic?
 
-So you can change your code more easily, you are going to create a custom block.
+Deci, puteți schimba codul mai ușor, veți crea un bloc personalizat.
 
 \--- task \---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+Selectați sprite "Rezultat". Apoi faceți clic pe `My Blocks`{: class = "block3myblocks"}, apoi pe **Faceți un bloc**. Creați un nou bloc și apelați-l `animați`{: class = "block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![Sprite rezultat](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![Creați un bloc numit animați](images/brain-animate-function.png)
 
 \--- /task \---
 
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+\--- sarcina \--- mutați codul la `arată`{: class = "block3looks"} și `ascunde`{: class = "block3looks"} "Sprite rezultat" în `animate`{: class = bloc3myblocks "} bloc:
 
-![Result sprite](images/result-sprite.png)
+![Sprite rezultat](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+defini animat
+arată
+așteptați (1) secunde
+ascunde
 ```
 
 \--- /task \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- Sarcina \--- Asigurați - vă că ați scos `afișează`{: class = "block3looks"} și `ascunde`{: class = "block3looks"} blocuri de mai jos , **ambele** din `costumului comutator`{: class = "block3looks"} blocuri.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+Apoi adăugați blocul `animat`{: class = "block3myblocks"} deasupra ambelor blocuri de `comutatoare de costum`{: class = "block3looks"}. Codul dvs. ar trebui să arate astfel:
 
-![Result sprite](images/result-sprite.png)
+![Sprite rezultat](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    când primesc costumul de schimb [corect v]
+    comuta la (bifați v)
+    animați :: personalizat
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+    când primesc [greșit v]
+    costum de comutare la (cruce v)
+    animate :: personalizat
 ```
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+Din cauza blocului personalizat `animate`{: class = "block3myblocks"}, acum trebuie doar să faceți o schimbare a codului dvs. dacă doriți să afișați costumele Sprite "Rezultat" un timp mai lung sau mai scurt.
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+Modificați codul astfel încât costumele "bifați" sau "încrucișați" să fie afișate timp de 2 secunde.
 
 \--- /task \---
 
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+\--- Sarcina \--- În loc de `prezentând`{: class = "block3looks"} și `ascund`{: class = "block3looks"} 'capusei' sau costumele 'cruce', ai putea schimba `insufletit`{block: block3myblocks}}, astfel încât costumele să se estompeze.
 
-![Result sprite](images/result-sprite.png)
+![Sprite rezultat](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
+    defineste animat
+    set [ghost v] efect la (100)
+    arata
+    repeta (25)
+        schimba [ghost v] efect prin (-4)
     end
-    hide
+    ascunde
 ```
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Puteți îmbunătăți animația graficei "tick" sau "cross"? Puteți adăuga codul pentru a face costumele să se estompeze, de asemenea, sau puteți utiliza alte efecte interesante:
 
 ![captură de ecran](images/brain-effects.png)
