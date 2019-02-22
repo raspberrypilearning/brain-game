@@ -1,11 +1,11 @@
-## Challenge: create a start screen
+## چالش: یک صفحه شروع ایجاد کنید
 
-Can you add another backdrop that is going to be the start screen for your game?
+آیا می توانید یک پس زمینه دیگر اضافه کنید که قرار است صفحه شروع بازی شما باشد؟
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+شما می توانید از `هنگامی که من شروع به دریافت`{: class = "block3events"} و `زمانی که من پایان`{: class = "block3events"} بلوک برای تغییر بین پس زمینه را دریافت کنید استفاده کنید.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+برای نشان دادن یا پنهان کردن شخصیت هنگامی که بازی شما بین پس زمینه ها تغییر می کند، می توانید از `نمایش`{: class = "block3looks"} استفاده کنید و `مخفی`{: class = "block3looks"} بلوک استفاده کنید.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+برای نشان دادن یا پنهان کردن تایمر و نمره زمانی که بازی شما بین پسزمینه تغییر می کند، می توانید از `نمایش متغیر`{: class = "block3variables"} و `مخفی سازی متغیر`{: class = "block3variables"} بلوک استفاده کنید.
 
-![Start screen](images/brain-startscreen.png)
+![صفحه اغازین](images/brain-startscreen.png)
