@@ -62,8 +62,8 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    [end v] を受け取ったとき
+[スプライトの他のスクリプト v] を止める
 ```
 
 \--- /task \---
