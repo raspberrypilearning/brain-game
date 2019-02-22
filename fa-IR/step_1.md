@@ -1,55 +1,55 @@
-\--- no-print \---
+\--- بدون چاپ \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+این نسخه **Scratch 3** این پروژه است. همچنین یک وجود دارد [نسخه خراش 2 پروژه](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- /no-print \---
+\--- / بدون چاپ \---
 
-## Introduction
+## معرفی
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+در این پروژه شما یک بازی مسابقه ریاضی ایجاد خواهید کرد که در آن بازیکن دارای 30 ثانیه است تا پاسخ های صحیح را به حداکثر برساند.
 
-### What you will make
+### چه کاری انجام خواهد داد
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- بر روی دکمه برای شروع کلیک کنید. پاسخ به سوال را تایپ کنید و سپس کلید <kbd>Enter</kbd> فشار دهید.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- /no-print \---
+\--- / بدون چاپ \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- فقط چاپ \--- ![Brain Game](images/brain-final.png) \--- / چاپ فقط \---
 
-## \--- collapse \---
+## \--- سقوط - فروپاشی \---
 
-## title: What you will learn
+## عنوان: چیزی که یاد خواهید گرفت
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ نحوه استفاده از پخش در خراش
++ چگونه برای ایجاد و استفاده از یک بلوک سفارشی خراش
 
-\--- /collapse \---
+\--- /سقوط - فروپاشی \---
 
-## \--- collapse \---
+## \--- سقوط - فروپاشی \---
 
-## title: What you will need
+## عنوان: آنچه شما نیاز دارید
 
-### Hardware
+### سخت افزار
 
-+ A computer capable of running Scratch 3
++ یک کامپیوتر قادر به اجرای Scratch 3 است
 
-### Software
+### نرم افزار
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (یا [آنلاین](http://rpf.io/scratchon){: target = "_ blank"} یا [آفلاین](http://rpf.io/scratchoff){: target = "_ blank"})
 
-\--- /collapse \---
+\--- /سقوط - فروپاشی \---
 
-## \--- collapse \---
+## \--- سقوط - فروپاشی \---
 
-## title: Additional notes for educators
+## عنوان: یادداشت های اضافی برای مربیان
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- بدون چاپ \--- اگر شما نیاز به چاپ این پروژه، لطفا با استفاده از [نسخه چاپی مناسب نسخه](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+راه حل [برای این پروژه را در اینجا پیدا کنید](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
 
-\--- /collapse \---
+\--- /سقوط - فروپاشی \---
