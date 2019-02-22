@@ -1,15 +1,3 @@
-\--- challenge \---
+## What next?
 
-## Sfida: Schermata delle istruzioni
-
-Puoi aggiungere una schermata di istruzioni al tuo gioco, raccontando al tuo giocatore come si gioca? Avrai bisogno di un pulsante "Istruzioni" e di un altro sfondo di stage.
-
-![screenshot](images/brain-instructions.png)
-
-Potrebbe anche essere necessario un pulsante "Indietro" per accedere al menu principale.
-
-```blocks
-    invia a tutti [menu principale v]
-```
-
-\--- /challenge \---
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
