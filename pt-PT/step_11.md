@@ -1,15 +1,3 @@
-\--- challenge \---
+## What next?
 
-## Desafio: Ecrã de instruções
-
-Podes adicionar uma tela de instruções ao seu jogo, dizendo ao seu jogador como jogar o jogo? Vais precisar de um botão "Instruções" e outro pano de fundo para o teu palco.
-
-![screenshot](images/brain-instructions.png)
-
-Podes precisar também um botão "Voltar" para retornar ao menu principal.
-
-```blocks
-    difunde a mensagem [main menu v]
-```
-
-\--- /challenge \---
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
