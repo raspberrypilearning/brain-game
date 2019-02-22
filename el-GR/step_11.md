@@ -1,15 +1,3 @@
-\--- challenge \---
+## What next?
 
-## Πρόκληση: Οθόνη οδηγιών
-
-Μπορείς να προσθέσεις μια οθόνη οδηγιών στο παιχνίδι σου, που να λέει στον παίκτη σου πώς να παίξει το παιχνίδι; Θα χρειαστείς ένα κουμπί "Instructions" (Οδηγίες) και ένα άλλο φόντο για το σκηνικό.
-
-![screenshot](images/brain-instructions.png)
-
-Ενδέχεται επίσης να χρειαστείς ένα κουμπί 'Back' (Επιστροφή) για να μεταβείς στο κύριο μενού.
-
-```blocks
-    broadcast [main menu v]
-```
-
-\--- /challenge \---
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
