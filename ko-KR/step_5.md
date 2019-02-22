@@ -1,74 +1,74 @@
 ## 여러 게임
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+이제 플레이어가 게임을 여러 번 할 수 있도록 '재생'버튼을 추가 할 것입니다.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- 새로운 게임을 시작하기 위해 플레이어가 클릭해야하는 '재생'버튼 스프라이트를 만듭니다.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+스프라이트를 직접 그리거나 라이브러리에서 스프라이트를 편집 할 수 있습니다.
 
-![Picture of the play button](images/brain-play.png)
+![재생 버튼 그림](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- 이 코드를 버튼 스프라이트에 추가합니다 :
 
-![Button sprite](images/button-sprite.png)
+![버튼 스프라이트](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    플래그가 클릭되었을 때
+    표시
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    이 스프라이트가 클릭되었을 때
+    숨기기
+    브로드 캐스트 (시작 v)
 ```
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+새로운 코드에는 또 다른 `브로드 캐스트`{: class = "block3events"} 블록이 포함되어 있습니다.이 블록은 'start'메시지를 보냅니다.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+새로운 코드는 플레이어가 깃발을 클릭 할 때 '재생'버튼 스프라이트를 보여줍니다. 플레이어가 버튼 스프라이트를 클릭하면 스프라이트는 다른 스프라이트가 반응 할 수있는 메시지를 숨긴 다음 브로드 캐스트합니다.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+현재 캐릭터 스프라이트는 플레이어가 깃발을 클릭 할 때 질문을하기 시작합니다. 그 캐릭터의 스프라이트가 '시작'수신 할 때 질문을 시작 있도록 게임의 코드를 변경 `방송`{: 클래스 = "block3events을"}.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- 문자 스프라이트를 선택하고 코드 섹션에서 클릭하면 `대체합니다.`{: class = "block3events"} 시작을 수신하면 `차단합니다.`{: class = "block3events" } 블록.
 
-![Character sprite](images/giga-sprite.png)
+![문자 스프라이트](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
+<br />- [start v]를받을 때 플래그가
+될 때
+[number 1 v]를 (임의의 (2) ~ (12) 선택)
+[number 2 v] )
+요청 (가입 (번호 1) (조인 [X] (번호 2))) 기다리
+의 경우 &lt;(답) = ((수 1) * (번호 2))&gt; 다음
+    [말 예! :)] (2) 초 동안
 else
-    say [nope :(] for (2) seconds
-end
+    [(nope :() for (2) 초
+끝
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+녹색 플래그를 클릭 한 다음 새로운 '재생'버튼을 클릭하여 작동 여부를 테스트하십시오. 단추를 클릭하기 전에 게임이 시작되지 않는 것을 확인해야합니다.
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+게임이 시작될 때가 아니라 초록색 깃발이 클릭되면 타이머가 시작되는 것을 볼 수 있습니까?
 
-![Timer has started](images/brain-timer-bug.png)
+![타이머가 시작되었습니다.](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+플레이어가 버튼을 클릭 할 때 타이머가 시작되도록 타이머 코드를 변경할 수 있습니까?
 
 \--- /task \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- task \--- 버튼 스프라이트에 코드를 추가하여 각 게임이 끝날 때 버튼이 다시 표시되도록합니다.
 
-![Button sprite](images/button-sprite.png)
+![버튼 스프라이트](images/button-sprite.png)
 
 ```blocks3
     [끝 v]을 받았을 때
@@ -79,11 +79,11 @@ Can you change the code for the timer so that the timer starts when the player c
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+몇 가지 게임을 실행하여 '재생'버튼을 테스트하십시오. 버튼은 각 게임이 끝날 때 표시됩니다.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+게임을 더 빠르게 테스트하려면 각 게임이 불과 몇 초 길이가되도록 `{`: : = block3variables} 시간의 값을 변경할 수 있습니다.
 
-![Stage](images/stage-sprite.png)
+![단계](images/stage-sprite.png)
 
 ```blocks3
     [시간 v]을 [10]으로 설정
@@ -91,7 +91,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- 마우스 포인터가 마우스 포인터 위로 움직일 때 버튼의 모양을 변경할 수 있습니다.
 
 ![Button](images/button-sprite.png)
 
