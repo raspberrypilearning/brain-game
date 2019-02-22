@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduction
+## Giới thiệu
 
 In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### What you will make
+### Bạn sẽ làm gì
 
 \--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
@@ -21,7 +21,7 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 \--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
 
-## \--- collapse \---
+## \--- sự sụp đổ \---
 
 ## title: What you will learn
 
@@ -34,11 +34,11 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## title: What you will need
 
-### Hardware
+### Phần cứng
 
-+ A computer capable of running Scratch 3
++ Một máy tính có khả năng chạy Scratch 3
 
-### Software
+### Phần mềm
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
