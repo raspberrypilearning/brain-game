@@ -1,4 +1,4 @@
-## Multiple games
+## Mai multe jocuri
 
 Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
@@ -107,4 +107,4 @@ To test the game more quickly, you can change the value of `time`{:class="block3
     end
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![captură de ecran](images/brain-fisheye.png) \--- /task \---
