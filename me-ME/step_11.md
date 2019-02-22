@@ -1,15 +1,3 @@
-\--- challenge \---
+## What next?
 
-## Izazov: Ekran sa uputstvima
-
-Da li u svoju igru možeš da dodaš ekran sa uputstvima koji tvom igraču objašnjava kako da igra? Biće ti potrebno dugme 'Uputstva' i još jedna pozadina za pozornicu.
-
-![screenshot](images/brain-instructions.png)
-
-Trebaće ti i dugme 'Nazad' koje će te vraćati na glavni meni.
-
-```blocks
-    broadcast [main menu v]
-```
-
-\--- /challenge \---
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
