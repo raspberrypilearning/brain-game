@@ -1,4 +1,4 @@
-## Challenge: instruction screen
+## Uitdaging: Race naar 10 punten
 
 Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
