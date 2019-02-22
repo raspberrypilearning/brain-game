@@ -1,15 +1,3 @@
-\--- challenge \---
+## What next?
 
-## Herausforderung: Anleitungsbildschirm
-
-Kannst du dein Spiel um einen Anleitungsbildschirm ergänzen, der deinem Spieler erklärt wie man dein Spiel spielt? Du wirst einen Knof namens 'Anleitung' und ein anderes Bühnenbild brauchen.
-
-![screenshot](images/brain-instructions.png)
-
-Du wirst vielleicht auch einen 'zurück'-Knopf brauchen, um dich wieder zum Hauptmenü zu bringen.
-
-```blocks
-    sende [Hauptmenü v] an alle
-```
-
-\--- /challenge \---
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
