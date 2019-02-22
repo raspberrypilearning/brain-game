@@ -3,16 +3,16 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Gehirntraining
-description: Lerne, wie man ein Quiz produziert.
+description: Lerne, wie man ein Quiz programmiert
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-03
 steps:
   - 
     title: Einleitung
   - 
     title: Fragen zusammenstellen
   - 
-    title: 'Aufgabe: Kostüm ändern'
+    title: Timer hinzufügen
   - 
     title: 'Aufgabe: Eine Punktzahl hinzufügen'
     challenge: true
@@ -33,4 +33,4 @@ steps:
     title: 'Aufgabe: Wettrennen zu 10 Punkten'
     challenge: true
   - 
-    title: 'Aufgabe: Anweisungsbildschirm'
+    title: 'Zusatzaufgabe: mehr Stifte'
