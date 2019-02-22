@@ -1,102 +1,102 @@
-## Create questions
+## Направите питања
 
-You're going to start by creating random questions that the player has to answer.
+Почећете тако што ћете креирати случајна питања на која играч мора да одговори.
 
-\--- task \---
+\--- задатак \---
 
-Open a new Scratch project.
+Отворите нови Сцратцх пројекат.
 
-**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
+**Онлине:** отвори нови онлине Сцратцх пројекат на [рпф.ио/сцратцхон](http://rpf.io/scratchon){: таргет = "_ бланк"}.
 
-**Offline:** open a new project in the offline editor.
+**Оффлине:** отворите нови пројекат у оффлине уређивачу.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Ако желите да преузмете и инсталирате Сцратцх оффлине едитор, можете га пронаћи на [рпф.ио/сцратцхофф](http://rpf.io/scratchoff){: таргет = "_ бланк"}.
 
-\--- /task \---
+\--- /задатак \---
 
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+\--- задатак \--- Додајте знаковни дух и позадину за вашу игру. Можете одабрати било коју! Ево примера:
 
-![screenshot](images/brain-setting.png)
+![сцреенсхот](images/brain-setting.png)
 
-\--- /task \---
+\--- /задатак \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- задатак \--- Провјерите да ли је ваш спрајт карактера одабран. Направите двије нове варијабле, назване `број 1`{: цласс = "блоцк3вариаблес"} и `број 2`{: цласс = "блоцк3вариаблес"}, за спремање бројева за питања квиза.
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![сцреенсхот](images/giga-sprite.png) ![сцреенсхот](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /task \---
+\--- /задатак \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- задатак \--- Додај код на ваш карактера вилењак поставити оба `варијабли`{: цласс = "блоцк3вариаблес"} на `случајних`{: цласс = "блоцк3операторс"} броју између 2 и 12.
 
-![screenshot](images/giga-sprite.png)
-
-```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-```
-
-\--- /task \---
-
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
-
-![screenshot](images/giga-sprite.png)
+![сцреенсхот](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
-+ end
+када је заставица кликнула
+поставила [број 1 в] на (изабери случајне (2) до (12))
+сет [број 2 в] до (изабери случајне (2) до (12))
 ```
 
-\--- /task \---
+\--- /задатак \---
 
-\--- task \---
+\--- задатак \--- Додавање кода на `упит`{: цласс = "блоцк3сенсинг"} играч за одговор, а затим `за 2 секунде`{: цласс = "блоцк3лоокс"} да ли је одговор био исправан или погрешно:
 
-Test your project twice: answer one question correctly, and the other incorrectly.
-
-\--- /task \---
-
-\--- task \---
-
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
-
-\--- hints \--- \--- hint \---
-
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
-
-\--- /hint \--- \--- hint \--- Here is the block you need:
+![сцреенсхот](images/giga-sprite.png)
 
 ```blocks3
-forever
-end
+кад је заставица кликнула
+поставила [број 1 в] на (изабери случајне (2) до (12))
+сет [број 2 в] до (изабери случајне (2) до (12))
+
++ питај (придружи се (број 1) (придружите се [к] (број 2))) и сачекајте
++ ако <(одговор) = ((број 1) * (број 2))> затим
++ реците [да! :)] фор (2) сецондс
++ елсе
++ саи [но :(] за (2) секунди
++ крај
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /задатак \---
+
+\--- задатак \---
+
+Тестирајте свој пројекат двапут: исправно одговорите на једно питање, а друго погрешно.
+
+\--- /задатак \---
+
+\--- задатак \---
+
+Око овог кода додајте петљу ``заувек </code> {: цласс = "блоцк3цонтрол"}, тако да игра постави играчу мноштво питања заредом.
+
+\--- хинтс \--- \--- хинт \---
+
+Потребно је да додате `заувек`{: цласс = "блоцк3цонтрол"} блок, и стави све кода осим `када застава кликне`{: стиле = "блоцк3цонтрол"} блокирају у њу.
+
+\--- / хинт \--- \--- хинт \--- Овде је блок који вам је потребан:
 
 ```blocks3
-when flag clicked
-
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
+заувек
+крај
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / хинт \--- \--- хинт \--- Ево како би ваш код требао изгледати:
 
-\--- /task \---
+```blocks3
+када је заставица кликнула
+
++ заувек
+    поставила [број 1 в] на (изабери случајне (2) до (12))
+    постави [број 2 в] на (изабери случајне (2) до (12))
+    питај (придружи се (број) 1) (придружите се [к] (број 2))) и сачекајте
+    ако <(одговор) = ((број 1) * (број 2))> затим
+        кажите [да! :)] за (2) секунди
+    друго
+        кажу [но :(] за (2) секунди
+    крај
+крај
+```
+
+\--- / хинт \--- \--- / хинтс \---
+
+\--- /задатак \---
