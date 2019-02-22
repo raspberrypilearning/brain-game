@@ -1,11 +1,11 @@
-## Challenge: add a score and reactions
+## Kihívás: hozzáad egy pontszámot és reakciókat
 
-Can you add a score to your game?
+Tudsz adni egy pontszámot a játékodhoz?
 
-You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
+Kódot adhat hozzá, hogy a játékos pontot kapjon minden helyes válaszért. Ha érzi magát, akkor hozzáadhat kódot is, hogy visszaállítsa a játékos pontszámát nullára, ha rossz választ adnak!
 
 [[[generic-scratch3-high-score]]]
 
-Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+Meg tudod-e tenni a karakteredet a játékos válaszára, ha egy másik jelmezre vált, ha a válasz helyes vagy helytelen?
 
 ![screenshot](images/brain-costume.png)
