@@ -11,5 +11,5 @@ lặp cho tới khi <(thời gian) = [0]>
 chờ (1) giây
 thay [thời gian v] bằng (-1)
 kết thúc
-phát tín hiệu (kết thúc v)
+phát tin (kết thúc v)
 ```
