@@ -1,110 +1,110 @@
-## Multiple games
+## بازی های چندگانه
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+حالا شما قصد دارید یک دکمه Play را اضافه کنید تا بازیکن بتواند بازی شما را چند بار بازی کند.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- وظیفه \--- یک دکمه ی 'Play' جدید ایجاد کنید که بازیکن باید روی آن کلیک کند تا یک بازی جدید را شروع کند.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+شما می توانید خودتان را به رسمیت بگذارید یا ویرایشگر از کتابخانه را ویرایش کنید.
 
-![Picture of the play button](images/brain-play.png)
+![تصویر دکمه بازی](images/brain-play.png)
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \--- Add this code to your button sprite:
+\--- وظیفه \--- این کد را به دکمه ی خود اضافه کنید:
 
-![Button sprite](images/button-sprite.png)
-
-```blocks3
-    when flag clicked
-    show
-
-    when this sprite clicked
-    hide
-    broadcast (start v)
-```
-
-\--- /task \---
-
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
-
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
-
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
-
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
-
-![Character sprite](images/giga-sprite.png)
+![افسر دکمه](images/button-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+    زمانی که پرچم روی آن کلیک کنید
+    نمایش
+
+    زمانی که این صحنه کلیک کرد
+    پنهان
+    پخش (شروع V)
 ```
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \---
+کد جدید شامل یکی دیگر از برنامه پخش ``{: class = "block3events"} است که پیام "شروع" را ارسال می کند.
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+کد جدید باعث می شود که دکمه Play را نشان دهد زمانی که بازیکن بر روی پرچم کلیک کند. هنگامی که بازیکن روی دکمه راست کلیک می کند، افشای پنهان می کند و سپس پیامی را ارسال می کند که سایر طرفداران می توانند واکنش نشان دهند.
 
-\--- /task \---
+در حال حاضر، فیلد شخصیت شروع به سوال کردن میکند وقتی بازیکن روی پرچم کلیک میکند. کد بازی خود را تغییر دهید به طوری که کاراکتر شخصیت شروع به سوال کردن می کند وقتی که "شروع" `پخش می شود`{: class = "block3events"}.
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+\--- کار \--- کاراکتر کاراکتر خود را انتخاب کنید و در قسمت کد آن `پرچم`{: class = "block3events"} جایگزین کنید، با `شروع کنید`{: class = "block3events" } مسدود کردن.
 
-![Timer has started](images/brain-timer-bug.png)
-
-\--- task \---
-
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
-
-\--- /task \---
-
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
-
-![Button sprite](images/button-sprite.png)
+![امضا شخصیت](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+<br />- هنگامی که پرچم
++ هنگام دریافت [شروع v]
+تنظیم [شماره 1 V] به (انتخاب تصادفی (2) به (12))
+مجموعه [شماره 2 V] به (انتخاب تصادفی (2) به (12) )
+بپرسید (پیوستن (شماره 1) (پیوستن به [x] (شماره 2))) و صبر کنید
+اگر &lt;(پاسخ) = ((شماره 1) * (شماره 2))&gt; سپس
+    می گویند [بله! :)) برای (2) ثانیه
+دیگر
+    می گویند [nope :(] برای (2) ثانیه
+پایان
 ```
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \---
+\--- وظیفه \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+روی پرچم سبز کلیک کنید و سپس بر روی دکمه Play کلیک کنید تا آزمایش کنید آیا کار می کند. شما باید ببینید که بازی قبل از اینکه بر روی دکمه کلیک شود شروع نمی شود.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+\--- /وظیفه \---
 
-![Stage](images/stage-sprite.png)
+آیا می توانید ببینید که تایمر هنگامی شروع می شود که پرچم سبز روی آن کلیک شود، به جای آنکه بازی شروع شود؟
+
+![تایمر آغاز شده است](images/brain-timer-bug.png)
+
+\--- وظیفه \---
+
+آیا می توانید کد برای تایمر را تغییر دهید به طوری که تایمر شروع می شود زمانی که بازیکن بر روی دکمه کلیک کند؟
+
+\--- /وظیفه \---
+
+\--- وظیفه \--- کد را به دایرکتوری دکمه خود اضافه کنید تا دکمه دوباره در انتهای هر بازی نشان داده شود.
+
+![افسر دکمه](images/button-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    زمانی که من [پایان v]
+    نمایش را دریافت می کنم
 ```
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- وظیفه \---
 
-![Button](images/button-sprite.png)
+دکمه «بازی» را با بازی چند بازی ای آزمایش کنید. این دکمه باید در پایان هر بازی نشان داده شود.
+
+برای آزمایش سریعتر بازی، می توانید مقدار `زمان`{: class = "block3variables"} را تغییر دهید تا هر بازی تنها چند ثانیه طول بکشد.
+
+![مرحله](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    تنظیم [زمان V] به [10]
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+\--- /وظیفه \---
+
+\--- وظیفه \--- شما می توانید تغییر دهید که چگونه دکمه به نظر می رسد زمانی که نشانگر ماوس بر روی آن قرار می گیرد.
+
+![دکمه](images/button-sprite.png)
+
+```blocks3
+    زمانی که پرچم روی
+    کلیک نمایش داده می شود
+    برای همیشه
+    اگر <touching (mouse-pointer v)?> سپس
+        تنظیم [fisheye v] به (30)
+    دیگر
+        تنظیم [اثر fisheye v] به (0)
+    پایان
+    پایان
+```
+
+![تصویری](images/brain-fisheye.png) \--- /وظیفه \---
