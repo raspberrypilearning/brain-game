@@ -1,55 +1,55 @@
-\--- no-print \---
+\--- нет печати \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Это **Scratch 3** версия проекта. Существует также версия [Scratch 2 проекта](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- /no-print \---
+\--- / без печати \---
 
 ## Введение
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+В этом проекте вы создадите игру-викторину по математике, в которой у игрока есть 30 секунд, чтобы дать как можно больше правильных ответов.
 
-### What you will make
+### Что ты сделаешь
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Нажмите на кнопку, чтобы начать. Введите ответ на вопрос и нажмите клавишу <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- /no-print \---
+\--- / без печати \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- только для печати \--- ![Brain Game](images/brain-final.png) \--- / только для печати \---
 
 ## \--- коллапс \---
 
-## title: What you will learn
+## title: Что вы выучите
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Как использовать трансляции в Scratch
++ Как создать и использовать пользовательский блок Scratch
 
 \--- / свернуть \---
 
-## \--- collapse \---
+## \--- свернуть \---
 
-## title: What you will need
+## название: что вам нужно
 
-### Hardware
+### аппаратные средства
 
-+ A computer capable of running Scratch 3
++ Компьютер с поддержкой Scratch 3
 
-### Software
+### Программного обеспечения
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Царапина 3 (либо [онлайн](http://rpf.io/scratchon){: target = "_ blank"} или [offline](http://rpf.io/scratchoff){: target = "_ blank"})
 
-\--- /collapse \---
+\--- / свернуть \---
 
-## \--- collapse \---
+## \--- свернуть \---
 
-## title: Additional notes for educators
+## title: Дополнительные примечания для педагогов
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- Если вам нужно распечатать этот проект, пожалуйста, используйте [версию для печати](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / без печати \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Найдите [решения для этого проекта](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}
 
-\--- /collapse \---
+\--- / свернуть \---
