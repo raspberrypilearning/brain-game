@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
-version: 4.0.2
-last_tested: 2018-10-03
+title: Gêm i'r Ymennydd
+description: Dysga sut i greu cwis.
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Cyflwyniad
   - 
-    title: Create questions
+    title: Creu cwestiynau
   - 
-    title: Add a timer
+    title: 'Her: Newid gwisgoedd'
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Her: Ychwanegu sgôr'
     challenge: true
   - 
-    title: Multiple games
+    title: Gemau lluosog
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Her: Dechrau''r gêm2'
     challenge: true
   - 
-    title: Add graphics
+    title: Ychwanegu graffeg
   - 
-    title: 'Challenge: sound and music'
+    title: 'Her: Perffeithio dy animeiddiad'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Her: Cerdd a Sain'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Her: Ras i 10 o bwyntiau'
     challenge: true
   - 
-    title: What next?
+    title: 'Her: Sgrin cyfarwyddiadau'
