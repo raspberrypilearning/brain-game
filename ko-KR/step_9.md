@@ -1,15 +1,15 @@
-## Challenge: race to 10 points
+## 도전 : 10 점까지 경주
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+30 초 안에 가능한 한 많은 질문에 답하는 것이 아니라 가능한 한 빨리 10 개의 질문에 답할 수 있도록 게임을 바꿀 수 있습니까?
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+이렇게 변경하려면 타이머 코드 만 변경하면됩니다. 어떤 블록이 달라야하는지 알 수 있습니까?
 
 ```blocks3
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) seconds
-        change [time v] by (-1)
+    (start) v를 받으면
+    [time v]를 (30)으로
+    반복합니다. <(time) = [0]>
+        wait (1) 초까지
+        [time v]를 (-1)로 변경
     end
-    broadcast (end v)
+    broadcast V)
 ```
