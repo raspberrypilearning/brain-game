@@ -1,36 +1,36 @@
 ---
-hero_image: images/brain-game.png
+hero_image: Kuvien / aivot game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
+title: Aivopeli
+description: Opi luomaan tietokilpailu
 version: 4.0.2
-last_tested: 2018-10-03
+last_tested: 10.03.2018
 steps:
   - 
-    title: Introduction
+    title: esittely
   - 
-    title: Create questions
+    title: Luo kysymyksiä
   - 
-    title: Add a timer
+    title: Lisää ajastin
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Haaste: lisää pisteet ja reaktiot'
     challenge: true
   - 
-    title: Multiple games
+    title: Useita pelejä
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Haaste: luo aloitusnäyttö'
     challenge: true
   - 
-    title: Add graphics
+    title: Lisää grafiikkaa
   - 
-    title: 'Challenge: sound and music'
+    title: 'Haaste: ääni ja musiikki'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Haaste: kilpailu 10 pisteen'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Haaste: ohje-näyttö'
     challenge: true
   - 
-    title: What next?
+    title: Mitä seuraavaksi?
