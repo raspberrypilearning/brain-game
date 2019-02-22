@@ -1,134 +1,134 @@
-## Add graphics
+## Добавить графику
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+На данный момент спрайт персонажа просто говорит `да! :)` или `нет :(` к ответам игрока. Добавьте графику, чтобы игрок знал, является ли его ответ правильным или неправильным.
 
-\--- task \---
+\--- задача \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+Создайте новый спрайт под названием «Результат» и дайте ему костюм «галочка / чек» и «крест».
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![Спрайт с клещами и крестовыми костюмами](images/brain-result.png)
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+Измените код спрайта вашего персонажа так, чтобы вместо того, чтобы что-то сказать игроку, он `транслировал`{: class = "block3events"} сообщения "правильно" или "неправильно".
 
-![Character sprite](images/giga-sprite.png)
+![Спрайт персонажа](images/giga-sprite.png)
 
 ```blocks3
-if <(answer) = ((number 1)*(number 2))> then
+если <(ответ) = ((номер 1) * (номер 2))> то
 
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
-end
+- сказать [да! :)] в течение (2) секунд
++ широковещание (правильное v)
+противном случае
+- произнесите [nope :(] в течение (2) секунд
++ широковещание (неправильное v)
+конец
 ```
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+Теперь вы можете использовать эти сообщения `показать`{: класс = «block3looks»} «тик» или «крест» костюм. Добавьте следующий код к спрайту Result:
 
-![Result sprite](images/result-sprite.png)
+![Результат спрайт](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+    когда я получаю [правильный v]
+    переключаю костюм на (отметьте v)
+    шоу
+    жду (1) секунды
+    скрываем
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
+    когда я получаю [неправильный v]
+    переключаю костюм на (крест v)
+    показываю
+    жду (1) секунды
+    скрыть
 
-    when flag clicked
-    hide
+    когда флаг нажал
+    скрыть
 ```
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\--- задача \--- Проверьте свою игру снова. Вы должны видеть галочку, когда отвечаете на вопрос правильно, и ставить крестик, когда отвечаете неправильно!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![Галочка за правильный, крест за неправильный ответ](images/brain-test-answer.png)
 
-\--- /task \---
+\--- / задача \---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+Видите ли вы, что код для `когда я получаю правильные`{: class = "block3events"} и `когда я получаю неправильный`{: class = "block3events"} почти идентичен?
 
-So you can change your code more easily, you are going to create a custom block.
+Таким образом, вы можете изменить свой код легче, вы собираетесь создать пользовательский блок.
 
-\--- task \---
+\--- задача \---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+Выберите спрайт «Результат». Затем нажмите `Мои блоки`{: class = "block3myblocks"}, а затем **Создайте блок**. Создайте новый блок и назовите его `animate`{: class = "block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![Результат спрайт](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![Создайте блок с именем animate](images/brain-animate-function.png)
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+\--- task \--- Переместите код в `show`{: class = "block3looks"} и `hide`{: class = "block3looks"} спрайта Result в `анимационных`{: class = " block3myblocks "} блок:
 
-![Result sprite](images/result-sprite.png)
+![Результат спрайт](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+определить анимацию
+показать
+ждать (1) секунды
+скрыть
 ```
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- task \--- Убедитесь, что вы удалили блоки `show`{: class = "block3looks"} и `hide`{: class = "block3looks"} ниже **и** из `костюмов переключателей`{: class = "block3looks"} блоки.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+Затем добавить `одушевленные`{: класс = "block3myblocks"} блок ниже обоих из `переключателя костюм`{: класс = "block3looks"} блоков. Ваш код должен выглядеть следующим образом:
 
-![Result sprite](images/result-sprite.png)
+![Результат спрайт](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    когда я получаю [правильный v]
+    меняю костюм на (tick v)
+    animate :: custom
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+    когда я получаю [неправильный v]
+    меняю костюм на (cross v)
+    animate :: custom
 ```
 
-\--- /task \---
+\--- / задача \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+Из-за пользовательского блока `animate`{: class = "block3myblocks"} теперь вам нужно всего лишь внести одно изменение в свой код, если вы хотите показывать костюмы спрайта 'Result' дольше или короче.
 
-\--- task \---
+\--- задача \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+Измените код так, чтобы костюмы в виде галочек или крестиков отображались в течение 2 секунд.
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+\--- task \--- Вместо `показывающего`{: class = "block3looks"} и `скрывающего`{: class = "block3looks"} костюмы "галочка" или "крест", вы можете изменить свои `анимационных`{: class = "block3myblocks"} блок, так что костюмы исчезают.
 
-![Result sprite](images/result-sprite.png)
+![Результат спрайт](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
+    определить animate
+    установить эффект [ghost v] на (100)
+    показать
+    повтор (25)
+        изменить эффект [ghost v] на (-4)
     end
     hide
 ```
 
-\--- /task \---
+\--- / задача \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Можете ли вы улучшить анимацию графики «галочка» или «крест»? Вы можете добавить код, чтобы сделать костюмы исчезать, или вы можете использовать другие интересные эффекты:
 
-![screenshot](images/brain-effects.png)
+![Скриншот](images/brain-effects.png)
