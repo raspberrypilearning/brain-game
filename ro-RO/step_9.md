@@ -1,15 +1,15 @@
-## Challenge: race to 10 points
+## Provocare: Cursa la 10 puncte
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+Puteți schimba jocul astfel încât jucătorul, în loc să răspundă la cât mai multe întrebări posibil în 30 de secunde, răspunde la 10 întrebări cât mai repede posibil.
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+Pentru a face această schimbare, trebuie doar să modificați codul cronometrului. Puteți vedea care blocuri trebuie să fie diferite?
 
 ```blocks3
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) seconds
-        change [time v] by (-1)
-    end
-    broadcast (end v)
+    atunci când primesc [start v]
+    set [timp v] până la (30)
+    repeta pana <(timp) = [0]>
+        wait (1) secunde
+        schimbare [dată v] de (-1)
+    final
+    difuzare (end v)
 ```
