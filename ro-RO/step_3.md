@@ -1,44 +1,44 @@
-## Add a timer
+## Adăugați un cronometru
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- task \--- Creați un cronometru de numărătoare inversă pe Etapa cu ajutorul unei noi variabile numite `timp`{: class = "block3variables"}. Timerul ar trebui să înceapă la 30 de secunde și să conta până la 0 secunde.
 
-![Stage sprite](images/stage-sprite.png)
+![Scena sprite](images/stage-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- Sugestii \--- \--- Indicație \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Creați o variabilă `{`= class = "block3variables"}, numiți-o "timp" și setați-o la `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Apoi adăugați codul pentru a număra `timpul`{: class = "block3variables"} până la 0 în 30 de secunde. Pentru a face acest lucru, scade `1` din `timp`{: class = "block3variables"} la fiecare `1` secunde și repetați acest lucru până la `timp`{: class = "block3variables"} este egal cu `0`.
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- / hint \--- \--- indiciu \--- Aici sunt blocurile de care ai nevoie:
 
 ```blocks3
-repeat until < >
+repeta pana la < >
 
-end
+capăt
 
-wait (1) seconds
+wait (1) secunde
 
-change [time v] by (1)
+schimbare [dată v] de (1)
 
-(time)
+(timp)
 
-when flag clicked
+când pavilion apasat
 
 <() = ()>
 
-set [time v] to [0]
+set [timp v] până la [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- / indiciu \--- \--- indiciu \--- Iată ce ar trebui să arate noul dvs. cod:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
-end
+când pavilion apasat
+set [timp v] până la [30]
+repeta pana <(timp) = (0)>
+    wait (1) secunde
+    schimbare [dată v] de (-1)
+final
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -47,29 +47,29 @@ end
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Creați o emisiune `{`} {: class = "block3control"} care trimite mesajul "sfârșit". A `difuzat`{: class = "block3control") este ca un anunț pe un difuzor: acesta poate fi audiat de toate spritele tale. Adăugați blocul `difuzare`{: class = "block3control"} la sfârșitul codului temporizatorului, astfel încât codul să trimită și mesajul "final" atunci când `timp`{: class = "block3variables"} a numărat până la `0`.
 
-![Stage sprite](images/stage-sprite.png)
+![Scena sprite](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    difuzare (sfârșitul v)
 ```
 
 \--- /task \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- Selectați sprite-ul caracterelor și adăugați un cod astfel încât sprite `oprească celelalte scripturi`{: class = "block3control"} atunci când primește mesajul `{end =`} {block3control} .
 
-![Giga sprite](images/giga-sprite.png)
+![Giga Sprite](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    când primesc [end v]
+    stop [alte scripturi în sprite v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Testați-vă din nou jocul. Ar trebui să continue să pună întrebări până când timerul a fost numit până la 0.
 
 \--- /task \---
