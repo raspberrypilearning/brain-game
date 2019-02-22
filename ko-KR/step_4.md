@@ -1,11 +1,11 @@
-## Challenge: add a score and reactions
+## 과제 : 점수와 반응 추가
 
-Can you add a score to your game?
+게임에 점수를 추가 할 수 있습니까?
 
-You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
+플레이어가 정답마다 점수를 매길 수 있도록 코드를 추가 할 수 있습니다. 만약 당신이 실수를한다면, 틀린 답을 주면 플레이어의 점수를 0으로 재설정하는 코드를 추가 할 수 있습니다!
 
 [[[generic-scratch3-high-score]]]
 
-Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+답이 맞거나 틀린 경우 다른 의상으로 바꾸어 캐릭터를 플레이어의 답에 반응시킬 수 있습니까?
 
 ![screenshot](images/brain-costume.png)
