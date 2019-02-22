@@ -1,75 +1,75 @@
-## Add a timer
+## הוסף טיימר
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- משימה \--- צור טיימר ספירה לאחור על הבמה בעזרת משתנה חדש שנקרא `פעם`:: class = "block3variables"}. טיימר צריך להתחיל ב 30 שניות לספור עד 0 שניות.
 
-![Stage sprite](images/stage-sprite.png)
+![שלב ספרייט](images/stage-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- רמזים \--- \--- רמז \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+צור משתנה ``{: class = "block3variables"}, התקשר אליו 'זמן' והגדר את הערך שלו ל `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+לאחר מכן הוסף קוד לספור `פעם`{: class = "block3variables"} עד 0 בתוך 30 שניות. כדי לעשות זאת, חיסור `1` מ `זמן`{: class = "block3variables"} כל `1` שניות, וחזור על זה עד `זמן`{: class = "block3variables"} שווה ל `0`.
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- / רמז \--- \--- רמז \--- הנה בלוקים שאתה צריך:
 
 ```blocks3
-repeat until < >
+לחזור עד < >
 
-end
+בסוף
 
-wait (1) seconds
+המתנה (1) שניות
 
-change [time v] by (1)
+שינוי [v זמן] על ידי (1)
 
-(time)
+(זמן)
 
-when flag clicked
+כאשר הדגל לוחץ
 
 <() = ()>
 
-set [time v] to [0]
+סט [v זמן] כדי [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- / רמז \--- \--- רמז \--- הנה איך את הקוד החדש צריך להיראות כמו:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
+כאשר דגל לחץ
+קבע את [זמן] עד [30]
+חזור עד <(זמן) = (0)>
+    המתן (1) שניות
+    שינוי [time v] by (-1)
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- / hints \---
 
-\--- /task \---
+\--- / משימה \---
 
-\--- task \---
+\--- \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+צור `שידור`{: class = "block3control"} ששולח את ההודעה 'end'. A `שידור`{: class = "block3control"} הוא כמו הודעה על רמקול: זה יכול להישמע על ידי כל השדונים שלך. הוסף את `שידור`{: class = "block3control"} לחסום עד סוף קוד קוצב הזמן כך שהקוד ישלח ו 'end' הודעה כאשר `זמן`: class = "block3variables"} יש לספור עד `0`.
 
-![Stage sprite](images/stage-sprite.png)
-
-```blocks3
-    broadcast (end v)
-```
-
-\--- /task \---
-
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
-
-![Giga sprite](images/giga-sprite.png)
+![שלב ספרייט](images/stage-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    שידור (end v)
 ```
 
-\--- /task \---
+\--- / משימה \---
 
-\--- task \---
+\--- המשימה \--- בחר את הדמות שלך sprite ולהוסיף קצת קוד, כך `ספרייט <code> מפסיק את הסקריפטים האחרים`: {class = "block3control"} כאשר הוא מקבל את `בסוף`{: class = "block3control"} הודעה .
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+![גיגה רוטטת](images/giga-sprite.png)
 
-\--- /task \---
+```blocks3
+    כאשר אני מקבל [end v]
+    לעצור [סקריפטים אחרים בספרייט v]
+```
+
+\--- / משימה \---
+
+\--- \---
+
+בדוק את המשחק שלך שוב. זה צריך להמשיך לשאול שאלות עד טיימר יש לספור עד 0.
+
+\--- / משימה \---
