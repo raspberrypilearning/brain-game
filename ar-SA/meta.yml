@@ -3,7 +3,7 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: لعبة العقل
-description: تعلم كيف تُنشئ اختبارًا قصيرًا.
+description: تعلم كيف تُنشئ اختبارًا قصيرًا
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
@@ -33,4 +33,4 @@ steps:
     title: 'التحدي: سباق حتى 10 نقاط'
     challenge: true
   - 
-    title: 'التحدي: شاشة التعليمات'
+    title: ما التالي؟
