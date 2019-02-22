@@ -1,15 +1,3 @@
-\--- challenge \---
+## What next?
 
-## تحدي: شاشة التعليمات
-
-هل يمكنك إضافة شاشة تعليمات للعبتك، توضح للاعب كيف يلعب اللعبة؟ ستحتاج إلى زر 'التعليمات'، وخلفية منصة أخرى.
-
-![لقطة الشاشة](images/brain-instructions.png)
-
-قد تحتاج أيضًا إلى زر 'رجوع' للانتقال إلى القائمة الرئيسية.
-
-```blocks
-    بث [main menu v]
-```
-
-\--- /challenge \---
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
