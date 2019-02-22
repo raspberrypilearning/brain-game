@@ -3,12 +3,12 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Mozgalica
-description: U ovome projektu ćeš naučiti kako napraviti kviz u kojemu igrač treba odgovoriti na što više pitanja u 30 sekundi.
+description: Naučite izraditi kviz
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-03
 steps:
   - 
-    title: Uvod
+    title: Sretan rođendan
   - 
     title: Create questions
   - 
