@@ -1,4 +1,4 @@
-## Add a timer
+## Izazov: Promjena kostima
 
 \--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
@@ -62,7 +62,7 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
+    when I receive [kraj v]
     stop [other scripts in sprite v]
 ```
 
