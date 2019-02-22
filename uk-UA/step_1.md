@@ -8,7 +8,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### What you will make
+### Що ви робитимете
 
 \--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
@@ -34,15 +34,15 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## title: What you will need
 
-### Hardware
+### Обладнання
 
-+ A computer capable of running Scratch 3
++ Комп'ютер, що підтримує Scratch 3
 
-### Software
+### Програмне забезпечення
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-\--- /collapse \---
+\---collapse\---
 
 ## \--- collapse \---
 
@@ -52,4 +52,4 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
-\--- /collapse \---
+\---collapse\---
