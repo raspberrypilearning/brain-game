@@ -1,11 +1,11 @@
-## Challenge: create a start screen
+## 과제 : 시작 화면 만들기
 
-Can you add another backdrop that is going to be the start screen for your game?
+게임의 시작 화면이 될 다른 배경을 추가 할 수 있습니까?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+시작</code>{: class = "block3events"}를받을 때 `사용할 수 있으며, 배경`{: class = "block3events"} 블록을 받으면 `를 사용하여 배경간에 전환 할 수 있습니다.</p>
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+<p>게임이 배경간에 전환 할 때 캐릭터를 표시하거나 숨기려면 <code>show`{: class = "block3looks"} 및 ``{: class = "block3looks"} 블록을 숨길 수 있습니다.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+게임이 배경간에 전환 할 때 타이머와 점수를 표시하거나 숨기려면 `show variable`{: class = "block3variables"} 및 `variable`{: class = "block3variables"} 블록을 숨길 수 있습니다.
 
-![Start screen](images/brain-startscreen.png)
+![시작 화면](images/brain-startscreen.png)
