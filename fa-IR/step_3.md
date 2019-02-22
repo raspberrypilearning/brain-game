@@ -1,75 +1,75 @@
-## Add a timer
+## تایمر را اضافه کنید
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- وظیفه \--- یک تایمر شمارش معکوس در مرحله با کمک یک متغیر جدید به نام `time`{: class = "block3variables"} ایجاد کنید. تایمر باید در 30 ثانیه شروع شود و به صفر ثانیه برسد.
 
-![Stage sprite](images/stage-sprite.png)
+![صحنه صحنه](images/stage-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- نکات \--- \--- \--- اشاره
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+یک متغیر ``: class = "block3variables" را ایجاد کنید، آن را 'time' نامگذاری کنید و مقدار آن را به `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+سپس کد را برای شمارش `زمان`{: class = "block3variables"} تا 30 ثانیه اضافه کنید. برای انجام این کار `1` از `بار`{: class = "block3variables"} تفریق کنید هر `1` ثانیه و این تا `بار تکرار شود`{: class = "block3variables"} برابر با `0`.
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- / \--- اشاره \--- \--- اشاره در اینجا بلوک شما نیاز دارید:
 
 ```blocks3
-repeat until < >
+تکرار تا < >
 
-end
+پایان
 
-wait (1) seconds
+صبر کردن (1) ثانیه
 
-change [time v] by (1)
+تغییر [زمان V] توسط (1)
 
-(time)
+(زمان)
 
-when flag clicked
+هنگامی که پرچم کلیک
 
 <() = ()>
 
-set [time v] to [0]
+تنظیم [زمان V] به [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- / hint \--- \--- hint \--- این کد جدید شما باید شبیه باشد:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
-end
+زمانی که پرچم روی دکمه
+تنظیم شد [زمان V] به [30]
+تکرار تا <(زمان) = (0)>
+    صبر کنید (1) ثانیه
+    تغییر [زمان V] توسط (-1)
+پایان
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / اشاره \--- \--- / نکات \---
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \---
+\--- وظیفه \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+ایجاد یک پخش ``:: class = "block3control"} که پایان پیام را ارسال می کند. `پخش`{: class = "block3control"} مانند اعلامیه بر روی یک بلندگو است: می توان آن را با تمام یاران خود شنیده کرد. اضافه کردن `پخش`{: class = "block3control"} بلوک به انتهای کد تایمر به طوری که کد ارسال خواهد شد و پیام "پایان" زمانی که `زمان`{: class = "block3variables"} تا `شمارش 0`.
 
-![Stage sprite](images/stage-sprite.png)
+![صحنه صحنه](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    پخش (پایان V)
 ```
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- کار \--- کاراکتر کاراکتر خود را انتخاب کنید و برخی از کد را اضافه کنید تا فیلد `دیگر اسکریپتها را متوقف کند`{: class = "block3control"} هنگام دریافت پیام `end`{: class = "block3control"} .
 
-![Giga sprite](images/giga-sprite.png)
+![جیگایی](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    وقتی که من [پایان v]
+    توقف [اسکریپت های دیگر در sprite v]
 ```
 
-\--- /task \---
+\--- /وظیفه \---
 
-\--- task \---
+\--- وظیفه \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+دوباره بازی تست کنید باید ادامه دهید تا سؤال شود تا زمانیکه تایمر به صفر برسد.
 
-\--- /task \---
+\--- /وظیفه \---
