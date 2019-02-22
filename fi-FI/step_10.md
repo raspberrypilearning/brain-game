@@ -1,11 +1,11 @@
-## Challenge: instruction screen
+## Haaste: ohje-näyttö
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+Voitko lisätä ohjeiden näytön, joka kertoo soittimelle, kuinka pelata peliä? Tätä varten tarvitset "Ohjeet" -painikkeen ja toisen vaiheen taustan.
 
-![screenshot](images/brain-instructions.png)
+![kuvakaappaus](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Saatat myös joutua lisäämään takaisin-painikkeen, jonka avulla pelaaja palaa aloitusnäyttöön.
 
 ```blocks3
-    broadcast (start screen v)
+    lähetys (aloitusnäyttö v)
 ```
