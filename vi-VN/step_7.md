@@ -54,19 +54,19 @@ Bây giờ bạn có thể sử dụng các tin nhắn này để ` hiển thị
 
 \---/nhiệm vụ\---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\---nhiệm vụ\--- Kiểm tra lại trò chơi của bạn. Bạn có thể thấy dấu chọn bất cứ khi nào bạn trả lời đúng, và dấu chéo khi bạn trả lời câu hỏi không chính xác!
 
 ![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
 \---/nhiệm vụ\---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+Bạn có thể thấy rằng mã cho ` khi tôi nhận được chính xác ` {: class = "block3events"} và ` khi tôi nhận được sai ` {: class = "block3events"} gần giống nhau?
 
-So you can change your code more easily, you are going to create a custom block.
+Vì vậy bạn có thể thay đổi mã của mình dễ dàng hơn, bạn sẽ tạo một khối tùy chỉnh.
 
 \---nhiệm vụ\---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+Chọn đối tượng 'Kết quả'. Sau đó nhấp vào ` Khối của tôi ` {: class = "block3myblocks"}, và sau đó trên ** Tạo khối **. Tạo một khối mới và gọi nó là ` animate ` {: class = "block3myblocks"}.
 
 ![Result sprite](images/result-sprite.png)
 
@@ -87,7 +87,7 @@ hide
 
 \---/nhiệm vụ\---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- nhiệm vụ \--- Đảm bảo bạn đã loại bỏ `hiển thị` {: class = "block3looks"} và ` ẩn ` {: class = "block3looks"} khối bên dưới ** cả hai ** đổi trang phục ` ` {: class = "block3looks"} khối.
 
 Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
 
