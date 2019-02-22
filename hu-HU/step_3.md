@@ -1,75 +1,75 @@
-## Add a timer
+## Idõzítõ hozzáadása
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- task \--- Hozzon létre egy visszaszámlálót a színpadon egy új, `idő`{: class = "block3variables"} változó segítségével. Az időzítőnek 30 másodpercig kell kezdődnie, és 0 másodpercre kell számítania.
 
-![Stage sprite](images/stage-sprite.png)
+![Színpad sprite](images/stage-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- hints \--- \--- tipp \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Létrehozása `változó`{: class = "block3variables"}, nevezzük 'idő', és az értékét a `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Ezután adjunk hozzá egy kódot `idő`számlálásához {: class = "block3variables"} 0-ra 30 másodpercen belül. Ehhez kivonjuk a `1` -et ``{: class = "block3variables"} minden `1` másodpercben, és ismételjük meg ezt `ig`ig </code> {: class = "block3variables"} egyenlő `0`.
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- / tipp \--- \--- tipp \--- Íme a szükséges blokkok:
 
 ```blocks3
-repeat until < >
+ismételje meg addig, amíg < >
 
-end
+vége
 
-wait (1) seconds
+várakozás (1) másodperc
 
-change [time v] by (1)
+változtatás [idő v] (1)
 
-(time)
+(idő)
 
-when flag clicked
+amikor a zászlóra kattintott
 
 <() = ()>
 
-set [time v] to [0]
+beállítva [idő v] - [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- / tipp \--- \--- tipp \--- Itt az, amit az új kódnak kell kinéznie:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
-end
+ha a jelző
+állított [idő v] [30]
+ismételve, amíg <(idő) = (0)>
+    várakozás (1) másodperc
+    változtatás [idő v] a (-1)
+végével
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / tipp \--- \--- / hints \---
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Hozzon létre egy `sugárzást`{: class = "block3control"}, amely elküldi az üzenetet. A `sugárzás`{: class = "block3control"} olyan, mint egy hangszórón belüli bejelentés: az összes sprites hallható. Adja hozzá a `sugárzás`{: class = "block3control"} blokkot az időzítő kód végéhez, hogy a kód elküldje és a "vége" üzenet, amikor a `idő`{: class = "block3variables"} `0`.
 
-![Stage sprite](images/stage-sprite.png)
+![Színpad sprite](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    sugárzás (vége v)
 ```
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- Válassza ki a karakterláncot, és adjon hozzá néhány kódot, hogy az `es sprite megállítsa a többi`{: class = "block3control"} parancsfájlt, amikor megkapja a `vég`{: class = "block3control"} üzenetet .
 
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    mikor kapok [vége v]
+    stop [más szkriptek sprite v]
 ```
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Tesztelje újra a játékot. Folytatni kell a kérdéseket, amíg az időzítő 0-ra nem számít.
 
-\--- /task \---
+\--- / feladat \---
