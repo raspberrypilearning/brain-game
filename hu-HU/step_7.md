@@ -1,134 +1,134 @@
-## Add graphics
+## Grafika hozzáadása
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+Abban a pillanatban, a karakter sprite csak azt mondja `igen! :)` vagy `nem :(` a játékos válaszaihoz. Adjunk hozzá néhány grafikát, hogy a játékos tudja, hogy helyes-e vagy sem helyes.
 
-\--- task \---
+\--- feladat \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+Hozzon létre egy új "Sprite" nevet, és adjon neki egy "kullancsot / csekket" és egy "kereszt" jelmezet.
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![Sprite kullancs és kereszt jelmezekkel](images/brain-result.png)
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+Módosítsa a karakteres sprite kódját úgy, hogy ahelyett, hogy mondaná valamit a játékosnak, `sugároz`{: class = "block3events"} az üzeneteket "helyes" vagy "rossz".
 
-![Character sprite](images/giga-sprite.png)
+![Karakter sprite](images/giga-sprite.png)
 
 ```blocks3
-if <(answer) = ((number 1)*(number 2))> then
+ha <(válasz) = ((1-es szám) * (2. szám))> majd
 
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
-end
+- mondjuk [igen! :)] (2) másodpercig
++ sugárzás (helyes v)
+másik
+- mondjuk [nope :(] (2) másodpercre
++ sugárzás (rossz v)
+vég
 ```
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \---
+\--- feladat \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+Most már használhatja ezeket az üzeneteket `:`{: class = "block3looks"} a "kullancs" vagy a "kereszt" jelmezre. Adja hozzá a következő kódot az 'Eredmény' Sprite-hoz:
 
-![Result sprite](images/result-sprite.png)
+![Eredmény sprite](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
+    amikor kapok [helyes v]
+    kapcsolót jelmezek (k jelölés)
     show
-    wait (1) seconds
-    hide
+    várakozás (1) másodperc
+    elrejtés
 
-    when I receive [wrong v]
-    switch costume to (cross v)
+    ha kapok [rossz v]
+    kapcsoló jelmez (kereszt v)
     show
-    wait (1) seconds
-    hide
+    várakozás (1) másodperc
+    elrejti a
 
-    when flag clicked
-    hide
+    amikor a zászló
+    kattintott
 ```
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\--- task \--- Tesztelje újra a játékot. Amikor a kérdésre helyesen válaszol, a kullancsot meg kell látni, és a keresztet, ha helytelenül válaszolsz!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![Jelölje be a helyes, keresztet a helytelen válaszért](images/brain-test-answer.png)
 
-\--- /task \---
+\--- / feladat \---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+Láthatjuk, hogy a `kód, ha helyes`{: class = "block3events"} és `ha rosszul kapok`{: class = "block3events"}, majdnem azonos?
 
-So you can change your code more easily, you are going to create a custom block.
+Így könnyebben megváltoztathatja a kódját, létrehozhat egy egyéni blokkot.
 
-\--- task \---
+\--- feladat \---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+Jelölje ki az 'Eredmény' spritet. Ezután kattintson a `My Blocks`{: class = "block3myblocks"}, majd a **blokk**. Hozzon létre egy új blokkot, és hívja `animate`{: class = "block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![Eredmény sprite](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![Hozzon létre egy animált blokkot](images/brain-animate-function.png)
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+\--- task \--- Mozgassa a kódot `show`{: class = "block3looks"} és `hide`{: class = "block3looks"} az 'Eredmény' Sprite-t az `animate`{: class = " block3myblocks "} blokk:
 
-![Result sprite](images/result-sprite.png)
+![Eredmény sprite](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+animate
+megjelenítése
+várakozás (1) másodperc
+elrejtés
 ```
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- feladat \--- Győződjön meg arról, hogy eltávolította a `mutatják`{: class = "block3looks"}, és `elrejtése`{: class = "block3looks"} blokkok alább **mind** a `kapcsoló ruha`{: class = "block3looks"} blokkok.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+Ezután adjuk hozzá a `élő`{: class = "block3myblocks"} blokk alatt mind a `kapcsoló ruha`{: class = "block3looks"} blokkok. A kódodnak így kell kinéznie:
 
-![Result sprite](images/result-sprite.png)
+![Eredmény sprite](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    ha [helyes v]
+    kapcsolót kapok (jelölje be a v)
+    animációt :: custom
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+    ha [rossz v]
+    kapcsolót kapok (kereszt v)
+    animáció :: custom
 ```
 
-\--- /task \---
+\--- / feladat \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+Az egyéni `animate`{: class = "block3myblocks"} blokk miatt most csak egy módosítást kell végrehajtania a kódjához, ha hosszabb vagy rövidebb ideig szeretné megjeleníteni az 'Eredmény' sprite jelmezeit.
 
-\--- task \---
+\--- feladat \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+Módosítsa a kódot úgy, hogy a „kullancs” vagy a „kereszt” jelmezek 2 másodpercig jelenjenek meg.
 
-\--- /task \---
+\--- / feladat \---
 
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+\--- task \--- </code>{: class = "block3looks"} és a `{`:: class = "block3looks"} `megjelenítés helyett a "kullancs" vagy a "kereszt" jelmezek megváltoztathatják az <code>animát`{: class = "block3myblocks"} blokk, hogy a jelmezek elhalványuljanak.
 
-![Result sprite](images/result-sprite.png)
+![Eredmény sprite](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
+    animate
+    set [ghost v] hatás definiálása (100)
     show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    ismétlés (25)
+        [ghost v] hatás módosítása (-4)
+    vég
+    elrejtés
 ```
 
-\--- /task \---
+\--- / feladat \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Javíthatja-e a „kullancs” vagy a „kereszt” grafikák animációját? Kódot adhat hozzá, hogy a jelmezek elhalványuljanak, vagy más hűvös hatásokat is használhat:
 
 ![screenshot](images/brain-effects.png)
