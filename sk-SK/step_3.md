@@ -1,75 +1,75 @@
-## Add a timer
+## Pridať časovač
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- task \--- Pomocou novej premennej nazývanej `čas`{: class = "block3variables"} vytvorte odpočítavanie na štádiu. Časovač by mal začať od 30 sekúnd a odpočítavať na 0 sekúnd.
 
 ![Stage sprite](images/stage-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- rady \--- \--- názov \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Vytvorte `premennú`{: class = "block3variables"}, zavolajte jej "time" a nastavte jej hodnotu na `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Potom pridajte kód do počítania `čas`{: class = "block3variables"} do 0 do 30 sekúnd. Vykonajte to, odčítajte `1` z `času`{: class = "block3variables"} každých `1` sekúnd a opakujte to do `času`{: class = "block3variables"} sa rovná `0`.
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- / tip \--- \--- tip \--- Tu sú bloky, ktoré potrebujete:
 
 ```blocks3
-repeat until < >
+opakovať až do < >
 
-end
+koniec
 
-wait (1) seconds
+čakania (1) sekundy
 
-change [time v] by (1)
+zmeny [čas v] o (1)
 
-(time)
+(čas),
 
-when flag clicked
+, keď príznak kliknutí
 
 <() = ()>
 
-set [time v] to [0]
+set [čas v] do [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- / tip \--- \--- tip \--- Tu je to, ako mal by váš nový kód vyzerať:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
-end
+keď príznak kliknutí
+sadu [čas] pre [30]
+opakovanie do <(čas) = (0)>
+    čakania (1) sekundy
+    zmene [čas v] o (-1)
+konca
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / náznak \--- \--- / rady \---
 
-\--- /task \---
+\--- / úloha \---
 
-\--- task \---
+\--- úloha \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Vytvorte `vysielanie`{: class = "block3control"}, ktoré odošle správu 'end'. A `vysielanie`{: class = "block3control"} je ako oznámenie cez reproduktor: môže to počuť všetci tvoji sprites. Pridajte blok `vysielania`{: class = "block3control"} na koniec kódu časovača tak, aby kód vysielal a končil, keď `čas`{: class = "block3variables"} započítaval do `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    vysielanie (koniec v)
 ```
 
-\--- /task \---
+\--- / úloha \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- Vyberte svoj znakový sprite a pridajte nejaký kód tak, aby sprite `zastavil ostatné skripty`{: class = "block3control"}, keď dostane správu `end`{: class = "block3control"} ,
 
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    keď dostanem [end v]
+    stop [iné skripty v sprite v]
 ```
 
-\--- /task \---
+\--- / úloha \---
 
-\--- task \---
+\--- úloha \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Otestujte svoju hru znova. Mala by sa naďalej klásť otázky, kým sa časovač nezapočíta na hodnotu 0.
 
-\--- /task \---
+\--- / úloha \---
