@@ -8,7 +8,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### What you will make
+### Lo que harás
 
 \--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
@@ -23,7 +23,7 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Lo que vas a aprender
 
 + How to use broadcasts in Scratch
 + How to create and use a custom Scratch block
@@ -32,15 +32,15 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Lo que vas a necesitar
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Una computadora capaz de hacer correr Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ya sea [online](http://rpf.io/scratchon){:target="_blank"} u [offline](http://rpf.io/scratchoff) {:target="_blank"})
 
 \--- /collapse \---
 
