@@ -8,7 +8,7 @@ Toto je **Scratch 3** verze projektu. K dispozici je také verze pro [Scratch 2]
 
 V tomto projektu vytvoříte hru, ve které hráč během 30 sekund odpovídá na matematické kvízy a snaží se získat co nejvíce bodů za správné odpovědi.
 
-### Co vytvoříš
+### Co budeš dělat
 
 \--- no-print \--- Hru spustíš kliknutím na zelenou vlajku. Odpověz na otázku a stiskni klávesu <kbd>Enter</kbd>.
 
