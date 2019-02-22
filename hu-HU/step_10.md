@@ -1,11 +1,11 @@
-## Challenge: instruction screen
+## Kihívás: utasítás képernyő
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+Hozzáadhat-e olyan utasításokat tartalmazó képernyőn, amely elmondja a játékosnak, hogyan kell játszani a játékot? Ehhez szükség van egy „Útmutató” gombra, és egy másik szakaszra.
 
 ![screenshot](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Lehet, hogy hozzá kell adnia egy „Vissza” gombot, amely lehetővé teszi, hogy a játékos visszatérjen a kezdőképernyőhöz.
 
 ```blocks3
-    broadcast (start screen v)
+    sugárzás (v kezdőképernyő)
 ```
