@@ -1,11 +1,11 @@
-## Challenge: create a start screen
+## Výzva: vytvorte úvodnú obrazovku
 
-Can you add another backdrop that is going to be the start screen for your game?
+Môžete pridať ďalšie pozadie, ktoré sa stane úvodnou obrazovkou hry?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+Môžete použiť `keď dostanem začiatok`{: class = "block3events"} a `keď dostanem bloky konca`{: class = "block3events"} pre prepínanie medzi kulisami.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+Ak chcete zobraziť alebo skryť znak, keď hra prechádza medzi kulisami, môžete použiť `bloky`{: class = "block3looks"} a `skryť`{: class = "block3looks"} bloky.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+Ak chcete zobraziť alebo skryť časovač a skóre, keď sa vaša hra prepína medzi kulisami, môžete použiť `zobraziť premennú`{: class = "block3variables"} a `skryť bloky`{: class = "block3variables"}.
 
-![Start screen](images/brain-startscreen.png)
+![Štartovacia obrazovka](images/brain-startscreen.png)
