@@ -1,110 +1,110 @@
-## Multiple games
+## Diversos jocs
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Ara, afegireu un botó "Reproduir", perquè el jugador pugui jugar moltes vegades.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- tasca \--- Creeu un nou sprite del botó "Reprodueix" que el jugador necessita fer clic per iniciar un nou joc.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Podeu dibuixar el sprite o editar un sprite de la biblioteca.
 
-![Picture of the play button](images/brain-play.png)
+![Imatge del botó de reproducció](images/brain-play.png)
 
-\--- /task \---
+\--- / tasca \---
 
-\--- task \--- Add this code to your button sprite:
+\--- tasca \--- Afegiu aquest codi al vostre botó sprite:
 
-![Button sprite](images/button-sprite.png)
-
-```blocks3
-    when flag clicked
-    show
-
-    when this sprite clicked
-    hide
-    broadcast (start v)
-```
-
-\--- /task \---
-
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
-
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
-
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
-
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
-
-![Character sprite](images/giga-sprite.png)
+![Sprite del botó](images/button-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+    quan es fa clic a l'indicador
+    mostra
+
+    quan es fa clic a aquest sprite
+    ocultar
+    emissions (inici v)
 ```
 
-\--- /task \---
+\--- / tasca \---
 
-\--- task \---
+El nou codi inclou un altre `emissió`: bloc, que envia el missatge de 'inici' {class = "block3events"}.
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+El nou codi fa que el botó "Reprodueix" mostri el sprite quan el jugador faci clic a la bandera. Quan el jugador fa clic al botó Sprite, la sprite s'amaga i emet un missatge que altres sprites poden reaccionar.
 
-\--- /task \---
+De moment, el sprite de caràcters comença a fer preguntes quan el jugador fa clic a la bandera. Canvieu el codi del vostre joc perquè el sprite de caràcters comenci a fer preguntes quan rep la "sortida" `emissió`{: class = "block3events"}.
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+\--- tasca \--- Seleccioneu el vostre sprite de caràcter i, en la seva secció de codi, reemplaça el `quan es fa clic a la bandera`{: class = "block3events"} bloc amb un `quan rebo l'inici`{: class = "block3events" } bloc.
 
-![Timer has started](images/brain-timer-bug.png)
-
-\--- task \---
-
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
-
-\--- /task \---
-
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
-
-![Button sprite](images/button-sprite.png)
+![Sprite de caràcters](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+<br />- quan es fa clic a la bandera
++ quan rebo [inici v]
+conjunt [número 1 v] a (seleccioneu aleatòries (2) a (12))
+establir [número 2 v] a (seleccioneu aleatòries (2) a (12) )
+pregunteu (uniu-vos (número 1) (uniu-vos [x] (número 2))) i espereu
+si &lt;(resposta) = ((nombre 1) * (número 2))&gt; i
+    digueu [sí! :)] per (2) segons
+més
+    digue [nope :(] per (2) segons
+final
 ```
 
-\--- /task \---
+\--- / tasca \---
 
-\--- task \---
+\--- tasca \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Feu clic a la bandera verda i, a continuació, feu clic al botó "Reproduir" per comprovar si funciona. Hauríeu de veure que el joc no comença abans de fer clic al botó.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+\--- / tasca \---
 
-![Stage](images/stage-sprite.png)
+Pot veure que el temporitzador comença quan es fa clic a la bandera verda, en comptes de quan s'inicia el joc?
+
+![S'ha iniciat el temporitzador](images/brain-timer-bug.png)
+
+\--- tasca \---
+
+Es pot canviar el codi del temporitzador perquè el temporitzador comenci quan el jugador faci clic al botó?
+
+\--- / tasca \---
+
+\--- tasca \--- Afegiu un codi al vostre sprite del botó perquè el botó es mostri novament al final de cada joc.
+
+![Sprite del botó](images/button-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    quan rebo l'exhibició [final v]
+
 ```
 
-\--- /task \---
+\--- / tasca \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- tasca \---
 
-![Button](images/button-sprite.png)
+Proveu el botó "Reprodueix" jugant un parell de jocs. El botó hauria de mostrar al final de cada joc.
+
+Per provar el joc amb més rapidesa, podeu canviar el valor de `temps`{: class = "block3variables"} perquè cada joc tingui només uns segons de llarg.
+
+![Etapa](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    estableixi [temps v] en [10]
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+\--- / tasca \---
+
+\--- tasca \--- Podeu canviar la manera de veure el botó quan el punter del ratolí passa per sobre.
+
+![Botó](images/button-sprite.png)
+
+```blocks3
+    quan es fa clic a la bandera
+    mostren
+    per sempre
+    si <touching (mouse-pointer v)?> i
+        defineixen [fisheye v] efecte a (30)
+    més
+        conjunt [fisheye v] efecte a (0)
+    final
+    final
+```
+
+![captura de pantalla](images/brain-fisheye.png) \--- / tasca \---
