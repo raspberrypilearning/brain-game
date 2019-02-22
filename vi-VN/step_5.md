@@ -1,110 +1,110 @@
-## Multiple games
+## Nhiều trò chơi
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Bây giờ bạn sẽ thêm nút 'Phát' để người chơi có thể chơi trò chơi của bạn nhiều lần.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- Tạo một sprite nút 'Play' mới mà người chơi cần nhấp để bắt đầu một trò chơi mới.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Bạn có thể tự vẽ sprite hoặc chỉnh sửa sprite từ thư viện.
 
-![Picture of the play button](images/brain-play.png)
+![Hình ảnh của nút phát](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- Thêm mã này vào sprite nút của bạn:
 
-![Button sprite](images/button-sprite.png)
+![Nút sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    khi cờ nhấp
+    hiển thị
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    khi sprite này nhấp
+    ẩn
+    phát (bắt đầu v)
 ```
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Mã mới bao gồm một khối `phát`{: class = "block3events"} khác, sẽ gửi thông báo 'bắt đầu'.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Mã mới làm cho nút 'Phát' hiển thị khi người chơi nhấp vào cờ. Khi người chơi nhấp vào nút sprite, sprite sẽ ẩn và sau đó phát đi một thông điệp mà các sprite khác có thể phản ứng.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+Hiện tại, nhân vật bắt đầu đặt câu hỏi khi người chơi nhấp vào cờ. Thay đổi mã trò chơi của bạn để sprite nhân vật bắt đầu đặt câu hỏi khi nhận được 'bắt đầu' `quảng bá`{: class = "block3events"}.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- Chọn sprite ký tự của bạn và, trong phần mã của nó, thay thế `khi cờ nhấp vào khối`{: class = "block3events"} bằng khối `khi tôi nhận được start`{: class = "block3events" } khối.
 
 ![Đối tượng nhân vật](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+<br />- khi cờ nhấp
++ khi tôi nhận được [bắt đầu v]
+bộ [số 1 v] thành (chọn ngẫu nhiên (2) đến (12))
+đặt [số 2 v] thành (chọn ngẫu nhiên (2) thành (12) )
+hỏi (tham gia (số 1) (tham gia [x] (số 2))) và đợi
+nếu &lt;(trả lời) = ((số 1) * (số 2))&gt; rồi
+    nói [có! :)] trong (2) giây
+khác
+    nói [không :(] cho (2) giây
+kết thúc
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Nhấp vào cờ màu xanh lục, rồi nhấp vào nút 'Phát' mới để kiểm tra xem nó có hoạt động không. Bạn sẽ thấy rằng trò chơi không bắt đầu trước khi bạn nhấp vào nút.
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Bạn có thể thấy rằng bộ hẹn giờ bắt đầu khi cờ xanh được nhấp, thay vì khi trò chơi bắt đầu không?
 
-![Timer has started](images/brain-timer-bug.png)
+![Hẹn giờ đã bắt đầu](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Bạn có thể thay đổi mã cho bộ hẹn giờ để bộ hẹn giờ bắt đầu khi người chơi nhấp vào nút không?
 
 \--- /task \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- task \--- Thêm mã vào sprite nút của bạn để nút hiển thị lại vào cuối mỗi trò chơi.
 
-![Button sprite](images/button-sprite.png)
+![Nút sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    khi tôi nhận được [kết thúc v]
+
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Kiểm tra nút 'Play' bằng cách chơi một vài trò chơi. Nút sẽ hiển thị ở cuối mỗi trò chơi.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+Để kiểm tra trò chơi nhanh hơn, bạn có thể thay đổi giá trị `lần`{: class = "block3variables"} để mỗi trò chơi chỉ dài vài giây.
 
-![Stage](images/stage-sprite.png)
+![Sân khấu](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    đặt [thời gian v] thành [10]
 ```
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- Bạn có thể thay đổi giao diện của nút khi con trỏ chuột di chuyển qua nó.
 
-![Button](images/button-sprite.png)
+![Nút](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    khi cờ nhấp
+    hiển thị
+    mãi mãi
+    nếu <touching (mouse-pointer v)?> thì
+        đặt hiệu ứng [fisheye v] thành (30)
+    khác
+        đặt hiệu ứng [fisheye v] thành (0)
+    kết thúc
+    kết thúc
 ```
 
 ![ảnh chụp màn hình](images/brain-fisheye.png) \--- /task \---
