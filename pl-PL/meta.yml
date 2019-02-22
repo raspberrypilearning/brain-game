@@ -2,13 +2,13 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
-version: 4.0.2
-last_tested: 2018-10-03
+title: Tabliczka mnożenia
+description: Naucz się, jak wykonać quiz z tabliczki mnożenia.
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
-    title: Wprowadzenie
+    title: Tabliczka mnożenia
   - 
     title: Create questions
   - 
