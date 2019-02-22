@@ -1,110 +1,110 @@
-## Multiple games
+## Useita pelejä
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Nyt lisäät Play-painikkeen, jotta pelaaja voi pelata peliäsi monta kertaa.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- tehtävä \--- Luo uusi 'Play' -painike, jota pelaaja tarvitsee napsauttamalla aloittaakseen uuden pelin.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Voit piirtää sprite itse tai muokata spriteä kirjastosta.
 
-![Picture of the play button](images/brain-play.png)
+![Kuva toistopainikkeesta](images/brain-play.png)
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \--- Add this code to your button sprite:
-
-![Button sprite](images/button-sprite.png)
-
-```blocks3
-    when flag clicked
-    show
-
-    when this sprite clicked
-    hide
-    broadcast (start v)
-```
-
-\--- /task \---
-
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
-
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
-
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
-
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
-
-![Character sprite](images/giga-sprite.png)
-
-```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
-```
-
-\--- /task \---
-
-\--- task \---
-
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
-
-\--- /task \---
-
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
-
-![Timer has started](images/brain-timer-bug.png)
-
-\--- task \---
-
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
-
-\--- /task \---
-
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- tehtävä \--- Lisää tämä koodi painikkeeseesi:
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    kun lippu napsautti
+    näyttää
+
+    kun tämä sprite napsautti
+    piilota
+    lähetystä (alku v)
 ```
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \---
+Uusi koodi sisältää toisen `lähetyksen`{: class = "block3events"}, joka lähettää viestin "start".
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Uusi koodi tekee Play-painikkeen sprite-näyttelystä, kun pelaaja napsauttaa lippua. Kun pelaaja napsauttaa painiketta sprite, sprite piilottaa ja lähettää sitten viestin, jonka mukaan muut spritit voivat reagoida.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+Tällä hetkellä merkki sprite alkaa kysyä kysymyksiä, kun pelaaja napsauttaa lippua. Muuta pelisi koodia niin, että hahmon sprite alkaa kysyä kysymyksiä, kun se vastaanottaa ' `' lähetyksen`{: class = "block3events"}.
 
-![Stage](images/stage-sprite.png)
+\--- tehtävä \--- Valitse hahmosi sprite ja korvaa sen koodiosassa `kun lippu napsautti`{: class = "block3events"} lohkolla `kun saan aloituksen`{: class = "block3events" } lohko.
+
+![Merkin sprite](images/giga-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+<br />- kun lippu napsautti
++, kun saan [start v]
+valitse [numero 1 v] (valitse satunnainen (2) - (12))
+aseta [numero 2 v] (valitse satunnainen (2) - (12) )
+kysy (liity (numero 1) (liity [x] (numero 2))) ja odota
+jos &lt;(vastaus) = ((numero 1) * (numero 2))&gt; sitten
+    sanoa [kyllä! :)] (2) sekunnin ajan
+muu
+    sanoa [nope :(] (2) sekunnin
+päähän
 ```
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- tehtävä \---
 
-![Button](images/button-sprite.png)
+Napsauta vihreää lippua ja napsauta sitten uutta 'Toista' -painiketta testataksesi, toimiiko se. Sinun pitäisi nähdä, että peli ei käynnisty ennen kuin napsautat painiketta.
+
+\--- / tehtävä \---
+
+Näetkö, että ajastin käynnistyy, kun vihreää lippua napsautetaan sen sijaan, että peli alkaa?
+
+![Ajastin on alkanut](images/brain-timer-bug.png)
+
+\--- tehtävä \---
+
+Voitko muuttaa ajastimen koodia niin, että ajastin käynnistyy, kun pelaaja napsauttaa painiketta?
+
+\--- / tehtävä \---
+
+\--- tehtävä \--- Lisää koodi painikkeeseesi niin, että painike näkyy uudelleen kunkin pelin lopussa.
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    kun saan [lop. v]
+    näyttää
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+\--- / tehtävä \---
+
+\--- tehtävä \---
+
+Testaa Play-painiketta pelaamalla pari peliä. Painikkeen pitäisi näkyä kunkin pelin lopussa.
+
+Jos haluat testata peliä nopeammin, voit muuttaa arvoa `aika`{: class = "block3variables"} niin, että jokainen peli on vain muutaman sekunnin pituinen.
+
+![vaihe](images/stage-sprite.png)
+
+```blocks3
+    aseta [aika v] - arvoksi [10]
+```
+
+\--- / tehtävä \---
+
+\--- tehtävä \--- Voit muuttaa, miten painike näyttää, kun hiiren osoitin liikkuu sen yli.
+
+![nappi](images/button-sprite.png)
+
+```blocks3
+    kun lippu napsautti
+    näyttää
+    ikuisesti
+    jos <touching (mouse-pointer v)?> sitten
+        asettaa [kalansilmä v] vaikutus (30)
+    muuta
+        aseta [kalansilmä v] vaikutus (0)
+    loppuun
+    loppuun
+```
+
+![kuvakaappaus](images/brain-fisheye.png) \--- / tehtävä \---
