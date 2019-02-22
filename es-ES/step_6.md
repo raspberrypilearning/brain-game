@@ -1,4 +1,4 @@
-## Challenge: create a start screen
+## Desafío: Pantalla de inicio
 
 Can you add another backdrop that is going to be the start screen for your game?
 
