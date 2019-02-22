@@ -1,59 +1,59 @@
-## Create questions
+## 질문 만들기
 
-You're going to start by creating random questions that the player has to answer.
+플레이어가 응답해야하는 무작위 질문을 만들어서 시작하겠습니다.
 
 \--- task \---
 
-Open a new Scratch project.
+새 Scratch 프로젝트를 엽니 다.
 
-**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
+**Online :** [rpf.io/scratchon](http://rpf.io/scratchon){: target = "_ blank"}에서 새 온라인 스크래치 프로젝트를 엽니 다.
 
-**Offline:** open a new project in the offline editor.
+**오프라인 :** 오프라인 편집기에서 새 프로젝트를 엽니 다.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
-
-\--- /task \---
-
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
-
-![screenshot](images/brain-setting.png)
+Scratch 오프라인 편집기를 다운로드하여 설치해야하는 경우 [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}에서 찾을 수 있습니다.
 
 \--- /task \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- task \--- 게임에 문자 스프라이트와 배경을 추가합니다. 당신은 당신이 좋아하는 것을 선택할 수 있습니다! 다음은 그 예입니다.
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![스크린샷](images/brain-setting.png)
+
+\--- /task \---
+
+\--- task \--- 캐릭터 스프라이트를 선택했는지 확인하십시오. 퀴즈 질문에 대한 번호를 저장하기 위해 `번 1`{: class = "block3variables"} 및 `2`{{class = "block3variables"}라는 두 개의 새로운 변수를 만듭니다.
+
+![스크린샷](images/giga-sprite.png) ![스크린샷](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- 작업 \--- 캐릭터 스프라이트에 추가 코드는 모두 설정 `변수`A를 : {클래스 = "block3variables을"} `무작위로`2와 12 사이의 숫자 : {클래스 = "block3operators"}.
 
-![screenshot](images/giga-sprite.png)
+![스크린샷](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+
+클릭하면 [number 1 v]를 (임의의 (2) ~ (12) 선택)
+[number 2 v] ((임의의 (2) ~ (12) 선택)
 ```
 
 \--- /task \---
 
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+\--- task \--- `코드를 추가하여 답을 플레이어에게`{: class = "block3sensing"} 묻고, 2 초 동안 `말하십시오.`{: class = "block3looks"} 답이 맞는지 잘못된:
 
-![screenshot](images/giga-sprite.png)
+![스크린샷](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+플래그가 클릭하면
+세트 [수 1 V] 내지 (임의의 (2) ~ (12) 선택)
+세트를 [수 2 V]로 (선택 랜덤 (2) 내지 (12))
 
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
++는 (요청 (번호 1 가입) (
++ <(대답) = ((1) * (2))> 다음
++ 말하기 [예! :)] (2) 초 동안
 + else
-+ say [no :(] for (2) seconds
++ (2) 초 동안 [no :(])
 + end
 ```
 
@@ -61,38 +61,38 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+프로젝트를 두 번 테스트하십시오 : 한 질문에 올바르게 대답하고 다른 질문에 올바르지 않게 답하십시오.
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+추가 `영원히`게임을 연속으로 질문의 플레이어를 많이 요구 있도록이 코드 주위에 루프 : {클래스 = "block3control을"}.
 
 \--- hints \--- \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+당신은 추가 할 필요가 `영원히`를 제외하고 모든 코드를 블록 넣어 : {클래스 = "block3control을"} `플래그를 클릭하면`{: 클래스 = "block3control는"} 그것으로 차단합니다.
 
-\--- /hint \--- \--- hint \--- Here is the block you need:
+\--- / 힌트 \--- \--- 힌트 \--- 다음은 필요한 블록입니다.
 
 ```blocks3
-forever
-end
+영원히 끝
+
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- / hint \--- \--- 힌트 \--- 다음은 코드의 모양입니다.
 
 ```blocks3
-when flag clicked
 
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
+
++ 영원히
+    클릭했을 때 [1 번 v]를 (2 번에서 12 번 선택)
+    설정 [2 번에서 2 번까지] (
+    번) 1) (조인 [X] (번호 2))) 기다리
+    경우 <(답) = ((수 1) * (번호 2))> 다음
+        말 [예! :)] (2) 초 동안
     else
-        say [no :(] for (2) seconds
+        (2) 초 동안 [no :(])
     end
 end
 ```
