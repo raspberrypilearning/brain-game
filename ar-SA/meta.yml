@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
+title: لعبة العقل
+description: تعلم كيف تُنشئ اختبارًا قصيرًا.
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
     title: المقدمة
   - 
-    title: Create questions
+    title: إنشاء أسئلة
   - 
-    title: Add a timer
+    title: 'التحدي: تغيير المظاهر'
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'التحدي: إضافة درجة'
     challenge: true
   - 
     title: ألعاب متعددة
   - 
-    title: 'Challenge: create a start screen'
+    title: 'التحدي: شاشة البدء'
     challenge: true
   - 
-    title: Add graphics
+    title: إضافة رسومات
   - 
-    title: 'Challenge: sound and music'
+    title: 'التحدي: رسوم متحركة محسنة'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'التحدي: الصوت والموسيقى'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'التحدي: سباق حتى 10 نقاط'
     challenge: true
   - 
-    title: What next?
+    title: 'التحدي: شاشة التعليمات'
