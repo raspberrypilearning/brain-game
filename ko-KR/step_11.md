@@ -1,15 +1,3 @@
-\--- 도전 \---
+## What next?
 
-## 도전: 지시 화면
-
-게임에 지침 화면을 추가하여 플레이어에게 게임 방법을 알려줄 수 있습니까? '안내'버튼과 다른 무대 배경이 필요합니다.
-
-![스크린샷](images/brain-instructions.png)
-
-메인 메뉴로 이동하려면 '뒤로'버튼이 필요할 수도 있습니다. 
-
-```blocks
-    방송 [메인 메뉴 v]
-```
-
-\--- /도전 \---
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
