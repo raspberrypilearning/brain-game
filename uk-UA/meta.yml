@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
-version: 4.0.2
-last_tested: 2018-10-03
+title: Розвиваюча гра
+description: Дізнайтесь як створити вікторину.
+version: 3
+last_tested: 2017-01-01
 steps:
   - 
     title: Вступ
   - 
-    title: Create questions
+    title: Створення запитань
   - 
-    title: Add a timer
+    title: 'Завдання: Зміна образів'
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Завдання: Створення рахунку'
     challenge: true
   - 
     title: Багаторазові ігри
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Завдання: Початковий екран'
     challenge: true
   - 
-    title: Add graphics
+    title: Додавання графічних ефектів
   - 
-    title: 'Challenge: sound and music'
+    title: 'Завдання: Удосконалення анімації'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Завдання: Звук і музика'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Завдання: Забіг на 10 балів'
     challenge: true
   - 
-    title: What next?
+    title: 'Завдання: Екран з інструкцією'
