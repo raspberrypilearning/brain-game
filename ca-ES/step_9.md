@@ -1,15 +1,15 @@
-## Challenge: race to 10 points
+## Desafiament: carrera fins a 10 punts
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+Pots canviar el joc perquè el jugador, en lloc de respondre tantes preguntes com sigui possible en 30 segons, respongui 10 preguntes el més aviat possible.
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+Per realitzar aquest canvi, només heu de canviar el vostre cronòmetre. Pot veure quins blocs han de ser diferents?
 
 ```blocks3
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) seconds
-        change [time v] by (-1)
-    end
-    broadcast (end v)
+    quan recepció [començar v]
+    conjunt [temps v] a (30)
+    repetir fins a <(temps) = [0]>
+        wait (1) segon
+        canvi [temps v] per (-1)
+    final
+    de difusió (final v)
 ```
