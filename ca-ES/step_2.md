@@ -1,102 +1,102 @@
-## Create questions
+## Crea preguntes
 
-You're going to start by creating random questions that the player has to answer.
+Començaràs creant preguntes aleatòries que el jugador ha de respondre.
 
-\--- task \---
+\--- tasca \---
 
-Open a new Scratch project.
+Obriu un nou projecte Scratch.
 
-**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
+**en línia:** obre un nou projecte Scratch en línia a [rpf.io/scratchon](http://rpf.io/scratchon)(: target = "_ blank").
 
-**Offline:** open a new project in the offline editor.
+**Desconnectat:** obre un nou projecte a l'editor fora de línia.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Si necessiteu descarregar i instal·lar l'editor Scratch offline, podeu trobar-lo a [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
 
-\--- /task \---
+\--- / tasca \---
 
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+\--- tasca \--- Afegiu un sprite de caràcter i un teló de fons per al vostre joc. Podeu triar qualsevol que vulgueu! Aquí teniu un exemple:
 
-![screenshot](images/brain-setting.png)
+![captura de pantalla](images/brain-setting.png)
 
-\--- /task \---
+\--- / tasca \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- tasca \--- Assegureu-vos que heu seleccionat el vostre sprite del caràcter. Creeu dues variables noves, anomenades `número 1`{: class = "block3variables"} i `número 2`{: class = "block3variables"}, per emmagatzemar els números de les preguntes del qüestionari.
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![captura de pantalla](images/giga-sprite.png) ![captura de pantalla](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /task \---
+\--- / tasca \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- \--- tasca Afegir codi al seu sprite de caràcter per definir tant de les `variables de`{: class = ""} block3variables a uns `aleatòries`{: class = "block3operators"} nombre entre 2 i 12.
 
-![screenshot](images/giga-sprite.png)
-
-```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-```
-
-\--- /task \---
-
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
-
-![screenshot](images/giga-sprite.png)
+![captura de pantalla](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
-+ end
+quan l'indicador fa clic a
+estableix [número 1 v] a (seleccioneu aleatòries (2) a (12))
+conjunt [número 2 v] a (seleccioneu aleatòries (2) a (12))
 ```
 
-\--- /task \---
+\--- / tasca \---
 
-\--- task \---
+\--- tasca \--- Afegiu un codi a `pregunta`: {: class = "block3sensing"} el jugador de la resposta i, a continuació, `per 2 segons`{: class = "block3looks"} si la resposta era correcta o mal:
 
-Test your project twice: answer one question correctly, and the other incorrectly.
-
-\--- /task \---
-
-\--- task \---
-
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
-
-\--- hints \--- \--- hint \---
-
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
-
-\--- /hint \--- \--- hint \--- Here is the block you need:
+![captura de pantalla](images/giga-sprite.png)
 
 ```blocks3
-forever
-end
+quan l'indicador fa clic a
+estableix [número 1 v] a (seleccioneu aleatòries (2) a (12))
+conjunt [número 2 v] a (seleccioneu aleatòries (2) a (12))
+
++ pregunteu (uniu-vos (número 1) (uniu-vos [x] (número 2))) i espereu
++ si <(resposta) = ((número 1) * (número 2))> i
++ digueu [sí! :)] per (2) segons
++ més
++ dir [no :(] per (2) segons
++ final
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- / tasca \---
+
+\--- tasca \---
+
+Proveu el vostre projecte dues vegades: responeu una pregunta correctament i l'altra incorrectament.
+
+\--- / tasca \---
+
+\--- tasca \---
+
+Afegiu `per sempre`{: class = "block3control"} loop al voltant d'aquest codi, de manera que el joc demana al jugador moltes preguntes seguides.
+
+\--- consells \--- \--- suggeriment \---
+
+Heu d'afegir un bloc `per sempre`{: class = "block3control"} i posar tot el codi, excepte el `quan el bloc hagi fet clic a`blocs {: class = "block3control"}.
+
+\--- / indici \--- \--- indici \--- Aquí teniu el bloc que necessiteu:
 
 ```blocks3
-when flag clicked
-
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
+per sempre
+final
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / indici \--- \--- indici \--- Aquí teniu el que hauria de tenir el vostre codi:
 
-\--- /task \---
+```blocks3
+quan es fa clic a la bandera
+
++ per sempre
+    conjunt [número 1 v] a (seleccioneu aleatòries (2) a (12))
+    conjunt [número 2 v] a (seleccioneu aleatòries (2) a (12))
+    pregunteu (uniu-vos (nombre 1) (uniu-vos [x] (número 2)) i espereu
+    si <(resposta) = ((número 1) * (número 2))> i
+        digueu [sí! :)] durant (2) segons
+    més
+        digue [no :(] per (2) segons
+    final
+final
+```
+
+\--- / indici \--- \--- / indicacions \---
+
+\--- / tasca \---
