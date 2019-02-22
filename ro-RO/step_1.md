@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Aceasta este versiunea **Scratch 3** a proiectului. Există , de asemenea , o [versiune Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
 ## Introducere
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+În acest proiect veți crea un joc de chestionare matematică în care jucătorul are 30 de secunde pentru a da cât mai multe răspunsuri corecte posibil.
 
-### What you will make
+### Ce veți face
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Faceți clic pe butonul pentru a începe. Introduceți răspunsul la întrebare, apoi apăsați tasta <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,26 +19,26 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 \--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- numai printare \--- ![Brain Game](images/brain-final.png) \--- / numai prin print
 
 ## \--- collapse \---
 
-## title: What you will learn
+## titlu: Ce veți învăța
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Cum se utilizează emisiunile în Scratch
++ Cum să creați și să utilizați un bloc de Scratch personalizat
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## titlu: Ce veți avea nevoie
 
-### Hardware
+### Dispozitive
 
-+ A computer capable of running Scratch 3
++ Un computer capabil de a rula Scratch 3
 
-### Software
+### Programe
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
@@ -46,10 +46,10 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## titlu: note suplimentare pentru educatori
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- fără imprimare \--- Dacă aveți nevoie pentru a imprima acest proiect, vă rugăm să folosiți [versiune pentru tipărire](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / nu-imprimare \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Găsiți soluția [pentru acest proiect aici](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
 
 \--- /collapse \---
