@@ -1,55 +1,55 @@
-\--- no-print \---
+\--- но-принт \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Ово је **сцратцх 3** верзија пројекта. Постоји и верзија пројекта [Сцратцх 2](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- /no-print \---
+\--- / без штампања \---
 
-## Introduction
+## Увод
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+У овом пројекту ћете креирати математички квиз у којем играч има 30 секунди да да што више тачних одговора.
 
-### What you will make
+### Шта ћеш направити
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- но-принт \--- Кликните на дугме за почетак. Унесите одговор на питање, а затим притисните тастер <kbd>Ентер</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- /no-print \---
+\--- / без штампања \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- само за испис \--- ![Brain Game](images/brain-final.png) \--- / само за испис \---
 
-## \--- collapse \---
+## \--- колапс \---
 
-## title: What you will learn
+## титле: Шта ћете научити
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Како користити емисије у Сцратцх-у
++ Како креирати и користити прилагођени Сцратцх блок
 
-\--- /collapse \---
+\--- /колапс \---
 
-## \--- collapse \---
+## \--- колапс \---
 
-## title: What you will need
+## наслов: Шта ће вам требати
 
-### Hardware
+### Хардвер
 
-+ A computer capable of running Scratch 3
++ Рачунар способан за покретање Сцратцх 3
 
-### Software
+### Софтвер
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Сцратцх 3 (или [онлине](http://rpf.io/scratchon){: таргет = "_ бланк"} или [оффлине](http://rpf.io/scratchoff){: таргет = "_ бланк"})
 
-\--- /collapse \---
+\--- /колапс \---
 
-## \--- collapse \---
+## \--- колапс \---
 
-## title: Additional notes for educators
+## назив: Додатне напомене за едукаторе
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- но-принт \--- Ако желите да одштампате овај пројекат, користите [верзију за штампач](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / но-принт \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Пронађите решење [за овај пројекат](http://rpf.io/p/en/brain-game-get){: таргет = "_ бланк"}.
 
-\--- /collapse \---
+\--- /колапс \---
