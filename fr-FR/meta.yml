@@ -3,9 +3,9 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Jeu d'ingéniosité
-description: Apprends comment créer un quiz.
+description: Apprends comment créer un quiz
 version: 3
-last_tested: 2017-01-01
+last_tested: 2018-10-03
 steps:
   - 
     title: Introduction
@@ -33,4 +33,4 @@ steps:
     title: 'Défi: Course à 10 points'
     challenge: true
   - 
-    title: 'Défi: Écran d''instruction'
+    title: 'Défi : plus de crayons'
