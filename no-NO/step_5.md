@@ -1,110 +1,110 @@
-## Multiple games
+## Flere spill
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Nå skal du legge til en "Play" -knapp, slik at spilleren kan spille spillet mange ganger.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- Oppgave \--- Opprett en ny 'Spill' -knapp som spilleren må klikke for å starte et nytt spill.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Du kan tegne sprite selv, eller redigere et sprite fra biblioteket.
 
-![Picture of the play button](images/brain-play.png)
+![Bilde av spilleknappen](images/brain-play.png)
 
-\--- /task \---
+\--- / oppgave \---
 
-\--- task \--- Add this code to your button sprite:
+\--- oppgave \--- Legg denne koden til din knappesprite:
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    når flagget klikket
+    viser
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    når denne sprite klikket
+    skjul
+    send (start v)
 ```
 
-\--- /task \---
+\--- / oppgave \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Den nye koden inneholder en annen `kringkasting`{: class = "block3events"} blokk, som sender meldingen 'start'.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Den nye koden gjør Sprite-showet "Play" -knappen når når spilleren klikker på flagget. Når spilleren klikker på knappens sprite, skjuler sprite og sender en melding som andre sprites kan reagere på.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+For øyeblikket begynner tegnsporet å stille spørsmål når spilleren klikker på flagget. Endre spillets kode, slik at tegnsprite begynner å stille spørsmål når den mottar "start" `sendingen`{: class = "block3events"}.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- oppgave \--- Velg din karaktersprite og erstatt `når flagget klikket`{: class = "block3events"} blokk med en `når jeg mottar start`{: class = "block3events" } blokk.
 
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+<br />- når flagget klikket
++ når jeg mottar [start v]
+sett [nummer 1 v] til (velg tilfeldig (2) til (12))
+sett [nummer 2 v] til (velg tilfeldig (2) til (12) )
+spør (bli nummer 1) (bli med [x] (nummer 2))) og vent
+hvis &lt;(svar) = ((nummer 1) * (nummer 2))&gt; så
+    si [ja! :)] for (2) sekunder
+annet
+    si [nope :(] for (2) sekunder
+ende
 ```
 
-\--- /task \---
+\--- / oppgave \---
 
-\--- task \---
+\--- oppgave \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Klikk på det grønne flagget, og klikk deretter på den nye "Spill" -knappen for å teste om det virker. Du bør se at spillet ikke starter før du klikker på knappen.
 
-\--- /task \---
+\--- / oppgave \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Kan du se at timeren starter når det grønne flagget klikkes, i stedet for når spillet starter?
 
-![Timer has started](images/brain-timer-bug.png)
+![Timeren er startet](images/brain-timer-bug.png)
 
-\--- task \---
+\--- oppgave \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Kan du endre koden for timeren slik at timeren starter når spilleren klikker på knappen?
 
-\--- /task \---
+\--- / oppgave \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- oppgave \--- Legg til kode på knappens sprite slik at knappen viser igjen på slutten av hvert spill.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
+    når jeg mottar [end v]
     show
 ```
 
-\--- /task \---
+\--- / oppgave \---
 
-\--- task \---
+\--- oppgave \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Test "Play" -knappen ved å spille et par spill. Knappen skal vises på slutten av hvert spill.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+For å teste spillet raskere, kan du endre verdien av `time`{: class = "block3variables"} slik at hvert spill er bare noen sekunder lang.
 
-![Stage](images/stage-sprite.png)
-
-```blocks3
-    set [time v] to [10]
-```
-
-\--- /task \---
-
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
-
-![Button](images/button-sprite.png)
+![Scene](images/stage-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    sett [tid v] til [10]
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+\--- / oppgave \---
+
+\--- oppgave \--- Du kan endre hvordan knappen ser ut når musemarkøren svinger over den.
+
+![Knapp](images/button-sprite.png)
+
+```blocks3
+    når flagget klikket
+    vis
+    alltid
+    hvis <touching (mouse-pointer v)?> så
+        sett [fisheye v] effekt til (30)
+    annet
+        sett [fisheye v] effekt til (0)
+    ende
+    ende
+```
+
+![skjermbilde](images/brain-fisheye.png) \--- / oppgave \---
