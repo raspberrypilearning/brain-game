@@ -1,15 +1,3 @@
-\--- challenge \---
+## What next?
 
-## Udfordring: Instruktionsskærm
-
-Kan du tilføje en instruktion til dit spil og fortælle din spiller hvordan man spiller spillet? Du skal bruge en 'Instruktioner' knap og en anden baggrund.
-
-![skærmbillede](images/brain-instructions.png)
-
-Du kan også have brug for en 'Tilbage' -knap for at tage dig til hovedmenuen.
-
-```blocks
-    broadcast [main menu v]
-```
-
-\--- /challenge \---
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
