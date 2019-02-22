@@ -71,8 +71,8 @@ Can you change the code for the timer so that the timer starts when the player c
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    [끝 v]을 받았을 때
+    보여준다
 ```
 
 \--- /task \---
@@ -86,7 +86,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    [시간 v]을 [10]으로 설정
 ```
 
 \--- /task \---
@@ -96,15 +96,15 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    플래그 클릭 했을 때
+    표시
+    영원히
+    만약 <touching (mouse-pointer v)?>이라면 다음에
+        [어안 V] 효과 (30) 설정
+    그 밖의    
+        [어안 V] 효과 (0) 설정
+    끝
+    끝
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![스크린샷](images/brain-fisheye.png) \--- /task \---
