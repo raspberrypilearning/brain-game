@@ -1,102 +1,102 @@
-## Create questions
+## Luo kysymyksiä
 
-You're going to start by creating random questions that the player has to answer.
+Aloitatte luomalla satunnaisia kysymyksiä, jotka pelaajan on vastattava.
 
-\--- task \---
+\--- tehtävä \---
 
-Open a new Scratch project.
+Avaa uusi Scratch-projekti.
 
-**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** avaa uusi online-Scratch-projekti osoitteessa [rpf.io/scratchon](http://rpf.io/scratchon){: target = "_ blank"}.
 
-**Offline:** open a new project in the offline editor.
+**Offline:** avaa uuden projektin offline-editorissa.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Jos haluat ladata ja asentaa Scratch offline -editorin, löydät sen osoitteesta [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+\--- tehtävä \--- Lisää hahmo-sprite ja taustan peliin. Voit valita haluamasi! Tässä esimerkki:
 
-![screenshot](images/brain-setting.png)
+![kuvakaappaus](images/brain-setting.png)
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- tehtävä \--- Varmista, että olet valinnut hahmon sprite. Luo kaksi uutta muuttujaa, joita kutsutaan nimellä `numero 1`{: class = "block3variables"} ja `numero 2`{: class = "block3variables"}, tallentaa tietokilpailujen numerot.
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![kuvakaappaus](images/giga-sprite.png) ![kuvakaappaus](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- tehtävä \--- Lisää koodin hahmosi sprite-asetukseen asettamaan molemmat `muuttujaa`{: class = "block3variables"} `satunnaiseksi`{: class = "block3operators"} numeroksi 2 - 12.
 
-![screenshot](images/giga-sprite.png)
-
-```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-```
-
-\--- /task \---
-
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
-
-![screenshot](images/giga-sprite.png)
+![kuvakaappaus](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
-+ end
+kun lippu napsautti
+asettaa [numero 1 v] (valitse satunnainen (2) - (12))
+aseta [numero 2 v] (valitse satunnainen (2) - (12))
 ```
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \---
+\--- tehtävä \--- Lisää koodi `kyselyyn`{: class = "block3sensing"} soittimeen vastausta varten ja sitten `sanoa 2 sekunnin ajan`{: class = "block3looks"} onko vastaus oikea vai väärä:
 
-Test your project twice: answer one question correctly, and the other incorrectly.
-
-\--- /task \---
-
-\--- task \---
-
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
-
-\--- hints \--- \--- hint \---
-
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
-
-\--- /hint \--- \--- hint \--- Here is the block you need:
+![kuvakaappaus](images/giga-sprite.png)
 
 ```blocks3
-forever
-end
+kun lippu napsautti
+asettaa [numero 1 v] (valitse satunnainen (2) - (12))
+aseta [numero 2 v] (valitse satunnainen (2) - (12))
+
++ kysy (liity (numero 1)) (liity [x] (numero 2))) ja odota
++, jos <(vastaus) = ((numero 1) * (numero 2))> sitten
++ sanoa [kyllä! :)] (2) sekunnille
++ muuta
++ sanoa [no :(] (2) sekunnille
++ loppuun
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- / tehtävä \---
+
+\--- tehtävä \---
+
+Testaa projekti kahdesti: vastaa yhteen kysymykseen oikein ja toinen väärin.
+
+\--- / tehtävä \---
+
+\--- tehtävä \---
+
+Lisää tämän koodin ympärille `ikuisesti`{: class = "block3control"}, niin että peli kysyy soittimelta paljon kysymyksiä peräkkäin.
+
+\--- vinkkejä \--- \--- vihje \---
+
+Sinun täytyy lisätä `ikuisesti`{: class = "block3control"} lohko ja aseta kaikki koodi paitsi `kun lippu napsautti`{: class = "block3control"} lohkon siihen.
+
+\--- / vihje \--- \--- vihje \--- Tässä on lohko, jota tarvitset:
 
 ```blocks3
-when flag clicked
-
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
+ikuisesti
+loppuun
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / vihje \--- \--- vihje \--- Tässä on, mitä koodisi näyttää:
 
-\--- /task \---
+```blocks3
+kun lippu napsautti
+
++ ikuisesti
+    aseta [numero 1 v] (valitse satunnainen (2) - (12))
+    aseta [numero 2 v] (valitse satunnainen (2) - (12))
+    kysy (liity 1) (liity [x] (numero 2))) ja odota
+    jos <(vastaus) = ((numero 1) * (numero 2))> sitten
+        sanoa [kyllä! :)] (2) sekunnin ajan
+    muu
+        sanoa [no :(] (2) sekunnin
+    pään
+loppuun
+```
+
+\--- / vihje \--- \--- / vihjeitä \---
+
+\--- / tehtävä \---
