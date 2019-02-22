@@ -1,19 +1,11 @@
-\--- challenge \---
+## Challenge: create a start screen
 
-## Challenge: startscherm
+Can you add another backdrop that is going to be the start screen for your game?
 
-Kun je een nieuwe achtergrond toevoegen aan je podium, wat het startscherm van je spel wordt? Je kunt de ` wanneer ik start ontvang ` {: class = "blockevents"} en ` wanneer ik einde ontvang ` {: class = "blockevents"} blokken gebruiken om te schakelen tussen achtergronden.
+You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
-Je kunt ook je personage tonen en verbergen en zelfs je timer tonen en verbergen door deze blokken te gebruiken:
+To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
-```blocks
-toon variabele [time v]
-```
+To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
 
-```blocks
-verberg variabele [time v]
-```
-
-![screenshot](images/brain-startscreen.png)
-
-\--- /challenge \---
+![Start screen](images/brain-startscreen.png)
