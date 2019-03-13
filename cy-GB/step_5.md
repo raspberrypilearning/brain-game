@@ -62,14 +62,14 @@ Fe wnawn ni ychwanegu botwm 'chwarae' i dy gêm fel dy fod di'n gallu chwarae sa
 
 	```blocks
 		pan fo ⚑ wedi ei glicio
-			dangos
+		dangos
 		am byth
-   			os <cyffwrdd (pwyntydd llygoden v)?> wedyn
-      		gosod effaith [llygaid pysgodyn v] i (30)
+   		os <cyffwrdd (pwyntydd llygoden v)?> wedyn
+      			gosod effaith [llygaid pysgodyn v] i (30)
    		fel arall
-      		gosod effaith [llygaid pysgodyn v] i (0)
+      			gosod effaith [llygaid pysgodyn v] i (0)
    		end
-	end
+		end
 	```
 
 	![screenshot](images/brain-fisheye.png)
