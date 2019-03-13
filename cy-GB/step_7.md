@@ -34,12 +34,12 @@ Yn lle bod dy gymeriad ond yn dweud 'ie! :)' neu 'na :(' i'r chwareuwr, beth am 
 
 	```blocks
 		diffinio animate
-		gosod effaith [ysbryd v] i (100) :: looks
-		dangos :: looks
+		gosod [ysbryd v] i (100) 
+		dangos 
 		ailadrodd (25) 
-   			newid effaith [ysbryd v] gan (-4) :: looks :: control
+   			newid [ysbryd v] gan (-4) 
 		end
-		cuddio :: looks
+		cuddio 
 	```
 
 
