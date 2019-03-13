@@ -34,10 +34,10 @@ Yn lle bod dy gymeriad ond yn dweud 'ie! :)' neu 'na :(' i'r chwareuwr, beth am 
 
 	```blocks
 		diffinio [object Object]
-			gosod effaith [ysbryd v] i (100)
+			gosod  [ysbryd v] i (100)
 		dangos
 			ailwna (25)
-   			newid effaith [ysbryd v] gan (-4)
+   			newid [ysbryd v] gan (-4)
 		end
 		cuddio
 	```
