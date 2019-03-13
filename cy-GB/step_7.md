@@ -33,13 +33,13 @@ Yn lle bod dy gymeriad ond yn dweud 'ie! :)' neu 'na :(' i'r chwareuwr, beth am 
 + Yn lle dangos a chuddio'r tic a'r groes, fe alli di newid gweithred yr animeiddiad, fel bod y graffeg yn pylu ar y sgrin.
 
 	```blocks
-		diffinio [object Object]
-			gosod  [ysbryd v] i (100)
-		dangos
-			ailwna (25)
-   			newid [ysbryd v] gan (-4)
+		diffinio animate
+		gosod effaith [ysbryd v] i (100) :: looks
+		dangos :: looks
+		ailadrodd (25) 
+   			newid effaith [ysbryd v] gan (-4) :: looks :: control
 		end
-		cuddio
+		cuddio :: looks
 	```
 
 
