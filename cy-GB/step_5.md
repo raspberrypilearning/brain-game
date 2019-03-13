@@ -64,7 +64,7 @@ Fe wnawn ni ychwanegu botwm 'chwarae' i dy gêm fel dy fod di'n gallu chwarae sa
 		pan fo ⚑ wedi ei glicio
 			dangos
 		am byth
-   			os <cyffwrdd [pwyntydd llygoden v]?> wedyn
+   			os <cyffwrdd (pwyntydd llygoden v)?> wedyn
       		gosod effaith [llygaid pysgodyn v] i (30)
    		fel arall
       		gosod effaith [llygaid pysgodyn v] i (0)
