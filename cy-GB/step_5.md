@@ -61,7 +61,7 @@ Fe wnawn ni ychwanegu botwm 'chwarae' i dy gêm fel dy fod di'n gallu chwarae sa
 + Fe alli di hyd yn oed newid sut mae'r botymau yn edrych pan mae'r llygoden drosto.
 
 	```blocks
-		pan fo'r flag werdd yn cael ei glicio
+		pan fo ⚑ wedi ei glicio
 		dangos :: looks
 		am byth 
   		os <cyffwrdd (pwyntydd llygoden v) ? > yna
