@@ -61,14 +61,14 @@ Fe wnawn ni ychwanegu botwm 'chwarae' i dy gêm fel dy fod di'n gallu chwarae sa
 + Fe alli di hyd yn oed newid sut mae'r botymau yn edrych pan mae'r llygoden drosto.
 
 	```blocks
-		pan fo ⚑ wedi ei glicio
-		dangos
-		am byth
-		os <cyffwrdd [pwyntydd llygoden v]?> wedyn
-		gosod effaith [llygaid pysgodyn v] i (30)
-		fel arall
-		gosod effaith [llygaid pysgodyn v] i (0)
-		end
+		pan fo'r flag werdd yn cael ei glicio
+		dangos :: looks
+		am byth 
+  		os <cyffwrdd (pwyntydd llygoden v) ? > yna
+ 	 		gosod [llygaid pysgodyn v] i  (30)
+  		fel arall
+  			gosod [llygaid pysgodyn v] i  (0)
+  		end
 		end
 	```
 
