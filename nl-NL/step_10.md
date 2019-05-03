@@ -1,11 +1,11 @@
 ## Uitdaging: Race naar 10 punten
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+Kun je een instructiescherm aan je spel toevoegen en je speler uitleggen hoe het spel moet worden gespeeld? Je hebt hiervoor een knop 'Instructies' en een extra achtergrond nodig.
 
 ![screenshot](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Je moet mogelijk ook een 'Terug'-knop toevoegen waarmee de speler weer naar het startscherm kan terugkeren.
 
 ```blocks3
-    broadcast (start screen v)
+    zend signaal (startscherm v)
 ```
