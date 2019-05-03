@@ -6,7 +6,7 @@ Először véletlenszerű kérdéseket hoz létre, amelyeket a játékosnak meg 
 
 Nyisson meg egy új Scratch projektet.
 
-**Online:** megnyit egy új online Scratch projektet [rpf.io/scratchon](http://rpf.io/scratchon){: target = "_ blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
 
 **Offline:** új projektet nyit meg az offline szerkesztőben.
 
