@@ -19,7 +19,7 @@ W tym projekcie stworzysz grę quizów matematycznych, w której gracz ma 30 sek
 
 \--- /no-print \---
 
-\--- tylko do wydruku \--- ![Brain Game](images/brain-final.png) \--- / tylko do wydruku \---
+\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
 
 ## \--- collapse \---
 
@@ -46,7 +46,7 @@ W tym projekcie stworzysz grę quizów matematycznych, w której gracz ma 30 sek
 
 ## \--- collapse \---
 
-## tytuł: Dodatkowe uwagi dla nauczycieli
+## title: Dodatkowe informacje dla edukatorów
 
 \--- no-print \--- Jeśli chcesz wydrukować ten projekt, użyj [wersji](https://projects.raspberrypi.org/en/projects/brain-game/print)przyjaznej dla drukarki. \--- / brak wydruku \---
 
