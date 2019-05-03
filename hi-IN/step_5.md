@@ -1,4 +1,4 @@
-## Multiple games
+## मल्टीप्ल गेम्ज़
 
 Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
@@ -33,7 +33,7 @@ At the moment, the character sprite starts asking questions when the player clic
 
 \--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
 
-![Character sprite](images/giga-sprite.png)
+![पात्र स्प्राइट](images/giga-sprite.png)
 
 ```blocks3
 <br />- when flag clicked
@@ -107,4 +107,4 @@ To test the game more quickly, you can change the value of `time`{:class="block3
     end
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![स्क्रीनशॉट](images/brain-fisheye.png) \--- /task \---
