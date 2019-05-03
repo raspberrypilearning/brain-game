@@ -4,7 +4,7 @@ listed: true
 copyedit: false
 title: Hersenkraker
 description: Leer hoe je een quiz maakt
-version: 3
+version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
@@ -12,25 +12,25 @@ steps:
   - 
     title: Vragen maken
   - 
-    title: 'Uitdaging: Van uiterlijk veranderen'
+    title: Een timer toevoegen
   - 
-    title: 'Uitdaging: Een score toevoegen'
+    title: 'Uitdaging: voeg een score en reacties toe'
     challenge: true
   - 
     title: Meerdere spellen
   - 
-    title: 'Uitdaging: startscherm'
+    title: 'Uitdaging: maak een startscherm'
     challenge: true
   - 
     title: Afbeeldingen toevoegen
   - 
-    title: 'Uitdaging: Verbeterde animatie'
+    title: 'Uitdaging: geluid en muziek'
     challenge: true
   - 
-    title: 'Uitdaging: Geluid en muziek'
+    title: 'Uitdaging: race naar 10 punten'
     challenge: true
   - 
-    title: 'Uitdaging: Race naar 10 punten'
+    title: 'Uitdaging: instructiescherm'
     challenge: true
   - 
     title: Wat kun je verder nog doen?
