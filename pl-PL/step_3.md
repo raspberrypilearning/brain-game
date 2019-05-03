@@ -10,7 +10,7 @@ Utwórz `zmienną`{: class = "block3variables"}, nazwij ją "time" i ustaw jej w
 
 Następnie dodaj kod, aby liczyć `czas`{: class = "block3variables"} do 0 w ciągu 30 sekund. Aby to zrobić, odejmuj `1` od `czasu`{: class = "block3variables"} co `1` sekund, i powtarzaj to do `czasu`{: class = "block3variables"} jest równe `0`.
 
-\--- / wskazówka \--- \--- podpowiedź \--- Oto bloki, których potrzebujesz:
+\--- /hint \--- \--- hint \--- poniżej masz bloczki, które będziesz potrzebować:
 
 ```blocks3
 powtórz do < >
