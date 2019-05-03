@@ -6,7 +6,7 @@
 
 打開一個新的Scratch項目。
 
-**在線：** 在 [rpf.io/scratchon](http://rpf.io/scratchon){：target =“_ blank”}打開一個新的在線Scratch項目。
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
 
 **離線：** 在離線編輯器中打開一個新項目。
 
