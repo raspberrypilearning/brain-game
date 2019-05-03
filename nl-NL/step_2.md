@@ -1,26 +1,26 @@
 ## Vragen maken
 
-You're going to start by creating random questions that the player has to answer.
+Laten we beginnen met het maken van willekeurige vragen die de speler moet beantwoorden.
 
 \--- task \---
 
-Open a new Scratch project.
+Open een nieuw Scratch project.
 
-**Online:** open a new online Scratch project at [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
 
-**Offline:** open a new project in the offline editor.
+**Offline:** open een nieuw project in de offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Als je de Scratch offline editor wilt downloaden en installeren dan kun je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+\--- task \--- Kies een personage en een achtergrond voor je spel. Je kunt kiezen wat je wilt! Hier is een voorbeeld:
 
 ![screenshot](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- task \--- Zorg ervoor dat je je personage geselecteerd hebt. Maak twee nieuwe variabelen, genaamd `nummer 1`{:class="block3variables"} en `nummer 2`{:class="block3variables"}. Deze variabelen slaan de twee getallen op die samen worden vermenigvuldigd.
 
 ![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
 
@@ -28,32 +28,32 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- task \--- Voeg code toe aan je personage, om beide `variabelen`{:class="block3variables"} in te stellen op een `willekeurig`{:class="block3operators"} getal tussen 2 en 12.
 
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+wanneer groene vlag wordt aangeklikt
+maak [nummer 1 v] (willekeurig getal tussen (2) en (12))
+maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
 ```
 
 \--- /task \---
 
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+\--- task \--- Voeg code toe waarin je aan de speler om het antwoord `vraagt`{:class="block3sensing"}, en vervolgens `zeg voor 2 seconden`{:class="block3looks"} of het antwoord juist of verkeerd was:
 
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+wanneer groene vlag wordt aangeklikt
+maak [nummer 1 v] (willekeurig getal tussen (2) en (12))
+maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
 
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
++ vraag (voeg (nummer 1) en (voeg [ x ] en (nummer 2) samen) samen) en wacht
++ als <(antwoord) = ((nummer 1) * (nummer 2))> dan 
++ zeg [goed! :)] (2) seconden
++ anders
++ zeg [fout :(] (2) sec.
 + end
 ```
 
@@ -61,38 +61,38 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+Test jouw project twee keer: beantwoord de ene vraag goed en de andere verkeerd.
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+Voeg een `herhaal`{:class="block3control"} lus toe aan de code, zodat de speler veel vragen achter elkaar krijgt.
 
 \--- hints \--- \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+Je moet een `herhaal`{:class="block3control"} blok toevoegen en alle code behalve de `wanneer groene vlag wordt aangeklikt`{:class="block3control"} daar naartoe verplaatsen.
 
-\--- /hint \--- \--- hint \--- Here is the block you need:
+\--- /hint \--- \--- hint \--- Dit is het codeblok dat je nodig hebt:
 
 ```blocks3
-forever
+herhaal
 end
 ```
 
 \--- / hint \--- \--- hint \--- Hier is hoe je blok eruit zou moeten zien:
 
 ```blocks3
-when flag clicked
+wanneer groene vlag wordt aangeklikt
 
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
++ herhaal
+   maak [nummer 1 v] (willekeurig getal tussen (2) en (12))
+   maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
+   vraag (voeg (nummer 1) en (voeg [ x ] en (nummer 2) samen) samen) en wacht
+   als <(antwoord) = ((nummer 1) * (nummer 2))> dan 
+     zeg [goed! :)] (2) sec.
+    anders
+        zeg [fout :(] (2) sec.
     end
 end
 ```
