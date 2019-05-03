@@ -1,13 +1,13 @@
 ## Uitdaging: Verbeterde animatie
 
-Can you add sound effects and music to your game? For example, you could have your game:
+Kun je geluidseffecten en muziek toevoegen aan je spel? Bijvoorbeeld, je spel kan:
 
-+ Play a sound when the player gives a correct or incorrect answer
-+ Play a ticking sound as the countdown timer runs
-+ Play a sound when the player's time is up
++ Een geluid afspelen wanneer de speler een correct of onjuist antwoord geeft
++ Een tikkend geluid afspelen als de timer loopt
++ Een geluid afspelen wanneer de tijd verstreken is
 
 ```blocks3
-    play sound (pop v) until done
+    start geluid (pop v) en wacht
 ```
 
-Your game could also constantly play background music on a loop.
+Je spel kan ook continu achtergrondmuziek in een lus afspelen.
