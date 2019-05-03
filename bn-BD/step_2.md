@@ -6,7 +6,7 @@
 
 একটি নতুন স্ক্র্যাচ প্রকল্প খুলুন।
 
-**অনলাইন:** এ একটি নতুন অনলাইন ভূত প্রকল্পের খুলতে [rpf.io/scratchon](http://rpf.io/scratchon){: টার্গেট = "_ blank"}।
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
 
 **অফলাইন:** অফলাইন সম্পাদকটিতে একটি নতুন প্রকল্প খুলুন।
 
