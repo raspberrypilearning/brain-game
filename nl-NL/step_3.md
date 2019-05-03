@@ -1,43 +1,43 @@
 ## Uitdaging: Van uiterlijk veranderen
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- task \--- Maak een afteltimer op het speelveld met behulp van een nieuwe variabele genaamd `tijd`{:class="block3variables"}. De timer moet op 30 seconden beginnen met aftellen tot 0 seconden.
 
-![Stage sprite](images/stage-sprite.png)
+![Speelveld sprite](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Maak een `variabele`{:class="block3variables"}, noem hem 'tijd', en stel de waarde in op `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Voeg vervolgens code toe om `tijd`{:class="block3variables"} af te tellen tot 0 binnen 30 seconden. Om dit te doen, trek je elke `1` seconde `1` van `tijd`{:class="block3variables"} af, en herhaal dit totdat `tijd`{:class="block3variables"} gelijk is aan `0`.
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- /hint \--- \--- hint \--- Hier zijn de blokken die je nodig hebt:
 
 ```blocks3
-repeat until < >
+herhaal tot < >
 
 end
 
-wait (1) seconds
+wacht (1) sec.
 
-change [time v] by (1)
+verander [tijd v] met (1)
 
-(time)
+(tijd)
 
-when flag clicked
+wanneer op groene vlag wordt geklikt
 
 <() = ()>
 
-set [time v] to [0]
+maak [ tijd v] [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- /hint \--- \--- hint \--- Zo zou je nieuwe code er uit moeten zien:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
+wanneer op groene vlag wordt geklikt
+maak [tijd v] [30]
+herhaal tot <(tijd) = (0)> 
+  wacht (1) sec.
+  verander [tijd v] met (-1)
 end
 ```
 
@@ -47,17 +47,17 @@ end
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Maak een `zend signaal`{:class="block3control"} die het signaal 'einde' verstuurt. Een `zend signaal`{:class="block3control"} is als een aankondiging over een luidspreker: het kan worden gehoord door al je sprites. Voeg het `zend signaal`{:class="block3control"} blok toe aan het einde van de timercode zodat de code het signaal 'einde' verstuurt wanneer de `tijd`{:class="block3variables"} is afgeteld tot `0`.
 
-![Stage sprite](images/stage-sprite.png)
+![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    zend signaal (einde v)
 ```
 
 \--- /task \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- Selecteer je personage en voeg code toe zodat de sprite `stop andere scripts`{:class="block3control"} uitvoert wanneer het het signaal `einde`{:class="block3control"} ontvangt.
 
 ![Giga sprite](images/giga-sprite.png)
 
@@ -70,6 +70,6 @@ stop [andere scripts in sprite v]
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Test je spel opnieuw. Het moet vragen blijven stellen totdat de timer is afgeteld tot 0.
 
 \--- /task \---
