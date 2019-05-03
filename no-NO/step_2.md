@@ -6,7 +6,7 @@ Du skal begynne med å lage tilfeldige spørsmål som spilleren må svare på.
 
 Åpne et nytt Scratch-prosjekt.
 
-**Online:** Åpne et nytt online Scratch-prosjekt på [rpf.io/scratchon](http://rpf.io/scratchon){: target = "_ blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
 
 **Frakoblet:** Åpne et nytt prosjekt i offline-editoren.
 
