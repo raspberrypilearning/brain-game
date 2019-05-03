@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduction
+## परिचय
 
 In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### What you will make
+### आप क्या बनाएँगे
 
 \--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
@@ -23,7 +23,7 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: आप क्या सीखेंगे
 
 + How to use broadcasts in Scratch
 + How to create and use a custom Scratch block
@@ -32,13 +32,13 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: आपको किन चीज़ों की आवश्यकता होगी
 
-### Hardware
+### हार्डवेयर
 
-+ A computer capable of running Scratch 3
++ Scratch 3 चलाने में सक्षम कंप्यूटर
 
-### Software
+### सॉफ्टवेयर
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
@@ -46,7 +46,7 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
 
 \--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
 
