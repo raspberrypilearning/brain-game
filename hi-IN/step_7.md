@@ -1,4 +1,4 @@
-## Add graphics
+## ग्राफिक्स जोड़ना
 
 At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
@@ -14,7 +14,7 @@ Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' co
 
 Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![Character sprite](images/giga-sprite.png)
+![पात्र स्प्राइट](images/giga-sprite.png)
 
 ```blocks3
 if <(answer) = ((number 1)*(number 2))> then
@@ -131,4 +131,4 @@ Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
 Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
-![screenshot](images/brain-effects.png)
+![स्क्रीनशॉट](images/brain-effects.png)
