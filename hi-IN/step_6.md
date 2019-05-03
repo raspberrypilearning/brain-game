@@ -1,4 +1,4 @@
-## Challenge: create a start screen
+## चुनौती: प्रारंभ स्क्रीन
 
 Can you add another backdrop that is going to be the start screen for your game?
 
