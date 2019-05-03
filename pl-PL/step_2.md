@@ -6,7 +6,7 @@ Zaczniesz od stworzenia losowych pytań, na które gracz musi odpowiedzieć.
 
 Otwórz nowy projekt Scratch.
 
-**Online:** otwórz nowy projekt Scratcha na stronie [rpf.io/scratchon](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
 
 **Offline:** otwórz nowy projekt w edytorze offline.
 
