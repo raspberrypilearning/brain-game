@@ -1,8 +1,8 @@
 ---
-hero_image: Изображения / мозг game.png
+hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Мозговая игра
+title: Игра для мозга
 description: Узнайте, как создать тест
 version: 4.0.2
 last_tested: 2018-10-03
