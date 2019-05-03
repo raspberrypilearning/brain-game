@@ -6,7 +6,7 @@
 
 پروژه جدید خراش را باز کنید.
 
-**آنلاین:** پروژه جدید آنلاین Scratch را در [rpf.io/scratchon](http://rpf.io/scratchon){: target = "_ blank"} باز کنید.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
 
 **آفلاین:** پروژه جدید را در ویرایشگر آفلاین باز کنید.
 
