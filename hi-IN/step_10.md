@@ -1,4 +1,4 @@
-## Challenge: instruction screen
+## चुनौती: 10 अंकों की दौड़
 
 Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
