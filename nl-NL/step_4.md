@@ -1,11 +1,11 @@
 ## Uitdaging: Een score toevoegen
 
-Can you add a score to your game?
+Kun je een score toevoegen aan je spel?
 
-You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
+Je kunt een punt toevoegen voor elk correct antwoord dat de speler geeft. Als je gemeen bent, kun je zelfs de score van de speler op 0 zetten als ze een vraag verkeerd hebben!
 
 [[[generic-scratch3-high-score]]]
 
-Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+Kun jij je personage op het antwoord van de speler laten reageren door naar een ander uiterlijk over te schakelen als het antwoord goed of fout is?
 
 ![screenshot](images/brain-costume.png)
