@@ -8,11 +8,11 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: परिचय
+    title: भूमिका
   - 
     title: प्रश्न बनाना
   - 
-    title: 'चुनौती: पोशाक बदलना'
+    title: 'चुनौती: और ऑब्जेक्ट्स'
   - 
     title: 'चुनौती: स्कोर जोड़ना'
     challenge: true
@@ -33,4 +33,4 @@ steps:
     title: 'चुनौती: 10 अंकों की दौड़'
     challenge: true
   - 
-    title: 'चुनौती: निर्देश स्क्रीन'
+    title: आगे क्या?
