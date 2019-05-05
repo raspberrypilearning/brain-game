@@ -12,25 +12,25 @@ steps:
   - 
     title: Creu cwestiynau
   - 
-    title: 'Her: Newid gwisgoedd'
+    title: Ychwanegu Amserydd
   - 
-    title: 'Her: Ychwanegu sgôr'
+    title: 'Her: Ychwanegu sgôr ac ymatebion'
     challenge: true
   - 
     title: Gemau lluosog
   - 
-    title: 'Her: Dechrau''r gêm2'
+    title: 'Her: creu sgrin gychwynnol'
     challenge: true
   - 
     title: Ychwanegu graffeg
   - 
-    title: 'Her: Perffeithio dy animeiddiad'
+    title: 'Her: ychwanegu sain a cherddoriaeth'
     challenge: true
   - 
-    title: 'Her: Cerdd a Sain'
+    title: 'Her: ras i 10 pwynt'
     challenge: true
   - 
-    title: 'Her: Ras i 10 o bwyntiau'
+    title: 'Her: sgrîn cyfarwyddiadau'
     challenge: true
   - 
-    title: 'Her: Sgrin cyfarwyddiadau'
+    title: Beth nesaf?
