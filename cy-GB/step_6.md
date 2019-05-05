@@ -1,11 +1,11 @@
-## Challenge: create a start screen
+## Her: creu sgrin gychwynnol
 
-Can you add another backdrop that is going to be the start screen for your game?
+Wyt ti’n gallu ychwanegu cefndir arall i dy lwyfan ar gyfer dechrau’r gêm?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+Fe alli di ddefnyddio blociau `pan dderbyniaf dechrau`{:class="block3events"} a `pan dderbyniaf diwedd`{:class="block3events"} i newid rhwng cefndiroedd.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+Fe alli di hefyd ddangos a chuddio dy gymeriad, a hyd yn oed dangos a chuddio dy amserydd yn defnyddio’r blociau yma `dangos`{:class="block3looks"} a `cuddio`{:class="block3looks"}.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+I ddangos neu guddio amserydd a sgôr pan mae'r gêm yn newid rhwng cefndiroedd, mae modd defnyddio blociau `dangos newidyn`{:class="block3variables"} a `cuddio newidyn`{:class="block3variables"}.
 
-![Start screen](images/brain-startscreen.png)
+![Cychwyn sgrîn](images/brain-startscreen.png)
