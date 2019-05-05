@@ -6,13 +6,13 @@ Fe wnawn ni ychwanegu botwm ‘chwarae’ i dy gêm fel dy fod di’n gallu chwa
 
 Fe alli di ei lunio dy hunan, neu olygu corlun o lyfrgell Scratch.
 
-![Picture of the play button](images/brain-play.png)
+![Llun o'r botwm chwarae](images/brain-play.png)
 
 \--- /task \---
 
 \--- task \--- Ychwanega'r côd yma i gorlun dy fotwm:
 
-![Button sprite](images/button-sprite.png)
+![Corlun botwm](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -33,7 +33,7 @@ Ar hyn o bryd, mae'r cymeriad yn gofyn cwestiynau pan mae'r chwareuwr yn clicio 
 
 \--- task \--- Dewisa dy gymeriad, ac yn yr adran gôd, ailosoda `pan fo baner wedi ei glicio`{:class="block3events"} gyda `pan dderbyniaf dechrau`{:class="block3events"}.
 
-![Character sprite](images/giga-sprite.png)
+![Corlun cymeriad](images/giga-sprite.png)
 
 ```blocks3
 <br />- when flag clicked
@@ -52,23 +52,23 @@ end
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Clicia’r faner werdd ac yna clicia dy fotwm 'chwarae' newydd i’w brofi. Ni ddylai’r gêm gychwyn tan fod y botwm yn cael ei glicio.
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+A wnes di sylwi fod yr amserydd yn cychwyn pan mae’r faner werdd wedi ei chlicio, ond nid pan mae’r gêm yn cychwyn?
 
-![Timer has started](images/brain-timer-bug.png)
+![Amserydd wedi dechrau](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Alli di newid y côd yr amserydd fel fod yr amserydd yn cychwyn pan mae'r chwareuwr yn clicio ar y botwm?
 
 \--- /task \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+Fe alli di nawr ychwanegu côd i dy fotwm i’w ddangos eto ar ddiwedd pob gêm.
 
-![Button sprite](images/button-sprite.png)
+![Corlun botwm](images/button-sprite.png)
 
 ```blocks3
     when I receive [end v]
@@ -79,11 +79,11 @@ Can you change the code for the timer so that the timer starts when the player c
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Profa dy fotwm 'chwarae' trwy chwarae cwpwl o gemau. Fe ddyle ti sylwi fod y botwm chwarae yn dangos ar ôl pob gêm.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+I wneud y profi yn gynt, fe alli di leihau pob gêm trwy newid gwerth yr `amser`{:class="block3variables"} fel fod pob gêm ond yn para rhai eiliadau.
 
-![Stage](images/stage-sprite.png)
+![Llwyfan](images/stage-sprite.png)
 
 ```blocks3
     set [time v] to [10]
@@ -91,9 +91,9 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- Fe alli di newid sut mae'r botwm yn edrych pan mae'r llygoden arno.
 
-![Button](images/button-sprite.png)
+![Botwm](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -107,4 +107,4 @@ To test the game more quickly, you can change the value of `time`{:class="block3
     end
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![sgrinlun](images/brain-fisheye.png) \--- /task \---
