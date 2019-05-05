@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Dyma fersiwn **Scratch 3** y prosiect. Ceir hefyd [fersiwn Scratch 2 o'r prosiect](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Cyflwyniad
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 30 eiliad i roi cymaint o atebion cywir â phosibl.
 
-### What you will make
+### Yr hyn byddi di'n ei greu
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Clicia'r botwm i ddechrau. Teipia'r ateb i'r cwestiwn, yna pwya <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -21,11 +21,11 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 \--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
 
-## \--- collapse \---
+## \---collapse\---
 
-## title: What you will learn
+## title: Yr hyn byddi di'n ei ddysgu
 
-+ How to use broadcasts in Scratch
++ Sut i ddefnyddio darllediadau yn Scratch
 + How to create and use a custom Scratch block
 
 \--- /collapse \---
