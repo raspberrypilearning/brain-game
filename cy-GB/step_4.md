@@ -1,11 +1,11 @@
-## Challenge: add a score and reactions
+## Her: Ychwanegu sgôr ac ymatebion
 
-Can you add a score to your game?
+Alli di ychwanegu sgôr i dy gêm?
 
-You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
+Fe alli di ychwanegu pwynt ar gyfer pob ateb cywir. Fe alli di hyd yn oed ail-osod sgôr dy chwareuwr i 0 os ydynt yn cael cwestiwn yn anghywir!
 
 [[[generic-scratch3-high-score]]]
 
-Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+Alli di wneud i dy gymeriad ymateb i ateb dy chwareuwr wrth newid i wisg gwahanol os yw'r ateb yn gywir neu anghywir?
 
 ![screenshot](images/brain-costume.png)
