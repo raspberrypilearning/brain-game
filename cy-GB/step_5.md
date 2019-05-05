@@ -1,16 +1,16 @@
-## Multiple games
+## Gemau lluosog
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Fe wnawn ni ychwanegu botwm ‘chwarae’ i dy gêm fel dy fod di’n gallu chwarae sawl gwaith.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- Bydd angen creu corlun botwm ‘Chwarae’, sef beth fydd y chwareuwr yn clicio i ddechrau gêm newydd.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Fe alli di ei lunio dy hunan, neu olygu corlun o lyfrgell Scratch.
 
 ![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- Ychwanega'r côd yma i gorlun dy fotwm:
 
 ![Button sprite](images/button-sprite.png)
 
@@ -25,13 +25,13 @@ You can draw the sprite yourself, or edit a sprite from the library.
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Mae'r côd newydd yma yn cynnwys bloc arall `darlledu`{:class="block3events"}, sydd yn anfon neges i 'ddechrau'.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Mae'r côd newydd yn gwneud i'r corlun 'Chwarae' ymddangos pan mae'r chwareuwr yn clicio ar y faner. Pan fydd y botwm yn cael ei glicio, fe fydd yn cuddio a darlledu neges fydd yn cychwyn y gêm.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+Ar hyn o bryd, mae'r cymeriad yn gofyn cwestiynau pan mae'r chwareuwr yn clicio ar y faner. Bydd angen i ti olygu côd dy gymeriad fel bod y gêm yn cychwyn pan mae’n derbyn neges `dechrau`{:class="block3events"}.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- Dewisa dy gymeriad, ac yn yr adran gôd, ailosoda `pan fo baner wedi ei glicio`{:class="block3events"} gyda `pan dderbyniaf dechrau`{:class="block3events"}.
 
 ![Character sprite](images/giga-sprite.png)
 
