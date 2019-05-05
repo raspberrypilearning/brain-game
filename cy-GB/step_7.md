@@ -6,7 +6,7 @@ Yn lle bod dy gymeriad ond yn dweud `ie! :)` neu `na :(`, beth am ychwanegu peth
 
 Bydd angen creu corlun newydd o’r enw ‘Canlyniad’, yn cynnwys gwisg ‘tic’ a ‘chroes’.
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![Corlun tic a chroes](images/brain-result.png)
 
 \--- /task \---
 
@@ -14,7 +14,7 @@ Bydd angen creu corlun newydd o’r enw ‘Canlyniad’, yn cynnwys gwisg ‘tic
 
 Newida côd dy gymeriad, fel ei fod yn `darlledu`{:class="block3events"} negeseuon 'cywir' ac 'anghywir'.
 
-![Character sprite](images/giga-sprite.png)
+![Corlun cymeriad](images/giga-sprite.png)
 
 ```blocks3
 if <(answer) = ((number 1)*(number 2))> then
@@ -33,7 +33,7 @@ end
 
 Fe alli di nawr ddefnyddio’r negeseuon yma i `ddangos`{:class="block3looks"} y wisg ‘tic’ neu ‘groes’. Ychwanega’r côd yma i dy gorlun ‘Canlyniad’:
 
-![Result sprite](images/result-sprite.png)
+![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -56,27 +56,27 @@ Fe alli di nawr ddefnyddio’r negeseuon yma i `ddangos`{:class="block3looks"} y
 
 \--- task \--- Profa dy gêm eto. Fe ddyle ti weld tic pan gei di ateb yn gywir, a chroes pan gei di ateb yn anghywir!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![Tic i cywir, croes i anghywir](images/brain-test-answer.png)
 
 \--- /task \---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+Wyt ti wedi sylwi fod y côd `pan dderbyniaf cywir`{:class="block3events"} a `pan dderbyniaf anghywir`{:class="block3events"} bron yn union yr un peth?
 
-So you can change your code more easily, you are going to create a custom block.
+Fe wnawn ni greu gweithred i wneud hi’n hawdd i ti wneud newidiadau i dy gôd.
 
 \--- task \---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+Dewisa'r corlun 'Canlyniad'. Clicia `Mwy o flociau`{:class="block3myblocks"} yna **Creu Bloc**. Bydd angen creu bloc newydd o’r enw `animeiddio`{:class="block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![Corlun canlyniad](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![Creu bloc o'r enw animeiddio](images/brain-animate-function.png)
 
 \--- /task \---
 
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+\--- task \--- Symuda'r côd i `ddangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} y 'Canlyniad' yn y bloc `animeiddio`{:class="block3myblocks"}:
 
-![Result sprite](images/result-sprite.png)
+![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
 define animate
@@ -87,11 +87,11 @@ hide
 
 \--- /task \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+-- task \--- Sicrha dy fod wedi tynnu'r blociau `dangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} o dan **y ddau floc** o'r `newid gwisgoedd`{:class="block3looks"}.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+Yna ychwanega'r bloc `animeiddio`{:class="block3myblocks"} o dan y ddau floc `newid gwisgoedd`{:class="block3looks"}. Fe ddylai dy gôd edrych fel hyn:
 
-![Result sprite](images/result-sprite.png)
+![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -105,17 +105,17 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+Oherwydd y bloc `animeiddio`{:class="block3myblocks"}, rwyt ti ond angen gwneud un newid i dy gôd os wyt ti eisiau dangos gwisg 'Canlyniad' dy gorlun am amser llai neu hirach.
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+Newida dy gôd fel bod y wisg 'tic' neu 'groes' yn ymddangos am 2 eiliad.
 
 \--- /task \---
 
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+\--- task \--- Yn hytrach na `dangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} y wisg 'tic' neu 'groes', fe alli di newid dy floc`animeiddio`{:class="block3myblocks"} fel bod y wisg yn pylu mewn.
 
-![Result sprite](images/result-sprite.png)
+![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
     define animate
@@ -129,6 +129,6 @@ Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Alli di wella animeiddiad y 'tic' a'r 'groes'? Fe alli di ychwanegu côd fel bod y wisg yn pylu allan hefyd, neu ddefnyddio effeithiau cŵl arall:
 
-![screenshot](images/brain-effects.png)
+![sgrinlun](images/brain-effects.png)
