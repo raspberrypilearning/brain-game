@@ -1,13 +1,13 @@
-## Challenge: sound and music
+## Her: ychwanegu sain a cherddoriaeth
 
-Can you add sound effects and music to your game? For example, you could have your game:
+Wyt ti’n gallu ychwanegu effeithiau cerddorol i dy gêm? Er enghraifft:
 
-+ Play a sound when the player gives a correct or incorrect answer
-+ Play a ticking sound as the countdown timer runs
-+ Play a sound when the player's time is up
++ Chwarae sain pan mae’r chwareuwr yn cael ateb yn iawn neu’n anghywir
++ Ychwanegu sain cloc i’r amserydd
++ Chwarae sain pan mae’r amser ar ben
 
 ```blocks3
     play sound (pop v) until done
 ```
 
-Your game could also constantly play background music on a loop.
+Fe alli di hefyd chwarae cerddoriaeth drosodd a throsodd.
