@@ -26,30 +26,30 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 ## title: Yr hyn byddi di'n ei ddysgu
 
 + Sut i ddefnyddio darllediadau yn Scratch
-+ How to create and use a custom Scratch block
++ Sut i greu a defnyddio bloc Scratch
 
 \--- /collapse \---
 
-## \--- collapse \---
+## \---collapse\---
 
-## title: What you will need
+## title: Beth fydd ei angen arno ti
 
-### Hardware
+### Caledwedd
 
-+ A computer capable of running Scratch 3
++ Cyfrifiadur sy'n gallu rhedeg Scratch 3
 
-### Software
+### Meddalwedd
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (unai [arlein](http://rpf.io/scratchon){:target="_blank"} neu [all-lein](http://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
-## \--- collapse \---
+## \---collapse\---
 
-## title: Additional notes for educators
+## title: Gwybodaeth ychwanegol i addysgwyr
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \---Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Gallwch chi ddod o hyd i'r ateb ar gyfer y prosiect hwn [yma ](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
