@@ -1,8 +1,8 @@
-## Challenge: race to 10 points
+## Her: ras i 10 pwynt
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+Wyt ti’n gallu newid dy gêm, fel yn hytrach nag ateb cymaint o gwestiynau a phosib mewn 30 eiliad, fod y chwareuwr yn gweld pa mor gyflym mae modd cael 10 o gwestiynau yn gywir.
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+I wneud hyn, bydd angen i ti newid côd yr amserydd. Wyt ti’n gallu gweld beth sydd angen ei newid?
 
 ```blocks3
     when I receive [start v]
