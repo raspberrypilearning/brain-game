@@ -8,4 +8,4 @@ Fe alli di ychwanegu pwynt ar gyfer pob ateb cywir. Fe alli di hyd yn oed ail-os
 
 Alli di wneud i dy gymeriad ymateb i ateb dy chwareuwr wrth newid i wisg gwahanol os yw'r ateb yn gywir neu anghywir?
 
-![screenshot](images/brain-costume.png)
+![sgrinlun](images/brain-costume.png)
