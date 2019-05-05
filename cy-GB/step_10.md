@@ -1,10 +1,10 @@
-## Challenge: instruction screen
+## Her: sgrîn cyfarwyddiadau
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+Wyt ti’n gallu ychwanegu sgrin cyfarwyddiadau i dy gêm, sy’n dweud wrth dy chwareuwr sut i chwarae’r gêm? Fe fyddi di angen botwm ‘Cyfarwyddiadau’ a chefndir arall.
 
-![screenshot](images/brain-instructions.png)
+![sgrinlun](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Mae’n bosib y byddi di hefyd angen botwm ‘nôl’ i fynd yn ôl i’r prif ddewislen.
 
 ```blocks3
     broadcast (start screen v)
