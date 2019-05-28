@@ -1,4 +1,4 @@
-## Wat kun je verder nog doen?
+## Wat nu?
 
 Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! In dat project ga je leren hoe je klonen van sprites maakt en hoe je een variabele gebruikt om het spel geleidelijk te versnellen.
 
