@@ -6,7 +6,7 @@ Laten we beginnen met het maken van willekeurige vragen die de speler moet beant
 
 Open een nieuw Scratch project.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open een nieuw online Scratch project op [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
 
 **Offline:** open een nieuw project in de offline editor.
 
