@@ -1,4 +1,4 @@
-## Uitdaging: Verbeterde animatie
+## Uitdaging: geluid en muziek
 
 Kun je geluidseffecten en muziek toevoegen aan je spel? Bijvoorbeeld, je spel kan:
 
