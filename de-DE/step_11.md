@@ -1,8 +1,8 @@
-## Zusatzaufgabe: mehr Stifte
+## Was kommt als nächstes?
 
-Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
+Schau dir das Projekt [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) an, um herauszufinden wie man ein Reaktionsspiel erstellt! In diesem Projekt lernst du wie man Sprites klont und wie man eine Variable verwendet, um die Geschwindigkeit des Spiels schrittweise zu steigern.
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no-print \--- Verwende die Pfeiltasten deiner Tastatur um das Steuerrad zu drehen und fange die fliegenden Punkte wenn diese die Mitte erreicht haben. Bei drei nicht gefangenen Punkten ist das Spiel zu Ende.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
