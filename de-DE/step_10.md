@@ -1,10 +1,10 @@
-## Aufgabe: Wettrennen zu 10 Punkten
+## Herausforderung: Anleitungsbildschirm
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+Kannst du einen Bildschirm hinzufügen, auf dem Spieler erklärt wird wie das Spiel gespielt werden soll? Dafür brauchst du einen Button mit der Aufschrift 'Anleitung' und ein zusätzliches Bühnenbild.
 
 ![Screenshot](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Zusätzlich benötigst du einen 'Zurück'-Button, der den Spieler wieder zum Startbildschirm zurückbringt.
 
 ```blocks3
     broadcast (start screen v)
