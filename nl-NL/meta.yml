@@ -12,7 +12,7 @@ steps:
   - 
     title: Vragen maken
   - 
-    title: Een timer toevoegen
+    title: Een tijdklok toevoegen
   - 
     title: 'Uitdaging: voeg een score en reacties toe'
     challenge: true
