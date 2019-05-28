@@ -12,7 +12,7 @@ steps:
   - 
     title: Fragen zusammenstellen
   - 
-    title: Timer hinzufügen
+    title: Einen Timer hinzufügen
   - 
     title: 'Aufgabe: Eine Punktzahl hinzufügen'
     challenge: true
@@ -22,15 +22,15 @@ steps:
     title: 'Aufgabe: Start-Bildschirm'
     challenge: true
   - 
-    title: Grafik hinzufügen
+    title: Grafiken hinzufügen
   - 
-    title: 'Aufgabe: Verbesserte Animation'
+    title: 'Herausforderung: Klänge und Musik'
     challenge: true
   - 
-    title: 'Aufgabe: Sound und Musik'
+    title: 'Herausforderung: 10-Punkte-Partie'
     challenge: true
   - 
-    title: 'Aufgabe: Wettrennen zu 10 Punkten'
+    title: 'Herausforderung: Anleitungsbildschirm'
     challenge: true
   - 
-    title: 'Zusatzaufgabe: mehr Stifte'
+    title: Was kommt als nächstes?
