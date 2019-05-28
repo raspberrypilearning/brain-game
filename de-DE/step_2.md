@@ -1,26 +1,26 @@
 ## Fragen zusammenstellen
 
-You're going to start by creating random questions that the player has to answer.
+Du beginnst damit, zufällige Aufgaben zu erzeugen, die der Spieler beantworten soll.
 
 \--- task \---
 
-Open a new Scratch project.
+Erstelle ein neues Scratch-Projekt.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** Erstelle ein neues Scratch-Projekt unter [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
 
-**Offline:** open a new project in the offline editor.
+**Offline:** Erstelle im Offline-Editor ein neues Projekt.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+\--- task \--- Füge in dein Spiel eine Spielfigur und einen Hintergrund ein. Du kannst frei wählen! Hier ein Beispiel:
 
 ![Screenshot](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- task \--- Achte darauf, dass du deine Spielfigur ausgewählt hast. Erstelle zwei neue Variablen mit der Bezeichnung `Zahl 1`{:class="block3variables"} und `Zahl 2`{:class="block3variables"}, um die Zahlen für deine Quizfragen zu speichern.
 
 ![screenshot](images/giga-sprite.png) ![Screenshot](images/brain-variables.png)
 
@@ -28,19 +28,19 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- /task \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- task \--- Füge deiner Spielfigur Programmblöcke hinzu, damit du beiden `Variablen`{:class="block3variables"} eine `Zufallszahl`{:class="block3operators"} zwischen 2 und 12 zuordnen kannst.
 
 ![Screenshot](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+Wenn die grüne Flagge angeklickt
+setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
+setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
 ```
 
 \--- /task \---
 
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+\--- task \--- Stelle dem Spieler mit dem Programmblock`frage`{:class="block3sensing"} eine Frage die dieser beantworten soll. Mit dem Programmblock `sage für 2 Sekunden`{:class="block3looks"} gibst du an, ob die Antwort richtig oder falsch war:
 
 ![Screenshot](images/giga-sprite.png)
 
@@ -61,17 +61,17 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+Überprüfe dein Projekt indem du einmal die Frage richtig und einmal falsch beantwortest.
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+Füge eine `wiederhole fortlaufend` Schleife um die bisherigen Blöcke, sodass dem Spieler eine Menge Fragen hintereinander gestellt werden.
 
 \--- hints \--- \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+Du musst einen `wiederhole fortlaufend`{:class="block3control"} Programmblock hinzufügen und den gesamten Code außer `wenn Fahne angeklickt wird`{:class="block3control"} in diese Schleife geben.
 
 \--- /hint \--- \--- hint \--- Here is the block you need:
 
@@ -80,7 +80,7 @@ forever
 end
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- So sollte dein Programmiercode aussehen:
 
 ```blocks3
 when flag clicked
