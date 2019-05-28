@@ -1,4 +1,4 @@
-## Uitdaging: Race naar 10 punten
+## Uitdaging: instructiescherm
 
 Kun je een instructiescherm aan je spel toevoegen en je speler uitleggen hoe het spel moet worden gespeeld? Je hebt hiervoor een knop 'Instructies' en een extra achtergrond nodig.
 
