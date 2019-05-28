@@ -1,4 +1,4 @@
-## Uitdaging: Van uiterlijk veranderen
+## Een tijdklok toevoegen
 
 \--- task \--- Maak een afteltimer op het speelveld met behulp van een nieuwe variabele genaamd `tijd`{:class="block3variables"}. De timer moet op 30 seconden beginnen met aftellen tot 0 seconden.
 
@@ -10,7 +10,7 @@ Maak een `variabele`{:class="block3variables"}, noem hem 'tijd', en stel de waar
 
 Voeg vervolgens code toe om `tijd`{:class="block3variables"} af te tellen tot 0 binnen 30 seconden. Om dit te doen, trek je elke `1` seconde `1` van `tijd`{:class="block3variables"} af, en herhaal dit totdat `tijd`{:class="block3variables"} gelijk is aan `0`.
 
-\--- /hint \--- \--- hint \--- Hier zijn de blokken die je nodig hebt:
+\--- /hint \--- \--- hint \--- Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
 herhaal tot < >
