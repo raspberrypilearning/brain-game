@@ -33,9 +33,9 @@ Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o h
 ![sgrinlun](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+pan fo'r flag werdd yn cael ei glicio
+gosod [rhif 1 v] i (dewis ar hap (2) i (12))
+gosod [rhif 2 v] i (dewis ar hap (2) i (12))
 ```
 
 \--- /task \---
@@ -45,15 +45,15 @@ set [number 2 v] to (pick random (2) to (12))
 ![sgrinlun](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+pan fo'r flag werdd yn cael ei glicio
+gosod [rhif 1 v] i (dewis ar hap (2) i (12))
+gosod [rhif 2 v] i (dewis ar hap (2) i (12))
 
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
++ gofyn (uno (rhif 1) (uno [ x ] (rhif 2))) ac aros
++ os <(ateb) = ((rhif 1) * (rhif 2))> yna 
++ dweud [Ie! :)] am (2) eiliad
++ fel arall 
++ dweud [Na :(] am (2) eiliad
 + end
 ```
 
@@ -76,24 +76,24 @@ Mae angen i ti ychwanegu bloc `am byth`{:class="block3control"}, a rhoi'r côd i
 \--- /hint \--- \--- hint \--- Dyma'r bloc côd rwyt ti eu hangen:
 
 ```blocks3
-forever
+am byth
 end
 ```
 
 \--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych:
 
 ```blocks3
-when flag clicked
++ pan fo'r flag werdd yn cael ei glicio
 
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
+am byth 
+  gosod [rhif 1 v] i (dewis ar hap (2) i (12))
+  gosod [rhif 2 v] i (dewis ar hap (2) i (12))
+  gofyn (uno (rhif 1) (uno [ x ] (rhif 2))) ac aros
+  os <(ateb) = ((rhif 1) * (rhif 2))> yna 
+    dweud [Ie! :)] am (2) eiliad
+  fel arall 
+    dweud [Na :(] am (2) eiliad
+  end
 end
 ```
 
