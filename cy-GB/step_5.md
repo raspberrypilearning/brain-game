@@ -15,12 +15,12 @@ Fe alli di ei lunio dy hunan, neu olygu corlun o lyfrgell Scratch.
 ![Corlun botwm](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    pan fo'r flag werdd yn cael ei glicio
+dangos
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+pan gaiff y ciplun yma ei glicio
+cuddio
+darlledu (start v)
 ```
 
 \--- /task \---
@@ -36,15 +36,15 @@ Ar hyn o bryd, mae'r cymeriad yn gofyn cwestiynau pan mae'r chwareuwr yn clicio 
 ![Corlun cymeriad](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
+<br />- pan fo'r flag werdd yn cael ei glicio
++ pan rwy'n derbyn [start v]
+gosod [rhif 1 v] i (dewis ar hap (2) i (12))
+gosod [rhif 2 v] i (dewis ar hap (2) i (12))
+gofyn (uno (rhif 1) (uno [ x ] (rhif 2))) ac aros
+os <(ateb) = ((rhif 1) * (rhif 2))> yna 
+  dweud [Ie! :)] am (2) eiliad
+fel arall 
+  dweud [Na :(] am (2) eiliad
 end
 ```
 
@@ -71,8 +71,8 @@ Fe alli di nawr ychwanegu côd i dy fotwm i’w ddangos eto ar ddiwedd pob gêm.
 ![Corlun botwm](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    pan rwy'n derbyn [end v]
+dangos
 ```
 
 \--- /task \---
@@ -86,7 +86,7 @@ I wneud y profi yn gynt, fe alli di leihau pob gêm trwy newid gwerth yr `amser`
 ![Llwyfan](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    gosod [amser v] i [10]
 ```
 
 \--- /task \---
@@ -96,15 +96,15 @@ I wneud y profi yn gynt, fe alli di leihau pob gêm trwy newid gwerth yr `amser`
 ![Botwm](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    pan fo'r flag werdd yn cael ei glicio
+dangos
+am byth 
+  os <cyffwrdd (mouse-pointer v) ?> yna 
+    gosod effaith [fisheye v] effaith i (30)
+  fel arall 
+    gosod effaith [fisheye v] effaith i (0)
+  end
+end
 ```
 
 ![sgrinlun](images/brain-fisheye.png) \--- /task \---
