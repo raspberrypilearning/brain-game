@@ -13,31 +13,30 @@ Yna ychwanegu côd i gyfrif `amser`{:class="block3variables"} lawr i 0 o 30 eili
 \--- /hint \--- \--- hint \--- Dyma'r blociau rwyt ti eu hangen:
 
 ```blocks3
-repeat until < >
-
+ailadrodd hyd at <>
 end
 
-wait (1) seconds
+aros (1) eiliad
 
-change [time v] by (1)
+newid [amser v] gan (1)
 
-(time)
+(amser)
 
-when flag clicked
+pan fo'r flag werdd yn cael ei glicio
 
 <() = ()>
 
-set [time v] to [0]
+gosod [amser v] i [0]
 ```
 
 \--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
+pan fo'r flag werdd yn cael ei glicio
+gosod [amser v] i [30]
+ailadrodd hyd at <(amser) = (0)> 
+  aros (1) eiliad
+  newid [amser v] gan (-1)
 end
 ```
 
@@ -52,7 +51,7 @@ Creu `darllediad`{:class="block3control"} sy'n anfon y neges 'diwedd'. Mae `darl
 ![Corlun llwyfan](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    darlledu (end v)
 ```
 
 \--- /task \---
@@ -62,8 +61,8 @@ Creu `darllediad`{:class="block3control"} sy'n anfon y neges 'diwedd'. Mae `darl
 ![Corlun giga](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    pan rwy'n derbyn [end v]
+aros [other scripts in sprite v]
 ```
 
 \--- /task \---
