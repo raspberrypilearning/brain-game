@@ -17,13 +17,12 @@ Newida côd dy gymeriad, fel ei fod yn `darlledu`{:class="block3events"} negeseu
 ![Corlun cymeriad](images/giga-sprite.png)
 
 ```blocks3
-if <(answer) = ((number 1)*(number 2))> then
-
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
+os <(ateb) = ((rhif 1) * (rhif 2))> yna 
+-  dweud [Ie! :)] am (2) eiliad
++ darlledu (correct v)
+fel arall 
+-  dweud [Na :(] am (2) eiliad
++ darlledu (wrong v)
 end
 ```
 
@@ -36,20 +35,20 @@ Fe alli di nawr ddefnyddio’r negeseuon yma i `ddangos`{:class="block3looks"} y
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+    pan rwy'n derbyn [correct v]
+newid gwisg i (tick v)
+dangos
+aros (1) eiliad
+cuddio
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
+pan rwy'n derbyn [wrong v]
+newid gwisg i (cross v)
+dangos
+aros (1) eiliad
+cuddio
 
-    when flag clicked
-    hide
+pan fo'r flag werdd yn cael ei glicio
+cuddio
 ```
 
 \--- /task \---
@@ -79,10 +78,10 @@ Dewisa'r corlun 'Canlyniad'. Clicia `Mwy o flociau`{:class="block3myblocks"} yna
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+diffinio animeiddio
+dangos
+aros (1) eiliad
+cuddio
 ```
 
 \--- /task \---
@@ -94,13 +93,13 @@ Yna ychwanega'r bloc `animeiddio`{:class="block3myblocks"} o dan y ddau floc `ne
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    pan rwy'n derbyn [correct v]
+newid gwisg i (tick v)
+animeiddio :: custom
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+pan rwy'n derbyn [wrong v]
+newid gwisg i (cross v)
+animeiddio :: custom
 ```
 
 \--- /task \---
@@ -118,13 +117,13 @@ Newida dy gôd fel bod y wisg 'tic' neu 'groes' yn ymddangos am 2 eiliad.
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    diffinio animeiddio
+gosod effaith [ghost v] effaith i (100)
+dangos
+ailadrodd (25) 
+  newid effaith [ghost v] gan (-4)
+end
+cuddio
 ```
 
 \--- /task \---
