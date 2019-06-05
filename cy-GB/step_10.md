@@ -7,5 +7,5 @@ Wyt ti’n gallu ychwanegu sgrin cyfarwyddiadau i dy gêm, sy’n dweud wrth dy 
 Mae’n bosib y byddi di hefyd angen botwm ‘nôl’ i fynd yn ôl i’r prif ddewislen.
 
 ```blocks3
-    broadcast (start screen v)
+    darlledu (start screen v)
 ```
