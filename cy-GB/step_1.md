@@ -35,4 +35,4 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + "Ras i 10 pwynt" - newid rhesymeg y gêm i roi amcan newydd i'r gêm; 
 + "Sgrin gyfarwyddiadau" - atgyfnerthu defnyddio darlledu i greu dewislen i'r gêm, trwy ychwanegu botwm a sgrin 'cyfarwyddiadau'. 
 
---- collapse ---
+--- /collapse ---
