@@ -50,6 +50,6 @@
 
 \--- بدون چاپ \--- اگر شما نیاز به چاپ این پروژه، لطفا با استفاده از [نسخه چاپی مناسب نسخه](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
 
-راه حل [برای این پروژه را در اینجا پیدا کنید](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /سقوط - فروپاشی \---
