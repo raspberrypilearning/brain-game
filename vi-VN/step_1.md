@@ -50,6 +50,6 @@ Trong dự án này, bạn sẽ tạo ra một trò chơi đố toán học tron
 
 \--- không-in \--- Nếu bạn cần in dự án này, xin vui lòng sử dụng [phiên bản máy in thân thiện với](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / không in \---
 
-Tìm giải pháp [cho dự án này tại đây](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
