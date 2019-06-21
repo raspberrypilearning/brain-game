@@ -50,6 +50,6 @@
 
 \--- no-print \--- 如果您需要打印此項目，請使用 [個適合打印的版本](https://projects.raspberrypi.org/en/projects/brain-game/print)。 \--- /無印刷\---
 
-在這裡找到這個項目的 [解決方案](http://rpf.io/p/en/brain-game-get){：target =“_ blank”}。
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 - - /坍方 - -
