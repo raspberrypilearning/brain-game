@@ -50,6 +50,6 @@ W tym projekcie stworzysz grę quizów matematycznych, w której gracz ma 30 sek
 
 \--- no-print \--- Jeśli chcesz wydrukować ten projekt, użyj [wersji](https://projects.raspberrypi.org/en/projects/brain-game/print)przyjaznej dla drukarki. \--- / brak wydruku \---
 
-Znajdź rozwiązanie [dla tego projektu tutaj](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
