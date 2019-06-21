@@ -50,6 +50,6 @@ I dette prosjektet vil du opprette et mattequiz-spill hvor spilleren har 30 seku
 
 \--- no-print \--- Hvis du trenger å skrive ut dette prosjektet, vennligst bruk [utskriftsvennlig versjon](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
 
-Finn [løsningen for dette prosjektet her](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- / kollaps \---
