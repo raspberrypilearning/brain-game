@@ -50,6 +50,6 @@ V tomto projektu vytvoříte hru, ve které hráč během 30 sekund odpovídá n
 
 \--- no-print \--- Potřebujete-li tento projekt vytisknout, použijte verzi [pro-tisk](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
 
-Řešení pro tento projekt [naleznete zde](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
