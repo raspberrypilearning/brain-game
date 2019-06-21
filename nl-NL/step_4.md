@@ -1,4 +1,4 @@
-## Uitdaging: Een score toevoegen
+## Uitdaging: een score toevoegen
 
 Kun je een score toevoegen aan je spel?
 
