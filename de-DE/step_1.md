@@ -50,6 +50,6 @@ Drücke den Start-Button. Gib die Antwort ein und bestätige mit <kbd>Enter</kbd
 
 \--- no-print\--- Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/brain-game/print){: target="_blank"}. \--- /no-print \---
 
-Hier finden Sie die [Lösung für dieses Projekt](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
