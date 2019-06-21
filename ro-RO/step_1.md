@@ -50,6 +50,6 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există , de asemenea , o [v
 
 \--- fără imprimare \--- Dacă aveți nevoie pentru a imprima acest proiect, vă rugăm să folosiți [versiune pentru tipărire](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / nu-imprimare \---
 
-Găsiți soluția [pentru acest proiect aici](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
