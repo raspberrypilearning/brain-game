@@ -50,6 +50,6 @@ I dette projekt opretter du et matematisk quiz-spil, hvor spilleren har 30 sekun
 
 \--- no-print \--- Hvis du har brug for at udskrive dette projekt, skal du bruge den [printervenlige version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
 
-Find [løsningen til dette projekt her](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
