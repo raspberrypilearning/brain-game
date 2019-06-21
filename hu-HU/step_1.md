@@ -50,6 +50,6 @@ Ebben a projektben létrehoz egy matematikai kvíz játékot, amelyben a játék
 
 \--- no-print \--- Ha ki kell nyomtatnia ezt a projektet, kérjük, használja az [nyomtatóbarát változat](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / nincs nyomtatás \---
 
-Keresse meg a [megoldást erre a projektre](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- / összeomlás \---
