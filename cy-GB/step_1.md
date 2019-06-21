@@ -50,6 +50,6 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 
 \--- no-print \---Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
 
-Gallwch chi ddod o hyd i'r ateb ar gyfer y prosiect hwn [yma ](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
