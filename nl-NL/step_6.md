@@ -1,19 +1,11 @@
---- challenge ---
-
 ## Uitdaging: startscherm
 
-Kun je een nieuwe achtergrond toevoegen aan je podium, wat het startscherm van je spel wordt? Je kunt de `wanneer ik start ontvang`{:class="blockevents"} en `wanneer ik einde ontvang`{:class="blockevents"} blokken gebruiken om te schakelen tussen achtergronden.
+Kun je nog een achtergrond toevoegen die het startscherm van je spel zal zijn?
 
-Je kunt ook je personage tonen en verbergen en zelfs je timer tonen en verbergen door deze blokken te gebruiken:
+Je kunt de `wanneer ik start ontvang`{:class="block3events"} en `wanneer ik einde ontvang`{:class="block3events"} blokken gebruiken om te schakelen tussen de achtergronden.
 
-```blocks
-toon variabele [time v]
-```
+Om het personage weer te geven of te verbergen wanneer het spel tussen achtergronden schakelt, kun je `verschijn`{:class="block3looks"} en `verdwijn`{:class="block3looks"} blokken gebruiken.
 
-```blocks
-verberg variabele [time v]
-```
+Om de timer en score te tonen of te verbergen wanneer je spel wisselt tussen de achtergronden, kun je `toon variabele`{:class="block3variables"} en `verberg variabele`{:class="block3variables"} blokken gebruiken.
 
-![screenshot](images/brain-startscreen.png)
-
---- /challenge ---
+![Startscherm](images/brain-startscreen.png)

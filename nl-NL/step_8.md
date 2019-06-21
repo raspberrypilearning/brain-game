@@ -1,9 +1,13 @@
---- challenge ---
+## Uitdaging: geluid en muziek
 
-## Uitdaging: verbeterde animatie
+Kun je geluidseffecten en muziek toevoegen aan je spel? Bijvoorbeeld, je spel kan:
 
-Kun jij de animatie van je graphics verbeteren? Je kunt het vinkje en kruisje coderen zodat ze vervagen en verschijnen. Je kunt ook andere coole effecten gebruiken:
++ Een geluid afspelen wanneer de speler een correct of onjuist antwoord geeft
++ Een tikkend geluid afspelen als de timer loopt
++ Een geluid afspelen wanneer de tijd verstreken is
 
-![screenshot](images/brain-effects.png)
+```blocks3
+    start geluid (pop v) en wacht
+```
 
---- /challenge ---
+Je spel kan ook continu achtergrondmuziek in een lus afspelen.

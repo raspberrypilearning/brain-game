@@ -1,19 +1,11 @@
---- challenge ---
+## Uitdaging: instructiescherm
 
-## Uitdaging: race naar 10 punten
+Kun je een instructiescherm aan je spel toevoegen en je speler uitleggen hoe het spel moet worden gespeeld? Je hebt hiervoor een knop 'Instructies' en een extra achtergrond nodig.
 
-Kun je je spel veranderen, zodat de speler in plaats van zoveel vragen te beantwoorden als ze kunnen in 30 seconden, moet zien hoe snel ze 10 vragen goed kunnen beantwoorden?
+![screenshot](images/brain-instructions.png)
 
-Om dit te doen, hoef je alleen je timercode te wijzigen. Kun je zien wat er moet worden veranderd?
+Je moet mogelijk ook een 'Terug'-knop toevoegen waarmee de speler weer naar het startscherm kan terugkeren.
 
-```blocks
-    wanneer ik signaal [start v] ontvang
-maak [time v] (30)
-herhaal tot <(time) = [0]>
-   wacht (1) sec.
-   verander [time v] met (-1)
-einde
-zend signaal [einde v]
+```blocks3
+    zend signaal (startscherm v)
 ```
-
---- /challenge ---

@@ -1,74 +1,110 @@
 ## Meerdere spellen
 
-Laten we een 'speel' knop toevoegen aan je spel, zodat je heel vaak kunt spelen.
+Nu ga je een 'Speel'-knop toevoegen, zodat de speler je spel heel vaak kan spelen.
 
-+ Maak een nieuwe 'speel'-knop sprite, waarop je speler zal klikken om een ​​nieuw spel te starten. Je kunt het zelf tekenen of een sprite bewerken vanuit de Scratch-bibliotheek.
-    
-    ![screenshot](images/brain-play.png)
+--- task --- Maak een nieuwe 'Speel'-knop sprite waarop de speler moet klikken om een nieuw spel te starten.
 
-+ Voeg deze code toe aan je nieuwe knop.
-    
-```blocks
-  wanneer groene vlag wordt aangeklikt
+Je kunt de sprite zelf tekenen, of een sprite bewerken uit de bibliotheek.
+
+![Afbeelding van de speel-knop](images/brain-play.png)
+
+--- /task ---
+
+--- task --- Voeg deze code toe aan je knop sprite:
+
+![Knop-sprite](images/button-sprite.png)
+
+```blocks3
+    wanneer groene vlag wordt aangeklikt
   verschijn
 
   wanneer op deze sprite wordt geklikt
   verdwijn
-  zend signaal [start v]
+  zend signaal (start v)
 ```
 
-Deze code geeft de afspeelknop weer wanneer je project is gestart. Wanneer op de knop wordt geklikt, wordt deze verborgen en wordt vervolgens een bericht uitgezonden dat het spel start.
+--- /task ---
 
-+ Je moet de code van je personage bewerken, zodat het spel start wanneer het `start`{:class="blockevents"} bericht wordt ontvangen, en niet wanneer op de vlag wordt geklikt.
-    
-    Vervang de `wanneer op de vlag is geklikt`{:class="blockevents"} code met `wanneer ik start ontvang`{:class="blockevents"}.
-    
-    ![screenshot](images/brain-start.png)
+De nieuwe code bevat ook een `zend signaal`{:class="block3events"}-blok, dat het signaal 'start' verzendt.
 
-+ Klik op de groene vlag en klik vervolgens op je nieuwe knop om het te testen. Je zou moeten zien dat de game pas start als op de knop wordt geklikt.
+De nieuwe code zorgt ervoor dat de knop 'Speel' wordt weergegeven als de speler op de vlag klikt. Wanneer de speler op de knop sprite klikt, verbergt de sprite zich en zendt vervolgens een signaal uit waarop andere sprites kunnen reageren.
 
-+ Is het je opgevallen dat de timer start wanneer op de groene vlag wordt geklikt en niet wanneer het spel begint?
-    
-    ![screenshot](images/brain-timer-bug.png)
-    
-    Kun je dit probleem oplossen?
+Op dit moment begint de personage sprite vragen te stellen wanneer de speler op de vlag klikt. Verander de code van je spel zo dat de personage sprite begint vragen te stellen wanneer het het 'start' `zend signaal`{:class="block3events"} ontvangt.
 
-+ Klik op het werkgebied en vervang de `stop alles`{:class="blockcontrol"} blokkeren met een `einde`{:class="blockevents"} bericht.
-    
-    ![screenshot](images/brain-end.png)
+--- task --- Selecteer jouw personage sprite en vervang in de code sectie het `wanneer de groene vlag wordt geklikt`{:class="block3events"} blok met een `wanneer ik signaal start ontvang`{:class="block3events"} blok.
 
-+ Je kunt nu code aan je knop toevoegen om hem aan het eind van elk spel opnieuw te laten zien.
-    
-```blocks
-  wanneer ik signaal [einde v] ontvang
-  verschijn
-```
+![Personage-sprite](images/giga-sprite.png)
 
-+ Je moet ook voorkomen dat je karakter aan het einde van elk spel nog vragen stelt:
-    
-```blocks
-  wanneer ik signaal [einde v] ontvang
-  stop [andere scripts in sprite v]
-```
-
-+ Test je afspeelknop door een paar spelletjes te spelen. Je zou moeten opmerken dat de speel-knop na elk spel weer wordt weergegeven. Om het testen gemakkelijker te maken, kun je elke game inkorten, zodat deze maar een paar seconden duurt.
-    
-```blocks
-  maak [time v] [10]
-```
-
-+ Je kunt zelfs wijzigen hoe de knop eruitziet wanneer de muis eroverheen beweegt.
-    
-```blocks
-  wanneer groene vlag wordt aangeklikt
-verschijn
-herhaal 
-  als <0> dan 
-    zet effect [vissenoog v] op (30)
-  
-    zet effect [vissenoog v] op (0)
-  end
+```blocks3
+<br />- wanneer groene vlag wordt aangeklikt
++ wanneer ik signaal [start v] ontvang
+maak [nummer 1 v] (willekeurig getal tussen (2) en (12))
+maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
+vraag (voeg (nummer 1) en (voeg [ x ] en (nummer 2) samen) samen) en wacht
+als &lt;(antwoord) = ((nummer 1) * (nummer 2))&gt; dan 
+  zeg [goed! :)] (2) sec.
+anders
+  zeg [jammer :(] (2) sec.
 end
 ```
 
-![screenshot](images/brain-fisheye.png)
+--- /task ---
+
+--- task ---
+
+Klik op de groene vlag en klik vervolgens op de nieuwe knop 'Speel' om te testen of deze werkt. Je zou moeten zien dat het spel niet start voordat je op de knop klikt.
+
+--- /task ---
+
+Is het je opgevallen dat de timer start wanneer op de groene vlag wordt geklikt en niet wanneer het spel begint?
+
+![Timer is gestart](images/brain-timer-bug.png)
+
+--- task ---
+
+Kun je de code voor de timer zo veranderen dat de timer start wanneer de speler op de knop klikt?
+
+--- /task ---
+
+--- task --- Voeg code toe aan de knop-sprite zodat de knop aan het einde van elk spel opnieuw wordt weergegeven.
+
+![Knop-sprite](images/button-sprite.png)
+
+```blocks3
+    wanneer ik signaal [einde v] ontvang
+verschijn
+```
+
+--- /task ---
+
+--- task ---
+
+Test de knop 'Speel' door een paar spellen te spelen. De knop moet aan het einde van elk spel worden weergegeven.
+
+Om het spel sneller te testen, kun je de waarde van `tijd`{:class="block3variables"} wijzigen zodat elk spel slechts enkele seconden lang duurt.
+
+![Speelveld](images/stage-sprite.png)
+
+```blocks3
+    maak [time v] [10]
+```
+
+--- /task ---
+
+--- task --- Je kunt eventueel het uiterlijk van de knop veranderen wanneer de muisaanwijzer eroverheen zweeft.
+
+![Drukknop](images/button-sprite.png)
+
+```blocks3
+    wanneer groene vlag wordt aangeklikt
+  verschijn
+  herhaal
+    als <touching (mouse-pointer v)?> dan
+       zet [vissenoog v] effect op (30)
+    anders
+       zet [vissenoog v] effect op (0)
+    end
+ end
+```
+
+![screenshot](images/brain-fisheye.png) --- /task ---
