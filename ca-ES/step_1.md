@@ -50,6 +50,6 @@ En aquest projecte, crearàs un joc de prova de matemàtiques en el qual el juga
 
 \--- no-print \--- Si necessiteu imprimir aquest projecte, utilitzeu la [versió per a imprimir](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
 
-Troba el [solució per a aquest projecte aquí](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- / col · lapse \---
