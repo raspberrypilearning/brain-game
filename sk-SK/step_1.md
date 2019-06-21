@@ -50,6 +50,6 @@ V tomto projekte vytvoríte hru s matematickým kvízom, v ktorom má hráč 30 
 
 \--- no-print \--- Ak potrebujete tento projekt vytlačiť, použite [verziu](https://projects.raspberrypi.org/en/projects/brain-game/print)vhodnú pre tlačiarne. \--- / no-print \---
 
-Nájdite riešenie [pre tento projekt tu](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- / collapse \---
