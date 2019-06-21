@@ -50,6 +50,6 @@
 
 \--- но-принт \--- Ако желите да одштампате овај пројекат, користите [верзију за штампач](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / но-принт \---
 
-Пронађите решење [за овај пројекат](http://rpf.io/p/en/brain-game-get){: таргет = "_ бланк"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /колапс \---
