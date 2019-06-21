@@ -1,4 +1,4 @@
-## Uitdaging: Geluid en muziek
+## Uitdaging: race naar 10 punten
 
 Kun je je spel veranderen zodat de speler, in plaats van zo veel mogelijk vragen in 30 seconden te beantwoorden, zo snel mogelijk 10 vragen beantwoordt.
 
