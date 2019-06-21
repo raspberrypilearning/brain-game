@@ -50,6 +50,6 @@
 
 \--- 더 인쇄 \--- 이 프로젝트를 인쇄해야하는 경우에는 사용하지하십시오 [프린터 용 버전](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
 
-찾기 [여기에이 프로젝트에 대한 솔루션](http://rpf.io/p/en/brain-game-get){: 대상 = "_ 공백"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
