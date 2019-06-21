@@ -50,6 +50,6 @@ Tässä projektissa luodaan matematiikka-tietokilpailu, jossa soittimella on 30 
 
 \--- no-print \--- Jos haluat tulostaa tämän projektin, käytä [tulostinystävällistä versiota](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / ei-tulosta \---
 
-Etsi [ratkaisu tähän projektiin](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- / romahtaa \---
