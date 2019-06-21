@@ -23,7 +23,7 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Що ви вивчите
 
 + How to use broadcasts in Scratch
 + How to create and use a custom Scratch block
@@ -32,7 +32,7 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Що вам знадобиться
 
 ### Обладнання
 
@@ -46,10 +46,10 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Додаткові примітки для викладачів
 
 \--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \---collapse\---
