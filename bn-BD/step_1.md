@@ -50,6 +50,6 @@
 
 \--- কোন মুদ্রণ \--- যদি আপনি এই প্রকল্পটি মুদ্রণ করতে চান তবে দয়া করে [প্রিন্টার-বান্ধব সংস্করণ](https://projects.raspberrypi.org/en/projects/brain-game/print)। \--- / কোন মুদ্রণ \---
 
-এখানে এই প্রকল্পের জন্য [সমাধান খুঁজুন](http://rpf.io/p/en/brain-game-get){: লক্ষ্য = "_ blank"}।
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 -- /collapse \---
