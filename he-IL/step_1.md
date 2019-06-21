@@ -50,6 +50,6 @@
 
 \--- no-print \--- אם אתה צריך להדפיס את הפרויקט הזה, בבקשה להשתמש [גירסה ידידותית למדפסת](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
 
-מצא את [פתרון עבור פרויקט זה כאן](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- / קריסה \---
