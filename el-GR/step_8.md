@@ -2,12 +2,12 @@
 
 Μπορείς να προσθέσεις ηχητικά εφέ και μουσική στο παιχνίδι σου; Για παράδειγμα, θα μπορούσε το παιχνίδι σου:
 
-+ Play a sound when the player gives a correct or incorrect answer
-+ Play a ticking sound as the countdown timer runs
-+ Play a sound when the player's time is up
++ Να παίζει έναν ήχο όταν ο παίκτης δίνει σωστή η λάθος απάντηση 
++ Να κάνει έναν ήχο ρολογιού καθώς τρέχει το χρονόμετρο
++ Κάνει έναν ήχο όταν τελειώνει ο χρόνος
 
 ```blocks3
     play sound (pop v) until done
 ```
 
-Your game could also constantly play background music on a loop.
+Το παιχνίδι σου θα μπορούσε επίσης να παίζει συνεχώς μουσική υπόκρουση αδιάκοπα.
