@@ -1,16 +1,16 @@
 ## Πολλαπλά παιχνίδια
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Τώρα θα προσθέσεις ένα κουμπί "Έναρξη", έτσι ώστε ο παίκτης να μπορεί να παίξει το παιχνίδι σου πολλές φορές.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- Δημιούργησε ένα καινούργιο κουμπί "Έναρξη" το οποίο πρέπει να κάνει κλικ ο παίκτης για να ξεκινήσει ένα νέο παιχνίδι.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Μπορείς να το σχεδιάσεις ο ίδιος ή να τροποποιήσεις κάποιο χαρακτήρα από τη βιβλιοθήκη του Scratch.
 
 ![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- Πρόσθεσε αυτόν τον κώδικα στο αντικείμενο κουμπιού:
 
 ![Button sprite](images/button-sprite.png)
 
@@ -25,11 +25,11 @@ You can draw the sprite yourself, or edit a sprite from the library.
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Ο νέος κώδικας περιλαμβάνει μία διαφορετική `εκπομπή`{:class="block3events"}, η οποίο στέλνει το μήνυμα 'έναρξη'.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Ο νέος κώδικας κάνει το κουμπί 'Έναρξη' να εμφανίζεται όταν ο παίκτης κάνει κλικ στη σημαία. Όταν ο παίκτης κάνει κλικ στο κουμπί, το κουμπί εξαφανίζεται και μετά μεταδίδει ένα μήνυμα ώστε να αντιδράσουν και οι άλλοι χαρακτήρες.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+Προς το παρόν, ο χαρακτήρας αρχίζει να θέτει ερωτήσεις όταν ο παίκτης κάνει κλικ στη σημαία. Άλλαξε τον κώδικα του παιχνιδιού σου έτσι ώστε ο χαρακτήρας να ξεκινά να κάνει ερωτήσεις όταν λάβει την `εκπομπή`{:class="block3events"} 'Έναρξη'.
 
 \--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
 
