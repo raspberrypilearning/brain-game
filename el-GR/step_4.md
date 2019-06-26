@@ -1,6 +1,6 @@
-## Challenge: add a score and reactions
+## Πρόκληση: πρόσθεσε σκορ και αντιδράσεις
 
-Can you add a score to your game?
+Μπορείς να προσθέσεις σκορ στο παιχνίδι σου;
 
 You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
