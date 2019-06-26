@@ -71,9 +71,9 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- hints \--- \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+Πρέπει να προσθέσεις ένα block `για πάντα`{block:block3control}} και να τοποθετήσεις όλο τον κώδικα εκτός από το block `όταν πατήσεις τη σημαία`{:class="block3control"} σε αυτό.
 
-\--- /hint \--- \--- hint \--- Here is the block you need:
+\--- /hint \--- \--- hint \--- Εδώ είναι το μπλοκ που θα χρειαστείς:
 
 ```blocks3
 forever
