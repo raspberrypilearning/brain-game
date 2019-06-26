@@ -1,6 +1,6 @@
-## Challenge: sound and music
+## Πρόκληση: Ήχος και μουσική
 
-Can you add sound effects and music to your game? For example, you could have your game:
+Μπορείς να προσθέσεις ηχητικά εφέ και μουσική στο παιχνίδι σου; Για παράδειγμα, θα μπορούσε το παιχνίδι σου:
 
 + Play a sound when the player gives a correct or incorrect answer
 + Play a ticking sound as the countdown timer runs
