@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Αυτή είναι η έκδοση **Scratch 3** του έργου. Υπάρχει επίσης και μία έκδοση [Scratch 2](https://projects.raspberrypi.org/en/projects/brain-game-scratch2) του έργου.
 
 \--- /no-print \---
 
 ## Εισαγωγή
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+Σε αυτό το έργο θα δημιουργήσεις ένα κουίζ μαθηματικών στο οποίο ο παίκτης έχει 30 δευτερόλεπτα για να δώσει όσες σωστές απαντήσεις μπορεί.
 
 ### Τι θα φτιάξεις
 
