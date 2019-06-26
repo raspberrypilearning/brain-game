@@ -1,10 +1,10 @@
-## Challenge: instruction screen
+## Πρόκληση: οθόνη οδηγιών
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+Μπορείς να προσθέσεις μια οθόνη οδηγιών που να λέει στον παίκτη σου πώς να παίξει το παιχνίδι; Για αυτό, θα χρειαστείς ένα κουμπί "Οδηγίες" και ένα άλλο φόντο για το σκηνικό.
 
 ![screenshot](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Ενδέχεται επίσης να χρειαστεί να προσθέσεις ένα κουμπί 'Πίσω' που θα αφήνει το παίκτη να επιστρέψει στην οθόνη έναρξης.
 
 ```blocks3
     broadcast (start screen v)
