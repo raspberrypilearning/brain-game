@@ -10,7 +10,7 @@
 
 ### Τι θα φτιάξεις
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Κάνε κλικ στο κουμπί για να ξεκινήσεις. Πληκτρολόγησε την απάντηση στην ερώτηση και, στη συνέχεια, πάτησε το πλήκτρο <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -25,8 +25,8 @@
 
 ## title: Τι θα μάθεις
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Πώς να χρησιμοποιήσεις τις εκπομπές στο Scratch
++ Πώς να δημιουργήσεις και να χρησιμοποιήσεις ένα προσαρμοσμένο block Scratch
 
 \--- /collapse \---
 
@@ -46,10 +46,10 @@
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Πρόσθετες σημειώσεις για εκπαιδευτικούς
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/brain-game/print) \----- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
