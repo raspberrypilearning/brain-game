@@ -1,8 +1,8 @@
-## Challenge: race to 10 points
+## Πρόκληση: αγώνας ταχύτητας μέχρι τους 10 βαθμούς
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+Μπορείς να αλλάξεις το παιχνίδι έτσι ώστε ο παίκτης, αντί να απαντήσει σε όσο το δυνατόν περισσότερες ερωτήσεις σε 30 δευτερόλεπτα, να απαντήσει 10 ερωτήσεις το συντομότερο δυνατόν.
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+Για να κάνεις αυτήν την αλλαγή, χρειάζεται μόνο να αλλάξεις τον κώδικα του χρονομέτρου. Μπορείς να δεις ποια μπλοκ πρέπει να τροποποιηθούν;
 
 ```blocks3
     when I receive [start v]
