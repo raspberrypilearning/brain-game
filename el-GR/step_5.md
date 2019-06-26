@@ -6,13 +6,13 @@
 
 Μπορείς να το σχεδιάσεις ο ίδιος ή να τροποποιήσεις κάποιο χαρακτήρα από τη βιβλιοθήκη του Scratch.
 
-![Picture of the play button](images/brain-play.png)
+![Εικόνα του κουμπιού έναρξης](images/brain-play.png)
 
 \--- /task \---
 
 \--- task \--- Πρόσθεσε αυτόν τον κώδικα στο αντικείμενο κουμπιού:
 
-![Button sprite](images/button-sprite.png)
+![Κουμπί](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -31,9 +31,9 @@
 
 Προς το παρόν, ο χαρακτήρας αρχίζει να θέτει ερωτήσεις όταν ο παίκτης κάνει κλικ στη σημαία. Άλλαξε τον κώδικα του παιχνιδιού σου έτσι ώστε ο χαρακτήρας να ξεκινά να κάνει ερωτήσεις όταν λάβει την `εκπομπή`{:class="block3events"} 'Έναρξη'.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- Επίλεξε τον χαρακτήρα σου και, στην περιοχή του κώδικα, αντικατέστησε το μπλοκ `όταν πατηθεί η σημαία`{:class="block3events"} με το μπλοκ `όταν λαμβάνω Έναρξη`{:class="block3events"}.
 
-![Character sprite](images/giga-sprite.png)
+![Χαρακτήρας](images/giga-sprite.png)
 
 ```blocks3
 <br />- when flag clicked
@@ -50,25 +50,25 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
-
-\--- /task \---
-
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
-
-![Timer has started](images/brain-timer-bug.png)
-
-\--- task --
-
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Κάνε κλικ στην πράσινη σημαία και, στη συνέχεια, κάνε κλικ στο νέο κουμπί "Έναρξη" για να ελέγξεις αν λειτουργεί. Θα πρέπει να δεις ότι το παιχνίδι δεν ξεκινά πριν κάνεις κλικ στο κουμπί.
 
 \--- /task \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+Βλέπεις ότι το χρονόμετρο ξεκινά όταν πατήσεις τη πράσινη σημαία, αντί για όταν ξεκινά το παιχνίδι;
 
-![Button sprite](images/button-sprite.png)
+![Το χρονόμετρο έχει ξεκινήσει](images/brain-timer-bug.png)
+
+\--- task \---
+
+Μπορείς να αλλάξεις τον κώδικα για το χρονόμετρο έτσι ώστε το χρονόμετρο να ξεκινάει όταν ο παίκτης κάνει κλικ στο κουμπί;
+
+\--- /task \---
+
+\--- task \--- Πρόσθεσε κώδικα στο κουμπί, ώστε το κουμπί να εμφανίζεται ξανά στο τέλος κάθε παιχνιδιού.
+
+![Κουμπί](images/button-sprite.png)
 
 ```blocks3
     when I receive [end v]
@@ -77,13 +77,13 @@ Can you change the code for the timer so that the timer starts when the player c
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Δοκίμασε το κουμπί ''Εναρξη' παίζοντας μερικά παιχνίδια. Το κουμπί πρέπει να εμφανίζεται στο τέλος κάθε παιχνιδιού.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+Για να δοκιμάζεις το παιχνίδι πιο γρήγορα, μπορείς να αλλάξεις την τιμή της μεταβλητής `χρόνος`{:class="block3variables"}, έτσι ώστε κάθε παιχνίδι να διαρκεί μόνο μερικά δευτερόλεπτα.
 
-![Φάση](images/stage-sprite.png)
+![Σκηνικό](images/stage-sprite.png)
 
 ```blocks3
     set [time v] to [10]
@@ -91,9 +91,9 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- Μπορείς ακόμα να αλλάξεις τον τρόπο εμφάνισης του κουμπιού όταν το ποντίκι περνάει από πάνω του.
 
-![Button](images/button-sprite.png)
+![Κουμπί](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
