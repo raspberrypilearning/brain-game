@@ -2,7 +2,7 @@
 
 \--- task \--- Δημιούργησε ένα χρονόμετρο αντίστροφης μέτρησης στο σκηνικό με τη βοήθεια μιας νέας μεταβλητής που ονομάζεται `χρόνος`{:class="block3variables"}. Το χρονόμετρο θα ξεκινά στα 30 δευτερόλεπτα και θα καταλήγει αντίστροφα στα 0 δευτερόλεπτα.
 
-![Stage sprite](images/stage-sprite.png)
+![Χαρακτήρας σκηνικού](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -47,9 +47,9 @@ end
 
 \--- task \---
 
-Δημιούργησε μια `εκπομπή`{:class="block3control"} που στέλνει το μήνυμα 'τέλος'. Μία `εκπομπή`{:class="block3control"} είναι σαν μια ανακοίνωση από σε ένα μεγάφωνο: μπορεί να ακουστεί από όλους τους χαρακτήρες σου. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Δημιούργησε μια `εκπομπή`{:class="block3control"} που στέλνει το μήνυμα 'τέλος'. Μία `εκπομπή`{:class="block3control"} είναι σαν μια ανακοίνωση από σε ένα μεγάφωνο: μπορεί να ακουστεί από όλους τους χαρακτήρες σου. Πρόσθεσε το μπλοκ `εκπομπής`{:class="block3control"} στο τέλος του κώδικα του χρονοδιακόπτη έτσι ώστε ο κώδικας να στείλει ένα μήνυμα 'τέλος' όταν ο `χρόνος`{:class="block3variables"} φτάσει στο `0`.
 
-![Stage sprite](images/stage-sprite.png)
+![Χαρακτήρας σκηνικού](images/stage-sprite.png)
 
 ```blocks3
     broadcast (end v)
@@ -57,9 +57,9 @@ end
 
 \--- /task \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- Επίλεξε το χαρακτήρα σου και πρόσθεσε κάποιο κώδικα έτσι ώστε ο χαρακτήρας `να σταματάει τα άλλα scripts`{:class="block3control"} όταν λάβει το μήνυμα `τέλος`{:class="block3control"}.
 
-![Giga sprite](images/giga-sprite.png)
+![Χαρακτήρας Giga](images/giga-sprite.png)
 
 ```blocks3
     when I receive [end v]
@@ -68,8 +68,8 @@ end
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Δοκίμασε ξανά το παιχνίδι σου. Θα πρέπει να συνεχίσει να κάνει ερωτήσεις έως ότου το χρονόμετρο φτάσει στο 0.
 
 \--- /task \---
