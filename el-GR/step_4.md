@@ -2,10 +2,10 @@
 
 Μπορείς να προσθέσεις σκορ στο παιχνίδι σου;
 
-You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
+Θα μπορούσες να προσθέσεις κώδικα ώστε ο παίκτης να πετυχαίνει έναν πόντο για κάθε σωστή απάντηση. Αν θέλεις να γίνεις κακός, μπορείς να προσθέσεις κώδικα ώστε να μηδενίζεται το σκορ αν ο παίκτης δώσει λάθος απάντηση!
 
 [[[generic-scratch3-high-score]]]
 
-Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+Μπορείς να κάνεις τον χαρακτήρα σου να αντιδρά στην απάντηση του παίκτη, αλλάζοντας ενδυμασία ανάλογα με το αν η απάντηση είναι σωστή ή λανθασμένη;
 
 ![screenshot](images/brain-costume.png)
