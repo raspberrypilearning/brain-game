@@ -45,7 +45,7 @@ als &lt;(antwoord) = ((nummer 1) * (nummer 2))&gt; dan
   zeg [goed! :)] (2) sec.
 anders
   zeg [jammer :(] (2) sec.
-end
+einde
 ```
 
 \--- /task \---
@@ -86,7 +86,7 @@ Om het spel sneller te testen, kun je de waarde van `tijd`{:class="block3variabl
 ![Speelveld](images/stage-sprite.png)
 
 ```blocks3
-    maak [time v] [10]
+    maak [tijd v] [10]
 ```
 
 \--- /task \---
@@ -99,12 +99,12 @@ Om het spel sneller te testen, kun je de waarde van `tijd`{:class="block3variabl
     wanneer groene vlag wordt aangeklikt
   verschijn
   herhaal
-    als <touching (mouse-pointer v)?> dan
+    als <raak ik (muisaanwijzer)?> dan
        zet [vissenoog v] effect op (30)
     anders
        zet [vissenoog v] effect op (0)
-    end
- end
+    einde
+ einde
 ```
 
 ![screenshot](images/brain-fisheye.png) \--- /task \---
