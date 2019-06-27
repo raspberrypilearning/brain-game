@@ -48,7 +48,7 @@ Nu kun je deze signalen gebruiken om het 'vinkje'- of 'kruis'-uiterlijk te kieze
     wacht (1) sec.
     verdwijn
 
-  wanneer op groene vlag wordt geklikt
+  wanneer groene vlag wordt aangeklikt
     verdwijn
 ```
 
@@ -123,7 +123,7 @@ Wijzig je code zó dat het 'vinkje'- of 'kruis'-uiterlijk wordt weergegeven gedu
   verschijn
   herhaal (25)
     verander [geest v] effect met (-4)
-  end
+  einde
   verdwijn
 ```
 
