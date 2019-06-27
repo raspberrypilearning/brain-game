@@ -10,6 +10,6 @@ Om deze verandering aan te brengen, hoef je alleen je timercode te wijzigen. Kun
   herhaal tot <(tijd) = [0]>
     wacht (1) sec.
     verander [tijd v] met (-1)
-  end
+  einde
   zend signaal (einde v)
 ```
