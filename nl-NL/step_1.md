@@ -48,8 +48,8 @@ In dit project leer je een quiz te maken van de tafels van vermenigvuldiging, wa
 
 ## title: Aanvullende informatie voor docenten
 
-\--- no-print \--- Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/en/projects/brain-game/print) \--- /no-print \---
+\--- no-print \--- Als je dit project wilt afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/brain-game/print) \--- /no-print \---
 
-Je kunt het [voltooide project hier](http://rpf.io/p/en/brain-game-get)"{:target="_blank"} vinden.
+Je kunt het [voltooide project hier](http://rpf.io/p/en/brain-game-get){:target="_blank"} vinden.
 
 \--- /collapse \---
