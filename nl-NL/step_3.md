@@ -23,7 +23,7 @@ verander [tijd v] met (1)
 
 (tijd)
 
-wanneer op groene vlag wordt geklikt
+wanneer groene vlag wordt aangeklikt
 
 <() = ()>
 
