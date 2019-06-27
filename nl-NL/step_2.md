@@ -54,7 +54,7 @@ maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
 + zeg [goed! :)] (2) seconden
 + anders
 + zeg [fout :(] (2) sec.
-+ end
++ einde
 ```
 
 \--- /task \---
@@ -77,7 +77,7 @@ Je moet een `herhaal`{:class="block3control"} blok toevoegen en alle code behalv
 
 ```blocks3
 herhaal
-end
+einde
 ```
 
 \--- / hint \--- \--- hint \--- Hier is hoe je blok eruit zou moeten zien:
@@ -93,8 +93,8 @@ wanneer groene vlag wordt aangeklikt
      zeg [goed! :)] (2) sec.
     anders
         zeg [fout :(] (2) sec.
-    end
-end
+    einde
+einde
 ```
 
 \--- /hint \--- \--- /hints \---
