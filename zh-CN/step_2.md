@@ -1,28 +1,28 @@
 ## 创建问题
 
-You're going to start by creating random questions that the player has to answer.
+首先，你需要创建随机问题，这些问题玩家必须回答。
 
 \--- task \---
 
-Open a new Scratch project.
+打开一个新的Scratch项目
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**在线： **在[rpf.io/scrath-new](http://rpf.io/scratchon)打开一个新的Scratch在线项目 { target="_blank"}。
 
-**Offline:** open a new project in the offline editor.
+**离线： **在离线编辑器中打开一个新项目。
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
-
-\--- /task \---
-
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
-
-![screenshot](images/brain-setting.png)
+如果您需要下载并安装Scratch离线编辑器，可以在[ rpf.io/scratchoff ](http://rpf.io/scratchoff)中获取 {：target="_blank"}。
 
 \--- /task \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- task \--- 为你的游戏添加精灵角色和背景。你可以选择你喜欢的！比如：
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![截图](images/brain-setting.png)
+
+\--- /task \---
+
+\--- task \--- 确保你拥有选择的角色精灵。 创建两个新变量，命名为`数字1 ` {：class =“block3variables”}和`数字2 ` {：class =“block3variables”}，用于存储测验题目的数字。
+
+![截图](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
