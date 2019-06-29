@@ -1,11 +1,11 @@
 ## 挑战：屏幕提示
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+你可以添加屏幕提示来告诉玩家如何玩游戏吗？为此，你需要一个“说明”按钮以及一个舞台背景。
 
-![screenshot](images/brain-instructions.png)
+![截图](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+你可能还需要添加一个“后退”按钮，让玩家返回到开始界面。
 
 ```blocks3
-    broadcast (start screen v)
+    广播（开始界面 v）
 ```
