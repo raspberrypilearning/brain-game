@@ -1,12 +1,12 @@
 --无打印--
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+这个项目是基于**Scratch 3**版本，还有一个项目是基于[Scratch 2版本的](https://projects.raspberrypi.org/en/projects/brain-game-scratch2)
 
 \--- /no-print \---
 
-## Introduction
+## 简介
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+在这个项目中，你将会创建一个数字测验游戏，玩家需要在30秒的时间内，尽可能的回答对更多题目。
 
 ### What you will make
 
