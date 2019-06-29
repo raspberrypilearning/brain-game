@@ -26,30 +26,30 @@
 ## 标题：你将学会
 
 + 如何在Scratch中使用广播
-+ How to create and use a custom Scratch block
++ 如何创建和使用自定义Scratch积木块
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## 题目：你需要准备什么
 
-### Hardware
+### 硬件
 
-+ A computer capable of running Scratch 3
++ 能够运行Scratch 3的电脑
 
-### Software
+### 软件
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([在线版本](http://rpf.io/scratchon){:target="_blank"}或[离线版本](http://rpf.io/scratchoff){:target="_blank"}）
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## 题目: 教师附加说明
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- 如果您需要打印此项目，请使用[可打印版本](https://projects.raspberrypi.org/en/projects/brain-game/print)。 \--- /0 no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+你可以在这里找到 [完成的项目](http://rpf.io/p/en/brain-game-get){:target="_blank"}。
 
 \--- /collapse \---
