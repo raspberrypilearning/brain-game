@@ -1,4 +1,4 @@
-## Create questions
+## 创建问题
 
 You're going to start by creating random questions that the player has to answer.
 
