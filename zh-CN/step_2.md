@@ -22,7 +22,7 @@
 
 \--- task \--- 确保你拥有选择的角色精灵。 创建两个新变量，命名为`数字1 ` {：class =“block3variables”}和`数字2 ` {：class =“block3variables”}，用于存储测验题目的数字。
 
-![截图](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![截图](images/giga-sprite.png) ![截图](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
