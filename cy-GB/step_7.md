@@ -35,7 +35,7 @@ Fe alli di nawr ddefnyddio’r negeseuon yma i `ddangos`{:class="block3looks"} y
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-    pan rwy'n derbyn [correct v]
+pan rwy'n derbyn [correct v]
 newid gwisg i (tick v)
 dangos
 aros (1) eiliad
