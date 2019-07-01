@@ -10,7 +10,9 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 
 ### Yr hyn byddi di'n ei greu
 
---- no-print --- Clicia'r botwm i ddechrau. Teipia'r ateb i'r cwestiwn, yna pwya <kbd>Enter</kbd>.
+--- no-print --- 
+
+Clicia'r botwm i ddechrau. Teipia'r ateb i'r cwestiwn, yna pwya <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/314946233/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,11 +21,16 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 
 --- /no-print ---
 
---- print-only --- ![Brain Game](images/brain-final.png) --- /print-only ---
+--- print-only --- 
+
+![Brain Game](images/brain-final.png) 
+
+--- /print-only ---
 
 --- collapse ---
-
-## title: Yr hyn byddi di'n ei ddysgu
+---
+title: Yr hyn byddi di'n ei ddysgu
+---
 
 + Sut i ddefnyddio darllediadau yn Scratch
 + Sut i greu a defnyddio bloc Scratch
@@ -31,8 +38,9 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 --- /collapse ---
 
 --- collapse ---
-
-## title: Beth fydd ei angen arno ti
+---
+title: Beth fydd ei angen arno ti
+---
 
 ### Caledwedd
 
@@ -45,10 +53,14 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 --- /collapse ---
 
 --- collapse ---
+---
+title: Gwybodaeth ychwanegol i addysgwyr
+---
+--- no-print ---
 
-## title: Gwybodaeth ychwanegol i addysgwyr
+Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/cy-GB/projects/brain-game/print). 
 
---- no-print ---Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/cy-GB/projects/brain-game/print). --- /no-print ---
+--- /no-print ---
 
 Gallwch chi ddod o hyd i'r [ateb ar gyfer y prosiect hwn yma](http://rpf.io/p/cy-GB/brain-game-get){:target="_blank"}.
 
