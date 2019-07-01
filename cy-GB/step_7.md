@@ -112,7 +112,9 @@ Newida dy gôd fel bod y wisg 'tic' neu 'groes' yn ymddangos am 2 eiliad.
 
 --- /task ---
 
---- task --- Yn hytrach na `dangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} y wisg 'tic' neu 'groes', fe alli di newid dy floc`animeiddio`{:class="block3myblocks"} fel bod y wisg yn pylu mewn.
+--- task --- 
+
+Yn hytrach na `dangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} y wisg 'tic' neu 'groes', fe alli di newid dy floc`animeiddio`{:class="block3myblocks"} fel bod y wisg yn pylu mewn.
 
 ![Corlun canlyniad](images/result-sprite.png)
 
