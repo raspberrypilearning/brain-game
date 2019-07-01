@@ -86,7 +86,7 @@ cuddio
 
 --- /task ---
 
--- task --- Sicrha dy fod wedi tynnu'r blociau `dangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} o dan **y ddau floc** o'r `newid gwisgoedd`{:class="block3looks"}.
+--- task --- Sicrha dy fod wedi tynnu'r blociau `dangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} o dan **y ddau floc** o'r `newid gwisgoedd`{:class="block3looks"}.
 
 Yna ychwanega'r bloc `animeiddio`{:class="block3myblocks"} o dan y ddau floc `newid gwisgoedd`{:class="block3looks"}. Fe ddylai dy gôd edrych fel hyn:
 
