@@ -1,43 +1,103 @@
 ## Creu cwestiynau
 
-Fe wnawn ni ddechrau trwy greu cwestiynau i'r chwareuwr ateb.
+Fe wnawn ni ddechrau trwy greu cwestiynau ar hap i’r chwareuwr ateb.
 
-+ Cychwyna brosiect Scratch newydd a dileu ciplun y gath fel bod y prosiect yn wag. Fe alli di ddod o hyd i olygydd Scratch arlein yma <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
+--- task ---
 
-+ Dewisa gymeriad a chefndir i dy gêm. Fe alli di ddewis unrhywbeth! Dyma enghraifft:
+Agora prosiect Scratch newydd.
 
-	![screenshot](images/brain-setting.png)
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
 
-+ Bydd angen creu 2 newidyn o'r enw `rhif 1`{:class="blockdata"} a `rhif 2`{:class="blockdata"}.  Bydd rhain yn storio'r 2 rhif fydd yn cael eu lluosi. 
+**All-lein** agora brosiect newydd yn y golygydd all-lein.
 
-	![screenshot](images/brain-variables.png)
+Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-+ Ychwanegu côd i dy gymeriad i osod y ddau newidyn i rif `ar hap`{:class="blockoperators"} rhwng 2 a 12.
+--- /task ---
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-		gosod [rhif 1 v] i (dewis ar hap (2) i (12))
-		gosod [rhif 2 v] i (dewis ar hap (2) i (12))
-	```
+--- task --- Dewisa gymeriad a chefndir i dy gêm. Fe alli di ddewis unrhywbeth! Dyma enghraifft:
 
-+ Alli di wedyn ofyn i'r chwareuwr am ateb, a gadael iddyn nhw wybod os ydynt yn gywir neu anghywir.
+![sgrinlun](images/brain-setting.png)
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-			gosod [rhif 1 v] i (dewis ar hap (2) i (12))
-			gosod [rhif 2 v] i (dewis ar hap (2) i (12))
-			gofyn (uno (rhif 1) (uno [x] (rhif 2))) ac aros
-			os <(ateb) = ((rhif 1) * (rhif 2))> wedyn
-   		dweud [ie! :)] am (2) eiliad
-			fel arall
-   		dweud [na :(] am (2) eiliad
-		end
-	```
+--- /task ---
 
-+ Profa dy brosiect yn llaw, gan ateb un cwestiwn yn gywir a'r llall yn anghywir.
+--- task --- Sicrha fod dy gymeriad wedi ei ddewis. Bydd angen creu 2 newidyn o’r enw `rhif 1`{:class="block3variables"} a `rhif 2`{:class="block3variables"}, i storio y rhifau ar gyfer y cwestiynau cwis.
 
-+ Ychwanega ddolen `am byth`{:class="blockcontrol"} o amgylch y côd, fel bod y chwareuwr yn cael llawer o gwestiynau.
+![sgrinlun](images/giga-sprite.png) ![sgrinlun](images/brain-variables.png)
 
-+ Bydd angen creu amserydd ar y llwyfan, trwy ddefnyddio newidyn o'r enw `amser`{:class="blockdata"}.  Mae gan y prosiect 'Ghostbusters' gyfarwyddiadau i greu amserydd (cam 5) os oes angen cymorth!
+[[[generic-scratch3-add-variable]]]
 
-+ Profa dy brosiect eto - fe ddyle ti allu gofyn cwestiynau tan bod yr amser yn dod i ben.
+--- /task ---
+
+--- task --- Ychwanegu côd i dy gymeriad i osod y ddau `newidyn`{:class="block3variables"} i rif `ar hap`{:class="block3operators"} rhwng 2 a 12.
+
+![sgrinlun](images/giga-sprite.png)
+
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
+gosod [rhif 1 v] i (dewis ar hap (2) i (12))
+gosod [rhif 2 v] i (dewis ar hap (2) i (12))
+```
+
+--- /task ---
+
+--- task --- Ychwanega gôd i `ofyn`{:class="block3sensing"} i'r chwareuwr am ateb, yna `dweud am 2 eiliad`{:class="block3looks"} os yw'r ateb yn gywir neu anghywir:
+
+![sgrinlun](images/giga-sprite.png)
+
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
+gosod [rhif 1 v] i (dewis ar hap (2) i (12))
+gosod [rhif 2 v] i (dewis ar hap (2) i (12))
+
++ gofyn (uno (rhif 1) (uno [ x ] (rhif 2))) ac aros
++ os <(ateb) = ((rhif 1) * (rhif 2))> yna 
++ dweud [Ie! :)] am (2) eiliad
++ fel arall 
++ dweud [Na :(] am (2) eiliad
++ end
+```
+
+--- /task ---
+
+--- task ---
+
+Profa dy brosiect ddwywaith: ateba un cwestiwn yn gywir a'r llall yn anghywir.
+
+--- /task ---
+
+--- task ---
+
+Ychwanega ddolen `am byth`{:class="block3control"} o amgylch y côd, fel bod y chwareuwr yn cael llawer o gwestiynau.
+
+--- hints ---
+ --- hint ---
+
+Mae angen i ti ychwanegu bloc `am byth`{:class="block3control"}, a rhoi'r côd i gyd heblaw am `pan fo'r faner wedi ei glicio`{:class="block3control"} ynddo.
+
+--- /hint --- --- hint --- Dyma'r bloc côd rwyt ti eu hangen:
+
+```blocks3
+am byth
+end
+```
+
+--- /hint --- --- hint --- Dyma sut ddylai dy gôd edrych:
+
+```blocks3
++ pan fo'r flag werdd yn cael ei glicio
+
+am byth 
+  gosod [rhif 1 v] i (dewis ar hap (2) i (12))
+  gosod [rhif 2 v] i (dewis ar hap (2) i (12))
+  gofyn (uno (rhif 1) (uno [ x ] (rhif 2))) ac aros
+  os <(ateb) = ((rhif 1) * (rhif 2))> yna 
+    dweud [Ie! :)] am (2) eiliad
+  fel arall 
+    dweud [Na :(] am (2) eiliad
+  end
+end
+```
+
+--- /hint ------ /hints ---
+
+--- /task ---

@@ -1,19 +1,11 @@
---- challenge ---
-## Her: Ras i 10 o bwyntiau
-Wyt ti'n gallu newid dy gêm, fel yn hytrach nag ateb cymaint o gwestiynau a phosib mewn 30 eiliad, fod y chwareuwr yn gweld pa mor gyflym mae modd cael 10 o gwestiynau yn gywir?
+## Her: sgrîn cyfarwyddiadau
 
-I wneud hyn, bydd angen i ti newid côd yr amserydd. Wyt ti'n gallu gweld beth sydd angen ei newid?
+Wyt ti’n gallu ychwanegu sgrin cyfarwyddiadau i dy gêm, sy’n dweud wrth dy chwareuwr sut i chwarae’r gêm? Fe fyddi di angen botwm ‘Cyfarwyddiadau’ a chefndir arall.
 
-```blocks
-		pan dderbyniaf [dechrau v]
-		gosod [amser v] i (30)
-		ailwna hyd at <(amser) = [0]>
-   			aros (1) eiliad
-   			newid [amser v] gan (-1)
-		end
-		darlledu [end v]
+![sgrinlun](images/brain-instructions.png)
+
+Mae’n bosib y byddi di hefyd angen botwm ‘nôl’ i fynd yn ôl i’r prif ddewislen.
+
+```blocks3
+    darlledu (start screen v)
 ```
-
-
-
---- /challenge ---
