@@ -63,7 +63,7 @@ Creu `darllediad`{:class="block3control"} sy'n anfon y neges 'diwedd'. Mae `darl
 
 ```blocks3
     pan rwy'n derbyn [end v]
-aros [other scripts in sprite v]
+    aros [sgriptiau eraill yn y ciplun v]
 ```
 
 --- /task ---
