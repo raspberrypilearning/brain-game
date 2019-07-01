@@ -57,7 +57,7 @@ Creu `darllediad`{:class="block3control"} sy'n anfon y neges 'diwedd'. Mae `darl
 
 --- /task ---
 
---- task --- Dewisa dy gymeriad ac ychwanega gôd fel bod y corlun yn `stopio sgriptiau eraill` {:class="block3control"} pan mae'n derbyn y neges `diwedd`{:class="block3control"}.
+--- task --- Dewisa dy gymeriad ac ychwanega gôd fel bod y corlun yn `stopio sgriptiau eraill`{:class="block3control"} pan mae'n derbyn y neges `diwedd`{:class="block3control"}.
 
 ![Corlun giga](images/giga-sprite.png)
 
