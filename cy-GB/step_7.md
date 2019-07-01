@@ -35,7 +35,7 @@ Fe alli di nawr ddefnyddio’r negeseuon yma i `ddangos`{:class="block3looks"} y
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-    pan rwy'n derbyn [correct v]
+pan rwy'n derbyn [correct v]
 newid gwisg i (tick v)
 dangos
 aros (1) eiliad
@@ -93,7 +93,7 @@ Yna ychwanega'r bloc `animeiddio`{:class="block3myblocks"} o dan y ddau floc `ne
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-    pan rwy'n derbyn [correct v]
+pan rwy'n derbyn [correct v]
 newid gwisg i (tick v)
 animeiddio :: custom
 
@@ -119,13 +119,13 @@ Yn hytrach na `dangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} y
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-    diffinio animate
-    gosod effaith [ghost v] effaith i (100)
-    dangos
-    ailadrodd (25) 
-     newid effaith [ghost v] gan (-4)
-    end
-    cuddio
+diffinio animate
+gosod effaith [ghost v] effaith i (100)
+dangos
+ailadrodd (25) 
+newid effaith [ghost v] gan (-4)
+end
+cuddio
 ```
 
 --- /task ---
