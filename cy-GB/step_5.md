@@ -36,7 +36,7 @@ Ar hyn o bryd, mae'r cymeriad yn gofyn cwestiynau pan mae'r chwareuwr yn clicio 
 ![Corlun cymeriad](images/giga-sprite.png)
 
 ```blocks3
-<br />- pan fo'r flag werdd yn cael ei glicio
+- pan fo'r flag werdd yn cael ei glicio
 + pan rwy'n derbyn [start v]
 gosod [rhif 1 v] i (dewis ar hap (2) i (12))
 gosod [rhif 2 v] i (dewis ar hap (2) i (12))
@@ -65,6 +65,8 @@ A wnes di sylwi fod yr amserydd yn cychwyn pan mae’r faner werdd wedi ei chlic
 Alli di newid y côd yr amserydd fel fod yr amserydd yn cychwyn pan mae'r chwareuwr yn clicio ar y botwm?
 
 --- /task ---
+
+--- task ---
 
 Fe alli di nawr ychwanegu côd i dy fotwm i’w ddangos eto ar ddiwedd pob gêm.
 
