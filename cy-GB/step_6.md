@@ -1,19 +1,11 @@
---- challenge ---
-## Her: Dechrau'r gêm 
-Wyt ti'n gallu ychwanegu cefndir arall i dy lwyfan ar gyfer dechrau'r gêm? Fe alli di ddefnyddio blociau `pan dderbyniad dechrau`{:class="blockevents"} a `pan dderbyniad diwedd`{:class="blockevents"} i newid rhwng cefndiroedd.
+## Her: creu sgrin gychwynnol
 
-Fe alli di hefyd ddangos a chuddio dy gymeriad, a hyd yn oed dangos a chuddio dy amserydd yn defnyddio'r blociau yma:
+Wyt ti’n gallu ychwanegu cefndir arall i dy lwyfan ar gyfer dechrau’r gêm?
 
-```blocks
-dangos newidyn [amser v]
-```
-```blocks
-cuddio newidyn [amser v]
-```
+Fe alli di ddefnyddio blociau `pan dderbyniaf dechrau`{:class="block3events"} a `pan dderbyniaf diwedd`{:class="block3events"} i newid rhwng cefndiroedd.
 
-![screenshot](images/brain-startscreen.png)
+Fe alli di hefyd ddangos a chuddio dy gymeriad, a hyd yn oed dangos a chuddio dy amserydd yn defnyddio’r blociau yma `dangos`{:class="block3looks"} a `cuddio`{:class="block3looks"}.
 
+I ddangos neu guddio amserydd a sgôr pan mae'r gêm yn newid rhwng cefndiroedd, mae modd defnyddio blociau `dangos newidyn`{:class="block3variables"} a `cuddio newidyn`{:class="block3variables"}.
 
-
-
---- /challenge ---
+![Cychwyn sgrîn](images/brain-startscreen.png)

@@ -1,75 +1,110 @@
 ## Gemau lluosog
 
-Fe wnawn ni ychwanegu botwm 'chwarae' i dy gêm fel dy fod di'n gallu chwarae sawl gwaith.
+Fe wnawn ni ychwanegu botwm ‘chwarae’ i dy gêm fel dy fod di’n gallu chwarae sawl gwaith.
 
-+ Bydd angen creu ciplun botwm 'Chwarae', sef beth fydd y chwareuwr yn clicio i ddechrau gêm newydd. Fe alli di ei lunio dy hunan, neu olygu ciplun o lyfrgell Scratch.
+--- task --- Bydd angen creu corlun botwm ‘Chwarae’, sef beth fydd y chwareuwr yn clicio i ddechrau gêm newydd.
 
-	![screenshot](images/brain-play.png)
+Fe alli di ei lunio dy hunan, neu olygu corlun o lyfrgell Scratch.
 
-+ Ychwanega'r côd yma i dy fotwm newydd.
+![Llun o'r botwm chwarae](images/brain-play.png)
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-			dangos
+--- /task ---
 
-		pan caiff y cymeriad ei glicio
-			cuddio
-		darlledu [dechrau v]
+--- task --- Ychwanega'r côd yma i gorlun dy fotwm:
 
-	```
+![Corlun botwm](images/button-sprite.png)
 
-	Mae'r côd yma yn dangos botwm chwarae pan mae'r prosiect ar gychwyn. Pan fydd y botwm yn cael ei glicio, fe fydd yn cuddio a darlledu neges fydd yn cychwyn y gêm.
+```blocks3
+    pan fo'r flag werdd yn cael ei glicio
+dangos
 
-+ Bydd angen i ti olygu côd dy gymeriad fel bod y gêm yn cychwyn pan mae'n derbyn neges `dechrau`{:class="blockevents"}, a nid pan mae'r faner yn cael ei glicio.
+pan gaiff y ciplun yma ei glicio
+cuddio
+darlledu (start v)
+```
 
-	Ailosod côd `pan fo baner wedi ei glicio`{:class="blockevents"} gyda `pan dderbyniad dechrau`{:class="blockevents"}
+--- /task ---
 
-	![screenshot](images/brain-start.png)
+Mae'r côd newydd yma yn cynnwys bloc arall `darlledu`{:class="block3events"}, sydd yn anfon neges i 'ddechrau'.
 
-+ Clicia'r faner werdd ac yna clicia dy fotwm chwarae newydd i'w brofi. Ni ddylai'r gêm gychwyn tan fod y botwm yn cael ei glicio.
+Mae'r côd newydd yn gwneud i'r corlun 'Chwarae' ymddangos pan mae'r chwareuwr yn clicio ar y faner. Pan fydd y botwm yn cael ei glicio, fe fydd yn cuddio a darlledu neges fydd yn cychwyn y gêm.
 
-+ A wnes di sylwi fod yr amserydd yn cychwyn pan mae'r faner werdd wedi clicio, ond nid pan mae'r gêm yn cychwyn?
+Ar hyn o bryd, mae'r cymeriad yn gofyn cwestiynau pan mae'r chwareuwr yn clicio ar y faner. Bydd angen i ti olygu côd dy gymeriad fel bod y gêm yn cychwyn pan mae’n derbyn neges `dechrau`{:class="block3events"}.
 
-	![screenshot](images/brain-timer-bug.png)
+--- task --- Dewisa dy gymeriad, ac yn yr adran gôd, ailosoda `pan fo baner wedi ei glicio`{:class="block3events"} gyda `pan dderbyniaf dechrau`{:class="block3events"}.
 
-	Alli di ddatrys hyn?
+![Corlun cymeriad](images/giga-sprite.png)
 
-+ Clicia ar y llwyfan, ac ailosod bloc `stopiwch y cyfan`{:class="blockcontrol"} gyda neges `diwedd`{:class="blockevents"}.
+```blocks3
+<br />- pan fo'r flag werdd yn cael ei glicio
++ pan rwy'n derbyn [start v]
+gosod [rhif 1 v] i (dewis ar hap (2) i (12))
+gosod [rhif 2 v] i (dewis ar hap (2) i (12))
+gofyn (uno (rhif 1) (uno [ x ] (rhif 2))) ac aros
+os <(ateb) = ((rhif 1) * (rhif 2))> yna 
+  dweud [Ie! :)] am (2) eiliad
+fel arall 
+  dweud [Na :(] am (2) eiliad
+end
+```
 
-	![screenshot](images/brain-end.png)
+--- /task ---
 
-+ Fe alli di nawr ychwanegu côd i dy fotwm i'w ddangos eto ar ddiwedd pob gêm.
+--- task ---
 
-	```blocks
-		pan dderbyniaf [end v]
-			dangos
-	```
+Clicia’r faner werdd ac yna clicia dy fotwm 'chwarae' newydd i’w brofi. Ni ddylai’r gêm gychwyn tan fod y botwm yn cael ei glicio.
 
-+ Bydd hefyd angen i ti stopio dy gymeriad i ofyn cwestiynau ar ddiwedd pob gêm:
+--- /task ---
 
-	```blocks
-		pan dderbyniaf [end v]
-		stopiwch [sgriptiau eraill yn y ciplun v]
-	```
+A wnes di sylwi fod yr amserydd yn cychwyn pan mae’r faner werdd wedi ei chlicio, ond nid pan mae’r gêm yn cychwyn?
 
-+ Profa dy fotwm chwarae trwy chwarae cwpwl o gemau. Fe ddyle ti sylwi fod y botwm chwarae yn dangos ar ôl pob gêm. I wneud y profi yn haws, fe alli di leihau pob gêm, fel ei fod ond yn para rhai eiliadau.
+![Amserydd wedi dechrau](images/brain-timer-bug.png)
 
-	```blocks
-		gosod [amser v] i [10]
-	```
+--- task ---
 
-+ Fe alli di hyd yn oed newid sut mae'r botymau yn edrych pan mae'r llygoden drosto.
+Alli di newid y côd yr amserydd fel fod yr amserydd yn cychwyn pan mae'r chwareuwr yn clicio ar y botwm?
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-			dangos
-		am byth
-   			os <cyffwrdd [pwyntydd llygoden v]?> wedyn
-      		gosod effaith [llygaid pysgodyn v] i (30)
-   		fel arall
-      		gosod effaith [llygaid pysgodyn v] i (0)
-   		end
-	end
-	```
+--- /task ---
 
-	![screenshot](images/brain-fisheye.png)
+Fe alli di nawr ychwanegu côd i dy fotwm i’w ddangos eto ar ddiwedd pob gêm.
+
+![Corlun botwm](images/button-sprite.png)
+
+```blocks3
+    pan rwy'n derbyn [end v]
+dangos
+```
+
+--- /task ---
+
+--- task ---
+
+Profa dy fotwm 'chwarae' trwy chwarae cwpwl o gemau. Fe ddyle ti sylwi fod y botwm chwarae yn dangos ar ôl pob gêm.
+
+I wneud y profi yn gynt, fe alli di leihau pob gêm trwy newid gwerth yr `amser`{:class="block3variables"} fel fod pob gêm ond yn para rhai eiliadau.
+
+![Llwyfan](images/stage-sprite.png)
+
+```blocks3
+    gosod [amser v] i [10]
+```
+
+--- /task ---
+
+--- task --- Fe alli di newid sut mae'r botwm yn edrych pan mae'r llygoden arno.
+
+![Botwm](images/button-sprite.png)
+
+```blocks3
+    pan fo'r flag werdd yn cael ei glicio
+dangos
+am byth 
+  os <cyffwrdd (mouse-pointer v) ?> yna 
+    gosod effaith [fisheye v] effaith i (30)
+  fel arall 
+    gosod effaith [fisheye v] effaith i (0)
+  end
+end
+```
+
+![sgrinlun](images/brain-fisheye.png) --- /task ---

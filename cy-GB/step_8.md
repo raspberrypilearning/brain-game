@@ -1,10 +1,13 @@
---- challenge ---
-## Her: Perffeithio dy animeiddiad
-Wyt ti'n gallu perffeithio animeiddiad dy graffeg? Fe alli di ychwanegu côd i'r tic a'r groes fel eu bod yn pylu ar y sgrin ac i ffwrdd ohono. Neu fe alli di ddefnyddio effeithiau cŵl arall:
+## Her: ychwanegu sain a cherddoriaeth
 
-![screenshot](images/brain-effects.png)
+Wyt ti’n gallu ychwanegu effeithiau cerddorol i dy gêm? Er enghraifft:
 
++ Chwarae sain pan mae’r chwareuwr yn cael ateb yn iawn neu’n anghywir
++ Ychwanegu sain cloc i’r amserydd
++ Chwarae sain pan mae’r amser ar ben
 
+```blocks3
+    chwarae sain (pop v) tan y diwedd
+```
 
-
---- /challenge ---
+Fe alli di hefyd chwarae cerddoriaeth drosodd a throsodd.

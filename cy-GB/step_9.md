@@ -1,18 +1,15 @@
---- challenge ---
-## Her: Cerdd a Sain 
-Wyt ti'n gallu ychwanegu effeithiau cerddorol i dy gêm? Er enghraifft:
+## Her: ras i 10 pwynt
 
-+ Chwarae sain pan mae'r chwareuwr yn cael ateb yn iawn neu'n anghywir;
-+ Ychwanegu sain cloc i'r amserydd;
-+ Chwarae sain pan mae'r amser ar ben;
+Wyt ti’n gallu newid dy gêm, fel yn hytrach nag ateb cymaint o gwestiynau a phosib mewn 30 eiliad, fod y chwareuwr yn gweld pa mor gyflym mae modd cael 10 o gwestiynau yn gywir.
 
-	```blocks
-		chwarae drwm (10 v) am (0.1) curiad
-	```
+I wneud hyn, bydd angen i ti newid côd yr amserydd. Wyt ti’n gallu gweld beth sydd angen ei newid?
 
-+ Fe alli di hefyd chwarae cerddoriaeth drosodd a throsodd (os nad yw ti'n siwr sut i wneud hyn, bydd cam 4 yn y prosiect 'Band Roc' yn gymorth i ti).
-
-
-
-
---- /challenge ---
+```blocks3
+    pan rwy'n derbyn [start v]
+gosod [amser v] i (30)
+ailadrodd hyd at <(amser) = [0]> 
+  aros (1) eiliad
+  newid [amser v] gan (-1)
+end
+darlledu (end v)
+```
