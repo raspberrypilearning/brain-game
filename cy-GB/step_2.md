@@ -67,7 +67,7 @@ Profa dy brosiect ddwywaith: ateba un cwestiwn yn gywir a'r llall yn anghywir.
 
 --- task ---
 
-Ychwanega ddolen `am byth` {:class="block3control"} o amgylch y côd, fel bod y chwareuwr yn cael llawer o gwestiynau.
+Ychwanega ddolen `am byth`{:class="block3control"} o amgylch y côd, fel bod y chwareuwr yn cael llawer o gwestiynau.
 
 --- hints ---
  --- hint ---
