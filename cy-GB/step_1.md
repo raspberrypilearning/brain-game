@@ -21,7 +21,7 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 
 --- print-only --- ![Brain Game](images/brain-final.png) --- /print-only ---
 
----collapse---
+--- collapse ---
 
 ## title: Yr hyn byddi di'n ei ddysgu
 
@@ -30,7 +30,7 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 
 --- /collapse ---
 
----collapse---
+--- collapse ---
 
 ## title: Beth fydd ei angen arno ti
 
@@ -44,7 +44,7 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 
 --- /collapse ---
 
----collapse---
+--- collapse ---
 
 ## title: Gwybodaeth ychwanegol i addysgwyr
 
