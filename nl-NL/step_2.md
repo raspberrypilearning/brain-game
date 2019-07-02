@@ -80,7 +80,7 @@ herhaal
 einde
 ```
 
-\--- / hint \--- \--- hint \--- Hier is hoe je blok eruit zou moeten zien:
+\--- /hint \--- \--- hint \--- Hier is hoe je blok eruit zou moeten zien:
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
