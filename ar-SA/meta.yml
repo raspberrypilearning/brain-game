@@ -12,17 +12,17 @@ steps:
   - 
     title: إنشاء أسئلة
   - 
-    title: 'التحدي: تغيير المظاهر'
+    title: أضف مؤقت
   - 
-    title: 'التحدي: إضافة درجة'
+    title: 'التحدي: إضافة درجة وردود الفعل'
     challenge: true
   - 
     title: ألعاب متعددة
   - 
-    title: 'التحدي: شاشة البدء'
+    title: 'التحدي: إنشاء شاشة البداية'
     challenge: true
   - 
-    title: إضافة رسومات
+    title: أضف رسومات
   - 
     title: 'التحدي: رسوم متحركة محسنة'
     challenge: true
