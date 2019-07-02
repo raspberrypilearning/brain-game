@@ -1,4 +1,4 @@
-## Uitdaging: startscherm
+## Uitdaging: maak een startscherm
 
 Kun je nog een achtergrond toevoegen die het startscherm van je spel zal zijn?
 
