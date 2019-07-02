@@ -26,7 +26,7 @@
 ## title: ما الذي ستتعلمه
 
 + كيف تستخدم البث في Scratch
-+ How to create and use a custom Scratch block
++ كيف تنشيء وتستخدم كتلة Scratch مخصصة
 
 \--- /collapse \---
 
@@ -46,7 +46,7 @@
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: ملاحظات إضافية للمعلمين
 
 \--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
 
