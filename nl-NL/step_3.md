@@ -63,7 +63,7 @@ Maak een `zend signaal`{:class="block3control"} die het signaal 'einde' verstuur
 
 ```blocks3
     wanneer ik signaal [einde v] ontvang
-stop [andere scripts in sprite v]
+    stop [andere scripts in sprite v]
 ```
 
 \--- /task \---
