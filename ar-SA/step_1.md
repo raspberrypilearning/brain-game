@@ -6,11 +6,11 @@
 
 ## المقدمة
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+في هذا المشروع، ستقوم بإنشاء لعبة اختبار للرياضيات يكون للاعب خلالها 30 ثانية لإعطاء أكبر عدد ممكن من الإجابات الصحيحة.
 
 ### ما الذي ستصنعه
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- اضغط على الزر للبدء. اكتب إجابة السؤال، ثم اضغط على مفتاح <kbd> Enter </kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -25,7 +25,7 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## title: ما الذي ستتعلمه
 
-+ How to use broadcasts in Scratch
++ كيف تستخدم البث في Scratch
 + How to create and use a custom Scratch block
 
 \--- /collapse \---
