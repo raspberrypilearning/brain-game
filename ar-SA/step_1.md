@@ -48,8 +48,8 @@
 
 ## title: ملاحظات إضافية للمعلمين
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [النسخة القابلة للطباعة](https://projects.raspberrypi.org/en/projects/brain-game/print) \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+يمكنك العثور على [المشروع المكتمل هنا](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- collapse \---
