@@ -40,7 +40,7 @@ In dit project leer je een quiz te maken van de tafels van vermenigvuldiging, wa
 
 ### Software
 
-+ Scratch 3 (of [online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:Target="_blank"})
++ Scratch 3 (of [online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
