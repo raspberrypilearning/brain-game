@@ -53,7 +53,7 @@ defina [number 2 v] para (selecionar aleatório (2) para (12))
 + se <(resposta) = ((number 1)*(number 2))> , então
 + diga [sim! :)] por (2) segundos
 + senão
-+ dizer [não :(] por (2) segundos
++ dizer [errado :(] por (2) segundos
 + fim
 ```
 
@@ -71,26 +71,25 @@ Adiciona um ciclo `repete para sempre`{:class="block3control"} a este código, p
 
 \--- hints \--- \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+Você precisa adicionar um bloco `repete para sempre`{:class="block3control"} e colocar todo o código, exceto o bloco `quando alguém clicar na bandeira`{:class="block3control"}, nele.
 
-\--- /hint \--- \--- hint \--- Here is the block you need:
+\--- / hint \--- \--- hint \--- Aqui está o bloco que precisas:
 
 ```blocks3
-forever
-end
+sempre
+fim
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- Aqui está como o teu código deve parecer:
 
 ```blocks3
-when flag clicked
+quando alguém clicar na bandeira verde
 
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
+        altera [number 1 v] para (um valor ao acaso entre (2) e (12))
+        altera [number 2 v] para (um valor ao acaso entre (2) e (12))
+        pergunta (a junção de (number 1) com (a junção de [ x ] com (number 2))) e espera pela resposta
+        se <(resposta) = ((number 1) * (number 2))> então 
+            diz [certo! :)] for (2) seconds
     else
         say [no :(] for (2) seconds
     end
