@@ -8,29 +8,29 @@
 
 Cria uma `variável`{:class="block3variables"}, nomeia-a 'time', e define o valor para `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Em seguida, adiciona código para diminuir `time` {: class = "block3variables"} até 0 em 30 segundos. Para fazer isso, subtrai `1` de `time`{:class="block3variables"} a cada `1` segundo, e repete até `time`{:class="block3variables"} igual a `0`.
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- /hint \--- \--- hint \--- Aqui estão os blocos que precisas:
 
 ```blocks3
-repeat until < >
+repita até < >
 
-end
+final
 
-wait (1) seconds
+espera (1) segundos
 
-change [time v] by (1)
+altere [time v] por (1)
 
 (time)
 
-when flag clicked
+quando a bandeira for clicada
 
 <() = ()>
 
-set [time v] to [0]
+defina [time v] para [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- /hint \--- \--- hint \--- Aqui está o que seu novo código deve parecer:
 
 ```blocks3
 when flag clicked
