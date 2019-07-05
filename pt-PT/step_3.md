@@ -1,12 +1,12 @@
 ## Adicionar temporizador
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- Tarefa \--- Cria um temporizador de contagem regressiva no palco com a ajuda de uma nova variável chamada `time`{:class="block3variable"}. O temporizador deve começar em 30 segundos e contar até 0 segundos.
 
 ![Stage sprite](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Cria uma `variável`{:class="block3variables"}, nomeia-a 'time', e define o valor para `30`.
 
 Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
 
