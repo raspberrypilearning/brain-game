@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
 ## Introdução
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+Neste projeto vais criar um jogo de testes matemáticos em que o jogador tem 30 segundos para dar o maior número possível de respostas corretas.
 
 ### O que vais fazer
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- não-imprima \--- Clique no botão para iniciar. Digite a resposta para a pergunta e, em seguida, pressione a tecla <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
