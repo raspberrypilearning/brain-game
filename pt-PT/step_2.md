@@ -1,14 +1,14 @@
-## Create questions
+## Criar as perguntas
 
-You're going to start by creating random questions that the player has to answer.
+Vamos começar por criar perguntas aleatórias para o jogador responder.
 
 \--- task \---
 
-Open a new Scratch project.
+Abra um novo projeto Scratch.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** abre um novo projeto online Scratch em [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
 
-**Offline:** open a new project in the offline editor.
+**Offline:** abre um novo projeto no editor offline.
 
 If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
