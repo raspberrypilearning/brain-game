@@ -10,11 +10,11 @@ steps:
   - 
     title: Jogo de calculo mental
   - 
-    title: Create questions
+    title: Crie perguntas
   - 
-    title: Add a timer
+    title: Adicionar temporizador
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Desafio: adicionar uma pontuação e reações'
     challenge: true
   - 
     title: Jogadas múltiplas
