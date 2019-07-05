@@ -51,7 +51,7 @@ defina [number 2 v] para (selecionar aleatório (2) para (12))
 
 + pergunta (a junçāo de (number 1) com (a junçāo de [ x ] com (number 2))) e aguarde
 + se <(resposta) = ((number 1)*(number 2))> , então
-+ diga [sim! :)] por (2) segundos
++ diga [certo! :)] por (2) segundos
 + senão
 + dizer [errado :(] por (2) segundos
 + fim
@@ -71,7 +71,7 @@ Adiciona um ciclo `repete para sempre`{:class="block3control"} a este código, p
 
 \--- hints \--- \--- hint \---
 
-Você precisa adicionar um bloco `repete para sempre`{:class="block3control"} e colocar todo o código, exceto o bloco `quando alguém clicar na bandeira`{:class="block3control"}, nele.
+Precisas adicionar um bloco `repete para sempre`{:class="block3control"} e colocar todo o código, exceto o bloco `quando alguém clicar na bandeira`{:class="block3control"}, nele.
 
 \--- / hint \--- \--- hint \--- Aqui está o bloco que precisas:
 
@@ -89,11 +89,11 @@ quando alguém clicar na bandeira verde
         altera [number 2 v] para (um valor ao acaso entre (2) e (12))
         pergunta (a junção de (number 1) com (a junção de [ x ] com (number 2))) e espera pela resposta
         se <(resposta) = ((number 1) * (number 2))> então 
-            diz [certo! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
+            diz [certo! :)] por (2) segundos
+    senão
+        diga [errado :(] por (2) segundos
+    termina
+termina
 ```
 
 \--- /hint \--- \--- /hints \---
