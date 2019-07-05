@@ -67,7 +67,7 @@ Testa o teu projeto duas vezes: responde uma pergunta corretamente, e a outra in
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+Adiciona um ciclo `repete para sempre`{:class="block3control"} a este código, para que o jogo pergunte muitas questões seguidas ao jogador.
 
 \--- hints \--- \--- hint \---
 
