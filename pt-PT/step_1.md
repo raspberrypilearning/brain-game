@@ -25,8 +25,8 @@ Neste projeto vais criar um jogo de testes matemáticos em que o jogador tem 30 
 
 ## title: O que vais aprender
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Como usar transmissões no Scratch
++ Como criar e usar um bloco de Scratch personalizado
 
 \--- /collapse \---
 
@@ -36,20 +36,20 @@ Neste projeto vais criar um jogo de testes matemáticos em que o jogador tem 30 
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Um computador capaz de executar o Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ou [ online ](http://rpf.io/scratchon) {: target = "_ blank"} ou [ offline ](http://rpf.io/scratchoff) {: target = "_ blank"})
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## título: Notas adicionais para educadores
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- Se precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/brain-game/print) \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Pode encontrar o [ projeto concluído aqui ](http://rpf.io/p/en/brain-game-get) {: target = "_ blank"}.
 
 \--- /collapse \---
