@@ -45,23 +45,23 @@ defina [number 2 v] para (escolha aleatória (2) a (12))
 ![captura de ecrã](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+quando a bandeira for clicada
+definir [number 1 v] para (escolha aleatório (2) para (12))
+defina [number 2 v] para (selecionar aleatório (2) para (12))
 
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
-+ end
++ pergunta (a junçāo de (number 1) com (a junçāo de [ x ] com (number 2))) e aguarde
++ se <(resposta) = ((number 1)*(number 2))> , então
++ diga [sim! :)] por (2) segundos
++ senão
++ dizer [não :(] por (2) segundos
++ fim
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+Testa o teu projeto duas vezes: responde uma pergunta corretamente, e a outra incorretamente.
 
 \--- /task \---
 
