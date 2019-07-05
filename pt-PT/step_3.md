@@ -33,12 +33,12 @@ defina [time v] para [0]
 \--- /hint \--- \--- hint \--- Aqui está o que seu novo código deve parecer:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
-end
+quando a bandeira for clicada
+altera [time v] para [30]
+repete até <(time) = (0)>
+    espera (1) segundos
+    adiciona a [time v] o valor  (-1)
+fim
 ```
 
 \--- /hint \--- \--- /hints \---
