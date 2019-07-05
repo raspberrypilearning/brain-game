@@ -10,17 +10,17 @@ Abra um novo projeto Scratch.
 
 **Offline:** abre um novo projeto no editor offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Se precisares de descarregar e instalar o editor do Scratch offline, podes encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+\---- task \---- Escolhe um actor e um cenário para o teu jogo. Podes escolher os que quiseres! Aqui está um exemplo:
 
 ![captura de ecrã](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- Tarefa \--- Certifica-te de que tens o teu actor selecionado. Cria duas novas variáveis, chamadas `number 1`{:class="block3variáveis"} e `number 2`{:class="block3variable"}, para armazenar os números para as perguntas do teste.
 
 ![captura de ecrã](images/giga-sprite.png) ![captura de ecrã](images/brain-variables.png)
 
