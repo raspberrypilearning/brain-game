@@ -1,4 +1,4 @@
-## Criar as perguntas
+## Crie perguntas
 
 Vamos começar por criar perguntas aleatórias para o jogador responder.
 
@@ -28,14 +28,14 @@ Se precisares de descarregar e instalar o editor do Scratch offline, podes encon
 
 \--- /task \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- task \--- Adiciona código ao teu actor para definir as variáveis `variáveis`{:class="block3variables"} para um número `aleatório`{:class="block3operators"} entre 2 e 12.
 
 ![captura de ecrã](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+quando a bandeira clicada
+definir [number 1 v] para (escolha aleatória (2) a (12))
+defina [number 2 v] para (escolha aleatória (2) a (12))
 ```
 
 \--- /task \---
