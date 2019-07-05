@@ -28,7 +28,7 @@ Se precisares de descarregar e instalar o editor do Scratch offline, podes encon
 
 \--- /task \---
 
-\--- task \--- Adiciona código ao teu actor para definir as variáveis `variáveis`{:class="block3variables"} para um número `aleatório`{:class="block3operators"} entre 2 e 12.
+\--- task \--- Adiciona código ao teu actor para definir as variáveis `variáveis`{:class="block3variables"} para um `valor ao acaso`{:class="block3operators"} entre 2 e 12.
 
 ![captura de ecrã](images/giga-sprite.png)
 
@@ -40,7 +40,7 @@ defina [number 2 v] para (escolha aleatória (2) a (12))
 
 \--- /task \---
 
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+\--- Tarefa \--- Adiciona código para `perguntar`{:class="block3sensing"} ao jogador a resposta, e depois `diz por 2 segundos`{:class="block3look"} se a resposta estava certa ou errada:
 
 ![captura de ecrã](images/giga-sprite.png)
 
