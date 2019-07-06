@@ -2,7 +2,7 @@
 
 \--- Tarefa \--- Cria um temporizador de contagem regressiva no palco com a ajuda de uma nova variável chamada `time`{:class="block3variable"}. O temporizador deve começar em 30 segundos e contar até 0 segundos.
 
-![Stage sprite](images/stage-sprite.png)
+![Actor do palco](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -49,7 +49,7 @@ fim
 
 Cria um `difunde a mensagem`{:class="block3control"} que envia a mensagem 'end'. Um ` difunde a mensagem ` {: class = "block3control"} é como um anúncio em um alto-falante: ele pode ser ouvido por todos os seus actores. Adiciona o bloco `difunde a mensagem`{:class="block3control"} ao final do código do temporizador, para que o código envie a mensagem 'end' quando `time`{:class="block3variable"} chega a `0`.
 
-![Stage sprite](images/stage-sprite.png)
+![Actor do palco](images/stage-sprite.png)
 
 ```blocks3
     difunde a mensagem (end v)
@@ -59,7 +59,7 @@ Cria um `difunde a mensagem`{:class="block3control"} que envia a mensagem 'end'.
 
 \--- Tarefa \--- Seleciona o teu actor e adiciona código para que o actor `pare os outros guiōes`{:class="block3control"} quando recebe a mensagem `end`{:class="block3control"}.
 
-![Giga sprite](images/giga-sprite.png)
+![Actor Giga](images/giga-sprite.png)
 
 ```blocks3
     quando receberes a mensagem [end v]
@@ -70,6 +70,6 @@ Cria um `difunde a mensagem`{:class="block3control"} que envia a mensagem 'end'.
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Testa o teu jogo novamente. Deve continuar a fazer perguntas até que o temporizador tenha contado até 0.
 
 \--- /task \---
