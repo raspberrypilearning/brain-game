@@ -1,33 +1,33 @@
-## Jogadas múltiplas
+## Múltiplas jogadas
 
 Agora vais adicionar um botão 'Play', para que o jogador possa jogar o teu jogo muitas vezes.
 
-\--- task \--- Crie um novo actor do botão 'Play' que o jogador precisa clicar para iniciar um novo jogo.
+\--- task \--- Cria um novo actor botão 'Play' que o jogador precisa clicar para iniciar um novo jogo.
 
-Pode desenhar o actor tu mesmo, ou editar um actor da biblioteca.
+Podes desenhar o actor tu mesmo, ou editar um actor da biblioteca.
 
 ![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- Adiciona este código ao teu actor botão:
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    quando alguém clicar na bandeira verde
+       mostra-te
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+       quando alguém clicar em ti
+       esconde-te
+       difunde a mensagem (start v)
 ```
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+O novo código inclui outro bloco `difunde a mensagem`{:class="block3events"} que envia a mensagem 'start'.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+O novo código faz com que o sprite do botão 'Play' apareça quando o jogador clica na bandeira. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
 At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
