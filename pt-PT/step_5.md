@@ -1,10 +1,10 @@
-## Múltiplas jogadas
+## Jogadas múltiplas
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Agora vais adicionar um botão 'Play', para que o jogador possa jogar o teu jogo muitas vezes.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- Crie um novo actor do botão 'Play' que o jogador precisa clicar para iniciar um novo jogo.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Pode desenhar o actor tu mesmo, ou editar um actor da biblioteca.
 
 ![Picture of the play button](images/brain-play.png)
 
