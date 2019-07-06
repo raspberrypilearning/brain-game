@@ -29,7 +29,7 @@ O novo código inclui outro bloco `difunde a mensagem`{:class="block3events"} qu
 
 O novo código faz com que o sprite do botão 'Play' apareça quando o jogador clica na bandeira. Quando o jogador clica no actor do botão, o actor esconde-se e difunde uma mensagem a que outros actores podem reagir.
 
-De momento, o actor personagem começa a fazer perguntas quando o jogador clica na bandeira. Altera o código do teu jogo para que o actor do personagem comece a fazer perguntas quando receber a 'start' `Quando receberes a mensagem`{:class="block3events"} 'start'.
+De momento, o actor personagem começa a fazer perguntas quando o jogador clica na bandeira. Altera o código do teu jogo para que o actor do personagem comece a fazer perguntas quando `Quando receberes a mensagem`{:class="block3events"} 'start'.
 
 \--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
 
