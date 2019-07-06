@@ -1,6 +1,6 @@
-## Challenge: add a score and reactions
+## Desafio: adicionar uma pontuação e reações
 
-Can you add a score to your game?
+Pode adicionar uma pontuação ao teu jogo?
 
 You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
