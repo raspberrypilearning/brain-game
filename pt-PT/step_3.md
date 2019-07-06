@@ -57,12 +57,12 @@ Cria um `difunde a mensagem`{:class="block3control"} que envia a mensagem 'end'.
 
 \--- /task \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- Tarefa \--- Seleciona o teu actor e adiciona código para que o actor `pare os outros guiōes`{:class="block3control"} quando recebe a mensagem `end`{:class="block3control"}.
 
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    Quando receberes a mensagem [acabar v]
+    quando receberes a mensagem [end v]
     pára [os teus outros guiões v]
 ```
 
