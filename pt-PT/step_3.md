@@ -47,12 +47,12 @@ fim
 
 \--- task \---
 
-Crie um bloco `difunde a mensagem`{:class="block3control"} que envia a mensagem 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Cria um `difunde a mensagem`{:class="block3control"} que envia a mensagem 'end'. Um ` difunde a mensagem ` {: class = "block3control"} é como um anúncio em um alto-falante: ele pode ser ouvido por todos os seus actores. Adiciona o bloco `difunde a mensagem`{:class="block3control"} ao final do código do temporizador, para que o código envie a mensagem 'end' quando `time`{:class="block3variable"} chega a `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    difunde a mensagem (end v)
 ```
 
 \--- /task \---
