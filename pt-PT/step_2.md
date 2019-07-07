@@ -33,9 +33,9 @@ Se precisares de descarregar e instalar o editor offline do Scratch, podes encon
 ![captura de ecrã](images/giga-sprite.png)
 
 ```blocks3
-quando a bandeira clicada
-definir [number 1 v] para (escolha aleatória (2) a (12))
-defina [number 2 v] para (escolha aleatória (2) a (12))
+quando a bandeira for clicada
+altera [numero 1 v] para (valor ao acaso entre (2) e (12))
+altera [numbero 2 v] para (valor ao acaso entre (2) e (12))
 ```
 
 \--- /task \---
