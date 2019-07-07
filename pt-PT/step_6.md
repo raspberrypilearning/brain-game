@@ -1,6 +1,6 @@
 ## Desafio: criar uma tela inicial
 
-Can you add another backdrop that is going to be the start screen for your game?
+Podes adicionar outro cenário que será a tela inicial para o teu jogo?
 
 You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
