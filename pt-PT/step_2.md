@@ -1,26 +1,26 @@
 ## Criar perguntas
 
-Vamos começar por criar perguntas aleatórias para o jogador responder.
+Vais começar por criar perguntas aleatórias para o jogador responder.
 
 \--- task \---
 
-Abra um novo projeto Scratch.
+Abre um projeto Scratch novo.
 
 **Online:** abre um novo projeto online Scratch em [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
 
 **Offline:** abre um novo projeto no editor offline.
 
-Se precisares de descarregar e instalar o editor do Scratch offline, podes encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
-\---- task \---- Escolhe um actor e um cenário para o teu jogo. Podes escolher os que quiseres! Aqui está um exemplo:
+\---- task \---- Adiciona um actor e um cenário ao teu jogo. Podes escolher os que quiseres! Aqui está um exemplo:
 
 ![captura de ecrã](images/brain-setting.png)
 
 \--- /task \---
 
-\--- Tarefa \--- Certifica-te de que tens o teu actor selecionado. Cria duas novas variáveis, chamadas `number 1`{:class="block3variáveis"} e `number 2`{:class="block3variable"}, para armazenar os números para as perguntas do teste.
+\--- task \--- Certifica-te de que tens o teu actor selecionado. Cria duas novas variáveis, chamadas `number 1`{:class="block3variáveis"} e `number 2`{:class="block3variable"}, para armazenar os números para as perguntas do teste.
 
 ![captura de ecrã](images/giga-sprite.png) ![captura de ecrã](images/brain-variables.png)
 
