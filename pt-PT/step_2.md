@@ -1,4 +1,4 @@
-## Crie perguntas
+## Criar perguntas
 
 Vamos começar por criar perguntas aleatórias para o jogador responder.
 
