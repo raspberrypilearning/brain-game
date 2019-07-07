@@ -19,7 +19,7 @@ steps:
   - 
     title: Jogadas múltiplas
   - 
-    title: 'Desafio: criar uma tela inicial'
+    title: 'Desafio: criar um ecrā inicial'
     challenge: true
   - 
     title: Adicionar gráficos
@@ -27,10 +27,10 @@ steps:
     title: 'Desafio: som e música'
     challenge: true
   - 
-    title: 'Desafio: Corrida até 10 pontos'
+    title: 'Desafio: corrida até 10 pontos'
     challenge: true
   - 
-    title: 'Desafio: Ecrã de instruções'
+    title: 'Desafio: ecrã de instruções'
     challenge: true
   - 
     title: O que se segue?
