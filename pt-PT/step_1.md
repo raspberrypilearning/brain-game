@@ -40,13 +40,13 @@ Neste projeto vais criar um jogo de testes matemáticos em que o jogador tem 30 
 
 ### Software
 
-+ Scratch 3 (ou [ online ](http://rpf.io/scratchon) {: target = "_ blank"} ou [ offline ](http://rpf.io/scratchoff) {: target = "_ blank"})
++ Scratch 3 (ou [ online ](http://rpf.io/scratchon){: target = "_ blank"} ou [ offline ](http://rpf.io/scratchoff){: target = "_ blank"})
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## título: Notas adicionais para educadores
+## title: Notas adicionais para educadores
 
 \--- no-print \--- Se precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/brain-game/print) \--- /no-print \---
 
