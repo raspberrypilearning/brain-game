@@ -1,8 +1,8 @@
-## What next?
+## O que se segue?
 
-Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
+Experimenta o projeto [Apanha os pontos](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) para criar um jogo de reação! Nesse projeto, vais aprender a fazer clones de actores e a usar uma variável para acelerar gradualmente o jogo.
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no-print \--- Usa as setas do teclado para girar a roda controladora e pega os pontos voadores quando eles chegarem ao centro. Se perderes três pontos, o jogo acaba.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
