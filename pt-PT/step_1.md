@@ -10,7 +10,7 @@ Neste projeto vais criar um jogo de testes matemáticos em que o jogador tem 30 
 
 ### O que vais fazer
 
-\--- não-imprima \--- Clique no botão para iniciar. Digite a resposta para a pergunta e, em seguida, pressione a tecla <kbd>Enter</kbd>.
+\--- no-print \--- Clica no botão para iniciar. Digita a resposta para a pergunta e, em seguida, pressiona a tecla <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -25,7 +25,7 @@ Neste projeto vais criar um jogo de testes matemáticos em que o jogador tem 30 
 
 ## title: O que vais aprender
 
-+ Como usar transmissões no Scratch
++ Como difundir mensagens no Scratch
 + Como criar e usar um bloco de Scratch personalizado
 
 \--- /collapse \---
