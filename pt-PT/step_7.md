@@ -74,33 +74,33 @@ Seleciona o actor 'Resultado'. Depois clica em `Meus Blocos`{:class="block3myblo
 
 \--- /task \---
 
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+\--- task \--- Move o código para `mostra-te`{:class="block3look"} e `esconde-te`{:class="block3look"} do actor 'Resultado' para o bloco `animar`{:class="block3myblocks"}:
 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+definir animar
+mostra-te
+espera (1) segundos
+esconde-te
 ```
 
 \--- /task \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- task \--- Certifica-te de que removeste os blocos `mostra-te`{:class="block3look"} e `esconde-te`{:class="block3look"} abaixo de **ambos** os blocos `muda o teu traje`{:class="block3look"}.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+Em seguida adiciona o bloco `animar`{:class="block3myblocks"} abaixo dos blocos `muda o teu traje`{:class="block3look"}. O teu código agora deve estar parecido com isto:
 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    quando eu receber [correto v]
+    alternar traje para (tick v)
+    animar:: custom
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+    quando recebo [v errado]
+    alternar traje para (cruz v)
+    animar:: personalizado
 ```
 
 \--- /task \---
