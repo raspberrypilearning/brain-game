@@ -31,28 +31,28 @@ O novo código faz com que o sprite do botão 'Play' apareça quando o jogador c
 
 De momento, o actor personagem começa a fazer perguntas quando o jogador clica na bandeira. Altera o código do teu jogo para que o actor do personagem comece a fazer perguntas quando `Quando receberes a mensagem`{:class="block3events"} 'start'.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- Selecione o teu actor e, na sua seção de código, substitui o bloco ` quando alguém clicar na bandeira `{: class = "block3events"} com um bloco ` quando receberes a mensagem start `{: class = "block3events"}.
 
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+<br />- quando alguém clicar na bandeira verde
++quando eu receber a mensagem start
+        altera [number 1 v] para (um valor ao acaso entre (2) e (12))
+        altera [number 2 v] para (um valor ao acaso entre (2) e (12))
+        pergunta (a junção de (number 1) com (a junção de [ x ] com (number 2))) e espera pela resposta
+        se &lt;(answer) = ((number 1) * (number 2))>&gt; então 
+            diz [certo! :)] por (2) segundos
+senão
+    diz [Errado :(] por (2) segundos
+fim
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Clica na bandeira verde e clica no novo botão 'Play' para testar se ele funciona. Deves ver que o jogo não começa antes de clicares no botão.
 
 \--- /task \---
 
