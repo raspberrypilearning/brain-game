@@ -1,8 +1,8 @@
-## Desafio: Corrida até 10 pontos
+## Desafio: corrida até 10 pontos
 
 Podes mudar o teu jogo para que o jogador, em vez de responder o maior número possível de perguntas em 30 segundos, responda 10 perguntas o mais rapidamente possível.
 
-Para fazer esta alteração, só precisas de alterar o teu código do temporizador. Podes ver quais blocos precisam de ser diferentes?
+Para fazer esta alteração, só precisas de alterar o teu código do temporizador. Podes ver quais sāo os blocos que precisam de ser diferentes?
 
 ```blocks3
     when I receive [start v]
