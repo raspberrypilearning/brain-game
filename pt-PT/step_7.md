@@ -1,4 +1,4 @@
-## Add graphics
+## Adicionar gráficos
 
 At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
