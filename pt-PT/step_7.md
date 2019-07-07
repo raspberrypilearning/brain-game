@@ -1,10 +1,10 @@
 ## Adicionar gráficos
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+De momento, o actor do personagem só diz `certo! :)` ou `errado :(` às respostas do jogador. Adiciona alguns gráficos para informar o jogador se sua resposta está correta ou incorreta.
 
 \--- task \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+Cria um novo actor com o nome ‘resultado’, que contenha os trajes de ‘correcto’ e ‘incorrecto’.
 
 ![Sprite with tick and cross costumes](images/brain-result.png)
 
@@ -12,18 +12,18 @@ Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' co
 
 \--- task \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+Altera o código do teu actor personagem para que, em vez de dizer algo ao jogador, ele `difunda as mensagem`{:class="block3events"} 'correto' ou 'errado'.
 
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-if <(answer) = ((number 1)*(number 2))> then
+se <(resposta) = ((numero 1) * (numero 2))> entao
 
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
+- diga [certo! :)] para (2) segundos
++ broadcast (v correto)
 else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
+- diga [errado :(] para (2) segundos
++ broadcast (v errado)
 end
 ```
 
@@ -31,30 +31,30 @@ end
 
 \--- task \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+Agora podes usar estas mensagens para `mostrar`{:class="block3look"} o traje 'correto' ou 'incorrecto'. Adiciona o seguinte código ao actor 'Resultado':
 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
+    quando recebo [correto v]
+    alterna o traje para (tick v)
     show
-    wait (1) seconds
-    hide
+    wait (1) segundos
+    ocultar
 
-    when I receive [wrong v]
-    switch costume to (cross v)
+    quando recebo [v errado]
+    alterna o traje para (cruz v)
     show
-    wait (1) seconds
-    hide
+    wait (1) segundos
+    ocultar
 
-    when flag clicked
-    hide
+    quando alguém clicar na bandeira 
+    ocultar
 ```
 
 \--- /task \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\--- task \--- Testa o teu jogo novamente. Deves ver o certo sempre que responderes uma pergunta corretamente e a errado sempre que responderes incorretamente!
 
 ![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
