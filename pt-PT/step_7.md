@@ -105,30 +105,30 @@ Em seguida adiciona o bloco `animar`{:class="block3myblocks"} abaixo dos blocos 
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+Por causa do bloco personalizado `animar`{:class="block3myblocks"}, agora só precisas de fazer uma mudança ao teu código se quiseres mostrar os trajes do actor 'resultado' um tempo maior ou menor.
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+Altera o teu código para que o 'certo' ou 'errado' sejam mostrados por 2 segundos.
 
 \--- /task \---
 
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+\--- task \--- Em vez de ` mostrar ` {: class = "block3looks"} e ` esconder ` {: class = "block3looks"} os trajes 'certo' ou 'errado', podes mudar o teu bloco ` animar `{: class = "block3myblocks"} para que os trajes apareçam.
 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    define animar
+    set [efeito fantasma v] para (100)
+    mostra
+    repetição (25)
+        mudança [efeito fantasma v] por (-4)
+    fim
+    esconder
 ```
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Pode melhorar a animação dos gráficos 'certo' e 'errado'? Pode adicionar código para também fazer os trajes desaparecerem, ou podes usar outros efeitos interessantes:
 
 ![captura de ecrã](images/brain-effects.png)
