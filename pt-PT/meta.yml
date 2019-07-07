@@ -3,16 +3,16 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Jogo de calculo mental
-description: Aprende como criar um teste
-version: 3
+description: Aprende a criar um teste
+version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Jogo de calculo mental
+    title: Introdução
   - 
-    title: Crie perguntas
+    title: Criar perguntas
   - 
-    title: Adicionar temporizador
+    title: Adicionar um temporizador
   - 
     title: 'Desafio: adicionar uma pontuação e reações'
     challenge: true
