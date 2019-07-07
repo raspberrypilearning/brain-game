@@ -60,13 +60,13 @@ Agora podes usar estas mensagens para `mostrar`{:class="block3look"} o traje 'co
 
 \--- /task \---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+Notaste que o código para ` quando receberes a mensagem correto` {: class = "blockevents"} e ` quando receberes a mensagem a incorreto` {: class = "blockevents"} é quase idêntico?
 
-So you can change your code more easily, you are going to create a custom block.
+Então para poderes alterar o teu código mais facilmente, vais criar um bloco personalizado.
 
 \--- task \---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+Seleciona o actor 'Resultado'. Depois clica em `Meus Blocos`{:class="block3myblocks"}, e depois em **Criar um Bloco**. Cria um bloco novo e chama-lhe `animar`{:class="block3myblocks"}.
 
 ![Result sprite](images/result-sprite.png)
 
