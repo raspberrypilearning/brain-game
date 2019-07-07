@@ -6,7 +6,7 @@ De momento, o actor do personagem só diz `certo! :)` ou `errado :(` às respost
 
 Cria um novo actor com o nome ‘resultado’, que contenha os trajes de ‘correcto’ e ‘incorrecto’.
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![Actor com trajes de certo e errado](images/brain-result.png)
 
 \--- /task \---
 
@@ -14,7 +14,7 @@ Cria um novo actor com o nome ‘resultado’, que contenha os trajes de ‘corr
 
 Altera o código do teu actor personagem para que, em vez de dizer algo ao jogador, ele `difunda as mensagem`{:class="block3events"} 'correto' ou 'errado'.
 
-![Character sprite](images/giga-sprite.png)
+![Actor personagem](images/giga-sprite.png)
 
 ```blocks3
 se <(resposta) = ((numero 1) * (numero 2))> entao
@@ -33,7 +33,7 @@ end
 
 Agora podes usar estas mensagens para `mostrar`{:class="block3look"} o traje 'correto' ou 'incorrecto'. Adiciona o seguinte código ao actor 'Resultado':
 
-![Result sprite](images/result-sprite.png)
+![Actor Resultado](images/result-sprite.png)
 
 ```blocks3
     quando recebo [correto v]
@@ -56,7 +56,7 @@ Agora podes usar estas mensagens para `mostrar`{:class="block3look"} o traje 'co
 
 \--- task \--- Testa o teu jogo novamente. Deves ver o certo sempre que responderes uma pergunta corretamente e a errado sempre que responderes incorretamente!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![Certo para a resposta correta, Errado para resposta errada](images/brain-test-answer.png)
 
 \--- /task \---
 
@@ -68,15 +68,15 @@ Então para poderes alterar o teu código mais facilmente, vais criar um bloco p
 
 Seleciona o actor 'Resultado'. Depois clica em `Meus Blocos`{:class="block3myblocks"}, e depois em **Criar um Bloco**. Cria um bloco novo e chama-lhe `animar`{:class="block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![Actor Resultado](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![Cria um bloco chamado animar](images/brain-animate-function.png)
 
 \--- /task \---
 
 \--- task \--- Move o código para `mostra-te`{:class="block3look"} e `esconde-te`{:class="block3look"} do actor 'Resultado' para o bloco `animar`{:class="block3myblocks"}:
 
-![Result sprite](images/result-sprite.png)
+![Actor Resultado](images/result-sprite.png)
 
 ```blocks3
 definir animar
@@ -91,7 +91,7 @@ esconde-te
 
 Em seguida adiciona o bloco `animar`{:class="block3myblocks"} abaixo dos blocos `muda o teu traje`{:class="block3look"}. O teu código agora deve estar parecido com isto:
 
-![Result sprite](images/result-sprite.png)
+![Actor Resultado](images/result-sprite.png)
 
 ```blocks3
     quando eu receber [correto v]
@@ -115,7 +115,7 @@ Altera o teu código para que o 'certo' ou 'errado' sejam mostrados por 2 segund
 
 \--- task \--- Em vez de ` mostrar ` {: class = "block3looks"} e ` esconder ` {: class = "block3looks"} os trajes 'certo' ou 'errado', podes mudar o teu bloco ` animar `{: class = "block3myblocks"} para que os trajes apareçam.
 
-![Result sprite](images/result-sprite.png)
+![Actor Resultado](images/result-sprite.png)
 
 ```blocks3
     define animar
