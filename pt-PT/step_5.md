@@ -6,13 +6,13 @@ Agora vais adicionar um botão 'Play', para que o jogador possa jogar o teu jogo
 
 Podes desenhar o actor tu mesmo, ou editar um actor da biblioteca.
 
-![Picture of the play button](images/brain-play.png)
+![Imagem do botão Play](images/brain-play.png)
 
 \--- /task \---
 
 \--- task \--- Adiciona este código ao teu actor botão:
 
-![Button sprite](images/button-sprite.png)
+![Actor botāo](images/button-sprite.png)
 
 ```blocks3
     quando alguém clicar na bandeira verde
@@ -33,7 +33,7 @@ De momento, o actor personagem começa a fazer perguntas quando o jogador clica 
 
 \--- task \--- Selecione o teu actor e, na sua seção de código, substitui o bloco ` quando alguém clicar na bandeira `{: class = "block3events"} com um bloco ` quando receberes a mensagem start `{: class = "block3events"}.
 
-![Character sprite](images/giga-sprite.png)
+![Actor personagem](images/giga-sprite.png)
 
 ```blocks3
 <br />- quando alguém clicar na bandeira verde
@@ -58,7 +58,7 @@ Clica na bandeira verde e clica no novo botão 'Play' para testar se ele funcion
 
 Reparas-te que o temporizador começa a contagem quando fazes clique na bandeira verde, e não quando começas o jogo?
 
-![Timer has started](images/brain-timer-bug.png)
+![Temporizador iniciado](images/brain-timer-bug.png)
 
 \--- task \---
 
@@ -68,7 +68,7 @@ Podes alterar o código para o temporizador para que o temporixzador comece quan
 
 \--- task \--- Adiciona código ao actor do teu botão para que o botão apareça novamente no final de cada jogo.
 
-![Button sprite](images/button-sprite.png)
+![Actor botāo](images/button-sprite.png)
 
 ```blocks3
     quando receberes a mensagem [acabar v]
@@ -83,7 +83,7 @@ Teste o botão 'Play' jogando um par de jogos. O botão deve aparecer no final d
 
 Para testar o jogo mais rapidamente, você pode alterar o valor de `time`{:class="block3variáveis"} para que cada jogo tenha apenas alguns segundos.
 
-![Stage](images/stage-sprite.png)
+![Palco](images/stage-sprite.png)
 
 ```blocks3
     altera [tempo v] para [10]
@@ -93,13 +93,13 @@ Para testar o jogo mais rapidamente, você pode alterar o valor de `time`{:class
 
 \--- task \--- Podes alterar a aparência do botão quando o ponteiro do mouse paira sobre ele.
 
-![Button](images/button-sprite.png)
+![Botão](images/button-sprite.png)
 
 ```blocks3
-    Quando alguém clicar na bandeira verde
+    quando alguém clicar na bandeira verde
     mostra-te
     repete para sempre 
-    se <touching (mouse-pointer v)?>, então 
+    se &lt;touching (mouse-pointer v)?&gt;estás a tocar no ponteiro do rato </0>, então 
         altera o teu efeito [olho de peixe v] para (30)
     senão
         altera o teu efeito [olho de peixe v] para (0)
