@@ -56,22 +56,22 @@ Clica na bandeira verde e clica no novo botão 'Play' para testar se ele funcion
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Reparas-te que o temporizador começa a contagem quando fazes clique na bandeira verde, e não quando começas o jogo?
 
 ![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Podes alterar o código para o temporizador para que o temporixzador comece quando o jogador clica no botão?
 
 \--- /task \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- task \--- Adiciona código ao actor do teu botão para que o botão apareça novamente no final de cada jogo.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    Quando receberes a mensagem [acabar v]
+    quando receberes a mensagem [acabar v]
     mostra-te
 ```
 
