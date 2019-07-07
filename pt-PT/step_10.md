@@ -1,11 +1,11 @@
-## Challenge: instruction screen
+## Desafio: ecrã de instruções
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+Podes adicionar um ecrā de instruções ao teu jogo, dizendo ao seu jogador como jogar o jogo? Vais precisar de um botão "Instruções" e outro cenário para o teu palco.
 
 ![captura de ecrã](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Podes também precisar adicionar um botão "Voltar" para permitir que o jogador volte para o ecrā inicial.
 
 ```blocks3
-    broadcast (start screen v)
+    transmissão (tela inicial v)
 ```
