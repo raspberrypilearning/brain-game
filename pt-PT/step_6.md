@@ -2,10 +2,10 @@
 
 Podes adicionar outro cenário que será a tela inicial para o teu jogo?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+Podes usar os blocos ` Quando receberes a mensagem começar ` {: class = "blockevents"} e ` Quando receberes a mensagem acabar ` {: class = "blockevents"} para alternar entre os cenários.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+Para mostrar ou ocultar o personagem quando o seu jogo alterna entre cenários, podes usar blocos `show`{:class="block3look"} e `ocultar`{:class="block3look"}.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+Para mostrar ou ocultar o temporizador e pontuaçāo quando o teu jogo alterna entre cenários, podes usar blocos `mostrar variável`{:class="block3Variáveis"} e `ocultar variável`{:class="block3variáveis"}.
 
-![Start screen](images/brain-startscreen.png)
+![Ecrã inicial](images/brain-startscreen.png)
