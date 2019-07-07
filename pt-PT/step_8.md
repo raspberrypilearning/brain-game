@@ -3,11 +3,11 @@
 Podes adicionar efeitos sonoros e música ao teu jogo? Por exemplo:
 
 + Tocar um som quando o jogador der uma resposta correta ou incorreta
-+ Play a ticking sound as the countdown timer runs
-+ Play a sound when the player's time is up
++ Tocar um som de tique-taque enquanto corre a contagem regressiva
++ Tocar um som quando o tempo do jogador acabar
 
 ```blocks3
-    play sound (pop v) until done
+    tocar som (pop v) até acabar
 ```
 
-Your game could also constantly play background music on a loop.
+O teu jogo pode também tocar música de fundo constantemente num ciclo.
