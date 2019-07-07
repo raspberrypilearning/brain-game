@@ -79,9 +79,9 @@ Podes alterar o código para o temporizador para que o temporixzador comece quan
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Teste o botão 'Play' jogando um par de jogos. O botão deve aparecer no final de cada jogo.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+Para testar o jogo mais rapidamente, você pode alterar o valor de `time`{:class="block3variáveis"} para que cada jogo tenha apenas alguns segundos.
 
 ![Stage](images/stage-sprite.png)
 
@@ -91,7 +91,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- Podes alterar a aparência do botão quando o ponteiro do mouse paira sobre ele.
 
 ![Button](images/button-sprite.png)
 
