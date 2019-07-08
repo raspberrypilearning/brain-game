@@ -47,7 +47,7 @@ fim
 
 \--- task \---
 
-Cria um `difunde a mensagem`{:class="block3control"} que envia a mensagem 'end'. Um ` difunde a mensagem ` {: class = "block3control"} é como um anúncio em um alto-falante: ele pode ser ouvido por todos os seus actores. Adiciona o bloco `difunde a mensagem`{:class="block3control"} ao final do código do temporizador, para que o código envie a mensagem 'end' quando `time`{:class="block3variable"} chega a `0`.
+Cria um bloco `difunde a mensagem`{:class="block3control"} que envia a mensagem 'acabar'. Um ` difunde a mensagem ` {: class = "block3control"} é como um anúncio em um alto-falante: ele pode ser ouvido por todos os teus actores. Adiciona o bloco `difunde a mensagem`{:class="block3control"} ao final do código do temporizador, para que o código envie a mensagem 'acabar' quando `tempo`{:class="block3variable"} chegar a `0`.
 
 ![Actor do palco](images/stage-sprite.png)
 
@@ -57,12 +57,12 @@ Cria um `difunde a mensagem`{:class="block3control"} que envia a mensagem 'end'.
 
 \--- /task \---
 
-\--- Tarefa \--- Seleciona o teu actor e adiciona código para que o actor `pare os outros guiōes`{:class="block3control"} quando recebe a mensagem `end`{:class="block3control"}.
+\--- task \--- Seleciona o teu actor e adiciona código para que o actor `pare os outros guiōes`{:class="block3control"} quando recebe a mensagem `acabar`{:class="block3control"}.
 
 ![Actor Giga](images/giga-sprite.png)
 
 ```blocks3
-    quando receberes a mensagem [end v]
+    quando receberes a mensagem [acabar v]
     pára [os teus outros guiões v]
 ```
 
