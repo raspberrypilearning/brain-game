@@ -2,7 +2,7 @@
 
 Podes adicionar outro cenário que será a tela inicial para o teu jogo?
 
-Podes usar os blocos ` Quando receberes a mensagem começar ` {: class = "blockevents"} e ` Quando receberes a mensagem acabar ` {: class = "blockevents"} para alternar entre os cenários.
+Podes usar os blocos `Quando receberes a mensagem começar` {: class = "block3events"} e `Quando receberes a mensagem acabar` {: class = "block3events"} para alternar entre os cenários.
 
 Para mostrar ou ocultar o personagem quando o seu jogo alterna entre cenários, podes usar blocos `show`{:class="block3look"} e `ocultar`{:class="block3look"}.
 
