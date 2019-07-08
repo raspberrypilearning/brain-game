@@ -74,7 +74,7 @@ Seleciona o actor 'Resultado'. Depois clica em `Meus Blocos`{:class="block3myblo
 
 \--- /task \---
 
-\--- task \--- Move o código para `mostra-te`{:class="block3look"s} e `esconde-te`{:class="block3looks"} do actor 'Resultado' para o bloco `animar`{:class="block3myblocks"}:
+\--- task \--- Move o código para `mostra-te`{:class="block3looks} e `esconde-te`{:class="block3looks"} do actor 'Resultado', para o bloco `animar`{:class="block3myblocks"}:
 
 ![Actor Resultado](images/result-sprite.png)
 
@@ -87,44 +87,44 @@ esconde-te
 
 \--- /task \---
 
-\--- task \--- Certifica-te de que removeste os blocos `mostra-te`{:class="block3look"} e `esconde-te`{:class="block3look"} abaixo de **ambos** os blocos `muda o teu traje`{:class="block3look"}.
+\--- task \--- Certifica-te de que removeste os blocos `mostra-te`{:class="block3looks"} e `esconde-te`{:class="block3looks"} debaixo de **ambos** os blocos `muda o teu traje`{:class="block3looks"}.
 
-Em seguida adiciona o bloco `animar`{:class="block3myblocks"} abaixo dos blocos `muda o teu traje`{:class="block3look"}. O teu código agora deve estar parecido com isto:
+Em seguida adiciona o bloco `animar`{:class="block3myblocks"} abaixo dos blocos `muda o teu traje`{:class="block3looks"}. O teu código agora deve estar parecido com isto:
 
 ![Actor Resultado](images/result-sprite.png)
 
 ```blocks3
-    quando eu receber [correto v]
-    alternar traje para (tick v)
-    animar:: custom
+    quando eu receber [certo v]
+    alternar traje para (correto v)
+    animar:: personalizado
 
     quando recebo [v errado]
-    alternar traje para (cruz v)
+    alternar traje para (incorreto v)
     animar:: personalizado
 ```
 
 \--- /task \---
 
-Por causa do bloco personalizado `animar`{:class="block3myblocks"}, agora só precisas de fazer uma mudança ao teu código se quiseres mostrar os trajes do actor 'resultado' um tempo maior ou menor.
+Por causa do bloco personalizado `animar`{:class="block3myblocks"}, agora só precisas de fazer uma mudança ao teu código se quiseres mostrar os trajes do actor 'Resultado' um tempo maior ou menor.
 
 \--- task \---
 
-Altera o teu código para que o 'certo' ou 'errado' sejam mostrados por 2 segundos.
+Altera o teu código para que o 'correto' ou 'incorreto' sejam mostrados por 2 segundos.
 
 \--- /task \---
 
-\--- task \--- Em vez de ` mostrar ` {: class = "block3looks"} e ` esconder ` {: class = "block3looks"} os trajes 'certo' ou 'errado', podes mudar o teu bloco ` animar `{: class = "block3myblocks"} para que os trajes apareçam.
+\--- task \--- Em vez de `mostrar` {: class = "block3looks"} e `esconder` {: class = "block3looks"} os trajes 'correto' ou 'incorreto', podes mudar o teu bloco `animar`{: class = "block3myblocks"} para que os trajes apareçam gradualmente.
 
 ![Actor Resultado](images/result-sprite.png)
 
 ```blocks3
     define animar
-    set [efeito fantasma v] para (100)
-    mostra
+    altera [efeito fantasma v] para (100)
+    mostra-te
     repetição (25)
         mudança [efeito fantasma v] por (-4)
     fim
-    esconder
+    esconde-te
 ```
 
 \--- /task \---
