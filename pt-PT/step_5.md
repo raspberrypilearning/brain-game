@@ -81,7 +81,7 @@ Podes alterar o código do temporizador para que o temporizador comece quando o 
 
 Testa o botão 'Jogar' jogando um par de jogos. O botão deve aparecer no final de cada jogo.
 
-Para testar o jogo mais rapidamente, você pode alterar o valor de `time`{:class="block3variáveis"} para que cada jogo tenha apenas alguns segundos.
+Para testar o jogo mais rapidamente, podes alterar o valor de `tempo`{:class="block3variables"} para que cada jogo tenha apenas alguns segundos.
 
 ![Palco](images/stage-sprite.png)
 
@@ -91,7 +91,7 @@ Para testar o jogo mais rapidamente, você pode alterar o valor de `time`{:class
 
 \--- /task \---
 
-\--- task \--- Podes alterar a aparência do botão quando o ponteiro do mouse paira sobre ele.
+\--- task \--- Podes alterar a aparência do botão quando o ponteiro do rato paira sobre ele.
 
 ![Botão](images/button-sprite.png)
 
