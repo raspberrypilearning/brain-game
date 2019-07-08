@@ -1,6 +1,6 @@
 ## Múltiplas jogadas
 
-Agora vais adicionar um botão 'Play', para que o jogador possa jogar o teu jogo muitas vezes.
+Agora vais adicionar um botão 'Jogar', para que o jogador possa jogar o teu jogo muitas vezes.
 
 \--- task \--- Cria um novo actor botão 'Play' que o jogador precisa clicar para iniciar um novo jogo.
 
@@ -20,14 +20,14 @@ Podes desenhar o actor tu mesmo, ou editar um actor da biblioteca.
 
        quando alguém clicar em ti
        esconde-te
-       difunde a mensagem (start v)
+       difunde a mensagem (começar v)
 ```
 
 \--- /task \---
 
-O novo código inclui outro bloco `difunde a mensagem`{:class="block3events"} que envia a mensagem 'start'.
+O novo código inclui outro bloco `difunde a mensagem`{:class="block3events"} que envia a mensagem 'começar'.
 
-O novo código faz com que o sprite do botão 'Play' apareça quando o jogador clica na bandeira. Quando o jogador clica no actor do botão, o actor esconde-se e difunde uma mensagem a que outros actores podem reagir.
+O novo código faz com que o actor do botão 'Jogar' apareça quando o jogador clicar na bandeira. Quando o jogador clica no actor do botão, o actor esconde-se e difunde uma mensagem a que outros actores podem reagir.
 
 De momento, o actor personagem começa a fazer perguntas quando o jogador clica na bandeira. Altera o código do teu jogo para que o actor do personagem comece a fazer perguntas quando `Quando receberes a mensagem`{:class="block3events"} 'start'.
 
