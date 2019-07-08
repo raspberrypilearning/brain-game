@@ -71,12 +71,12 @@ Adiciona um ciclo `repete para sempre`{:class="block3control"} a este código, p
 
 \--- hints \--- \--- hint \---
 
-Precisas adicionar um bloco `repete para sempre`{:class="block3control"} e colocar todo o código, exceto o bloco `quando alguém clicar na bandeira`{:class="block3control"}, nele.
+Precisas adicionar um bloco `repete para sempre`{:class="block3control"} e colocar todo o código, exceto o bloco `quando alguém clicar na bandeira`{:class="block3control"}, dentro dele.
 
 \--- / hint \--- \--- hint \--- Aqui está o bloco que precisas:
 
 ```blocks3
-sempre
+repete para sempre
 fim
 ```
 
