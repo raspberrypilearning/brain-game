@@ -13,31 +13,30 @@
 \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ που θα χρειαστείς:
 
 ```blocks3
-repeat until < >
-
+επανάλαβε ώσπου <>
 end
 
-wait (1) seconds
+περίμενε (1) δευτερόλεπτα
 
-change [time v] by (1)
+άλλαξε [χρόνος v] κατά (1)
 
-(time)
+(χρόνος)
 
-when flag clicked
+Όταν στην πράσινη σημαία γίνει κλικ
 
 <() = ()>
 
-set [time v] to [0]
+όρισε [χρόνος v] σε [0]
 ```
 
 \--- /hint \--- \--- hint \--- Έτσι πρέπει να μοιάζει με ο νέος κώδικάς σου:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
+Όταν στην πράσινη σημαία γίνει κλικ
+όρισε [χρόνος v] σε [30]
+επανάλαβε ώσπου <(χρόνος) = (0)> 
+  περίμενε (1) δευτερόλεπτα
+  άλλαξε [χρόνος v] κατά (-1)
 end
 ```
 
@@ -52,7 +51,7 @@ end
 ![Χαρακτήρας σκηνικού](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    μετάδωσε (τέλος v)
 ```
 
 \--- /task \---
@@ -62,8 +61,8 @@ end
 ![Χαρακτήρας Giga](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    όταν λάβω [τέλος v]
+σταμάτησε [other scripts in sprite v]
 ```
 
 \--- /task \---
