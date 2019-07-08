@@ -15,12 +15,12 @@
 ![Κουμπί](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    Όταν στην πράσινη σημαία γίνει κλικ
+εμφανίσου
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+όταν γίνει κλικ σε αυτό το αντικείμενο
+εξαφανίσου
+μετάδωσε (έναρξη v)
 ```
 
 \--- /task \---
@@ -36,15 +36,17 @@
 ![Χαρακτήρας](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
+<br />Όταν στην πράσινη σημαία γίνει κλικ
+
++ όταν λάβω [έναρξη v]
+όρισε [αριθμός 1 v] σε (επίλεξε τυχαίο (2) εώς (12))
+όρισε [αριθμός 2 v] σε (επίλεξε τυχαίο (2) εώς (12))
+ρώτησε (ένωσε (αριθμός 1) (ένωσε [ x ] (αριθμός 2))) και περίμενε
+εάν <(απάντηση) = ((αριθμός 1) * (αριθμός 2))> τότε 
+  πες [ναι!]
+end :\)\] για (2) δευτερόλεπτα
+αλλιώς
+πες [όχι :(] για (2) δευτερόλεπτα
 end
 ```
 
@@ -86,7 +88,7 @@ end
 ![Σκηνικό](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    όρισε [χρόνος v] σε [10]
 ```
 
 \--- /task \---
@@ -96,15 +98,15 @@ end
 ![Κουμπί](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    Όταν στην πράσινη σημαία γίνει κλικ
+εμφανίσου
+για πάντα 
+  εάν <touching (mouse-pointer v)?> τότε 
+    όρισε εφέ [fisheye v] σε (30)
+  αλλιώς 
+    όρισε εφέ [fisheye v] σε (0)
+  end
+end
 ```
 
 ![screenshot](images/brain-fisheye.png) \--- /task \---
