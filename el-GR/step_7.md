@@ -17,13 +17,12 @@
 ![Χαρακτήρας](images/giga-sprite.png)
 
 ```blocks3
-if <(answer) = ((number 1)*(number 2))> then
-
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
+εάν <(απάντηση) = ((νούμερο 1) * (νούμερο 2))> τότε 
+-  πες [ναι! :)] για (2) δευτερόλεπτα
++  μετάδωσε (σωστό v)
+αλλιώς 
+ - πες [όχι :(] για (2) δευτερόλεπτα
+  + μετάδωσε (λάθος v)
 end
 ```
 
@@ -36,20 +35,20 @@ end
 ![Αντικείμενο Αποτέλεσμα](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+    όταν λάβω [σωστό v]
+άλλαξε ενδυμασία σε (tick v)
+εμφανίσου
+περίμενε (1) δευτερόλεπτα
+εξαφανίσου
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
+όταν λάβω [λάθος v]
+άλλαξε ενδυμασία σε (cross v)
+εμφανίσου
+περίμενε (1) δευτερόλεπτα
+εξαφανίσου
 
-    when flag clicked
-    hide
+Όταν στην πράσινη σημαία γίνει κλικ
+εξαφανίσου
 ```
 
 \--- /task \---
@@ -79,10 +78,10 @@ end
 ![Αντικείμενο Αποτέλεσμα](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+ορισμός κίνηση
+εμφανίσου
+περίμενε (1) δευτερόλεπτα
+εξαφανίσου
 ```
 
 \--- /task \---
@@ -94,13 +93,13 @@ hide
 ![Αντικείμενο Αποτέλεσμα](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    όταν λάβω [σωστό v]
+άλλαξε ενδυμασία σε (tick v)
+κίνηση:: custom
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+όταν λάβω [λάθος v]
+άλλαξε ενδυμασία σε (cross v)
+κίνηση:: custom
 ```
 
 \--- /task \---
@@ -118,17 +117,17 @@ hide
 ![Αντικείμενο Αποτέλεσμα](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    ορισμός κίνηση
+όρισε εφέ [ghost v] σε (100)
+εμφανίσου
+επανάλαβε (25) 
+  άλλαξε εφέ [ghost v] κατά (-4)
+end
+εξαφανίσου
 ```
 
 \--- /task \---
 
 Μπορείς να βελτιώσεις την κίνηση των γραφικών 'tick' ή 'cross'; Θα μπορούσες να προσθέσεις κώδικα για να κάνεις τις ενδυμασίες να ξεθωριάζουν, ή θα μπορούσες να χρησιμοποιήσεις άλλα φοβερά εφέ:
 
-![screenshot](images/brain-effects.png)
+![στιγμιότυπο οθόνης](images/brain-effects.png)
