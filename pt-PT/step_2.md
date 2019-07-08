@@ -40,7 +40,7 @@ altera [numbero 2 v] para (valor ao acaso entre (2) e (12))
 
 \--- /task \---
 
-\--- Tarefa \--- Adiciona código para `perguntar`{:class="block3sensing"} ao jogador a resposta, e depois `diz por 2 segundos`{:class="block3look"} se a resposta estava certa ou errada:
+\--- task\--- Adiciona código para `perguntar`{:class="block3sensing"} ao jogador a resposta, e depois `diz por 2 segundos`{:class="block3looks"} se a resposta estava certa ou errada:
 
 ![captura de ecrã](images/giga-sprite.png)
 
