@@ -4,7 +4,7 @@ De momento, o actor do personagem só diz `certo! :)` ou `errado :(` às respost
 
 \--- task \---
 
-Cria um novo actor com o nome ‘resultado’, que contenha os trajes de ‘correcto’ e ‘incorrecto’.
+Cria um novo actor com o nome ‘resultado’, com trajes de ‘correcto’ e ‘incorrecto’.
 
 ![Actor com trajes de certo e errado](images/brain-result.png)
 
@@ -12,7 +12,7 @@ Cria um novo actor com o nome ‘resultado’, que contenha os trajes de ‘corr
 
 \--- task \---
 
-Altera o código do teu actor personagem para que, em vez de dizer algo ao jogador, ele `difunda as mensagem`{:class="block3events"} 'correto' ou 'errado'.
+Altera o código do teu actor personagem para que, em vez de dizer algo ao jogador, ele `difunda a mensagem`{:class="block3events"} 'certo' ou 'errado'.
 
 ![Actor personagem](images/giga-sprite.png)
 
@@ -31,7 +31,7 @@ end
 
 \--- task \---
 
-Agora podes usar estas mensagens para `mostrar`{:class="block3look"} o traje 'correto' ou 'incorrecto'. Adiciona o seguinte código ao actor 'Resultado':
+Agora podes usar estas mensagens para `mostrar`{:class="block3look"} o traje 'correto' ou 'incorrecto'. Adiciona o seguinte código ao actor 'resultado':
 
 ![Actor Resultado](images/result-sprite.png)
 
