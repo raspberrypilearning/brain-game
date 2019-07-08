@@ -109,4 +109,4 @@ end
 end
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![στιγμιότυπο οθόνης](images/brain-fisheye.png) \--- /task \---
