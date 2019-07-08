@@ -16,13 +16,13 @@
 
 \--- task \--- Επίλεξε έναν χαρακτήρα και ένα σκηνικό για το παιχνίδι σου. Μπορείς να επιλέξεις ότι σου αρέσει! Ακολουθεί ένα παράδειγμα:
 
-![screenshot](images/brain-setting.png)
+![στιγμιότυπο οθόνης](images/brain-setting.png)
 
 \--- /task \---
 
 \--- task \--- Βεβαιώσου ότι έχεις επιλέξει το χαρακτήρα σου. Δημιούργησε δύο νέες μεταβλητές, που ονομάζονται `αριθμός 1`{:class="block3variables"} και `αριθμός 2`{:class="block3variables"}, για να αποθηκεύσεις τους αριθμούς για τις ερωτήσεις του κουίζ.
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![στιγμιότυπο οθόνης](images/giga-sprite.png) ![στιγμιότυπο οθόνης](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -30,30 +30,31 @@
 
 \--- task \--- Πρόσθεσε κώδικα στον χαρακτήρα σου, ώστε να ορίσεις και για τις δύο αυτές μεταβλητές μία `τυχαία`{:class="blockoperators"} τιμή μεταξύ 2 και 12.
 
-![screenshot](images/giga-sprite.png)
+![στιγμιότυπο οθόνης](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+Όταν στην πράσινη σημαία γίνει κλικ
+όρισε [αριθμός 1 v] σε (επίλεξε τυχαίο (2) εώς (12))
+όρισε [αριθμός 2 v] σε (επίλεξε τυχαίο (2) εώς (12))
 ```
 
 \--- /task \---
 
 \--- task \--- Πρόσθεσε τον κώδικα για να `ζητήσεις`{:class= "block3sensing"}} από τον παίκτη την απάντηση και στη συνέχεια για να `πεις για 2 δευτερόλεπτα`{:class="block3looks"} αν η απάντηση ήταν σωστή ή λάθος:
 
-![screenshot](images/giga-sprite.png)
+![στιγμιότυπο οθόνης](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+Όταν στην πράσινη σημαία γίνει κλικ
+όρισε [αριθμός 1 v] σε (επίλεξε τυχαίο (2) εώς (12))
+όρισε [αριθμός 2 v] σε (επίλεξε τυχαίο (2) εώς (12))
 
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
++ ρώτησε (ένωσε (αριθμός 1) (ένωσε [ x ] (αριθμός 2))) και περίμενε
++ εάν <(απάντηση) = ((αριθμός 1) * (αριθμός 2))> τότε 
++  πες [ναι!]
+end :\)\] για (2) δευτερόλεπτα
++ αλλιώς
++ πες [όχι :(] για (2) δευτερόλεπτα
 + end
 ```
 
@@ -83,17 +84,19 @@ end
 \--- /hint \--- \--- hint \--- Έτσι πρέπει να μοιάζει με ο κώδικάς σου:
 
 ```blocks3
-when flag clicked
+Όταν στην πράσινη σημαία γίνει κλικ
 
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
++ για πάντα 
+  όρισε [αριθμός 1 v] σε (επίλεξε τυχαίο (2) εώς (12))
+  όρισε [αριθμός 2 v] σε (επίλεξε τυχαίο (2) εώς (12))
+  ρώτησε (ένωσε (αριθμός 1) (ένωσε [ x ] (αριθμός 2))) και περίμενε
+  εάν <(απάντηση) = ((αριθμός 1) * (αριθμός 2))> τότε 
+    πες [ναι!]
+  end
+end :\)\] για (2) δευτερόλεπτα
+αλλιώς
+πες [όχι :(] για (2) δευτερόλεπτα
+end
 end
 ```
 
