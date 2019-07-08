@@ -36,31 +36,31 @@ Agora podes usar estas mensagens para `mostrar`{:class="block3look"} o traje 'co
 ![Actor Resultado](images/result-sprite.png)
 
 ```blocks3
-    quando recebo [correto v]
-    alterna o traje para (tick v)
-    show
-    wait (1) segundos
-    ocultar
+    quando recebo [certo v]
+    alterna o traje para (correto v)
+    motra-te
+    espera (1) segundos
+    esconde-te
 
     quando recebo [v errado]
-    alterna o traje para (cruz v)
-    show
-    wait (1) segundos
-    ocultar
+    alterna o traje para (incorrecto v)
+    motra-te
+    espera (1) segundos
+    esconde-te
 
     quando alguém clicar na bandeira 
-    ocultar
+    esconde-te
 ```
 
 \--- /task \---
 
-\--- task \--- Testa o teu jogo novamente. Deves ver o certo sempre que responderes uma pergunta corretamente e a errado sempre que responderes incorretamente!
+\--- task \--- Testa o teu jogo novamente. Deves ver o 'certo' sempre que responderes uma pergunta corretamente e o 'errado' sempre que responderes incorretamente!
 
 ![Certo para a resposta correta, Errado para resposta errada](images/brain-test-answer.png)
 
 \--- /task \---
 
-Notaste que o código para ` quando receberes a mensagem correto` {: class = "blockevents"} e ` quando receberes a mensagem a incorreto` {: class = "blockevents"} é quase idêntico?
+Notaste que o código para `quando receberes a mensagem certo`{: class = "block3events"} e `quando receberes a mensagem a errado`{: class = "block3events"} é quase idêntico?
 
 Então para poderes alterar o teu código mais facilmente, vais criar um bloco personalizado.
 
@@ -74,7 +74,7 @@ Seleciona o actor 'Resultado'. Depois clica em `Meus Blocos`{:class="block3myblo
 
 \--- /task \---
 
-\--- task \--- Move o código para `mostra-te`{:class="block3look"} e `esconde-te`{:class="block3look"} do actor 'Resultado' para o bloco `animar`{:class="block3myblocks"}:
+\--- task \--- Move o código para `mostra-te`{:class="block3look"s} e `esconde-te`{:class="block3looks"} do actor 'Resultado' para o bloco `animar`{:class="block3myblocks"}:
 
 ![Actor Resultado](images/result-sprite.png)
 
