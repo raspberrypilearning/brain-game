@@ -29,9 +29,9 @@ O novo código inclui outro bloco `difunde a mensagem`{:class="block3events"} qu
 
 O novo código faz com que o actor do botão 'Jogar' apareça quando o jogador clicar na bandeira. Quando o jogador clica no actor do botão, o actor esconde-se e difunde uma mensagem a que outros actores podem reagir.
 
-De momento, o actor personagem começa a fazer perguntas quando o jogador clica na bandeira. Altera o código do teu jogo para que o actor do personagem comece a fazer perguntas quando `Quando receberes a mensagem`{:class="block3events"} 'start'.
+De momento, o actor personagem começa a fazer perguntas quando o jogador clicar na bandeira. Altera o código do teu jogo para que o actor do personagem comece a fazer perguntas quando `Quando receberes a mensagem`{:class="block3events"} 'começar'.
 
-\--- task \--- Selecione o teu actor e, na sua seção de código, substitui o bloco ` quando alguém clicar na bandeira `{: class = "block3events"} com um bloco ` quando receberes a mensagem start `{: class = "block3events"}.
+\--- task \--- Seleciona o teu actor e, na sua seção de código, substitui o bloco ` Quando alguém clicar na bandeira `{: class = "block3events"} com um bloco ` quando receberes a mensagem começar`{: class = "block3events"}.
 
 ![Actor personagem](images/giga-sprite.png)
 
@@ -52,7 +52,7 @@ fim
 
 \--- task \---
 
-Clica na bandeira verde e clica no novo botão 'Play' para testar se ele funciona. Deves ver que o jogo não começa antes de clicares no botão.
+Clica na bandeira verde e clica no novo botão 'Jogar para testar se ele funciona. Deves observar que o jogo não começa antes de clicares no botão.
 
 \--- /task \---
 
@@ -62,7 +62,7 @@ Reparas-te que o temporizador começa a contagem quando fazes clique na bandeira
 
 \--- task \---
 
-Podes alterar o código para o temporizador para que o temporixzador comece quando o jogador clica no botão?
+Podes alterar o código do temporizador para que o temporizador comece quando o jogador clicar no botão?
 
 \--- /task \---
 
@@ -79,7 +79,7 @@ Podes alterar o código para o temporizador para que o temporixzador comece quan
 
 \--- task \---
 
-Teste o botão 'Play' jogando um par de jogos. O botão deve aparecer no final de cada jogo.
+Testa o botão 'Jogar' jogando um par de jogos. O botão deve aparecer no final de cada jogo.
 
 Para testar o jogo mais rapidamente, você pode alterar o valor de `time`{:class="block3variáveis"} para que cada jogo tenha apenas alguns segundos.
 
