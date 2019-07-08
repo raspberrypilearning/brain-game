@@ -1,43 +1,43 @@
 ## Adicionar um temporizador
 
-\--- Tarefa \--- Cria um temporizador de contagem regressiva no palco com a ajuda de uma nova variável chamada `time`{:class="block3variable"}. O temporizador deve começar em 30 segundos e contar até 0 segundos.
+\--- task \--- Cria um temporizador de contagem regressiva no palco com a ajuda de uma nova variável chamada `tempo`{:class="block3variable"}. O temporizador deve começar em 30 segundos e contar até 0 segundos.
 
 ![Actor do palco](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Cria uma `variável`{:class="block3variables"}, nomeia-a 'time', e define o valor para `30`.
+Cria uma `variável`{:class="block3variables"}, nomeia-a 'tempo', e define o valor para `30`.
 
-Em seguida, adiciona código para diminuir `time` {: class = "block3variables"} até 0 em 30 segundos. Para fazer isso, subtrai `1` de `time`{:class="block3variables"} a cada `1` segundo, e repete até `time`{:class="block3variables"} igual a `0`.
+Em seguida, adiciona código para diminuir `tempo` {: class = "block3variables"} até 0 em 30 segundos. Para fazer isso, subtrai `1` de `tempo`{:class="block3variables"} a cada `1` segundo, e repete até `tempo`{:class="block3variables"} igual a `0`.
 
 \--- /hint \--- \--- hint \--- Aqui estão os blocos que precisas:
 
 ```blocks3
-repita até < >
+repite até < >
 
 final
 
 espera (1) segundos
 
-altere [time v] por (1)
+altera [tempo v] por (1)
 
-(time)
+(tempo)
 
-quando a bandeira for clicada
+quando alguém clicar na bandeira 
 
 <() = ()>
 
-defina [time v] para [0]
+altera [tempo v] para [0]
 ```
 
-\--- /hint \--- \--- hint \--- Aqui está o que seu novo código deve parecer:
+\--- /hint \--- \--- hint \--- Aqui está o que o teu novo código deve parecer:
 
 ```blocks3
 quando a bandeira for clicada
-altera [time v] para [30]
-repete até <(time) = (0)>
+altera [tempo v] para [30]
+repete até <(tempo) = (0)>
     espera (1) segundos
-    adiciona a [time v] o valor  (-1)
+    adiciona a [tempo v] o valor  (-1)
 fim
 ```
 
