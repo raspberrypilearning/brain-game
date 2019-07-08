@@ -6,7 +6,7 @@ De momento, o actor do personagem só diz `certo! :)` ou `errado :(` às respost
 
 Cria um novo actor com o nome ‘resultado’, com trajes de ‘correcto’ e ‘incorrecto’.
 
-![Actor com trajes de certo e errado](images/brain-result.png)
+![Actor com trajes de correcto e incorrecto e errado](images/brain-result.png)
 
 \--- /task \---
 
@@ -56,7 +56,7 @@ Agora podes usar estas mensagens para `mostrar`{:class="block3look"} o traje 'co
 
 \--- task \--- Testa o teu jogo novamente. Deves ver o 'certo' sempre que responderes uma pergunta corretamente e o 'errado' sempre que responderes incorretamente!
 
-![Certo para a resposta correta, Errado para resposta errada](images/brain-test-answer.png)
+![Correcto para a resposta certa, Incorreto para resposta errada](images/brain-test-answer.png)
 
 \--- /task \---
 
@@ -129,6 +129,6 @@ Altera o teu código para que o 'correto' ou 'incorreto' sejam mostrados por 2 s
 
 \--- /task \---
 
-Pode melhorar a animação dos gráficos 'certo' e 'errado'? Pode adicionar código para também fazer os trajes desaparecerem, ou podes usar outros efeitos interessantes:
+Podes melhorar a animação dos gráficos 'certo' e 'errado'? Podes adicionar código para também fazer os trajes desaparecerem gradualmente, ou podes usar outros efeitos interessantes:
 
 ![captura de ecrã](images/brain-effects.png)
