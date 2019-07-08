@@ -1,4 +1,4 @@
-## Adicionar temporizador
+## Adicionar um temporizador
 
 \--- Tarefa \--- Cria um temporizador de contagem regressiva no palco com a ajuda de uma nova variável chamada `time`{:class="block3variable"}. O temporizador deve começar em 30 segundos e contar até 0 segundos.
 
