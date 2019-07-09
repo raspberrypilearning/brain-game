@@ -1,13 +1,13 @@
 ## Défi: Animation améliorée
 
-Can you add sound effects and music to your game? For example, you could have your game:
+Pouvez-vous ajouter des effets sonores et de la musique à votre jeu? Par exemple, vous pourriez avoir votre jeu:
 
-+ Play a sound when the player gives a correct or incorrect answer
-+ Play a ticking sound as the countdown timer runs
-+ Play a sound when the player's time is up
++ Émettre un son lorsque le lecteur donne une réponse correcte ou incorrecte
++ Jouez un tic-tac pendant le compte à rebours
++ Jouez un son lorsque le temps du joueur est écoulé
 
 ```blocks3
-    play sound (pop v) until done
+    jouer du son (pop v) jusqu'à la fin
 ```
 
-Your game could also constantly play background music on a loop.
+Votre jeu peut aussi jouer constamment de la musique de fond en boucle.
