@@ -1,44 +1,44 @@
 ## Défi: Changement de costumes
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- task \--- Créez un compte à rebours sur la scène à l'aide d'une nouvelle variable appelée `fois`{: class = "block3variables"}. La minuterie devrait commencer à 30 secondes et compter jusqu'à 0 secondes.
 
-![Stage sprite](images/stage-sprite.png)
+![Sprite de scène](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Créez une variable ``{: class = "block3variables"}, appelez-la "heure" et définissez sa valeur sur `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Ajoutez ensuite du code pour compter `fois`{: class = "block3variables"} jusqu'à 0 dans les 30 secondes. Pour ce faire, soustrayez `1` de `fois`{: class = "block3variables"} toutes les `1` secondes et répétez cette opération jusqu'à `fois`{: class = "block3variables"} est égal à `0`.
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- / indice \--- \--- indice \--- Voici les blocs dont vous avez besoin:
 
 ```blocks3
-repeat until < >
+répéter jusqu'à < >
 
 end
 
-wait (1) seconds
+wait (1) secondes
 
-change [time v] by (1)
+changer [heure v] de (1)
 
-(time)
+(heure)
 
-when flag clicked
+lorsque le drapeau est cliqué
 
 <() = ()>
 
-set [time v] to [0]
+régler [heure v] sur [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- / hint \--- \--- hint \--- Voici à quoi devrait ressembler votre nouveau code:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
-end
+lorsque le drapeau est cliqué sur
+définissez [heure v] sur [30]
+répétez jusqu'à ce que <(heure) = (0)>
+    attend (1) secondes
+    change [heure v] de (-1)
+fin
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -47,19 +47,19 @@ end
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Créer une diffusion ``: {: class = "block3control"} qui envoie le message "end". Une diffusion ``{: class = "block3control"} est comme une annonce par haut-parleur: elle peut être entendue par tous vos sprites. Ajoutez le bloc `broadcast`{: class = "block3control"} à la fin du code du temporisateur pour que le code soit envoyé et le message "end" lorsque le `fois`{: class = "block3variables"} est passé à `0`.
 
-![Stage sprite](images/stage-sprite.png)
+![Sprite de scène](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    diffusion (fin v)
 ```
 
 \--- /task \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- Sélectionnez votre sprite de personnage et ajoutez du code pour que le sprite `arrête les autres scripts`{: class = "block3control"} lorsqu'il reçoit le message `end`{: class = "block3control"} .
 
-![Giga sprite](images/giga-sprite.png)
+![Giga Sprite](images/giga-sprite.png)
 
 ```blocks3
     quand je reçois [fin v] 
@@ -70,6 +70,6 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Testez votre jeu à nouveau. Il devrait continuer à poser des questions jusqu'à ce que le chronomètre se soit écoulé jusqu'à zéro.
 
 \--- /task \---
