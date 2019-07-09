@@ -1,11 +1,11 @@
 ## Défi: Course à 10 points
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+Pouvez-vous ajouter un écran d’instructions qui indique au joueur comment jouer au jeu? Pour cela, vous avez besoin d’un bouton «Instructions» et d’un autre fond de scène.
 
 ![capture d'écran](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Vous devrez peut-être également ajouter un bouton "Retour" pour permettre au lecteur de revenir à l'écran de démarrage.
 
 ```blocks3
-    broadcast (start screen v)
+    diffusion (écran de démarrage v)
 ```
