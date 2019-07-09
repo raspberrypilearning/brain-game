@@ -1,11 +1,11 @@
 ## Défi: Écran du début
 
-Can you add another backdrop that is going to be the start screen for your game?
+Pouvez-vous ajouter un autre fond qui va être l'écran de démarrage de votre jeu?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+Vous pouvez utiliser les blocs `lorsque je reçois le début`{: class = "block3events"} et `lorsque je reçois la fin`{: class = "block3events"} pour basculer entre les arrière-plans.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+Pour afficher ou masquer le personnage lorsque votre jeu bascule entre plusieurs arrière-plans, vous pouvez utiliser `blocs`show: {: class = "block3looks"} et `masques`{: class = "block3looks"}.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+Pour afficher ou masquer le chronomètre et le score lorsque votre jeu bascule entre plusieurs arrière-plans, vous pouvez utiliser les blocs `show variable`{: class = "block3variables"} et `masquants la variable`{: class = "block3variables"}.
 
-![Start screen](images/brain-startscreen.png)
+![Écran de démarrage](images/brain-startscreen.png)
