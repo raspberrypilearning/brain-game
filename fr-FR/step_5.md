@@ -1,74 +1,74 @@
 ## Jeux multiples
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Vous allez maintenant ajouter un bouton "Jouer" pour que le joueur puisse jouer à votre jeu plusieurs fois.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- Créez un nouveau sprite de bouton "Jouer" sur lequel le joueur doit cliquer pour commencer une nouvelle partie.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Vous pouvez dessiner vous-même l'image-objet ou éditer une image-objet à partir de la bibliothèque.
 
-![Picture of the play button](images/brain-play.png)
+![Image du bouton de lecture](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- Ajoutez ce code à votre sprite de bouton:
 
-![Button sprite](images/button-sprite.png)
+![Bouton sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    lorsque flag a cliqué sur
+    afficher
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    lorsque ce sprite a cliqué sur
+    masquer
+    diffusion (démarrer v)
 ```
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Le nouveau code comprend un autre bloc `broadcast`{: class = "block3events"}, qui envoie le message "start".
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Le nouveau code fait apparaître le sprite du bouton "Lecture" lorsque le joueur clique sur le drapeau. Lorsque le joueur clique sur le bouton image-objet, celui-ci se cache et diffuse ensuite un message auquel les autres images-objets peuvent réagir.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+Pour le moment, le personnage du personnage commence à poser des questions lorsque le joueur clique sur le drapeau. Modifiez le code de votre jeu pour que l’image-objet de personnage commence à poser des questions lorsqu’elle reçoit la diffusion 'début' ``: {: class = "block3events"}.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- Sélectionnez votre image-objet de personnage et, dans sa section de code, remplacez le bloc `lorsque l'indicateur est cliqué sur le bloc`{: class = "block3events"} par un `lorsque je reçois le début de`: {: class = "block3events" } bloquer.
 
-![Character sprite](images/giga-sprite.png)
+![Personnage de sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+<br />- lorsque l'indicateur a été cliqué sur
++ lorsque je reçois [début v]
+régler [numéro 1 v] sur (prendre au hasard (2) sur (12))
+régler [numéro 2 v] sur (prendre au hasard (2) à (12) )
+demander (rejoindre (numéro 1) (rejoindre [x] (numéro 2))) et attendre
+si &lt;(réponse) = ((numéro 1) * (numéro 2))&gt; puis
+    répondre [oui! :)] pendant (2) secondes
+sinon
+    dire [nope :(] pendant (2) secondes
+fin
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Cliquez sur le drapeau vert, puis sur le nouveau bouton "Lecture" pour vérifier si cela fonctionne. Vous devriez voir que le jeu ne commence pas avant de cliquer sur le bouton.
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Pouvez-vous voir que le chronomètre commence lorsque le drapeau vert est cliqué, au lieu de commencer le jeu?
 
-![Timer has started](images/brain-timer-bug.png)
+![La minuterie a commencé](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Pouvez-vous changer le code de la minuterie pour que celle-ci démarre lorsque le joueur clique sur le bouton?
 
 \--- /task \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- tâche \--- Ajoutez du code à votre image-objet pour que le bouton apparaisse à la fin de chaque partie.
 
-![Button sprite](images/button-sprite.png)
+![Bouton sprite](images/button-sprite.png)
 
 ```blocks3
     quand je reçois [fin v]
@@ -79,11 +79,11 @@ Can you change the code for the timer so that the timer starts when the player c
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Testez le bouton "Jouer" en jouant à quelques jeux. Le bouton devrait apparaître à la fin de chaque partie.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+Pour tester le jeu plus rapidement, vous pouvez modifier la valeur de `fois`{: class = "block3variables"} afin que chaque jeu dure seulement quelques secondes.
 
-![Stage](images/stage-sprite.png)
+![Étape](images/stage-sprite.png)
 
 ```blocks3
     mettre [temps v] à [10]
@@ -91,7 +91,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- Vous pouvez modifier l'apparence du bouton lorsque le pointeur de la souris le survole.
 
 ![Button](images/button-sprite.png)
 
