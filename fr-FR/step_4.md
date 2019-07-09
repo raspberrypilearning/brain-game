@@ -1,11 +1,11 @@
 ## Défi: Ajout d'un pointage
 
-Can you add a score to your game?
+Pouvez-vous ajouter un score à votre jeu?
 
-You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
+Vous pouvez ajouter du code pour que le joueur marque un point pour chaque réponse correcte. Si vous vous sentez méchant, vous pouvez également ajouter du code pour réinitialiser le score du joueur à zéro s'il donne une mauvaise réponse!
 
 [[[generic-scratch3-high-score]]]
 
-Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+Pouvez-vous faire réagir votre personnage à la réponse du joueur en changeant de costume si la réponse est correcte ou incorrecte?
 
 ![capture d'écran](images/brain-costume.png)
