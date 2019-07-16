@@ -1,11 +1,11 @@
 ## Sfida: Gareggia fino ai 10 punti
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+Puoi aggiungere una schermata di istruzioni che dice al giocatore come si gioca? Per questo, è necessario un pulsante "Istruzioni" e un altro sfondo dello stage.
 
 ![screenshot](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Potrebbe anche essere necessario aggiungere un pulsante "Indietro" che consente al giocatore di tornare alla schermata iniziale.
 
 ```blocks3
-    broadcast (start screen v)
+    broadcast (schermata iniziale v)
 ```
