@@ -1,8 +1,8 @@
 ## E poi?
 
-Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
+Prova il progetto [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) per creare un gioco di reazione! In questo progetto, imparerai come creare cloni di sprite e come usare una variabile per accelerare gradualmente il gioco.
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no-print \--- Usa i tasti freccia sulla tastiera per ruotare la rotella del controller e prendere i punti volanti mentre raggiungono il centro. Se ti mancano tre punti, il gioco è finito.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -11,4 +11,4 @@ Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-
 
 \--- /no-print \---
 
-\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
+\--- solo stampa \--- ![Dots screenshot](images/dots-final.png) \--- / solo stampa \---
