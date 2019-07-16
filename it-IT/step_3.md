@@ -1,44 +1,44 @@
 ## Sfida: Cambia costumi
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- task \--- Crea un timer per il conto alla rovescia sullo stage con l'aiuto di una nuova variabile chiamata `volta`{: class = "block3variables"}. Il timer dovrebbe iniziare a 30 secondi e contare fino a 0 secondi.
 
 ![Stage sprite](images/stage-sprite.png)
 
-\--- hints \--- \--- hint \---
+\--- suggerimenti \--- \--- suggerimento \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Crea una variabile ``{: class = "block3variables"}, chiamala "time" e imposta il suo valore su `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Quindi aggiungi il codice per contare `volte`{: class = "block3variables"} fino a 0 entro 30 secondi. Per fare ciò, sottrai `1` da `time`{: class = "block3variables"} ogni `1` secondi, e ripeti questo fino a `volte`{: class = "block3variables"} uguale a `0`.
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- / suggerimento \--- \--- suggerimento \--- Ecco i blocchi necessari:
 
 ```blocks3
-repeat until < >
+ripetere fino a < >
 
-end
+fine
 
-wait (1) seconds
+attendere (1) secondi
 
-change [time v] by (1)
+cambiare [tempo v] di (1)
 
-(time)
+(tempo)
 
-when flag clicked
+quando si fa clic con il flag
 
 <() = ()>
 
-set [time v] to [0]
+impostare [tempo v] su [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- / suggerimento \--- \--- suggerimento \--- Ecco come dovrebbe apparire il tuo nuovo codice:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
-end
+quando il flag ha fatto clic su
+impostare [tempo v] su [30]
+ripetere fino a <(tempo) = (0)>
+    attendere (1) secondi
+    cambiare [tempo v] di (-1)
+fine
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -47,17 +47,17 @@ end
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Creare un `trasmissione`{: class = "block3control"} che invia il messaggio 'fine'. A `trasmissione`{: class = "block3control"} è come un annuncio su un altoparlante: può essere ascoltato da tutti i tuoi sprite. Aggiungere il `trasmissione`{: class = "block3control"} bloccare alla fine del codice timer in modo che il codice invierà e il messaggio 'fine', quando il `tempo di`{: class = "block3variables"} ha contato fino a `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    trasmissione (fine v)
 ```
 
 \--- /task \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- Seleziona il tuo sprite personaggio e aggiungi del codice in modo che lo sprite `fermi gli altri script`{: class = "block3control"} quando riceve il messaggio `end`{: class = "block3control"} .
 
 ![Giga sprite](images/giga-sprite.png)
 
@@ -70,6 +70,6 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Metti alla prova il tuo gioco. Dovrebbe continuare a fare domande finché il timer non ha contato fino a 0.
 
 \--- /task \---
