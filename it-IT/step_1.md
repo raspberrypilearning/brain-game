@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Questa è la versione **Scratch 3** del progetto. C'è anche una [versione Scratch 2 del progetto](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
 ## Introduzione
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+In questo progetto creerai un gioco a quiz di matematica in cui il giocatore ha 30 secondi per dare il maggior numero di risposte corrette possibili.
 
 ### Che cosa creerai
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Fare clic sul pulsante per iniziare. Digitare la risposta alla domanda, quindi premere il tasto <kbd>Invio</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,14 +19,14 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 \--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- solo stampa \--- ![Brain Game](images/brain-final.png) \--- / solo stampa \---
 
 ## \--- collapse \---
 
 ## title: Cosa imparerai
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Come utilizzare le trasmissioni in Scratch
++ Come creare e utilizzare un blocco Scratch personalizzato
 
 \--- /collapse \---
 
@@ -46,10 +46,10 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Note addizionali per gli educatori
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- Se è necessario stampare questo progetto, utilizzare la [versione stampabile della stampante](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Puoi trovare il [progetto completo qui](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
