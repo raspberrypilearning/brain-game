@@ -1,4 +1,4 @@
-## Add a timer
+## Agregar un temporizador
 
 \--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
@@ -43,9 +43,9 @@ end
 
 \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
@@ -55,7 +55,7 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
     broadcast (end v)
 ```
 
-\--- /task \---
+\--- / tarea \---
 
 \--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
 
@@ -66,10 +66,10 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
     stop [other scripts in sprite v]
 ```
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
-\--- /task \---
+\--- / tarea \---
