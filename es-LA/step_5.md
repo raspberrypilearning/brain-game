@@ -8,7 +8,7 @@ You can draw the sprite yourself, or edit a sprite from the library.
 
 ![Picture of the play button](images/brain-play.png)
 
-\--- /task \---
+\--- / tarea \---
 
 \--- task \--- Add this code to your button sprite:
 
@@ -23,7 +23,7 @@ You can draw the sprite yourself, or edit a sprite from the library.
     broadcast (start v)
 ```
 
-\--- /task \---
+\--- / tarea \---
 
 The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
@@ -48,9 +48,9 @@ else
 end
 ```
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
@@ -60,11 +60,11 @@ Can you see that the timer starts when the green flag is clicked, instead of whe
 
 ![Timer has started](images/brain-timer-bug.png)
 
-\--- task \---
+\--- tarea \---
 
 Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
-\--- /task \---
+\--- / tarea \---
 
 \--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
 
@@ -75,9 +75,9 @@ Can you change the code for the timer so that the timer starts when the player c
     show
 ```
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
@@ -89,7 +89,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
     set [time v] to [10]
 ```
 
-\--- /task \---
+\--- / tarea \---
 
 \--- task \--- You can change how the button looks when the mouse pointer hovers over it.
 
@@ -107,4 +107,4 @@ To test the game more quickly, you can change the value of `time`{:class="block3
     end
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![captura de pantalla](images/brain-fisheye.png) \--- / tarea \---
