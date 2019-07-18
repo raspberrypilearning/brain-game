@@ -1,4 +1,4 @@
-## What next?
+## ¿Qué sigue?
 
 Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
 
@@ -11,4 +11,4 @@ Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-
 
 \--- /no-print \---
 
-\--- print-only \--- ![Dots screenshot](images/dots-final.png) \--- /print-only \---
+\--- solo imprimir \--- ![Dots screenshot](images/dots-final.png) \--- solo imprimir \---
