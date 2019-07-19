@@ -14,7 +14,7 @@ Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarl
 
 \--- /task \---
 
-\--- task \--- Aggiungi uno sprite personaggio e uno sfondo per il tuo gioco. Puoi scegliere quello che ti piace! Ecco un esempio:
+\--- task \--- Aggiungi uno personaggio sprite e uno sfondo per il tuo gioco. Puoi scegliere quello che ti piace! Ecco un esempio:
 
 ![schermata](images/brain-setting.png)
 
@@ -28,33 +28,33 @@ Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarl
 
 \--- /task \---
 
-\--- \--- compito aggiungere il codice per il tuo sprite personaggio per impostare entrambe le `variabili`{: class = "block3variables"} ad un `casuale`{: class = "block3operators"} numero compreso tra 2 e 12.
+\--- task \--- Aggiungi il codice per il tuo sprite personaggio per impostare entrambe le `variabili`{: class = "block3variables"} ad un numero `random`{: class = "block3operators"} compreso tra 2 e 12.
 
 ![schermata](images/giga-sprite.png)
 
 ```blocks3
-quando il flag ha fatto clic su
-impostare [numero 1 v] su (selezionare casuale (2) a (12))
-impostare [numero 2 v] su (selezionare casuale (2) a (12))
+when flag clicked
+set [numero 1 v] to (pick random (2) to (12))
+set [numero 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
 
-\--- task \--- Aggiungi il codice a `ask`{: class = "block3sensing"} il giocatore per la risposta, e poi `dirai per 2 secondi`{: class = "block3looks"} se la risposta era giusta o sbagliato:
+\--- task \--- Aggiungi il codice a `ask`{: class = "block3sensing"} per chiedere al giocatore la risposta, e poi dirai per 2 secondi `say for 2 seconds`{: class = "block3looks"} se la risposta era giusta o sbagliato:
 
 ![schermata](images/giga-sprite.png)
 
 ```blocks3
-quando il flag ha cliccato
-impostato [numero 1 v] su (selezionare casuale (2) a (12))
-impostare [numero 2 v] a (selezionare casuale (2) a (12))
+when flag clicked
+set [numero 1 v] to (pick random (2) to (12))
+set [numero 2 v] to (pick random (2) to (12))
 
-+ chiedere (partecipare (numero 1) (unirsi a [x] (numero 2))) e attendere
-+ se <(risposta) = ((numero 1) * (numero 2))> poi
-+ dire [sì! :)] per (2) secondi
-+ altro
-+ dire [no :(] per (2) secondi
-+ fine
++ ask (join (numero 1)(join [ x ] (numero 2))) and wait
++ if <(answer) = ((numero 1)*(numero 2))> then
++ say [si! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -67,34 +67,34 @@ Metti alla prova il tuo progetto due volte: rispondi correttamente a una domanda
 
 \--- task \---
 
-Aggiungi un `per sempre`{: class = "block3control"} aggira questo codice, in modo che il gioco chieda al giocatore molte domande di seguito.
+Aggiungi un `forever`{: class = "block3control"} attorno a questo codice, in modo che il gioco chieda al giocatore molte domande di seguito.
 
-\--- suggerimenti \--- \--- suggerimento \---
+\--- hints \--- \--- hint \---
 
-È necessario aggiungere un `per sempre`{: class = "block3control"} blocco, e mettere tutto il codice, tranne il `quando il flag cliccato`{: class = "block3control"} blocco in esso.
+È necessario aggiungere un blocco `forever`{: class = "block3control"}, e mettere tutto il codice, tranne al blocco `when flag clicked`{: class = "block3control"}.
 
-\--- / suggerimento \--- \--- suggerimento \--- Ecco il blocco di cui hai bisogno:
+\--- /hint \--- \--- hint \--- Ecco il blocco di cui hai bisogno:
 
 ```blocks3
-per sempre
-fine
+forever
+end
 ```
 
-\--- / suggerimento \--- \--- suggerimento \--- Ecco come dovrebbe apparire il tuo codice:
+\--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice:
 
 ```blocks3
-quando il flag ha fatto clic su
+when flag clicked
 
-+ per sempre
-    set [numero 1 v] su (selezionare casuale (2) a (12))
-    impostare [numero 2 v] su (selezionare casuale (2) a (12))
-    chiedere (partecipare (numero 1) (unire [x] (numero 2))) e attendere
-    se <(risposta) = ((numero 1) * (numero 2))> poi
-        dire [sì! :)] per (2) secondi
-    altro
-        dire [no :(] per (2) secondi
-    fine
-fine
++ forever
+    set [numero 1 v] to (pick random (2) to (12))
+    set [numero 2 v] to (pick random (2) to (12))
+    ask (join (numero 1)(join [ x ] (numero 2))) and wait
+    if <(answer) = ((numero 1)*(numero 2))> then
+        say [si! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \--- \--- /hints \---
