@@ -19,13 +19,13 @@ In questo progetto creerai un gioco a quiz di matematica in cui il giocatore ha 
 
 \--- /no-print \---
 
-\--- solo stampa \--- ![Brain Game](images/brain-final.png) \--- / solo stampa \---
+\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
 
 ## \--- collapse \---
 
 ## title: Cosa imparerai
 
-+ Come utilizzare le trasmissioni in Scratch
++ Come utilizzare le trasmissioni broadcasts in Scratch
 + Come creare e utilizzare un blocco Scratch personalizzato
 
 \--- /collapse \---
@@ -48,7 +48,7 @@ In questo progetto creerai un gioco a quiz di matematica in cui il giocatore ha 
 
 ## title: Note addizionali per gli educatori
 
-\--- no-print \--- Se è necessario stampare questo progetto, utilizzare la [versione stampabile della stampante](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
+\--- no-print \--- Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
 
 Puoi trovare il [progetto completo qui](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
