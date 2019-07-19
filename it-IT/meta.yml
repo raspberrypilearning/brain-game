@@ -2,9 +2,9 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Giochi di Mente
+title: Gioco di cervello
 description: Impara a creare un quiz
-version: 3
+version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
@@ -12,25 +12,25 @@ steps:
   - 
     title: Creare domande
   - 
-    title: 'Sfida: Cambia costumi'
+    title: Aggiungere un timer
   - 
-    title: 'Sfida: Aggiungi un punteggio'
+    title: 'Sfida: aggiungi un punteggio e reazioni'
     challenge: true
   - 
     title: Giochi multipli
   - 
-    title: 'Sfida: Inizia schermata'
+    title: 'Sfida: crea una schermata iniziale'
     challenge: true
   - 
-    title: Aggiungi grafiche
-  - 
-    title: 'Sfida: Animazione migliorata'
-    challenge: true
+    title: Aggiungi grafica
   - 
     title: 'Sfida: Suono e musica'
     challenge: true
   - 
-    title: 'Sfida: Gareggia fino ai 10 punti'
+    title: 'Sfida: Guadagna 10 punti'
     challenge: true
   - 
-    title: 'Sfida: Più matite'
+    title: 'Sfida: schermata di istruzioni'
+    challenge: true
+  - 
+    title: E poi?
