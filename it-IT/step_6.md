@@ -1,4 +1,4 @@
-## Sfida: Inizia schermata
+## Sfida: Crea una scherma d'avvio
 
 Puoi aggiungere un altro fondale che sarà la schermata iniziale del tuo gioco?
 
