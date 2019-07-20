@@ -1,4 +1,4 @@
-## Sfida: Gareggia fino ai 10 punti
+## Sfida: schermata di istruzioni
 
 Puoi aggiungere una schermata di istruzioni che dice al giocatore come si gioca? Per questo, è necessario un pulsante "Istruzioni" e un altro sfondo dello stage.
 
