@@ -6,7 +6,7 @@ Du beginnst damit, zufällige Aufgaben zu erzeugen, die der Spieler beantworten 
 
 Erstelle ein neues Scratch-Projekt.
 
-**Online:** Erstelle ein neues Scratch-Projekt unter [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **Offline:** Erstelle im Offline-Editor ein neues Projekt.
 
