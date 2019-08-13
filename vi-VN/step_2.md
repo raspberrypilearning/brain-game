@@ -6,7 +6,7 @@ Bạn sẽ bắt đầu bằng cách tạo các câu hỏi ngẫu nhiên mà ng�
 
 Mở một dự án Scratch mới.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **Ngoại tuyến:** mở một dự án mới trong trình chỉnh sửa ngoại tuyến.
 
