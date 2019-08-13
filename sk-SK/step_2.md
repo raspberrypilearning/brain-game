@@ -6,7 +6,7 @@ Začnete tým, že vytvoríte náhodné otázky, ktoré musí hráč odpovedať.
 
 Otvorte nový projekt Scratch.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **Offline:** otvorte nový projekt v režime offline.
 
