@@ -6,7 +6,7 @@
 
 새 Scratch 프로젝트를 엽니 다.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **오프라인 :** 오프라인 편집기에서 새 프로젝트를 엽니 다.
 
