@@ -6,7 +6,7 @@ Du ska börja med att skapa slumpmässiga frågor som spelaren måste svara på.
 
 Öppna ett nytt Scratch-projekt.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **Offline:** Öppna ett nytt projekt i offline-editoren.
 
