@@ -6,7 +6,7 @@
 
 פתח פרוייקט חדש של Scratch.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **מקוון:** פתח פרוייקט חדש בעורך הלא מקוון.
 
