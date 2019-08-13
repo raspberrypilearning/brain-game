@@ -1,134 +1,134 @@
 ## Ajout de graphisme
 
-Pour le moment, le personnage du personnage dit seulement `oui! :)` ou `non :(` aux réponses du joueur. Ajoutez des graphiques pour indiquer au joueur si sa réponse est correcte ou incorrecte.
+Pour le moment, le sprite personnage dit seulement `oui! :)` ou `non :(` aux réponses du joueur. Ajoute des graphiques pour indiquer au joueur si sa réponse est correcte ou incorrecte.
 
 \--- task \---
 
-Créez une nouvelle image-objet appelée "Résultat" et donnez-lui un "tick / check" et un costume de "croix".
+Crée une nouveau sprite appelé "Résultat" et donne-lui un "cocher / vérifier" et un costume "croix".
 
-![Sprite avec tiques et costumes croisés](images/brain-result.png)
+![Sprite avec coche et costumes croix](images/brain-result.png)
 
 \--- /task \---
 
 \--- task \---
 
-Modifier le code de votre sprite de caractères de sorte que, au lieu de dire quelque chose au joueur, il `émissions`{: class = « block3events »} les messages « correct » ou « mauvais ».
+Modifie le code de ton sprite personnage de sorte que, au lieu de dire quelque chose au joueur, il `envoyer à tous`{:class=« block3events»} les messages « correct » ou « mauvais ».
 
-![Personnage de sprite](images/giga-sprite.png)
+![Sprite Personnage](images/giga-sprite.png)
 
 ```blocks3
 si <(réponse) = ((numéro 1) * (numéro 2))> alors
 
 - dites [oui! :)] pendant (2) secondes
-+ diffusion (correct v)
++ envoyer à tous (correct v)
 sinon
-- dites [nope :(] pendant (2) secondes
-+ diffusion (mauvais v)
-
+- dire [non :(] pendant (2) secondes
++ envoyer à tous (mauvais v)
+fin
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Maintenant , vous pouvez utiliser ces messages à `Afficher`{: class = "block3looks"} le costume 'TICK' ou 'croix'. Ajoutez le code suivant à l'image-objet 'Résultat':
+Maintenant , tu peux utiliser ces messages à `montrer`{:class="block3looks"} le costume 'coche' ou 'croix'. Ajoute le code suivant au sprite 'Résultat':
 
-![Résultat sprite](images/result-sprite.png)
+![Sprite Résultat](images/result-sprite.png)
 
 ```blocks3
     quand je reçois [correct v]
-    change de costume en (tick v)
-    montre
-    attend (1) secondes
-    cache
+    basculer sur le costume (coche v)
+    montrer
+    attendre (1) secondes
+    cacher
 
     quand je reçois [faux v]
-    change de costume en (croix v)
-    montre
-    attend (1) seconde
+    basculer sur le costume (croix v)
+    montrer
+    attendre (1) seconde
     masquer
 
-    lorsque le drapeau a cliqué
+    lorsque le drapeau est cliqué
     masquer
 ```
 
 \--- /task \---
 
-\--- tâche \--- Testez à nouveau votre jeu. Vous devriez voir la coche chaque fois que vous répondez correctement à une question et la croix lorsque vous répondez incorrectement!
+\--- task \--- Teste à nouveau ton jeu. Tu devrais voir la coche chaque fois que tu réponds correctement à une question et la croix lorsque tu réponds incorrectement!
 
-![Cochez pour corriger, cocher pour mauvaise réponse](images/brain-test-answer.png)
+![Coche pour correct, cocher pour mauvaise réponse](images/brain-test-answer.png)
 
 \--- /task \---
 
-Pouvez-vous voir que le code pour `lorsque je reçois les correctes`{: class = "block3events"} et `lorsque je reçois le mauvais`{: class = "block3events"} est presque identique?
+Peux-tu voir que le code pour `lorsque je reçois correctes`{:class="block3events"} et `lorsque je reçois mauvais`{:class="block3events"} est presque identique?
 
-Pour modifier votre code plus facilement, vous allez créer un bloc personnalisé.
+Pour modifier ton code plus facilement, tu vas créer un bloc personnalisé.
 
 \--- task \---
 
-Sélectionnez le sprite 'Résultat'. Cliquez ensuite sur `My Blocks`{: class = "block3myblocks"}, puis sur **Make a Block**. Créez un nouveau bloc et appelez-le `animate`{: class = "block3myblocks"}.
+Sélectionne le sprite 'Résultat'. Clique ensuite sur `Mes Blocs`{:class="block3myblocks"}, puis sur **Créer un Bloc**. Crée un nouveau bloc et appele-le `animer` {:class="block3myblocks"}.
 
-![Résultat sprite](images/result-sprite.png)
+![Sprite Résultat](images/result-sprite.png)
 
 ![Créer un bloc appelé animer](images/brain-animate-function.png)
 
 \--- /task \---
 
-\--- tâche \--- Déplacez le code vers `affichez`{: class = "block3looks"} et `masquez`{: class = "block3looks"} le sprite "Résultat" dans le `animé`{: class = " block3myblocks "} bloc:
+\--- task \--- Déplace le code sur `montrer`{:class= block3looks"} et `masquer`{:class="block3looks"} le sprite "Résultat" dans le bloc `animer`{:class="block3myblocks"}:
 
-![Résultat sprite](images/result-sprite.png)
+![Sprite Résultat](images/result-sprite.png)
 
 ```blocks3
 définir animer
-afficher
+montrer
 attendre (1) secondes
 masquer
 ```
 
 \--- /task \---
 
-\--- tâche \--- Assurez-vous que vous avez supprimé les `shows`{: class = "block3looks"} et `masquer`{: class = "block3looks"} blocs en dessous de **fois** ``: class = "block3looks"} blocs.
+\--- task \--- Assures-toi que tu as supprimé les blocs `montrer`{:class="block3looks"} et `masquer`{:class="block3looks"} en dessous de **tout les deux**des blocs `basculer sur le costume`{:class="block3looks"}.
 
-Ajoutez ensuite le bloc `animate`{: class = "block3myblocks"} sous les deux blocs de `commutateurs`{: class = "block3looks"}. Votre code devrait maintenant ressembler à ceci:
+Ajoute ensuite le bloc `animer`{:class="block3myblocks"} sous les deux blocs de `basculer sur le costume`{:class="block3looks"}. Ton code devrait maintenant ressembler à ceci:
 
-![Résultat sprite](images/result-sprite.png)
+![Sprite Résultat](images/result-sprite.png)
 
 ```blocks3
     lorsque je reçois [correct v]
-    change de costume en (tick v)
-    animate :: custom
+    basculer sur le costume (coche v)
+    animer :: personnalisé
 
-    quand je reçois [faux v]
-    change de costume en (croix v)
-    animate :: custom
+    lorsque je reçois [faux v]
+    basculer sur le costume (croix v)
+    animer :: personnalisé
 ```
 
 \--- /task \---
 
-En raison du bloc personnalisé `animate`{: class = "block3myblocks"}, il vous suffit maintenant de modifier votre code si vous souhaitez afficher les costumes du sprite "Résultat" plus ou moins longtemps.
+En raison du bloc personnalisé `animer`{:class="block3myblocks"}, il te suffit maintenant de modifier ton code si tu souhaites montrer les costumes du sprite "Résultat" plus ou moins longtemps.
 
 \--- task \---
 
-Changez votre code pour que les costumes "tick" ou "cross" s'affichent pendant 2 secondes.
+Change ton code pour que les costumes "coche" ou "croix" s'affichent pendant 2 secondes.
 
 \--- /task \---
 
-\--- tâche \--- Au lieu de `montrant`{: class = "block3looks"} et `masquant`{: class = "block3looks"} les costumes "tick" ou "cross", vous pouvez changer votre `animé`{: class = "block3myblocks"} bloque pour que les costumes disparaissent.
+\--- task \--- Au lieu de `montrant`{:class="block3looks"} et `masquant`{:class="block3looks"} les costumes "coche" ou "croix", tu peux changer ton bloc`animer`{:class="block3myblocks"} pour que les costumes disparaissent.
 
-![Résultat sprite](images/result-sprite.png)
+![Sprite Résultat](images/result-sprite.png)
 
 ```blocks3
     définir animer
-    régler [effet fantôme] sur (100)
-    afficher
+    définir effet [fantôme] sur (100)
+    montrer
     répéter (25)
-        changer effet [effet fantôme] de (-4)
+        changer effet [fantôme] sur (-4)
     fin
-
+    cacher
 ```
 
 \--- /task \---
 
-Pouvez-vous améliorer l'animation des graphiques "tick" ou "cross"? Vous pouvez également ajouter du code pour faire disparaître les costumes ou utiliser d'autres effets sympas:
+Peux-tu améliorer l'animation des graphiques "coche" ou "croix"? Tu peux également ajouter du code pour faire disparaître les costumes ou utiliser d'autres effets sympas:
 
 ![capture d'écran](images/brain-effects.png)
