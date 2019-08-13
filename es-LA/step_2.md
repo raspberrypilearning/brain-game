@@ -6,7 +6,7 @@ You're going to start by creating random questions that the player has to answer
 
 Abrir un nuevo proyecto de Scratch vacío.
 
-** Online **: abra un nuevo proyecto Scratch en línea en [ rpf.io/scratch-new ](http://rpf.io/scratchon)"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 ** fuera de línea: ** Abre un nuevo proyecto en el editor offline.
 
