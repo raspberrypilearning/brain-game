@@ -6,7 +6,7 @@
 
 打开一个新的Scratch项目
 
-**在线： **在[rpf.io/scrath-new](http://rpf.io/scratchon)打开一个新的Scratch在线项目 { target="_blank"}。
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **离线： **在离线编辑器中打开一个新项目。
 
