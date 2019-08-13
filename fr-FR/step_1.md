@@ -6,11 +6,11 @@ Ceci est la version **Scratch 3** du projet. Il y a aussi une version [Scratch 2
 
 ## Introduction
 
-Dans ce projet, vous allez créer un quiz mathématique dans lequel le joueur dispose de 30 secondes pour donner autant de réponses correctes que possible.
+Dans ce projet, tu vas créer un quiz mathématique dans lequel le joueur dispose de 30 secondes pour donner autant de réponses correctes que possible.
 
 ### Ce que tu feras
 
-\--- no-print \--- Cliquez sur le bouton pour commencer. Tapez la réponse à la question, puis appuyez sur la touche <kbd>Entrée</kbd>.
+\--- no-print \--- Clique sur le bouton pour commencer. Tape la réponse à la question, puis appuye sur la touche <kbd>Entrée</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,13 +19,13 @@ Dans ce projet, vous allez créer un quiz mathématique dans lequel le joueur di
 
 \--- /no-print \---
 
-\--- impression seule \--- ![Brain Game](images/brain-final.png) \--- / impression seule \---
+\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
 
 ## \--- collapse \---
 
 ## title: Ce que tu vas apprendre
 
-+ Comment utiliser les émissions dans Scratch
++ Comment utiliser les envoyer à tous dans Scratch
 + Comment créer et utiliser un bloc Scratch personnalisé
 
 \--- /collapse \---
@@ -46,10 +46,10 @@ Question
 
 ## \--- collapse \---
 
-## title: Notes complémentaires pour les éducateurs
+## title: Informations supplémentaires pour les éducateurs
 
-\--- no-print \--- Si vous avez besoin d'imprimer ce projet, veuillez utiliser la [version](https://projects.raspberrypi.org/en/projects/brain-game/print)imprimable. \--- / no-print \---
+\--- no-print \--- Si tu as besoin d'imprimer ce projet, veille à utiliser la [version](https://projects.raspberrypi.org/en/projects/brain-game/print)imprimable. \--- / no-print \---
 
-Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
+Tu peux trouver le [projet terminé ici](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
 
 \--- /collapse \---
