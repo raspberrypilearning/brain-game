@@ -6,7 +6,7 @@ Aloitatte luomalla satunnaisia kysymyksiä, jotka pelaajan on vastattava.
 
 Avaa uusi Scratch-projekti.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **Offline:** avaa uuden projektin offline-editorissa.
 
