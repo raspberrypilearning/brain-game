@@ -3,8 +3,8 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Jeu d'ingéniosité
-description: Apprends comment créer un quiz
-version: 3
+description: Apprend à créer un quiz
+version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
@@ -12,25 +12,25 @@ steps:
   - 
     title: Création des questions
   - 
-    title: 'Défi: Changement de costumes'
+    title: Ajouter un minuteur
   - 
-    title: 'Défi: Ajout d''un pointage'
+    title: 'Défi : ajouter un score et des réactions'
     challenge: true
   - 
     title: Jeux multiples
   - 
-    title: 'Défi: Écran du début'
+    title: 'Défi : créer un écran de démarrage'
     challenge: true
   - 
-    title: Ajout de graphisme
+    title: Ajouter des graphiques
   - 
-    title: 'Défi: Animation améliorée'
+    title: 'Défi : son et musique'
     challenge: true
   - 
-    title: 'Défi: Son et musique'
+    title: 'Défi : course à 10 points'
     challenge: true
   - 
-    title: 'Défi: Course à 10 points'
+    title: 'Défi : écran d''instruction'
     challenge: true
   - 
     title: 'Défi : plus de crayons'
