@@ -6,7 +6,7 @@ Començaràs creant preguntes aleatòries que el jugador ha de respondre.
 
 Obriu un nou projecte Scratch.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **Desconnectat:** obre un nou projecte a l'editor fora de línia.
 
