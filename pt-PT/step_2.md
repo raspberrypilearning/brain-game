@@ -6,7 +6,7 @@ Vais começar por criar perguntas aleatórias para o jogador responder.
 
 Abre um projeto Scratch novo.
 
-**Online:** abre um novo projeto online Scratch em [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **Offline:** abre um novo projeto no editor offline.
 
