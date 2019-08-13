@@ -1,43 +1,43 @@
 ## Défi: Changement de costumes
 
-\--- task \--- Créez un compte à rebours sur la scène à l'aide d'une nouvelle variable appelée `fois`{: class = "block3variables"}. La minuterie devrait commencer à 30 secondes et compter jusqu'à 0 secondes.
+\--- task \--- Crée un compte à rebours sur la scène à l'aide d'une nouvelle variable appelée `temps`{:class="block3variables"}. La minuterie devrait commencer à 30 secondes et décompter jusqu'à 0 secondes.
 
-![Sprite de scène](images/stage-sprite.png)
+![Sprite Scène](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Créez une variable ``{: class = "block3variables"}, appelez-la "heure" et définissez sa valeur sur `30`.
+Crée une `variable`{:class="block3variables"}, appele-la "temps" et définis sa valeur sur `30`.
 
-Ajoutez ensuite du code pour compter `fois`{: class = "block3variables"} jusqu'à 0 dans les 30 secondes. Pour ce faire, soustrayez `1` de `fois`{: class = "block3variables"} toutes les `1` secondes et répétez cette opération jusqu'à `fois`{: class = "block3variables"} est égal à `0`.
+Ajoute ensuite du code pour décompter `temps`{: class = "block3variables"} jusqu'à 0 dans les 30 secondes. Pour ce faire, soustrais `1` de `temps`{:class="block3variables"} toutes les `1` seconde et répète cette opération jusqu'à que le `temps`{:class="block3variables"} est égal à `0`.
 
-\--- / indice \--- \--- indice \--- Voici les blocs dont vous avez besoin:
+\--- /hint \--- \--- hint \--- Voici les blocs dont tu as besoin :
 
 ```blocks3
 répéter jusqu'à < >
 
-end
+fin
 
-wait (1) secondes
+attendre (1) secondes
 
-changer [heure v] de (1)
+changer [temps v] par (1)
 
-(heure)
+(temps)
 
 lorsque le drapeau est cliqué
 
 <() = ()>
 
-régler [heure v] sur [0]
+définir [temps v] sur [0]
 ```
 
-\--- / hint \--- \--- hint \--- Voici à quoi devrait ressembler votre nouveau code:
+\--- / hint \--- \--- hint \--- Voici à quoi devrait ressembler ton nouveau code:
 
 ```blocks3
-lorsque le drapeau est cliqué sur
-définissez [heure v] sur [30]
-répétez jusqu'à ce que <(heure) = (0)>
-    attend (1) secondes
-    change [heure v] de (-1)
+lorsque le drapeau est cliqué
+définir [temps v] sur [30]
+répéter jusqu'à ce que <(temps) = (0)>
+    attendre (1) secondes
+    changer [temps v] par (-1)
 fin
 ```
 
@@ -47,17 +47,17 @@ fin
 
 \--- task \---
 
-Créer une diffusion ``: {: class = "block3control"} qui envoie le message "end". Une diffusion ``{: class = "block3control"} est comme une annonce par haut-parleur: elle peut être entendue par tous vos sprites. Ajoutez le bloc `broadcast`{: class = "block3control"} à la fin du code du temporisateur pour que le code soit envoyé et le message "end" lorsque le `fois`{: class = "block3variables"} est passé à `0`.
+Crée un `envoyer à tous`{:class="block3control"} qui envoie le message "fin". Un `envoyer à tous`{:class="block3control"} est comme une annonce par haut-parleur: elle peut être entendue par tout tes sprites. Ajoute le bloc `envoyer à tous`{:class="block3control"} à la fin du code du minuteur pour que le code enverra et le message "fin" lorsque le `temps`{: class = "block3variables"} est décompté à `0`.
 
-![Sprite de scène](images/stage-sprite.png)
+![Sprite Scène](images/stage-sprite.png)
 
 ```blocks3
-    diffusion (fin v)
+    envoyer à tous (fin v)
 ```
 
 \--- /task \---
 
-\--- task \--- Sélectionnez votre sprite de personnage et ajoutez du code pour que le sprite `arrête les autres scripts`{: class = "block3control"} lorsqu'il reçoit le message `end`{: class = "block3control"} .
+\--- task \--- Sélectionne ton sprite personnage et ajoute du code pour que le sprite `arrête les autres scripts`{:class="block3control"} lorsqu'il reçoit le message `fin`{:class="block3control"}.
 
 ![Giga Sprite](images/giga-sprite.png)
 
@@ -70,6 +70,6 @@ Créer une diffusion ``: {: class = "block3control"} qui envoie le message "end"
 
 \--- task \---
 
-Testez votre jeu à nouveau. Il devrait continuer à poser des questions jusqu'à ce que le chronomètre se soit écoulé jusqu'à zéro.
+Teste ton jeu à nouveau. Il devrait continuer à poser des questions jusqu'à ce que le chronomètre se soit écoulé jusqu'à zéro.
 
 \--- /task \---
