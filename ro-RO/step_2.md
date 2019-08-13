@@ -6,7 +6,7 @@ Veți începe prin a crea întrebări aleatorii pe care jucătorul trebuie să l
 
 Deschideți un nou proiect Scratch.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratchon){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **Offline:** deschideți un nou proiect în editorul offline.
 
