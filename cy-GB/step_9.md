@@ -11,5 +11,5 @@ ailadrodd hyd at <(amser) = [0]>
   aros (1) eiliad
   newid [amser v] gan (-1)
 end
-darlledu (ddiwedd v)
+darlledu (diwedd v)
 ```

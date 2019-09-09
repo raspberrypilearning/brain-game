@@ -9,7 +9,7 @@
 
 Creu `newidyn`{:class="block3variables"}, ei alw'n 'amser', a gosod ei werth i `30`.
 
-Yna ychwanegu côd i gyfrif `amser`{:class="block3variables"} lawr i 0 o 30 eiliad. I wneud hyn, bydd angen tynnu `1` o `amser`{:class="block3variables"} bob `1` eiliad, ac ail-adrodd hyn tan bod `a,ser`{:class="block3variables"} yn cyfateb â `0`.
+Yna ychwanegu côd i gyfrif `amser`{:class="block3variables"} lawr i 0 o 30 eiliad. I wneud hyn, bydd angen tynnu `1` o `amser`{:class="block3variables"} bob `1` eiliad, ac ail-adrodd hyn tan bod `amser`{:class="block3variables"} yn cyfateb â `0`.
 
 --- /hint --- --- hint --- Dyma'r blociau rwyt ti eu hangen:
 
@@ -52,7 +52,7 @@ Creu `darllediad`{:class="block3control"} sy'n anfon y neges 'diwedd'. Mae `darl
 ![Corlun llwyfan](images/stage-sprite.png)
 
 ```blocks3
-    darlledu (end v)
+    darlledu (diwedd v)
 ```
 
 --- /task ---
@@ -62,7 +62,7 @@ Creu `darllediad`{:class="block3control"} sy'n anfon y neges 'diwedd'. Mae `darl
 ![Corlun giga](images/giga-sprite.png)
 
 ```blocks3
-    pan rwy'n derbyn [end v]
+    pan rwy'n derbyn [diwedd v]
     aros [sgriptiau eraill yn y ciplun v]
 ```
 

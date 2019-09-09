@@ -73,7 +73,7 @@ Fe alli di nawr ychwanegu côd i dy fotwm i’w ddangos eto ar ddiwedd pob gêm.
 ![Corlun botwm](images/button-sprite.png)
 
 ```blocks3
-    pan rwy'n derbyn [ddiwedd v]
+    pan rwy'n derbyn [diwedd v]
 dangos
 ```
 
