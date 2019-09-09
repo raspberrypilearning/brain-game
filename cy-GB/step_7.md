@@ -119,7 +119,7 @@ Yn hytrach na `dangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} y
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-diffinio animate
+diffinio animeiddio
 gosod effaith [ghost v] effaith i (100)
 dangos
 ailadrodd (25) 
