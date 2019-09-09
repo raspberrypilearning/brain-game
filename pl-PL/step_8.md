@@ -7,7 +7,7 @@ Czy możesz dodać efekty dźwiękowe i muzykę do swojej gry? Na przykład moż
 + Odtwórz dźwięk, gdy czas gracza się skończy
 
 ```blocks3
-    odtwarzaj dźwięk (pop v), aż skończysz
+    odtwarzaj dźwięk (pop v), aż się skończy
 ```
 
 Twoja gra może również stale odtwarzać muzykę w tle w pętli.
