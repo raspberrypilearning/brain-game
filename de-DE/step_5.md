@@ -1,110 +1,110 @@
 ## Mehrmals spielen
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+Jetzt wirst du eine Schaltfläche "Spielen" hinzufügen, damit der Spieler dein Spiel viele Male spielen kann.
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- Erstelle eine neue 'Spielen' Knopf Figur, auf den der Spieler klicken muss, um ein neues Spiel zu starten.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Du kannst die Figur selbst zeichnen oder eine Figur aus der Bibliothek verwenden.
 
-![Picture of the play button](images/brain-play.png)
+![Bild der Schaltfläche "Spielen"](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- Füge deiner Spielen Knopf Figur diesen Code hinzu:
 
-![Button sprite](images/button-sprite.png)
+![Spielen Figur](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    Wenn die grüne Flagge angeklickt wird
+    zeige dich
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    Wenn diese Figur angeklickt wird
+    verstekce dich
+    sende (Start v) an alle
 ```
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Der neue Code enthält einen weiteren `sende an alle`{:class="block3events"} Block, der die Nachricht 'Start' sendet.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Der neue Code zeigt den 'Spielen' Knopf, wenn der Spieler auf die grüne Flagge klickt. Wenn der Spieler auf die Spielen Knopf Figur klickt, versteckt sich diese Figur und sendet eine Nachricht an alle anderen Figuren, damit diese darauf reagieren können.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+In dem Moment, in dem die Spiel-Figur die Nachricht 'Start' empfängt, fängt sie an eine Frage zu stellen. Ändere den Code des Spiels, damit die Spiel Figur beginnt Fragen zu stellen, `wenn ich Nachricht empfange`{:class="block3events"} 'Start'.
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- Wähle deine Spiel-Figur aus und ersetzen den Code `Wenn die grüne Flagge angeklickt wird` {: class = "block3events"} Block durch einen `wenn ich Start empfange` {: class = "block3events"} Block.
 
-![Character sprite](images/giga-sprite.png)
-
-```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if &lt;(answer) = ((number 1)*(number 2))&gt; then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
-```
-
-\--- /task \---
-
-\--- task \---
-
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
-
-\--- /task \---
-
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
-
-![Timer has started](images/brain-timer-bug.png)
-
-\--- task \---
-
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
-
-\--- /task \---
-
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
-
-![Button sprite](images/button-sprite.png)
+![Spieler Figur](images/giga-sprite.png)
 
 ```blocks3
-    Wenn ich [end v] empfange
-zeige dich
+<br />- wenn die grüne Flagge angeklickt wird
++ Wenn ich [Start v] empfange
+setze [Zahl 1 v] auf (Zufallszahlen von (2) bis (12))
+setze [Zahl 2 v] auf (Zufallszahlen von (2) bis (12))
+frage (verbinde (Zahl 1) und (verbinde [ x ] und (Zahl 2))) und warte
+wenn &lt;(Antwort) = ((Zahl 1)*(Zahl 2))&gt; dann
+    sage [Genau! :)] für (2) Sekunden
+sonst
+    sage [nein :(] für (2) Sekunden 
+ende
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Um die Änderungen zu testen, klicke auf die grüne Flagge und anschließend auf die neue Schaltfläche "Spielen". Das Spiel sollte nicht nicht startet, bevor auf die Schaltfläche klickt wird.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+\--- /task \---
 
-![Stage](images/stage-sprite.png)
+Siehst du, dass der Countdown sofort startet, wenn die grüne Flagge geklickt wird und nicht erst, wenn die Schaltfläche "Spielen" gerückt wird?
+
+![Countdown hat gestartet](images/brain-timer-bug.png)
+
+\--- task \---
+
+Kannst du den Code für den Coutdown ändern, damit der Countdown erst beginnt, wenn der Spieler auf den "Spielen" Knopf gedrückt hat?
+
+\--- /task \---
+
+\--- task \--- Füge Code zu deiner Spielen-Knopf Figur hinzufügen, so dass die Schaltfläche am Ende jedes Spiels wieder angezeigt wird.
+
+![Spielen Figur](images/button-sprite.png)
 
 ```blocks3
-    setze [zeit v] auf [10]
+    Wenn ich [Ende v] empfange
+    zeige dich
 ```
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \---
 
-![Taster](images/button-sprite.png)
+Teste den 'Spielen'-Knopf, indem du ein paar Spiele spielst. Der Knopf sollte am Ende jedes Spiels wieder angezeigt werden.
+
+Um das Spiel schneller testen zu können, kannst du den Wert der Variablen `Zeit`{:class="block3variables" ändern, damit jedes Spiel nur ein paar Sekunden lang ist.
+
+![Bühne](images/stage-sprite.png)
 
 ```blocks3
-    Wenn die grüne Flagge angeklickt
-zeige dich
-wiederhole fortlaufend 
-  falls <touching (mouse-pointer v)?> dann 
-    setze [Fischauge v] -Effekt auf (30)
-  sonst
-    setze [Fischauge v] -Effekt auf (0)
-  end
-end
+    setze [Zeit v] auf [10]
+```
+
+\--- /task \---
+
+\--- task \--- Du kannst das Aussehen der "Spielen" Schaltfläche ändern, wenn sich der Mauszeiger darüber befindet.
+
+![Schaltfäche](images/button-sprite.png)
+
+```blocks3
+    Wenn die grüne Flagge angeklickt wird
+    zeige dich 
+    wiederhole fortlaufend
+    falls <touching (mouse-pointer v)?> dann
+        setze Effekt [Fischauge v] auf (30)
+    sonst
+        setze Effekt [Fischauge v] auf (0)
+    ende
+    ende
 ```
 
 ![Screenshot](images/brain-fisheye.png) \--- /task \---
