@@ -1,50 +1,50 @@
 ## Wielokrotne gry
 
-Teraz masz zamiar dodać przycisk "Graj", aby gracz mógł grać w grę wiele razy.
+Teraz dodasz przycisk „Graj”, aby gracz mógł grać w twoją grę wiele razy.
 
-\--- task \--- Utwórz nową ikonkę przycisku "Graj", którą gracz musi kliknąć, aby rozpocząć nową grę.
+\--- task \--- Utwórz nowego duszka przycisku „Graj”, którą gracz musi kliknąć, aby rozpocząć nową grę.
 
-Możesz samemu narysować sprite'a lub edytować duszek z biblioteki.
+Możesz samemu narysować duszka lub edytować duszka z biblioteki.
 
 ![Obraz przycisku odtwarzania](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Dodaj ten kod do swojego sprite przycisku:
+\--- task \--- Dodaj ten kod do swojego duszka przycisku:
 
-![Przycisk sprite](images/button-sprite.png)
+![Przycisk duszka](images/button-sprite.png)
 
 ```blocks3
-    kiedy flaga kliknęła
+    kiedy kliknięto zieloną flagę
     pokaż
 
-    kiedy ten duszek kliknął
+    kiedy ten duszek kliknięty
     ukryj
-    transmisje (start v)
+    nadaj komunikat (start v)
 ```
 
 \--- /task \---
 
-Nowy kod zawiera kolejny blok `broadcast`{: class = "block3events}}, który wysyła komunikat" start ".
+Nowy kod zawiera kolejny blok `nadaj komunikat`{:class="block3events}}, który wysyła komunikat "start".
 
-Nowy kod sprawia, że ikonka "Graj" pojawia się, gdy gracz kliknie flagę. Kiedy gracz kliknie na ikonkę przycisku, sprite ukrywa, a następnie nadaje komunikat, na który mogą reagować inne sprite'y.
+Nowy kod sprawia, że duszek "Graj" pojawia się, gdy gracz kliknie zieloną flagę. Gdy gracz kliknie przycisk duszka, duszek ukrywa się, a następnie wysyła komunikat, na który inne duszki mogą zareagować.
 
-W tej chwili sprite znaków zaczyna zadawać pytania, gdy gracz kliknie flagę. Zmień kod swojej gry, aby sprite postaci zaczynał zadawać pytania, gdy otrzyma komunikat "start" ``{: class = "block3events"}.
+W tej chwili duszek postaci zaczyna zadawać pytania, gdy gracz kliknie flagę. Zmień kod swojej gry, aby duszek postaci zaczynał zadawać pytania, gdy `otrzyma komunikat "start"`{:class="block3events"}.
 
-\--- zadanie \--- Wybierz swoją postać i sprite w swojej sekcji kodu, wymienić `po kliknięciu flagi`{: class = "block3events"} blok z `kiedy zacząć odbierać`{: class = "block3events" } blokuj.
+\--- task \--- Wybierz swojego duszka postaci i w sekcji swojego kodu, zamień blok `kiedy kliknięto zieloną flagę`{:class="block3events"} na blok `kiedy otrzymam wiadomość`{:class="block3events"}.
 
-![Charakter sprite](images/giga-sprite.png)
+![Duszek postaci](images/giga-sprite.png)
 
 ```blocks3
-<br />- kiedy flaga kliknęła
+<br />- kiedy kliknięto zieloną flagę
 + kiedy otrzymam [start v]
-ustaw [numer 1 v] na (wybierz losowo (2) do (12))
-ustaw [numer 2 v] na (wybierz losowo (2) do (12) )
-zapytaj (dołącz (numer 1) (dołącz [x] (numer 2)) i poczekaj
-jeśli &lt;(odpowiedź) = ((numer 1) * (numer 2))&gt; a następnie
-    powiedz [tak! :)] przez (2) sekundy
-jeszcze
-    powiedz [nope :(] przez (2) sekundy
+ustaw [liczba 1 v] na (losuj liczbę od (2) do (12))
+ustaw [liczba 2 v] na (losuj liczbę od (2) do (12))
+zapytaj (połącz (liczba 1)(połącz [ x ] i (liczba 2))) i czekaj
+jeżeli <(odpowiedź) = ((liczba 1) * (liczba 2))> to
+    powiedz [tak!] przez 2 sekund 
+w przeciwnym razie
+    powiedz [niestety :(] przez (2) sekund
 koniec
 ```
 
@@ -52,27 +52,27 @@ koniec
 
 \--- task \---
 
-Kliknij zieloną flagę, a następnie kliknij przycisk "Odtwórz", aby sprawdzić, czy działa. Powinieneś zobaczyć, że gra nie uruchamia się, zanim klikniesz przycisk.
+Kliknij zieloną flagę, a następnie kliknij nowy przycisk „Graj”, aby sprawdzić, czy działa. Powinieneś zobaczyć, że gra nie uruchamia się przed kliknięciem przycisku.
 
 \--- /task \---
 
-Czy widzisz, że licznik czasu zaczyna się po kliknięciu zielonej flagi, a nie po uruchomieniu gry?
+Czy widzisz, że minutnik uruchamia się po kliknięciu zielonej flagi, a nie w momencie rozpoczęcia gry?
 
-![Timer się rozpoczął](images/brain-timer-bug.png)
+![Minutnik został uruchomiony](images/brain-timer-bug.png)
 
 \--- task \---
 
-Czy możesz zmienić kod timera tak, aby timer zaczął się, gdy gracz kliknie przycisk?
+Czy możesz zmienić kod minutnika tak, aby minutnik zaczął się, gdy gracz kliknie przycisk?
 
 \--- /task \---
 
-\--- task \--- Dodaj kod do sprite'a na przycisk, aby przycisk pojawiał się ponownie na końcu każdej gry.
+\--- task \--- Dodaj kod do duszka przycisku, aby przycisk pojawiał się ponownie na końcu każdej gry.
 
-![Przycisk sprite](images/button-sprite.png)
+![Duszek przycisku](images/button-sprite.png)
 
 ```blocks3
     kiedy otrzymam [koniec v]
-pokaż
+    pokaż
 ```
 
 \--- /task \---
@@ -81,9 +81,9 @@ pokaż
 
 Przetestuj przycisk "Graj", grając w kilka gier. Przycisk powinien pojawić się na końcu każdej gry.
 
-Aby szybciej przetestować grę, możesz zmienić wartość `raz`{: class = "block3variables"}, aby każda gra trwała tylko kilka sekund.
+Aby szybciej przetestować grę, możesz zmienić wartość `czas`{:class="block3variables"}, aby każda gra trwała tylko kilka sekund.
 
-![Etap](images/stage-sprite.png)
+![Scena](images/stage-sprite.png)
 
 ```blocks3
     ustaw [czas v] na [10]
@@ -96,15 +96,15 @@ Aby szybciej przetestować grę, możesz zmienić wartość `raz`{: class = "blo
 ![Przycisk](images/button-sprite.png)
 
 ```blocks3
-    kiedy kliknięto zieloną flagę
-pokaż
-zawsze 
-  jeżeli <touching (mouse-pointer v)?> to 
-    ustaw efekt [rybie oko v] na (30)
- w przeciwnym razie
-    ustaw efekt [rybie oko v] na (0)
-  end
-end
+    kiedy kliknięto zieloną zieloną flagę
+    pokaż
+    zawsze 
+    jeżeli <dotyka (wskaźnik myszy)> to 
+         ustaw efekt [rybie oko v] na (30)
+    w przeciwnym razie
+          ustaw efekt [rybie oko v] na (0)
+    end
+    end
 ```
 
 ![zrzut ekranu](images/brain-fisheye.png) \--- /task \---
