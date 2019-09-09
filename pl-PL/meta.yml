@@ -4,17 +4,17 @@ listed: true
 copyedit: false
 title: Tabliczka mnożenia
 description: Dowiedz się, jak utworzyć quiz
-version: 3
+version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Życzenia urodzinowe
+    title: Wprowadzenie
   - 
     title: Twórz pytania
   - 
-    title: Dodaj licznik czasu
+    title: Dodawanie stopera
   - 
-    title: 'Wyzwanie: dodaj ocenę i reakcje'
+    title: 'Wyzwanie: dodaj wynik i reakcje'
     challenge: true
   - 
     title: Wielokrotne gry
@@ -33,4 +33,4 @@ steps:
     title: 'Wyzwanie: ekran instrukcji'
     challenge: true
   - 
-    title: Co następne?
+    title: Co dalej?
