@@ -1,15 +1,15 @@
-## Aufgabe: Sound und Musik
+## Herausforderung: Rennen zu 10 Punkten
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+Kannst du dein Spiel so ändern, dass anstatt der Spieler so viele Fragen wie möglich in 30 Sekunden zu beantworten hat, so schnell wie möglich 10 Fragen beantworten muss.
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+Um diese Änderung vorzunehmen, musst du nur den Countdown Code ändern. Siehst du, welche Blöcke anders sein müssen, damit dies funktioniert?
 
 ```blocks3
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
+    when I receive [Start v]
+    set [Countdown v] to (30)
+    repeat until <(Countdown) = [0]>
         wait (1) seconds
-        change [time v] by (-1)
+        change [Countdown v] by (-1)
     end
-    broadcast (end v)
+    broadcast (Ende v)
 ```
