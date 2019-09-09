@@ -1,42 +1,42 @@
 ## Dodaj licznik czasu
 
-\--- task \--- Utwórz timer na stole montażowym za pomocą nowej zmiennej o nazwie `time`{: class = "block3variables"}. Licznik powinien rozpoczynać się po 30 sekundach i odliczać do 0 sekund.
+\--- task \--- Utwórz minutnik na scenie za pomocą nowej zmiennej o nazwie `czas`{:class="block3variables"}. Licznik powinien rozpoczynać się na 30 sekundach i odliczać do 0 sekund.
 
-![Sprite sceny](images/stage-sprite.png)
+![Duszek sceny](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Utwórz `zmienną`{: class = "block3variables"}, nazwij ją "time" i ustaw jej wartość na `30`.
+Utwórz `zmienną`{:class="block3variables"}, nazwij ją "czas" i ustaw jej wartość na `30`.
 
-Następnie dodaj kod, aby liczyć `czas`{: class = "block3variables"} do 0 w ciągu 30 sekund. Aby to zrobić, odejmuj `1` od `czasu`{: class = "block3variables"} co `1` sekund, i powtarzaj to do `czasu`{: class = "block3variables"} jest równe `0`.
+Następnie dodaj kod, aby liczyć `czas`{:class="block3variables"} do 0 w ciągu 30 sekund. Aby to zrobić, odejmuj `1` od zmiennej `czas`{:class="block3variables"} co `1` sekund, i powtarzaj to do chwili gdy `czas`{:class="block3variables"} jest równy `0`.
 
-\--- /hint \--- \--- hint \--- poniżej masz bloczki, które będziesz potrzebować:
+\--- /hint \--- \--- hint \--- poniżej masz bloki, których będziesz potrzebować:
 
 ```blocks3
-powtórz do < >
+powtarzaj aż < >
 
 koniec
 
-czekaj (1) sekundy
+czekaj (1) sekund
 
-zmieniaj [czas v] o (1)
+zmień [czas v] o (1)
 
 (czas)
 
-gdy flaga kliknie
+kiedy kliknięto zieloną flagę
 
 <() = ()>
 
 ustaw [czas v] na [0]
 ```
 
-\--- / wskazówka \--- \--- podpowiedź \--- Oto, jak powinien wyglądać twój nowy kod:
+\--- /hint \--- \--- hint \--- Oto jak powinien wyglądać twój nowy kod:
 
 ```blocks3
-kiedy flaga kliknęła
+kiedy kliknięto zieloną flagę
 ustaw [czas v] na [30]
-powtórz, aż <(czas) = (0)>
-    czekaj (1) sekundy
+powtarzaj, aż <(czas) = (0)>
+    czekaj (1) sekund
     zmień [czas v] o (-1)
 koniec
 ```
@@ -47,17 +47,17 @@ koniec
 
 \--- task \---
 
-Utwórz transmisję ``{: class = "block3control"}, która wyśle komunikat "koniec". A `broadcast`{: class = "block3control"} jest jak zapowiedź nad głośnikiem: może być słyszalny przez wszystkie twoje duszki. Dodaj blok `broadcast`{: class = "block3control"} na końcu kodu timera, aby kod wysłał i komunikat "end", gdy `czas`{: class = "block3variables"} odliczał do `0`.
+Utwórz `nadawanie komunikatu`{:class="block3control"}, które wyśle komunikat "koniec". `Nadawanie komunikatu`{: class="block3control"} jest jak zapowiedź przez głośnik: może być słyszalne przez wszystkie twoje duszki. Dodaj blok `nadaj komunikat`{:class="block3control"} na końcu kodu minutnika, aby kod wysłał komunikat "koniec", gdy `czas`{:class="block3variables"} odliczył do `0`.
 
-![Sprite sceny](images/stage-sprite.png)
+![Duszek sceny](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (koniec v)
+    nadaj komunikat (koniec v)
 ```
 
 \--- /task \---
 
-\--- task \--- Wybierz duszę postaci i dodaj trochę kodu, aby sprite `zatrzymał inne skrypty`{: class = "block3control"} po otrzymaniu wiadomości `end`{: class = "block3control"} .
+\--- task \--- Wybierz duszek postaci i dodaj trochę kodu, aby duszek `zatrzymał inne skrypty`{:class="block3control"} po otrzymaniu wiadomości `koniec`{:class="block3control"}.
 
 ![Giga duszek](images/giga-sprite.png)
 
