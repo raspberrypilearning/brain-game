@@ -1,11 +1,11 @@
-## Aufgabe: Eine Punktzahl hinzufügen
+## Herausforderung: Füge einen Spielstand und Reaktionen hinzu
 
-Can you add a score to your game?
+Kannst du deinem Spiel einen Spielstand hinzufügen?
 
-You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
+Du kannst Code hinzufügen, damit der Spieler einen Punkt für jede richtige Antwort erhält. Wenn du es sehr schwer machen willst, kannst du auch Code hinzufügen, um den Spielstand des Spielers auf Null zurückzusetzen, wenn er eine falsche Antwort gibt!
 
 [[[generic-scratch3-high-score]]]
 
-Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+Kannst du deinen Charakter auf die Antwort des Spielers reagieren lassen, indem die Figur zu einem anderen Kostüm wechselt, wenn die Antwort richtig oder falsch ist?
 
 ![Screenshot](images/brain-costume.png)
