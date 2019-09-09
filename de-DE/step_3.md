@@ -1,65 +1,65 @@
-## Timer hinzufügen
+## Einen Countdown hinzufügen
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- task \--- Erstelle auf der Bühne einen Countdown-Timer mit Hilfe einer neuen Variablen namens `Countdown` {: class = "block3variables"}. Der Countdown soll bei 30 Sekunden beginnen und bis 0 Sekunden herunterzählen.
 
-![Stage sprite](images/stage-sprite.png)
+![Bühnenbilder](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Erstelle eine `Variable` {: class = "block3variables"}, nenne sie "Countdown" und setze seinen Wert auf `30` Sekunden.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Füge nun Code hinzu, um die Zeit in `Countdown` {: class = "block3variables"} innerhalb von 30 Sekunden auf 0 zu bringen. Um das zu erreichen, subtrahiere `1` von `Countdown` {: class = "block3variables"} alle `1` Sekunden und wiederholen dies bis `Countdown` {: class = "block3variables"} bei `0` angekommen ist.
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- /hint \--- \--- hint \--- Hier sind die Code Blöcke die du brauchst:
 
 ```blocks3
-repeat until < >
+wiederholen bis < >
 
-end
+ende
 
-wait (1) seconds
+warten (1) Sekunden
 
-change [time v] by (1)
+ändere [Countdown v] um (-1)
 
-(time)
+(Countdown)
 
-when flag clicked
+Wenn die grüne Flagge angeklickt wird
 
 <() = ()>
 
-set [time v] to [0]
+setze [Countdown v] auf [30]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- /hint \--- \--- hint \--- So sollte dein Code Block aussehen:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
-end
+Wenn die grüne Flagge angeklickt wird
+setze [Countdown v] auf [30]
+wiederhole bis < (Countdown) = [0] >
+warte (1) Sekunden
+ändere [Countdown v] um (-1)
+ende
 ```
 
-\--- / Hinweis \--- \--- / Hinweise \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Erstelle einen `sende`{:class="block3control"} Block der die Nachricht 'Ende' sendet. Das Nachrichten `senden` {: class = "block3control"} ist wie eine Ansage über einen Lautsprecher: Sie kann von allen Figuren gleichzeitig empfangen werden. Füge einen `sende` {: class = "block3control"} Block am Ende des Countdown Timer Codes hinzu, damit eine 'Ende' Nachricht geschickt wird, wenn `Countdown` {: class = "block3variables"} den Wert `0` erreicht hat.
 
-![Stage sprite](images/stage-sprite.png)
+![Bühnenbilder](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    sende (Ende v) an alle
 ```
 
 \--- /task \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- Wähle deine Figur von vorhin aus und fügen den Code hinzu, damit die Figur `stoppe andere Skripte der Figur` {: class = "block3control"} ausführt, wenn es die Nachricht `Ende` {: class = "block3control"} empfängt.
 
-![Giga sprite](images/giga-sprite.png)
+![Giga Figur](images/giga-sprite.png)
 
 ```blocks3
     Wenn ich [Ende v] empfange
@@ -70,6 +70,6 @@ stoppe [andere Skripte der Figur v]
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Teste dein Spiel erneut. Es sollte immer neue Fragen stellen, bis der Countdown bis 0 gezählt hat.
 
 \--- /task \---
