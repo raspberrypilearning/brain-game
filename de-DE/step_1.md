@@ -6,11 +6,11 @@ Dies ist die ** Scratch 3 ** Version des Projekts. Es gibt auch eine [ Scratch-2
 
 ## Einleitung
 
-In diesem Projekt erstellst du ein Mathematik-Quiz, bei dem die Spieler 30 Sekunden Zeit haben, möglichst viele korrekte Antworten zu geben.
+In diesem Projekt erstellst du ein Gehirntraining, bei dem die Spieler 30 Sekunden Zeit haben und möglichst viele korrekte Antworten geben.
 
 ### Was du machen wirst
 
-Drücke den Start-Button. Gib die Antwort ein und bestätige mit <kbd>Enter</kbd>.
+\--- no-print \--- Drücke den Start Knopf. Gib deine Antwort ein und bestätige mit <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -25,8 +25,8 @@ Drücke den Start-Button. Gib die Antwort ein und bestätige mit <kbd>Enter</kbd
 
 ## title: Was du lernen wirst
 
-+ Wie man Nachrichten in Scratch verwendet
-+ Wie man benutzerdefinierte Blöcke in Scratch anlegt und verwendet
++ Wie man Nachrichten in Scratch versendet und empfängt
++ Wie man eigene Blöcke in Scratch anlegt und verwendet
 
 \--- /collapse \---
 
@@ -46,10 +46,10 @@ Drücke den Start-Button. Gib die Antwort ein und bestätige mit <kbd>Enter</kbd
 
 ## \--- collapse \---
 
-## title: Zusätzliche Hinweise für Pädagogen
+## title: Zusätzliche Hinweise für Mentoren
 
 \--- no-print\--- Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/brain-game/print){: target="_blank"}. \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
