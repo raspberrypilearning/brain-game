@@ -6,9 +6,9 @@ Ta wersja projektu jest przeznaczona dla języka **Scratch 3**. Projekt dostępn
 
 ## Wprowadzenie
 
-W tym projekcie stworzysz grę quizów matematycznych, w której gracz ma 30 sekund na udzielenie jak największej liczby poprawnych odpowiedzi.
+W tym projekcie stworzysz quiz matematyczny, w którym gracz ma 30 sekund na udzielenie jak największej liczby poprawnych odpowiedzi.
 
-### Co będziesz robił
+### Co będziesz robić
 
 \--- no-print \--- Kliknij przycisk, aby rozpocząć. Wpisz odpowiedź na pytanie, a następnie naciśnij klawisz <kbd>Enter</kbd>.
 
@@ -25,7 +25,7 @@ W tym projekcie stworzysz grę quizów matematycznych, w której gracz ma 30 sek
 
 ## title: Czego się nauczysz
 
-+ Jak korzystać z transmisji w Scratch
++ Jak korzystać z nadawania komunikatów w Scratch
 + Jak utworzyć i użyć niestandardowego bloku Scratch
 
 \--- /collapse \---
@@ -46,10 +46,10 @@ W tym projekcie stworzysz grę quizów matematycznych, w której gracz ma 30 sek
 
 ## \--- collapse \---
 
-## title: Dodatkowe informacje dla edukatorów
+## title: Dodatkowe informacje dla nauczycieli
 
-\--- no-print \--- Jeśli chcesz wydrukować ten projekt, użyj [wersji](https://projects.raspberrypi.org/en/projects/brain-game/print)przyjaznej dla drukarki. \--- / brak wydruku \---
+\--- no-print \--- Jeśli chcesz wydrukować ten projekt, użyj [wersji gotowej do druku](https://projects.raspberrypi.org/en/projects/brain-game/print) \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Tutaj znajdziesz [ukończony projekt](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
