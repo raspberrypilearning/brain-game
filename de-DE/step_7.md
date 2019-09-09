@@ -1,134 +1,134 @@
-## Grafik hinzufügen
+## Grafische Anzeigen hinzufügen
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+Im Moment sagt die Spieler-Figur nur `Genau! :)` oder `nein :(` als Reaktion auf die Antworten des Spielers. Füge ein Paar Grafiken hinzu, um den Spieler zu zeigen, ob seine Antwort richtig oder falsch ist.
 
 \--- task \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+Erstelle eine neue Figur namens "Ergebnis", die sowohl ein "grünes Häkchen" als auch ein "rotes Kreuz" Kostüm enthält.
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![Figur mit Richtig und Falsch Kostüm](images/brain-result.png)
 
 \--- /task \---
 
 \--- task \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+Ändere den Code deiner Spieler-Figur so ab, dass anstatt etwas zum Spieler zu sagen eine `Nachricht gesendet` {: class = "block3events"} wird, mit den Inhalten "Richtig" oder "Falsch".
 
-![Character sprite](images/giga-sprite.png)
+![Spieler-Figur](images/giga-sprite.png)
 
 ```blocks3
-if <(answer) = ((number 1)*(number 2))> then
+falls <(answer) = ((Zahl 1)*(Zahl 2))> dann
 
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
-end
+- sage [Genau! :)] für (2) Sekunden
++ sende (Richtig v) an alle
+sonst
+- sage [nein :(] für (2) Sekunden
++ sende (Falsch v) an alle
+ende
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+Du kannst nun diese Nachrichten verwenden, um zum entsprechenden Richtig oder Falsch `Kostüm zu wechseln`{: class = "block3looks"}. Fügen der Figur "Ergenbis" den folgenden Code hinzu:
 
-![Result sprite](images/result-sprite.png)
+![Ergebnis Figur](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+    wenn ich [Richtig v] empfange
+    wechsle zu Kostüm (Richtig v)
+    zeige dich
+    warte (1) Sekunde
+    verstecke dich
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
+    wenn ich [Falsch v] empfange
+    wechsle zu Kostüm (Falsch v)
+    zeige dich
+    warte (1) Sekunde
+    verstecke dich
 
-    when flag clicked
-    hide
+    wenn die grüne Flagge angeklickt wird
+    verstecke dich
 ```
 
 \--- /task \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\--- task \--- Teste dein Spiel erneut. Du solltest den grünen OK Haken sehen, wenn du eine Frage richtig beantwortest, und das rote Flasch Kreuz, wenn du falsch antwortest!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![Richtig für richtige und Falsch für falsche Antwort](images/brain-test-answer.png)
 
 \--- /task \---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+Hast du bemerkt, dass der Code für die `Wenn ich Richtig empfange`{:class="blockevents"} und `Wenn ich Falsch empfange`{:class="blockevents"} Blöcke nahezu identisch ist?
 
-So you can change your code more easily, you are going to create a custom block.
+Dafür gibt es benutzerdefinierten Blöcke, damit du deinen Code einfacher ändern kannst.
 
 \--- task \---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+Wählen die Figur "Ergebnis" aus. Anschließend klicke auf `Meine Blöcke`{:class="block3myblocks"}, und schließlich auf **Neuer Block** unter "Meine Blöcke". Erstelle einen neuen Block und nenne ihn `animieren`{:class="block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![Ergebnis-Figur](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![Erstelle einen Block namens animiere](images/brain-animate-function.png)
 
 \--- /task \---
 
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+\--- task \--- Verschiebe den Code `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3looks"} aus der 'Ergebnis' Figur in den `animire`{:class="block3myblocks"} Block:
 
-![Result sprite](images/result-sprite.png)
+![Ergebnis-Figur](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+define animiere
+ziege dich
+warte (1) Sekunde
+verstecke dich
 ```
 
 \--- /task \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- task \--- Stelle sicher, dass die `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3look"} Blöcke in **beiden** `wechsle zu Kostüm`{:class="block3looks"} Blöcken entfernt sind.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+Füge anschließend den neuen `animiere`{:class="block3myblocks"} Block unter die beiden Blöcken des `wechsle zu Kostüm`{:class="block3look"} Blocks hinzu. Dein Code sollte nun wie folgt aussehen:
 
-![Result sprite](images/result-sprite.png)
+![Ergebnis-Figur](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    wenn ich [Richtig v] empfange
+    wechsle zu Kostüm (Richtig v)
+    aminiere:: eigen
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+    wenn ich [Falsch v] empfange
+    wechsle zu Kostüm (Falsch v)
+    animiere:: eigen
 ```
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+Der Vorteil des benutzerdefinierten Block `animieren`{:class="block3myblocks"} ist, dass jede Änderung am Code nur noch einmal vorgenommen werden muss, wenn beispielsweise die 'Ergebnis' Figur länger oder kürzer anzeigen werden soll.
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+Ändere deinen Code so, dass die Kostüme 'Richtig' oder 'Falsch' für 2 Sekunden angezeigt werden.
 
 \--- /task \---
 
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+\--- task \--- Anstatt das "Richtig" oder "Falsch" Kostüm `zeigen` {: class = "block3looks"} und `verstecken` {: class = "block3looks"} zu lassen, kannst du den `animiere` {: class = "block3myblocks"} Block ändern, so dass sich die Kostüme ein- und ausblenden.
 
-![Result sprite](images/result-sprite.png)
+![Ergebnis-Figur](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    definiere animiere
+    setze Effekt [Durchsichtigkeitv] auf (100)
+    zeige dich
+    wiederhiole (25) mal
+        ändere Effekt [Durchsichtigkeit v] um (-4)
+    ende
+    vertecke dich
 ```
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Kannst du die Animation der 'Richtig' oder 'Falsch'-Grafiken verbessern? Du kannst Code hinzufügen, um die Kostüme auch auszublenden, oder auch andere coole Effekte verwenden:
 
 ![Screenshot](images/brain-effects.png)
