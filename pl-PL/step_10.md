@@ -1,11 +1,11 @@
 ## Wyzwanie: ekran instrukcji
 
-Czy możesz dodać ekran instrukcji, który mówi graczowi, jak grać? Do tego potrzebny jest przycisk "Instrukcje" i inne tło sceniczne.
+Czy możesz dodać ekran instrukcji, który mówi graczowi, jak grać? Do tego potrzebny jest przycisk "Instrukcje" i inne tło sceny.
 
 ![zrzut ekranu](images/brain-instructions.png)
 
-Może być również konieczne dodanie przycisku "Wstecz", który umożliwia graczowi powrót do ekranu początkowego.
+Konieczne może być również dodanie przycisku „Wstecz”, który pozwala graczowi wrócić do ekranu startowego.
 
 ```blocks3
-    broadcast (ekran startowy v)
+    nadaj komunikat (ekran startowy v)
 ```
