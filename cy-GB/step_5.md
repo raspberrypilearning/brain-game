@@ -20,7 +20,7 @@ dangos
 
 pan gaiff y ciplun yma ei glicio
 cuddio
-darlledu (start v)
+darlledu (ddechrau v)
 ```
 
 --- /task ---
@@ -37,7 +37,7 @@ Ar hyn o bryd, mae'r cymeriad yn gofyn cwestiynau pan mae'r chwareuwr yn clicio 
 
 ```blocks3
 - pan fo'r flag werdd yn cael ei glicio
-+ pan rwy'n derbyn [start v]
++ pan rwy'n derbyn [ddechrau v]
 gosod [rhif 1 v] i (dewis ar hap (2) i (12))
 gosod [rhif 2 v] i (dewis ar hap (2) i (12))
 gofyn (uno (rhif 1) (uno [ x ] (rhif 2))) ac aros
@@ -73,7 +73,7 @@ Fe alli di nawr ychwanegu côd i dy fotwm i’w ddangos eto ar ddiwedd pob gêm.
 ![Corlun botwm](images/button-sprite.png)
 
 ```blocks3
-    pan rwy'n derbyn [end v]
+    pan rwy'n derbyn [ddiwedd v]
 dangos
 ```
 
@@ -101,10 +101,10 @@ I wneud y profi yn gynt, fe alli di leihau pob gêm trwy newid gwerth yr `amser`
     pan fo'r flag werdd yn cael ei glicio
 dangos
 am byth 
-  os <cyffwrdd (mouse-pointer v) ?> yna 
-    gosod effaith [fisheye v] effaith i (30)
+  os <cyffwrdd (pwyntydd llygoden v) ?> yna 
+    gosod effaith [llygad pysgodin v] effaith i (30)
   fel arall 
-    gosod effaith [fisheye v] effaith i (0)
+    gosod effaith [llygad pysgodin v] effaith i (0)
   end
 end
 ```

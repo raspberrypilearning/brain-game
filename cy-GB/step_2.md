@@ -48,7 +48,6 @@ gosod [rhif 2 v] i (dewis ar hap (2) i (12))
 pan fo'r flag werdd yn cael ei glicio
 gosod [rhif 1 v] i (dewis ar hap (2) i (12))
 gosod [rhif 2 v] i (dewis ar hap (2) i (12))
-
 + gofyn (uno (rhif 1) (uno [ x ] (rhif 2))) ac aros
 + os <(ateb) = ((rhif 1) * (rhif 2))> yna 
 + dweud [Ie! :)] am (2) eiliad
@@ -85,7 +84,6 @@ end
 
 ```blocks3
 + pan fo'r flag werdd yn cael ei glicio
-
 am byth 
   gosod [rhif 1 v] i (dewis ar hap (2) i (12))
   gosod [rhif 2 v] i (dewis ar hap (2) i (12))

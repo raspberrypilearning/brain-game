@@ -19,10 +19,10 @@ Newida côd dy gymeriad, fel ei fod yn `darlledu`{:class="block3events"} negeseu
 ```blocks3
 os <(ateb) = ((rhif 1) * (rhif 2))> yna 
 -  dweud [Ie! :)] am (2) eiliad
-+ darlledu (correct v)
++ darlledu (cywir v)
 fel arall 
 -  dweud [Na :(] am (2) eiliad
-+ darlledu (wrong v)
++ darlledu (anghywir v)
 end
 ```
 
@@ -35,13 +35,13 @@ Fe alli di nawr ddefnyddio’r negeseuon yma i `ddangos`{:class="block3looks"} y
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-pan rwy'n derbyn [correct v]
+pan rwy'n derbyn [cywir v]
 newid gwisg i (tick v)
 dangos
 aros (1) eiliad
 cuddio
 
-pan rwy'n derbyn [wrong v]
+pan rwy'n derbyn [anghywir v]
 newid gwisg i (cross v)
 dangos
 aros (1) eiliad
@@ -93,11 +93,11 @@ Yna ychwanega'r bloc `animeiddio`{:class="block3myblocks"} o dan y ddau floc `ne
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-pan rwy'n derbyn [correct v]
+pan rwy'n derbyn [cywir v]
 newid gwisg i (tick v)
 animeiddio :: custom
 
-pan rwy'n derbyn [wrong v]
+pan rwy'n derbyn [anghywir v]
 newid gwisg i (cross v)
 animeiddio :: custom
 ```
