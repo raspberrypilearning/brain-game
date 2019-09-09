@@ -1,8 +1,8 @@
-## Co następne?
+## Co dalej?
 
-Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! W tym projekcie nauczysz się, jak tworzyć klony spritów i jak używać zmiennej, aby stopniowo przyśpieszyć grę.
+Spróbuj projekt [Złap kropki](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), żeby stworzyć grę reakcyjną! W tym projekcie nauczysz się, jak tworzyć klony duszków i jak używać zmiennej, aby stopniowo przyśpieszyć grę.
 
-\--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+\--- no print \--- Użyj klawiszy strzałek na klawiaturze, aby obrócić pokrętło kontrolera i złapać latające kropki, gdy docierają do środka. Jeśli przegapisz trzy kropki, gra się kończy.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
