@@ -15,21 +15,21 @@
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    当旗子被点击
+    显示
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    当角色被点击
+    隐藏
+    广播(start v)        
 ```
 
-\--- /task \---
+\--- /任务 \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+新代码包括另一个`广播` {class =“block3events”}块，它发送消息'start'。
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+当玩家点击旗帜时，新代码会显示“开始”按钮精灵。 当玩家点击按钮精灵时，精灵会隐藏，然后广播信息，让其他精灵可以做出反应。
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+此时，角色精灵在玩家点击旗帜时开始提问。 更改游戏代码，以便当它收到“start”`广播`{:class="block3events"}时，字符精灵开始提问。
 
 \--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
 
