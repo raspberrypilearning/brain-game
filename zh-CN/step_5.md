@@ -1,16 +1,16 @@
-## Multiple games
+## 多次游戏
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+现在，您将添加一个“开始”按钮，以便玩家可以玩多次游戏。
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- 任务 \--- 创建一个新的“开始”按钮，让玩家点击来开始新游戏。
 
-You can draw the sprite yourself, or edit a sprite from the library.
+您可以自己绘制精灵，也可以从库中编辑精灵。
 
 ![Picture of the play button](images/brain-play.png)
 
-\--- /task \---
+\--- /任务 \---
 
-\--- task \--- Add this code to your button sprite:
+\--- 任务 \--- 将此代码添加到按钮精灵中：
 
 ![Button sprite](images/button-sprite.png)
 
