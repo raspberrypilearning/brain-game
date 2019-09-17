@@ -1,11 +1,11 @@
-## Challenge: add a score and reactions
+## 挑战：添加分数和反应
 
-Can you add a score to your game?
+你能为你的游戏添加分数系统吗？
 
-You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
+您可以添加代码，以便玩家回答每个正确的答案而得分。如果你愿意，你也可以添加代码，如果他们给出了错误的答案，将它们的分数重置为零！
 
 [[[generic-scratch3-high-score]]]
 
-Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+如果答案正确或不正确，你可以让你的角色对玩家的答案做出反应吗？
 
-![screenshot](images/brain-costume.png)
+![截图](images/brain-costume.png)
