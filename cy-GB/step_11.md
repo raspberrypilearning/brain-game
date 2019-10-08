@@ -5,7 +5,7 @@ Rho gynnig ar y prosiect [Dal dotiau](https://projects.raspberrypi.org/cy-GB/pro
 --- no-print --- Defnyddia'r saethau ar y bysellfwrdd i droi yr olwyn reoli a dal y dotiau sy'n hedfan wrth iddynt gyrraedd y canol.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334759765/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 

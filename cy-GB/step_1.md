@@ -15,7 +15,7 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 Clicia'r botwm i ddechrau. Teipia'r ateb i'r cwestiwn, yna pwya <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/314946233/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334754480/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
