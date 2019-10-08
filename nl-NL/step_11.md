@@ -5,7 +5,7 @@ Probeer het [Vang de stippen](https://projects.raspberrypi.org/nl-NL/projects/ca
 --- no-print --- Gebruik de pijltjestoetsen op je toetsenbord om het controlewiel te draaien en vang de vliegende stippen als ze het midden bereiken. Als je drie stippen mist is het spel afgelopen.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334758329/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 

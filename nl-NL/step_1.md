@@ -13,7 +13,7 @@ In dit project leer je een quiz te maken van de tafels van vermenigvuldiging, wa
 --- no-print --- Klik op de knop om te starten. Typ het antwoord op de vraag in en druk vervolgens op de <kbd>Enter</kbd> toets.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334756246/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
