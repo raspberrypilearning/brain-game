@@ -1,10 +1,10 @@
-## Herausforderung: Anleitung des Spiels
+## Herausforderung: Anleitungsbildschirm
 
-Kannst du eine Anleitung für das Spiel hinzufügen, mit der dem Spieler erklärt wird wie das Spiel gespielt werden soll? Dafür brauchst du eine Schaltfläche mit der Aufschrift 'Anleitung' und ein zusätzliches Bühnenbild.
+Kannst du einen Bildschirm hinzufügen, auf dem erklärt wird man das Spiel spielt? Dafür brauchst du eine 'Anleitung'-Taste und ein zusätzliches Bühnenbild.
 
 ![Screenshot](images/brain-instructions.png)
 
-Zusätzlich kannst du einen 'Zurück'-Knopf hinzufügen, der den Spieler wieder zum Startbildschirm zurückbringt.
+Zusätzlich kannst du eine 'Zurück'-Taste hinzufügen, der den Spieler wieder zum Startbildschirm zurückbringt.
 
 ```blocks3
     sende (Anleitung v) an alle
