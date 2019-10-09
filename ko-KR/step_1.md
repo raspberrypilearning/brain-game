@@ -48,8 +48,8 @@
 
 ## title : 교사를위한 추가 노트
 
-\--- 더 인쇄 \--- 이 프로젝트를 인쇄해야하는 경우에는 사용하지하십시오 [프린터 용 버전](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
+\--- no-print \--- 이 프로젝트를 인쇄하려면 [프린터용 버전](https://projects.raspberrypi.org/en/projects/brain-game/print)을 사용하십시오. \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+완성된 프로젝트는[여기](http://rpf.io/p/en/brain-game-get){:target="_ blank"}에서 확인할 수 있습니다.
 
 \--- /collapse \---
