@@ -6,7 +6,7 @@ Dies ist die ** Scratch 3 ** Version des Projekts. Es gibt auch eine [ Scratch-2
 
 ## Einleitung
 
-In diesem Projekt erstellst du ein Gehirntraining, bei dem die Spieler 30 Sekunden Zeit haben und möglichst viele korrekte Antworten geben.
+In diesem Projekt erstellst du ein Gehirntraining, bei dem die Spieler 30 Sekunden Zeit haben um möglichst viele korrekte Antworten geben.
 
 ### Was du machen wirst
 
@@ -46,7 +46,7 @@ In diesem Projekt erstellst du ein Gehirntraining, bei dem die Spieler 30 Sekund
 
 ## \--- collapse \---
 
-## title: Zusätzliche Hinweise für Mentoren
+## title: Zusätzliche Hinweise für Pädagogen
 
 \--- no-print\--- Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/brain-game/print){: target="_blank"}. \--- /no-print \---
 
