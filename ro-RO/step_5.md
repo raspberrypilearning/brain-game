@@ -41,7 +41,7 @@ Noul cod face ca butonul "Play" să fie afișat atunci când un jucător dă cli
 set [numărul 1 v] la (alegeți aleatoriu 2 la 12)
 setați [numărul 2 v] )
 cere (JOIN (numărul 1) ( se alăture [x] (numărul 2))) și așteptați
-dacă &lt;(răspuns) = ((numărul 1) * (numărul 2))&gt; , apoi
+dacă <(răspuns) = ((numărul 1) * (numărul 2))> , apoi
     spun [da! :)] pentru (2) secunde
 altceva
     spune [nope :(] pentru (2) secunde
