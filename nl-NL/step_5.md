@@ -41,7 +41,7 @@ Op dit moment begint de personage sprite vragen te stellen wanneer de speler op 
 maak [nummer 1 v] (willekeurig getal tussen (2) en (12))
 maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
 vraag (voeg (nummer 1) en (voeg [ x ] en (nummer 2) samen) samen) en wacht
-als &lt;(antwoord) = ((nummer 1) * (nummer 2))&gt; dan 
+als <(antwoord) = ((nummer 1) * (nummer 2))> dan 
   zeg [goed! :)] (2) sec.
 anders
   zeg [jammer :(] (2) sec.
