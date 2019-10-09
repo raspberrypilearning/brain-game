@@ -1,134 +1,134 @@
-## Add graphics
+## Dodaj grafiko
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+Trenutno figura lika na odgovor igralca reče zgolj `da! :)` ali `ne :(`. Dodaj nekaj grafike, da bo igralec vedel ali je odgovor pravilen ali ne.
 
 \--- task \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+Ustvari novo figuro z imenom 'Rezultat' in ji dodaj videz 'kljukice' in 'križca'.
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![Figura z videzom kljukice in križca](images/brain-result.png)
 
 \--- /task \---
 
 \--- task \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+Spremeni kodo figure lika na tak način, da bo namesto tega, da nekaj reče, `objavil` {:class="block3events"} sporočilo 'pravilno' ali 'narobe'.
 
-![Character sprite](images/giga-sprite.png)
+![Figura lika](images/giga-sprite.png)
 
 ```blocks3
-if <(answer) = ((number 1)*(number 2))> then
+če <(odgovor) = ((število 1)*(število 2))> potem
 
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
-end
+- reci [da! :)] za (2) sekund
++ objavi (pravilno v)
+sicer
+- reci [ne :(] za (2) sekund
++ objavi (narobe v)
+konec
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+Ta sporočila lahko sedaj uporabiš, da `pokažeš`{:class="block3looks"} videza 'kljukica' ali 'križec'. Dodaj sledečo kodo figuri 'Rezultat':
 
-![Result sprite](images/result-sprite.png)
+![Figura rezultata](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+    ko prejmem [pravilno v]
+  zamenjaj videz na (kljukica v)
+  pokaži
+  počakaj (1) sekund
+  skrij
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
+ko prejmem [narobe v]
+  zamenjaj videz na (križec v)
+  pokaži
+  počakaj (1) sekund
+  skrij
 
-    when flag clicked
-    hide
+ko kliknemo na zastavico
+  skrij
 ```
 
 \--- /task \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\--- task \--- Ponovno preizkusi igro. Kadar odgovoriš pravilno, bi sedaj moral videti kljukico, kadar odgovoriš narobe, pa križec!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![Kljukica za pravilen, križec za napačen odgovor](images/brain-test-answer.png)
 
 \--- /task \---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+Si opazil, da sta kodi za `ko prejmem pravilno`{:class="block3events"} in `ko prejmem narobe` {:class="block3events"} skorajda enaki?
 
-So you can change your code more easily, you are going to create a custom block.
+Za bolj enostavno spreminjanje kode boš ustvaril svoj blok.
 
 \--- task \---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+Izberi figuro 'Rezultat'. Nato klikni na `Moji bloki`{:class="block3myblocks"} in potem še na **Ustvari blok**. Ustvari nov blok in ga poimenuj `animiraj`{:class="block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![Figura rezultata](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![Ustvari blok, imenovan animiraj](images/brain-animate-function.png)
 
 \--- /task \---
 
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+\--- task \--- Premakni kodo, ki `pokaže`{:class="block3looks"} in `skrije`{:class="block3looks"} figuro 'Rezultat' v blok `animiraj`{:class="block3myblocks"}:
 
-![Result sprite](images/result-sprite.png)
+![Figura rezultata](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+definiraj animiraj
+pokaži
+počakaj (1) sekund
+skrij
 ```
 
 \--- /task \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- task \--- Prepričaj se, da si umaknil bloka `pokaži`{:class="block3looks"} in `skrij`{:class="block3looks"} pod **obema** blokoma `zamenjaj videz`{:class="block3looks"}.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+Potem dodaj blok `animiraj`{:class="block3myblocks"} pod oba bloka `zamenjaj videz`{:class="block3looks"}. Tovja koda naj bo videti tako:
 
-![Result sprite](images/result-sprite.png)
+![Figura rezultata](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    ko prejmem [pravilno v]
+  zamenjaj videz na (kljukica v)
+  animiraj:: custom
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+ko prejmem [narobe v]
+  zamenjaj videz na (križec v)
+  animiraj:: custom
 ```
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+Zaradi lastnega bloka `animiraj`{:class="block3myblocks"}, lahko sedaj opraviš le eno eno spremembo kode, če želiš prikazati figuro 'Rezultat' za daljši ali krajši čas.
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+Spremeni kodo, tako da se bosta videza 'kljukica' in 'križec' prikazala za dve sekundi.
 
 \--- /task \---
 
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+\--- task \--- Namesto tega, da se videza 'kljukica' in 'križec' `pokažeta`{:class="block3looks"} ali `skrijeta`{:class="block3looks"}, lahko spremeniš blok `animiraj`{:class="block3myblocks"}, tako da se figura prelije v sliko.
 
-![Result sprite](images/result-sprite.png)
+![Figura rezultata](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    definiraj animiraj
+  nastavi učinek [duh v] na (100)
+  pokaži
+  ponovi (25) krat
+    spremni učinek [duh] za (-4)
+  konec
+  skrij
 ```
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Ali lahko izboljšaš animacijo 'kljukice' ali 'križca'? Lahko bi dodal kodo, ki bo poskrbela, da se bodo videzi tudi mehko izginili ali pa lahko uporabiš druge zanimive učinke:
 
-![screenshot](images/brain-effects.png)
+![posnetek zaslona](images/brain-effects.png)
