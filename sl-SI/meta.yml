@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
+title: Možganska igra
+description: Nauči se ustvariti kviz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Introduction
+    title: Uvod
   - 
-    title: Create questions
+    title: Ustvari vprašanja
   - 
-    title: Add a timer
+    title: Dodaj časovnik
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Izziv: dodaj rezultat in reakcije'
     challenge: true
   - 
-    title: Multiple games
+    title: Več iger
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Izziv: ustvari začetni zaslon'
     challenge: true
   - 
-    title: Add graphics
+    title: Dodaj grafiko
   - 
-    title: 'Challenge: sound and music'
+    title: 'Izziv: zvok in glasba'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Izziv: dirka do 10 točk'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Izziv: zaslon z navodili'
     challenge: true
   - 
-    title: What next?
+    title: Kaj sledi?
