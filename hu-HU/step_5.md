@@ -41,7 +41,7 @@ Abban a pillanatban, a karakter sprite elkezdi kérdéseket feltenni, amikor a j
 kapok, állítsuk be a [szám 1 v] -ta (véletlenszerű (2) -ig (12))
 állítsuk be a [2-es számot] a (véletlenszerű (2) -ig (12) -ig) )
 kérje (csatlakozzon (1. szám) (csatlakozzon az [x] -hez (2-es szám))) és várjon
-ha &lt;(válasz) = ((1-es szám) * (2. szám))&gt; majd
+ha <(válasz) = ((1-es szám) * (2. szám))> majd
     mondja [igen! :)] (2) másodpercig
 más
     mondja [nope :(] (2) másodperc
