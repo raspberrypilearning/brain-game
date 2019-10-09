@@ -41,7 +41,7 @@
 set [number 1 v] to（pick random（2）to（12））
 set [number 2 v] to（pick random（2）to（12） ）
 問（加入（數字1）（加入[x]（數字2）））並等待
-如果 &lt;（回答）=（（數字1）*（數字2））&gt; 然後
+如果 <（回答）=（（數字1）*（數字2））> 然後
     說[是！ :)] for（2）秒
 else
     說[nope :(] for（2）秒
