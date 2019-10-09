@@ -13,32 +13,32 @@ Em seguida, adiciona código para diminuir `tempo` {: class = "block3variables"}
 \--- /hint \--- \--- hint \--- Aqui estão os blocos que precisas:
 
 ```blocks3
-repite até < >
+repeat until < >
 
-final
+end
 
-espera (1) segundos
+wait (1) seconds
 
-altera [tempo v] por (1)
+change [time v] by (1)
 
-(tempo)
+(time)
 
-quando alguém clicar na bandeira 
+when flag clicked
 
 <() = ()>
 
-altera [tempo v] para [0]
+set [time v] to [0]
 ```
 
-\--- /hint \--- \--- hint \--- Aqui está o que o teu novo código deve parecer:
+\--- /hint \--- \--- hint \--- Aqui está o aspeto que o teu novo código deve ter:
 
 ```blocks3
-quando a bandeira for clicada
-altera [tempo v] para [30]
-repete até <(tempo) = (0)>
-    espera (1) segundos
-    adiciona a [tempo v] o valor  (-1)
-fim
+when flag clicked
+set [time v] to [30]
+repeat until <(time) = (0)>
+wait (1) seconds
+change [time v] by (-1)
+end
 ```
 
 \--- /hint \--- \--- /hints \---
