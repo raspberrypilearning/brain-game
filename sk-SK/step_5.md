@@ -41,7 +41,7 @@ V súčasnej dobe spriahnutá postava začína klásť otázky, keď hráč klik
 nastaviť [číslo 1 v] na (vybrať náhodné (2) až (12))
 nastaviť [číslo 2 v] )
 pýtať (join (číslo 1) (pripojiť [x] (číslo 2))) a počkajte
-v prípade &lt;(odpoveď) = ((číslo 1) * (číslo 2))&gt; potom
+v prípade <(odpoveď) = ((číslo 1) * (číslo 2))> potom
     povedať [áno! :)] za (2) sekundy
 inak
     povedal [nope :(] za (2) sekundy
