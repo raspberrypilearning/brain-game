@@ -41,7 +41,7 @@ Tällä hetkellä merkki sprite alkaa kysyä kysymyksiä, kun pelaaja napsauttaa
 valitse [numero 1 v] (valitse satunnainen (2) - (12))
 aseta [numero 2 v] (valitse satunnainen (2) - (12) )
 kysy (liity (numero 1) (liity [x] (numero 2))) ja odota
-jos &lt;(vastaus) = ((numero 1) * (numero 2))&gt; sitten
+jos <(vastaus) = ((numero 1) * (numero 2))> sitten
     sanoa [kyllä! :)] (2) sekunnin ajan
 muu
     sanoa [nope :(] (2) sekunnin
