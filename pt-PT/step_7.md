@@ -17,13 +17,13 @@ Altera o código do teu actor personagem para que, em vez de dizer algo ao jogad
 ![Actor personagem](images/giga-sprite.png)
 
 ```blocks3
-se <(resposta) = ((numero 1) * (numero 2))> entao
+if <(answer) = ((number 1)*(number 2))> then
 
-- diga [certo! :)] para (2) segundos
-+ broadcast (v correto)
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
 else
-- diga [errado :(] para (2) segundos
-+ broadcast (v errado)
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
 end
 ```
 
@@ -36,20 +36,20 @@ Agora podes usar estas mensagens para `mostrar`{:class="block3look"} o traje 'co
 ![Actor Resultado](images/result-sprite.png)
 
 ```blocks3
-    quando recebo [certo v]
-    alterna o traje para (correto v)
-    motra-te
-    espera (1) segundos
-    esconde-te
+    when I receive [correct v]
+switch costume to (tick v)
+show
+wait (1) seconds
+hide
 
-    quando recebo [v errado]
-    alterna o traje para (incorrecto v)
-    motra-te
-    espera (1) segundos
-    esconde-te
+when I receive [wrong v]
+switch costume to (cross v)
+show
+wait (1) seconds
+hide
 
-    quando alguém clicar na bandeira 
-    esconde-te
+when flag clicked
+hide
 ```
 
 \--- /task \---
@@ -74,15 +74,15 @@ Seleciona o actor 'Resultado'. Depois clica em `Meus Blocos`{:class="block3myblo
 
 \--- /task \---
 
-\--- task \--- Move o código para `mostra-te`{:class="block3looks} e `esconde-te`{:class="block3looks"} do actor 'Resultado', para o bloco `animar`{:class="block3myblocks"}:
+\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
 
 ![Actor Resultado](images/result-sprite.png)
 
 ```blocks3
-definir animar
-mostra-te
-espera (1) segundos
-esconde-te
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -94,13 +94,13 @@ Em seguida adiciona o bloco `animar`{:class="block3myblocks"} abaixo dos blocos 
 ![Actor Resultado](images/result-sprite.png)
 
 ```blocks3
-    quando eu receber [certo v]
-    alternar traje para (correto v)
-    animar:: personalizado
+    when I receive [correct v]
+switch costume to (tick v)
+animate:: custom
 
-    quando recebo [v errado]
-    alternar traje para (incorreto v)
-    animar:: personalizado
+when I receive [wrong v]
+switch costume to (cross v)
+animate:: custom
 ```
 
 \--- /task \---
@@ -118,13 +118,13 @@ Altera o teu código para que o 'correto' ou 'incorreto' sejam mostrados por 2 s
 ![Actor Resultado](images/result-sprite.png)
 
 ```blocks3
-    define animar
-    altera [efeito fantasma v] para (100)
-    mostra-te
-    repetição (25)
-        mudança [efeito fantasma v] por (-4)
-    fim
-    esconde-te
+    define animate
+set [ghost v] effect to (100)
+show
+repeat (25)
+change [ghost v] effect by (-4)
+end
+hide
 ```
 
 \--- /task \---
