@@ -6,7 +6,7 @@ Vais começar por criar perguntas aleatórias para o jogador responder.
 
 Abre um projeto Scratch novo.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**Online:** abre um novo projeto Scratch em [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **Offline:** abre um novo projeto no editor offline.
 
@@ -34,8 +34,8 @@ Se precisares de descarregar e instalar o editor offline do Scratch, podes encon
 
 ```blocks3
 quando a bandeira for clicada
-altera [numero 1 v] para (valor ao acaso entre (2) e (12))
-altera [numbero 2 v] para (valor ao acaso entre (2) e (12))
+altera [número 1 v] para (valor ao acaso entre (2) e (12))
+altera [número 2 v] para (valor ao acaso entre (2) e (12))
 ```
 
 \--- /task \---
@@ -45,16 +45,16 @@ altera [numbero 2 v] para (valor ao acaso entre (2) e (12))
 ![captura de ecrã](images/giga-sprite.png)
 
 ```blocks3
-quando a bandeira for clicada
-definir [number 1 v] para (escolha aleatório (2) para (12))
-defina [number 2 v] para (selecionar aleatório (2) para (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ pergunta (a junçāo de (number 1) com (a junçāo de [ x ] com (number 2))) e aguarde
-+ se <(resposta) = ((number 1)*(number 2))> , então
-+ diga [certo! :)] por (2) segundos
-+ senão
-+ dizer [errado :(] por (2) segundos
-+ fim
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -83,17 +83,18 @@ fim
 \--- /hint \--- \--- hint \--- Aqui está como o teu código deve parecer:
 
 ```blocks3
-quando alguém clicar na bandeira verde
+when flag clicked
 
-        altera [number 1 v] para (um valor ao acaso entre (2) e (12))
-        altera [number 2 v] para (um valor ao acaso entre (2) e (12))
-        pergunta (a junção de (number 1) com (a junção de [ x ] com (number 2))) e espera pela resposta
-        se <(resposta) = ((number 1) * (number 2))> então 
-            diz [certo! :)] por (2) segundos
-    senão
-        diga [errado :(] por (2) segundos
-    termina
-termina
++ forever
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+say [yes! :)] for (2) seconds
+else
+say [no :(] for (2) seconds
+end
+end
 ```
 
 \--- /hint \--- \--- /hints \---
