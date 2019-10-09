@@ -6,7 +6,7 @@
 
 Δημιούργησε ένα νέο έργο Scratch.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**Online:** άνοιξε ένα νέο έργο Scratch στη διεύθυνση [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
 **Offline: ** άνοιξε ένα νέο έργο στον επεξεργαστή εκτός σύνδεσης.
 
