@@ -15,12 +15,12 @@ Podes desenhar o actor tu mesmo, ou editar um actor da biblioteca.
 ![Actor botāo](images/button-sprite.png)
 
 ```blocks3
-    quando alguém clicar na bandeira verde
-       mostra-te
+    when flag clicked
+show
 
-       quando alguém clicar em ti
-       esconde-te
-       difunde a mensagem (começar v)
+when this sprite clicked
+hide
+broadcast (start v)
 ```
 
 \--- /task \---
