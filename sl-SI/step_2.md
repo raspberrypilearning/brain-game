@@ -1,100 +1,99 @@
-## Create questions
+## Ustvari vprašanja
 
-You're going to start by creating random questions that the player has to answer.
+Začel boš z ustvarjanjem naključnih vprašanj, na katera mora igralec odgovoriti.
 
 \--- task \---
 
-Open a new Scratch project.
+Ustvari nov Scratch projekt.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**S povezavo:** odpri nov spletni Scratch projekt na [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** open a new project in the offline editor.
+**Brez povezave:** odprite nov projekt v namiznem Scratch urejevalniku.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
-
-\--- /task \---
-
-\--- task \--- Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
-
-![screenshot](images/brain-setting.png)
+Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
 
 \--- /task \---
 
-\--- task \--- Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- task \--- Dodaj figuro lika in ozadje a svojo igro. Lahko izbereš poljubno! Tukaj je primer:
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+![posnetek zaslona](images/brain-setting.png)
+
+\--- /task \---
+
+\--- task \--- Prepričaj se, da imaš izbrano figuro lika. Ustvari dve novi spremenljivki in jih poimenuj `število 1`{:class="block3variables"} in `število 2`{:class="block3variables"}. Namenjeni sta shranjevanju številk za vprašanja kviza.
+
+![posnetek zaslona](images/giga-sprite.png) ![posnetek zaslona](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- task \--- Figuri lika dodaj kodo, ki nastavi vrednost obeh `spremenljivk`{:class="block3variables"} na `naključno`{:class="block3operators"} število med 2 in 12.
 
-![screenshot](images/giga-sprite.png)
+![posnetek zaslona](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+ko kliknemo na zastavico
+nastavi [število 1 v] na (naključno število (2) in (12))
+nastavi [število 2 v] na (naključno število (2) in (12))
 ```
 
 \--- /task \---
 
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+\--- task \--- Dodaj kodo, ki `vpraša`{:class="block3sensing"} igralca za odgovor, in potem `reci za 2 sekundi`{:class="block3looks"} ali je odgovor pravilen ali ne:
 
-![screenshot](images/giga-sprite.png)
+![posnetek zaslona](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+ko kliknemo na zastavico
+nastavi [število 1 v] na (naključno število (2) in (12))
+nastavi [število 2 v] na (naključno število (2) in (12))
 
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
-+ end
++ vprašaj (združi(število1)(združi[ x ] (število 2))) in počakaj
++ če <(odgovor) = ((število 1)*(število 2))> potem
++ reci [da! :)] za (2) sekund
++ sicer
++ reci [ne :(] za (2) sekund
++ konec
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+Dvakrat preizkusi svoj projekt: na eno vprašanje odgovori pravilno, na drugega napačno.
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+Dodaj `ponavljaj`{:class="block3control"} zanko okoli te kode, zato da igra postavi igralcu veliko vprašanj.
 
 \--- hints \--- \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+Dodati moraš `ponavljaj`{:class="block3control"} blok, in vanj prestaviti vse, razen bloka `ko kliknemo na zastavico`{:class="block3control"}.
 
 \--- /hint \--- \--- hint \--- Here is the block you need:
 
 ```blocks3
-forever
-end
+ponavljaj
+konec
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- Tvoja koda bi morala izgledati tako:
 
 ```blocks3
-when flag clicked
+ko kliknemo na zastavico
 
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
++ ponavljaj
+  nastavi [število 1 v] na (naključno število (2) in (12))
+  nastavi [število 2 v] na (naključno število (2) in (12))
+  vprašaj (združi(število1)(združi[ x ] (število 2))) in počakaj
+  če <(odgovor) = ((število 1)*(število 2))> potem
+    reci [da! :)] za (2) sekund
+  sicer
+    reci [ne :(] za (2) sekund
+konec
 ```
 
 \--- /hint \--- \--- /hints \---
