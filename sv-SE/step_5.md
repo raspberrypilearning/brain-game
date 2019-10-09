@@ -41,7 +41,7 @@ För tillfället börjar teckensprayen ställa frågor när spelaren klickar på
 set [number 1 v] till (välj slumpvis (2) till (12))
 set [nummer 2 v] till (välj slumpvis (2) till (12) )
 fråga (ansluta (nummer 1) (gå med i [x] (nummer 2))) och vänta
-om &lt;(svar) = ((nummer 1) * (nummer 2))&gt; då
+om <(svar) = ((nummer 1) * (nummer 2))> då
     säga [ja! :)] för (2) sekunder
 annars
     säga [nope :(] för (2) sekunder
