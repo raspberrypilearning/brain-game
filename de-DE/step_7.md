@@ -1,6 +1,6 @@
-## Grafische Anzeigen hinzufügen
+## Grafiken hinzufügen
 
-Im Moment sagt die Spieler-Figur nur `Genau! :)` oder `nein :(` als Reaktion auf die Antworten des Spielers. Füge ein Paar Grafiken hinzu, um den Spieler zu zeigen, ob seine Antwort richtig oder falsch ist.
+Im Moment sagt die Giga-Figur nur `Genau! :)` oder `nein :(` als Reaktion auf die Antworten des Spielers. Füge ein Paar Grafiken hinzu die zeigen, ob die Antwort richtig oder falsch ist.
 
 \--- task \---
 
@@ -12,9 +12,9 @@ Erstelle eine neue Figur namens "Ergebnis", die sowohl ein "grünes Häkchen" al
 
 \--- task \---
 
-Ändere den Code deiner Spieler-Figur so ab, dass anstatt etwas zum Spieler zu sagen eine `Nachricht gesendet` {: class = "block3events"} wird, mit den Inhalten "Richtig" oder "Falsch".
+Ändere den Code der Giga-Figur so, dass sie, anstatt etwas zum Spieler zu sagen, eine `Nachricht sendet` {: class = "block3events"}, mit dem Inhalt "Richtig" oder "Falsch".
 
-![Spieler-Figur](images/giga-sprite.png)
+![Giga-Figur](images/giga-sprite.png)
 
 ```blocks3
 falls <(answer) = ((Zahl 1)*(Zahl 2))> dann
@@ -31,7 +31,7 @@ ende
 
 \--- task \---
 
-Du kannst nun diese Nachrichten verwenden, um zum entsprechenden Richtig oder Falsch `Kostüm zu wechseln`{: class = "block3looks"}. Fügen der Figur "Ergenbis" den folgenden Code hinzu:
+Du kannst nun diese Nachrichten verwenden, um zum entsprechenden Richtig oder Falsch `Kostüm zu wechseln`{: class = "block3looks"}. Füge der Figur "Ergenbis" den folgenden Code hinzu:
 
 ![Ergebnis Figur](images/result-sprite.png)
 
@@ -56,17 +56,17 @@ Du kannst nun diese Nachrichten verwenden, um zum entsprechenden Richtig oder Fa
 
 \--- task \--- Teste dein Spiel erneut. Du solltest den grünen OK Haken sehen, wenn du eine Frage richtig beantwortest, und das rote Flasch Kreuz, wenn du falsch antwortest!
 
-![Richtig für richtige und Falsch für falsche Antwort](images/brain-test-answer.png)
+![Richtig für eine richtige, Falsch für eine falsche Antwort](images/brain-test-answer.png)
 
 \--- /task \---
 
-Hast du bemerkt, dass der Code für die `Wenn ich Richtig empfange`{:class="blockevents"} und `Wenn ich Falsch empfange`{:class="blockevents"} Blöcke nahezu identisch ist?
+Hast du bemerkt, dass die Codes für `Wenn ich Richtig empfange`{:class="blockevents"} und `Wenn ich Falsch empfange`{:class="blockevents"} nahezu identisch sind?
 
-Dafür gibt es benutzerdefinierten Blöcke, damit du deinen Code einfacher ändern kannst.
+Damit du deinen Code einfacher ändern kannst, wirst du einen benutzerdefinierten Block erstellen.
 
 \--- task \---
 
-Wählen die Figur "Ergebnis" aus. Anschließend klicke auf `Meine Blöcke`{:class="block3myblocks"}, und schließlich auf **Neuer Block** unter "Meine Blöcke". Erstelle einen neuen Block und nenne ihn `animieren`{:class="block3myblocks"}.
+Wählen die Figur "Ergebnis" aus. Anschließend klicke auf `Meine Blöcke`{:class="block3myblocks"}, und dann noch auf **Neuer Block**. Erstelle einen neuen Block und nenne ihn `animieren`{:class="block3myblocks"}.
 
 ![Ergebnis-Figur](images/result-sprite.png)
 
@@ -74,22 +74,22 @@ Wählen die Figur "Ergebnis" aus. Anschließend klicke auf `Meine Blöcke`{:clas
 
 \--- /task \---
 
-\--- task \--- Verschiebe den Code `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3looks"} aus der 'Ergebnis' Figur in den `animire`{:class="block3myblocks"} Block:
+\--- task \--- Verschiebe den Code `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3looks"} aus der 'Ergebnis' Figur in den `animiere`{:class="block3myblocks"} Block:
 
 ![Ergebnis-Figur](images/result-sprite.png)
 
 ```blocks3
 define animiere
-ziege dich
+zeige dich
 warte (1) Sekunde
 verstecke dich
 ```
 
 \--- /task \---
 
-\--- task \--- Stelle sicher, dass die `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3look"} Blöcke in **beiden** `wechsle zu Kostüm`{:class="block3looks"} Blöcken entfernt sind.
+\--- task \--- Stelle sicher, dass die `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3look"} Blöcke unter **beiden** `wechsle zu Kostüm`{:class="block3looks"} Blöcken entfernt sind.
 
-Füge anschließend den neuen `animiere`{:class="block3myblocks"} Block unter die beiden Blöcken des `wechsle zu Kostüm`{:class="block3look"} Blocks hinzu. Dein Code sollte nun wie folgt aussehen:
+Füge anschließend den neuen `animiere`{:class="block3myblocks"} Block unter die beiden Blöcken `wechsle zu Kostüm`{:class="block3look"} hinzu. Dein Code sollte nun so aussehen:
 
 ![Ergebnis-Figur](images/result-sprite.png)
 
@@ -105,7 +105,7 @@ Füge anschließend den neuen `animiere`{:class="block3myblocks"} Block unter di
 
 \--- /task \---
 
-Der Vorteil des benutzerdefinierten Block `animieren`{:class="block3myblocks"} ist, dass jede Änderung am Code nur noch einmal vorgenommen werden muss, wenn beispielsweise die 'Ergebnis' Figur länger oder kürzer anzeigen werden soll.
+Der Vorteil des benutzerdefinierten Block `animieren`{:class="block3myblocks"} ist, dass jede Änderung am Code nur noch einmal vorgenommen werden muss, wenn beispielsweise die 'Ergebnis' Figur länger oder kürzer angezeigt werden soll.
 
 \--- task \---
 
@@ -113,22 +113,22 @@ Der Vorteil des benutzerdefinierten Block `animieren`{:class="block3myblocks"} i
 
 \--- /task \---
 
-\--- task \--- Anstatt das "Richtig" oder "Falsch" Kostüm `zeigen` {: class = "block3looks"} und `verstecken` {: class = "block3looks"} zu lassen, kannst du den `animiere` {: class = "block3myblocks"} Block ändern, so dass sich die Kostüme ein- und ausblenden.
+\--- task \--- Anstatt das "Richtig" oder "Falsch" Kostüm `zeigen` {: class = "block3looks"} und `verstecken` {: class = "block3looks"}, kannst du den `animiere` {: class = "block3myblocks"} Block ändern, so dass die Kostüme ein- und ausblenden.
 
 ![Ergebnis-Figur](images/result-sprite.png)
 
 ```blocks3
     definiere animiere
-    setze Effekt [Durchsichtigkeitv] auf (100)
+    setze Effekt [Durchsichtigkeit v] auf (100)
     zeige dich
-    wiederhiole (25) mal
+    wiederhole (25) mal
         ändere Effekt [Durchsichtigkeit v] um (-4)
     ende
-    vertecke dich
+    verstecke dich
 ```
 
 \--- /task \---
 
-Kannst du die Animation der 'Richtig' oder 'Falsch'-Grafiken verbessern? Du kannst Code hinzufügen, um die Kostüme auch auszublenden, oder auch andere coole Effekte verwenden:
+Kannst du die Animation der 'Richtig' oder 'Falsch'-Grafiken verbessern? Du kannst Code hinzufügen, um die Kostüme auch auszublenden, oder du kannst andere coole Effekte verwenden:
 
 ![Screenshot](images/brain-effects.png)
