@@ -41,7 +41,7 @@ De moment, el sprite de caràcters comença a fer preguntes quan el jugador fa c
 conjunt [número 1 v] a (seleccioneu aleatòries (2) a (12))
 establir [número 2 v] a (seleccioneu aleatòries (2) a (12) )
 pregunteu (uniu-vos (número 1) (uniu-vos [x] (número 2))) i espereu
-si &lt;(resposta) = ((nombre 1) * (número 2))&gt; i
+si <(resposta) = ((nombre 1) * (número 2))> i
     digueu [sí! :)] per (2) segons
 més
     digue [nope :(] per (2) segons
