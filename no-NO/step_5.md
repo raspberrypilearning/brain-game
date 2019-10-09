@@ -41,7 +41,7 @@ For øyeblikket begynner tegnsporet å stille spørsmål når spilleren klikker 
 sett [nummer 1 v] til (velg tilfeldig (2) til (12))
 sett [nummer 2 v] til (velg tilfeldig (2) til (12) )
 spør (bli nummer 1) (bli med [x] (nummer 2))) og vent
-hvis &lt;(svar) = ((nummer 1) * (nummer 2))&gt; så
+hvis <(svar) = ((nummer 1) * (nummer 2))> så
     si [ja! :)] for (2) sekunder
 annet
     si [nope :(] for (2) sekunder
