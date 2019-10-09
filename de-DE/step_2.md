@@ -1,6 +1,6 @@
-## Fragen entwerfen
+## Fragen erstellen
 
-Beginnen wir damit, zufällige Fragen zu erzeugen, die der Spieler beantworten soll.
+Beginnen wir damit, zufällige Fragen zu erstellen, auf die der Spieler antworten muss.
 
 \--- task \---
 
@@ -8,7 +8,7 @@ Erstelle ein neues Scratch-Projekt.
 
 **Online:** öffne ein neues Online Scratch Projekt über [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** Öffne im Scratch Offline Editor ein neues Projekt.
+**Offline:** Öffne ein neues Projekt im Scratch Offline Editor.
 
 Wenn du den Scratch Offline Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
@@ -20,7 +20,7 @@ Wenn du den Scratch Offline Editor herunterladen und installieren möchtest, fin
 
 \--- /task \---
 
-\--- task \--- Achte darauf, dass du deine Figur ausgewählt hast. Erstelle zwei neue Variablen mit der Bezeichnung `Zahl 1`{:class="block3variables"} und `Zahl 2`{:class="block3variables"}, um die Werte für deine Quizfragen zu speichern.
+\--- task \--- Achte darauf, dass du deine Figur ausgewählt hast. Erstelle zwei neue Variablen und bennene sie `Zahl 1`{:class="block3variables"} und `Zahl 2`{:class="block3variables"}, um die Werte für deine Quizfragen zu speichern.
 
 ![Screenshot](images/giga-sprite.png) ![Screenshot](images/brain-variables.png)
 
@@ -40,7 +40,7 @@ setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
 
 \--- /task \---
 
-\--- task \--- Stelle dem Spieler mit dem Block `frage und warte`{:class="block3sensing"} eine Frage die dieser beantworten soll. Mit dem Block `sage für 2 Sekunden`{:class="block3looks"} gibst du an, ob die Antwort richtig oder falsch war:
+\--- task \--- Füge Code hinzu, um den Spieler nach der Antowrt zu `fragen`{:class="block3sensing"} und dann `für 2 Sekunden sagt`{:class="block3looks"}, ob die Antwort richtig oder falsch war:
 
 ![Screenshot](images/giga-sprite.png)
 
@@ -60,17 +60,17 @@ sage [Genau! :)] für (2) Sekunden
 
 \--- task \---
 
-Überprüfe dein Projekt in dem du einmal die Frage richtig und einmal falsch beantwortest.
+Überprüfe dein Projekt in dem du die Frage einmal richtig und einmal falsch beantwortest.
 
 \--- /task \---
 
 \--- task \---
 
-Füge eine `wiederhole fortlaufend` Schleife um die bisherigen Blöcke, sodass dem Spieler eine Menge Fragen hintereinander gestellt werden.
+Füge eine `wiederhole fortlaufend` Schleife um diesen Code, sodass dem Spieler eine Menge Fragen hintereinander gestellt werden.
 
 \--- hints \--- \--- hint \---
 
-Du musst einen `wiederhole fortlaufend`{:class="block3control"} Block hinzufügen, in dem der gesamten Code unterhalb der `wenn Fahne angeklickt wird`{:class="block3control"} eingehängt wird, so dass dieser Code fortlaufend wiederholt wird.
+Du musst einen `wiederhole fortlaufend`{:class="block3control"} Programmblock hinzufügen und den gesamten Code außer `wenn Fahne angeklickt wird`{:class="block3control"} in diese Schleife stellen.
 
 \--- /hint \--- \--- hint \--- Hier sind die Code Blöcke die du brauchst:
 
