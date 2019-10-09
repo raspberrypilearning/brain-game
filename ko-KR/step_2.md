@@ -6,7 +6,7 @@
 
 새 Scratch 프로젝트를 엽니 다.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**온라인:** [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_ blank"}에서 새로운 온라인 스크래치 프로젝트 열기
 
 **오프라인 :** 오프라인 편집기에서 새 프로젝트를 엽니 다.
 
@@ -20,7 +20,7 @@ Scratch 오프라인 편집기를 다운로드하여 설치해야하는 경우 [
 
 \--- /task \---
 
-\--- task \--- 캐릭터 스프라이트를 선택했는지 확인하십시오. 퀴즈 질문에 대한 번호를 저장하기 위해 `번 1`{: class = "block3variables"} 및 `2`{{class = "block3variables"}라는 두 개의 새로운 변수를 만듭니다.
+\--- task \--- 캐릭터 스프라이트를 선택했는지 확인하십시오. 퀴즈 질문 번호를 저장하기 위해 `1번`{:class = "block3variables"}과 `2번`{:class = "block3variables"}이라는 두 개의 새로운 변수를 만듭니다.
 
 ![스크린샷](images/giga-sprite.png) ![스크린샷](images/brain-variables.png)
 
