@@ -4,22 +4,22 @@ listed: true
 copyedit: false
 title: Gehirntraining
 description: Lerne, wie man ein Quiz programmiert
-version: 3
+version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
     title: Einleitung
   - 
-    title: Fragen zusammenstellen
+    title: Fragen erstellen
   - 
-    title: Einen Timer hinzufügen
+    title: Einen Countdown hinzufügen
   - 
-    title: 'Aufgabe: Eine Punktzahl hinzufügen'
+    title: 'Herausforderung: Füge eine Punktzahl und Reaktionen hinzu'
     challenge: true
   - 
-    title: Mehrmals spielen
+    title: Mehrfach spielen
   - 
-    title: 'Aufgabe: Start-Bildschirm'
+    title: 'Herausforderung: Erstelle einen Startbildschirm'
     challenge: true
   - 
     title: Grafiken hinzufügen
@@ -33,4 +33,4 @@ steps:
     title: 'Herausforderung: Anleitungsbildschirm'
     challenge: true
   - 
-    title: Was kommt als nächstes?
+    title: Wie geht es weiter?
