@@ -1,16 +1,16 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+To je **Scratch 3** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/brain-game-scratch2) različica projekta.
 
 \--- /no-print \---
 
-## Introduction
+## Uvod
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+V tem projektu boš ustvaril matematični kviz, v katerem ima igralec 30 sekund, da poda čim več pravilnih odgovorov.
 
-### What you will make
+### Kaj boš ustvaril?
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Klikni gumb za začetek. Vnesi odgovor na vprašanje in pritisni tipko <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,33 +23,33 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Kaj se boš naučil?
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will need
-
-### Hardware
-
-+ A computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Kako v Scratchu objavljati sporočila
++ Kako v Scratchu ustvariti in uporabljati lastne bloke
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Kaj boš potreboval?
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+### Strojna oprema
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
++ Računalnik, ki lahko poganja Scratch 3
+
+### Programska oprema
+
++ Scratch 3 (bodisi [na spletu](http://rpf.io/scratchon) {:target = "_blank"} ali [brez povezave](http://rpf.io/scratchoff){:target = "_blank"})
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Dodatne informacije za izobraževalce
+
+\--- Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/brain-game/print)
+
+Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/en/brain-game-get)"}{:target="_blank"}.
 
 \--- /collapse \---
