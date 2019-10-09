@@ -41,7 +41,7 @@ Hiện tại, nhân vật bắt đầu đặt câu hỏi khi người chơi nh�
 bộ [số 1 v] thành (chọn ngẫu nhiên (2) đến (12))
 đặt [số 2 v] thành (chọn ngẫu nhiên (2) thành (12) )
 hỏi (tham gia (số 1) (tham gia [x] (số 2))) và đợi
-nếu &lt;(trả lời) = ((số 1) * (số 2))&gt; rồi
+nếu <(trả lời) = ((số 1) * (số 2))> rồi
     nói [có! :)] trong (2) giây
 khác
     nói [không :(] cho (2) giây
