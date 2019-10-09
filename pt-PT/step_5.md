@@ -41,7 +41,7 @@ De momento, o actor personagem começa a fazer perguntas quando o jogador clicar
         altera [number 1 v] para (um valor ao acaso entre (2) e (12))
         altera [number 2 v] para (um valor ao acaso entre (2) e (12))
         pergunta (a junção de (number 1) com (a junção de [ x ] com (number 2))) e espera pela resposta
-        se &lt;(answer) = ((number 1) * (number 2))>&gt; então 
+        se <(answer) = ((number 1) * (number 2))>> então 
             diz [certo! :)] por (2) segundos
 senão
     diz [Errado :(] por (2) segundos
@@ -99,7 +99,7 @@ Para testar o jogo mais rapidamente, podes alterar o valor de `tempo`{:class="bl
     quando alguém clicar na bandeira verde
     mostra-te
     repete para sempre 
-    se &lt;touching (mouse-pointer v)?&gt;estás a tocar no ponteiro do rato </0>, então 
+    se <touching (mouse-pointer v)?>estás a tocar no ponteiro do rato </0>, então 
         altera o teu efeito [olho de peixe v] para (30)
     senão
         altera o teu efeito [olho de peixe v] para (0)
