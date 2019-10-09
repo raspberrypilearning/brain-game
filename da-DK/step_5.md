@@ -41,7 +41,7 @@ I øjeblikket begynder tegnsprogen at stille spørgsmål, når spilleren klikker
 sæt [nummer 1 v] til (vælg tilfældigt (2) til (12))
 sæt [nummer 2 v] til (vælg tilfældigt (2) til (12) )
 spørg (join nummer 1) (join [x] (nummer 2))) og vent
-hvis &lt;(svar) = ((nummer 1) * (nummer 2))&gt; så
+hvis <(svar) = ((nummer 1) * (nummer 2))> så
     siger [ja! :)] for (2) sekunder
 andet
     siger [nope :(] for (2) sekunder
