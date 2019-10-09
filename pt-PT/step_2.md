@@ -33,9 +33,9 @@ Se precisares de descarregar e instalar o editor offline do Scratch, podes encon
 ![captura de ecrã](images/giga-sprite.png)
 
 ```blocks3
-quando a bandeira for clicada
-altera [número 1 v] para (valor ao acaso entre (2) e (12))
-altera [número 2 v] para (valor ao acaso entre (2) e (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -76,8 +76,8 @@ Precisas adicionar um bloco `repete para sempre`{:class="block3control"} e coloc
 \--- / hint \--- \--- hint \--- Aqui está o bloco que precisas:
 
 ```blocks3
-repete para sempre
-fim
+forever
+end
 ```
 
 \--- /hint \--- \--- hint \--- Aqui está como o teu código deve parecer:
