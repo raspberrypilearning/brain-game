@@ -41,7 +41,7 @@ Pour le moment, le sprite personnage commence à poser des questions lorsque le 
 définir [numéro 1 v] sur (choisir au hasard (2) sur (12))
 définir [numéro 2 v] sur (choisir au hasard (2) à (12) )
 demander (rejoindre (numéro 1) (rejoindre [x] (numéro 2))) et attendre
-si &lt;(réponse) = ((numéro 1) * (numéro 2))&gt; alors
+si <(réponse) = ((numéro 1) * (numéro 2))> alors
     dire [oui!] :)] pendant (2) secondes
 sinon
     dire [non :(] pendant (2) secondes
