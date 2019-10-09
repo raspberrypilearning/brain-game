@@ -1,11 +1,11 @@
-## Challenge: instruction screen
+## Izziv: zaslon z navodili
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+Ali lahko dodaš zaslon z navodili, ki bo igralcu povedal, kako naj igra igro? Za to potrebuješ gumb 'Navodila' in še eno ozadje odra.
 
-![screenshot](images/brain-instructions.png)
+![posnetek zaslona](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Morda boš potreboval tudi tipko 'Nazaj', ki bo igralcu omogočila povratek na začetni zaslon.
 
 ```blocks3
-    broadcast (start screen v)
+    objavi (začetni zaslon v)
 ```
