@@ -36,23 +36,23 @@ De momento, o actor personagem começa a fazer perguntas quando o jogador clicar
 ![Actor personagem](images/giga-sprite.png)
 
 ```blocks3
-<br />- quando alguém clicar na bandeira verde
-+quando eu receber a mensagem start
-        altera [number 1 v] para (um valor ao acaso entre (2) e (12))
-        altera [number 2 v] para (um valor ao acaso entre (2) e (12))
-        pergunta (a junção de (number 1) com (a junção de [ x ] com (number 2))) e espera pela resposta
-        se <(answer) = ((number 1) * (number 2))>> então 
-            diz [certo! :)] por (2) segundos
-senão
-    diz [Errado :(] por (2) segundos
-fim
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+say [yes! :)] for (2) seconds
+else
+say [nope :(] for (2) seconds
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Clica na bandeira verde e clica no novo botão 'Jogar para testar se ele funciona. Deves observar que o jogo não começa antes de clicares no botão.
+Clica na bandeira verde e clica no novo botão 'Jogar ' para testar se ele funciona. Deves observar que o jogo não começa antes de clicares no botão.
 
 \--- /task \---
 
@@ -71,8 +71,8 @@ Podes alterar o código do temporizador para que o temporizador comece quando o 
 ![Actor botāo](images/button-sprite.png)
 
 ```blocks3
-    quando receberes a mensagem [acabar v]
-    mostra-te
+    when I receive [end v]
+show
 ```
 
 \--- /task \---
@@ -96,14 +96,14 @@ Para testar o jogo mais rapidamente, podes alterar o valor de `tempo`{:class="bl
 ![Botão](images/button-sprite.png)
 
 ```blocks3
-    quando alguém clicar na bandeira verde
-    mostra-te
-    repete para sempre 
-    se <touching (mouse-pointer v)?>estás a tocar no ponteiro do rato </0>, então 
-        altera o teu efeito [olho de peixe v] para (30)
-    senão
-        altera o teu efeito [olho de peixe v] para (0)
-  end
+    when flag clicked
+show
+forever
+if <touching (mouse-pointer v)?> then
+set [fisheye v] effect to (30)
+else
+set [fisheye v] effect to (0)
+end
 end
 ```
 
