@@ -51,7 +51,9 @@ title: Was du brauchen wirst
 title: Zusätzliche Hinweise für Pädagogen
 ---
 
---- no-print--- Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckfreundliche Version](https://projects.raspberrypi.org/de-DE/projects/brain-game/print){:target="_blank"}. --- /no-print ---
+--- no-print--- 
+Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckfreundliche Version](https://projects.raspberrypi.org/de-DE/projects/brain-game/print){:target="_blank"}. 
+--- /no-print ---
 
 Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/de-DE/brain-game-get){:target="_blank"}.
 

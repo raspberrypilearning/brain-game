@@ -17,14 +17,13 @@ Erstelle eine neue Figur namens "Ergebnis", die sowohl ein "grünes Häkchen" al
 ![Giga-Figur](images/giga-sprite.png)
 
 ```blocks3
-falls <(answer) = ((Zahl 1)*(Zahl 2))> dann
-
+falls <(Antwort) = ((Zahl 1) * (Zahl 2))> , dann 
 - sage [Genau! :)] für (2) Sekunden
 + sende (Richtig v) an alle
-sonst
+sonst 
 - sage [nein :(] für (2) Sekunden
 + sende (Falsch v) an alle
-ende
+end
 ```
 
 --- /task ---
@@ -36,19 +35,19 @@ Du kannst nun diese Nachrichten verwenden, um zum entsprechenden Richtig oder Fa
 ![Ergebnis Figur](images/result-sprite.png)
 
 ```blocks3
-    wenn ich [Richtig v] empfange
+    Wenn ich [Richtig v] empfange
     wechsle zu Kostüm (Richtig v)
     zeige dich
-    warte (1) Sekunde
+    warte (1) Sekunden
     verstecke dich
 
-    wenn ich [Falsch v] empfange
+    Wenn ich [Falsch v] empfange
     wechsle zu Kostüm (Falsch v)
     zeige dich
-    warte (1) Sekunde
+    warte (1) Sekunden
     verstecke dich
 
-    wenn die grüne Flagge angeklickt wird
+    Wenn die grüne Flagge angeklickt
     verstecke dich
 ```
 
@@ -79,9 +78,9 @@ Wählen die Figur "Ergebnis" aus. Anschließend klicke auf `Meine Blöcke`{:clas
 ![Ergebnis-Figur](images/result-sprite.png)
 
 ```blocks3
-define animiere
+Definiere animiere
 zeige dich
-warte (1) Sekunde
+warte (1) Sekunden
 verstecke dich
 ```
 
@@ -94,13 +93,13 @@ Füge anschließend den neuen `animiere`{:class="block3myblocks"} Block unter di
 ![Ergebnis-Figur](images/result-sprite.png)
 
 ```blocks3
-    wenn ich [Richtig v] empfange
+    Wenn ich [Richtig v] empfange
     wechsle zu Kostüm (Richtig v)
-    aminiere:: eigen
+    animiere:: custom
 
-    wenn ich [Falsch v] empfange
+    Wenn ich [Falsch v] empfange
     wechsle zu Kostüm (Falsch v)
-    animiere:: eigen
+    animiere:: custom
 ```
 
 --- /task ---
@@ -118,12 +117,12 @@ Der Vorteil des benutzerdefinierten Block `animieren`{:class="block3myblocks"} i
 ![Ergebnis-Figur](images/result-sprite.png)
 
 ```blocks3
-    definiere animiere
+    Definiere animiere
     setze Effekt [Durchsichtigkeit v] auf (100)
     zeige dich
     wiederhole (25) mal
         ändere Effekt [Durchsichtigkeit v] um (-4)
-    ende
+    end
     verstecke dich
 ```
 

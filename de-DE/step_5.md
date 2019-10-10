@@ -15,11 +15,11 @@ Du kannst die Figur selbst zeichnen oder eine Figur aus der Bibliothek verwenden
 ![Taste-Figur](images/button-sprite.png)
 
 ```blocks3
-    Wenn die grüne Flagge angeklickt wird
+    Wenn die grüne Flagge angeklickt
     zeige dich
 
     Wenn diese Figur angeklickt wird
-    verstekce dich
+    verstecke dich
     sende (Start v) an alle
 ```
 
@@ -36,16 +36,16 @@ In dem Moment, in dem die Giga-Figur die Nachricht 'Start' empfängt, fängt sie
 ![Giga-Figur](images/giga-sprite.png)
 
 ```blocks3
-<br />- wenn die grüne Flagge angeklickt wird
+- Wenn die grüne Flagge angeklickt
 + Wenn ich [Start v] empfange
-setze [Zahl 1 v] auf (Zufallszahlen von (2) bis (12))
-setze [Zahl 2 v] auf (Zufallszahlen von (2) bis (12))
+setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
+setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
 frage (verbinde (Zahl 1) und (verbinde [ x ] und (Zahl 2))) und warte
-wenn <(Antwort) = ((Zahl 1)*(Zahl 2))> dann
-    sage [Genau! :)] für (2) Sekunden
-sonst
-    sage [nein :(] für (2) Sekunden 
-ende
+falls <(Antwort) = ((Zahl 1) * (Zahl 2))> , dann 
+  sage [Genau! :)] für (2) Sekunden
+sonst 
+  sage [nein :(] für (2) Sekunden
+end
 ```
 
 --- /task ---
@@ -96,15 +96,15 @@ Um das Spiel schneller zu testen, kannst du den Wert der Variabel `Zeit`{:class=
 ![Taste](images/button-sprite.png)
 
 ```blocks3
-    Wenn die grüne Flagge angeklickt wird
-    zeige dich 
-    wiederhole fortlaufend
-    falls <touching (mouse-pointer v)?> dann
+    Wenn die grüne Flagge angeklickt
+    zeige dich
+    wiederhole fortlaufend 
+    falls <wird (Mauszeige v) berührt?> , dann 
         setze Effekt [Fischauge v] auf (30)
-    sonst
+    sonst 
         setze Effekt [Fischauge v] auf (0)
-    ende
-    ende
+    end
+    end
 ```
 
 ![Screenshot](images/brain-fisheye.png) --- /task ---

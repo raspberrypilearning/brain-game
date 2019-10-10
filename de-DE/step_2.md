@@ -33,7 +33,7 @@ Wenn du den Scratch Offline Editor herunterladen und installieren möchtest, fin
 ![Screenshot](images/giga-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt wird
+Wenn die grüne Flagge angeklickt
 setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
 setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
 ```
@@ -45,15 +45,15 @@ setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
 ![Screenshot](images/giga-sprite.png)
 
 ```blocks3
-Wenn die grüne Flagge angeklickt wird
+Wenn die grüne Flagge angeklickt
 setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
 setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
-frage (verbinde (Zahl 1)(verbinde [x] (Zahl 2))) und warte
-falls <(Antwort) = ((Zahl 1)*(Zahl 2))> dann
-sage [Genau! :)] für (2) Sekunden
-+ sonst
++ frage (verbinde (Zahl 1) und (verbinde [ x ] und (Zahl 2))) und warte
++ falls <(Antwort) = ((Zahl 1) * (Zahl 2))> , dann 
++ sage [Genau! :)] für (2) Sekunden
++ sonst 
 + sage [Nein :(] für (2) Sekunden
-+ ende
++ end
 ```
 
 --- /task ---
@@ -83,16 +83,17 @@ ende
 --- /hint --- --- hint --- So sollte dein Code Block aussehen:
 
 ```blocks3
-Wenn die grüne Flagge angeklickt wird
-
-setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
-setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
-frage (verbinde (Zahl 1)(verbinde [x] (Zahl 2))) und warte
-falls <(Antwort) = ((Zahl 1)*(Zahl 2))> dann
-sage [Genau! :)] für (2) Sekunden
-sonst
-sage [Nein :(] für (2) Sekunden
-ende
+Wenn die grüne Flagge angeklickt
++ wiederhole fortlaufend 
+  setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
+  setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
+  frage (verbinde (Zahl 1) und (verbinde [ x ] und (Zahl 2))) und warte
+  falls <(Antwort) = ((Zahl 1) * (Zahl 2))> , dann 
+    sage [Genau! :)] für (2) Sekunden
+  sonst 
+    sage [Nein :(] für (2) Sekunden
+  end
+end
 ```
 
 --- /hint --- --- /hints ---
