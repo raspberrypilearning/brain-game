@@ -1,79 +1,110 @@
-## Mehrfache Spiele
+## Mehrfach spielen
 
-Lass uns eine 'play' (spielen) Taste zu deinem Spiel hinzufügen, damit du es mehrmals spielen kannst.
+Jetzt wirst du eine Taste "Spielen" hinzufügen, damit der Spieler dein Spiel mehrmals spielen kann.
 
+--- task --- Erstelle eine neue Figur - eine 'Spielen'-Taste, auf die der Spieler klicken muss, um ein neues Spiel zu starten.
 
+Du kannst die Figur selbst zeichnen oder eine Figur aus der Bibliothek verwenden.
 
-+ Erstelle ein neues 'Play' Sprite als Taste, welche dein Spieler klicken muss, um ein neues Spiel zu beginnen. Du kannst es entweder selbst zeichnen oder ein Sprite aus der Scratch Bibliothek bearbeiten.
+![Bild der Schaltfläche "Spielen"](images/brain-play.png)
 
-	![screenshot](images/brain-play.png)
+--- /task ---
 
-+ Füge diesen Code zu deiner neuen Taste hinzu.
+--- task --- Füge deiner Spielen Knopf Figur diesen Code hinzu:
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		zeige dich
+![Taste-Figur](images/button-sprite.png)
 
-		Wenn ich angeklickt werde
-		verstecke dich
-		sende [start v] an alle
-	```
+```blocks3
+    Wenn die grüne Flagge angeklickt wird
+    zeige dich
 
-	Dieser Code zeigt die „Spiel“ Taste, wenn dein Projekt gestartet wird. Wenn die Taste geklickt wird, wird sie versteckt und sendet dann eine Meldung, die das Spiel starten wird.
+    Wenn diese Figur angeklickt wird
+    verstekce dich
+    sende (Start v) an alle
+```
 
-+ Du musst den Code deiner Spielfigur bearbeiten, damit das Spiel beginnt, wenn die Figur die `start`{:class="blockevents"} Startmeldung erhält und nicht erst wenn die Flagge geklickt wird.
+--- /task ---
 
-	Ersetze den Code `when flag clicked`{:class="blockevents"} (wenn Flagge geklickt wird) mit `when I receive start`{:class="blockevents"} (wenn ich den Start erhalte).
+Der neue Code enthält einen weiteren `sende an alle`{:class="block3events"} Block, der die Nachricht 'Start' sendet.
 
-	![screenshot](images/brain-start.png)
+Der neue Code zeigt die 'Spielen' Taste, nachdem der Spieler auf die grüne Flagge klickt. Wenn der Spieler auf die Figur Spielen klickt, versteckt sich diese Figur und sendet eine Nachricht an alle anderen Figuren, damit diese darauf reagieren können.
 
-+ Klicke die grüne Flagge und klicke auf deine neue Spieltaste, um es zu testen. Du solltest sehen können, dass das Spiel nicht startet, bis die Taste geklickt wird.
+In dem Moment, in dem die Giga-Figur die Nachricht 'Start' empfängt, fängt sie an eine Frage zu stellen. Ändere den Code des Spiels, damit die Giga Figur beginnt Fragen zu stellen, wenn es die `gesendete Nachricht`{:class="block3events"} 'Start' empfängt.
 
-+ Hast du gemerkt, dass die Zeituhr erst startet, wenn die grüne Flagge geklickt wird und nicht, wenn das Spiel beginnt?
+--- task --- Wähle die Giga-Figur aus und ersetze den Code `Wenn die grüne Flagge angeklickt wird`{:class="block3events"} Block durch einen `wenn ich Start empfange`{:class="block3events"} Block.
 
-	![screenshot](images/brain-timer-bug.png)
+![Giga-Figur](images/giga-sprite.png)
 
-	Kannst du dieses Problem beheben?
+```blocks3
+<br />- wenn die grüne Flagge angeklickt wird
++ Wenn ich [Start v] empfange
+setze [Zahl 1 v] auf (Zufallszahlen von (2) bis (12))
+setze [Zahl 2 v] auf (Zufallszahlen von (2) bis (12))
+frage (verbinde (Zahl 1) und (verbinde [ x ] und (Zahl 2))) und warte
+wenn <(Antwort) = ((Zahl 1)*(Zahl 2))> dann
+    sage [Genau! :)] für (2) Sekunden
+sonst
+    sage [nein :(] für (2) Sekunden 
+ende
+```
 
-+ Klicke auf das Stadium und ersetze den `stop all`{:class="blockcontrol"} (alles stoppen) Block mit einer `end`{:class="blockevents"} (beenden) Meldung.
+--- /task ---
 
-	![screenshot](images/brain-end.png)
+--- task ---
 
-+ Du kannst jetzt den Code zu deiner Taste hinzufügen, um sie bei Spielende erneut zu zeigen.
+Um die Änderungen zu testen, klicke auf die grüne Flagge und anschließend auf die neue Taste "Spielen". Das Spiel sollte nicht starten, bevor man auf die Schaltfläche klickt.
 
-	```blocks
-		Wenn ich [Ende v] empfange
-		zeige dich
-	```
+--- /task ---
 
-+ Du musst auch deine Spielfigur beenden, damit sie keine weiteren Fragen bei Spielende stellt:
+Siehst du, dass der Countdown sofort startet, wenn die grüne Flagge geklickt wird und nicht erst, wenn die Taste "Spielen" gedrückt wird?
 
-	```blocks
-		Wenn ich [Ende v] empfange
-		stoppe [andere Skripte der Figur v]
-	```
+![Countdown ist gestartet](images/brain-timer-bug.png)
 
-+ Teste deine Spieltaste, indem du ein paar Spiele spielst. Du solltest jetzt merken können, dass die Spieltaste nach jedem Spiel angezeigt wird. Um das Testen leichter zu machen, kannst du jedes Spiel abkürzen, damit es nur ein paar Sekunden dauert.
+--- task ---
 
-	```blocks
-		setze [time v] auf [10]
-	```
+Kannst du den Code für den Coutdown ändern, damit der Countdown erst beginnt, wenn der Spieler auf die "Spielen" Taste gedrückt hat?
 
-+ Du kannst auch ändern, wie die Taste aussieht, wenn die Maus darüber gleitet.
+--- /task ---
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		zeige dich
-		wiederhole fortlaufend
-   		falls <wird [Mauszeiger v] berührt?> dann
-      		setze [Fischauge v]-Effekt auf (30)
-   		sonst
-      		setze [Fischauge v]-Effekt auf (0)
-   		Ende
-	Ende
-	```
+--- task --- Füge Code zu deiner Spielen-Knopf Figur hinzufügen, so dass die Schaltfläche am Ende jedes Spiels wieder angezeigt wird.
 
-	![screenshot](images/brain-fisheye.png)
+![Tasten-Figur](images/button-sprite.png)
 
+```blocks3
+    Wenn ich [Ende v] empfange
+    zeige dich
+```
 
+--- /task ---
 
+--- task ---
+
+Teste die Taste 'Spielen', indem du ein paar Spiele spielst. Die Taste sollte am Ende jedes Spiels wieder angezeigt werden.
+
+Um das Spiel schneller zu testen, kannst du den Wert der Variabel `Zeit`{:class="block3variables"} ändern, damit jedes Spiel nur ein paar Sekunden dauert.
+
+![Bühne](images/stage-sprite.png)
+
+```blocks3
+    setze [Zeit v] auf [10]
+```
+
+--- /task ---
+
+--- task --- Du kannst das Aussehen der "Spielen" Schaltfläche ändern, wenn sich der Mauszeiger darüber befindet.
+
+![Taste](images/button-sprite.png)
+
+```blocks3
+    Wenn die grüne Flagge angeklickt wird
+    zeige dich 
+    wiederhole fortlaufend
+    falls <touching (mouse-pointer v)?> dann
+        setze Effekt [Fischauge v] auf (30)
+    sonst
+        setze Effekt [Fischauge v] auf (0)
+    ende
+    ende
+```
+
+![Screenshot](images/brain-fisheye.png) --- /task ---

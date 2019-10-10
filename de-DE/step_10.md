@@ -1,20 +1,11 @@
---- challenge ---
-## Aufgabe: Wettrennen zu 10 Punkten
-Kannst du dein Spiel ändern, damit (statt so viele Fragen wie möglich innerhalb von 30 Sekunden richtig zu beantworten) der Spieler sehen kann, wie schnell er 10 Fragen richtig beantworten kann?
+## Herausforderung: Anleitungsbildschirm
 
-Um dies zu tun brauchst du nur den Code deiner Zeituhr zu ändern. Kannst du sehen, was geändert werden muss?
+Kannst du einen Bildschirm hinzufügen, auf dem erklärt wird man das Spiel spielt? Dafür brauchst du eine 'Anleitung'-Taste und ein zusätzliches Bühnenbild.
 
-```blocks
-	Wenn ich [start v] empfange
-	setze [time v] auf (30)
-	wiederhole bis <(time) = [0]>
-   		warte (1) Sek.
-   		ändere [time v] um (-1)
-	Ende
-	sende [Ende v] an alle
+![Screenshot](images/brain-instructions.png)
+
+Zusätzlich kannst du eine 'Zurück'-Taste hinzufügen, der den Spieler wieder zum Startbildschirm zurückbringt.
+
+```blocks3
+    sende (Anleitung v) an alle
 ```
-
-
-
-
---- /challenge ---
