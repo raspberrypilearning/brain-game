@@ -15,9 +15,6 @@ Füge nun Code hinzu, um den `Countdown`{:class="block3variables"} innerhalb von
 
 ```blocks3
 wiederhole bis <>
-end
-
-warte (1) Sekunden
 
 ändere [Countdown v] um (1)
 
@@ -28,6 +25,8 @@ Wenn die grüne Flagge angeklickt
 <() = ()>
 
 setze [Countdown v] auf [0]
+
+warte (1) Sekunden
 ```
 
 --- /hint --- --- hint --- So sollte dein Code Block aussehen:

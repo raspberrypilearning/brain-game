@@ -45,7 +45,6 @@ falls <(Antwort) = ((Zahl 1) * (Zahl 2))> , dann
   sage [Genau! :)] für (2) Sekunden
 sonst 
   sage [nein :(] für (2) Sekunden
-end
 ```
 
 --- /task ---
@@ -103,8 +102,6 @@ Um das Spiel schneller zu testen, kannst du den Wert der Variabel `Zeit`{:class=
         setze Effekt [Fischauge v] auf (30)
     sonst 
         setze Effekt [Fischauge v] auf (0)
-    end
-    end
 ```
 
 ![Screenshot](images/brain-fisheye.png) --- /task ---

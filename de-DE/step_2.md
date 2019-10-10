@@ -53,7 +53,6 @@ setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
 + sage [Genau! :)] für (2) Sekunden
 + sonst 
 + sage [Nein :(] für (2) Sekunden
-+ end
 ```
 
 --- /task ---
@@ -92,8 +91,6 @@ Wenn die grüne Flagge angeklickt
     sage [Genau! :)] für (2) Sekunden
   sonst 
     sage [Nein :(] für (2) Sekunden
-  end
-end
 ```
 
 --- /hint --- --- /hints ---
