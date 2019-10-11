@@ -53,7 +53,6 @@ altera [numero 2 v] para (um valor ao acaso entre (2) e (12))
 + diz [Certo! :)] durante (2) s
 + senão, 
 + diz [Errado :(] durante (2) s
-+ end
 ```
 
 --- /task ---
@@ -73,11 +72,10 @@ Adiciona um ciclo `repete para sempre`{:class="block3control"} a este código, p
 
 Precisas adicionar um bloco `repete para sempre`{:class="block3control"} e colocar todo o código, exceto o bloco `quando alguém clicar na bandeira`{:class="block3control"}, dentro dele.
 
---- / hint --- --- hint --- Aqui está o bloco que precisas:
+--- /hint --- --- hint --- Aqui está o bloco que precisas:
 
 ```blocks3
 repete para sempre
-end
 ```
 
 --- /hint --- --- hint --- Aqui está como o teu código deve parecer:
@@ -92,8 +90,6 @@ Quando alguém clicar na bandeira verde
         diz [Certo! :)] durante (2) s
     senão, 
         diz [Errado :(] durante (2) s
-    end
-end
 ```
 
 --- /hint --- --- /hints ---

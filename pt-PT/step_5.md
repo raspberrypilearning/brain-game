@@ -45,7 +45,6 @@ se <(a resposta) = ((numero 1) × (numero 2))> , então
   diz [Certo! :)] durante (2) s
 senão, 
   diz [Errado :(] durante (2) s
-end
 ```
 
 --- /task ---
@@ -103,8 +102,6 @@ Para testar o jogo mais rapidamente, podes alterar o valor de `tempo`{:class="bl
         altera o teu efeito [olho de peixe v] para (30)
     senão, 
         altera o teu efeito [olho de peixe v] para (0)
-    end
-    end
 ```
 
 ![captura de ecrã](images/brain-fisheye.png) --- /task ---

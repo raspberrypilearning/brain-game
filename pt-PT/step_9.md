@@ -10,6 +10,6 @@ Para fazer esta alteração, só precisas de alterar o teu código do temporizad
     até que <(tempo) = [0]> , repete 
         espera (1) s
         adiciona a [tempo v] o valor (-1)
-    end
+    fim
     difunde a mensagem (acabar v)
 ```

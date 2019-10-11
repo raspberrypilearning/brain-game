@@ -18,7 +18,7 @@ espera (1) s
 
 adiciona a [tempo v] o valor (1)
 
-(tempo)
+(tempo) :: variables
 
 Quando alguém clicar na bandeira verde
 
@@ -27,7 +27,6 @@ Quando alguém clicar na bandeira verde
 altera [tempo v] para [0]
 
 até que <> , repete
-end
 ```
 
 --- /hint --- --- hint --- Aqui está o aspeto que o teu novo código deve ter:
@@ -35,10 +34,9 @@ end
 ```blocks3
 Quando alguém clicar na bandeira verde
 altera [tempo v] para [30]
-até que <(tempo) = (0)> , repete 
+até que <(tempo :: variables) = (0)> , repete 
   espera (1) s
   adiciona a [tempo v] o valor (-1)
-end
 ```
 
 --- /hint --- --- /hints ---

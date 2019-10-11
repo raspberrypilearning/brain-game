@@ -23,7 +23,6 @@ se <(a resposta) = ((numero 1) × (numero 2))> , então
 senão, 
 - diz [Errado :(] durante (2) s
 + difunde a mensagem (errado v)
-end
 ```
 
 --- /task ---
@@ -122,7 +121,7 @@ Altera o teu código para que o 'correto' ou 'incorreto' sejam mostrados por 2 s
     mostra-te
     repete (25) vezes 
         adiciona ao teu efeito [fantasma v] o valor (-4)
-    end
+    fim
     esconde-te
 ```
 
