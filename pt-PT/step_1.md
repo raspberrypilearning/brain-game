@@ -51,7 +51,9 @@ title: O que vais precisar
 title: Notas adicionais para educadores
 ---
 
---- no-print --- Se precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/pt-PT/projects/brain-game/print) --- /no-print ---
+--- no-print --- 
+Se precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/pt-PT/projects/brain-game/print) 
+--- /no-print ---
 
 Pode encontrar o [projeto concluído aqui](http://rpf.io/p/pt-PT/brain-game-get){:target="_blank"}.
 

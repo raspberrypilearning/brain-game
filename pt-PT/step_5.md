@@ -15,12 +15,12 @@ Podes desenhar o actor tu mesmo, ou editar um actor da biblioteca.
 ![Actor botāo](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-show
+Quando alguém clicar na bandeira verde
+mostra-te
 
-when this sprite clicked
-hide
-broadcast (start v)
+Quando alguém clicar em ti
+esconde-te
+difunde a mensagem (começar v)
 ```
 
 --- /task ---
@@ -36,15 +36,15 @@ De momento, o actor personagem começa a fazer perguntas quando o jogador clicar
 ![Actor personagem](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if <(answer) = ((number 1)*(number 2))> then
-say [yes! :)] for (2) seconds
-else
-say [nope :(] for (2) seconds
+- Quando alguém clicar na bandeira verde
++ Quando receberes a mensagem [start v]
+altera [numero 1 v] para (um valor ao acaso entre (2) e (12))
+altera [numero 2 v] para (um valor ao acaso entre (2) e (12))
+pergunta (a junção de (numero 1) com (a junção de [ x ] com (numero 2))) e espera pela resposta
+se <(a resposta) = ((numero 1) × (numero 2))> , então 
+  diz [Certo! :)] durante (2) s
+senão, 
+  diz [Errado :(] durante (2) s
 end
 ```
 
@@ -71,8 +71,8 @@ Podes alterar o código do temporizador para que o temporizador comece quando o 
 ![Actor botāo](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-show
+    Quando receberes a mensagem [acabar v]
+    mostra-te
 ```
 
 --- /task ---
@@ -96,15 +96,15 @@ Para testar o jogo mais rapidamente, podes alterar o valor de `tempo`{:class="bl
 ![Botão](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-show
-forever
-if <touching (mouse-pointer v)?> then
-set [fisheye v] effect to (30)
-else
-set [fisheye v] effect to (0)
-end
-end
+    Quando alguém clicar na bandeira verde
+    mostra-te
+    repete para sempre 
+    se <estás a tocar em (o ponteiro do rato v)> , então 
+        altera o teu efeito [olho de peixe v] para (30)
+    senão, 
+        altera o teu efeito [olho de peixe v] para (0)
+    end
+    end
 ```
 
 ![captura de ecrã](images/brain-fisheye.png) --- /task ---

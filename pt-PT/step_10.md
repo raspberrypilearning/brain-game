@@ -7,5 +7,5 @@ Podes adicionar um ecrā de instruções ao teu jogo, dizendo ao seu jogador com
 Podes também precisar adicionar um botão "Voltar" para permitir que o jogador volte para o ecrā inicial.
 
 ```blocks3
-    transmissão (tela inicial v)
+    difunde a mensagem (tela inicial v)
 ```

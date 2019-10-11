@@ -7,7 +7,7 @@ Podes adicionar efeitos sonoros e música ao teu jogo? Por exemplo:
 + Tocar um som quando o tempo do jogador acabar
 
 ```blocks3
-    tocar som (pop v) até acabar
+    toca o som (pop v) até terminar
 ```
 
 O teu jogo pode também tocar música de fundo constantemente num ciclo.

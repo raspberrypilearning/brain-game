@@ -14,35 +14,34 @@ Em seguida, adiciona código para diminuir `tempo`{:class="block3variables"} at�
 --- /hint --- --- hint --- Aqui estão os blocos que precisas:
 
 ```blocks3
-repeat until < >
+espera (1) s
 
-end
+adiciona a [tempo v] o valor (1)
 
-wait (1) seconds
+(tempo)
 
-change [time v] by (1)
-
-(time)
-
-when flag clicked
+Quando alguém clicar na bandeira verde
 
 <() = ()>
 
-set [time v] to [0]
+altera [tempo v] para [0]
+
+até que <> , repete
+end
 ```
 
 --- /hint --- --- hint --- Aqui está o aspeto que o teu novo código deve ter:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-wait (1) seconds
-change [time v] by (-1)
+Quando alguém clicar na bandeira verde
+altera [tempo v] para [30]
+até que <(tempo) = (0)> , repete 
+  espera (1) s
+  adiciona a [tempo v] o valor (-1)
 end
 ```
 
---- /hint ------ /hints ---
+--- /hint --- --- /hints ---
 
 --- /task ---
 
@@ -53,7 +52,7 @@ Cria um bloco `difunde a mensagem`{:class="block3control"} que envia a mensagem 
 ![Actor do palco](images/stage-sprite.png)
 
 ```blocks3
-    difunde a mensagem (end v)
+    difunde a mensagem (acabar v)
 ```
 
 --- /task ---

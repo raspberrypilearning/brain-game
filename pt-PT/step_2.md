@@ -14,7 +14,7 @@ Se precisares de descarregar e instalar o editor offline do Scratch, podes encon
 
 --- /task ---
 
----- task ---- Adiciona um actor e um cenário ao teu jogo. Podes escolher os que quiseres! Aqui está um exemplo:
+--- task --- Adiciona um actor e um cenário ao teu jogo. Podes escolher os que quiseres! Aqui está um exemplo:
 
 ![captura de ecrã](images/brain-setting.png)
 
@@ -33,9 +33,9 @@ Se precisares de descarregar e instalar o editor offline do Scratch, podes encon
 ![captura de ecrã](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+Quando alguém clicar na bandeira verde
+altera [numero 1 v] para (um valor ao acaso entre (2) e (12))
+altera [numero 2 v] para (um valor ao acaso entre (2) e (12))
 ```
 
 --- /task ---
@@ -45,15 +45,14 @@ set [number 2 v] to (pick random (2) to (12))
 ![captura de ecrã](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
+Quando alguém clicar na bandeira verde
+altera [numero 1 v] para (um valor ao acaso entre (2) e (12))
+altera [numero 2 v] para (um valor ao acaso entre (2) e (12))
++ pergunta (a junção de (numero 1) com (a junção de [ x ] com (numero 2))) e espera pela resposta
++ se <(a resposta) = ((numero 1) × (numero 2))> , então 
++ diz [Certo! :)] durante (2) s
++ senão, 
++ diz [Errado :(] durante (2) s
 + end
 ```
 
@@ -77,24 +76,23 @@ Precisas adicionar um bloco `repete para sempre`{:class="block3control"} e coloc
 --- / hint --- --- hint --- Aqui está o bloco que precisas:
 
 ```blocks3
-forever
+repete para sempre
 end
 ```
 
 --- /hint --- --- hint --- Aqui está como o teu código deve parecer:
 
 ```blocks3
-when flag clicked
-
-+ forever
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if <(answer) = ((number 1)*(number 2))> then
-say [yes! :)] for (2) seconds
-else
-say [no :(] for (2) seconds
-end
+Quando alguém clicar na bandeira verde
++ repete para sempre 
+    altera [numero 1 v] para (um valor ao acaso entre (2) e (12))
+    altera [numero 2 v] para (um valor ao acaso entre (2) e (12))
+    pergunta (a junção de (numero 1) com (a junção de [ x ] com (numero 2))) e espera pela resposta
+    se <(a resposta) = ((numero 1) × (numero 2))> , então 
+        diz [Certo! :)] durante (2) s
+    senão, 
+        diz [Errado :(] durante (2) s
+    end
 end
 ```
 
