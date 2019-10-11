@@ -21,7 +21,7 @@ falls <(Antwort) = ((Zahl 1) * (Zahl 2))> , dann
 - sage [Genau! :)] für (2) Sekunden
 + sende (Richtig v) an alle
 sonst 
-- sage [nein :(] für (2) Sekunden
+- sage [Nein :(] für (2) Sekunden
 + sende (Falsch v) an alle
 ```
 
@@ -121,6 +121,7 @@ Der Vorteil des benutzerdefinierten Block `animieren`{:class="block3myblocks"} i
     zeige dich
     wiederhole (25) mal
         ändere Effekt [Durchsichtigkeit v] um (-4)
+    end
     verstecke dich
 ```
 

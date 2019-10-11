@@ -44,7 +44,7 @@ frage (verbinde (Zahl 1) und (verbinde [ x ] und (Zahl 2))) und warte
 falls <(Antwort) = ((Zahl 1) * (Zahl 2))> , dann 
   sage [Genau! :)] für (2) Sekunden
 sonst 
-  sage [nein :(] für (2) Sekunden
+  sage [Nein :(] für (2) Sekunden
 ```
 
 --- /task ---
