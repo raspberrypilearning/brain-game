@@ -1,8 +1,11 @@
---- challenge ---
-## Aufgabe: Eine Punktzahl hinzufügen
-Kannst du deinem Spiel eine Punktzahl hinzufügen? Du kannst einen Punkt für jede korrekt beantwortete Frage hinzufügen. Wenn du gemein bist, könntest du auch die Punktzahl des Spielers wieder zurück auf 0 stellen, falls er eine Frage falsch beantwortet hat!
+## Herausforderung: Füge eine Punktzahl und Reaktionen hinzu
 
+Kannst du deinem Spiel eine Punktzahl hinzufügen?
 
+Du kannst Code hinzufügen, damit der Spieler einen Punkt für jede richtige Antwort erhält. Wenn du es sehr schwer machen willst, kannst du auch Code hinzufügen, die den Spielstand des Spielers auf Null zurückzusetzt, wenn er eine falsche Antwort gibt!
 
+[[[generic-scratch3-high-score]]]
 
---- /challenge ---
+Kannst du deinen Charakter auf die Antwort des Spielers reagieren lassen, indem die Figur zu einem anderen Kostüm wechselt, wenn die Antwort richtig oder falsch ist?
+
+![Screenshot](images/brain-costume.png)

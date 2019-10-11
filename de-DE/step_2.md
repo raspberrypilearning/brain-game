@@ -1,46 +1,98 @@
-## Fragen zusammenstellen
+## Fragen erstellen
 
-Lass uns damit beginnen, ein paar beliebig ausgewählte Fragen zusammenzustellen, die der Spieler beantworten muss.
+Beginnen wir damit, zufällige Fragen zu erstellen, auf die der Spieler antworten muss.
 
-+ Starte ein neues Scratch Projekt und lösche das Katzen-Sprite, damit dein Projekt leer ist. Du findest den online Scratch Editor unter <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
+--- task ---
 
-+ Wähle eine Spielfigur und einen Hintergrund für dein Spiel aus. Du kannst dir aussuchen, was du möchtest! Hier ist ein Beispiel:
+Erstelle ein neues Scratch-Projekt.
 
-	![screenshot](images/brain-setting.png)
+**Online:** öffne ein neues Online Scratch Projekt über [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-+ Erstelle 2 neue Variablen namens `number 1`{:class="blockdata"} (Zahl 1) und `number 2`{:class="blockdata"} (Zahl 2). Diese Variablen speichern die beiden Zahlen, die miteinander multipliziert werden sollen.
+**Offline:** Öffne ein neues Projekt im Scratch Offline Editor.
 
-	![screenshot](images/brain-variables.png)
+Wenn du den Scratch Offline Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-+ Füge den Code zu deiner Spielfigur hinzu, um beide diese Variablen auf eine Zufallszahl `random`{:class="blockoperators"} zwischen 2 und 12 einzustellen.
+--- /task ---
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		setze [number 1 v] auf (Zufallszahl von (2) bis (12))
-		setze [number 2 v] auf (Zufallszahl von (2) bis (12))
-	```
+--- task --- Wähle eine Figur und einen Bühnenbild für dein Spiel. Du kannst selbst entscheiden welche dir gefallen! Hier ein Beispiel:
 
-+ Du kannst dann den Spieler nach der Antwort fragen und ihn wissen lassen, ob er richtig oder falsch geantwortet hat.
+![Screenshot](images/brain-setting.png)
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		setze [number 1 v] auf (Zufallszahl von (2) bis (12))
-		setze [number 2 v] auf (Zufallszahl von (2) bis (12))
-		frage (verbinde (number 1) (verbinde [x] (number 2))) und warte
-		falls <(Antwort) = ((number 1) * (number 2))> dann
-			 sage [Ja! :)] für (2) Sek.
-		sonst
- 			sage [Nein :(] für (2) Sek.
-		Ende
-	```
+--- /task ---
 
-+ Teste dein Projekt vollständig, indem du eine Frage richtig und eine Frage falsch beantwortest.
+--- task --- Achte darauf, dass du deine Figur ausgewählt hast. Erstelle zwei neue Variablen und bennene sie `Zahl 1`{:class="block3variables"} und `Zahl 2`{:class="block3variables"}, um die Werte für deine Quizfragen zu speichern.
 
-+ Füge eine `forever`{:class="blockcontrol"} (für immer) Schleife um diesen Code herum hinzu, damit dem Spieler viele Fragen gestellt werden.
+![Screenshot](images/giga-sprite.png) ![Screenshot](images/brain-variables.png)
 
-+ Erstelle einen Countdown-Zähler in diesem Stadium, der eine Variable namens `time`{:class="blockdata"} (Zeit) benutzt. Das 'Ghostbusters' Projekt beinhaltet Anweisungen darüber, wie man einen Zähler herstellt (in Schritt 5), falls du Hilfestellung benötigst!
+[[[generic-scratch3-add-variable]]]
 
-+ Teste dein Projekt erneut: Du solltest jetzt in der Lage sein, weitere Fragen zu stellen, bis die Zeit abgelaufen ist.
+--- /task ---
 
+--- task --- Füge deiner Figur Code hinzu, damit beiden `Variablen`{:class="block3variables"} eine `Zufallszahl`{:class="block3operators"} zwischen 2 und 12 zugeordnet wird.
 
+![Screenshot](images/giga-sprite.png)
 
+```blocks3
+Wenn die grüne Flagge angeklickt
+setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
+setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
+```
+
+--- /task ---
+
+--- task --- Füge Code hinzu, um den Spieler nach der Antowrt zu `fragen`{:class="block3sensing"} und dann `für 2 Sekunden sagt`{:class="block3looks"}, ob die Antwort richtig oder falsch war:
+
+![Screenshot](images/giga-sprite.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
+setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
+setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
++ frage (verbinde (Zahl 1) und (verbinde [ x ] und (Zahl 2))) und warte
++ falls <(Antwort) = ((Zahl 1) * (Zahl 2))> , dann 
++ sage [Genau! :)] für (2) Sekunden
++ sonst 
++ sage [Nein :(] für (2) Sekunden
+```
+
+--- /task ---
+
+--- task ---
+
+Überprüfe dein Projekt in dem du die Frage einmal richtig und einmal falsch beantwortest.
+
+--- /task ---
+
+--- task ---
+
+Füge eine `wiederhole fortlaufend` Schleife um diesen Code, sodass dem Spieler eine Menge Fragen hintereinander gestellt werden.
+
+--- hints ---
+ --- hint ---
+
+Du musst einen `wiederhole fortlaufend`{:class="block3control"} Programmblock hinzufügen und den gesamten Code außer `wenn Fahne angeklickt wird`{:class="block3control"} in diese Schleife stellen.
+
+--- /hint --- --- hint --- Hier sind die Code Blöcke die du brauchst:
+
+```blocks3
+wiederhole fortlaufend
+ende
+```
+
+--- /hint --- --- hint --- So sollte dein Code Block aussehen:
+
+```blocks3
+Wenn die grüne Flagge angeklickt
++ wiederhole fortlaufend 
+  setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
+  setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
+  frage (verbinde (Zahl 1) und (verbinde [ x ] und (Zahl 2))) und warte
+  falls <(Antwort) = ((Zahl 1) * (Zahl 2))> , dann 
+    sage [Genau! :)] für (2) Sekunden
+  sonst 
+    sage [Nein :(] für (2) Sekunden
+```
+
+--- /hint --- --- /hints ---
+
+--- /task ---

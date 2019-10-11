@@ -1,46 +1,132 @@
-## Grafik hinzufügen
+## Grafiken hinzufügen
 
-Anstatt, dass deine Spielfigur nur `yes! :)` (Ja!) oder `nope :(` (Nein) zum Spieler sagt, können wir jetzt Grafik hinzufügen, damit der Spieler weiß, wie es um ihn bestellt ist.
+Im Moment sagt die Giga-Figur nur `Genau! :)` oder `nein :(` als Reaktion auf die Antworten des Spielers. Füge ein Paar Grafiken hinzu die zeigen, ob die Antwort richtig oder falsch ist.
 
-+ Erstelle ein neues Sprite namens 'Result' (Ergebnis), das Kostüme mit entweder einem 'tick' (Häkchen) oder einem 'cross' (Kreuz) enthält.
+--- task ---
 
-	![screenshot](images/brain-result.png)
+Erstelle eine neue Figur namens "Ergebnis", die sowohl ein "grünes Häkchen" als auch ein "rotes Kreuz" Kostüm enthält.
 
-+ Ändere den Code deiner Spielfigur, damit du, statt nur dem Spieler mitzuteilen, welchen Punktestand er erreicht hat, ihm statt dessen auch die entsprechenden `correct`{:class="blockevents"} (richtig) und `wrong`{:class="blockevents"} (falsch) Meldungen senden kannst.
+![Figur mit Richtig und Falsch Kostüm](images/brain-result.png)
 
-	![screenshot](images/brain-broadcast-answer.png)
+--- /task ---
 
-+ Du kannst jetzt diese Meldungen dazu benutzen, um entweder das 'tick' (Häkchen) oder das 'cross' (Kreuz) Kostüm anzuzeigen. Füge diesen Code zu deinem neuen 'Result' (Ergebnis) Sprite hinzu:
+--- task ---
 
-	![screenshot](images/brain-show-answer.png)
+Ändere den Code der Giga-Figur so, dass sie, anstatt etwas zum Spieler zu sagen, eine `Nachricht sendet`{:class="block3events"}, mit dem Inhalt "Richtig" oder "Falsch".
 
-+ Teste dein Spiel erneut. Du solltest ein Häkchen sehen können, wannimmer du eine Frage richtig beantwortet hast und ein Kreuz, wannimer du eine Frage falsch beantwortet hast.
+![Giga-Figur](images/giga-sprite.png)
 
-	![screenshot](images/brain-test-answer.png)
+```blocks3
+falls <(Antwort) = ((Zahl 1) * (Zahl 2))> , dann 
+- sage [Genau! :)] für (2) Sekunden
++ sende (Richtig v) an alle
+sonst 
+- sage [Nein :(] für (2) Sekunden
++ sende (Falsch v) an alle
+```
 
-+ Hast du gemerkt, dass der Code für die `when I receive correct`{:class="blockevents"} (wenn ich richtig geantwortet habe) und `when I receive wrong`{:class="blockevents"} (wenn ich falsch geantwortet habe) Blöcke nahezu identisch ist? Lass uns eine Funktion erstellen, damit es leichter für dich ist, Änderungen an deinem Code vorzunehmen.
+--- /task ---
 
-	Klicke `More Blocks`{:class="blockmoreblocks"} (weitere Blöcke) auf deinem 'Result' (Ergebnis) Sprite und 'Make a Block' (Block herstellen), stelle dann einen weiteren Block her. Erstelle eine neue Funktion namens `animate`{:class="blockmoreblocks"} (animieren).
+--- task ---
 
-	![screenshot](images/brain-animate-function.png)
+Du kannst nun diese Nachrichten verwenden, um zum entsprechenden Richtig oder Falsch `Kostüm zu wechseln`{:class="block3looks"}. Füge der Figur "Ergenbis" den folgenden Code hinzu:
 
-+ Du kannst dann den Animationscode zu deiner neuen Animationsfunktion hinzufügen und dann die Funktion zweimal benutzen:
+![Ergebnis Figur](images/result-sprite.png)
 
-	![screenshot](images/brain-use-function.png)
+```blocks3
+    Wenn ich [Richtig v] empfange
+    wechsle zu Kostüm (Richtig v)
+    zeige dich
+    warte (1) Sekunden
+    verstecke dich
 
-+ Jetzt brauchst du dann nur eine Veränderung an deinem Code vorzunehmen, wenn du das Häkchen oder das Kreuz für längere, bzw. kürzere Zeit anzeigen möchtest. Probier es mal!
+    Wenn ich [Falsch v] empfange
+    wechsle zu Kostüm (Falsch v)
+    zeige dich
+    warte (1) Sekunden
+    verstecke dich
 
-+ Anstatt das Häkchen und das Kreuz entweder nur zu zeigen oder zu verstecken, kannst du auch die Animationsfunktion ändern, damit die Grafik eingeblendet wird.
+    Wenn die grüne Flagge angeklickt
+    verstecke dich
+```
 
-	```blocks
-		Definiere [object Object]
-		setze [Durchsichtigkeit v]-Effekt auf (100)
-		zeige dich
-		wiederhole (25) mal
-  		ändere [Durchsichtigkeit v]-Effekt um (-4)
-		Ende
-		verstecke dich
-	```
+--- /task ---
 
+--- task --- Teste dein Spiel erneut. Du solltest den grünen OK Haken sehen, wenn du eine Frage richtig beantwortest, und das rote Flasch Kreuz, wenn du falsch antwortest!
 
+![Richtig für eine richtige, Falsch für eine falsche Antwort](images/brain-test-answer.png)
 
+--- /task ---
+
+Hast du bemerkt, dass die Codes für `Wenn ich Richtig empfange`{:class="blockevents"} und `Wenn ich Falsch empfange`{:class="blockevents"} nahezu identisch sind?
+
+Damit du deinen Code einfacher ändern kannst, wirst du einen benutzerdefinierten Block erstellen.
+
+--- task ---
+
+Wählen die Figur "Ergebnis" aus. Anschließend klicke auf `Meine Blöcke`{:class="block3myblocks"}, und dann noch auf **Neuer Block**. Erstelle einen neuen Block und nenne ihn `animieren`{:class="block3myblocks"}.
+
+![Ergebnis-Figur](images/result-sprite.png)
+
+![Erstelle einen Block namens animiere](images/brain-animate-function.png)
+
+--- /task ---
+
+--- task --- Verschiebe den Code `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3looks"} aus der 'Ergebnis' Figur in den `animiere`{:class="block3myblocks"} Block:
+
+![Ergebnis-Figur](images/result-sprite.png)
+
+```blocks3
+Definiere animiere
+zeige dich
+warte (1) Sekunden
+verstecke dich
+```
+
+--- /task ---
+
+--- task --- Stelle sicher, dass die `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3look"} Blöcke unter **beiden** `wechsle zu Kostüm`{:class="block3looks"} Blöcken entfernt sind.
+
+Füge anschließend den neuen `animiere`{:class="block3myblocks"} Block unter die beiden Blöcken `wechsle zu Kostüm`{:class="block3look"} hinzu. Dein Code sollte nun so aussehen:
+
+![Ergebnis-Figur](images/result-sprite.png)
+
+```blocks3
+    Wenn ich [Richtig v] empfange
+    wechsle zu Kostüm (Richtig v)
+    animiere:: custom
+
+    Wenn ich [Falsch v] empfange
+    wechsle zu Kostüm (Falsch v)
+    animiere:: custom
+```
+
+--- /task ---
+
+Der Vorteil des benutzerdefinierten Block `animieren`{:class="block3myblocks"} ist, dass jede Änderung am Code nur noch einmal vorgenommen werden muss, wenn beispielsweise die 'Ergebnis' Figur länger oder kürzer angezeigt werden soll.
+
+--- task ---
+
+Ändere deinen Code so, dass die Kostüme 'Richtig' oder 'Falsch' für 2 Sekunden angezeigt werden.
+
+--- /task ---
+
+--- task --- Anstatt das "Richtig" oder "Falsch" Kostüm `zeigen`{:class="block3looks"} und `verstecken`{:class="block3looks"}, kannst du den `animiere`{:class="block3myblocks"} Block ändern, so dass die Kostüme ein- und ausblenden.
+
+![Ergebnis-Figur](images/result-sprite.png)
+
+```blocks3
+Definiere animate
+setze Effekt [Durchsichtigkeit v] auf (100)
+zeige dich
+wiederhole (25) mal 
+  ändere Effekt [Durchsichtigkeit v] um (-4)
+ende
+verstecke dich
+```
+
+--- /task ---
+
+Kannst du die Animation der 'Richtig' oder 'Falsch'-Grafiken verbessern? Du kannst Code hinzufügen, um die Kostüme auch auszublenden, oder du kannst andere coole Effekte verwenden:
+
+![Screenshot](images/brain-effects.png)

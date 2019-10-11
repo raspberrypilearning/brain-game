@@ -1,19 +1,11 @@
---- challenge ---
-## Aufgabe: Start-Bildschirm
-Kannst du einen weiteren Hintergrund zu deinem Stadium hinzufügen, welcher der Start-Bildschirm deines Spiels sein wird? Du kannst die `when I receive start`{:class="blockevents"} (wenn ich den Start-Block erhalte) und `when I receive end`{:class="blockevents"} (wenn ich den Beenden-Block erhalte) benutzen, um zwischen dem Hintergund hin- und herzuschalten.
+## Herausforderung: Erstelle einen Startbildschirm
 
-Mit Hilfe dieser Blöcke kannst du deine Spielfigur entweder zeigen oder auch verstecken und sogar die Zeituhr entweder zeigen oder auch verstecken:
+Kannst du ein weiteres Bühnenbild hinzufügen, das dein Startbildschirm für dein Spiel sein soll?
 
-```blocks
-zeige Variable [time v]
-```
-```blocks
-verstecke Variable [time v]
-```
+Du kannst die `Wenn ich Start empfange`{:class="blockevents"} und `Wenn ich Ende empfange`{:class="blockevents"}-Blöcke verwenden, um zwischen den Bühnenbildern zu wechseln.
 
-![screenshot](images/brain-startscreen.png)
+Um die Spiel-Figur zu zeigen oder zu verbergen, wenn dein Spiel zwischen den Bühnenbildern wechselt, kannst du die `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3look"} Blöcke verwenden.
 
+Um den Countdown-Timer zu zeigen oder zu verbergen, wenn dein Spiel zwischen den Bühnenbildern wechselt, kannst du die `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3look"} Blöcke verwenden.
 
-
-
---- /challenge ---
+![Startbildschirm](images/brain-startscreen.png)

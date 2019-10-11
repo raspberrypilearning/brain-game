@@ -1,18 +1,15 @@
---- challenge ---
-## Aufgabe: Sound und Musik
-Kannst du Sound-Effekte und Musik zu deinem Spiel hinzufügen? Zum Beispiel:
+## Herausforderung: 10-Punkte-Partie
 
-+ Du könntest einen Sound spielen, wenn der Spieler eine Frage entweder richtig oder falsch beantwortet;
-+ Du könntest einen tickenden-Uhr-Sound zu deinem Countdown-Zähler hinzufügen;
-+ Du könntest einen Sound spielen, wenn die Zeit abgelaufen ist;
+Kannst du dein Spiel so ändern, dass der Spieler anstatt so viele Fragen wie möglich in 30 Sekunden zu beantworten hat, so schnell wie möglich 10 Fragen beantworten muss.
 
-	```blocks
-		spiele Schlaginstrument (10 v) für (0.1) Schläge
-	```
+Um diese Änderung vorzunehmen, musst du nur den Countdown Code ändern. Siehst du, welche Blöcke anders sein müssen, damit dies funktioniert?
 
-+ Du kannst auch konstant Musik in einer Schleife spielen (wenn du nicht mehr genau weißt, wie das geht, wird dir Schritt 4 des 'Rock Band' Projekts hierbei als Erinnerungshilfe dienen).
-
-
-
-
---- /challenge ---
+```blocks3
+    wenn ich [Start v] empfange
+    setze [Countdown v] auf (30)
+    wiederhole bis <(Countdown) = [0]>
+        warte (1) Sekunden
+        ändere [Countdown v] um (-1)
+    ende
+    sende (Ende v) an alle
+```
