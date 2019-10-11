@@ -121,7 +121,7 @@ setze Effekt [Durchsichtigkeit v] auf (100)
 zeige dich
 wiederhole (25) mal 
   ändere Effekt [Durchsichtigkeit v] um (-4)
-end
+ende
 verstecke dich
 ```
 
