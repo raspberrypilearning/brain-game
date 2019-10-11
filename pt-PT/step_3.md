@@ -18,7 +18,7 @@ espera (1) s
 
 adiciona a [tempo v] o valor (1)
 
-(tempo) :: variables
+tempo :: variables
 
 Quando alguém clicar na bandeira verde
 

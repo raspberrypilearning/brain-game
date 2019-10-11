@@ -7,7 +7,7 @@ Para fazer esta alteração, só precisas de alterar o teu código do temporizad
 ```blocks3
     Quando receberes a mensagem [começar v]
     altera [tempo v] para (30)
-    até que <(tempo) = [0]> , repete 
+    até que <(tempo :: variables) = [0]> , repete 
         espera (1) s
         adiciona a [tempo v] o valor (-1)
     fim
