@@ -2,7 +2,7 @@
 
 Agora vais adicionar um botão 'Jogar', para que o jogador possa jogar o teu jogo muitas vezes.
 
-\--- task \--- Cria um novo actor botão 'Play' que o jogador precisa clicar para iniciar um novo jogo.
+\--- task \--- Cria um novo actor botão 'Jogar' que o jogador precisa clicar para iniciar um novo jogo.
 
 Podes desenhar o actor tu mesmo, ou editar um actor da biblioteca.
 
