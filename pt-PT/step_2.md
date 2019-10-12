@@ -28,7 +28,7 @@ Se precisares de descarregar e instalar o editor offline do Scratch, podes encon
 
 \--- /task \---
 
-\--- task \--- Adiciona código ao teu actor para alterar ambas as variáveis `variáveis`{:class="block3variables"} para um `valor ao acaso`{:class="block3operators"} entre 2 e 12.
+\--- task \--- Adiciona código ao teu actor para alterar ambas as `variáveis`{:class="block3variables"} para um `valor ao acaso`{:class="block3operators"} entre 2 e 12.
 
 ![captura de ecrã](images/giga-sprite.png)
 
