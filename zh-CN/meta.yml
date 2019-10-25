@@ -12,20 +12,17 @@ steps:
   - 
     title: 创建问题
   - 
-    title: 挑战：更改装扮
+    title: 添加一个计时器
   - 
-    title: '挑战：添加分数'
+    title: '挑战：添加分数和反馈'
     challenge: true
   - 
     title: 重复游戏
   - 
-    title: '挑战：开始画面'
+    title: '挑战：创建开始画面'
     challenge: true
   - 
     title: 添加图形
-  - 
-    title: '挑战：改进动画'
-    challenge: true
   - 
     title: '挑战：声音和音乐'
     challenge: true
@@ -33,4 +30,7 @@ steps:
     title: '挑战：争得 10 分'
     challenge: true
   - 
-    title: 挑战：说明画面
+    title: '挑战：指示界面'
+    challenge: true
+  - 
+    title: 接下来还有什么？
