@@ -44,7 +44,7 @@ demander (rejoindre (numéro 1) (rejoindre [x] (numéro 2))) et attendre
 si <(réponse) = ((numéro 1) * (numéro 2))> alors
     dire [oui!] :)] pendant (2) secondes
 sinon
-    dire [non :(] pendant (2) secondes
+    dire [nope :(] pendant (2) secondes
 fin
 ```
 
