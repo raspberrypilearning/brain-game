@@ -6,11 +6,11 @@
 
 打开一个新的Scratch项目
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**在线：**在[rpf.io/scrath-new](http://rpf.io/scratch-new){:target="_blank"}打开一个新的Scratch在线项目 。
 
-**离线： **在离线编辑器中打开一个新项目。
+**离线：**在离线编辑器中打开一个新项目。
 
-如果您需要下载并安装Scratch离线编辑器，可以在[ rpf.io/scratchoff ](http://rpf.io/scratchoff)中获取 {：target="_blank"}。
+如果您需要下载并安装Scratch离线编辑器，可以在[ rpf.io/scratchoff ](http://rpf.io/scratchoff)中获取 {:target="_blank"}。
 
 \--- /task \---
 
@@ -20,7 +20,7 @@
 
 \--- /task \---
 
-\--- task \--- 确保你拥有选择的角色精灵。 创建两个新变量，命名为`数字1 ` {：class =“block3variables”}和`数字2 ` {：class =“block3variables”}，用于存储测验题目的数字。
+\--- task \--- 确保你拥有选择的角色精灵。 创建两个新变量，命名为`数字1 ` {:class =“block3variables”}和`数字2 ` {:class =“block3variables”}，用于存储测验题目的数字。
 
 ![截图](images/giga-sprite.png) ![截图](images/brain-variables.png)
 
