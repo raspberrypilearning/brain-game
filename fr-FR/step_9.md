@@ -1,4 +1,4 @@
-## Défi: Son et musique
+## Défi : course à 10 points
 
 Peux-tu changer ton jeu pour que le joueur, au lieu de répondre au plus grand nombre de questions possible en 30 secondes, réponde à 10 questions le plus rapidement possible.
 
