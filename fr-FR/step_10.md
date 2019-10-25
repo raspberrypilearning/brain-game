@@ -1,4 +1,4 @@
-## Défi: Course à 10 points
+## Défi : écran d'instruction
 
 Peux-tu ajouter un écran d’instructions qui indique au joueur comment jouer au jeu? Pour cela, tu as besoin d’un bouton «Instructions» et d’un autre arrière-plan de scène.
 
