@@ -1,4 +1,4 @@
---无打印--
+\--- no-print \---
 
 这个项目是基于**Scratch 3**版本，还有一个项目是基于[Scratch 2版本的](https://projects.raspberrypi.org/en/projects/brain-game-scratch2)
 
@@ -17,22 +17,22 @@
   <img src="images/brain-final.png">
 </div>
 
-\--- /no-prnt \---
+\--- /no-print \---
 
 \--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
 
 ## \--- collapse \---
 
-## 标题：你将学会
+## 标题：你将学到
 
 + 如何在Scratch中使用广播
-+ 如何创建和使用自定义Scratch积木块
++ 如何创建和使用自定义的Scratch积木块
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## 题目：你需要准备什么
+## 题目：你需要准备
 
 ### 硬件
 
@@ -50,6 +50,6 @@
 
 \--- 如果您需要打印此项目，请使用[可打印版本](https://projects.raspberrypi.org/en/projects/brain-game/print)。 \--- /0 no-print \---
 
-你可以在这里找到 [完成的项目](http://rpf.io/p/en/brain-game-get){:target="_blank"}。
+你可以在这里找到 [已完成的项目](http://rpf.io/p/en/brain-game-get){:target="_blank"}。
 
 \--- /collapse \---
