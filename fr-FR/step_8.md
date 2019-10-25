@@ -1,4 +1,4 @@
-## Défi: Animation améliorée
+## Défi : son et musique
 
 Peux-tu ajouter des effets sonores et de la musique à ton jeu? Par exemple, tu pourrais avoir ton jeu:
 
