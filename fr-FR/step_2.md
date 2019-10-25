@@ -6,7 +6,7 @@ Tu vas commencer par créer des questions aléatoires auxquelles le joueur doit 
 
 Ouvre un nouveau projet Scratch.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**En ligne:** ouvre un nouveau projet Scratch en ligne sur [rpf.io/scratch-new](http://rpf.io/scratch-new) {:target="_blank"}.
 
 **Hors ligne:** ouvre un nouveau projet dans l'éditeur hors ligne.
 
@@ -20,7 +20,7 @@ Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le 
 
 \--- /task \---
 
-\--- task \--- Assures-toi d'avoir sélectionné ton sprite personnage. Crée deux nouvelles variables, appelées `numéro 1`{: class = "block3variables"} et `numéro 2`{:class="block3variables"}, pour stocker les numéros des questions du quiz.
+\--- task \--- Assure-toi d'avoir sélectionné ton sprite personnage. Crée deux nouvelles variables, appelées `numéro 1`{: class = "block3variables"} et `numéro 2`{:class="block3variables"}, pour stocker les numéros des questions du quiz.
 
 ![screenshot](images/giga-sprite.png) ![capture d'écran](images/brain-variables.png)
 
@@ -40,7 +40,7 @@ définir [numéro 2 v] sur (choisir au hasard (2) à (12))
 
 \--- /task \---
 
-\--- task \--- Ajouter le code à `demander`{: class = "block3sensing"} au joueur pour la réponse, puis `dire pendant 2 secondes`{: class = "block3looks"} si la réponse était correcte ou faux:
+\--- task \--- Ajouter le code à `demander`{: class = "block3sensing"} au joueur pour la réponse, puis `dire pendant 2 secondes`{: class = "block3looks"} si la réponse était correcte ou fausse:
 
 ![capture d'écran](images/giga-sprite.png)
 
@@ -61,13 +61,13 @@ définir [numéro 2 v] sur (choisir au hasard (2) à (12))
 
 \--- task \---
 
-Teste ton projet deux fois: répond correctement à une question et à l’autre incorrectement.
+Teste ton projet deux fois: réponds correctement à une question et à l’autre incorrectement.
 
 \--- /task \---
 
 \--- task \---
 
-Ajoute une boucle `répéter indéfiniment`{: class = "block3control"} autour de ce code, afin que le jeu pose de nombreuses questions au joueur d'affilé.
+Ajoute une boucle `répéter indéfiniment`{: class = "block3control"} autour de ce code, afin que le jeu pose de nombreuses questions au joueur d'affilée.
 
 \--- hints \--- \--- hint \---
 
@@ -80,7 +80,7 @@ répéter indéfiniment
 fin
 ```
 
-\---/hint\--- \---hint\--- Voici a quoi devrait ressembler votre bloc
+\---/hint\--- \---hint\--- Voici a quoi devrait ressembler ton bloc
 
 ```blocks3
 lorsque le drapeau est cliqué
