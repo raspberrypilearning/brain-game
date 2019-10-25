@@ -10,7 +10,7 @@ Dans ce projet, tu vas créer un quiz mathématique dans lequel le joueur dispos
 
 ### Ce que tu feras
 
-\--- no-print \--- Clique sur le bouton pour commencer. Tape la réponse à la question, puis appuye sur la touche <kbd>Entrée</kbd>.
+\--- no-print \--- Clique sur le bouton pour commencer. Tape la réponse à la question, puis appuie sur la touche <kbd>Entrée</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
