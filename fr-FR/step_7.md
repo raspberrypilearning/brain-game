@@ -1,4 +1,4 @@
-## Ajout de graphisme
+## Ajouter des graphiques
 
 Pour le moment, le sprite personnage dit seulement `oui! :)` ou `non :(` aux réponses du joueur. Ajoute des graphiques pour indiquer au joueur si sa réponse est correcte ou incorrecte.
 
@@ -66,7 +66,7 @@ Pour modifier ton code plus facilement, tu vas créer un bloc personnalisé.
 
 \--- task \---
 
-Sélectionne le sprite 'Résultat'. Clique ensuite sur `Mes Blocs`{:class="block3myblocks"}, puis sur **Créer un Bloc**. Crée un nouveau bloc et appele-le `animer` {:class="block3myblocks"}.
+Sélectionne le sprite 'Résultat'. Clique ensuite sur `Mes Blocs`{:class="block3myblocks"}, puis sur **Créer un Bloc**. Crée un nouveau bloc et appelle-le `animer` {:class="block3myblocks"}.
 
 ![Sprite Résultat](images/result-sprite.png)
 
@@ -87,7 +87,7 @@ masquer
 
 \--- /task \---
 
-\--- task \--- Assures-toi que tu as supprimé les blocs `montrer`{:class="block3looks"} et `masquer`{:class="block3looks"} en dessous de **tout les deux**des blocs `basculer sur le costume`{:class="block3looks"}.
+\--- task \--- Assure-toi que tu as supprimé les blocs `montrer`{:class="block3looks"} et `masquer`{:class="block3looks"} en dessous de **tout les deux** des blocs `basculer sur le costume`{:class="block3looks"}.
 
 Ajoute ensuite le bloc `animer`{:class="block3myblocks"} sous les deux blocs de `basculer sur le costume`{:class="block3looks"}. Ton code devrait maintenant ressembler à ceci:
 
