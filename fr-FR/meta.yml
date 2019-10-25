@@ -3,7 +3,7 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Jeu d'ingéniosité
-description: Apprend à créer un quiz
+description: Apprends à créer un quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
@@ -33,4 +33,4 @@ steps:
     title: 'Défi : écran d''instruction'
     challenge: true
   - 
-    title: 'Défi : plus de crayons'
+    title: Et ensuite?
