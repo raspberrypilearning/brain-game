@@ -6,9 +6,9 @@
 
 \--- hints \--- \--- hint \---
 
-Crée une `variable`{:class="block3variables"}, appele-la "temps" et définis sa valeur sur `30`.
+Crée une `variable`{:class="block3variables"}, appelle-la "temps" et définis sa valeur sur `30`.
 
-Ajoute ensuite du code pour décompter `temps`{: class = "block3variables"} jusqu'à 0 dans les 30 secondes. Pour ce faire, soustrais `1` de `temps`{:class="block3variables"} toutes les `1` seconde et répète cette opération jusqu'à que le `temps`{:class="block3variables"} est égal à `0`.
+Ajoute ensuite du code pour décompter `temps`{: class = "block3variables"} jusqu'à 0 dans les 30 secondes. Pour ce faire, soustrais `1` de `temps`{:class="block3variables"} toutes les `1` seconde et répète cette opération jusqu'à ce que le `temps`{:class="block3variables"} soit égal à `0`.
 
 \--- /hint \--- \--- hint \--- Voici les blocs dont tu as besoin :
 
@@ -47,7 +47,7 @@ fin
 
 \--- task \---
 
-Crée un `envoyer à tous`{:class="block3control"} qui envoie le message "fin". Un `envoyer à tous`{:class="block3control"} est comme une annonce par haut-parleur: elle peut être entendue par tout tes sprites. Ajoute le bloc `envoyer à tous`{:class="block3control"} à la fin du code du minuteur pour que le code enverra et le message "fin" lorsque le `temps`{: class = "block3variables"} est décompté à `0`.
+Crée un `envoyer à tous`{:class="block3control"} qui envoie le message "fin". Un `envoyer à tous`{:class="block3control"} est comme une annonce par haut-parleur: elle peut être entendue par tous tes sprites. Ajoute le bloc `envoyer à tous`{:class="block3control"} à la fin du code du minuteur pour que le code soit envoyé et le message "fin" lorsque le `temps`{: class = "block3variables"} est décompté à `0`.
 
 ![Sprite Scène](images/stage-sprite.png)
 
