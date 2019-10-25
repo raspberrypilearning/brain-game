@@ -6,6 +6,6 @@ Tu peux ajouter du code pour que le joueur marque un point à chaque réponse co
 
 [[[generic-scratch3-high-score]]]
 
-Peux-tu faire réagir tone personnage à la réponse du joueur en changeant de costume si la réponse est correcte ou incorrecte?
+Peux-tu faire réagir ton personnage à la réponse du joueur en changeant de costume si la réponse est correcte ou incorrecte?
 
 ![capture d'écran](images/brain-costume.png)
