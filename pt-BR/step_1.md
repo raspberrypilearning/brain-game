@@ -6,7 +6,7 @@ Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 d
 
 ## Introdução
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+Neste projeto você irá criar um quiz que o jogador terá 30 segundos para responder o maior número de respostas corretas possíveis.
 
 ### O que você vai fazer
 
