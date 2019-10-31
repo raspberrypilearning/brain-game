@@ -10,7 +10,7 @@ Neste projeto você irá criar um quiz que o jogador terá 30 segundos para resp
 
 ### O que você vai fazer
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Clica no botão para iniciar. Digita a resposta para a pergunta e, em seguida, pressiona a tecla <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -26,7 +26,7 @@ Neste projeto você irá criar um quiz que o jogador terá 30 segundos para resp
 ## title: O que você vai aprender
 
 + How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Como criar e usar um bloco de Scratch personalizado
 
 \--- /collapse \---
 
@@ -46,10 +46,10 @@ Neste projeto você irá criar um quiz que o jogador terá 30 segundos para resp
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Notas adicionais para educadores
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- Se precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/brain-game/print) \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/brain-game-get){: target = "_ blank"}.
 
 \--- /collapse \---
