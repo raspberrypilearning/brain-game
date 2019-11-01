@@ -1,10 +1,10 @@
 ## प्रश्न बनाना
 
-You're going to start by creating random questions that the player has to answer.
+आप ऐसे यादृच्छिक प्रश्न बनाकर शुरू करेंगे जिनका खिलाड़ी को जवाब देना है।
 
 \--- task \---
 
-Open a new Scratch project.
+एक नया स्क्रैच प्रोजेक्ट खोलें।
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
