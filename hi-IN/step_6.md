@@ -8,4 +8,4 @@
 
 जब आपका खेल टाइमर और स्कोर को छुपाने या दिखाने के लिए पृष्ठभूमि बदलता है तो आप `चर दिखाएँ`{:class="block3looks"} और `चर छुपाएँ`{:class="block3looks"} ब्लॉक्स का उपयोग कर सकते हैं।
 
-![Start screen](images/brain-startscreen.png)
+![स्क्रीन प्रारंभ करें](images/brain-startscreen.png)
