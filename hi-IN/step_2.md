@@ -28,7 +28,7 @@
 
 \--- /task \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- task \--- दोनों <०> चरों </code> {<class> "block3variables"} का मान 2 और 12 के बीच एक ` यादृच्छिक ` {"class =" block3operators "} संख्या निर्धारित करने के लिए कोड लिखें।
 
 ![स्क्रीनशॉट](images/giga-sprite.png)
 
