@@ -10,24 +10,24 @@
 
 \--- /task \---
 
-\--- task \--- Add this code to your button sprite:
+\--- task \--- इस कोड को अपने बटन स्प्राइट में जोड़ें:
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    जब ध्वज क्लिक किया
+    दिखाएँ
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+    जब यह स्प्राइट क्लिक किया
+    छिपाएँ
+    प्रसारण (प्रारंभ v)
 ```
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+नए कोड में एक और `प्रसारण` {:class="block3events"} ब्लॉक शामिल है, जो 'प्रारंभ' संदेश भेजता है।
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+जब खिलाड़ी ध्वज पर क्लिक करता है तो नया कोड 'खेलें' बटन स्प्राइट शो करता है। When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
 At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
