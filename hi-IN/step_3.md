@@ -2,7 +2,7 @@
 
 \--- task \--- `समय`{:class="block3variables"} नाम के एक नये चर की मदद से स्टेज पर एक उलटी गिनती वाला टाइमर बनाएं। टाइमर 30 सेकंड से शुरू होना चाहिए और 0 सेकंड तक गिना जाना चाहिए।
 
-![Stage sprite](images/stage-sprite.png)
+![स्टेज स्प्राइट](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -49,7 +49,7 @@
 
 एक ` प्रसारण ` {:class="block3control"} बनायें जो 'अंत' संदेश भेजता है। `प्रसारण`{:class="block3control"} एक लाउड्स्पीकर पर घोषणा की तरह है: यह आपके सभी स्प्राइट्स द्वारा सुना जा सकता है। `प्रसारण`{:class="block3control"} ब्लाक टाइमर कोड के अंत में जोड़ें ताकि जब `समय`{:class="block3variables"} `0` तक गिना जा चुका हो तब कोड एक 'अंत' संदेश भेजेगा।
 
-![Stage sprite](images/stage-sprite.png)
+![स्टेज स्प्राइट](images/stage-sprite.png)
 
 ```blocks3
     प्रसारण (अंत v)
@@ -57,19 +57,19 @@
 
 \--- /task \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- अपना चरित्र स्प्राइट का चयन करें और कुछ कोड जोड़ें ताकि जब स्प्राइट को `अंत`{:class="block3control"} संदेश मिले तब वो `अन्य स्प्राइट्स को रोकता है`{:class="block3control"}
 
-![Giga sprite](images/giga-sprite.png)
+![गीगा स्प्राइट](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    stop [other scripts in sprite v]
+    जब मुझे [अंत v] मिलता है
+    रोकें [स्प्राइट v में अन्य स्प्राइट्स]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+अपने खेल का फिर से परीक्षण करें। जब तक टाइमर 0 तक नहीं गिना जाता है तब तक यह सवाल पूछना जारी रखना चाहिए।
 
 \--- /task \---
