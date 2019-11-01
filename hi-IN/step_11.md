@@ -1,6 +1,6 @@
 ## आगे क्या?
 
-Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
+प्रतिक्रिया गेम बनाने के लिए [ डॉट्स को पकड़ें ](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) प्रोजेक्ट खेलें! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
 
 \--- no-print \--- Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
 
