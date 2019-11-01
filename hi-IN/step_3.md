@@ -1,12 +1,12 @@
-## चुनौती: और ऑब्जेक्ट्स
+## टाइमर जोड़ें
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- task \--- `समय`{:class="block3variables"} नाम के एक नये चर की मदद से स्टेज पर एक उलटी गिनती वाला टाइमर बनाएं। टाइमर 30 सेकंड से शुरू होना चाहिए और 0 सेकंड तक गिना जाना चाहिए।
 
 ![Stage sprite](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+एक ` चर ` {"class =" block3variables "} बनाएं, इसे 'समय' नाम दें, और इसका मान ` 30 ` निर्धारित करें।
 
 Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
 
