@@ -1,10 +1,10 @@
 ## मल्टीप्ल गेम्ज़
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+अब आप एक 'खेलें' बटन जोड़ने जा रहे हैं, ताकि खिलाड़ी आपके खेल को कई बार खेल सके।
 
-\--- task \--- Create a new 'Play' button sprite that the player needs to click to start a new game.
+\--- task \--- एक नया 'खेलें' बटन स्प्राइट बनाएं जो खिलाड़ी को नया गेम शुरू करने के लिए क्लिक करने की आवश्यकता हो।
 
-You can draw the sprite yourself, or edit a sprite from the library.
+आप स्वयं स्प्राइट को बना सकते हैं, या लाइब्रेरी से स्प्राइट को संपादित कर सकते हैं।
 
 ![Picture of the play button](images/brain-play.png)
 
