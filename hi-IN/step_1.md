@@ -40,7 +40,7 @@
 
 ### सॉफ्टवेयर
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([ऑनलाइन ](http://rpf.io/scratchon){:target="_blank"} या फिर [ऑफ़्लाइन](http://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
@@ -48,8 +48,8 @@
 
 ## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/brain-game/print) का उपयोग करें।
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+आप यहां [ पूर्ण किया हुआ प्रोजेक्ट ](http://rpf.io/p/en/brain-game-get) पा सकते हैं {: लक्ष्य = "_ blank"}।
 
 \--- /collapse \---
