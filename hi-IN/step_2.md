@@ -71,30 +71,29 @@
 
 \--- hints \--- \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+आपको एक `हमेशा के लिए`{:class="block3control"} ब्लाक जोड़ना है, और `जब झंडा क्लिक किया`{:class="block3control"} ब्लाक को छोड़कर बाक़ी सारा कोड इसमें रखना है।
 
-\--- /hint \--- \--- hint \--- Here is the block you need:
+\--- /hint \--- \--- hint \--- ये है वो ब्लॉक जिसकी आपको आवश्यकता है:
 
 ```blocks3
-forever
-end
+हमेशा के लिए
+अंत
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए:
 
 ```blocks3
-when flag clicked
+जब झंडा क्लिक किया
 
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
++ हमेशा के लिए 
+   [संख्या 1 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें 
+   [संख्या 2 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें
+   पूछें (जोड़ें (संख्या 1) (जोड़ें [x] (संख्या 2))) और प्रतीक्षा करें 
+   यदि <(उत्तर) = ((संख्या 1) * (संख्या 2))> तो
+   कहें [हाँ! :)] (2) सेकंड के लिए
+   अन्यथा
+   कहें [नहीं :(] (2) सेकंड के लिए
+   अंत
 ```
 
 \--- /hint \--- \--- /hints \---
