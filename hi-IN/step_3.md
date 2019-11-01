@@ -33,12 +33,12 @@
 \--- /hint \--- \--- hint \--- यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए:
 
 ```blocks3
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) seconds
-    change [time v] by (-1)
-end
+जब ध्वज पर क्लिक किया
+[समय v] को [30] स्थिर करें
+दोहराएं जब तक <(समय) = (0)>
+    (1) सेकंड प्रतीक्षा करें
+    (-1) से [समय v] बदलें 
+अंत
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -47,7 +47,7 @@ end
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+एक ` प्रसारण ` {:class="block3control"} बनायें जो 'अंत' संदेश भेजता है। `प्रसारण`{:class="block3control"} एक लाउड्स्पीकर पर घोषणा की तरह है: यह आपके सभी स्प्राइट्स द्वारा सुना जा सकता है। Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
