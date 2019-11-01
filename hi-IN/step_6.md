@@ -2,7 +2,7 @@
 
 क्या आप एक और पृष्ठभूमि जोड़ सकते हैं जो आपके खेल के लिए प्रारम्भ स्क्रीन होगी?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+आप पृष्ठभूमि बदलने के लिए `जब मुझे प्रारम्भ प्राप्त हो`{:class="block3events"} `जब मुझे अंत प्राप्त हो`{:class="block3events"} ब्लॉक्स का इस्तेमाल कर सकते हैं।
 
 To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
