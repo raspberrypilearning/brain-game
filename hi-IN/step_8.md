@@ -1,13 +1,13 @@
-## चुनौती: सुधरा हुआ एनिमेशन
+## चुनौती: ध्वनि और संगीत
 
-Can you add sound effects and music to your game? For example, you could have your game:
+क्या आप अपने खेल में ध्वनि प्रभाव और संगीत जोड़ सकते हैं? उदाहरण के लिए, आप अपने खेल में:
 
-+ Play a sound when the player gives a correct or incorrect answer
-+ Play a ticking sound as the countdown timer runs
-+ Play a sound when the player's time is up
++ एक ध्वनि चला सकते हैं जब खिलाड़ी सही या गलत उत्तर देता है
++ एक टिक ध्वनि चला सकते हैं जब उलटी गिनती टाइमर चलता है
++ एक ध्वनि चला सकते हैं जब खिलाड़ी का समय पूरा हो जाए
 
 ```blocks3
-    play sound (pop v) until done
+    (पॉप v) ध्वनि बजाएं जब तक पूरा ना हो
 ```
 
 Your game could also constantly play background music on a loop.
