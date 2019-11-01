@@ -51,23 +51,23 @@
 
 + पूछें (जोड़ें (संख्या 1) (जोड़ें [x] (संख्या 2))) और प्रतीक्षा करें 
 + यदि <(उत्तर) = ((संख्या 1) * (संख्या 2))> तो
-+ कहें [हाँ! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
-+ end
++ कहें [हाँ! :)] (2) सेकंड के लिए
++ अन्यथा
++ कहें [नहीं :(] (2) सेकंड के लिए
++ अंत
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+अपने प्रोजेक्ट का दो बार परीक्षण करें: एक बार प्रश्न का सही उत्तर दें, और दूसरी बार गलत।
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+इस कोड के इर्द-गिर्द `हमेशा के लिए`{:class="block3control"} लूप जोड़ें, ताकि खेल एक शृंखला में खिलाड़ी से बहुत सारे प्रश्न पूछ सके।
 
 \--- hints \--- \--- hint \---
 
