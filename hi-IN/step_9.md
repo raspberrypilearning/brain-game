@@ -1,15 +1,15 @@
-## चुनौती: ध्वनि और संगीत
+## चुनौती: 10 अंकों की दौड़
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+क्या आप अपना गेम बदल सकते हैं ताकि खिलाड़ी 30 सेकंड में अधिक से अधिक प्रश्नों के उत्तर देने के बजाय, 10 प्रश्नों का उत्तर जल्दी से जल्दी दें सके।
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+यह परिवर्तन करने के लिए, आपको केवल अपना टाइमर कोड बदलना होगा। क्या आप देख सकते हैं कि किस ब्लॉक को अलग होने की जरूरत है?
 
 ```blocks3
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) seconds
-        change [time v] by (-1)
-    end
-    broadcast (end v)
+    जब मुझे [प्रारंभ v] प्राप्त हो
+    [समय v] को (30) स्थिर करें
+ <(समय) तक दोहराएं = [0]>
+        (1) सेकंड प्रतीक्षा करें
+        (-1) से [समय v] बदलें 
+    अंत
+    प्रसारण (अंत v)
 ```
