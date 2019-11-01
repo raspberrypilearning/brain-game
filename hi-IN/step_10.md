@@ -1,11 +1,11 @@
-## चुनौती: 10 अंकों की दौड़
+## चुनौती: निर्देश पटल
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+क्या आप एक निर्देश पटल (स्क्रीन) जोड़ सकते हैं जो खिलाड़ी को खेल खेलने का तरीका बताये? इसके लिए आपको एक 'निर्देश' बटन, और दूसरा स्टेज पृष्ठभूमि चाहिए।
 
 ![screenshot](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+आपको एक 'वापस जायें' बटन भी लगाने की आवश्यकता हो सकती है जो खिलाड़ी को प्रारम्भिक पटल पर वापस जाने देता है।
 
 ```blocks3
-    broadcast (start screen v)
+    प्रसारित करें (प्रारम्भ पटल v)
 ```
