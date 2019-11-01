@@ -1,11 +1,11 @@
 ## चुनौती: स्कोर जोड़ना
 
-Can you add a score to your game?
+क्या आप अपने खेल में स्कोर जोड़ सकते हैं?
 
-You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
+आप कोड जोड़ सकते हैं ताकि खिलाड़ी हर सही उत्तर के लिए एक अंक बनाए। यदि आप कुछ कमी महसूस कर रहे हैं, तो आप गलत उत्तर देने पर खिलाड़ी के स्कोर को फिर से शून्य पर स्थिर करने के लिए भी कोड जोड़ सकते हैं!
 
 [[[generic-scratch3-high-score]]]
 
-Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+यदि उत्तर सही या गलत है तो क्या आप अपने चरित्र को एक अलग वेशभूषा में बदलकर खिलाड़ी के जवाब पर प्रतिक्रिया कर सकते हैं?
 
 ![स्क्रीनशॉट](images/brain-costume.png)
