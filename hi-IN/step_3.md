@@ -8,29 +8,29 @@
 
 एक ` चर ` {"class =" block3variables "} बनाएं, इसे 'समय' नाम दें, और इसका मान ` 30 ` निर्धारित करें।
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+फिर 30 सेकंड के अंदर ` समय ` {:class="block3variables"} को 0 तक गिनने का कोड जोड़ें। ऐसा करने के लिए, हर `1` सेकंड में ` समय ` {:class="block3variables"} में से `1` घटाएँ, और इसे तब तक दोहराएं जब तक ` समय `{:class="block3variables"} `0` के बराबर नही हो जाता।
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- /hint \--- \--- hint \--- ये है वो ब्लॉक जिसकी आपको आवश्यकता है:
 
 ```blocks3
-repeat until < >
+दोहराते रहें जब तक < >
 
-end
+अंत
 
-wait (1) seconds
+(1) सेकंड प्रतीक्षा करें
 
-change [time v] by (1)
+(1) se [समय v] बदलें
 
-(time)
+(समय)
 
-when flag clicked
+जब झंडा क्लिक किया
 
 <() = ()>
 
-set [time v] to [0]
+[समय v] को [0] स्थिर करें
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- /hint \--- \--- hint \--- यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए:
 
 ```blocks3
 when flag clicked
