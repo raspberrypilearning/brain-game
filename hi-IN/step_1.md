@@ -6,11 +6,11 @@
 
 ## परिचय
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+इस परियोजना में आप एक गणित क्विज गेम बनाएंगे जिसमें खिलाड़ी के पास यथासंभव सही उत्तर देने के लिए ३० सेकंड का समय होगा।
 
 ### आप क्या बनाएँगे
 
-\--- no-print \--- Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- नो-प्रिंट \--- शुरू करने के लिए बटन पर क्लिक करें। प्रश्न का उत्तर टाइप करें, और फिर <kbd> दर्ज करें </kbd> दबायें।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -25,8 +25,8 @@ In this project you'll create a maths quiz game in which the player has 30 secon
 
 ## title: आप क्या सीखेंगे
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Scratch में प्रसारण का उपयोग कैसे करें
++ कस्टम Scratch ब्लॉक कैसे बनाएं और इसका उपयोग कैसे करें
 
 \--- /collapse \---
 
