@@ -10,4 +10,4 @@
     (पॉप v) ध्वनि बजाएं जब तक पूरा ना हो
 ```
 
-Your game could also constantly play background music on a loop.
+आपका गेम लगातार लूप में पार्श्व संगीत सकता है।
