@@ -20,7 +20,7 @@
 
 \--- /task \---
 
-\--- task \--- सुनिश्चित करें कि आपका चरित्र स्प्राइट चयनित है। Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+\--- task \--- सुनिश्चित करें कि आपका चरित्र स्प्राइट चयनित है। प्रश्नोत्तरी (क्विज़) सवालों के लिए संख्याओं को संग्रहीत करने के लिए, दो नए चर, ` नंबर 1 ` {:class="block3variables"} और ` नंबर 2 ` {:class="block3variables"} बनाएं।
 
 ![स्क्रीनशॉट](images/giga-sprite.png) ![स्क्रीनशॉट](images/brain-variables.png)
 
