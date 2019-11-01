@@ -40,18 +40,18 @@
 
 \--- /task \---
 
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+\--- task \--- खिलाड़ी से उत्तर पूछने के लिए `पूछें`{:class="block3sensing"} और बताने के लिए कि उत्तर सही था या नही, `2 सेकंड के लिए कहें`{:class="block3looks"} कोड जोड़ें।
 
 ![स्क्रीनशॉट](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+जब झंडा क्लिक किया
+[संख्या 1 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें 
+[संख्या 2 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें
 
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
++ पूछें (जोड़ें (संख्या 1) (जोड़ें [x] (संख्या 2))) और प्रतीक्षा करें 
++ यदि <(उत्तर) = ((संख्या 1) * (संख्या 2))> तो
++ कहें [हाँ! :)] for (2) seconds
 + else
 + say [no :(] for (2) seconds
 + end
