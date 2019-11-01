@@ -20,7 +20,7 @@
 
 \--- /task \---
 
-\--- task \--- सुनिश्चित करें कि आपका चरित्र स्प्राइट चयनित है। प्रश्नोत्तरी (क्विज़) सवालों के लिए संख्याओं को संग्रहीत करने के लिए, दो नए चर, ` नंबर 1 ` {:class="block3variables"} और ` नंबर 2 ` {:class="block3variables"} बनाएं।
+\--- task \--- सुनिश्चित करें कि आपका चरित्र स्प्राइट चयनित है। Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
 
 ![स्क्रीनशॉट](images/giga-sprite.png) ![स्क्रीनशॉट](images/brain-variables.png)
 
@@ -33,9 +33,9 @@
 ![स्क्रीनशॉट](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+जब झंडा क्लिक किया
+[संख्या 1 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें 
+[संख्या 2 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें
 ```
 
 \--- /task \---
