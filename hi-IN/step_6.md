@@ -1,6 +1,6 @@
-## चुनौती: प्रारंभ स्क्रीन
+## चुनौती: एक प्रारंभ स्क्रीन बनायें
 
-Can you add another backdrop that is going to be the start screen for your game?
+क्या आप एक और पृष्ठभूमि जोड़ सकते हैं जो आपके खेल के लिए प्रारम्भ स्क्रीन होगी?
 
 You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
