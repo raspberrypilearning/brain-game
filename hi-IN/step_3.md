@@ -47,12 +47,12 @@
 
 \--- task \---
 
-एक ` प्रसारण ` {:class="block3control"} बनायें जो 'अंत' संदेश भेजता है। `प्रसारण`{:class="block3control"} एक लाउड्स्पीकर पर घोषणा की तरह है: यह आपके सभी स्प्राइट्स द्वारा सुना जा सकता है। Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+एक ` प्रसारण ` {:class="block3control"} बनायें जो 'अंत' संदेश भेजता है। `प्रसारण`{:class="block3control"} एक लाउड्स्पीकर पर घोषणा की तरह है: यह आपके सभी स्प्राइट्स द्वारा सुना जा सकता है। `प्रसारण`{:class="block3control"} ब्लाक टाइमर कोड के अंत में जोड़ें ताकि जब `समय`{:class="block3variables"} `0` तक गिना जा चुका हो तब कोड एक 'अंत' संदेश भेजेगा।
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    प्रसारण (अंत v)
 ```
 
 \--- /task \---
