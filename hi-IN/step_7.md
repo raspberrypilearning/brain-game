@@ -88,25 +88,25 @@
 
 \--- /task \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+\--- task \--- निश्चित करें कि आपने **दोनों** `कॉस्ट्यूम बदलें`{:class="block3looks"} वाले ब्लॉक्स के नीचे से `दिखाएँ`{:class="block3looks"} और `छिपाएँ`{:class="block3looks"} वाले ब्लॉक्स हटा दियें हैं:
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+फिर दोनों `कॉस्ट्यूम बदलें`{:class="block3looks"} ब्लॉक्स के नीचे `जीवंत करें`{:class="block3myblocks"} ब्लाक जोड़ें। आपका कोड अब इस तरह दिखना चाहिए:
 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    जब मुझे प्राप्त हो [सही v]
+    कॉस्टयूम को (टिक v) से बदलें
+    जीवंत करें:: कस्टम
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+    जब मुझे प्राप्त हो [गलत v]
+    कॉस्टयूम को (क्रॉस v) से बदलें
+    जीवंत करें:: कस्टम
 ```
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+कस्टम `जीवंत करें`{:class="block3myblocks"} ब्लॉक की वजह से, अब यदि आप 'परिणाम' स्प्राइट की वेशभूषा को लंबे या कम समय के लिए दिखाना चाहते हैं तो आपको अपने कोड में केवल एक परिवर्तन करने की आवश्यकता है ।
 
 \--- task \---
 
