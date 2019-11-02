@@ -31,7 +31,7 @@
 
 अब, खिलाड़ी के झंडे पर क्लिक करते ही चरित्र स्प्राइट सवाल पूछना शुरू कर देता है। अपने गेम के कोड को बदलें ताकि जब चरित्र स्प्राइट को 'शुरू करें' `प्रसारित करें`{:class="block3events"} प्राप्त हो तो वो सवाल पूछना शुरू करे।
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- अपने चरित्र स्प्राइट का चयन करें और, इसके कोड अनुभाग में, `जब झंडा क्लिक किया`{:class="block3events"} ब्लॉक को `जब मुझे शुरू करें प्राप्त हो`{:class="block3events"} ब्लाक से बदल दें।
 
 ![पात्र स्प्राइट](images/giga-sprite.png)
 
