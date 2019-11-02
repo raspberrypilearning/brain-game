@@ -55,19 +55,19 @@
 
 \--- /task \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\--- task \--- फिर से अपने खेल का परीक्षण करें। जब भी आप किसी प्रश्न का सही उत्तर देते हैं तो आपको टिक, और जब भी आप गलत उत्तर देते हैं तो क्रॉस दिखाई देना चाहिए!
 
 ![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
 \--- /task \---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+क्या आप देख सकते हैं कि `जब मुझे सही प्राप्त हो`{:class="block3events"} और `जब मुझे गलत प्राप्त हो`{:class="block3events"} का कोड लगभग समान है?
 
-So you can change your code more easily, you are going to create a custom block.
+इसलिए आप एक कस्टम ब्लॉक बनाने जा रहे हैं ताकि आप अपना कोड अधिक आसानी से बदल सकें।
 
 \--- task \---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+'परिणाम' स्प्राइट का चयन करें। फिर `मेरे ब्लॉक्स`{:class="block3myblocks"} पर क्लिक करें, और फिर **एक ब्लाक बनाएँ** पर। एक नया ब्लॉक बनाएं और इसका नाम `जीवंत करें` {:class="block3myblocks"} रखें।
 
 ![Result sprite](images/result-sprite.png)
 
