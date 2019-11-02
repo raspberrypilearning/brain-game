@@ -56,7 +56,7 @@
 
 \--- task \--- फिर से अपने खेल का परीक्षण करें। जब भी आप किसी प्रश्न का सही उत्तर देते हैं तो आपको टिक, और जब भी आप गलत उत्तर देते हैं तो क्रॉस दिखाई देना चाहिए!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![सही के लिए टिक, गलत उत्तर के लिए क्रॉस](images/brain-test-answer.png)
 
 \--- /task \---
 
@@ -68,15 +68,15 @@
 
 'परिणाम' स्प्राइट का चयन करें। फिर `मेरे ब्लॉक्स`{:class="block3myblocks"} पर क्लिक करें, और फिर **एक ब्लाक बनाएँ** पर। एक नया ब्लॉक बनाएं और इसका नाम `जीवंत करें` {:class="block3myblocks"} रखें।
 
-![Result sprite](images/result-sprite.png)
+![परिणाम स्प्राइट](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![एक जीवंत करें नामक ब्लाक बनाएँ](images/brain-animate-function.png)
 
 \--- /task \---
 
 'परिणाम' स्प्राइट को `दिखाएँ`{:class="block3looks"} और `छिपाएँ`{:class="block3looks"} वाला कोड `जीवंत करें`{:class="block3looks"} वाले ब्लाक में विस्थापित करें:
 
-![Result sprite](images/result-sprite.png)
+![परिणाम स्प्राइट](images/result-sprite.png)
 
 ```blocks3
 जीवंत करें को परिभाषित करें
@@ -91,7 +91,7 @@
 
 फिर दोनों `पोशाक बदलें`{:class="block3looks"} ब्लॉक्स के नीचे `जीवंत करें`{:class="block3myblocks"} ब्लाक जोड़ें। आपका कोड अब इस तरह दिखना चाहिए:
 
-![Result sprite](images/result-sprite.png)
+![परिणाम स्प्राइट](images/result-sprite.png)
 
 ```blocks3
     जब मुझे प्राप्त हो [सही v]
@@ -115,7 +115,7 @@
 
 \--- task \--- 'टिक' और 'क्रॉस' पोशाक `दिखाने`{:class="block3looks"} और `छिपाने`{:class="block3looks"} की बजाए आप अपने `जीवंत करें`{:class="block3myblocks"} ब्लाक को बदल सकते हैं ताकि पोशाक फीकी पड़ते हुए विलुप्त हो जाए।
 
-![Result sprite](images/result-sprite.png)
+![परिणाम स्प्राइट](images/result-sprite.png)
 
 ```blocks3
     जीवंत करें को परिभाषित करें
