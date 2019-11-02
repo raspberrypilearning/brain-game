@@ -56,42 +56,42 @@
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+क्या आप देख सकते हैं कि बजाय खेल शुरू होने पर, जब हरी झंडी पर क्लिक किया जाता है तब टाइमर शुरू होता है?
 
 ![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+क्या आप टाइमर के लिए कोड बदल सकते हैं ताकि खिलाड़ी के बटन पर क्लिक करने पर टाइमर शुरू हो जाए?
 
 \--- /task \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- task \--- अपने बटन स्प्राइट में कोड जोड़ें ताकि प्रत्येक खेल के अंत में बटन फिर से दिखाई दे।
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    जब मुझे प्राप्त हो [अंत v]
+    दिखाएँ
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+कुछ गेम खेलकर 'खेलें' बटन का परीक्षण करें। प्रत्येक खेल के अंत में बटन दिखना चाहिए।
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+गेम को अधिक तेज़ी से जांचने के लिए, आप `समय`{:class="block3variables"} का माँ बदल सकते हैं ताकि प्रत्येक खेल केवल कुछ सेकंड लंबा हो।
 
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    [समय v] को [10] स्थिर करें
 ```
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- आप बदल सकते हैं कि जब माउस पॉइंटर बटन के ऊपर आता है तो बटन कैसे दिखता है ।
 
 ![Button](images/button-sprite.png)
 
