@@ -6,7 +6,7 @@
 
 'परिणाम' नामक एक नया स्प्राइट बनाएँ, और इसे 'टिक/चेक' और 'क्रॉस' पोशाक दें।
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![टिक और क्रॉस पोशाक के साथ स्प्राइट](images/brain-result.png)
 
 \--- /task \---
 
@@ -33,7 +33,7 @@
 
 अब आप इन संदेशों का उपयोग करके 'टिक' या 'क्रॉस' पोशाक `दिखाएँ` {:class="block3looks"}। निम्नलिखित कोड को 'परिणाम' स्प्राइट में जोड़ें:
 
-![Result sprite](images/result-sprite.png)
+![परिणाम स्प्राइट](images/result-sprite.png)
 
 ```blocks3
     जब मुझे प्राप्त हो [सही v]
@@ -113,22 +113,22 @@
 
 \--- /task \---
 
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+\--- task \--- 'टिक' और 'क्रॉस' पोशाक `दिखाने`{:class="block3looks"} और `छिपाने`{:class="block3looks"} की बजाए आप अपने `जीवंत करें`{:class="block3myblocks"} ब्लाक को बदल सकते हैं ताकि पोशाक फीकी पड़ते हुए विलुप्त हो जाए।
 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    जीवंत करें को परिभाषित करें
+    [घोस्ट v] इफ़ेक्ट को (100) स्थिर करें
+    दिखाएँ
+    दोहराएँ (25)
+        [घोस्ट v] इफेक्ट को (-4) से बदलें
+    अंत
+    छिपाएँ
 ```
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+क्या आप 'टिक' या 'क्रॉस' ग्राफिक्स के जीवंत करने की प्रक्रिया में सुधार कर सकते हैं? आप पोशाक को फीका पड़ते हुए छिपने का कोड भी जोड़ सकते हैं, या आप अन्य आकर्षिक प्रभावों का उपयोग कर सकते हैं:
 
 ![स्क्रीनशॉट](images/brain-effects.png)
