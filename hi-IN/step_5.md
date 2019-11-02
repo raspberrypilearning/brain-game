@@ -36,23 +36,23 @@
 ![पात्र स्प्राइट](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if <(answer) = ((number 1)*(number 2))> then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
-end
+<br />- जब झंडा क्लिक किया
++ जब मुझे प्राप्त हो [शुरू करें v ]
+[संख्या 1 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें 
+[संख्या 2 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें
+पूछें (जोड़ें (संख्या 1) (जोड़ें [x] (संख्या 2))) और प्रतीक्षा करें 
+यदि <(उत्तर) = ((संख्या 1) * (संख्या 2))> तो
+   कहें [हाँ! :)] (2) सेकंड के लिए
+अन्यथा
+   कहें [नहीं :(] (2) सेकंड के लिए
+अंत
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+हरे झंडे पर क्लिक करें, और फिर यह जाँच करने के लिए नए 'खेलें' बटन पर क्लिक करें कि यह काम कर रहा है। आपको यह दिखना चाहिए कि बटन पर क्लिक करने से पहले खेल शुरू नहीं होता है।
 
 \--- /task \---
 
