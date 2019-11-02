@@ -27,9 +27,9 @@
 
 नए कोड में एक और `प्रसारण` {:class="block3events"} ब्लॉक शामिल है, जो 'प्रारंभ' संदेश भेजता है।
 
-जब खिलाड़ी ध्वज पर क्लिक करता है तो नया कोड 'खेलें' बटन स्प्राइट शो करता है। When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+जब खिलाड़ी ध्वज पर क्लिक करता है तो नया कोड 'खेलें' बटन स्प्राइट शो करता है। जब खिलाड़ी बटन स्प्राइट पर क्लिक करता है, तो स्प्राइट छिप जाता है और फिर एक संदेश प्रसारित करता है जिस पर अन्य स्प्राइट प्रतिक्रिया कर सकते हैं।
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+अब, खिलाड़ी के झंडे पर क्लिक करते ही चरित्र स्प्राइट सवाल पूछना शुरू कर देता है। अपने गेम के कोड को बदलें ताकि जब चरित्र स्प्राइट को 'शुरू करें' `प्रसारित करें`{:class="block3events"} प्राप्त हो तो वो सवाल पूछना शुरू करे।
 
 \--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
 
