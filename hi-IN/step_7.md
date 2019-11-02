@@ -75,15 +75,15 @@
 
 \--- /task \---
 
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+'परिणाम' स्प्राइट को `दिखाएँ`{:class="block3looks"} और `छिपाएँ`{:class="block3looks"} वाला कोड `जीवंत करें`{:class="block3looks"} वाले ब्लाक में विस्थापित करें:
 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+जीवंत करें को परिभाषित करें
+दिखाएँ
+(1) सेकंड प्रतीक्षा करें
+छिपाएँ
 ```
 
 \--- /task \---
