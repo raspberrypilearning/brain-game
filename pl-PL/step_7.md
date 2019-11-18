@@ -6,19 +6,18 @@ W tej chwili duszek postaci po prostu mówi `tak! :)` lub `nie :(` na odpowiedzi
 
 Utwórz nowy duszek o nazwie „Wynik” i nadaj mu kostium „zaznaczony/sprawdzony” oraz „krzyżyk”.
 
-![Duszek z kostiumami "zaznaczony" i "krzyżyk"](images/brain-result.png)
+![Duszek z kostiumami „zaznaczony” i „krzyżyk”](images/brain-result.png)
 
 \--- /task \---
 
 \--- task \---
 
-Zmień kod duszka postaci, aby zamiast mówić coś graczowi, `nadawał komunikat`{:class="block3events"} „poprawnie” lub „niepoprawnie”.
+Zmień kod duszka postaci, aby zamiast mówić coś graczowi, `nadawał komunikat`{:class="block3events"} „dobrze” lub „źle”.
 
 ![Duszek postaci](images/giga-sprite.png)
 
 ```blocks3
 jeżeli <(odpowiedź) = ((liczba 1) * (liczba 2))> to
-
 - powiedz [tak! :)] przez (2) sekund
 + nadaj komunikat (poprawnie v)
 w przeciwnym razie
@@ -36,13 +35,13 @@ Teraz możesz użyć tych komunikatów do `pokazania`{:class="block3looks"} kost
 ![Duszek wyniku](images/result-sprite.png)
 
 ```blocks3
-    kiedy otrzymam [poprawnie v]
+    kiedy otrzymam [dobrze v]
     zmień kostium na (zaznaczony v)
     pokaż
     czekaj (1) sekund
     ukryj
 
-    kiedy otrzymam [niepoprawnie v]
+    kiedy otrzymam [źle v]
     zmień kostium na (krzyżyk v)
     pokaż
     czekaj (1) sekund
@@ -54,15 +53,15 @@ Teraz możesz użyć tych komunikatów do `pokazania`{:class="block3looks"} kost
 
 \--- /task \---
 
-\--- task \--- Ponownie przetestuj grę. Powinieneś zobaczyć tyknięcie, gdy odpowiesz poprawnie na pytanie, a krzyżyk, gdy odpowiesz niepoprawnie!
+\--- task \--- Ponownie przetestuj grę. Gdy odpowiesz poprawnie na pytanie, powinien się pokazaż „ptaszek” i „krzyżyk”, gdy odpowiesz źle!
 
 ![Zaznaczony dla poprawnej, krzyżyk dla złej odpowiedzi](images/brain-test-answer.png)
 
 \--- /task \---
 
-Czy widzisz, że kod `kiedy otrzymam [poprawnie]`{:class="block3events"} i `kiedy otrzymam [niepoprawnie]`{:class="block3events"} jest prawie identyczny?
+Czy widzisz, że kod `kiedy otrzymam [dobrze]`{:class="block3events"} i `kiedy otrzymam [źle]`{:class="block3events"} jest prawie identyczny?
 
-Aby łatwiej zmienić kod, utworzysz niestandardowy blok.
+Utwórz własny blok, aby uprościć swój kod.
 
 \--- task \---
 
@@ -94,22 +93,23 @@ Następnie dodaj blok `animacja`{:class="block3myblocks"} poniżej obu bloków `
 ![Duszek wyniku](images/result-sprite.png)
 
 ```blocks3
-    kiedy otrzymam [poprawnie v]
-    zmień kostium na (zaznaczony v)
-    animacja:: własna
+    
+kiedy otrzymam [poprawnie v]
+zmień kostium na (zaznaczony v)
+animacja:: własna
 
-    kiedy otrzymam [niepoprawnie v]
-    zmień kostium na (krzyżyk v)
-    animacja:: własna
+kiedy otrzymam [niepoprawnie v]
+zmień kostium na (krzyżyk v)
+animacja:: własna
 ```
 
 \--- /task \---
 
-Ze względu na niestandardowy blok `animacja`{:class="block3myblocks}, musisz tylko dokonać jednej zmiany w kodzie, jeśli chcesz pokazać kostiumy duszka "Wynik" na dłuższy lub krótszy czas.
+Dzięki niestandardowemu blokowi `animacja`{:class="block3myblocks} do zmiany czasu przez jaki wyświetlany będzie kostium duszka „Wynik” wystarczy tylko pojedyncza zmiany w kodzie.
 
 \--- task \---
 
-Zmień swój kod, tak aby wyświetlał kostiumy "zaznaczony" lub "krzyżyk" przez 2 sekundy.
+Zmień swój kod, tak aby wyświetlał kostiumy „zaznaczony” lub „krzyżyk” przez 2 sekundy.
 
 \--- /task \---
 
@@ -129,6 +129,6 @@ Zmień swój kod, tak aby wyświetlał kostiumy "zaznaczony" lub "krzyżyk" prze
 
 \--- /task \---
 
-Czy możesz poprawić animację grafiki „zaznaczony” lub „krzyżyk”? Możesz dodać kod, aby kostiumy również zanikały, lub możesz użyć innych fajnych efektów:
+Czy jesteś w stanie poprawić animację grafiki „zaznaczony” lub „krzyżyk”? Spróbuj dodać kod, dzięki któremu kostiumy również zanikały, albo wypróbuj inne fajne efekty:
 
 ![zrzut ekranu](images/brain-effects.png)
