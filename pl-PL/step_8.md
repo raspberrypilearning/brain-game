@@ -1,13 +1,13 @@
 ## Wyzwanie: dźwięk i muzyka
 
-Czy możesz dodać efekty dźwiękowe i muzykę do swojej gry? Na przykład możesz mieć swoją grę:
+Dodaj efekty dźwiękowe i muzykę do swojej gry. Możesz, na przykład, dodać następujące dźwięki:
 
-+ Odtwórz dźwięk, gdy gracz poda prawidłową lub niepoprawną odpowiedź
-+ Odtwórz tykający dźwięk, gdy działa minutnik
-+ Odtwórz dźwięk, gdy czas gracza się skończy
++ sygnał, gdy gracz poda dobrą lub złą odpowiedź,
++ dźwięk tykania zegara, gdy działa licznik czasu,
++ dźwięk, gdy upłynie czas gry.
 
 ```blocks3
-    odtwarzaj dźwięk (pop v), aż się skończy
+    graj dźwięk (pop v) aż się skończy
 ```
 
 Twoja gra może również stale odtwarzać muzykę w tle w pętli.
