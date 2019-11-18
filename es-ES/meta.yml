@@ -14,7 +14,7 @@ steps:
   - 
     title: 'Desafío: Cambiar disfraces'
   - 
-    title: 'Desafío: Añadir una puntuación'
+    title: 'Desafío: Añadir una puntuación y reacciones'
     challenge: true
   - 
     title: Múltiples juegos
@@ -24,13 +24,13 @@ steps:
   - 
     title: Añadir gráficos
   - 
-    title: 'Desafío: Animación mejorada'
-    challenge: true
-  - 
     title: 'Desafío: Sonido y música'
     challenge: true
   - 
     title: 'Desafío: Carrera hasta 10 puntos'
+    challenge: true
+  - 
+    title: 'Desafío: Pantalla de instrucciones'
     challenge: true
   - 
     title: 'Desafío: más colores'
