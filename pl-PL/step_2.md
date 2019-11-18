@@ -28,7 +28,7 @@ Jeśli musisz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [
 
 --- /task ---
 
---- task --- Dodaj kod do duszka swojej postaci, aby ustawić obie `zmienne`{:class="block3variables"} na `losowe`{class="block3operators"} liczby z zakresu od 2 do 12.
+--- task --- Dodaj kod do duszka swojej postaci, aby ustawić obie `zmienne`{:class="block3variables"} na `losowe`{:class="block3operators"} liczby z zakresu od 2 do 12.
 
 ![zrzut ekranu](images/giga-sprite.png)
 
@@ -49,9 +49,9 @@ kiedy kliknięto zieloną flagę
 ustaw [liczba 1 v] na (losuj liczbę od (2) do (12))
 ustaw [liczba 2 v] na (losuj liczbę od (2) do (12))
 + zapytaj (połącz (liczba 1) i (połącz [ x ] i (liczba 2))) i czekaj
-+ jeżeli <(odpowiedź) = ((liczba 1) * (liczba 2))> to
-+ powiedz [tak!] przez 2 sekund 
-+ w przeciwnym razie
++ jeżeli <(odpowiedź) = ((liczba 1) * (liczba 2))> to 
++ powiedz [tak! :)] przez (2) sekund
++ w przeciwnym razie 
 + powiedz [nie :(] przez (2) sekund
 + koniec
 ```
@@ -85,14 +85,13 @@ koniec
 
 ```blocks3
 kiedy kliknięto zieloną flagę
-
-+ zawsze
-    ustaw [liczba1 v] na (losuj liczbę od (2) do (12))
++ zawsze 
+    ustaw [liczba 1 v] na (losuj liczbę od (2) do (12))
     ustaw [liczba 2 v] na (losuj liczbę od (2) do (12))
-    zapytaj (połącz (liczba 1) (połącz [x] (liczba 2)) i czekaj
-    jeżeli <(odpowiedź) = ((liczba 1) * (liczba 2))> to
-        powiedz [tak!] przez (2) sekund 
-    w przeciwnym razie
+    zapytaj (połącz (liczba 1) i (połącz [ x ] i (liczba 2))) i czekaj
+    jeżeli <(odpowiedź) = ((liczba 1) * (liczba 2))> to 
+        powiedz [tak! :)] przez (2) sekund
+    w przeciwnym razie 
         powiedz [nie :(] przez (2) sekund
     koniec
 koniec

@@ -47,7 +47,7 @@ Teraz możesz użyć tych komunikatów do `pokazania`{:class="block3looks"} kost
     czekaj (1) sekund
     ukryj
 
-    kiedy zielona flaga kliknięta
+    kkiedy kliknięto zieloną flagę
     ukryj
 ```
 
@@ -96,16 +96,16 @@ Następnie dodaj blok `animacja`{:class="block3myblocks"} poniżej obu bloków `
     
 kiedy otrzymam [poprawnie v]
 zmień kostium na (zaznaczony v)
-animacja:: własna
+animacja:: custom
 
 kiedy otrzymam [niepoprawnie v]
 zmień kostium na (krzyżyk v)
-animacja:: własna
+animacja:: custom
 ```
 
 --- /task ---
 
-Dzięki niestandardowemu blokowi `animacja`{:class="block3myblocks} do zmiany czasu przez jaki wyświetlany będzie kostium duszka „Wynik” wystarczy tylko pojedyncza zmiany w kodzie.
+Dzięki niestandardowemu blokowi `animacja`{:class="block3myblocks"} do zmiany czasu przez jaki wyświetlany będzie kostium duszka „Wynik” wystarczy tylko pojedyncza zmiany w kodzie.
 
 --- task ---
 
@@ -118,13 +118,13 @@ Zmień swój kod, tak aby wyświetlał kostiumy „zaznaczony” lub „krzyżyk
 ![Duszek wyniku](images/result-sprite.png)
 
 ```blocks3
-    definiuj animacja
-    ustaw efekt [duch v] na (100)
-    pokaż
-    powtórz (25)
-        zmień efekt [duch v] przez (-4)
-    koniec
-    ukryj
+definiuj animacja
+ustaw efekt [duch v] na (100)
+pokaż
+powtarzaj (25) 
+  zmień efekt [duch v] o (-4)
+koniec
+ukryj
 ```
 
 --- /task ---

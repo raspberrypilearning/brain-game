@@ -25,26 +25,26 @@ kiedy ten duszek kliknięty
 
 --- /task ---
 
-Nowy kod zawiera kolejny blok `nadaj komunikat`{:class="block3events}, który wysyła komunikat „start”.
+Nowy kod zawiera kolejny blok `nadaj komunikat`{:class="block3events"}, który wysyła komunikat „start”.
 
 Nowy kod sprawia, że duszek „Graj” pojawia się, gdy gracz kliknie zieloną flagę. Gdy gracz kliknie przycisk duszka, duszek ukrywa się, a następnie wysyła komunikat, na który inne duszki mogą zareagować.
 
-W tej chwili duszek postaci zaczyna zadawać pytania, gdy gracz kliknie flagę. Zmień kod swojej gry, aby duszek postaci zaczynał zadawać pytania, gdy `otrzyma komunikat „start”`{:class="block3events"}.
+W tej chwili duszek postaci zaczyna zadawać pytania, gdy gracz kliknie flagę. Zmień kod swojej gry, aby duszek postaci zaczynał zadawać pytania, gdy `otrzyma komunikat`{:class="block3events"} „start”.
 
 --- task --- Wybierz swojego duszka postaci i w sekcji jego kodu, zamień blok `kiedy kliknięto zieloną flagę`{:class="block3events"} na blok `kiedy otrzymam wiadomość`{:class="block3events"}.
 
 ![Duszek postaci](images/giga-sprite.png)
 
 ```blocks3
-<br />- kiedy kliknięto zieloną flagę
+- kiedy kliknięto zieloną flagę
 + kiedy otrzymam [start v]
 ustaw [liczba 1 v] na (losuj liczbę od (2) do (12))
 ustaw [liczba 2 v] na (losuj liczbę od (2) do (12))
-zapytaj (połącz (liczba 1)(połącz [ x ] i (liczba 2))) i czekaj
-jeżeli <(odpowiedź) = ((liczba 1) * (liczba 2))> to
-    powiedz [tak!] przez 2 sekund 
-w przeciwnym razie
-    powiedz [niestety :(] przez (2) sekund
+zapytaj (połącz (liczba 1) i (połącz [ x ] i (liczba 2))) i czekaj
+jeżeli <(odpowiedź) = ((liczba 1) * (liczba 2))> to 
+  powiedz [tak! :)] przez (2) sekund
+w przeciwnym razie 
+  powiedz [niestety :(] przez (2) sekund
 koniec
 ```
 
