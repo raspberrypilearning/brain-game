@@ -47,7 +47,7 @@ Teraz możesz użyć tych komunikatów do `pokazania`{:class="block3looks"} kost
     czekaj (1) sekund
     ukryj
 
-    kkiedy kliknięto zieloną flagę
+    kiedy kliknięto zieloną flagę
     ukryj
 ```
 
