@@ -25,8 +25,8 @@ En este proyecto crearás una prueba de matemáticas en la que el jugador tenga 
 
 ## title: Lo que vas a aprender
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Cómo enviar mensajes globales en Scratch
++ Cómo crear y utilizar bloques de Scratch personalizados
 
 \--- /collapse \---
 
@@ -46,10 +46,10 @@ En este proyecto crearás una prueba de matemáticas en la que el jugador tenga 
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Información adicional para educadores
 
-\--- no-print \--- If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \--- Si necesitas imprimir este proyecto usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/brain-game/print) \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Puedes encontrar [el proyecto completo aquí](http://rpf.io/p/en/brain-game-get){:target ="_blank"}.
 
 \--- /collapse \---
