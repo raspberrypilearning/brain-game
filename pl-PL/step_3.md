@@ -1,16 +1,16 @@
 ## Dodaj licznik czasu
 
-\--- task \--- Utwórz minutnik na scenie za pomocą nowej zmiennej o nazwie `czas`{:class="block3variables"}. Licznik powinien rozpoczynać się na 30 sekundach i odliczać do 0 sekund.
+\--- task \--- Utwórz licznik czasu na scenie za pomocą nowej zmiennej o nazwie `czas`{:class="block3variables"}. Licznik powinien rozpoczynać się na 30 sekundach i odliczać do 0 sekund.
 
 ![Duszek sceny](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Utwórz `zmienną`{:class="block3variables"}, nazwij ją "czas" i ustaw jej wartość na `30`.
+Utwórz `zmienną`{:class="block3variables"}, nazwij ją „czas” i ustaw jej wartość na `30`.
 
-Następnie dodaj kod, aby liczyć `czas`{:class="block3variables"} do 0 w ciągu 30 sekund. Aby to zrobić, odejmuj `1` od zmiennej `czas`{:class="block3variables"} co `1` sekund, i powtarzaj to do chwili gdy `czas`{:class="block3variables"} jest równy `0`.
+Następnie dodaj kod, aby odliczać `czas`{:class="block3variables"} do 0 w ciągu 30 sekund. Aby to zrobić, odejmuj `1` od zmiennej `czas`{:class="block3variables"} co `1` sekundę i powtarzaj to do chwili gdy `czas`{:class="block3variables"} jest równy `0`.
 
-\--- /hint \--- \--- hint \--- poniżej masz bloki, których będziesz potrzebować:
+\--- /hint \--- \--- hint \--- poniżej masz bloczki, których będziesz potrzebować:
 
 ```blocks3
 powtarzaj aż < >
@@ -19,7 +19,7 @@ koniec
 
 czekaj (1) sekund
 
-zmień [czas v] o (1)
+zmień [czas v] o (-1)
 
 (czas)
 
@@ -27,7 +27,7 @@ kiedy kliknięto zieloną flagę
 
 <() = ()>
 
-ustaw [czas v] na [0]
+ustaw [czas v] na [30]
 ```
 
 \--- /hint \--- \--- hint \--- Oto jak powinien wyglądać twój nowy kod:
@@ -47,7 +47,7 @@ koniec
 
 \--- task \---
 
-Utwórz `nadawanie komunikatu`{:class="block3control"}, które wyśle komunikat "koniec". `Nadawanie komunikatu`{: class="block3control"} jest jak zapowiedź przez głośnik: może być słyszalne przez wszystkie twoje duszki. Dodaj blok `nadaj komunikat`{:class="block3control"} na końcu kodu minutnika, aby kod wysłał komunikat "koniec", gdy `czas`{:class="block3variables"} odliczył do `0`.
+Utwórz `nadawanie komunikatu`{:class="block3control"}, które wyśle komunikat „koniec”. `Nadawanie komunikatu`{: class="block3control"} jest jak zapowiedź przez głośnik: będzie usłyszane przez wszystkie duszki. Dodaj blok `nadaj komunikat`{:class="block3control"} na końcu kodu licznika czasu, aby kod wysłał komunikat "koniec", gdy `czas`{:class="block3variables"} odliczył do `0`.
 
 ![Duszek sceny](images/stage-sprite.png)
 
@@ -70,6 +70,6 @@ zatrzymaj [inne skrypty duszka v]
 
 \--- task \---
 
-Sprawdź swoją grę ponownie. Powinien nadal zadawać pytania, aż licznik odlicza do zera.
+Sprawdź swoją grę ponownie. Pytania powiiny być zadawane, aż licznik odlicza do zera.
 
 \--- /task \---
