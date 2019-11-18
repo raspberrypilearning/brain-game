@@ -3,16 +3,16 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Tabliczka mnożenia
-description: Dowiedz się, jak utworzyć quiz
+description: Dowiedz się jak utworzyć quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
     title: Wprowadzenie
   - 
-    title: Twórz pytania
+    title: Utwórz pytania
   - 
-    title: Dodawanie stopera
+    title: Dodaj licznik czasu
   - 
     title: 'Wyzwanie: dodaj wynik i reakcje'
     challenge: true
