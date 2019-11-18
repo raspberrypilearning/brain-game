@@ -1,15 +1,15 @@
 ## Desafío: Sonido y música
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+¿Puedes cambiar tu juego de manera que en vez de contestar tantas preguntas como pueda en 30 segundos el jugador tenga que contestar 10 preguntas tan rápido como pueda?
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+Para hacerlo solo tienes que cambiar el código del cronómetro. ¿Ves qué bloques tienen que ser diferentes?
 
 ```blocks3
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) seconds
-        change [time v] by (-1)
-    end
-    broadcast (end v)
+    al recibir [empezar v]
+    dar a [tiempo v] el valor (30)
+    repetir hasta que <(tiempo) = [0]>
+        esperar (1) segundos
+        sumar a [tiempo v] (-1)
+    fin
+    enviar (final v)
 ```
