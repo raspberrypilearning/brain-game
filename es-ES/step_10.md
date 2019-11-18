@@ -1,11 +1,11 @@
 ## Desafío: Carrera hasta 10 puntos
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+¿Puedes añadir una pantalla de instrucciones que le explique al jugador cómo jugar? Para ésto necesitarás un botón de "Instrucciones" y otro fondo para el Escenario.
 
 ![captura de pantalla](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+Puede que también necesites un botón "Atrás" que le permita al jugador volver a la pantalla de inicio.
 
 ```blocks3
-    broadcast (start screen v)
+    enviar (pantalla de inicio v)
 ```
