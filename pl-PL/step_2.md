@@ -1,4 +1,4 @@
-## Twórz pytania
+## Utwórz pytania
 
 Zaczniesz od stworzenia losowych pytań, na które gracz musi odpowiedzieć.
 
@@ -20,7 +20,7 @@ Jeśli musisz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [
 
 \--- /task \---
 
-\--- task \--- Upewnij się, że wybrałeś duszka postaci. Utwórz dwie nowe zmienne, o nazwie `liczba 1`{:class="block3variables"} i `liczba 2`{:class="block3variables"}, aby przechowywać numery pytań do quizów.
+\--- task \--- Upewnij się, że wybrałeś duszka postaci. Utwórz dwie nowe zmienne, o nazwie `liczba 1`{:class="block3variables"} i `liczba 2`{:class="block3variables"}, aby przechowywać liczby na potrzeby quizu.
 
 ![zrzut ekranu](images/giga-sprite.png) ![zrzut ekranu](images/brain-variables.png)
 
@@ -28,7 +28,7 @@ Jeśli musisz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [
 
 \--- /task \---
 
-\--- task \--- Dodaj kod do duszka swojej postaci, aby ustawić obie `zmienne`{:class="block3variables"} na `losowe`{class="block3operators"} z zakresu od 2 do 12.
+\--- task \--- Dodaj kod do duszka swojej postaci, aby ustawić obie `zmienne`{:class="block3variables"} na `losowe`{class="block3operators"} liczby z zakresu od 2 do 12.
 
 ![zrzut ekranu](images/giga-sprite.png)
 
@@ -48,7 +48,6 @@ ustaw [liczba 2 v] na (losuj liczbę od (2) do (12))
 kiedy kliknięto zieloną flagę
 ustaw [liczba 1 v] na (losuj liczbę od (2) do (12))
 ustaw [liczba 2 v] na (losuj liczbę od (2) do (12))
-
 + zapytaj (połącz (liczba 1) i (połącz [ x ] i (liczba 2))) i czekaj
 + jeżeli <(odpowiedź) = ((liczba 1) * (liczba 2))> to
 + powiedz [tak!] przez 2 sekund 
@@ -61,13 +60,13 @@ ustaw [liczba 2 v] na (losuj liczbę od (2) do (12))
 
 \--- task \---
 
-Przetestuj swój projekt dwa razy: odpowiedz jedno pytanie poprawnie, a drugi niepoprawnie.
+Przetestuj swój projekt dwa razy: odpowiedz na jedno pytanie poprawnie, a drugie błędnie.
 
 \--- /task \---
 
 \--- task \---
 
-Dodaj pętlę `zawsze`{:class="block3control"} wokół tego kodu, tak, aby gra zadawała graczowi wiele pytań z rzędu.
+Otocz swój kod pętlą `zawsze`{:class="block3control"}, tak, aby gra zadawała graczowi wiele pytań z rzędu.
 
 \--- hints \--- \--- hint \---
 
@@ -77,6 +76,7 @@ Musisz dodać blok pętli `zawsze`{:class="block3control"} i umieścić w nim ca
 
 ```blocks3
 zawsze
+
 koniec
 ```
 
