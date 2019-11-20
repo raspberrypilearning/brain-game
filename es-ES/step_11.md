@@ -1,4 +1,4 @@
-## Desafío: más colores
+## Y ahora ¿qué?
 
 ¡Prueba el proyecto [Atrapa los puntos](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) para crear un juego de velocidad de reacción! En ese proyecto aprenderás a hacer clones de objetos y a usar variables para incrementar la velocidad del juego gradualmente.
 
