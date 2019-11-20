@@ -23,7 +23,7 @@ En este proyecto crearás una prueba de matemáticas en la que el jugador tenga 
 
 ## \--- collapse \---
 
-## title: Lo que vas a aprender
+## title: Lo que aprenderás
 
 + Cómo enviar mensajes globales en Scratch
 + Cómo crear y utilizar bloques de Scratch personalizados
@@ -32,11 +32,11 @@ En este proyecto crearás una prueba de matemáticas en la que el jugador tenga 
 
 ## \--- collapse \---
 
-## title: Lo que vas a necesitar
+## title: Lo que necesitarás
 
 ### Hardware
 
-+ Una computadora capaz de hacer correr Scratch 3
++ Un ordenador capaz de correr Scratch 3
 
 ### Software
 
