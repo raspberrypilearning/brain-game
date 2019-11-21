@@ -1,4 +1,4 @@
-## Desafío: Añadir una puntuación
+## Desafío: Añadir una puntuación y reacciones
 
 ¿Puedes añadir una puntuación a tu juego?
 
