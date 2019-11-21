@@ -71,7 +71,7 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- hints \--- \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+你需要添加一个`forever`{:class="block3control"}模块，然后把除了`when flag clicked`{:class="block3control"}模块的其它所有模块都放入其中。
 
 \--- /hint \--- \--- hint \--- 以下是您需要的代码块：
 
@@ -80,7 +80,7 @@ forever
 end
 ```
 
-\--- /hint \--- \--- hint \--- Here is what your code should look like:
+\--- /hint \--- \--- hint \--- 你的代码应该是这个样子：
 
 ```blocks3
 when flag clicked
