@@ -30,7 +30,7 @@
 
 \--- task \--- 为你的角色精灵添加代码以设置两个`变量` {：class =“ block3variables”}为2到12之间的`随机` {：class =“ block3operators”}数字。
 
-![screenshot](images/giga-sprite.png)
+![截屏](images/giga-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -40,9 +40,9 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- /task \---
 
-\--- task \--- Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+\--- task \--- 在`ask`{:class="block3sensing"} 模块中添加代码以向玩家询问答案，无论回答正确还是错误，都添加`say for 2 seconds`{:class="block3looks"}模块。
 
-![screenshot](images/giga-sprite.png)
+![截屏](images/giga-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -61,7 +61,7 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+测试你的项目两次：正确回答一个问题，错误回答另一个问题。
 
 \--- /task \---
 
