@@ -1,4 +1,4 @@
-## Desafío: Sonido y música
+## Desafío: Carrera hasta 10 puntos
 
 ¿Puedes cambiar tu juego de manera que en vez de contestar tantas preguntas como pueda en 30 segundos el jugador tenga que contestar 10 preguntas tan rápido como pueda?
 
