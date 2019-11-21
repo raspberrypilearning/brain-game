@@ -131,4 +131,4 @@ Cambia tu código para que se muestren los disfraces de "tick" y "cruz" durante 
 
 ¿Puedes mejorar los gráficos de la animación del "tick" o de la "cruz"? Podrías añadir código para hacer que los disfraces también desaparezcan gradualmente o puedes usar estos otros efectos chulos:
 
-![captura de pantalla](images/brain-effects.png)
+![screenshot](images/brain-effects.png)
