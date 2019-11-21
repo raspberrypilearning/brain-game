@@ -20,7 +20,7 @@
 
 \--- /task \---
 
-\--- task \--- 确保你拥有选择的角色精灵。 创建两个新变量，命名为`数字1 ` {:class =“block3variables”}和`数字2 ` {:class =“block3variables”}，用于存储测验题目的数字。
+\--- task \--- 确保你已选中你的角色精灵。 创建两个新变量，命名为`number1 ` {:class =“block3variables”}和`number2 ` {:class =“block3variables”}，用于存储测验题目的数字。
 
 ![截图](images/giga-sprite.png) ![截图](images/brain-variables.png)
 
@@ -28,7 +28,7 @@
 
 \--- /task \---
 
-\--- task \--- Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+\--- task \--- 为你的角色精灵添加代码以设置两个`变量` {：class =“ block3variables”}为2到12之间的`随机` {：class =“ block3operators”}数字。
 
 ![screenshot](images/giga-sprite.png)
 
