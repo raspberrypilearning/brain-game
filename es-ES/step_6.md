@@ -1,4 +1,4 @@
-## Desafío: Pantalla de inicio
+## Desafío: Crear una pantalla de inicio
 
 ¿Puedes añadir otro fondo que sea la pantalla de inicio de tu juego?
 
