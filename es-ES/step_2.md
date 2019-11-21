@@ -16,13 +16,13 @@ Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrar
 
 \--- task \--- Añade un objeto de personaje y un fondo para tu juego. ¡Puedes escoger el que quieras! Aquí tienes un ejemplo:
 
-![captura de pantalla](images/brain-setting.png)
+![screenshot](images/brain-setting.png)
 
 \--- /task \---
 
 \--- task \--- Asegúrate de tener tu objeto de personaje seleccionado. Crea dos nuevas variables llamadas `número 1`{:class="block3variables"} y `número 2`{:class="block3variables"} para almacenar los número para las preguntas del test.
 
-![screenshot](images/giga-sprite.png) ![captura de pantalla](images/brain-variables.png)
+![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -30,7 +30,7 @@ Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrar
 
 \--- task \--- Añade código a tu objeto de personaje para dar a tus dos `variables`{:class="block3variables"} un número `aleatorio`{:class="block3operators"} entre 2 y 12.
 
-![captura de pantalla](images/giga-sprite.png)
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 al hacer clic en la bandera verde
@@ -42,7 +42,7 @@ dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
 
 \--- task \--- Añade código para `preguntar`{:class="block3sensing"} al jugador por la respuesta. Después, hay que `decir durante 2 segundos`{:class="block3looks"} si la respuesta ha sido correcta o errónea:
 
-![captura de pantalla](images/giga-sprite.png)
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 al hacer clic en la bandera verde
