@@ -1,4 +1,4 @@
-## Desafío: Animación mejorada
+## Desafío: Sonido y música
 
 ¿Puedes añadir efectos de sonido y música a tu juego? Por ejemplo, podrías hacer que tu juego:
 
