@@ -67,13 +67,13 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+对这段代码添加一个`forever`{:class="block3control"}循环，这样游戏就会连续询问玩家更多问题。
 
 \--- hints \--- \--- hint \---
 
 You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
 
-\--- /hint \--- \--- hint \--- Here is the block you need:
+\--- /hint \--- \--- hint \--- 以下是您需要的代码块：
 
 ```blocks3
 forever
