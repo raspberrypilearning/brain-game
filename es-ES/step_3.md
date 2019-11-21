@@ -8,7 +8,7 @@
 
 Crea una `variable`{:class="block3variables"}, llámala "tiempo" y dale el valor `30`.
 
-Después añade código para hacer que el valor de `tiempo`{:class="block3variables"} vaya decrezca hasta 0 en 30 segundos. Para hacerlo, réstale `1` a `tiempo`{:class="block3variables"} cada `1` segundo. Repítelo hasta que `tiempo`{:class="block3variables"} sea igual a `0`.
+Después añade código para hacer que el valor de `tiempo`{:class="block3variables"} decrezca hasta 0 en 30 segundos. Para hacerlo, réstale `1` a `tiempo`{:class="block3variables"} cada `1` segundo. Repítelo hasta que `tiempo`{:class="block3variables"} sea igual a `0`.
 
 \--- /hint \--- \--- hint \--- Necesitarás estos bloques:
 
@@ -62,8 +62,8 @@ Crea una `transmisión`{:class="block3control"} que envíe el mensaje "terminar"
 ![Objeto de Giga](images/giga-sprite.png)
 
 ```blocks3
-    al recibir [end v]
-    parar [other scripts in sprite v]
+    al recibir [terminar v]
+    detener[otros programas en el objeto v]
 ```
 
 \--- /task \---
