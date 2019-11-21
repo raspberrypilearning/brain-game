@@ -1,4 +1,4 @@
-## Múltiples juegos
+## Varias partidas
 
 Vas a añadir un botón para comenzar la partida en el que ponga "Jugar" para que se pueda jugar muchas veces.
 
