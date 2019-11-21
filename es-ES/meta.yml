@@ -3,7 +3,7 @@ hero_image: imagenes/juego-mental.png
 listed: true
 copyedit: false
 title: Juego mental
-description: Aprende cómo crear una prueba
+description: Aprende a crear un examen
 version: 3
 last_tested: 2018-10-03
 steps:
@@ -12,14 +12,14 @@ steps:
   - 
     title: Crear preguntas
   - 
-    title: 'Desafío: Cambiar disfraces'
+    title: Añadir un cronómetro
   - 
     title: 'Desafío: Añadir una puntuación y reacciones'
     challenge: true
   - 
-    title: Múltiples juegos
+    title: Varias partidas
   - 
-    title: 'Desafío: Pantalla de inicio'
+    title: 'Desafío: Crear una pantalla de inicio'
     challenge: true
   - 
     title: Añadir gráficos
@@ -33,4 +33,4 @@ steps:
     title: 'Desafío: Pantalla de instrucciones'
     challenge: true
   - 
-    title: 'Desafío: más colores'
+    title: Y ahora ¿qué?
