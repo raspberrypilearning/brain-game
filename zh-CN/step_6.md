@@ -6,6 +6,6 @@
 
 当游戏背景切换时，你可以使用`show`{:class="block3looks"}与`hide`{:class="block3looks"}代码块来显示或隐藏角色。
 
-当游戏背景切换时，你可以使用`show`{:class="block3looks"}与`hide`{:class="block3looks"}代码块来显示或隐藏计时器和分数。
+当游戏背景切换时，你可以使用`show variable`{:class="block3looks"}与`hide variable`{:class="block3looks"}代码块来显示或隐藏计时器和分数。
 
-![Start screen](images/brain-startscreen.png)
+![开始界面](images/brain-startscreen.png)
