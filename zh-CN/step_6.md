@@ -1,11 +1,11 @@
-## Challenge: create a start screen
+## 挑战：创建开始画面
 
-Can you add another backdrop that is going to be the start screen for your game?
+您可以添加另一个背景作为您的游戏的开始界面吗？
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+你可以用`when I receive start`{:class="block3events"} 与`when I receive end`{:class="block3events"} 代码块来切换背景。
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+当游戏背景切换时，你可以使用`show`{:class="block3looks"}与`hide`{:class="block3looks"}代码块来显示或隐藏角色。
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+当游戏背景切换时，你可以使用`show`{:class="block3looks"}与`hide`{:class="block3looks"}代码块来显示或隐藏计时器和分数。
 
 ![Start screen](images/brain-startscreen.png)
