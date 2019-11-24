@@ -47,7 +47,7 @@ end
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+创建一个`broadcast` {:class =“ block3control”}发送消息“end”。 `broadcast` {：class =“ block3control”}就像是通过扬声器发出的公告：您的所有精灵都可以听到。 在计时器代码的后面添加`broadcast`{:class="block3control"}代码块，这样当`time`{:class="block3variables"}减至`0`时就能发出“end”消息。
 
 ![Stage sprite](images/stage-sprite.png)
 
