@@ -2,7 +2,7 @@
 
 \--- task \--- 创建一个新变量名为`time`{:class="block3variables"}，以此在舞台中创建一个倒计时器。计时器应从30秒开始减至0秒。
 
-![Stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -49,7 +49,7 @@ end
 
 创建一个`broadcast` {:class =“ block3control”}发送消息“end”。 `broadcast` {：class =“ block3control”}就像是通过扬声器发出的公告：您的所有精灵都可以听到。 在计时器代码的后面添加`broadcast`{:class="block3control"}代码块，这样当`time`{:class="block3variables"}减至`0`时就能发出“end”消息。
 
-![Stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 ```blocks3
     broadcast (end v)
@@ -57,9 +57,9 @@ end
 
 \--- /task \---
 
-\--- task \--- Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+\--- task \--- 选择您的角色精灵并添加一些代码，以使精灵`停止其他脚本` {：class =“ block3control”}当它收到`end` {：class =“ block3control”}消息。
 
-![Giga sprite](images/giga-sprite.png)
+![Giga精灵](images/giga-sprite.png)
 
 ```blocks3
     when I receive [end v]
@@ -70,6 +70,6 @@ end
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+再次测试您的游戏。它应该继续提出问题，直到计时器倒数至0。
 
 \--- /task \---
