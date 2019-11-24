@@ -1,4 +1,4 @@
-## Add a timer
+## 添加计时器
 
 \--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
