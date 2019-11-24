@@ -1,12 +1,12 @@
 ## 添加计时器
 
-\--- task \--- Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+\--- task \--- 创建一个新变量名为`time`{:class="block3variables"}，以此在舞台中创建一个倒计时器。计时器应从30秒开始减至0秒。
 
 ![Stage sprite](images/stage-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+创建一个`变量`{:class="block3variables"}，命名为“time”，并设置其值为`30`。
 
 Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
 
