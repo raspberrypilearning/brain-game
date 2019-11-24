@@ -8,9 +8,9 @@
 
 创建一个`变量`{:class="block3variables"}，命名为“time”，并设置其值为`30`。
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+然后添加代码使`time`{:class="block3variables"}从30秒减至0。 为此，将`time`{:class="block3variables"} 每经过`1`秒减`1`，重复执行直到`time`{:class="block3variables"} 等于`0`。
 
-\--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- /hint \--- \--- hint \--- 以下是您需要的代码块：
 
 ```blocks3
 repeat until < >
@@ -30,7 +30,7 @@ when flag clicked
 set [time v] to [0]
 ```
 
-\--- /hint \--- \--- hint \--- Here is the what your new code should look like:
+\--- /hint \--- \--- hint \--- 你的新代码应该是这个样子：
 
 ```blocks3
 when flag clicked
