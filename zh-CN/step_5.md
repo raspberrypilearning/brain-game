@@ -31,7 +31,7 @@
 
 此时，角色精灵在玩家点击旗帜时开始提问。 更改游戏代码，以便当它收到“start”`广播`{:class="block3events"}时，字符精灵开始提问。
 
-\--- task \--- Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+\--- task \--- 选择你的角色精灵，并在其代码部分中，用`when I receive start`{:class="block3events"}代码块替换`when flag clicked`{:class="block3events"}代码块。
 
 ![Character sprite](images/giga-sprite.png)
 
