@@ -6,13 +6,13 @@
 
 您可以自己绘制精灵，也可以从库中编辑精灵。
 
-![Picture of the play button](images/brain-play.png)
+![播放按钮图片](images/brain-play.png)
 
 \--- /任务 \---
 
 \--- 任务 \--- 将此代码添加到按钮精灵中：
 
-![Button sprite](images/button-sprite.png)
+![按钮精灵](images/button-sprite.png)
 
 ```blocks3
     当旗子被点击
@@ -33,7 +33,7 @@
 
 \--- task \--- 选择你的角色精灵，并在其代码部分中，用`when I receive start`{:class="block3events"}代码块替换`when flag clicked`{:class="block3events"}代码块。
 
-![Character sprite](images/giga-sprite.png)
+![角色精灵](images/giga-sprite.png)
 
 ```blocks3
 <br />- when flag clicked
@@ -58,7 +58,7 @@ end
 
 你能看到计时器是在绿色旗帜被点击时开始计时，而不是游戏开始时开始的吗？
 
-![Timer has started](images/brain-timer-bug.png)
+![计时器开启](images/brain-timer-bug.png)
 
 \--- task \---
 
@@ -68,7 +68,7 @@ end
 
 \--- task \--- 为你的按钮精灵添加代码，使按钮在每次游戏结束时再次显示。
 
-![Button sprite](images/button-sprite.png)
+![按钮精灵](images/button-sprite.png)
 
 ```blocks3
     when I receive [end v]
@@ -83,7 +83,7 @@ end
 
 为了更快地测试游戏，你可以更改`time`{:class="block3variables"}的值，这样每次游戏只持续几秒钟。
 
-![Stage](images/stage-sprite.png)
+![舞台](images/stage-sprite.png)
 
 ```blocks3
     set [time v] to [10]
@@ -91,9 +91,9 @@ end
 
 \--- /task \---
 
-\--- task \--- You can change how the button looks when the mouse pointer hovers over it.
+\--- task \--- 你可以更改鼠标指针悬停在按钮上时的外观。
 
-![Button](images/button-sprite.png)
+![按钮](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -107,4 +107,4 @@ end
     end
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![截屏](images/brain-fisheye.png) \--- /task \---
