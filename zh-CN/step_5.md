@@ -52,21 +52,21 @@ end
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+点击绿色旗帜，然后单击新的“Play”按钮以测试其是否正常工作。你应该看到在点击按钮之前游戏不会开始。
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+你能看到计时器是在绿色旗帜被点击时开始计时，而不是游戏开始时开始的吗？
 
 ![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+你可以更改计时器的代码，以便在玩家点击按钮时启动计时器吗？
 
 \--- /task \---
 
-\--- task \--- Add code to your button sprite so that the button shows again at the end of each game.
+\--- task \--- 为你的按钮精灵添加代码，使按钮在每次游戏结束时再次显示。
 
 ![Button sprite](images/button-sprite.png)
 
@@ -79,9 +79,9 @@ Can you change the code for the timer so that the timer starts when the player c
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+通过玩几场游戏来测试“Play”按钮。该按钮应在每场游戏结束时显示。
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+为了更快地测试游戏，你可以更改`time`{:class="block3variables"}的值，这样每次游戏只持续几秒钟。
 
 ![Stage](images/stage-sprite.png)
 
