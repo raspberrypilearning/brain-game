@@ -1,10 +1,10 @@
-## Add graphics
+## 添加图形
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+此刻，角色精灵只根据玩家的答案说`是！ :) `或`否:( `。添加一些图形，让玩家知道他们的答案是正确还是错误。
 
 \--- task \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+创建一个名为“结果”的新精灵，并为其赋予“对勾/检查”和“叉”的外观。
 
 ![Sprite with tick and cross costumes](images/brain-result.png)
 
