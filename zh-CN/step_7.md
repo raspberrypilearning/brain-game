@@ -12,7 +12,7 @@
 
 \--- task \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+更改角色精灵的代码，使它`不再向玩家说些什么，而是广播` {：class =“ block3events”}“正确”或“错误”的消息。
 
 ![Character sprite](images/giga-sprite.png)
 
@@ -31,7 +31,7 @@ end
 
 \--- task \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+现在，您可以用这些消息来`显示` {：class =“ block3looks”}”对勾“或”叉“。将以下代码添加到“结果”精灵中：
 
 ![Result sprite](images/result-sprite.png)
 
