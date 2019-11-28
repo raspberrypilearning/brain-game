@@ -87,9 +87,9 @@ hide
 
 \--- /task \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+确保在**两个** `switch costume`{:class="block3looks"}块下面移除了`show`{:class="block3looks"}和`hide`{:class="block3looks"}模块。
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+然后在两个`switch costume`{:class="block3looks"}块下面添加` animate`{:class="block3myblocks"}块。你的代码现在应如下所示：
 
 ![Result sprite](images/result-sprite.png)
 
@@ -105,15 +105,15 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+由于 `animate`{:class="block3myblocks"} 块是自定义的， 如果你想要“结果”显示的时间更长或更短，现在只需要对你的代码做简单修改，。
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+更改您的代码，以使“ 对勾”或“叉号”显示2秒钟。
 
 \--- /task \---
 
-\--- task \--- Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+\--- task \--- 你可以修改你的` animate`代码，是的“对勾”与“叉号”淡入淡出，而不是使用`showing`{:class="block3looks"}或`hiding`{:class="block3looks"} 。
 
 ![Result sprite](images/result-sprite.png)
 
