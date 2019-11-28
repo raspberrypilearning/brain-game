@@ -54,19 +54,19 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+\---任务\--- 再次测试您的游戏。每当您正确回答问题时，您都应该看到对勾；而当您回答错误时，您将看到叉号！
 
 ![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
 \--- /task \---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+你注意到`when I receive correct`{:class="block3events"}和`when I receive wrong`{:class="block3events"}的代码几乎相同吗？
 
-So you can change your code more easily, you are going to create a custom block.
+所以你可以更容易地更改你的代码，你可以创建一个自定义块。
 
 \--- task \---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+选择“结果”精灵。 然后点击`My Blocks` {:class =“ block3myblocks”}，接着**Make a Block** 。 创建一个新块并将其命名为`animate` {:class="block3myblocks"}。
 
 ![Result sprite](images/result-sprite.png)
 
@@ -74,7 +74,7 @@ Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, 
 
 \--- /task \---
 
-\--- task \--- Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+\--- task \--- 将`show`{:class="block3looks"}与`hide`{:class="block3looks"}“结果”精灵的代码块移到`animate`{:class="block3myblocks"}模块中。
 
 ![Result sprite](images/result-sprite.png)
 
