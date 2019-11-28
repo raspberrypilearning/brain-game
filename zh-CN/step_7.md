@@ -6,7 +6,7 @@
 
 创建一个名为“结果”的新精灵，并为其赋予“对勾/检查”和“叉”的外观。
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![带有对勾和叉号的精灵。](images/brain-result.png)
 
 \--- /task \---
 
@@ -14,7 +14,7 @@
 
 更改角色精灵的代码，使它`不再向玩家说些什么，而是广播` {：class =“ block3events”}“正确”或“错误”的消息。
 
-![Character sprite](images/giga-sprite.png)
+![角色精灵](images/giga-sprite.png)
 
 ```blocks3
 if <(answer) = ((number 1)*(number 2))> then
@@ -33,7 +33,7 @@ end
 
 现在，您可以用这些消息来`显示` {：class =“ block3looks”}”对勾“或”叉“。将以下代码添加到“结果”精灵中：
 
-![Result sprite](images/result-sprite.png)
+![结果精灵](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -56,7 +56,7 @@ end
 
 \---任务\--- 再次测试您的游戏。每当您正确回答问题时，您都应该看到对勾；而当您回答错误时，您将看到叉号！
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![对勾表示正确，叉号表示错误](images/brain-test-answer.png)
 
 \--- /task \---
 
@@ -68,15 +68,15 @@ end
 
 选择“结果”精灵。 然后点击`My Blocks` {:class =“ block3myblocks”}，接着**Make a Block** 。 创建一个新块并将其命名为`animate` {:class="block3myblocks"}。
 
-![Result sprite](images/result-sprite.png)
+![结果精灵](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![创建一个名为动画的块](images/brain-animate-function.png)
 
 \--- /task \---
 
 \--- task \--- 将`show`{:class="block3looks"}与`hide`{:class="block3looks"}“结果”精灵的代码块移到`animate`{:class="block3myblocks"}模块中。
 
-![Result sprite](images/result-sprite.png)
+![结果精灵](images/result-sprite.png)
 
 ```blocks3
 define animate
@@ -91,7 +91,7 @@ hide
 
 然后在两个`switch costume`{:class="block3looks"}块下面添加` animate`{:class="block3myblocks"}块。你的代码现在应如下所示：
 
-![Result sprite](images/result-sprite.png)
+![结果精灵](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -115,7 +115,7 @@ hide
 
 \--- task \--- 你可以修改你的` animate`代码，是的“对勾”与“叉号”淡入淡出，而不是使用`showing`{:class="block3looks"}或`hiding`{:class="block3looks"} 。
 
-![Result sprite](images/result-sprite.png)
+![结果精灵](images/result-sprite.png)
 
 ```blocks3
     define animate
@@ -129,6 +129,6 @@ hide
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+您能改进“tick”或“cross”图形动画吗？ 您可以添加代码使图形淡出。或者您可以使用其他酷炫效果：
 
-![screenshot](images/brain-effects.png)
+![截屏](images/brain-effects.png)
