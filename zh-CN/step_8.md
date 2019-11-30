@@ -7,7 +7,7 @@
 + 当玩家的时间结束时播放声音
 
 ```blocks3
-    play sound (pop v) until done
+    播放声音 (pop v) 等待播完
 ```
 
 您的游戏还可以不断循环播放背景音乐。
