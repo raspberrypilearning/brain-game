@@ -15,7 +15,7 @@
 ![按钮精灵](images/button-sprite.png)
 
 ```blocks3
-    当flag被点击
+    当 ⚑ 被点击
     显示
 
     当角色被点击
@@ -31,7 +31,7 @@
 
 此时，角色精灵在玩家点击旗帜时开始提问。 更改游戏代码，以便当它收到“开始”`广播`{:class="block3events"}时，角色精灵开始提问。
 
-\--- task \--- 选择你的角色精灵，并在其代码部分中，用`当接收到 开始`{:class="block3events"}代码块替换`当 flag 被点击`{:class="block3events"}代码块。
+\--- task \--- 选择你的角色精灵，并在其代码部分中，用`当接收到 开始`{:class="block3events"}代码块替换`当 ⚑ 被点击`{:class="block3events"}代码块。
 
 ![角色精灵](images/giga-sprite.png)
 
