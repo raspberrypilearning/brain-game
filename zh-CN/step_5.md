@@ -36,7 +36,7 @@
 ![角色精灵](images/giga-sprite.png)
 
 ```blocks3
-<br />- 当 flag 被点击
+<br />- 当 ⚑ 被点击
 + 当接收到 [开始 v]
 将 [数字1 v] 设为 (在 (2) to (12) 之间取随机数)
 将 [数字2 v] 设为 (在 (2) to (12) 之间取随机数)
@@ -96,15 +96,15 @@ end
 ![按钮](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    当 ⚑ 被点击
+显示
+重复执行 
+  如果 <touching (mouse-pointer v)?> 那么 
+    将 [鱼眼 v] 特效设定为 (30)
+  否则 
+    将 [鱼眼 v] 特效设定为 (0)
+  end
+end
 ```
 
 ![截屏](images/brain-fisheye.png) \--- /task \---
