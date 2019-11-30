@@ -36,20 +36,20 @@ end
 ![结果精灵](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+    当接收到 [正确 v]
+    换成 (对勾 v) 造型
+    显示
+    等待 (1) 秒
+    隐藏
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
+    当接收到 [错误 v]
+    换成 (叉 v) 造型
+    显示
+    等待 (1) 秒
+    隐藏
 
-    when flag clicked
-    hide
+    当 ⚑ 被点击
+    隐藏
 ```
 
 \--- /task \---
@@ -60,13 +60,13 @@ end
 
 \--- /task \---
 
-你注意到`when I receive correct`{:class="block3events"}和`when I receive wrong`{:class="block3events"}的代码几乎相同吗？
+你注意到`当接收到正确`{:class="block3events"}和`当接收到错误`{:class="block3events"}的代码几乎相同吗？
 
 所以你可以更容易地更改你的代码，你可以创建一个自定义块。
 
 \--- task \---
 
-选择“结果”精灵。 然后点击`My Blocks` {:class =“ block3myblocks”}，接着**Make a Block** 。 创建一个新块并将其命名为`animate` {:class="block3myblocks"}。
+选择“结果”精灵。 然后点击`自制积木` {:class =“ block3myblocks”}，接着**制作新的积木** 。 创建一个新块并将其命名为`动画` {:class="block3myblocks"}。
 
 ![结果精灵](images/result-sprite.png)
 
@@ -74,20 +74,20 @@ end
 
 \--- /task \---
 
-\--- task \--- 将`show`{:class="block3looks"}与`hide`{:class="block3looks"}“结果”精灵的代码块移到`animate`{:class="block3myblocks"}模块中。
+\--- task \--- 将`显示`{:class="block3looks"}与`隐藏`{:class="block3looks"}“结果”精灵的代码块移到`动画`{:class="block3myblocks"}模块中。
 
 ![结果精灵](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+定义 动画
+显示
+等待 (1) 秒
+隐藏
 ```
 
 \--- /task \---
 
-确保在**两个** `switch costume`{:class="block3looks"}块下面移除了`show`{:class="block3looks"}和`hide`{:class="block3looks"}模块。
+\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
 然后在两个`switch costume`{:class="block3looks"}块下面添加` animate`{:class="block3myblocks"}块。你的代码现在应如下所示：
 
