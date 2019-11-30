@@ -1,4 +1,4 @@
-## 多次游戏
+## 重复游戏
 
 现在，您将添加一个“开始”按钮，以便玩家可以玩多次游戏。
 
@@ -15,36 +15,36 @@
 ![按钮精灵](images/button-sprite.png)
 
 ```blocks3
-    当旗子被点击
+    当flag被点击
     显示
 
     当角色被点击
     隐藏
-    广播(start v)        
+    广播(开始 v)
 ```
 
 \--- /任务 \---
 
-新代码包括另一个`广播` {class =“block3events”}块，它发送消息'start'。
+新代码包括另一个`广播` {class =“block3events”}块，它发送“开始”消息。
 
 当玩家点击旗帜时，新代码会显示“开始”按钮精灵。 当玩家点击按钮精灵时，精灵会隐藏，然后广播信息，让其他精灵可以做出反应。
 
-此时，角色精灵在玩家点击旗帜时开始提问。 更改游戏代码，以便当它收到“start”`广播`{:class="block3events"}时，字符精灵开始提问。
+此时，角色精灵在玩家点击旗帜时开始提问。 更改游戏代码，以便当它收到“开始”`广播`{:class="block3events"}时，角色精灵开始提问。
 
-\--- task \--- 选择你的角色精灵，并在其代码部分中，用`when I receive start`{:class="block3events"}代码块替换`when flag clicked`{:class="block3events"}代码块。
+\--- task \--- 选择你的角色精灵，并在其代码部分中，用`当接收到 开始`{:class="block3events"}代码块替换`当 flag 被点击`{:class="block3events"}代码块。
 
 ![角色精灵](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if <(answer) = ((number 1)*(number 2))> then
-    say [yes! :)] for (2) seconds
-else
-    say [nope :(] for (2) seconds
+<br />- 当 flag 被点击
++ 当接收到 [开始 v]
+将 [数字1 v] 设为 (在 (2) to (12) 之间取随机数)
+将 [数字2 v] 设为 (在 (2) to (12) 之间取随机数)
+询问 (连接 (数字1)(连接 [ x ] (数字2))) 并等待
+如果 <(回答) = ((数字1)*(数字2))> 那么
+    说 [对! :)] (2) 秒
+否则
+    说 [不对 :(] (2) 秒
 end
 ```
 
@@ -52,7 +52,7 @@ end
 
 \--- task \---
 
-点击绿色旗帜，然后单击新的“Play”按钮以测试其是否正常工作。你应该看到在点击按钮之前游戏不会开始。
+点击绿色旗帜，然后单击新的“开始”按钮以测试其是否正常工作。你应该看到在点击按钮之前游戏不会开始。
 
 \--- /task \---
 
@@ -71,22 +71,22 @@ end
 ![按钮精灵](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    当接收到 [结束 v]
+    显示
 ```
 
 \--- /task \---
 
 \--- task \---
 
-通过玩几场游戏来测试“Play”按钮。该按钮应在每场游戏结束时显示。
+通过玩几场游戏来测试“开始”按钮。按钮应在每场游戏结束时显示。
 
-为了更快地测试游戏，你可以更改`time`{:class="block3variables"}的值，这样每次游戏只持续几秒钟。
+为了更快地测试游戏，你可以更改`时间`{:class="block3variables"}的值，这样每次游戏只持续几秒钟。
 
 ![舞台](images/stage-sprite.png)
 
 ```blocks3
-    set [time v] to [10]
+    将 [时间 v] 设为 [10]
 ```
 
 \--- /task \---
