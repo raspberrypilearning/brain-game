@@ -87,25 +87,25 @@ end
 
 \--- /task \---
 
-\--- task \--- Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+确保在**两个** `换成造型`{:class="block3looks"}块下面移除了`显示`{:class="block3looks"}和`隐藏`{:class="block3looks"}模块。
 
-然后在两个`switch costume`{:class="block3looks"}块下面添加` animate`{:class="block3myblocks"}块。你的代码现在应如下所示：
+然后在两个`换成造型`{:class="block3looks"}块下面添加`动画`{:class="block3myblocks"}块。你的代码现在应如下所示：
 
 ![结果精灵](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    当接收到 [正确 v]
+    换成 (对勾 v) 造型
+    动画:: custom
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+    当接收到 [错误 v]
+    换成 (叉 v) 造型
+    动画:: custom
 ```
 
 \--- /task \---
 
-由于 `animate`{:class="block3myblocks"} 块是自定义的， 如果你想要“结果”显示的时间更长或更短，现在只需要对你的代码做简单修改，。
+由于 `动画`{:class="block3myblocks"} 块是自定义的， 如果你想要“结果”显示的时间更长或更短，现在只需要对你的代码做简单修改，。
 
 \--- task \---
 
@@ -113,22 +113,22 @@ end
 
 \--- /task \---
 
-\--- task \--- 你可以修改你的` animate`代码，是的“对勾”与“叉号”淡入淡出，而不是使用`showing`{:class="block3looks"}或`hiding`{:class="block3looks"} 。
+\--- task \--- 你可以修改你的` 动画`代码，使得“对勾”与“叉号”淡入淡出，而不是直接`显示`{:class="block3looks"}或`隐藏`{:class="block3looks"} 。
 
 ![结果精灵](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
+    定义 动画
+    将 [虚像 v] 特效设定为 (100)
+    显示
+    重复执行 (25)
+        将 [虚像 v] 特效增加 (-4)
     end
-    hide
+    隐藏
 ```
 
 \--- /task \---
 
-您能改进“tick”或“cross”图形动画吗？ 您可以添加代码使图形淡出。或者您可以使用其他酷炫效果：
+您能改进“对勾”或“叉”图形动画吗？ 您可以添加代码使图形淡出。或者您可以使用其他酷炫效果：
 
 ![截屏](images/brain-effects.png)
