@@ -1,6 +1,6 @@
 ## 添加图形
 
-此刻，角色精灵只根据玩家的答案说`是！ :) `或`否:( `。添加一些图形，让玩家知道他们的答案是正确还是错误。
+此刻，角色精灵只根据玩家的答案说`对！ :) `或`不对:( `。添加一些图形，让玩家知道他们的答案是正确还是错误。
 
 \--- task \---
 
@@ -17,13 +17,13 @@
 ![角色精灵](images/giga-sprite.png)
 
 ```blocks3
-if <(answer) = ((number 1)*(number 2))> then
+如果 <(回答) = ((数字1)*(数字2))> 那么
 
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
+- 说 [对! :)] (2) 秒
++ 广播 (正确 v)
 else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
+- 说 [不对 :(] (2) 秒
++ 广播 (错误 v)
 end
 ```
 
