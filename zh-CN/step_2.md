@@ -20,7 +20,7 @@
 
 \--- /task \---
 
-\--- task \--- 确保你已选中你的角色精灵。 创建两个新变量，命名为`number1 ` {:class =“block3variables”}和`number2 ` {:class =“block3variables”}，用于存储测验题目的数字。
+\--- task \--- 确保你已选中你的角色精灵。 创建两个新变量，命名为`数字1` {:class =“block3variables”}和`数字2` {:class =“block3variables”}，用于存储测验题目的数字。
 
 ![截图](images/giga-sprite.png) ![截图](images/brain-variables.png)
 
@@ -28,32 +28,32 @@
 
 \--- /task \---
 
-\--- task \--- 为你的角色精灵添加代码以设置两个`变量` {：class =“ block3variables”}为2到12之间的`随机` {：class =“ block3operators”}数字。
+\--- task \--- 为你的角色精灵添加代码以设置两个`变量` {:class =“ block3variables”}为2到12之间的`随机` {:class =“ block3operators”}数字。
 
 ![截屏](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+当 ⚑ 被点击
+将 [数字1 v] 设为 (在 (2) 和 (12) 之间取随机数)
+将 [数字2 v] 设为 (在 (2) 和 (12) 之间取随机数)
 ```
 
 \--- /task \---
 
-\--- task \--- 在`ask`{:class="block3sensing"} 模块中添加代码以向玩家询问答案，无论回答正确还是错误，都添加`say for 2 seconds`{:class="block3looks"}模块。
+\--- task \--- 添加`提问`{:class="block3sensing"} 代码以向玩家询问答案，无论回答正确还是错误，都`说2秒钟`{:class="block3looks"}。
 
 ![截屏](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+当 ⚑ 被点击
+将 [数字1 v] 设为 (在 (2) 和 (12) 之间取随机数)
+将 [数字2 v] 设为 (在 (2) 和 (12) 之间取随机数)
 
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
++ 询问 (连接 (数字1) 和(连接 [ x ] (数字2))) 并等待
++ 如果 <(回答) = ((数字1)*(数字2))> 那么
++ 说 [对! :)] (2) 秒
++ 否则
++ 说 [不对 :(] (2) 秒
 + end
 ```
 
@@ -67,32 +67,32 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-对这段代码添加一个`forever`{:class="block3control"}循环，这样游戏就会连续询问玩家更多问题。
+对这段代码添加一个`重复执行`{:class="block3control"}循环，这样游戏就会连续询问玩家更多问题。
 
 \--- hints \--- \--- hint \---
 
-你需要添加一个`forever`{:class="block3control"}模块，然后把除了`when flag clicked`{:class="block3control"}模块的其它所有模块都放入其中。
+你需要添加一个`重复执行`{:class="block3control"}模块，然后把除了`当 ⚑ 被点击`{:class="block3control"}模块的其它所有模块都放入其中。
 
 \--- /hint \--- \--- hint \--- 以下是您需要的代码块：
 
 ```blocks3
-forever
+重复执行
 end
 ```
 
 \--- /hint \--- \--- hint \--- 你的代码应该是这个样子：
 
 ```blocks3
-when flag clicked
+当 ⚑ 被点击
 
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
++ 重复执行
+    将 [数字1 v] 设为 (在 (2) 和 (12) 之间取随机数)
+    将 [数字2 v] 设为 (在 (2) 和 (12) 之间取随机数)
+    询问 (连接 (数字1) 和 (连接 [ x ] 和 (数字2))) 并等待
+    如果 <(回答) = ((数字1)*(数字2))> 那么
+        说 [对! :)] (2) 秒
+    否则
+        说 [不对 :(] (2) 秒
     end
 end
 ```
