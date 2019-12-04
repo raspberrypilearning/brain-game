@@ -14,31 +14,30 @@ Ajoute ensuite du code pour décompter `temps`{:class="block3variables"} jusqu'�
 --- /hint --- --- hint --- Voici les blocs dont tu as besoin:
 
 ```blocks3
-répéter jusqu'à < >
-
+répéter jusqu'à ce que <>
 fin
 
 attendre (1) secondes
 
-changer [temps v] par (1)
+ajouter (1) à [(temps ::variables)) v]
 
-(temps)
+temps ::variables
 
-lorsque le drapeau est cliqué
+quand le drapeau vert pressé
 
 <() = ()>
 
-définir [temps v] sur [0]
+mettre [(temps ::variables)) v] à [0]
 ```
 
 --- /hint --- --- hint --- Voici à quoi devrait ressembler ton nouveau code:
 
 ```blocks3
-lorsque le drapeau est cliqué
-définir [temps v] sur [30]
-répéter jusqu'à ce que <(temps) = (0)>
+quand le drapeau vert pressé
+mettre [(temps ::variables)) v] à [30]
+répéter jusqu'à ce que <(temps ::variables) = (0)>
     attendre (1) secondes
-    changer [temps v] par (-1)
+    ajouter (-1) à [(temps ::variables)) v]
 fin
 ```
 

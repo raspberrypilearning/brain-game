@@ -15,12 +15,12 @@ Tu peux dessiner le sprite toi-même ou éditer un sprite à partir de la biblio
 ![Sprite bouton](images/button-sprite.png)
 
 ```blocks3
-    lorsque le drapeau est cliqué
-    afficher
+    quand le drapeau vert pressé
+    montrer
 
-    lorsque ce sprite est cliqué
-    masquer
-    envoyer à tous(démarrer v)
+    quand ce sprite est cliqué
+    cacher
+    envoyer à tous (démarrer v)
 ```
 
 --- /task ---
@@ -31,20 +31,20 @@ Le nouveau code fait apparaître le sprite bouton "Jouer" lorsque le joueur cliq
 
 Pour le moment, le sprite personnage commence à poser des questions lorsque le joueur clique sur le drapeau. Modifie le code de ton jeu pour que le sprite personnage commence à poser des questions lorsqu’il reçoit la diffusion `'démarrer'`{:class="block3events"}.
 
---- task --- Sélectionne ton sprite personnage et, dans sa section de code, remplace le bloc `lorsque le drapeau est cliqué`{:class="block3events"} par un bloc `lorsque je reçois démarrer`{:class="block3events" }.
+--- task --- Sélectionne ton sprite personnage et, dans sa section de code, remplace le bloc `quand le drapeau vert pressé`{:class="block3events"} par un bloc `lorsque je reçois démarrer`{:class="block3events" }.
 
 ![Sprite personnage](images/giga-sprite.png)
 
 ```blocks3
-<br />- lorsque le drapeau est cliqué
-+ lorsque je reçois [démarrer v]
-définir [numéro 1 v] sur (choisir au hasard (2) sur (12))
-définir [numéro 2 v] sur (choisir au hasard (2) à (12) )
-demander (rejoindre (numéro 1) (rejoindre [x] (numéro 2))) et attendre
-si <(réponse) = ((numéro 1) * (numéro 2))> alors
-    dire [oui!] :)] pendant (2) secondes
-sinon
-    dire [nope :(] pendant (2) secondes
+- quand le drapeau vert pressé
++ quand je reçois [démarrer v]
+mettre [numéro 1 v] à (nombre aléatoire entre (2) et (12))
+mettre [numéro 2 v] à (nombre aléatoire entre (2) et (12))
+demander (regrouper (numéro 1) et (regrouper [ x ] et (numéro 2))) et attendre
+si <(réponse) = ((numéro 1) * (numéro 2))> alors 
+  dire [oui! :)] pendant (2) secondes
+sinon 
+  dire [nope :(] pendant (2) secondes
 fin
 ```
 
@@ -96,13 +96,13 @@ Pour tester le jeu plus rapidement, tu peux modifier la valeur de `temps`{:class
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    quand le drapeau est cliqué
+quand le drapeau vert pressé
 montrer
 répéter indéfiniment
-si <touching (mouse-pointer v)?> alors
-ajouter l’effet [œil de poisson] (30)
+si <touche le (pointeur de souris v)?> alors
+    mettre l'effet [œil de poisson v] à (30)
 sinon 
-ajouter l’effet [œil de poisson] (0)
+    mettre l'effet [œil de poisson v] à (0)
 fin
 fin
 ```

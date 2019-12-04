@@ -51,7 +51,9 @@ title: Ce qu'il faut avoir
 title: Informations supplémentaires pour les éducateurs
 ---
 
---- no-print --- Si tu as besoin d'imprimer ce projet, veille à utiliser la [version](https://projects.raspberrypi.org/fr-FR/projects/brain-game/print)imprimable. --- /no-print ---
+--- no-print --- 
+Si tu as besoin d'imprimer ce projet, veille à utiliser la [version](https://projects.raspberrypi.org/fr-FR/projects/brain-game/print)imprimable. 
+--- /no-print ---
 
 Tu peux trouver le [projet terminé ici](http://rpf.io/p/fr-FR/brain-game-get){:target="_blank"}.
 

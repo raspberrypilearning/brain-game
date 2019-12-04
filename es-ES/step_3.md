@@ -24,7 +24,7 @@ sumar a [tiempo v] (1)
 
 (tiempo)
 
-al hacer clic en la bandera verde
+al presionar bandera verde
 
 <() = ()>
 
@@ -34,7 +34,7 @@ dar a [tiempo v] el valor [0]
 --- /hint --- --- hint --- El código debería quedar así ahora:
 
 ```blocks3
-al hacer clic en la bandera verde
+al presionar bandera verde
 dar a [tiempo v] el valor [30]
 repetir hasta que <(tiempo) = (0)>
     esperar (1) segundos
@@ -48,7 +48,7 @@ fin
 
 --- task ---
 
-Crea una `transmisión`{:class="block3control"} que envíe el mensaje "terminar". Utiliza el bloque <0>enviar</0>{:class="block3events"} para enviar transmisiones. Una `transmisión`{:class="block3control"} es como un anuncio que se hace con un altavoz: todos los objetos lo pueden escuchar. Añade el bloque `enviar`{:class="block3control"} al final del código del cronómetro para que el código envíe el mensaje "terminar" cuando el `tiempo`{:class="block3variables"} llegue a `0`.
+Crea una `transmisión`{:class="block3control"} que envíe el mensaje "terminar". Utiliza el bloque `enviar`{:class="block3events"} para enviar transmisiones. Una `transmisión`{:class="block3control"} es como un anuncio que se hace con un altavoz: todos los objetos lo pueden escuchar. Añade el bloque `enviar`{:class="block3control"} al final del código del cronómetro para que el código envíe el mensaje "terminar" cuando el `tiempo`{:class="block3variables"} llegue a `0`.
 
 ![Objeto de escenario](images/stage-sprite.png)
 

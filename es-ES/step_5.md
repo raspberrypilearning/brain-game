@@ -15,7 +15,7 @@ Puedes dibujar el objeto o editar uno ya existente.
 ![Objeto del botón](images/button-sprite.png)
 
 ```blocks3
-    al hacer clic en la bandera verde
+    al presionar bandera verde
     mostrar
 
     al hacer clic en este objeto
@@ -31,12 +31,12 @@ El código que has añadido hace que el botón "Jugar" aparezca cuando se haga c
 
 Por ahora el objeto del personaje empieza a hacer preguntas en cuanto se hace clic en la bandera verde. Cambia el código de tu juego para que el objeto del personaje empiece a hacer preguntas cuando reciba el mensaje "empezar" que enviamos con el bloque `enviar`{:class="block3events"}.
 
---- task --- Selecciona el objeto de tu personaje y sustituye el bloque `al hacer clic en la bandera verde`{:class="block3events"} por el bloque `al recibir empezar`{:class="block3events"}.
+--- task --- Selecciona el objeto de tu personaje y sustituye el bloque `al presionar bandera verde`{:class="block3events"} por el bloque `al recibir empezar`{:class="block3events"}.
 
 ![Objeto del personaje](images/giga-sprite.png)
 
 ```blocks3
-<br />- al hacer clic en la bandera verde
+al presionar bandera verde
 + al recibir [empezar v]
 dar a [número 1 v] el valor (número aleatorio entre (2) y (12))
 dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
@@ -96,15 +96,15 @@ Para probar el juego más rápido puedes cambiar el valor de `tiempo`{:class="bl
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    al presionar
+    al presionar bandera verde
     mostrar
-    para siempre
-    si <touching (mouse-pointer v)?> entonces
-        establecer efecto [fisheye v] a (30)
-    o
-        establecer efecto [fisheye v] a (0)
-    Fin
-    Fin
+    por siempre 
+    si <¿tocando (puntero del ratón v) ?> entonces 
+        dar al efecto [ojo de pez v] el valor (30)
+    si no 
+        dar al efecto [ojo de pez v] el valor (0)
+    fin
+    fin
 ```
 
 ![captura de pantalla](images/brain-fisheye.png) --- /task ---

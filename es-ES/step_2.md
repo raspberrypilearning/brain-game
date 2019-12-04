@@ -33,7 +33,7 @@ Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrar
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-al hacer clic en la bandera verde
+al presionar bandera verde
 dar a [número 1 v] el valor (número aleatorio entre (2) y (12))
 dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
 ```
@@ -45,7 +45,7 @@ dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-al hacer clic en la bandera verde
+al presionar bandera verde
 dar a [número 1 v] el valor (número aleatorio entre (2) y (12))
 dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
 
@@ -72,7 +72,7 @@ Añade un bucle `por siempre`{:class="block3control"} que englobe este código p
 --- hints ---
  --- hint ---
 
-Tienes que añadir un bloque `por siempre`{:class="block3control"} y poner todo el código excepto el bloque `al hacer clic en la bandera verde`{:class="block3control"} dentro de él.
+Tienes que añadir un bloque `por siempre`{:class="block3control"} y poner todo el código excepto el bloque `al presionar bandera verde`{:class="block3control"} dentro de él.
 
 --- /hint --- --- hint --- Éste es el bloque que necesitarás:
 
@@ -84,7 +84,7 @@ fin
 --- /hint --- --- hint --- Aquí está el código que necesitarás:
 
 ```blocks3
-al hacer clic en la bandera verde
+al presionar bandera verde
 + por siempre
     dar a [número 1 v] el valor (número aleatorio entre (2) y (12))
     dar a [número 2 v] el valor (número aleatorio entre (2) y (12))

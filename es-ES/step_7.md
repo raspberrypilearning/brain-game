@@ -23,7 +23,7 @@ si <(respuesta) = ((número 1)*(número 2))> entonces
 + enviar (correcto v)
 si no
 - decir [no :(] durante (2) segundos
-+ enviar mensaje (incorrecto v)
++ enviar (incorrecto v)
 fin
 ```
 
@@ -48,7 +48,7 @@ Ahora puedes usar los mensajes para `mostrar`{:class="block3looks"} los disfrace
     esperar (1) segundos
     esconder
 
-    al hacer clic en la bandera verde
+    al presionar bandera verde
     esconder
 ```
 

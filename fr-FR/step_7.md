@@ -18,9 +18,8 @@ Modifie le code de ton sprite personnage de sorte que, au lieu de dire quelque c
 
 ```blocks3
 si <(réponse) = ((numéro 1) * (numéro 2))> alors
-
-- dites [oui! :)] pendant (2) secondes
-+ envoyer à tous (correct v)
+- dire [oui! :)] pendant (2) secondes
++ envoyer à tous (correctes v)
 sinon
 - dire [non :(] pendant (2) secondes
 + envoyer à tous (mauvais v)
@@ -36,20 +35,20 @@ Maintenant , tu peux utiliser ces messages à `montrer`{:class="block3looks"} le
 ![Sprite Résultat](images/result-sprite.png)
 
 ```blocks3
-    quand je reçois [correct v]
+    quand je reçois [correctes v]
     basculer sur le costume (coche v)
     montrer
     attendre (1) secondes
     cacher
 
-    quand je reçois [faux v]
+    quand je reçois [mauvais v]
     basculer sur le costume (croix v)
     montrer
-    attendre (1) seconde
-    masquer
+    attendre (1) secondes
+    cacher
 
-    lorsque le drapeau est cliqué
-    masquer
+    quand le drapeau vert pressé
+    cacher
 ```
 
 --- /task ---
@@ -60,7 +59,7 @@ Maintenant , tu peux utiliser ces messages à `montrer`{:class="block3looks"} le
 
 --- /task ---
 
-Peux-tu voir que le code pour `lorsque je reçois correctes`{:class="block3events"} et `lorsque je reçois mauvais`{:class="block3events"} est presque identique?
+Peux-tu voir que le code pour `quand je reçois correctes`{:class="block3events"} et `quand je reçois mauvais`{:class="block3events"} est presque identique?
 
 Pour modifier ton code plus facilement, tu vas créer un bloc personnalisé.
 
@@ -82,7 +81,7 @@ Sélectionne le sprite 'Résultat'. Clique ensuite sur `Mes Blocs`{:class="block
 définir animer
 montrer
 attendre (1) secondes
-masquer
+cacher
 ```
 
 --- /task ---
@@ -94,13 +93,13 @@ Ajoute ensuite le bloc `animer`{:class="block3myblocks"} sous les deux blocs de 
 ![Sprite Résultat](images/result-sprite.png)
 
 ```blocks3
-    lorsque je reçois [correct v]
+    quand je reçois [correctes v]
     basculer sur le costume (coche v)
-    animer :: personnalisé
+    animer :: custom
 
-    lorsque je reçois [faux v]
+    quand je reçois [mauvais v]
     basculer sur le costume (croix v)
-    animer :: personnalisé
+    animer :: custom
 ```
 
 --- /task ---
@@ -118,13 +117,13 @@ Change ton code pour que les costumes "coche" ou "croix" s'affichent pendant 2 s
 ![Sprite Résultat](images/result-sprite.png)
 
 ```blocks3
-    définir animer
-    définir effet [fantôme] sur (100)
-    montrer
-    répéter (25)
-        changer effet [fantôme] sur (-4)
-    fin
-    cacher
+définir animate
+mettre l'effet [fantôme v] à (100)
+montrer
+répéter (25) fois 
+  ajouter (-4) à l'effet [fantôme v]
+fin
+cacher
 ```
 
 --- /task ---

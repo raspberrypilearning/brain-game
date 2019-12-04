@@ -28,14 +28,14 @@ Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le 
 
 --- /task ---
 
------ task --- Ajoute du code à ton sprite personnage pour définir les deux `variables`{:class="block3variables"} à un nombre `aléatoire`{:class="block3operators"} entre 2 et 12.
+--- task --- Ajoute du code à ton sprite personnage pour définir les deux `variables`{:class="block3variables"} à un nombre `aléatoire`{:class="block3operators"} entre 2 et 12.
 
 ![capture d'écran](images/giga-sprite.png)
 
 ```blocks3
-lorsque le drapeau est cliqué
-définir [numéro 1 v] sur (choisir au hasard (2) sur (12))
-définir [numéro 2 v] sur (choisir au hasard (2) à (12))
+quand le drapeau vert pressé
+mettre [numéro 1 v] à (nombre aléatoire entre (2) et (12))
+mettre [numéro 2 v] à (nombre aléatoire entre (2) et (12))
 ```
 
 --- /task ---
@@ -45,14 +45,13 @@ définir [numéro 2 v] sur (choisir au hasard (2) à (12))
 ![capture d'écran](images/giga-sprite.png)
 
 ```blocks3
-lorsque le drapeau est cliqué 
-définir [numéro 1 v] sur (choisir au hasard (2) à (12))
-définir [numéro 2 v] sur (choisir au hasard (2) à (12))
-
-+ demander (rejoindre (numéro 1) (rejoindre [x] (numéro 2))) et attendre
-+ si <(réponse) = ((numéro 1) * (numéro 2))> alors
-+ dire [oui!] :)] pendant (2) secondes
-+ sinon
+quand le drapeau vert pressé
+mettre [numéro 1 v] à (nombre aléatoire entre (2) et (12))
+mettre [numéro 2 v] à (nombre aléatoire entre (2) et (12))
++ demander (regrouper (numéro 1) et (regrouper [ x ] et (numéro 2))) et attendre
++ si <(réponse) = ((numéro 1) * (numéro 2))> alors 
++ dire [oui! :)] pendant (2) secondes
++ sinon 
 + dire [non :(] pendant (2) secondes
 + fin
 ```
@@ -72,7 +71,7 @@ Ajoute une boucle `répéter indéfiniment`{:class="block3control"} autour de ce
 --- hints ---
  --- hint ---
 
-Tu dois ajouter un bloc `répéter indéfiniment`{:class="block3control"} et y placer tout le code, à l'exception du bloc `lorsque le drapeau est cliqué`.
+Tu dois ajouter un bloc `répéter indéfiniment`{:class="block3control"} et y placer tout le code, à l'exception du bloc `lorsque le drapeau est cliqué`{:class="block3control"}.
 
 --- /hint --- --- hint --- Voici le bloc dont tu as besoin :
 
@@ -84,15 +83,14 @@ fin
 ---/hint--- ---hint--- Voici a quoi devrait ressembler ton bloc
 
 ```blocks3
-lorsque le drapeau est cliqué
-
-+ répéter indéfiniment
-    définir [numéro 1 v] sur (choisir au hasard (2) à (12))
-    définir [numéro 2 v] sur (choisir au hasard (2) à (12))
-    demander (rejoindre (numéro 1)(rejoindre [x] (numéro 2))) et attendre
-    si <(réponse) = ((numéro 1) * (numéro 2))> alors
-        dire [oui!] :)] pendant (2) secondes
-    sinon
+quand le drapeau vert pressé
++ répéter indéfiniment 
+    mettre [numéro 1 v] à (nombre aléatoire entre (2) et (12))
+    mettre [numéro 2 v] à (nombre aléatoire entre (2) et (12))
+    demander (regrouper (numéro 1) et (regrouper [ x ] et (numéro 2))) et attendre
+    si <(réponse) = ((numéro 1) * (numéro 2))> alors 
+        dire [oui! :)] pendant (2) secondes
+    sinon 
         dire [non :(] pendant (2) secondes
     fin
 fin
