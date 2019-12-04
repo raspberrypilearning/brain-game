@@ -1,43 +1,102 @@
-## Creación de preguntas
+## Crear preguntas
 
-Vamos a empezar creando preguntas aleatorias para que el jugador responda.
+Vas a empezar por crear preguntas aleatorias que el jugador tendrá que contestar.
 
-+ Crea un nuevo proyecto Scratch y elimina el sprite gato para que tu proyecto esté vacío. Puedes encontrar el editor de Scratch en línea en <a href="http://jumpto.cc/scratch-new" target="_blank"> jumpto.cc/scratch-new </a>.
+--- task ---
 
-+ Elige un personaje y un fondo para tu juego. ¡Puedes elegir lo que quieras! Aquí hay un ejemplo:
-    
-    ![screenshot](images/brain-setting.png)
+Abre un nuevo proyecto en Scratch.
 
-+ Crea 2 nuevas variables llamadas `número 1`{:class="blockdata"} y `número 2`{:class="blockdata"}. Estas variables almacenan los 2 números que se multiplican juntos.
-    
-    ![screenshot](images/brain-variables.png)
+**Online:** abre un nuevo proyecto en [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-+ Añade código a tu personaje para establecer ambas variables en un número `aleatorio`{:class="blockoperators"} entre 2 y 12.
-    
-```blocks
-    al presionar bandera verde
-    fijar [número 1 v] a (número al azar entre (2) y (12))
-    fijar [número 2 v] a (número al azar entre (2) y (12))
+**Offline:** abre un nuevo proyecto en el editor offline.
+
+Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+
+--- /task ---
+
+--- task --- Añade un objeto de personaje y un fondo para tu juego. ¡Puedes escoger el que quieras! Aquí tienes un ejemplo:
+
+![screenshot](images/brain-setting.png)
+
+--- /task ---
+
+--- task --- Asegúrate de tener tu objeto de personaje seleccionado. Crea dos nuevas variables llamadas `número 1`{:class="block3variables"} y `número 2`{:class="block3variables"} para almacenar los número para las preguntas del test.
+
+![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+
+[[[generic-scratch3-add-variable]]]
+
+--- /task ---
+
+--- task --- Añade código a tu objeto de personaje para dar a tus dos `variables`{:class="block3variables"} un número `aleatorio`{:class="block3operators"} entre 2 y 12.
+
+![screenshot](images/giga-sprite.png)
+
+```blocks3
+al hacer clic en la bandera verde
+dar a [número 1 v] el valor (número aleatorio entre (2) y (12))
+dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
 ```
 
-+ Entonces puedes pedir al jugador la respuesta e informarle si tenía razón o no.
-    
-```blocks
-al presionar bandera verde
-fijar [número 1 v] a (número al azar entre (2) y (12))
-fijar [número 2 v] a (número al azar entre (2) y (12))
-preguntar (unir (número 1) (unir [ x ] (número 2))) y esperar
-si <(answer) = ((número 1) * (número 2))> entonces 
-  decir [¡sí! :)] por (2) segundos
+--- /task ---
 
-  decir [no :(] por (2) segundos
-end
+--- task --- Añade código para `preguntar`{:class="block3sensing"} al jugador por la respuesta. Después, hay que `decir durante 2 segundos`{:class="block3looks"} si la respuesta ha sido correcta o errónea:
+
+![screenshot](images/giga-sprite.png)
+
+```blocks3
+al hacer clic en la bandera verde
+dar a [número 1 v] el valor (número aleatorio entre (2) y (12))
+dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
+
++ preguntar (unir (número 1)(unir [ x ] (número 2))) y esperar
++ si <(respuesta) = ((número 1)*(número 2))> entonces
++ decir [¡sí! :)] durante (2) segundos
++ si no
++ decir [no :(] durante (2) segundos
++ fin
 ```
 
-+ Prueba el proyecto completo respondiendo una pregunta correctamente y una respuesta incorrecta.
+--- /task ---
 
-+ Añade un bucle `para siempre`{:class="blockcontrol"} alrededor de este código, para que al jugador se le hagan un montón de preguntas.
+--- task ---
 
-+ Crea un temporizador de cuenta atrás en el escenario usando una variable llamada `tiempo`{:class=blockdata"}. ¡El proyecto de los 'Cazafantasmas' tiene las instrucciones para hacer un contador de tiempo (en el paso 5) si necesitas ayuda!
+Prueba tu proyecto dos veces: responde una pregunta bien y otra mal.
 
-+ Prueba otra vez tu proyecto - debe ser capaz de seguir haciendo preguntas hasta que se acabe el tiempo.
+--- /task ---
+
+--- task ---
+
+Añade un bucle `por siempre`{:class="block3control"} que englobe este código para que el juego haga muchas preguntas seguidas.
+
+--- hints ---
+ --- hint ---
+
+Tienes que añadir un bloque `por siempre`{:class="block3control"} y poner todo el código excepto el bloque `al hacer clic en la bandera verde`{:class="block3control"} dentro de él.
+
+--- /hint --- --- hint --- Éste es el bloque que necesitarás:
+
+```blocks3
+por siempre
+fin
+```
+
+--- /hint --- --- hint --- Aquí está el código que necesitarás:
+
+```blocks3
+al hacer clic en la bandera verde
++ por siempre
+    dar a [número 1 v] el valor (número aleatorio entre (2) y (12))
+    dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
+    preguntar (unir (número 1)(unir [ x ] (número 2))) y esperar
+    si <(respuesta) = ((número 1)*(número 2))> entonces
+        decir [¡sí! :)] durante (2) segundos
+    si no
+        decir [no :(] durante (2) segundos
+    fin
+fin
+```
+
+--- /hint ------ /hints ---
+
+--- /task ---

@@ -1,9 +1,13 @@
---- challenge ---
+## Desafío: Sonido y música
 
-## Desafío: Animación mejorada
+¿Puedes añadir efectos de sonido y música a tu juego? Por ejemplo, podrías hacer que tu juego:
 
-¿Puedes mejorar la animación de tus gráficos? Puedes escribir código para hacer que la marca y la cruz aparezcan y desaparezcan gradualmente. O podrías usar otros efectos:
++ Reprodujera un sonido cuando la respuesta sea correcta y otro cuando sea incorrecta
++ Reprodujera un tic-tac a medida que avance la cuenta atrás
++ Reprodujera un sonido cuando se le acabe el tiempo al jugador
 
-![screenshot](images/brain-effects.png)
+```blocks3
+    tocar sonido (pop v) hasta que termine
+```
 
---- /challenge ---
+Tu juego podría reproducir música de fondo continuamente con un bucle.

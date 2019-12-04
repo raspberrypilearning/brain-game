@@ -1,19 +1,11 @@
---- challenge ---
+## Desafío: Pantalla de instrucciones
 
-## Desafío: Carrera hasta 10 puntos
+¿Puedes añadir una pantalla de instrucciones que le explique al jugador cómo jugar? Para ésto necesitarás un botón de "Instrucciones" y otro fondo para el Escenario.
 
-¿Puedes cambiar tu juego para que en lugar de responder tantas preguntas como sea posible en 30 segundos, el jugador vea en cuanto tiempo puede responder 10 preguntas correctas?
+![screenshot](images/brain-instructions.png)
 
-Para hacer esto sólo necesitarás cambiar el código del contador de tiempo. ¿Ves lo que hay que cambiar?
+Puede que también necesites un botón "Atrás" que le permita al jugador volver a la pantalla de inicio.
 
-```blocks
-al recibir [start v]
-fijar [hora v] a (30)
-repetir hasta que <(tiempo) = [0]> 
-  esperar (1) segundos
-  cambiar [hora v] por (-1)
-end
-enviar [fin v]
+```blocks3
+    enviar (pantalla de inicio v)
 ```
-
---- /challenge ---

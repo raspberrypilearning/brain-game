@@ -1,17 +1,15 @@
---- challenge ---
+## Desafío: Carrera hasta 10 puntos
 
-## Desafío: sonido y música
+¿Puedes cambiar tu juego de manera que en vez de contestar tantas preguntas como pueda en 30 segundos el jugador tenga que contestar 10 preguntas tan rápido como pueda?
 
-¿Puedes añadir música y efectos de sonido a tu juego? Por ejemplo:
+Para hacerlo solo tienes que cambiar el código del cronómetro. ¿Ves qué bloques tienen que ser diferentes?
 
-+ Reproducir un sonido cuando el jugador obtiene una respuesta correcta o incorrecta;
-+ Agregar un tictac a tu temporizador de cuenta atrás;
-+ Reproducir un sonido cuando se acabe el tiempo;
-    
-```blocks
-    tocar tambor (10 v) durante (0.1) pulsos
+```blocks3
+    al recibir [empezar v]
+    dar a [tiempo v] el valor (30)
+    repetir hasta que <(tiempo) = [0]>
+        esperar (1) segundos
+        sumar a [tiempo v] (-1)
+    fin
+    enviar (final v)
 ```
-
-+ También puedes reproducir música sin parar en un bucle (si no estás seguro de cómo hacerlo, el paso 4 del proyecto 'Grupo de rock' te ayudará).
-
---- /challenge ---

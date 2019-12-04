@@ -1,21 +1,21 @@
---- challenge ---
+## Y ahora ¿qué?
 
-## Desafío: Pantalla de instrucciones
+¡Prueba el proyecto [Atrapa los puntos](https://projects.raspberrypi.org/es-ES/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) para crear un juego de velocidad de reacción! En ese proyecto aprenderás a hacer clones de objetos y a usar variables para incrementar la velocidad del juego gradualmente.
 
-¿Puedes agregar una pantalla de instrucciones a tu juego, diciéndole a tu jugador cómo jugarlo? Necesitarás un botón de 'Instrucciones' y otro fondo de escenario.
+--- no-print --- Utiliza las teclas de dirección de tu teclado para girar el controlador y atrapar los puntos voladores a medida que llegan al centro. Si no eres capaz de atrapar tres puntos se acaba el juego.
 
-![screenshot](images/brain-instructions.png)
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/dots-final.png">
+</div>
 
-Puede que también necesites un botón 'Atrás' que te llevará al menú principal.
+--- /no-print ---
 
-```blocks
-    enviar [main menu v]
-```
+--- print-only --- ![Dots screenshot](images/dots-final.png) --- /print-only ---
 
---- /challenge ---
 
-***
+**Traducción aportada por la comunidad**
 
-### Traducción aportada por la comunidad
+Este proyecto fue traducido por **Pablo Collado**/**Ellie Buckler** y revisado por **Juan E. Biondi**/**Carlos López**.
 
-Este proyecto fue traducido por **Montse Verdaguer/Ellie Buckler** y revisado por **Carlos López**. Nuestros increíbles voluntarios de traducción nos ayudan a dar a los niños de todo el mundo la oportunidad de aprender a programar. Puedes ayudarnos a llegar a más niños traduciendo nuestros proyectos. Consigue más información en [rpf.io/translators](http://rpf.io/translators).
+Nuestros increíbles voluntarios de traducción nos ayudan a dar a los niños de todo el mundo la oportunidad de aprender a programar. Puedes ayudarnos a llegar a más niños traduciendo nuestros proyectos. Consigue más información en [rpf.io/translate](https://rpf.io/translate).

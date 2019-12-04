@@ -1,7 +1,11 @@
---- challenge ---
+## Desafío: Añadir una puntuación y reacciones
 
-## Desafío: Añadir una puntuación
+¿Puedes añadir una puntuación a tu juego?
 
-¿Puedes añadir un contador de puntos a tu juego? Puedes agregar un punto por cada respuesta correcta. Si quieres ser malvado incluso puede restablecer el contador del jugador a 0 si responden de forma incorrecta!
+Podrías añadir código para que el jugador gane un punto con cada respuesta correcta. Si te apetece ser un poco malvado ¡puedes añadir código para poner a cero la puntuación si el jugador se equivoca!
 
---- /challenge ---
+[[[generic-scratch3-high-score]]]
+
+¿Puedes hacer que tu personaje reaccione a las respuestas del jugador cambiando su disfraz en función de si la respuesta es correcta o errónea?
+
+![screenshot](images/brain-costume.png)

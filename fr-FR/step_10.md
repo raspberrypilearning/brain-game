@@ -1,19 +1,11 @@
---- challenge ---
+## Défi: écran d'instruction
 
-## Défi: Course à 10 points
+Peux-tu ajouter un écran d’instructions qui indique au joueur comment jouer au jeu? Pour cela, tu as besoin d’un bouton «Instructions» et d’un autre arrière-plan de scène.
 
-Peux-tu changer ton jeu, de sorte qu'au lieu de répondre à autant de questions que possible en 30 secondes, le joueur doit voir en combien de temps il peut obtenir 10 réponses correctes?
+![capture d'écran](images/brain-instructions.png)
 
-Pour ce faire, tu auras seulement besoin de changer le code de ton chronomètre. Peux-tu voir ce qui doit être changé?
+Tu devrais peut-être également ajouter un bouton "Retour" pour permettre au joueur de revenir à l'écran de démarrage.
 
-```blocks
-    quand je reçois [début v]
-mettre [temps v] à (30)
-répéter jusqu’à <(temps) = [0]> 
-  attendre (1) secondes
-  ajouter à [temps v] (-1)
-end
-envoyer à tous [fin v]
+```blocks3
+    envoyer à tous (écran de démarrage v)
 ```
-
---- /challenge ---

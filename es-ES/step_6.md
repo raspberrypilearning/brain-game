@@ -1,19 +1,11 @@
---- challenge ---
+## Desafío: Crear una pantalla de inicio
 
-## Desafío: Pantalla de inicio
+¿Puedes añadir otro fondo que sea la pantalla de inicio de tu juego?
 
-¿Puedes añadir otro fondo a tu escenario para convertirlo en la pantalla de inicio de tu juego? Puedes utilizar el `al recibir empieza`{:class="blockevents"} y `al recibir fin`{:class="blockevents"} bloques para cambiar entre los fondos.
+Puedes usar los bloques `al recibir empezar`{:class="block3events"} y `al recibir final`{:class="block3events"} para cambiar los fondos.
 
-También puedes mostrar y esconder tu personaje, e incluso mostrar y esconder tu temporizador mediante el uso de estos bloques:
+Para mostrar o esconder al personaje cuando cambie el fondo del juego puedes usar los bloques `mostrar`{:class="block3looks"} y `esconder`{:class="block3looks"}.
 
-```blocks
-mostrar variable [hora v]
-```
+Para mostrar o esconder el cronómetro y la puntuación cuando cambien los fondos puedes usar los bloques `mostrar variable`{:class="block3variables"} y `esconder variable`{:class="block3variables"}.
 
-```blocks
-esconder variable [hora v]
-```
-
-![screenshot](images/brain-startscreen.png)
-
---- /challenge ---
+![Pantalla de inicio](images/brain-startscreen.png)
