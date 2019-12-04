@@ -44,7 +44,7 @@ title: Ce qu'il faut avoir
 
 + Scratch 3 ([en ligne](http://rpf.io/scratchon) ou [hors ligne](http://rpf.io/scratchoff)")
 
-Question
+--- /collapse ---
 
 --- collapse ---
 ---
