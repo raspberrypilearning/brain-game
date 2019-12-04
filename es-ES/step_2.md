@@ -48,7 +48,6 @@ dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
 al presionar bandera verde
 dar a [número 1 v] el valor (número aleatorio entre (2) y (12))
 dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
-
 + preguntar (unir (número 1)(unir [ x ] (número 2))) y esperar
 + si <(respuesta) = ((número 1)*(número 2))> entonces
 + decir [¡sí! :)] durante (2) segundos

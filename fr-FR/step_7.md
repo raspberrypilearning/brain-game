@@ -12,7 +12,7 @@ Crée une nouveau sprite appelé "Résultat" et donne-lui un "cocher / vérifier
 
 --- task ---
 
-Modifie le code de ton sprite personnage de sorte que, au lieu de dire quelque chose au joueur, il `envoyer à tous`{:class="block3events"} les messages «correct» ou «mauvais».
+Modifie le code de ton sprite personnage de sorte que, au lieu de dire quelque chose au joueur, il `envoyer à tous`{:class="block3events"} les messages «correctes» ou «mauvais».
 
 ![Sprite Personnage](images/giga-sprite.png)
 

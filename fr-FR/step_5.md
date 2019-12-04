@@ -31,7 +31,7 @@ Le nouveau code fait apparaître le sprite bouton "Jouer" lorsque le joueur cliq
 
 Pour le moment, le sprite personnage commence à poser des questions lorsque le joueur clique sur le drapeau. Modifie le code de ton jeu pour que le sprite personnage commence à poser des questions lorsqu’il reçoit la diffusion `'démarrer'`{:class="block3events"}.
 
---- task --- Sélectionne ton sprite personnage et, dans sa section de code, remplace le bloc `quand le drapeau vert pressé`{:class="block3events"} par un bloc `lorsque je reçois démarrer`{:class="block3events" }.
+--- task --- Sélectionne ton sprite personnage et, dans sa section de code, remplace le bloc `quand le drapeau vert pressé`{:class="block3events"} par un bloc `quand je reçois démarrer`{:class="block3events" }.
 
 ![Sprite personnage](images/giga-sprite.png)
 

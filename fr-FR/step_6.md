@@ -2,7 +2,7 @@
 
 Peux-tu ajouter un autre arrière-plan qui sera l'écran de démarrage de ton jeu?
 
-Tu peux utiliser les blocs `lorsque je reçois jouer`{:class="block3events"} et `lorsque je reçois fin`{:class="block3events"} pour basculer entre les arrière-plans.
+Tu peux utiliser les blocs `quand je reçois jouer`{:class="block3events"} et `quand je reçois fin`{:class="block3events"} pour basculer entre les arrière-plans.
 
 Pour afficher ou masquer le personnage lorsque ton jeu bascule entre plusieurs arrière-plans, tu peux utiliser les blocs `montrer`{:class="block3looks"} et `masquer`{:class="block3looks"}.
 

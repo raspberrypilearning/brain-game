@@ -19,7 +19,7 @@ fin
 
 attendre (1) secondes
 
-ajouter (1) à [(temps ::variables)) v]
+ajouter (1) à [(temps) v]
 
 temps ::variables
 
@@ -27,17 +27,17 @@ quand le drapeau vert pressé
 
 <() = ()>
 
-mettre [(temps ::variables)) v] à [0]
+mettre [(temps) v] à [0]
 ```
 
 --- /hint --- --- hint --- Voici à quoi devrait ressembler ton nouveau code:
 
 ```blocks3
 quand le drapeau vert pressé
-mettre [(temps ::variables)) v] à [30]
+mettre [(temps) v] à [30]
 répéter jusqu'à ce que <(temps ::variables) = (0)>
     attendre (1) secondes
-    ajouter (-1) à [(temps ::variables)) v]
+    ajouter (-1) à [(temps) v]
 fin
 ```
 

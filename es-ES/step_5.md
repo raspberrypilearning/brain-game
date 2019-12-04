@@ -36,7 +36,7 @@ Por ahora el objeto del personaje empieza a hacer preguntas en cuanto se hace cl
 ![Objeto del personaje](images/giga-sprite.png)
 
 ```blocks3
-al presionar bandera verde
+- al presionar bandera verde
 + al recibir [empezar v]
 dar a [número 1 v] el valor (número aleatorio entre (2) y (12))
 dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
@@ -71,7 +71,7 @@ Haz clic en la bandera verde y después en el botón "Jugar" para ver si funcion
 ![Objeto del botón](images/button-sprite.png)
 
 ```blocks3
-    al recibir [end v]
+    al recibir [final v]
     mostrar
 ```
 
@@ -86,7 +86,7 @@ Para probar el juego más rápido puedes cambiar el valor de `tiempo`{:class="bl
 ![Escenario](images/stage-sprite.png)
 
 ```blocks3
-    establecer [time v] a [10]
+    establecer [tiempo v] a [10]
 ```
 
 --- /task ---
