@@ -1,44 +1,44 @@
 ## Adăugați un cronometru
 
-\--- task \--- Creați un cronometru de numărătoare inversă pe Etapa cu ajutorul unei noi variabile numite `timp`{: class = "block3variables"}. Timerul ar trebui să înceapă la 30 de secunde și să conta până la 0 secunde.
+\--- task \--- Creează o numărătoare inversă pe Scenă cu ajutorul unei noi variabile numite `timp`{: class = "block3variables"}. Cronometrul ar trebui să înceapă la 30 de secunde și să se scurgă până la 0 secunde.
 
 ![Scena sprite](images/stage-sprite.png)
 
-\--- Sugestii \--- \--- Indicație \---
+\--- hints \--- \--- hint \---
 
-Creați o variabilă `{`= class = "block3variables"}, numiți-o "timp" și setați-o la `30`.
+Creează o variabilă `{`= class = "block3variables"}, numește-o "timp" și seteaz-o la `30`.
 
-Apoi adăugați codul pentru a număra `timpul`{: class = "block3variables"} până la 0 în 30 de secunde. Pentru a face acest lucru, scade `1` din `timp`{: class = "block3variables"} la fiecare `1` secunde și repetați acest lucru până la `timp`{: class = "block3variables"} este egal cu `0`.
+Apoi adaugă codul pentru a reduce `timpul`{: class = "block3variables"} până la 0 în 30 de secunde. Pentru a face acest lucru, scade `1` din `timp`{: class = "block3variables"} la fiecare `1` secunde și repetă acest lucru până când `timp`{: class = "block3variables"} este egal cu `0`.
 
-\--- / hint \--- \--- indiciu \--- Aici sunt blocurile de care ai nevoie:
+\--- /hint \--- \--- hint \--- Aici sunt blocurile de care ai nevoie:
 
 ```blocks3
-repeta pana la < >
+repetă până la < >
 
-capăt
+sfârșit
 
-wait (1) secunde
+așteaptă (1) secunde
 
-schimbare [dată v] de (1)
+schimbă [timp v] cu (1)
 
 (timp)
 
-când pavilion apasat
+când faci click pe steagul verde
 
 <() = ()>
 
-set [timp v] până la [0]
+setează [timp v] la [0]
 ```
 
-\--- / indiciu \--- \--- indiciu \--- Iată ce ar trebui să arate noul dvs. cod:
+\--- /hint \--- \--- hint \--- Iată cum ar trebui să arate noul tău cod:
 
 ```blocks3
-când pavilion apasat
-set [timp v] până la [30]
-repeta pana <(timp) = (0)>
-    wait (1) secunde
-    schimbare [dată v] de (-1)
-final
+când faci click pe steagul verde
+setează [timp v] la [30]
+repetă pana <(timp) = (0)>
+    așteaptă (1) secunde
+    schimbă [timp v] cu (-1)
+sfârșit
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -47,7 +47,7 @@ final
 
 \--- task \---
 
-Creați o emisiune `{`} {: class = "block3control"} care trimite mesajul "sfârșit". A `difuzat`{: class = "block3control") este ca un anunț pe un difuzor: acesta poate fi audiat de toate spritele tale. Adăugați blocul `difuzare`{: class = "block3control"} la sfârșitul codului temporizatorului, astfel încât codul să trimită și mesajul "final" atunci când `timp`{: class = "block3variables"} a numărat până la `0`.
+Creează un eveniment `{`} {: class = "block3control"} care transmite mesajul "sfârșit". Un `eveniment`{: class = "block3control") este ca un anunț pe un difuzor: acesta poate fi auzit de toate personajele tale. Adăugați blocul `difuzare`{: class = "block3control"} la sfârșitul codului temporizatorului, astfel încât codul să trimită și mesajul "final" atunci când `timp`{: class = "block3variables"} a numărat până la `0`.
 
 ![Scena sprite](images/stage-sprite.png)
 
