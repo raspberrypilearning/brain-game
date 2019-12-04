@@ -19,11 +19,11 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există , de asemenea , o [v
 
 \--- /no-print \---
 
-\--- numai printare \--- ![Brain Game](images/brain-final.png) \--- / numai prin print
+\--- print-only \--- ![Brain Game](images/brain-final.png) \--- print-only \---
 
 ## \--- collapse \---
 
-## titlu: Ce veți învăța
+## title: Ce veți învăța
 
 + Cum se utilizează emisiunile în Scratch
 + Cum să creați și să utilizați un bloc de Scratch personalizat
@@ -46,10 +46,10 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există , de asemenea , o [v
 
 ## \--- collapse \---
 
-## titlu: note suplimentare pentru educatori
+## title: Informații suplimentare pentru educatori
 
 \--- fără imprimare \--- Dacă aveți nevoie pentru a imprima acest proiect, vă rugăm să folosiți [versiune pentru tipărire](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / nu-imprimare \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Poți găsi [proiectul finalizat aici](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
