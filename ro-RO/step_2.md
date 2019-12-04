@@ -1,26 +1,26 @@
 ## Creați întrebări
 
-Veți începe prin a crea întrebări aleatorii pe care jucătorul trebuie să le răspundă.
+Vei începe prin a crea întrebări aleatorii la care jucătorul trebuie să răspundă.
 
-\--- proba\---
+\--- task \---
 
-Deschideți un nou proiect Scratch.
+Deschide un nou proiect Scratch.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**Online:** deschide un nou proiect Scratch la [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** deschideți un nou proiect în editorul offline.
+**Offline:** deschide un nou proiect în editorul offline.
 
-Dacă trebuie să descărcați și să instalați editorul Scratch offline, îl puteți găsi la [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
+Dacă trebuie să descărci și să instalezi editorul Scratch offline, îl poți găsi la [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
 
-\--- /proba\---
+\--- /task \---
 
-\--- task \--- Adăugați un personaj sprite și un fundal pentru jocul dvs. Puteți alege orice doriți! Iată un exemplu:
+\--- task \--- Adaugă un personaj și un decor pentru jocul tău. Poți alege orice dorești! Iată un exemplu:
 
 ![captură de ecran](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- Asigurați-vă că ați selectat caracterul tău sprite. Creați două variabile noi, numite `numărul 1`{: class = "block3variables"} și `numărul 2`{: class = "block3variables"}}, pentru a stoca numerele pentru întrebările testului.
+\--- task \--- Asigură-te că ai selectat personajul tău. Creează două variabile noi, numite `numărul 1`{: class = "block3variables"} și `numărul 2`{: class = "block3variables"}}, pentru a stoca numerele pentru întrebările testului.
 
 ![captură de ecran](images/giga-sprite.png) ![captură de ecran](images/brain-variables.png)
 
@@ -28,30 +28,30 @@ Dacă trebuie să descărcați și să instalați editorul Scratch offline, îl 
 
 \--- /task \---
 
-\--- sarcină \--- Adăugați cod pentru sprite dvs. de caractere pentru a seta ambele `variabile`{: class = "block3variables"} la un `aleatoare`{: class = "block3operators"} număr între 2 și 12.
+\--- task \--- Adaugă coduri pentru personajul tău pentru a seta ambele `variabile`{: class = "block3variables"} la un număr `aleatoriu`{: class = "block3operators"} între 2 și 12.
 
 ![captură de ecran](images/giga-sprite.png)
 
 ```blocks3
-când se dă clic pe pictograma
-setează [numărul 1 v] la (alegeți aleatoriu (2) la (12))
-setați [numărul 2 v] la (alegeți aleatoriu (2) la (12))
+când se dă clic pe pictograma steag
+setează [numărul 1 v] pentru a (alege aleatoriu (2) până la (12))
+setează [numărul 2 v] pentru a (alege aleatoriu (2) până la (12))
 ```
 
 \--- /task \---
 
-\--- sarcină \--- Adăugați cod la `întreb`{: class = "block3sensing"} player -ul pentru răspunsul, și apoi `spun timp de 2 secunde`{: class = "block3looks"} dacă răspunsul a fost corect sau gresit:
+\--- task \--- Adaugă cod la `întreb`{: class = "block3sensing"} player-ul pentru răspuns, și apoi `spun timp de 2 secunde`{: class = "block3looks"} dacă răspunsul a fost corect sau greșit:
 
 ![captură de ecran](images/giga-sprite.png)
 
 ```blocks3
-când pavilion a făcut clic
-set [numărul 1 v] pentru a (alege aleator (2) până la (12))
-set [numărul 2 v] pentru a (alege aleator (2) până la (12))
+când se dă click pe pictograma steag
+setează [numărul 1 v] pentru a (alege aleatoriu (2) până la (12))
+setează [numărul 2 v] pentru a (alege aleatoriu (2) până la (12))
 
-+ cere (JOIN (numărul 1) (asociază [x] (numărul 2))) și așteptați
++ cere (adaugă (numărul 1) (adaugă [x] (numărul 2))) și așteaptă 
 + dacă <(răspuns) = ((numărul 1) * (numărul 2))> apoi
-+ :)] pentru (2) secunde
++ spune [da! :)] pentru (2) secunde
 + altceva
 + spune [no :(] pentru (2) secunde
 + sfârșit
@@ -61,39 +61,38 @@ set [numărul 2 v] pentru a (alege aleator (2) până la (12))
 
 \--- task \---
 
-Testați-vă proiectul de două ori: răspundeți corect la o întrebare și celălalt incorect.
+Testează-ți proiectul de două ori: răspunde corect la o întrebare și incorect la cealaltă.
 
 \--- /task \---
 
 \--- task \---
 
-Adăugați o buclă `pentru totdeauna`{: class = "block3control"} în jurul acestui cod, astfel încât jocul să îi adreseze jucătorului o mulțime de întrebări la rând.
+Setează ` pentru totdeauna ` {: class = "block3control"} pe acest cod, astfel încât jocul să pună jucătorului o mulțime de întrebări la rând.
 
-\--- Sugestii \--- \--- Indicație \---
+\--- hints \--- \--- hint \---
 
-Trebuie să adăugați un bloc `pentru totdeauna`{: class = "block3control"} și să puneți tot codul, cu excepția celor `când blochează`{: class = "block3control"}.
+Trebuie să adaugi un bloc `pentru totdeauna`{: class = "block3control"} și să pui tot codul, cu excepția blocului `când se dă click pe pictograma steag`{: class = "block3control"}.
 
-\--- / hint \--- \--- sugestie \--- Aici este blocul de care aveți nevoie:
+\--- / hint \--- \--- hint \--- Aici este blocul de care ai nevoie:
 
 ```blocks3
 pentru totdeauna
 sfârșit
 ```
 
-\--- / hint \--- \--- sugestie \--- Aici este ceea ce ar trebui să arate codul dvs.:
+\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: 
 
 ```blocks3
-când pavilion a făcut clic
+când se dă click pe pictograma steag
 
-+ pentru totdeauna
-    set [numărul 1 v] pentru a (alege aleator (2) până la (12))
-    set [numărul 2 v] pentru a (alege aleator (2) până la (12))
-    Numărul cere ( se alăture ( 1) (asociați [x] (numărul 2))) și așteptați
-    dacă <(răspuns) = ((numărul 1) * (numărul 2))> apoi
-        spuneți [da! :)] pentru (2) secunde
+setează [numărul 1 v] pentru a (alege aleatoriu (2) până la (12))
+setează [numărul 2 v] pentru a (alege aleatoriu (2) până la (12))
++ intreabă (adaugă (numărul 1) (adaugă [x] (numărul 2))) și așteaptă 
++ dacă <(răspuns) = ((numărul 1) * (numărul 2))> apoi
++ spune [da! :)] pentru (2) secunde
     altceva
         spune [no :(] pentru (2) secunde
-    sfârșitul
+    sfârșit
 sfârșit
 ```
 
