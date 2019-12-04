@@ -3,7 +3,7 @@
 Dans ce projet, tu apprendras comment créer un quiz sur les tables de multiplication, dans lequel tu devras obtenir autant de réponses que possible en 30 secondes.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/236314762/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334693873/?autostart=false" frameborder="0"></iframe>
   <img src="images/brain-final.png">
 </div>
 
