@@ -30,42 +30,42 @@ end
 
 \--- task \---
 
-이제 당신이 이러한 메시지를 사용할 수 있습니다 `쇼`{: 클래스 = "block3looks"}는 '틱'또는 '크로스'의상. '결과'스프라이트에 다음 코드를 추가합니다.
+이제 `show`{:class="block3looks"} 메시지를 사용하여 '체크' 또는 'x표' 의상을 표시할 수 있습니다. 결과 스프라이트에 다음 코드를 추가하세요.
 
 ![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
-    내가 맞을 때 (올바른 v)
-    스위치 의상을 (눈금 v)
-    보여주기
-    대기 (1) 초
-    숨기기
+    [맞음 v] 신호를 받았을 때
+모양을 (체크 v) \(으\)로 바꾸기
+보이기
+(1) 초 기다리기
+숨기기
 
-    [틀린 v를 받으면]
-    스위치 복장을 (십자가 v)
-    쇼
-    대기 (1) 초
-    플래그 클릭시
+[틀림 v] 신호를 받았을 때
+모양을 (x표 v) \(으\)로 바꾸기
+보이기
+(1) 초 기다리기
+숨기기
 
-    숨기기
-    숨기기
+⚑ 클릭했을 때
+숨기기
 ```
 
 \--- /task \---
 
-\--- task \--- 게임을 다시 테스트하십시오. 질문에 올바르게 대답 할 때마다 진드기를보아야하며, 틀릴 때마다 십자가가 표시되어야합니다!
+게임을 다시 테스트 해보십시오. 정확한 질문을 할 때마다 체크가 보일 것이며, 잘못 될 때마다 x표가 보일 것입니다.
 
 ![올바른 답변을 위해 십자 표시하십시오.](images/brain-test-answer.png)
 
 \--- /task \---
 
-당신의 코드를 볼 수 `내가 올바른받을 때`: {클래스 = "block3events"}과 `내가 잘못받을 때`{: 클래스 = "block3events을"} 거의 동일합니다?
+`내가 옳음을 받았을 때`{:class="blockevents"} 와 `내가 틀림을 받았을 때`{:class="blockevents"}의 코드는 거의 동일합니까?
 
 따라서 코드를 더 쉽게 변경하고 사용자 정의 블록을 생성 할 수 있습니다.
 
 \--- task \---
 
-'Result'스프라이트를 선택하십시오. 그런 다음 `My Blocks`{: class = "block3myblocks"}을 클릭 한 다음 **Make a Block**. 새 블록을 만들고 `animate`{: class = "block3myblocks"}이라고합니다.
+'Result'스프라이트를 선택하십시오. 그런 다음 `내 블록`{: class = "block3myblocks"}을 클릭 한 다음 **블록 추가하기**를 누릅니다. 새 블록을 만들고 `애니메이션`{: class = "block3myblocks"} 이라고 합니다.
 
 ![결과 스프라이트](images/result-sprite.png)
 
@@ -73,38 +73,38 @@ end
 
 \--- /task \---
 
-\--- task \--- 코드를 `이동합니다. show`{: class = "block3looks"} 그리고 ``{: class = "block3looks"} '결과'스프라이트를 `animate`{: class = block3myblocks "} 블록 :
+\--- task \--- 결과 스프라이트 내 `보이기`{:class="block3looks"} 및 `숨기기`{:class="block3looks"} 코드를 `애니메이션`{:class="block3myblocks"} 블록으로 옮기세요:
 
 ![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
-애니메이션을 정의하십시오
-show
-wait (1) seconds
+애니메이션 정의하기
+보이기
+(1) 초 기다리기
 숨기기
 ```
 
 \--- /task \---
 
-\--- 작업 \--- 당신이 제거했는지 확인 `쇼`{: 클래스 = "block3looks을"}와 `숨기기`{: 클래스 = "block3looks"} 아래 블록 **모두** 의 `스위치 의상`{: class = "block3looks"} 블록.
+\--- task \--- 결과 스프라이트 내 `보이기`{:class="block3looks"} 및 `숨기기`{:class="block3looks"} 코드를 `애니메이션`{:class="block3myblocks"} 블록으로 옮기세요.
 
-그런 다음 `스위치 코스튬`{: class = "block3looks"} 블록 아래에 `animate`{: class = "block3myblocks"} 블록을 추가하십시오. 이제 코드는 다음과 같이 보입니다.
+그런 다음 `스위치 코스튬`{: class = "block3looks"} 블록 아래에 `애니메이션`{: class = "block3myblocks"} 블록을 추가하십시오. 이제 코드는 다음과 같이 보입니다.
 
 ![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
-    내가 (맞은 v)
-    스위치 복장을받을 때 (눈금 v)
-    animate :: custom
+    [correct v] 신호를 받았을 때
+모양을 (체크 v) \(으\)로 바꾸기
+animate :: custom
 
-    [틀린 v]를받을 때
-    스위치 복장 (십자가 v)
-    animate :: custom
+[wrong v] 신호를 받았을 때
+모양을 (x표 v) \(으\)로 바꾸기
+animate :: custom
 ```
 
 \--- /task \---
 
-사용자 정의 `animate`{: class = "block3myblocks"} 블록으로 인해 'Result'스프라이트의 의상을 더 길거나 더 짧은 시간으로 표시하려면 코드를 한 번만 변경하면됩니다.
+사용자 정의 `애니메이션`{: class = "block3myblocks"} 블록으로 인해 '결과' 스프라이트의 의상을 더 길거나 더 짧은 시간으로 표시하려면 코드를 한 번만 변경하면됩니다.
 
 \--- task \---
 
@@ -112,22 +112,22 @@ wait (1) seconds
 
 \--- /task \---
 
-\--- 작업 \--- 대신 `보여주는`: {클래스 = "block3looks"}와 `숨어`{: 클래스 = "block3looks"}는 '틱'또는 '크로스'의상을, 당신은 바꿀 수 `애니메이션을`{: class = "block3myblocks"}는 의상이 희미 해 지도록 차단합니다.
+\--- 작업 \--- ` 보이기 ` {: class = "block3looks"} 및 ` 숨기기 ` {: class = "block3looks"} 를 사용하여 맞고 틀림의 의상을 표현하는 대신, `애니메이션`{:class="block3myblocks"} 을 사용하여 의상이 페이드인되도록 할 수 있습니다.
 
 ![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
-    애니메이션을 정의합니다
-    [고스트 v] 효과를 (100)
-    표시
-    반복 (25)
-        변경 [고스트 v] 효과로 (-4)
-    끝
-    숨기기
+    정의하기 animate
+[ghost v] 효과를 (100) 로 정하기
+보이기
+(25) 번 반복하기 
+  [ghost v] 효과를 (-4) 만큼 바꾸기
+end
+숨기기
 ```
 
 \--- /task \---
 
-'진드기'또는 '십자가'그래픽의 애니메이션을 개선 할 수 있습니까? 복장을 페이드 아웃하기위한 코드를 추가하거나 다른 멋진 효과를 사용할 수 있습니다.
+'체크' 또는 'x표' 그래픽의 애니메이션을 개선 할 수 있습니까? 복장을 페이드 아웃하기위한 코드를 추가하거나 다른 멋진 효과를 사용할 수 있습니다.
 
 ![스크린샷](images/brain-effects.png)
