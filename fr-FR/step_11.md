@@ -1,21 +1,21 @@
---- challenge ---
+## Et ensuite?
 
-## Défi: Écran d'instruction
+Essaye le projet [Attraper les points](https://projects.raspberrypi.org/fr-FR/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) pour créer un jeu de réaction! Dans ce projet, tu vas apprendre à créer des clones de sprite et à utiliser une variable pour accélérer progressivement le jeu.
 
-Peux-tu ajouter un écran d'instructions à ton jeu, indiquant à ton joueur comment jouer? Tu auras besoin d'un bouton 'Instructions' et d'un autre arrière plan.
+--- no-print --- Utilise les touches fléchées de ton clavier pour faire pivoter la molette du contrôleur et capturer les points volants lorsqu'ils atteignent le centre. Si tu manques trois points, le jeu est terminé.
 
-![capture d'écran](images/brain-instructions.png)
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/dots-final.png">
+</div>
 
-Tu peux également avoir besoin d'un bouton «Retour» pour te rendre au menu principal.
+--- /no-print ---
 
-```blocks
-    envoyer à tous [menu principal v]
-```
+--- print-only --- ![Dots screenshot](images/dots-final.png) --- /print-only ---
 
---- /challenge ---
-***
-### Traduction de la communauté 
 
-Ce projet a été traduit par **David Debaire** et vérifié par **Simon Gleises**. 
+**Traduction de la communauté**
 
-Nos incroyables bénévoles de traduction nous aident à donner aux enfants du monde entier la chance d'apprendre à coder. Vous pouvez nous aider à atteindre plus d'enfants en traduisant nos projets - en savoir plus sur [rpf.io/translators](https://rpf.io/translators).
+Ce projet a été traduit par **David Debaire**/**Jonathan Vannieuwkerke** et vérifié par **Simon Gleises**/**Michel Arnols**.
+
+Nos incroyables bénévoles de traduction nous aident à donner aux enfants du monde entier la chance d'apprendre à coder. Vous pouvez nous aider à atteindre plus d'enfants en traduisant nos projets - en savoir plus sur [rpf.io/translate](https://rpf.io/translate).

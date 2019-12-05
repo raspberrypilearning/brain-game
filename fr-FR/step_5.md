@@ -1,74 +1,110 @@
 ## Jeux multiples
 
-Ajoutons un bouton "play" à votre jeu, afin que vous puissiez jouer plusieurs fois.
+Tu vas maintenant ajouter un bouton "Jouer" pour que le joueur puisse jouer à ton jeu plusieurs fois.
 
-+ Crée un nouveau lutin "bouton de lecture", sur lequel votre joueur cliquera pour lancer une nouvelle partie. Tu peux le dessiner toi-même ou modifier un lutin à partir de la bibliothèque Scratch.
-    
-    ![capture d'écran](images/brain-play.png)
+--- task --- Crée un nouveau sprite de bouton "Jouer" sur lequel le joueur doit cliquer pour commencer une nouvelle partie.
 
-+ Ajoute ce code à ton nouveau bouton.
-    
-    ```blocks
-        quand le drapeau vert pressé
+Tu peux dessiner le sprite toi-même ou éditer un sprite à partir de la bibliothèque.
+
+![Image du bouton jouer](images/brain-play.png)
+
+--- /task ---
+
+--- task --- Ajoute ce code à ton sprite bouton:
+
+![Sprite bouton](images/button-sprite.png)
+
+```blocks3
+    quand le drapeau vert pressé
     montrer
-    
-    quand ce lutin est cliqué 
+
+    quand ce sprite est cliqué
     cacher
-    envoyer à tous [début v]
-    ```
-    
-    Ce code affiche le bouton de lecture lorsque ton projet est démarré. Lorsque le bouton est cliqué, il est masqué et envoie ensuite un message qui lancera le jeu.
+    envoyer à tous (démarrer v)
+```
 
-+ Tu devras modifier le code de ton personnage afin que le jeu commence quand il recevra le message `début`{:class="blockevents"}, et non lorsque le drapeau est cliqué.
-    
-    Remplace le code `lorsque le drapeau est cliqué`{:class="blockevents"} avec `quand je reçois début`{:class="blockevents"}.
-    
-    ![capture d'écran](images/brain-start.png)
+--- /task ---
 
-+ Clique sur le drapeau vert, puis clique sur ton nouveau bouton de lecture pour le tester. Tu devrais voir que le jeu ne démarre pas tant que le bouton n'est pas cliqué.
+Le nouveau code comprend un autre bloc `envoyer à tous`{:class="block3events"}, qui envoie le message "démarrer".
 
-+ As-tu remarqué que la minuterie commence quand on clique sur le drapeau vert, et non quand la partie commence?
-    
-    ![capture d'écran](images/brain-timer-bug.png)
-    
-    Peux-tu résoudre ce problème?
+Le nouveau code fait apparaître le sprite bouton "Jouer" lorsque le joueur clique sur le drapeau. Lorsque le joueur clique sur le sprite bouton, celui-ci se cache et diffuse ensuite un message auquel les autres sprites peuvent réagir.
 
-+ Clique sur la scène, et remplace le `stop tout`{:class="blockcontrol"} avec un message `fin`{:class="blockevents"}.
-    
-    ![capture d'écran](images/brain-end.png)
+Pour le moment, le sprite personnage commence à poser des questions lorsque le joueur clique sur le drapeau. Modifie le code de ton jeu pour que le sprite personnage commence à poser des questions lorsqu’il reçoit la diffusion `'démarrer'`{:class="block3events"}.
 
-+ Tu peux maintenant ajouter du code à ton bouton, pour le montrer à la fin de chaque partie.
-    
-    ```blocks
-        quand je reçois [fin v]
-        montrer
-    ```
+--- task --- Sélectionne ton sprite personnage et, dans sa section de code, remplace le bloc `quand le drapeau vert pressé`{:class="block3events"} par un bloc `quand je reçois démarrer`{:class="block3events" }.
 
-+ Tu auras également besoin d’arrêter ton personnage de poser des questions à la fin de chaque partie :
-    
-    ```blocks
-        quand je reçois [fin v] 
-        stop [autres scripts du lutin v]
-    ```
+![Sprite personnage](images/giga-sprite.png)
 
-+ Teste ton bouton de jeu en jouant quelques parties. Tu devrais remarquer que le bouton de lecture s'affiche après chaque partie. Pour faciliter les tests, Tu peux raccourcir chaque partie de sorte qu'elle ne dure que quelques secondes.
-    
-    ```blocks
-        mettre [temps v] à [10]
-    ```
+```blocks3
+- quand le drapeau vert pressé
++ quand je reçois [démarrer v]
+mettre [numéro 1 v] à (nombre aléatoire entre (2) et (12))
+mettre [numéro 2 v] à (nombre aléatoire entre (2) et (12))
+demander (regrouper (numéro 1) et (regrouper [ x ] et (numéro 2))) et attendre
+si <(réponse) = ((numéro 1) * (numéro 2))> alors 
+  dire [oui! :)] pendant (2) secondes
+sinon 
+  dire [nope :(] pendant (2) secondes
+fin
+```
 
-+ Tu peux même changer l'aspect du bouton lorsque la souris passe dessus.
-    
-    ```blocks
-        quand le drapeau vert pressé
-        montrer
-        répéter indéfiniment 
-          si <[pointeur de souris v] touché?> alors 
-            mettre l'effet [oeil de poisson v] à (30)
+--- /task ---
 
-            mettre l'effet [oeil de poisson v] à (0)
-          end
-        end
-    ```
-    
-    ![capture d'écran](images/brain-fisheye.png)
+--- task ---
+
+Clique sur le drapeau vert, puis sur le nouveau bouton "Jouer" pour vérifier si cela fonctionne. Tu devrais voir que le jeu ne commence pas avant de cliquer sur le bouton.
+
+--- /task ---
+
+Peux-tu voir que le chronomètre commence lorsque le drapeau vert est cliqué, au lieu de commencer le jeu?
+
+![La minuterie a commencé](images/brain-timer-bug.png)
+
+--- task ---
+
+Peux-tu changer le code de la minuterie pour que celle-ci démarre lorsque le joueur clique sur le bouton?
+
+--- /task ---
+
+--- task --- Ajoute du code à ton sprite pour que le bouton apparaisse à la fin de chaque partie.
+
+![Sprite bouton](images/button-sprite.png)
+
+```blocks3
+    quand je reçois [fin v]
+    montrer
+```
+
+--- /task ---
+
+--- task ---
+
+Teste le bouton "Jouer" en jouant à quelques jeux. Le bouton devrait apparaître à la fin de chaque partie.
+
+Pour tester le jeu plus rapidement, tu peux modifier la valeur de `temps`{:class="block3variables"} afin que chaque jeu dure seulement quelques secondes.
+
+![Scène](images/stage-sprite.png)
+
+```blocks3
+    mettre [temps v] à [10]
+```
+
+--- /task ---
+
+--- task --- Tu peux modifier l'apparence du bouton lorsque le pointeur de la souris le survole.
+
+![Button](images/button-sprite.png)
+
+```blocks3
+quand le drapeau vert pressé
+montrer
+répéter indéfiniment
+si <touche le (pointeur de souris v)?> alors
+    mettre l'effet [œil de poisson v] à (30)
+sinon 
+    mettre l'effet [œil de poisson v] à (0)
+fin
+fin
+```
+
+![capture d'écran](images/brain-fisheye.png) --- /task ---

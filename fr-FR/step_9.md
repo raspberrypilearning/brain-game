@@ -1,17 +1,15 @@
---- challenge ---
+## Défi: course à 10 points
 
-## Défi: Son et musique
+Peux-tu changer ton jeu pour que le joueur, au lieu de répondre au plus grand nombre de questions possible en 30 secondes, réponde à 10 questions le plus rapidement possible.
 
-Peux-tu ajouter des effets sonores et de la musique à ton jeu? Par exemple:
+Pour effectuer ce changement, il te suffit de changer ton code de minuterie. Peux-tu voir quels blocs doivent être différents?
 
-+ Jouer un son quand le joueur obtient une réponse correcte ou fausse;
-+ Ajouter un son à ton compte à rebours;
-+ Jouer un son quand le temps est écoulé;
-    
-    ```blocks
-        jouer du tambour (10 v) pendant (0.1) temps
-    ```
-
-+ Tu peux également jouer de la musique en boucle (si tu n'es pas sûr de la façon de le faire, l'étape 4 du projet 'Rock Band' t'aidera).
-
---- /challenge ---
+```blocks3
+quand je reçois [démarrer v]
+mettre [temps v] à (30)
+répéter jusqu'à ce que <(temps ::variables) = [0]> 
+  attendre (1) secondes
+  ajouter (-1) à [temps v]
+fin
+envoyer à tous (fin v)
+```

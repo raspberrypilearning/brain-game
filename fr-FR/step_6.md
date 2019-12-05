@@ -1,19 +1,11 @@
---- challenge ---
+## Défi: créer un écran de démarrage
 
-## Défi: Écran de démarrage
+Peux-tu ajouter un autre arrière-plan qui sera l'écran de démarrage de ton jeu?
 
-Peux-tu ajouter un autre arrière plan à ta scène, qui deviendra l'écran de démarrage de ton jeu? Tu peux utiliser les blocs `quand je reçois début`{:class="blockevents"} et `quand je reçois fin`{:class="blockevents"} pour basculer entre les arrières plans.
+Tu peux utiliser les blocs `quand je reçois jouer`{:class="block3events"} et `quand je reçois fin`{:class="block3events"} pour basculer entre les arrière-plans.
 
-Tu peux également afficher et masquer ton personnage, et même afficher et masquer ton minuteur en utilisant ces blocs:
+Pour afficher ou masquer le personnage lorsque ton jeu bascule entre plusieurs arrière-plans, tu peux utiliser les blocs `montrer`{:class="block3looks"} et `masquer`{:class="block3looks"}.
 
-```blocks
-montrer la variable [temps v]
-```
+Pour afficher ou masquer le chronomètre et le score lorsque ton jeu bascule entre plusieurs arrière-plans, tu peux utiliser les blocs `montrer variable`{:class="block3variables"} et `masquer variable`{:class="block3variables"}.
 
-```blocks
-cacher la variable [temps v]
-```
-
-![capture d'écran](images/brain-startscreen.png)
-
---- /challenge ---
+![Écran de démarrage](images/brain-startscreen.png)
