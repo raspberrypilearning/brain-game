@@ -40,7 +40,7 @@ définir [numéro 2 v] sur (choisir au hasard (2) à (12))
 
 \--- /task \---
 
-\--- task \--- Ajouter le code à `demander`{: class = "block3sensing"} au joueur pour la réponse, puis `dire pendant 2 secondes`{: class = "block3looks"} si la réponse était correcte ou fausse:
+\--- task \--- Ajoute le code à `demander`{: class = "block3sensing"} au joueur pour la réponse, puis `dire pendant 2 secondes`{: class = "block3looks"} si la réponse était correcte ou fausse:
 
 ![capture d'écran](images/giga-sprite.png)
 
