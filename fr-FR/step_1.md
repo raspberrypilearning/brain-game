@@ -25,7 +25,7 @@ Dans ce projet, tu vas créer un quiz mathématique dans lequel le joueur dispos
 
 ## title: Ce que tu vas apprendre
 
-+ Comment utiliser les envoyer à tous dans Scratch
++ Comment utiliser la diffusion de message avec les blocs "envoyer à tous" dans Scratch
 + Comment créer et utiliser un bloc Scratch personnalisé
 
 \--- /collapse \---
