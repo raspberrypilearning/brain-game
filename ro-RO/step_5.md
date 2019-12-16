@@ -4,13 +4,13 @@ Acum, vei adăuga un buton "Play", astfel încât jucătorul să poată juca joc
 
 \--- task \--- Creează un nou buton "Play" pe care jucătorul trebuie să dea click pentru a porni un joc nou.
 
-Puteți desena sprite singur, sau puteți edita un sprite din bibliotecă.
+Poți desena personajul singur sau poți edita un personaj din bibliotecă.
 
 ![Imagine a butonului de redare](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Adăugați acest cod la butonul dvs. sprite:
+\--- task \--- Adaugă acest cod la butonul personajului tău:
 
 ![Button sprite](images/button-sprite.png)
 
