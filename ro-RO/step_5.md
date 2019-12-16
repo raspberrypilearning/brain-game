@@ -31,7 +31,7 @@ Noul cod face ca butonul "Play" să fie afișat atunci când un jucător dă cli
 
 În acest moment, personajul începe să pună întrebări imediat ce jucătorul dă clic pe steagul verde. Schimbă codul jocului astfel încât personajul să înceapă să pună întrebări atunci când primește mesajul "start" `broadcast`{: class = "block3events"}.
 
-\--- task \--- Selectați caracterul dvs. sprite și, în secțiunea sa de cod, înlocuiți `când blițul a făcut clic pe blocul`{: class = "block3events"} cu `atunci când primesc startul`{: class = "block3events" } bloc.
+\--- task \--- Selectează personajul tău și, în secțiunea sa de cod, înlocuiește blocul `cand se dă click pe`{: class = "block3events"} cu blocul `atunci când primesc startul`{: class = "block3events"}.
 
 ![Sprite de caractere](images/giga-sprite.png)
 
