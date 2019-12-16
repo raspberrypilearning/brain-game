@@ -15,12 +15,12 @@ Poți desena personajul singur sau poți edita un personaj din bibliotecă.
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    când steagul a făcut clic pe
+    când dăm click pe steagul verde
     arată
 
-    când acest sprite a făcut clic pe
+    când dăm click pe personaj 
     ascunde
-    difuzat (începe v)
+    difuzează (începe v)
 ```
 
 \--- /task \---
