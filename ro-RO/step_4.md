@@ -6,6 +6,6 @@ Poți adăuga un cod astfel încât jucătorul să obțină un punct pentru fiec
 
 [[[generic-scratch3-high-score]]]
 
-Poti sa-ti faci personajul sa reactioneze la raspunsul jucatorului schimband la un costum diferit daca raspunsul este corect sau incorect?
+Poți să-ți faci personajul să reacționeze la răspunsul jucătorului schimbându-i costumul in funcție de un răspuns corect sau incorect? 
 
-![captură de ecran](images/brain-costume.png)
+![screenshot](images/brain-costume.png)
