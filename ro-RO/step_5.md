@@ -27,9 +27,9 @@ Poți desena personajul singur sau poți edita un personaj din bibliotecă.
 
 Noul cod include un alt bloc `broadcast`{: class = "block3events"}, care trimite mesajul "start".
 
-Noul cod face ca butonul "Play" să fie afișat atunci când un jucător dă clic pe steagul verde. Când jucătorul dă clic pe butonul Sprite, sprite-ul se ascunde și transmite apoi un mesaj pe care pot reacționa alte sprite.
+Noul cod face ca butonul "Play" să fie afișat atunci când un jucător dă clic pe steagul verde. Când jucătorul dă clic pe butonul personajului, personajul se ascunde și transmite apoi un mesaj la care pot reacționa alte personaje.
 
-În momentul de față, personajul sprite începe să pună întrebări atunci când jucătorul dă clic pe pavilion. Schimbați codul jocului astfel încât sprite de caractere să înceapă să pună întrebări atunci când primește difuzarea "start" ``{: class = "block3events"}.
+În acest moment, personajul începe să pună întrebări imediat ce jucătorul dă clic pe steagul verde. Schimbă codul jocului astfel încât personajul să înceapă să pună întrebări atunci când primește mesajul "start" `broadcast`{: class = "block3events"}.
 
 \--- task \--- Selectați caracterul dvs. sprite și, în secțiunea sa de cod, înlocuiți `când blițul a făcut clic pe blocul`{: class = "block3events"} cu `atunci când primesc startul`{: class = "block3events" } bloc.
 
