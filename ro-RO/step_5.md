@@ -1,8 +1,8 @@
-## Mai multe jocuri
+## Jocuri multiple
 
-Acum, veți adăuga un buton "Play", astfel încât jucătorul să poată juca jocul dvs. de multe ori.
+Acum, vei adăuga un buton "Play", astfel încât jucătorul să poată juca jocul tău de mai multe ori.
 
-\--- task \--- Creați un nou buton de joc "Sprite" pe care trebuie să faceți clic pentru a porni un nou joc.
+\--- task \--- Creează un nou buton "Play" pe care jucătorul trebuie să dea click pentru a porni un joc nou.
 
 Puteți desena sprite singur, sau puteți edita un sprite din bibliotecă.
 
