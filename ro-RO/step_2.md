@@ -1,4 +1,4 @@
-## Creați întrebări
+## Creează întrebări
 
 Vei începe prin a crea întrebări aleatorii la care jucătorul trebuie să răspundă.
 
@@ -10,7 +10,7 @@ Deschide un nou proiect Scratch.
 
 **Offline:** deschide un nou proiect în editorul offline.
 
-Dacă trebuie să descărci și să instalezi editorul Scratch offline, îl poți găsi la [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
+Dacă trebuie să descărci și să instalezi editorul offline Scratch, îl poți găsi la [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
 
 \--- /task \---
 
@@ -33,7 +33,7 @@ Dacă trebuie să descărci și să instalezi editorul Scratch offline, îl poț
 ![captură de ecran](images/giga-sprite.png)
 
 ```blocks3
-când se dă clic pe pictograma steag
+când se dă clic pe steagul verde
 setează [numărul 1 v] pentru a (alege aleatoriu (2) până la (12))
 setează [numărul 2 v] pentru a (alege aleatoriu (2) până la (12))
 ```
