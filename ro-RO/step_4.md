@@ -1,8 +1,8 @@
-## Provocare: adăugați un scor și reacții
+## Provocare: adaugă un scor și reacții
 
-Puteți adăuga un scor la jocul dvs.?
+Poți adăuga un scor la jocul tău?
 
-Puteți adăuga un cod astfel încât jucătorul să înscrie un punct pentru fiecare răspuns corect. Dacă vă simțiți rău, puteți adăuga și codul pentru a reseta scorul jucătorului la zero dacă dau un răspuns greșit!
+Poți adăuga un cod astfel încât jucătorul să obțină un punct pentru fiecare răspuns corect. Dacă te simți viclean, poți adăuga și codul pentru a reseta scorul jucătorului la zero dacă dă un răspuns greșit!
 
 [[[generic-scratch3-high-score]]]
 
