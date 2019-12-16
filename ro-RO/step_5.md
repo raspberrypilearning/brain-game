@@ -56,22 +56,22 @@ Dă click pe steagul verde, apoi dă click pe noul buton "Redare" pentru a testa
 
 \--- /task \---
 
-Puteți vedea că cronometrul începe când se face clic pe steagul verde, în loc de când începe jocul?
+Poți vedea că începe cronometrul când se dă click pe steagul verde, în loc să înceapă o dată cu jocul?
 
 ![Timerul a început](images/brain-timer-bug.png)
 
 \--- task \---
 
-Puteți schimba codul pentru cronometru astfel încât să înceapă cronometrul când player-ul face clic pe buton?
+Poți schimba codul pentru cronometru astfel încât să înceapă atunci când jucătorul dă click pe buton?
 
 \--- /task \---
 
-\--- task \--- Adăugați codul la butonul dvs. sprite, astfel încât butonul să apară din nou la sfârșitul fiecărui joc.
+\--- task \--- Adaugă codul la butonul personajului tău, astfel încât butonul să apară din nou la sfârșitul fiecărui joc.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    când primesc [sfârșitul v]
+    când primesc [sfârșit v]
     arată
 ```
 
