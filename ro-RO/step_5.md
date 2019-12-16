@@ -36,15 +36,15 @@ Noul cod face ca butonul "Play" să fie afișat atunci când un jucător dă cli
 ![Sprite de caractere](images/giga-sprite.png)
 
 ```blocks3
-<br />- atunci când pavilionul a făcut clic pe
+<br />- atunci când dau click pe steagul verde
 + când primesc [start v]
-set [numărul 1 v] la (alegeți aleatoriu 2 la 12)
-setați [numărul 2 v] )
-cere (JOIN (numărul 1) ( se alăture [x] (numărul 2))) și așteptați
-dacă <(răspuns) = ((numărul 1) * (numărul 2))> , apoi
+setează [number 1 v] la (alegeți aleatoriu de la (2) la (12))
+setează [numărul 2 v] la (alegeți aleatoriu de la (2) la (12))
+cere (adaugă (numărul 1)(adaugă [x] (numărul 2))) și așteaptă
+dacă <(răspuns) = ((numărul 1) * (numărul 2))> apoi
     spun [da! :)] pentru (2) secunde
 altceva
-    spune [nope :(] pentru (2) secunde
+    spune [nu :(] pentru (2) secunde
 sfarsit
 ```
 
@@ -52,7 +52,7 @@ sfarsit
 
 \--- task \---
 
-Faceți clic pe steagul verde, apoi faceți clic pe noul buton "Redare" pentru a testa dacă funcționează. Ar trebui să vedeți că jocul nu începe înainte de a da clic pe buton.
+Dă click pe steagul verde, apoi dă click pe noul buton "Redare" pentru a testa dacă funcționează. Ar trebui să vezi că jocul nu începe înainte de a da click pe buton.
 
 \--- /task \---
 
