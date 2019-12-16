@@ -25,9 +25,9 @@ Poți desena personajul singur sau poți edita un personaj din bibliotecă.
 
 \--- /task \---
 
-Noul cod include un alt bloc `transmisie`{: class = "block3events"}, care trimite mesajul "start".
+Noul cod include un alt bloc `broadcast`{: class = "block3events"}, care trimite mesajul "start".
 
-Noul cod face ca butonul "Play" să fie afișat atunci când un jucător dă clic pe pavilion. Când jucătorul dă clic pe butonul Sprite, sprite-ul se ascunde și transmite apoi un mesaj pe care pot reacționa alte sprite.
+Noul cod face ca butonul "Play" să fie afișat atunci când un jucător dă clic pe steagul verde. Când jucătorul dă clic pe butonul Sprite, sprite-ul se ascunde și transmite apoi un mesaj pe care pot reacționa alte sprite.
 
 În momentul de față, personajul sprite începe să pună întrebări atunci când jucătorul dă clic pe pavilion. Schimbați codul jocului astfel încât sprite de caractere să înceapă să pună întrebări atunci când primește difuzarea "start" ``{: class = "block3events"}.
 
