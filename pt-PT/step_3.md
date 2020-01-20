@@ -1,16 +1,24 @@
 ## Adicionar um temporizador
 
-\--- task \--- Cria um temporizador de contagem regressiva no palco com a ajuda de uma nova variável chamada `tempo`{:class="block3variable"}. O temporizador deve começar em 30 segundos e contar até 0 segundos.
+\--- task \---
 
-![Actor do palco](images/stage-sprite.png)
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
-\--- hints \--- \--- hint \---
+![Stage sprite](images/stage-sprite.png)
 
-Cria uma `variável`{:class="block3variables"}, nomeia-a 'tempo', e define o valor para `30`.
+\--- hints \---
 
-Em seguida, adiciona código para diminuir `tempo` {: class = "block3variables"} até 0 em 30 segundos. Para fazer isso, subtrai `1` de `tempo`{:class="block3variables"} a cada `1` segundo, e repete até `tempo`{:class="block3variables"} igual a `0`.
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- Aqui estão os blocos que precisas:
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 repeat until < >
@@ -30,7 +38,11 @@ when flag clicked
 set [time v] to [0]
 ```
 
-\--- /hint \--- \--- hint \--- Aqui está o aspeto que o teu novo código deve ter:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 when flag clicked
@@ -41,15 +53,17 @@ change [time v] by (-1)
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Cria um bloco `difunde a mensagem`{:class="block3control"} que envia a mensagem 'acabar'. Um ` difunde a mensagem ` {: class = "block3control"} é como um anúncio em um alto-falante: ele pode ser ouvido por todos os teus actores. Adiciona o bloco `difunde a mensagem`{:class="block3control"} ao final do código do temporizador, para que o código envie a mensagem 'acabar' quando `tempo`{:class="block3variable"} chegar a `0`.
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
-![Actor do palco](images/stage-sprite.png)
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     difunde a mensagem (end v)
@@ -57,9 +71,11 @@ Cria um bloco `difunde a mensagem`{:class="block3control"} que envia a mensagem 
 
 \--- /task \---
 
-\--- task \--- Seleciona o teu actor e adiciona código para que o actor `pare os outros guiōes`{:class="block3control"} quando recebe a mensagem `acabar`{:class="block3control"}.
+\--- task \---
 
-![Actor Giga](images/giga-sprite.png)
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+
+![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
     quando receberes a mensagem [acabar v]
@@ -70,6 +86,6 @@ Cria um bloco `difunde a mensagem`{:class="block3control"} que envia a mensagem 
 
 \--- task \---
 
-Testa o teu jogo novamente. Deve continuar a fazer perguntas até que o temporizador tenha contado até 0.
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
 \--- /task \---
