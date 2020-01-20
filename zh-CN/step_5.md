@@ -2,17 +2,21 @@
 
 现在，您将添加一个“开始”按钮，以便玩家可以玩多次游戏。
 
-\--- 任务 \--- 创建一个新的“开始”按钮，让玩家点击来开始新游戏。
+\--- task \---
 
-您可以自己绘制精灵，也可以从库中编辑精灵。
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![播放按钮图片](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
 
-\--- /任务 \---
+![Picture of the play button](images/brain-play.png)
 
-\--- 任务 \--- 将此代码添加到按钮精灵中：
+\--- /task \---
 
-![按钮精灵](images/button-sprite.png)
+\--- task \---
+
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     当 ⚑ 被点击
@@ -23,17 +27,19 @@
     广播(开始 v)
 ```
 
-\--- /任务 \---
+\--- /task \---
 
-新代码包括另一个`广播` {class =“block3events”}块，它发送“开始”消息。
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-当玩家点击旗帜时，新代码会显示“开始”按钮精灵。 当玩家点击按钮精灵时，精灵会隐藏，然后广播信息，让其他精灵可以做出反应。
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-此时，角色精灵在玩家点击旗帜时开始提问。 更改游戏代码，以便当它收到“开始”`广播`{:class="block3events"}时，角色精灵开始提问。
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- task \--- 选择你的角色精灵，并在其代码部分中，用`当接收到 开始`{:class="block3events"}代码块替换`当 ⚑ 被点击`{:class="block3events"}代码块。
+\--- task \---
 
-![角色精灵](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- 当 ⚑ 被点击
@@ -52,23 +58,25 @@ end
 
 \--- task \---
 
-点击绿色旗帜，然后单击新的“开始”按钮以测试其是否正常工作。你应该看到在点击按钮之前游戏不会开始。
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
 \--- /task \---
 
-你能看到计时器是在绿色旗帜被点击时开始计时，而不是游戏开始时开始的吗？
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
 
-![计时器开启](images/brain-timer-bug.png)
+![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-你可以更改计时器的代码，以便在玩家点击按钮时启动计时器吗？
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /task \---
 
-\--- task \--- 为你的按钮精灵添加代码，使按钮在每次游戏结束时再次显示。
+\--- task \---
 
-![按钮精灵](images/button-sprite.png)
+Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     当接收到 [结束 v]
@@ -79,11 +87,11 @@ end
 
 \--- task \---
 
-通过玩几场游戏来测试“开始”按钮。按钮应在每场游戏结束时显示。
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-为了更快地测试游戏，你可以更改`时间`{:class="block3variables"}的值，这样每次游戏只持续几秒钟。
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![舞台](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     将 [时间 v] 设为 [10]
@@ -91,9 +99,11 @@ end
 
 \--- /task \---
 
-\--- task \--- 你可以更改鼠标指针悬停在按钮上时的外观。
+\--- task \---
 
-![按钮](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     当 ⚑ 被点击
@@ -107,4 +117,6 @@ end
 end
 ```
 
-![截屏](images/brain-fisheye.png) \--- /task \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
