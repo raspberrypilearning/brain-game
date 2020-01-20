@@ -54,29 +54,33 @@
 
 \--- /задатак \---
 
-\--- задатак \--- Поново тестирајте игру. Требало би да видите квачицу кад год одговорите на питање тачно, а крст кад год одговорите погрешно!
+\--- task \---
 
-![Означите за исправно, криж за погрешан одговор](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
 
-\--- /задатак \---
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
-Можете ли видјети да је код за `када примим исправну`: цласс = "блоцк3евентс" и `када примим погрешан`{цласс = "блоцк3евентс"} је готово идентичан?
+\--- /task \---
 
-Тако да можете лакше да мењате код, креираћете прилагођени блок.
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-\--- задатак \---
+So you can change your code more easily, you are going to create a custom block.
 
-Изаберите сприте 'Ресулт'. Затим кликните на `Ми Блоцкс`{: цласс = "блоцк3миблоцкс"}, а затим на **Маке а Блоцк**. Направите нови блок и назовите га `анимате`{: цласс = "блоцк3миблоцкс"}.
+\--- task \---
 
-![Резултат сприте](images/result-sprite.png)
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![Направите блок који се зове анимација](images/brain-animate-function.png)
+![Result sprite](images/result-sprite.png)
 
-\--- /задатак \---
+![Create a block called animate](images/brain-animate-function.png)
 
-\--- задатак \--- Премјестите код на `схов`{: цласс = "блоцк3лоокс"} и `хиде`{: цласс = "блоцк3лоокс"} 'Резултат' сприте у `анимате`{: цласс = " блоцк3миблоцкс "} блок:
+\--- /task \---
 
-![Резултат сприте](images/result-sprite.png)
+\--- task \---
+
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 дефине анимате
@@ -85,13 +89,15 @@
 хиде
 ```
 
-\--- /задатак \---
+\--- /task \---
 
-\--- задатак \--- Провјерите јесте ли уклонили `схов`{: цласс = "блоцк3лоокс"} и `хиде`{: цласс = "блоцк3лоокс"} блокови испод **оба** од `свитцх цостуме`{: цласс = "блоцк3лоокс"} блоки.
+\--- task \---
 
-Затим додати `анимате`{: цласс = "блоцк3миблоцкс"} блок испод оба из `прекидача костима`{: цласс = "блоцк3лоокс"} блокова. Ваш код сада треба да изгледа овако:
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![Резултат сприте](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     када примим [исправан в]
@@ -103,19 +109,21 @@
     анимате :: цустом
 ```
 
+\--- /task \---
+
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+
+\--- task \---
+
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+
 \--- /задатак \---
 
-Због блока прилагођеног `анимате`{: цласс = "блоцк3миблоцкс"}, сада само требате направити једну промјену у коду ако желите приказати костиме "Ресулта" духа или краћег времена.
+\--- task \---
 
-\--- задатак \---
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
 
-Промените свој код тако да се костим "квачица" или "крст" прикаже на 2 секунде.
-
-\--- /задатак \---
-
-\--- задатак \--- Уместо `показује`{: цласс = "блоцк3лоокс"} и `крију`{: цласс = "блоцк3лоокс"} је "тицк" или "цросс" костима, можете да промените `анимате`{: цласс = "блоцк3миблоцкс"} блок тако да костими блиједе.
-
-![Резултат сприте](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     дефинирајте анимате
@@ -127,8 +135,8 @@
     сакриј
 ```
 
-\--- /задатак \---
+\--- /task \---
 
-Можете ли побољшати анимацију графике 'квачица' или 'крижа'? Могли бисте додати код како би и костими нестали, или бисте могли користити друге кул ефекте:
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
-![сцреенсхот](images/brain-effects.png)
+![screenshot](images/brain-effects.png)
