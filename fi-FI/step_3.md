@@ -1,16 +1,24 @@
 ## Lisää ajastin
 
-\--- tehtävä \--- Luo ajastin lavalla avulla uuden muuttujan nimeltään `kerran`{: class = "block3variables"}. Ajastimen pitäisi alkaa 30 sekunnista ja laskea 0 sekuntia.
+\--- task \---
 
-![Vaihe sprite](images/stage-sprite.png)
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
-\--- vinkkejä \--- \--- vihje \---
+![Stage sprite](images/stage-sprite.png)
 
-Luo `muuttuja`{: class = "block3variables"}, soita se "aika" ja aseta sen arvo `30`.
+\--- hints \---
 
-Lisää sitten koodi laskeaksesi `aikaa`{: class = "block3variables"} alas 0: een 30 sekunnin kuluessa. Voit tehdä tämän vähentämällä `1` `kertaa`{: class = "block3variables"} joka `1` sekunnin välein ja toista tämä kunnes `kertaa`{: class = "block3variables"} vastaa `0`.
+\--- hint \---
 
-\--- / vihje \--- \--- vihje \--- Tässä ovat lohkot, joita tarvitset:
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 toista, kunnes < >
@@ -30,7 +38,11 @@ kun lippu napsautti
 set [aika v] - [0]
 ```
 
-\--- / vihje \--- \--- vihje \--- Tässä on se, mitä uusi koodi näyttää:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 kun lippu napsautti
@@ -41,23 +53,27 @@ toistoa, kunnes <(aika) = (0)>
 loppuun
 ```
 
-\--- / vihje \--- \--- / vihjeitä \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- / tehtävä \---
 
 \--- tehtävä \---
 
-Luo `lähetys`{: class = "block3control"}, joka lähettää viestin 'loppuun'. `lähetys`{: class = "block3control"} on kuin ilmoitus kaiuttimen yli: se voidaan kuunnella kaikilla spriteilläsi. Lisää `lähetyksen`{: class = "block3control"} lohko ajastinkoodin loppuun siten, että koodi lähettää ja 'lopettaa' viestin, kun `kertaa`{: class = "block3variables"} on laskenut `0`.
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
-![Vaihe sprite](images/stage-sprite.png)
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     lähetys (loppu v)
 ```
 
-\--- / tehtävä \---
+\--- /task \---
 
-\--- tehtävä \--- Valitse hahmosi sprite ja lisää koodi niin, että sprite `pysäyttää muut skriptit`{: class = "block3control"}, kun se vastaanottaa `loppu`{: class = "block3control"} -viestin .
+\--- task \---
+
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
 
 ![Giga sprite](images/giga-sprite.png)
 
@@ -66,10 +82,10 @@ Luo `lähetys`{: class = "block3control"}, joka lähettää viestin 'loppuun'. `
     stop [muut skriptit sprite v]
 ```
 
-\--- / tehtävä \---
+\--- /task \---
 
-\--- tehtävä \---
+\--- task \---
 
-Testaa peliä uudelleen. Sen pitäisi jatkaa kysymysten esittämistä, kunnes ajastin on laskenut 0: een.
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
-\--- / tehtävä \---
+\--- /task \---
