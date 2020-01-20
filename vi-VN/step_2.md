@@ -14,23 +14,31 @@ Nếu bạn cần tải xuống và cài đặt trình soạn thảo ngoại tuy
 
 \--- /task \---
 
-\--- task \--- Thêm một nhân vật và bối cảnh cho trò chơi của bạn. Bạn có thể chọn bất kỳ bạn thích! Đây là một ví dụ:
+\--- task \---
 
-![ảnh chụp màn hình](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+
+![screenshot](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- Hãy chắc chắn rằng bạn đã chọn nhân vật của mình. Tạo hai biến mới, được gọi là `số 1`{: class = "block3variables"} và `số 2`{: class = "block3variables"}, để lưu số cho các câu hỏi đố.
+\--- task \---
 
-![ảnh chụp màn hình](images/giga-sprite.png) ![ảnh chụp màn hình](images/brain-variables.png)
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-\--- Nhiệm vụ \--- Thêm mã để sprite nhân vật của bạn để thiết lập cả hai `biến`{: class = "block3variables"} với `ngẫu nhiên`{: class = "block3operators"} số từ 2 đến 12.
+\--- task \---
 
-![ảnh chụp màn hình](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 khi cờ nhấp
@@ -40,9 +48,11 @@ khi cờ nhấp
 
 \--- /task \---
 
-\--- task \--- Thêm mã vào `hỏi`{: class = "block3sensing"} người chơi cho câu trả lời, và sau đó `nói trong 2 giây`{: class = "block3looks"} xem câu trả lời có đúng hay không sai rồi:
+\--- task \---
 
-![ảnh chụp màn hình](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 khi cờ nhấp
@@ -61,26 +71,36 @@ khi cờ nhấp
 
 \--- task \---
 
-Kiểm tra dự án của bạn hai lần: trả lời đúng một câu hỏi và câu hỏi còn lại không chính xác.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
 \--- /task \---
 
 \--- task \---
 
-Thêm một vòng lặp `mãi mãi`{: class = "block3control"} xung quanh mã này, để trò chơi hỏi người chơi rất nhiều câu hỏi liên tiếp.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- gợi ý \--- \--- gợi ý \---
+\--- hints \---
 
-Bạn cần thêm khối `mãi mãi`{: class = "block3control"} và đặt tất cả mã ngoại trừ khối `khi cờ nhấp vào khối`{: class = "block3control"}.
+\--- hint \---
 
-\--- / gợi ý \--- \--- gợi ý \--- Đây là khối bạn cần:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 mãi mãi
 kết thúc
 ```
 
-\--- / gợi ý \--- \--- gợi ý \--- Đây là mã của bạn sẽ như thế nào:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 khi cờ nhấp
@@ -97,6 +117,8 @@ khi cờ nhấp
 cuối
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
