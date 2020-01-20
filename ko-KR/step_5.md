@@ -2,17 +2,21 @@
 
 이제 플레이어가 게임을 여러 번 할 수 있도록 '재생'버튼을 추가 할 것입니다.
 
-\--- task \--- 새로운 게임을 시작하기 위해 플레이어가 클릭해야하는 '재생'버튼 스프라이트를 만듭니다.
+\--- task \---
 
-스프라이트를 직접 그리거나 라이브러리에서 스프라이트를 편집 할 수 있습니다.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![재생 버튼 그림](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
+
+![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- 이 코드를 버튼 스프라이트에 추가합니다 :
+\--- task \---
 
-![버튼 스프라이트](images/button-sprite.png)
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     ⚑ 클릭했을 때
@@ -25,15 +29,17 @@
 
 \--- /task \---
 
-새로운 코드에는 또 다른 `브로드 캐스트`{: class = "block3events"} 블록이 포함되어 있습니다.이 블록은 '시작' 메시지를 보냅니다.
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-새로운 코드는 플레이어가 깃발을 클릭 할 때 '시작' 버튼 스프라이트를 보여줍니다. 플레이어가 버튼 스프라이트를 클릭하면 스프라이트가 숨겨지고 다른 스프라이트가 반응 할 수있는 메시지를 브로드 캐스트합니다.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-현재 캐릭터 스프라이트는 플레이어가 깃발을 클릭 할 때 질문을 하기 시작합니다. 그 캐릭터의 스프라이트가 `방송하기`{: 클래스 = "block3events"} 에 의한 '시작' 메시지를 수신할 때 질문을 시작 있도록 게임의 코드를 변경합니다.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- task \--- 캐릭터 스프라이트를 선택하고, `⚑ 클릭했을 때`{:class="block3events"} 블록을 `when I receive 시작`{:class="block3events"} 블록으로 바꾸세요.
+\--- task \---
 
-![문자 스프라이트](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />+ [start v] 신호를 받았을 때
@@ -51,23 +57,25 @@ end
 
 \--- task \---
 
-녹색 플래그를 클릭 한 다음 새로운 '재생'버튼을 클릭하여 작동 여부를 테스트하십시오. 버튼을 클릭하기 전에 게임이 시작되지 않는 것을 확인해야합니다. 
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
 \--- /task \---
 
-게임이 시작될 때가 아니라 녹색 깃발이 클릭되었을 때 타이머가 시작된다는 것을 주의했습니까? 
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
 
-![타이머가 시작되었습니다.](images/brain-timer-bug.png)
+![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-플레이어가 버튼을 클릭 할 때 타이머가 시작되도록 타이머 코드를 변경할 수 있습니까?
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /task \---
 
-\--- task \--- 버튼 스프라이트에 코드를 추가하여 각 게임이 끝날 때 버튼이 다시 표시되도록합니다.
+\--- task \---
 
-![버튼 스프라이트](images/button-sprite.png)
+Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     [end v] 신호를 받았을 때
@@ -78,11 +86,11 @@ end
 
 \--- task \---
 
-몇 가지 게임을 실행하여 '재생'버튼을 테스트하십시오. 버튼은 각 게임이 끝날 때 표시됩니다.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-게임을 더 빠르게 테스트하려면 각 게임이 불과 몇 초 길이가되도록 `시간`{: = block3variables} 의 변수 값을 변경할 수 있습니다.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![단계](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     [시간 v]을 [10]으로 설정
@@ -90,9 +98,11 @@ end
 
 \--- /task \---
 
-\--- task \--- 마우스 포인터가 마우스 포인터 위로 움직일 때 버튼의 모양을 변경할 수 있습니다.
+\--- task \---
 
-![버튼](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -106,4 +116,6 @@ end
     end
 ```
 
-![스크린샷](images/brain-fisheye.png) \--- /task \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
