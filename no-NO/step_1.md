@@ -10,16 +10,22 @@ I dette prosjektet vil du opprette et mattequiz-spill hvor spilleren har 30 seku
 
 ### Hva du vil gjøre
 
-\--- no-print \--- Klikk på knappen for å starte. Skriv inn svaret på spørsmålet, og trykk deretter på <kbd>Enter</kbd> tasten.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
-\--- bare skrive ut \--- ![Brain Game](images/brain-final.png) \--- / kun skriv ut \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- kollaps \---
 
@@ -28,7 +34,7 @@ I dette prosjektet vil du opprette et mattequiz-spill hvor spilleren har 30 seku
 + Slik bruker du sendinger i Scratch
 + Slik oppretter og bruker du en tilpasset Scratch-blokk
 
-\--- / kollaps \---
+\--- /collapse \---
 
 ## \--- kollaps \---
 
@@ -48,8 +54,12 @@ I dette prosjektet vil du opprette et mattequiz-spill hvor spilleren har 30 seku
 
 ## tittel: Ytterligere notater for lærere
 
-\--- no-print \--- Hvis du trenger å skrive ut dette prosjektet, vennligst bruk [utskriftsvennlig versjon](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
-\--- / kollaps \---
+\--- /collapse \---
