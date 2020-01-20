@@ -10,7 +10,9 @@
 
 ### आप क्या बनाएँगे
 
-\--- नो-प्रिंट \--- शुरू करने के लिए बटन पर क्लिक करें। प्रश्न का उत्तर टाइप करें, और फिर <kbd> दर्ज करें </kbd> दबायें।
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +21,11 @@
 
 \--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -36,11 +42,11 @@
 
 ### हार्डवेयर
 
-+ Scratch 3 चलाने में सक्षम कंप्यूटर
++ स्क्रैच 3 चलाने में सक्षम कंप्यूटर
 
 ### सॉफ्टवेयर
 
-+ Scratch 3 ([ऑनलाइन ](http://rpf.io/scratchon){:target="_blank"} या फिर [ऑफ़्लाइन](http://rpf.io/scratchoff){:target="_blank"})
++ स्क्रैच 3 ([ऑनलाइन ](http://rpf.io/scratchon){:target="_blank"} या फिर [ऑफ़्लाइन](http://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
@@ -48,8 +54,12 @@
 
 ## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
 
-\--- no-print \--- यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/brain-game/print) का उपयोग करें।
+\--- no-print \---
 
-आप यहां [ पूर्ण किया हुआ प्रोजेक्ट ](http://rpf.io/p/en/brain-game-get) पा सकते हैं {: लक्ष्य = "_ blank"}।
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
