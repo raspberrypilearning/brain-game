@@ -10,16 +10,22 @@ Trong dự án này, bạn sẽ tạo ra một trò chơi đố toán học tron
 
 ### Bạn sẽ làm gì
 
-\--- không in \--- Nhấp vào nút để bắt đầu. Nhập câu trả lời cho câu hỏi, rồi bấm phím <kbd>Enter</kbd>.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- / không in \---
+\--- /no-print \---
 
-\--- chỉ in \--- ![Brain Game](images/brain-final.png) \--- / chỉ in \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- sự sụp đổ \---
 
@@ -48,7 +54,11 @@ Trong dự án này, bạn sẽ tạo ra một trò chơi đố toán học tron
 
 ## tiêu đề: Ghi chú bổ sung cho các nhà giáo dục
 
-\--- không-in \--- Nếu bạn cần in dự án này, xin vui lòng sử dụng [phiên bản máy in thân thiện với](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / không in \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
