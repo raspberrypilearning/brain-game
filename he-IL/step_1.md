@@ -10,16 +10,22 @@
 
 ### מה תעשה
 
-\--- אין-הדפסה \--- לחץ על הלחצן כדי להתחיל. הקלד את התשובה לשאלה ולאחר מכן הקש על המקש <kbd>Enter</kbd>.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- / print-only \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- An קבוצה
 
@@ -28,7 +34,7 @@
 + כיצד להשתמש בשידורים ב - Scratch
 + כיצד ליצור ולהשתמש בלוק שריטה מותאם אישית
 
-\--- / קריסה \---
+\--- /collapse \---
 
 ## \--- An קבוצה
 
@@ -48,8 +54,12 @@
 
 ## title: הערות נוספות למחנכים
 
-\--- no-print \--- אם אתה צריך להדפיס את הפרויקט הזה, בבקשה להשתמש [גירסה ידידותית למדפסת](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
-\--- / קריסה \---
+\--- /collapse \---
