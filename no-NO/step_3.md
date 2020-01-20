@@ -1,16 +1,24 @@
 ## Legg til en tidtaker
 
-\--- oppgave \--- Opprett en nedtellingstimer på scenen ved hjelp av en ny variabel kalt `gang`{: class = "block3variables"}. Timeren skal begynne på 30 sekunder og telle ned til 0 sekunder.
+\--- task \---
+
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
 ![Stage sprite](images/stage-sprite.png)
 
-\--- hint \--- \--- hint \---
+\--- hints \---
 
-Opprett en `variabel`{: class = "block3variables"}, kall det 'tid', og sett verdien til `30`.
+\--- hint \---
 
-Legg deretter til kode for å telle `time`{: class = "block3variables"} ned til 0 innen 30 sekunder. For å gjøre dette trekker du `1` fra `tid`{: class = "block3variables"} hver `1` sekund, og gjenta dette til `gang`{: class = "block3variables"} er `0`.
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
 
-\--- / hint \--- \--- hint \--- Her er blokkene du trenger:
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 gjenta til < >
@@ -30,7 +38,11 @@ når flagget klikket
 sett [tid v] til [0]
 ```
 
-\--- / hint \--- \--- hint \--- Her er hva din nye kode skal se ut:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 når flagget klikket
@@ -41,13 +53,15 @@ gjenta til <(tid) = (0)>
 ende
 ```
 
-\--- / hint \--- \--- / hint \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- / oppgave \---
 
 \--- oppgave \---
 
-Lag en `sending`{: class = "block3control"} som sender meldingen 'slutt'. En `kringkasting`{: class = "block3control"} er som en kunngjøring over en høyttaler: den kan bli hørt av alle dine sprites. Legg til `sendingen`{: class = "block3control"} -blokka til slutten av timekoden slik at koden vil sende og "avslutt" meldingen når `tiden`{: class = "block3variables"} er telt ned til `0`.
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -55,21 +69,23 @@ Lag en `sending`{: class = "block3control"} som sender meldingen 'slutt'. En `kr
     kringkasting (slutt v)
 ```
 
-\--- / oppgave \---
+\--- /task \---
 
-\--- oppgave \--- Velg din karaktersprite og legg til noe kode slik at sprite `stopper de andre skriptene`{: class = "block3control"} når den mottar `end`{: class = "block3control"} meldingen .
+\--- task \---
 
-![Giga Sprite](images/giga-sprite.png)
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+
+![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
     når jeg mottar [end v]
     stop [andre skript i sprite v]
 ```
 
-\--- / oppgave \---
+\--- /task \---
 
-\--- oppgave \---
+\--- task \---
 
-Test spillet ditt igjen. Det bør fortsette å stille spørsmål til timeren har talt ned til 0.
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
-\--- / oppgave \---
+\--- /task \---
