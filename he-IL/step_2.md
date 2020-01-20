@@ -14,23 +14,31 @@
 
 \--- / משימה \---
 
-\--- משימה \--- הוסף שדון דמות רקע עבור המשחק שלך. אתה יכול לבחור כל מה שאתה אוהב! הנה דוגמה:
+\--- task \---
 
-![צילום מסך](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
-\--- / משימה \---
+![screenshot](images/brain-setting.png)
 
-\--- משימה \--- ודא שיש לך ספרייט הדמות שבחרת. צור שני משתנים חדשים, הנקראים `מספר 1`{: class = "block3variables"} ו- `number 2`{: class = "block3variables"}, כדי לאחסן את המספרים עבור שאלות החידון.
+\--- /task \---
 
-![צילום מסך](images/giga-sprite.png) ![צילום מסך](images/brain-variables.png)
+\--- task \---
+
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- / משימה \---
 
-\--- משימה \--- קוד הוסף ספרייט הדמות שלך כדי להגדיר את שתיהן `משתנה`{: class = "block3variables"} למסע `אקראי`{: class = "block3operators"} מספר בין 2 ו 12.
+\--- task \---
 
-![צילום מסך](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 כאשר הדגל לחץ על
@@ -38,11 +46,13 @@
 [מספר 2 v] ל (בחר אקראי) 2 (עד) 12
 ```
 
-\--- / משימה \---
+\--- /task \---
 
-\--- משימה \--- להוסיף קוד `לשאול`{: class = "block3sensing"} השחקן על התשובה, ולאחר מכן `לומר 2 שניות`{: class = "block3looks"} אם התשובה צדק או שגוי:
+\--- task \---
 
-![צילום מסך](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 כאשר מספר הדקות לחץ על
@@ -57,30 +67,40 @@
 + סוף
 ```
 
-\--- / משימה \---
+\--- /task \---
 
-\--- \---
+\--- task \---
 
-בדוק את הפרוייקט פעמיים: ענה על שאלה אחת בצורה נכונה והשני שגוי.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
-\--- / משימה \---
+\--- /task \---
 
-\--- \---
+\--- task \---
 
-הוסף `לנצח`{: class = "block3control"} לולאה סביב קוד זה, כך המשחק שואל את השחקן המון שאלות ברציפות.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- רמזים \--- \--- רמז \---
+\--- hints \---
 
-אתה צריך להוסיף `לנצח`{: class = "block3control"} לחסום, ולשים את כל הקוד למעט `כאשר הדגל נלחץ`{: class = "block3control"} לחסום אותו.
+\--- hint \---
 
-\--- / רמז \--- \--- רמז \--- הנה הבלוק שאתה צריך:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 לנצח
 סוף
 ```
 
-\--- / רמז \--- \--- רמז \--- הנה מה הקוד שלך צריך להיראות כמו:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 כאשר הדגל לוחץ
@@ -97,6 +117,8 @@
 סוף
 ```
 
-\--- / hint \--- \--- / hints \---
+\--- /hint \---
 
-\--- / משימה \---
+\--- /hints \---
+
+\--- /task \---
