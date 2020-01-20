@@ -10,16 +10,22 @@
 
 ### Шта ћеш направити
 
-\--- но-принт \--- Кликните на дугме за почетак. Унесите одговор на питање, а затим притисните тастер <kbd>Ентер</kbd>.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- / без штампања \---
+\--- /no-print \---
 
-\--- само за испис \--- ![Brain Game](images/brain-final.png) \--- / само за испис \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- колапс \---
 
@@ -28,7 +34,7 @@
 + Како користити емисије у Сцратцх-у
 + Како креирати и користити прилагођени Сцратцх блок
 
-\--- /колапс \---
+\--- /collapse \---
 
 ## \--- колапс \---
 
@@ -48,8 +54,12 @@
 
 ## назив: Додатне напомене за едукаторе
 
-\--- но-принт \--- Ако желите да одштампате овај пројекат, користите [верзију за штампач](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / но-принт \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
-\--- /колапс \---
+\--- /collapse \---
