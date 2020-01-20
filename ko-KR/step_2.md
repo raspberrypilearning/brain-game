@@ -14,23 +14,31 @@ Scratch 오프라인 편집기를 다운로드하여 설치해야하는 경우 [
 
 \--- /task \---
 
-\--- task \--- 게임에 문자 스프라이트와 배경을 추가합니다. 당신은 당신이 좋아하는 것을 선택할 수 있습니다! 다음은 그 예입니다.
+\--- task \---
 
-![스크린샷](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+
+![screenshot](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- 캐릭터 스프라이트를 선택했는지 확인하십시오. 퀴즈 질문 번호를 저장하기 위해 `1번`{:class = "block3variables"}과 `2번`{:class = "block3variables"}이라는 두 개의 새로운 변수를 만듭니다.
+\--- task \---
 
-![스크린샷](images/giga-sprite.png) ![스크린샷](images/brain-variables.png)
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-\--- task \--- 캐릭터 스프라이트에 `변수`{:class="block3variables"} 를 추가하고, 변수값을 2부터 12까지의 `난수`{:class="block3operators"} 로 설정합니다.
+\--- task \---
 
-![스크린샷](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 녹색 깃발을 클릭했을 때
@@ -40,9 +48,11 @@ Scratch 오프라인 편집기를 다운로드하여 설치해야하는 경우 [
 
 \--- /task \---
 
-\--- task \--- `묻기`{:class="block3sensing"} 코드를 추가하여 플레이어에게 답을 요구하세요. 플레이어가 답을 입력하면 `2초 후 말하기`{:class="block3looks"} 블록을 활용하여 2초 기다린 후 답이 맞았는지, 틀렸는지를 입력받도록 하세요.
+\--- task \---
 
-![스크린샷](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 녹색 깃발을 클릭했을 때
@@ -61,26 +71,36 @@ Scratch 오프라인 편집기를 다운로드하여 설치해야하는 경우 [
 
 \--- task \---
 
-프로젝트를 두 번 테스트하십시오: 한 질문에 올바르게 대답하고 다른 질문에 올바르지 않게 답하십시오.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
 \--- /task \---
 
 \--- task \---
 
-`영원히` {: class = "blockcontrol"}를 추가하십시오. 이 코드를 반복하면 플레이어에게 많은 질문을 할 수 있습니다.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- hints \--- \--- hint \---
+\--- hints \---
 
-`영원히`{:class="block3control"} 블록 내에 `녹색 깃발이 클릭되었을 때`{:class="block3control"} 블록을 제외하고 모든 블록을 넣으세요.
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- 참고할 코드 블럭은 아래와 같습니다:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 영원히
 끝
 ```
 
-\--- /hint \--- \--- hint \--- 아래와 같이 코드를 설계할 수 있습니다: 
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 녹색 깃발을 클릭했을 때
@@ -97,6 +117,8 @@ Scratch 오프라인 편집기를 다운로드하여 설치해야하는 경우 [
 끝
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
