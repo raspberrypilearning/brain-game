@@ -1,16 +1,24 @@
 ## Thêm một bộ đếm thời gian
 
-\--- task \--- Tạo đồng hồ đếm ngược trên Giai đoạn với sự trợ giúp của biến mới có tên `lần`{: class = "block3variables"}. Bộ hẹn giờ sẽ bắt đầu sau 30 giây và đếm ngược xuống 0 giây.
+\--- task \---
 
-![Giai đoạn sprite](images/stage-sprite.png)
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
-\--- gợi ý \--- \--- gợi ý \---
+![Stage sprite](images/stage-sprite.png)
 
-Tạo một biến ``{: class = "block3variables"}, gọi đó là 'thời gian' và đặt giá trị của nó thành `30`.
+\--- hints \---
 
-Sau đó thêm mã để đếm `lần`{: class = "block3variables"} xuống 0 trong vòng 30 giây. Để thực hiện việc này, hãy trừ `1` từ `lần`{: class = "block3variables"} cứ sau `1` giây và lặp lại điều này cho đến khi `lần`{: class = "block3variabled"} bằng `0`.
+\--- hint \---
 
-\--- / gợi ý \--- \--- gợi ý \--- Đây là các khối bạn cần:
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 lặp lại cho đến khi < >
@@ -30,7 +38,11 @@ khi cờ nhấp
 đặt [thời gian v] thành [0]
 ```
 
-\--- / gợi ý \--- \--- gợi ý \--- Đây là mã mới của bạn sẽ như thế nào:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 khi cờ nhấp
@@ -41,15 +53,17 @@ lặp lại cho đến khi <(thời gian) = (0)>
 kết thúc
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Tạo `phát`{: class = "block3control"} gửi thông báo 'end'. Một `phát sóng`{: class = "block3control"} cũng giống như một thông báo qua loa: nó có thể được lắng nghe bởi tất cả các sprites của bạn. Thêm khối `Broadcast`{: class = "block3control"} vào cuối mã hẹn giờ để mã sẽ gửi và 'kết thúc' tin nhắn khi `lần`{: class = "block3variabled"} đã đếm ngược xuống `0`.
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
-![Giai đoạn sprite](images/stage-sprite.png)
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     phát sóng (kết thúc v)
@@ -57,9 +71,11 @@ Tạo `phát`{: class = "block3control"} gửi thông báo 'end'. Một `phát s
 
 \--- /task \---
 
-\--- task \--- Chọn sprite ký tự của bạn và thêm một số mã để sprite `dừng các script khác`{: class = "block3control"} khi nhận được thông báo `end`{: class = "block3control"} .
+\--- task \---
 
-![Spiga](images/giga-sprite.png)
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+
+![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
     khi tôi nhận được [end v]
@@ -70,6 +86,6 @@ Tạo `phát`{: class = "block3control"} gửi thông báo 'end'. Một `phát s
 
 \--- task \---
 
-Kiểm tra lại trò chơi của bạn. Nó sẽ tiếp tục đặt câu hỏi cho đến khi bộ đếm thời gian đã đếm ngược về 0.
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
 \--- /task \---
