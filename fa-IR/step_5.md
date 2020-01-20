@@ -2,17 +2,21 @@
 
 حالا شما قصد دارید یک دکمه Play را اضافه کنید تا بازیکن بتواند بازی شما را چند بار بازی کند.
 
-\--- وظیفه \--- یک دکمه ی 'Play' جدید ایجاد کنید که بازیکن باید روی آن کلیک کند تا یک بازی جدید را شروع کند.
+\--- task \---
 
-شما می توانید خودتان را به رسمیت بگذارید یا ویرایشگر از کتابخانه را ویرایش کنید.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![تصویر دکمه بازی](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
 
-\--- /وظیفه \---
+![Picture of the play button](images/brain-play.png)
 
-\--- وظیفه \--- این کد را به دکمه ی خود اضافه کنید:
+\--- /task \---
 
-![افسر دکمه](images/button-sprite.png)
+\--- task \---
+
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     زمانی که پرچم روی آن کلیک کنید
@@ -23,17 +27,19 @@
     پخش (شروع V)
 ```
 
-\--- /وظیفه \---
+\--- /task \---
 
-کد جدید شامل یکی دیگر از برنامه پخش ``{: class = "block3events"} است که پیام "شروع" را ارسال می کند.
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-کد جدید باعث می شود که دکمه Play را نشان دهد زمانی که بازیکن بر روی پرچم کلیک کند. هنگامی که بازیکن روی دکمه راست کلیک می کند، افشای پنهان می کند و سپس پیامی را ارسال می کند که سایر طرفداران می توانند واکنش نشان دهند.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-در حال حاضر، فیلد شخصیت شروع به سوال کردن میکند وقتی بازیکن روی پرچم کلیک میکند. کد بازی خود را تغییر دهید به طوری که کاراکتر شخصیت شروع به سوال کردن می کند وقتی که "شروع" `پخش می شود`{: class = "block3events"}.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- کار \--- کاراکتر کاراکتر خود را انتخاب کنید و در قسمت کد آن `پرچم`{: class = "block3events"} جایگزین کنید، با `شروع کنید`{: class = "block3events" } مسدود کردن.
+\--- task \---
 
-![امضا شخصیت](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- هنگامی که پرچم
@@ -50,50 +56,54 @@
 
 \--- /وظیفه \---
 
-\--- وظیفه \---
+\--- task \---
 
-روی پرچم سبز کلیک کنید و سپس بر روی دکمه Play کلیک کنید تا آزمایش کنید آیا کار می کند. شما باید ببینید که بازی قبل از اینکه بر روی دکمه کلیک شود شروع نمی شود.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+
+\--- /task \---
+
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+
+![Timer has started](images/brain-timer-bug.png)
+
+\--- task \---
+
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /وظیفه \---
 
-آیا می توانید ببینید که تایمر هنگامی شروع می شود که پرچم سبز روی آن کلیک شود، به جای آنکه بازی شروع شود؟
-
-![تایمر آغاز شده است](images/brain-timer-bug.png)
-
 \--- وظیفه \---
 
-آیا می توانید کد برای تایمر را تغییر دهید به طوری که تایمر شروع می شود زمانی که بازیکن بر روی دکمه کلیک کند؟
+Add code to your button sprite so that the button shows again at the end of each game.
 
-\--- /وظیفه \---
-
-\--- وظیفه \--- کد را به دایرکتوری دکمه خود اضافه کنید تا دکمه دوباره در انتهای هر بازی نشان داده شود.
-
-![افسر دکمه](images/button-sprite.png)
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     زمانی که من [پایان v]
     نمایش را دریافت می کنم
 ```
 
-\--- /وظیفه \---
+\--- /task \---
 
-\--- وظیفه \---
+\--- task \---
 
-دکمه «بازی» را با بازی چند بازی ای آزمایش کنید. این دکمه باید در پایان هر بازی نشان داده شود.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-برای آزمایش سریعتر بازی، می توانید مقدار `زمان`{: class = "block3variables"} را تغییر دهید تا هر بازی تنها چند ثانیه طول بکشد.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![مرحله](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     تنظیم [زمان V] به [10]
 ```
 
-\--- /وظیفه \---
+\--- /task \---
 
-\--- وظیفه \--- شما می توانید تغییر دهید که چگونه دکمه به نظر می رسد زمانی که نشانگر ماوس بر روی آن قرار می گیرد.
+\--- task \---
 
-![دکمه](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     زمانی که پرچم روی
@@ -107,4 +117,6 @@
     پایان
 ```
 
-![تصویری](images/brain-fisheye.png) \--- /وظیفه \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
