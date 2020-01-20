@@ -10,16 +10,22 @@
 
 ### 你要做什麼
 
-\--- no-print \--- 單擊按鈕開始。輸入問題的答案，然後按 <kbd>Enter</kbd> 鍵。
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- /無印刷\---
+\--- /no-print \---
 
-\---僅打印\--- ![Brain Game](images/brain-final.png) \--- /僅打印\---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## - - 坍方 - -
 
@@ -28,7 +34,7 @@
 + 如何在Scratch中使用廣播
 + 如何創建和使用自定義Scratch塊
 
-- - /坍方 - -
+\--- /collapse \---
 
 ## - - 坍方 - -
 
@@ -48,8 +54,12 @@
 
 ## 標題：教育工作者的附加說明
 
-\--- no-print \--- 如果您需要打印此項目，請使用 [個適合打印的版本](https://projects.raspberrypi.org/en/projects/brain-game/print)。 \--- /無印刷\---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
-- - /坍方 - -
+\--- /collapse \---
