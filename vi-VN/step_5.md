@@ -2,17 +2,21 @@
 
 Bây giờ bạn sẽ thêm nút 'Phát' để người chơi có thể chơi trò chơi của bạn nhiều lần.
 
-\--- task \--- Tạo một sprite nút 'Play' mới mà người chơi cần nhấp để bắt đầu một trò chơi mới.
+\--- task \---
 
-Bạn có thể tự vẽ sprite hoặc chỉnh sửa sprite từ thư viện.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![Hình ảnh của nút phát](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
+
+![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Thêm mã này vào sprite nút của bạn:
+\--- task \---
 
-![Nút sprite](images/button-sprite.png)
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     khi cờ nhấp
@@ -25,15 +29,17 @@ Bạn có thể tự vẽ sprite hoặc chỉnh sửa sprite từ thư viện.
 
 \--- /task \---
 
-Mã mới bao gồm một khối `phát`{: class = "block3events"} khác, sẽ gửi thông báo 'bắt đầu'.
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-Mã mới làm cho nút 'Phát' hiển thị khi người chơi nhấp vào cờ. Khi người chơi nhấp vào nút sprite, sprite sẽ ẩn và sau đó phát đi một thông điệp mà các sprite khác có thể phản ứng.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-Hiện tại, nhân vật bắt đầu đặt câu hỏi khi người chơi nhấp vào cờ. Thay đổi mã trò chơi của bạn để sprite nhân vật bắt đầu đặt câu hỏi khi nhận được 'bắt đầu' `quảng bá`{: class = "block3events"}.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- task \--- Chọn sprite ký tự của bạn và, trong phần mã của nó, thay thế `khi cờ nhấp vào khối`{: class = "block3events"} bằng khối `khi tôi nhận được start`{: class = "block3events" } khối.
+\--- task \---
 
-![Đối tượng nhân vật](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- khi cờ nhấp
@@ -52,23 +58,25 @@ kết thúc
 
 \--- task \---
 
-Nhấp vào cờ màu xanh lục, rồi nhấp vào nút 'Phát' mới để kiểm tra xem nó có hoạt động không. Bạn sẽ thấy rằng trò chơi không bắt đầu trước khi bạn nhấp vào nút.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
 \--- /task \---
 
-Bạn có thể thấy rằng bộ hẹn giờ bắt đầu khi cờ xanh được nhấp, thay vì khi trò chơi bắt đầu không?
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
 
-![Hẹn giờ đã bắt đầu](images/brain-timer-bug.png)
+![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-Bạn có thể thay đổi mã cho bộ hẹn giờ để bộ hẹn giờ bắt đầu khi người chơi nhấp vào nút không?
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /task \---
 
-\--- task \--- Thêm mã vào sprite nút của bạn để nút hiển thị lại vào cuối mỗi trò chơi.
+\--- task \---
 
-![Nút sprite](images/button-sprite.png)
+Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     khi tôi nhận được [kết thúc v]
@@ -79,11 +87,11 @@ Bạn có thể thay đổi mã cho bộ hẹn giờ để bộ hẹn giờ bắ
 
 \--- task \---
 
-Kiểm tra nút 'Play' bằng cách chơi một vài trò chơi. Nút sẽ hiển thị ở cuối mỗi trò chơi.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-Để kiểm tra trò chơi nhanh hơn, bạn có thể thay đổi giá trị `lần`{: class = "block3variables"} để mỗi trò chơi chỉ dài vài giây.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Sân khấu](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     đặt [thời gian v] thành [10]
@@ -91,9 +99,11 @@ Kiểm tra nút 'Play' bằng cách chơi một vài trò chơi. Nút sẽ hiể
 
 \--- /task \---
 
-\--- task \--- Bạn có thể thay đổi giao diện của nút khi con trỏ chuột di chuyển qua nó.
+\--- task \---
 
-![Nút](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     khi cờ nhấp
@@ -107,4 +117,6 @@ Kiểm tra nút 'Play' bằng cách chơi một vài trò chơi. Nút sẽ hiể
     kết thúc
 ```
 
-![ảnh chụp màn hình](images/brain-fisheye.png) \--- /task \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
