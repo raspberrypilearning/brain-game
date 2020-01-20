@@ -56,29 +56,33 @@
 
 \--- /কাজ \---
 
-\--- টাস্ক \--- আপনার খেলা আবার পরীক্ষা করুন। যখনই আপনি সঠিকভাবে কোনও প্রশ্নের উত্তর দেবেন এবং ক্রসটি উত্তর দিবেন তখনই আপনি টিকটি দেখতে পাবেন!
+\--- task \---
 
-![সঠিক উত্তর জন্য ভুল, ভুল উত্তর জন্য ক্রস](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
 
-\--- /কাজ \---
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
-আমি দেখতে পাচ্ছি যে `জন্য কোডটি যখন আমি সঠিক`{: class = "block3events"} এবং `পেয়েছি তখন ভুল`{class = "block3events"} প্রায় অভিন্ন?
+\--- /task \---
 
-সুতরাং আপনি আরও সহজেই আপনার কোড পরিবর্তন করতে পারেন, আপনি একটি কাস্টম ব্লক তৈরি করতে যাচ্ছেন।
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-\--- কাজ \---
+So you can change your code more easily, you are going to create a custom block.
 
-'ফলাফল' স্প্রাইট নির্বাচন করুন। নির্বাচন করুন তারপর `আমার ব্লক`{: শ্রেণি = "block3myblocks"}, এবং তারপর **একটি ব্লক করুন**। একটি নতুন ব্লক তৈরি করুন এবং সেটিতে কল `সজীব`{: শ্রেণি = "block3myblocks"}।
+\--- task \---
 
-![ফলাফল স্প্রাইট](images/result-sprite.png)
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![অ্যানিমেশন বলা একটি ব্লক তৈরি করুন](images/brain-animate-function.png)
+![Result sprite](images/result-sprite.png)
 
-\--- /কাজ \---
+![Create a block called animate](images/brain-animate-function.png)
 
-\--- টাস্ক \--- কোডটি `শো`{{class = "block3looks"} এবং `লুকান`{class = "block3looks"} 'ফলাফল' `অ্যানিম্যাটে স্প্রাইট করুন`{: class = " block3myblocks "} ব্লক:
+\--- /task \---
 
-![ফলাফল স্প্রাইট](images/result-sprite.png)
+\--- task \---
+
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 অ্যানিমেশন নির্ধারণ
@@ -87,13 +91,15 @@
 লুকান
 ```
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজের \--- আপনি সরিয়েছি নিশ্চিত করুন `প্রদর্শনী`{: শ্রেণি = "block3looks"} এবং `লুকান`{: শ্রেণি = "block3looks"} নিচের ব্লক **উভয়** এর `সুইচ পরিচ্ছদ`{: ক্লাস = "block3looks"} ব্লক।
+\--- task \---
 
-তারপরে `অ্যানিমেশন`{: ক্লাস = "ব্লক 3myblocks"} `সুইচ পরিচ্ছদ`এর নীচে ব্লক করুন {{ক্লাস = "ব্লক 3looks"} ব্লক। আপনার কোড এখন এই মত হওয়া উচিত:
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![ফলাফল স্প্রাইট](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     যখন আমি [সঠিক v]
@@ -105,19 +111,21 @@
     অ্যানিমেশন :: কাস্টম
 ```
 
+\--- /task \---
+
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+
+\--- task \---
+
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+
 \--- /কাজ \---
 
-কাস্টম `এনিমেট`{: class = "block3myblocks"} ব্লকের কারণে, যদি আপনি 'ফলাফল' স্প্রাইটের পোশাকগুলিকে দীর্ঘ বা স্বল্প সময়ের জন্য প্রদর্শন করতে চান তবে আপনাকে কেবল আপনার কোডে একটি পরিবর্তন করতে হবে।
+\--- task \---
 
-\--- কাজ \---
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
 
-আপনার কোডটি পরিবর্তন করুন যাতে 'টিক' বা 'ক্রস' পোশাক 2 সেকেন্ডের জন্য প্রদর্শিত হয়।
-
-\--- /কাজ \---
-
-\--- কাজের \--- পরিবর্তে `দেখাচ্ছে`{: শ্রেণি = "block3looks"} এবং `গোপন`{: শ্রেণি = "block3looks"} 'টিক' বা 'ক্রস' পরিধানসমূহ, আপনি আপনার পরিবর্তন হতে পারে `সজীব`{: ক্লাস = "ব্লক 3myblocks"} ব্লক যাতে পরিচ্ছদ বিবর্ণ।
-
-![ফলাফল স্প্রাইট](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     অ্যানিমেট নির্ধারণ
@@ -129,8 +137,8 @@
     লুকান
 ```
 
-\--- /কাজ \---
+\--- /task \---
 
-আপনি 'টিক' বা 'ক্রস' গ্রাফিক্স এর অ্যানিমেশন উন্নত করতে পারেন? আপনি পোশাকগুলিও বিবর্ণ করতে কোড যোগ করতে পারেন, অথবা আপনি অন্যান্য শীতল প্রভাবগুলি ব্যবহার করতে পারেন:
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
 ![screenshot](images/brain-effects.png)
