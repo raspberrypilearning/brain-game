@@ -2,17 +2,21 @@
 
 Jetzt wirst du eine Taste "Spielen" hinzufügen, damit der Spieler dein Spiel mehrmals spielen kann.
 
-\--- task \--- Erstelle eine neue Figur - eine 'Spielen'-Taste, auf die der Spieler klicken muss, um ein neues Spiel zu starten.
+\--- task \---
 
-Du kannst die Figur selbst zeichnen oder eine Figur aus der Bibliothek verwenden.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![Bild der Schaltfläche "Spielen"](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
+
+![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Füge deiner Spielen Knopf Figur diesen Code hinzu:
+\--- task \---
 
-![Taste-Figur](images/button-sprite.png)
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     Wenn die grüne Flagge angeklickt wird
@@ -25,15 +29,17 @@ Du kannst die Figur selbst zeichnen oder eine Figur aus der Bibliothek verwenden
 
 \--- /task \---
 
-Der neue Code enthält einen weiteren `sende an alle`{:class="block3events"} Block, der die Nachricht 'Start' sendet.
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-Der neue Code zeigt die 'Spielen' Taste, nachdem der Spieler auf die grüne Flagge klickt. Wenn der Spieler auf die Figur Spielen klickt, versteckt sich diese Figur und sendet eine Nachricht an alle anderen Figuren, damit diese darauf reagieren können.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-In dem Moment, in dem die Giga-Figur die Nachricht 'Start' empfängt, fängt sie an eine Frage zu stellen. Ändere den Code des Spiels, damit die Giga Figur beginnt Fragen zu stellen, wenn es die `gesendete Nachricht` {:class="block3events"} 'Start' empfängt.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- task \--- Wähle die Giga-Figur aus und ersetze den Code `Wenn die grüne Flagge angeklickt wird` {: class = "block3events"} Block durch einen `wenn ich Start empfange` {: class = "block3events"} Block.
+\--- task \---
 
-![Giga-Figur](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- wenn die grüne Flagge angeklickt wird
@@ -52,23 +58,25 @@ ende
 
 \--- task \---
 
-Um die Änderungen zu testen, klicke auf die grüne Flagge und anschließend auf die neue Taste "Spielen". Das Spiel sollte nicht starten, bevor man auf die Schaltfläche klickt.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
 \--- /task \---
 
-Siehst du, dass der Countdown sofort startet, wenn die grüne Flagge geklickt wird und nicht erst, wenn die Taste "Spielen" gedrückt wird?
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
 
-![Countdown ist gestartet](images/brain-timer-bug.png)
+![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-Kannst du den Code für den Coutdown ändern, damit der Countdown erst beginnt, wenn der Spieler auf die "Spielen" Taste gedrückt hat?
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /task \---
 
-\--- task \--- Füge Code zu deiner Spielen-Knopf Figur hinzufügen, so dass die Schaltfläche am Ende jedes Spiels wieder angezeigt wird.
+\--- task \---
 
-![Tasten-Figur](images/button-sprite.png)
+Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     Wenn ich [Ende v] empfange
@@ -79,11 +87,11 @@ Kannst du den Code für den Coutdown ändern, damit der Countdown erst beginnt, 
 
 \--- task \---
 
-Teste die Taste 'Spielen', indem du ein paar Spiele spielst. Die Taste sollte am Ende jedes Spiels wieder angezeigt werden.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-Um das Spiel schneller zu testen, kannst du den Wert der Variabel `Zeit`{:class="block3variables"} ändern, damit jedes Spiel nur ein paar Sekunden dauert.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Bühne](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     setze [Zeit v] auf [10]
@@ -91,9 +99,11 @@ Um das Spiel schneller zu testen, kannst du den Wert der Variabel `Zeit`{:class=
 
 \--- /task \---
 
-\--- task \--- Du kannst das Aussehen der "Spielen" Schaltfläche ändern, wenn sich der Mauszeiger darüber befindet.
+\--- task \---
 
-![Taste](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     Wenn die grüne Flagge angeklickt wird
@@ -107,4 +117,6 @@ Um das Spiel schneller zu testen, kannst du den Wert der Variabel `Zeit`{:class=
     ende
 ```
 
-![Screenshot](images/brain-fisheye.png) \--- /task \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
