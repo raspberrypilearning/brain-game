@@ -2,15 +2,19 @@
 
 Most hozzáad egy "Play" gombot, hogy a játékos sokszor játszhasson a játékban.
 
-\--- task \--- Hozzon létre egy új 'Play' gombot, amire a játékosnak szüksége van egy új játék elindításához.
+\--- task \---
 
-A Sprite-ot magad is rajzolhatod, vagy szerkeszthetsz egy sprite-ot a könyvtárból.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![A lejátszás gomb képe](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
 
-\--- / feladat \---
+![Picture of the play button](images/brain-play.png)
 
-\--- task \--- Adja hozzá ezt a kódot a gomb sprite-hez:
+\--- /task \---
+
+\--- task \---
+
+Add this code to your button sprite:
 
 ![Button sprite](images/button-sprite.png)
 
@@ -23,17 +27,19 @@ A Sprite-ot magad is rajzolhatod, vagy szerkeszthetsz egy sprite-ot a könyvtár
     adás (start v)
 ```
 
-\--- / feladat \---
+\--- /task \---
 
-Az új kód egy másik `sugárzást tartalmaz`{: class = "block3events"} blokkot, amely elküldi az "start" üzenetet.
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-Az új kód a „Play” gomb sprite-t mutatja, amikor a játékos rákattint a zászlóra. Amikor a játékos rákattint a sprite-ra, a sprite elrejti és aztán üzenetet küld, hogy más spritek reagálhatnak.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-Abban a pillanatban, a karakter sprite elkezdi kérdéseket feltenni, amikor a játékos rákattint a zászlóra. Változtassa meg a játékkódját úgy, hogy a karakterlövész megkérdezzen kérdéseket, amikor megkapja a ' `' sugárzást`{: class = "block3events"}.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- task \--- Jelölje ki a karakterláncot, és a kódrészében cserélje ki az `amikor a`jelzésre kattintott: {= class = "block3events"} egy `mal, amikor elkezdem a`indítást {: class = "block3events" } Blokk.
+\--- task \---
 
-![Karakter sprite](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- amikor a zászló +
@@ -50,23 +56,25 @@ végére
 
 \--- / feladat \---
 
-\--- feladat \---
+\--- task \---
 
-Kattintson a zöld zászlóra, majd kattintson az új "Play" gombra, hogy tesztelje, hogy működik-e. Látnia kell, hogy a játék nem indul el, mielőtt a gombra kattint.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+
+\--- /task \---
+
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+
+![Timer has started](images/brain-timer-bug.png)
+
+\--- task \---
+
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- / feladat \---
 
-Láthatja, hogy az időzítő akkor kezdődik, amikor a zöld zászlót rákattintják ahelyett, hogy a játék elindulna?
-
-![Megkezdődött az időzítő](images/brain-timer-bug.png)
-
 \--- feladat \---
 
-Megváltoztathatja az időzítő kódját, hogy az időzítő elinduljon, amikor a játékos rákattint a gombra?
-
-\--- / feladat \---
-
-\--- task \--- Add kódot a gomb sprite-hez, hogy a gomb ismét megjelenik a játék végén.
+Add code to your button sprite so that the button shows again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
@@ -75,25 +83,27 @@ Megváltoztathatja az időzítő kódját, hogy az időzítő elinduljon, amikor
     show-t
 ```
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
-Teszteld a 'Play' gombot néhány játék lejátszásával. A gombnak minden játék végén meg kell jelennie.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-A játék gyorsabb teszteléséhez módosíthatja a `time`{: class = "block3variables"} értékét, hogy minden játék csak néhány másodperc legyen.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Színpad](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     állítsa be az [idő v] értékét [10]
 ```
 
-\--- / feladat \---
+\--- /task \---
 
-\--- task \--- Megváltoztathatja, hogyan néz ki a gomb, amikor az egérmutató fölé mozog.
+\--- task \---
 
-![Gomb](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     ha a jelző
@@ -107,4 +117,6 @@ A játék gyorsabb teszteléséhez módosíthatja a `time`{: class = "block3vari
     végére
 ```
 
-![screenshot](images/brain-fisheye.png) \--- / feladat \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
