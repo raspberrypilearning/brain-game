@@ -54,29 +54,33 @@ Most már használhatja ezeket az üzeneteket `:`{: class = "block3looks"} a "ku
 
 \--- / feladat \---
 
-\--- task \--- Tesztelje újra a játékot. Amikor a kérdésre helyesen válaszol, a kullancsot meg kell látni, és a keresztet, ha helytelenül válaszolsz!
+\--- task \---
 
-![Jelölje be a helyes, keresztet a helytelen válaszért](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
 
-\--- / feladat \---
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
-Láthatjuk, hogy a `kód, ha helyes`{: class = "block3events"} és `ha rosszul kapok`{: class = "block3events"}, majdnem azonos?
+\--- /task \---
 
-Így könnyebben megváltoztathatja a kódját, létrehozhat egy egyéni blokkot.
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-\--- feladat \---
+So you can change your code more easily, you are going to create a custom block.
 
-Jelölje ki az 'Eredmény' spritet. Ezután kattintson a `My Blocks`{: class = "block3myblocks"}, majd a **blokk**. Hozzon létre egy új blokkot, és hívja `animate`{: class = "block3myblocks"}.
+\--- task \---
 
-![Eredmény sprite](images/result-sprite.png)
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![Hozzon létre egy animált blokkot](images/brain-animate-function.png)
+![Result sprite](images/result-sprite.png)
 
-\--- / feladat \---
+![Create a block called animate](images/brain-animate-function.png)
 
-\--- task \--- Mozgassa a kódot `show`{: class = "block3looks"} és `hide`{: class = "block3looks"} az 'Eredmény' Sprite-t az `animate`{: class = " block3myblocks "} blokk:
+\--- /task \---
 
-![Eredmény sprite](images/result-sprite.png)
+\--- task \---
+
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 animate
@@ -85,13 +89,15 @@ várakozás (1) másodperc
 elrejtés
 ```
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \--- Győződjön meg arról, hogy eltávolította a `mutatják`{: class = "block3looks"}, és `elrejtése`{: class = "block3looks"} blokkok alább **mind** a `kapcsoló ruha`{: class = "block3looks"} blokkok.
+\--- task \---
 
-Ezután adjuk hozzá a `élő`{: class = "block3myblocks"} blokk alatt mind a `kapcsoló ruha`{: class = "block3looks"} blokkok. A kódodnak így kell kinéznie:
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![Eredmény sprite](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     ha [helyes v]
@@ -103,19 +109,21 @@ Ezután adjuk hozzá a `élő`{: class = "block3myblocks"} blokk alatt mind a `k
     animáció :: custom
 ```
 
+\--- /task \---
+
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+
+\--- task \---
+
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+
 \--- / feladat \---
 
-Az egyéni `animate`{: class = "block3myblocks"} blokk miatt most csak egy módosítást kell végrehajtania a kódjához, ha hosszabb vagy rövidebb ideig szeretné megjeleníteni az 'Eredmény' sprite jelmezeit.
+\--- task \---
 
-\--- feladat \---
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
 
-Módosítsa a kódot úgy, hogy a „kullancs” vagy a „kereszt” jelmezek 2 másodpercig jelenjenek meg.
-
-\--- / feladat \---
-
-\--- task \--- </code>{: class = "block3looks"} és a `{`:: class = "block3looks"} `megjelenítés helyett a "kullancs" vagy a "kereszt" jelmezek megváltoztathatják az <code>animát`{: class = "block3myblocks"} blokk, hogy a jelmezek elhalványuljanak.
-
-![Eredmény sprite](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     animate
@@ -127,8 +135,8 @@ Módosítsa a kódot úgy, hogy a „kullancs” vagy a „kereszt” jelmezek 2
     elrejtés
 ```
 
-\--- / feladat \---
+\--- /task \---
 
-Javíthatja-e a „kullancs” vagy a „kereszt” grafikák animációját? Kódot adhat hozzá, hogy a jelmezek elhalványuljanak, vagy más hűvös hatásokat is használhat:
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
 ![screenshot](images/brain-effects.png)
