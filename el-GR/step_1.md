@@ -10,7 +10,9 @@
 
 ### Τι θα φτιάξεις
 
-\--- no-print \--- Κάνε κλικ στο κουμπί για να ξεκινήσεις. Πληκτρολόγησε την απάντηση στην ερώτηση και, στη συνέχεια, πάτησε το πλήκτρο <kbd>Enter</kbd>.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +21,11 @@
 
 \--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -48,8 +54,12 @@
 
 ## title: Πρόσθετες σημειώσεις για εκπαιδευτικούς
 
-\--- no-print \--- Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/brain-game/print) \----- /no-print \---
+\--- no-print \---
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
