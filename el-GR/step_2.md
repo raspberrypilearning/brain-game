@@ -14,23 +14,31 @@
 
 \--- /task \---
 
-\--- task \--- Επίλεξε έναν χαρακτήρα και ένα σκηνικό για το παιχνίδι σου. Μπορείς να επιλέξεις ότι σου αρέσει! Ακολουθεί ένα παράδειγμα:
+\--- task \---
 
-![στιγμιότυπο οθόνης](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+
+![screenshot](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- Βεβαιώσου ότι έχεις επιλέξει τον χαρακτήρα σου. Δημιούργησε δύο νέες μεταβλητές, που ονομάζονται `αριθμός 1`{:class="block3variables"} και `αριθμός 2`{:class="block3variables"}, για να αποθηκεύσεις τους αριθμούς για τις ερωτήσεις του κουίζ.
+\--- task \---
 
-![στιγμιότυπο οθόνης](images/giga-sprite.png) ![στιγμιότυπο οθόνης](images/brain-variables.png)
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε κώδικα στον χαρακτήρα σου, ώστε να ορίσεις και για τις δύο αυτές μεταβλητές μία `τυχαία`{:class="blockoperators"} τιμή μεταξύ 2 και 12.
+\--- task \---
 
-![στιγμιότυπο οθόνης](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -40,9 +48,11 @@
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε τον κώδικα για να `ζητήσεις`{:class= "block3sensing"}} από τον παίκτη την απάντηση και στη συνέχεια για να `πεις για 2 δευτερόλεπτα`{:class="block3looks"} αν η απάντηση ήταν σωστή ή λάθος:
+\--- task \---
 
-![στιγμιότυπο οθόνης](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -62,26 +72,36 @@ end :\)\] για (2) δευτερόλεπτα
 
 \--- task \---
 
-Δοκίμασε το έργο δύο φορές: απάντησε μία ερώτηση σωστά και μία λάθος.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
 \--- /task \---
 
 \--- task \---
 
-Πρόσθεσε έναν βρόχο `για πάντα`{:class="blockcontrol"} που να περιβάλλει αυτόν τον κώδικα, ώστε το παιχνίδι να κάνει πολλές ερωτήσεις στον παίκτη.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- hints \--- \--- hint \---
+\--- hints \---
 
-Πρέπει να προσθέσεις ένα block `για πάντα`{block:block3control}} και να τοποθετήσεις όλο τον κώδικα εκτός από το block `όταν πατήσεις τη σημαία`{:class="block3control"} σε αυτό.
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- Εδώ είναι το μπλοκ που θα χρειαστείς:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 forever
 end
 ```
 
-\--- /hint \--- \--- hint \--- Έτσι πρέπει να μοιάζει με ο κώδικάς σου:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -100,6 +120,8 @@ end
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
