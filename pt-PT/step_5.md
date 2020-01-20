@@ -2,17 +2,21 @@
 
 Agora vais adicionar um botão 'Jogar', para que o jogador possa jogar o teu jogo muitas vezes.
 
-\--- task \--- Cria um novo actor botão 'Jogar' que o jogador precisa clicar para iniciar um novo jogo.
+\--- task \---
 
-Podes desenhar o actor tu mesmo, ou editar um actor da biblioteca.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![Imagem do botão Play](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
+
+![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Adiciona este código ao teu actor botão:
+\--- task \---
 
-![Actor botāo](images/button-sprite.png)
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -25,15 +29,17 @@ broadcast (start v)
 
 \--- /task \---
 
-O novo código inclui outro bloco `difunde a mensagem`{:class="block3events"} que envia a mensagem 'começar'.
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-O novo código faz com que o actor do botão 'Jogar' apareça quando o jogador clicar na bandeira. Quando o jogador clica no actor do botão, o actor esconde-se e difunde uma mensagem a que outros actores podem reagir.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-De momento, o actor personagem começa a fazer perguntas quando o jogador clicar na bandeira. Altera o código do teu jogo para que o actor do personagem comece a fazer perguntas quando `Quando receberes a mensagem`{:class="block3events"} 'começar'.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- task \--- Seleciona o teu actor e, na sua seção de código, substitui o bloco ` Quando alguém clicar na bandeira `{: class = "block3events"} com um bloco ` quando receberes a mensagem começar`{: class = "block3events"}.
+\--- task \---
 
-![Actor personagem](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- when flag clicked
@@ -52,23 +58,25 @@ end
 
 \--- task \---
 
-Clica na bandeira verde e clica no novo botão 'Jogar ' para testar se ele funciona. Deves observar que o jogo não começa antes de clicares no botão.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
 \--- /task \---
 
-Reparas-te que o temporizador começa a contagem quando fazes clique na bandeira verde, e não quando começas o jogo?
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
 
-![Temporizador iniciado](images/brain-timer-bug.png)
+![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-Podes alterar o código do temporizador para que o temporizador comece quando o jogador clicar no botão?
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /task \---
 
-\--- task \--- Adiciona código ao actor do teu botão para que o botão apareça novamente no final de cada jogo.
+\--- task \---
 
-![Actor botāo](images/button-sprite.png)
+Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     when I receive [end v]
@@ -79,11 +87,11 @@ show
 
 \--- task \---
 
-Testa o botão 'Jogar' jogando um par de jogos. O botão deve aparecer no final de cada jogo.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-Para testar o jogo mais rapidamente, podes alterar o valor de `tempo`{:class="block3variables"} para que cada jogo tenha apenas alguns segundos.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Palco](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     altera [tempo v] para [10]
@@ -91,9 +99,11 @@ Para testar o jogo mais rapidamente, podes alterar o valor de `tempo`{:class="bl
 
 \--- /task \---
 
-\--- task \--- Podes alterar a aparência do botão quando o ponteiro do rato paira sobre ele.
+\--- task \---
 
-![Botão](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -107,4 +117,6 @@ end
 end
 ```
 
-![captura de ecrã](images/brain-fisheye.png) \--- /task \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
