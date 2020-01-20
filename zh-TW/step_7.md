@@ -54,29 +54,33 @@
 
 \--- /任務\---
 
-\---任務\--- 再次測試你的遊戲。每當你正確回答問題時，你應該看到勾號，而當你回答錯誤時，你應該看到十字架！
+\--- task \---
 
-![勾選正確，交叉錯誤答案](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
 
-\--- /任務\---
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
-你可以看到，代碼 `的時候我收到正確的`{：類=“block3events”}和 `，當我收到錯誤`{：類=“block3events”}幾乎相同？
+\--- /task \---
 
-因此，您可以更輕鬆地更改代碼，您將創建自定義塊。
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-\---任務\---
+So you can change your code more easily, you are going to create a custom block.
 
-選擇“結果”精靈。 然後單擊 `My Blocks`{：class =“block3myblocks”}，然後單擊 **一個Block**。 創建一個新塊並將其命名為 `animate`{：class =“block3myblocks”}。
+\--- task \---
 
-![結果精靈](images/result-sprite.png)
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![創建一個名為animate的塊](images/brain-animate-function.png)
+![Result sprite](images/result-sprite.png)
 
-\--- /任務\---
+![Create a block called animate](images/brain-animate-function.png)
 
-\--- task \--- 將代碼移動到 `顯示`{：class =“block3looks”}並將 `隱藏`{：class =“block3looks”}'結果'精靈放入 `動畫`{：class =“ block3myblocks“}阻止：
+\--- /task \---
 
-![結果精靈](images/result-sprite.png)
+\--- task \---
+
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 定義動畫
@@ -85,13 +89,15 @@
 隱藏
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\--- 確保你已經刪除了 `節目`{：class =“block3looks”}和 `隱藏`{{class =“block3looks”}塊以下 **** 個 `開關服裝`{： class =“block3looks”}塊。
+\--- task \---
 
-然後在 `開關服裝`{：class =“block3looks”}塊下面添加 `animate`{：class =“block3myblocks”}塊。您的代碼現在應該如下所示：
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![結果精靈](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     當我收到[正確的v]
@@ -103,19 +109,21 @@
     animate :: custom
 ```
 
+\--- /task \---
+
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+
+\--- task \---
+
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+
 \--- /任務\---
 
-由於自定義 `動畫`{：class =“block3myblocks”}阻止，如果您想要更長或更短的時間顯示“結果”精靈的服裝，您現在只需要對代碼進行一次更改。
+\--- task \---
 
-\---任務\---
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
 
-更改您的代碼，以便'tick'或'cross'服裝顯示2秒鐘。
-
-\--- /任務\---
-
-\--- task \--- 而不是 `顯示`{：class =“block3looks”}和 `隱藏`{：class =“block3looks”}'tick'或'cross'服飾，你可以改變你的 `animate`{：class =“block3myblocks”}阻止服裝淡入。
-
-![結果精靈](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     定義動畫
@@ -127,8 +135,8 @@
     隱藏
 ```
 
-\--- /任務\---
+\--- /task \---
 
-你能改進'tick'或'cross'圖形的動畫嗎？您可以添加代碼以使服裝淡出，或者您可以使用其他很酷的效果：
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
-![截圖](images/brain-effects.png)
+![screenshot](images/brain-effects.png)
