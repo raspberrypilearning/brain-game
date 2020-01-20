@@ -10,16 +10,22 @@ I det här projektet skapar du ett mattequiz-spel där spelaren har 30 sekunder 
 
 ### Vad du kommer att göra
 
-\--- no-print \--- Klicka på knappen för att starta. Skriv in svaret på frågan och tryck sedan på <kbd>Enter</kbd> tangenten.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
-\--- Endast skriv ut \--- ![Brain Game](images/brain-final.png) \--- / Endast skriv ut \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- kollaps \---
 
@@ -28,7 +34,7 @@ I det här projektet skapar du ett mattequiz-spel där spelaren har 30 sekunder 
 + Så här använder du sändningar i Scratch
 + Så här skapar du och använder ett anpassat Scratch-block
 
-\--- /kollaps \---
+\--- /collapse \---
 
 ## \--- kollaps \---
 
@@ -48,8 +54,12 @@ I det här projektet skapar du ett mattequiz-spel där spelaren har 30 sekunder 
 
 ## titel: Ytterligare anteckningar för lärare
 
-\--- no-print \--- Om du behöver skriva ut det här projektet, använd den [skrivarvänliga versionen](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
-\--- /kollaps \---
+\--- /collapse \---
