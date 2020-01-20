@@ -6,11 +6,13 @@ To je **Scratch 3** različica projekta. Obstaja tudi [Scratch 2](https://projec
 
 ## Uvod
 
-V tem projektu boš ustvaril matematični kviz, v katerem ima igralec 30 sekund, da poda čim več pravilnih odgovorov.
+V tem projektu boš ustvaril-a matematični kviz, v katerem ima igralec 30 sekund, da poda čim več pravilnih odgovorov.
 
-### Kaj boš ustvaril?
+### Kaj boš ustvaril-a?
 
-\--- no-print \--- Klikni gumb za začetek. Vnesi odgovor na vprašanje in pritisni tipko <kbd>Enter</kbd>.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,11 +21,15 @@ V tem projektu boš ustvaril matematični kviz, v katerem ima igralec 30 sekund,
 
 \--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Kaj se boš naučil?
+## title: Kaj se boš naučil-a?
 
 + Kako v Scratchu objavljati sporočila
 + Kako v Scratchu ustvariti in uporabljati lastne bloke
@@ -32,7 +38,7 @@ V tem projektu boš ustvaril matematični kviz, v katerem ima igralec 30 sekund,
 
 ## \--- collapse \---
 
-## title: Kaj boš potreboval?
+## title: Kaj potrebuješ?
 
 ### Strojna oprema
 
@@ -48,8 +54,12 @@ V tem projektu boš ustvaril matematični kviz, v katerem ima igralec 30 sekund,
 
 ## title: Dodatne informacije za izobraževalce
 
-\--- Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/brain-game/print)
+\--- no-print \---
 
-Zaključen projekt lahko najdete [tukaj](http://rpf.io/p/en/brain-game-get)"}{:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
