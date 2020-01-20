@@ -2,17 +2,21 @@
 
 Τώρα θα προσθέσεις ένα κουμπί "Έναρξη", έτσι ώστε ο παίκτης να μπορεί να παίξει το παιχνίδι σου πολλές φορές.
 
-\--- task \--- Δημιούργησε ένα καινούργιο κουμπί "Έναρξη" στο οποίο πρέπει να κάνει κλικ ο παίκτης για να ξεκινήσει ένα νέο παιχνίδι.
+\--- task \---
 
-Μπορείς να το σχεδιάσεις ο ίδιος ή να τροποποιήσεις κάποιο χαρακτήρα από τη βιβλιοθήκη του Scratch.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![Εικόνα του κουμπιού έναρξης](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
+
+![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε αυτόν τον κώδικα στο αντικείμενο κουμπιού:
+\--- task \---
 
-![Κουμπί](images/button-sprite.png)
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     όταν στην πράσινη σημαία γίνει κλικ,
@@ -25,15 +29,17 @@
 
 \--- /task \---
 
-Ο νέος κώδικας περιλαμβάνει μία διαφορετική `εκπομπή`{:class="block3events"}, η οποίο στέλνει το μήνυμα 'έναρξη'.
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-Ο νέος κώδικας κάνει το κουμπί 'Έναρξη' να εμφανίζεται, όταν ο παίκτης κάνει κλικ στη σημαία. Όταν ο παίκτης κάνει κλικ στο κουμπί, το κουμπί εξαφανίζεται και μετά μεταδίδει ένα μήνυμα, ώστε να αντιδράσουν και οι άλλοι χαρακτήρες.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-Όταν ο παίκτης κάνει κλικ στο κουμπί, το κουμπί εξαφανίζεται και μετά μεταδίδει ένα μήνυμα, ώστε να αντιδράσουν και οι άλλοι χαρακτήρες. Άλλαξε τον κώδικα του παιχνιδιού σου έτσι ώστε ο χαρακτήρας να ξεκινά να κάνει ερωτήσεις, όταν λάβει την `εκπομπή`{:class="block3events"} 'Έναρξη'.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- task \--- Επίλεξε τον χαρακτήρα σου και, στην περιοχή του κώδικα, αντικατέστησε το μπλοκ `όταν πατηθεί η σημαία`{:class="block3events"} με το μπλοκ `όταν λαμβάνω Έναρξη`{:class="block3events"}.
+\--- task \---
 
-![Χαρακτήρας](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />Όταν στην πράσινη σημαία γίνει κλικ
@@ -54,23 +60,25 @@ end
 
 \--- task \---
 
-Κάντε κλικ στην πράσινη σημαία και, στη συνέχεια, κάντε κλικ στο νέο κουμπί "Αναπαραγωγή" για να ελέγξετε αν λειτουργεί. Θα πρέπει να δείτε ότι το παιχνίδι δεν ξεκινά πριν κάνετε κλικ στο κουμπί.,.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
 \--- /task \---
 
-Βλέπεις ότι το χρονόμετρο ξεκινά, όταν πατήσεις την πράσινη σημαία, αντί όταν ξεκινά το παιχνίδι;
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
 
-![Το χρονόμετρο έχει ξεκινήσει](images/brain-timer-bug.png)
+![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-Μπορείς να αλλάξεις τον κώδικα για το χρονόμετρο έτσι ώστε το χρονόμετρο να ξεκινάει, όταν ο παίκτης κάνει κλικ στο κουμπί;
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /task \---
 
-\--- task \--- Πρόσθεσε κώδικα στο κουμπί, ώστε το κουμπί να εμφανίζεται ξανά στο τέλος κάθε παιχνιδιού.
+\--- task \---
 
-![Κουμπί](images/button-sprite.png)
+Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     when I receive [end v]
@@ -81,11 +89,11 @@ end
 
 \--- task \---
 
-Δοκίμασε το κουμπί ''Έναρξη' παίζοντας μερικά παιχνίδια. Το κουμπί πρέπει να εμφανίζεται στο τέλος κάθε παιχνιδιού.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-Για να δοκιμάσεις το παιχνίδι πιο γρήγορα, μπορείς να αλλάξεις την τιμή της μεταβλητής `χρόνος`{:class="block3variables"}, έτσι ώστε κάθε παιχνίδι να διαρκεί μόνο μερικά δευτερόλεπτα.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Σκηνικό](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     όρισε [χρόνος v] σε [10]
@@ -93,9 +101,11 @@ end
 
 \--- /task \---
 
-\--- task \--- Μπορείς ακόμα να αλλάξεις τον τρόπο εμφάνισης του κουμπιού, όταν το ποντίκι περνάει από πάνω του.
+\--- task \---
 
-![Κουμπί](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     Όταν στην πράσινη σημαία γίνει κλικ
@@ -109,4 +119,6 @@ end
 end
 ```
 
-![στιγμιότυπο οθόνης](images/brain-fisheye.png) \--- /task \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
