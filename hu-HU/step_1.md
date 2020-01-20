@@ -10,16 +10,22 @@ Ebben a projektben létrehoz egy matematikai kvíz játékot, amelyben a játék
 
 ### Mit fogsz tenni
 
-\--- no-print \--- Kattintson a gombra az indításhoz. Írja be a választ a kérdésre, majd nyomja meg az <kbd>Enter</kbd> gombot.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- / nincs nyomtatás \---
+\--- /no-print \---
 
-\--- csak nyomtatás \--- ![Brain Game](images/brain-final.png) \--- csak nyomtatás \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- összeomlás \---
 
@@ -28,7 +34,7 @@ Ebben a projektben létrehoz egy matematikai kvíz játékot, amelyben a játék
 + Hogyan használjuk a Scratch-adásokat
 + Egyéni Scratch blokk létrehozása és használata
 
-\--- / összeomlás \---
+\--- /collapse \---
 
 ## \--- összeomlás \---
 
@@ -48,8 +54,12 @@ Ebben a projektben létrehoz egy matematikai kvíz játékot, amelyben a játék
 
 ## title: További megjegyzések az oktatók számára
 
-\--- no-print \--- Ha ki kell nyomtatnia ezt a projektet, kérjük, használja az [nyomtatóbarát változat](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / nincs nyomtatás \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
-\--- / összeomlás \---
+\--- /collapse \---
