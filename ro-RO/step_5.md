@@ -2,15 +2,19 @@
 
 Acum, vei adăuga un buton "Play", astfel încât jucătorul să poată juca jocul tău de mai multe ori.
 
-\--- task \--- Creează un nou buton "Play" pe care jucătorul trebuie să dea click pentru a porni un joc nou.
+\--- task \---
 
-Poți desena personajul singur sau poți edita un personaj din bibliotecă.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![Imagine a butonului de redare](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
+
+![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Adaugă acest cod la butonul personajului tău:
+\--- task \---
+
+Add this code to your button sprite:
 
 ![Button sprite](images/button-sprite.png)
 
@@ -25,15 +29,17 @@ Poți desena personajul singur sau poți edita un personaj din bibliotecă.
 
 \--- /task \---
 
-Noul cod include un alt bloc `broadcast`{: class = "block3events"}, care trimite mesajul "start".
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-Noul cod face ca butonul "Play" să fie afișat atunci când un jucător dă clic pe steagul verde. Când jucătorul dă clic pe butonul personajului, personajul se ascunde și transmite apoi un mesaj la care pot reacționa alte personaje.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-În acest moment, personajul începe să pună întrebări imediat ce jucătorul dă clic pe steagul verde. Schimbă codul jocului astfel încât personajul să înceapă să pună întrebări atunci când primește mesajul "start" `broadcast`{: class = "block3events"}.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- task \--- Selectează personajul tău și, în secțiunea sa de cod, înlocuiește blocul `cand se dă click pe`{: class = "block3events"} cu blocul `atunci când primesc startul`{: class = "block3events"}.
+\--- task \---
 
-![Sprite de caractere](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- atunci când dau click pe steagul verde
@@ -52,21 +58,23 @@ sfarsit
 
 \--- task \---
 
-Dă click pe steagul verde, apoi dă click pe noul buton "Redare" pentru a testa dacă funcționează. Ar trebui să vezi că jocul nu începe înainte de a da click pe buton.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
 \--- /task \---
 
-Poți vedea că începe cronometrul când se dă click pe steagul verde, în loc să înceapă o dată cu jocul?
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
 
-![Timerul a început](images/brain-timer-bug.png)
+![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-Poți schimba codul pentru cronometru astfel încât să înceapă atunci când jucătorul dă click pe buton?
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /task \---
 
-\--- task \--- Adaugă codul la butonul personajului tău, astfel încât butonul să apară din nou la sfârșitul fiecărui joc.
+\--- task \---
+
+Add code to your button sprite so that the button shows again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
@@ -79,11 +87,11 @@ Poți schimba codul pentru cronometru astfel încât să înceapă atunci când 
 
 \--- task \---
 
-Testați butonul "Redare" jucând câteva jocuri. Butonul ar trebui să apară la sfârșitul fiecărui joc.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-Pentru a testa jocul mai repede, puteți modifica valoarea `timp`{: class = "block3variables"} astfel încât fiecare joc să dureze doar câteva secunde.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Etapă](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     setați ora [v] la [10]
@@ -91,9 +99,11 @@ Pentru a testa jocul mai repede, puteți modifica valoarea `timp`{: class = "blo
 
 \--- /task \---
 
-\--- task \--- Puteți schimba modul în care arată butonul când indicatorul mouse-ului se află peste el.
+\--- task \---
 
-![Buton](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     când pavilionul apăsat
@@ -107,4 +117,6 @@ Pentru a testa jocul mai repede, puteți modifica valoarea `timp`{: class = "blo
 
 ```
 
-![captură de ecran](images/brain-fisheye.png) \--- /task \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
