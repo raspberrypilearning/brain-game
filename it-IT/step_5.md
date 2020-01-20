@@ -2,17 +2,21 @@
 
 Ora aggiungerai un pulsante "Gioca", in modo che il giocatore possa giocare molte volte.
 
-\--- task \--- Crea un nuovo sprite pulsante 'Gioca' che il giocatore deve cliccare per iniziare una nuova partita.
+\--- task \---
 
-Puoi disegnare lo sprite da solo o modificare uno sprite dalla libreria.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![Immagine del pulsante gioca](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
+
+![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Aggiungi questo codice al tuo sprite pulsante:
+\--- task \---
 
-![Sprite pulsante](images/button-sprite.png)
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -25,15 +29,17 @@ Puoi disegnare lo sprite da solo o modificare uno sprite dalla libreria.
 
 \--- /task \---
 
-Il nuovo codice include un altro blocco `broadcast`{: class = "block3events"}, che invia il messaggio 'start'.
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-Il nuovo codice fa apparire lo sprite del pulsante "Gioca" quando il giocatore fa clic sulla bandiera. Quando il giocatore fa clic sul pulsante sprite, lo sprite sparisce e trasmette un messaggio a cui altri sprite possono reagire.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-Al momento, lo sprite del personaggio inizia a fare domande quando il giocatore fa clic sulla bandiera. Cambia il codice del gioco in modo che lo sprite del personaggio inizi a porre domande quando riceve la trasmissione "start" `broadcast`{: class = "block3events"}.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- task \--- Seleziona il tuo sprite del personaggio e, nella sua sezione di codice, sostituisci il blocco `when flag clicked`{: class = "block3events"} blocca con un blocco quando ricevo start`when I receive start`{: class = "block3events"}.
+\--- task \---
 
-![Sprite personaggio](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- when flag clicked
@@ -52,23 +58,25 @@ end
 
 \--- task \---
 
-Fai clic sulla bandiera verde, quindi fai clic sul nuovo pulsante "Gioca" per verificare se funziona. Dovresti vedere che il gioco non parte prima di aver fatto clic sul pulsante.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
 \--- /task \---
 
-Riesci a vedere che il timer inizia quando viene cliccata la bandiera verde, invece di quando inizia il gioco?
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
 
-![Il timer è partito](images/brain-timer-bug.png)
+![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-È possibile modificare il codice per il timer in modo che il timer inizi quando il lettore fa clic sul pulsante?
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /task \---
 
-\--- task \--- Aggiungi codice al tuo sprite pulsante in modo che il pulsante si mostri di nuovo alla fine di ogni partita.
+\--- task \---
 
-![Sprite pulsante](images/button-sprite.png)
+Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     when I receive [end v]
@@ -79,11 +87,11 @@ Riesci a vedere che il timer inizia quando viene cliccata la bandiera verde, inv
 
 \--- task \---
 
-Prova il pulsante "Gioca" giocando un paio di giochi. Il pulsante dovrebbe apparire alla fine di ogni partita.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-Per testare il gioco più velocemente, puoi cambiare il valore di `volte`{: class = "block3variables"} in modo che ogni gioco abbia solo pochi secondi.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Schermo](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     set [tempo v] to [10]
@@ -91,9 +99,11 @@ Per testare il gioco più velocemente, puoi cambiare il valore di `volte`{: clas
 
 \--- /task \---
 
-\--- task \--- È possibile modificare l'aspetto del pulsante quando il puntatore del mouse passa sopra di esso.
+\--- task \---
 
-![Pulsante](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -107,4 +117,6 @@ Per testare il gioco più velocemente, puoi cambiare il valore di `volte`{: clas
     end
 ```
 
-![schermata](images/brain-fisheye.png) \--- /task \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
