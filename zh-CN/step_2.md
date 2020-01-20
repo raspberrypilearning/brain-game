@@ -14,23 +14,31 @@
 
 \--- /task \---
 
-\--- task \--- 为你的游戏添加精灵角色和背景。你可以选择你喜欢的！比如：
+\--- task \---
 
-![截图](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+
+![screenshot](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- 确保你已选中你的角色精灵。 创建两个新变量，命名为`数字1` {:class =“block3variables”}和`数字2` {:class =“block3variables”}，用于存储测验题目的数字。
+\--- task \---
 
-![截图](images/giga-sprite.png) ![截图](images/brain-variables.png)
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-\--- task \--- 为你的角色精灵添加代码以设置两个`变量` {:class =“ block3variables”}为2到12之间的`随机` {:class =“ block3operators”}数字。
+\--- task \---
 
-![截屏](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 当 ⚑ 被点击
@@ -40,9 +48,11 @@
 
 \--- /task \---
 
-\--- task \--- 添加`提问`{:class="block3sensing"} 代码以向玩家询问答案，无论回答正确还是错误，都`说2秒钟`{:class="block3looks"}。
+\--- task \---
 
-![截屏](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 当 ⚑ 被点击
@@ -61,26 +71,36 @@
 
 \--- task \---
 
-测试你的项目两次：正确回答一个问题，错误回答另一个问题。
+Test your project twice: answer one question correctly, and the other incorrectly.
 
 \--- /task \---
 
 \--- task \---
 
-对这段代码添加一个`重复执行`{:class="block3control"}循环，这样游戏就会连续询问玩家更多问题。
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- hints \--- \--- hint \---
+\--- hints \---
 
-你需要添加一个`重复执行`{:class="block3control"}模块，然后把除了`当 ⚑ 被点击`{:class="block3control"}模块的其它所有模块都放入其中。
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- 以下是您需要的代码块：
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 重复执行
 end
 ```
 
-\--- /hint \--- \--- hint \--- 你的代码应该是这个样子：
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 当 ⚑ 被点击
@@ -97,6 +117,8 @@ end
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
