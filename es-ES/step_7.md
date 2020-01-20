@@ -54,29 +54,33 @@ Ahora puedes usar los mensajes para `mostrar`{:class="block3looks"} los disfrace
 
 \--- /task \---
 
-\--- task \--- Prueba tu juego otra vez. ¡Deberías ver el "tick" cada vez que la respuesta sea correcta y la "cruz" cada vez que la respuesta sea incorrecta!
+\--- task \---
 
-![Tick para una respuesta correcta, cruz para las incorrectas](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
 \--- /task \---
 
-¿Te has dado cuenta de que el código de `al recibir correcto`{:class="block3events"} y de `al recibir incorrecto`{:class="block3events"} es casi idéntico?
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-Para poder cambiar el código de manera más sencilla vas a crear un bloque personalizado.
+So you can change your code more easily, you are going to create a custom block.
 
 \--- task \---
 
-Selecciona el objeto de "Resultado". Después haz clic en `Mis bloques`{:class="block3myblocks"} y luego en **Crear un bloque**. Crea un nuevo bloque y llámalo `animar`{:class="block3myblocks"}.
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![Objeto de resultado](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
-![Crea un bloque llamado animar](images/brain-animate-function.png)
+![Create a block called animate](images/brain-animate-function.png)
 
 \--- /task \---
 
-\--- task \--- Mueve el código para `mostrar`{:class="block3looks"} y `ocultar`{:class="block3looks"} el objeto del "Resultado" al bloque `animar`{:class="block3myblocks"}:
+\--- task \---
 
-![Objeto de resultado](images/result-sprite.png)
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 definir animar
@@ -87,11 +91,13 @@ ocultar
 
 \--- /task \---
 
-\--- task \--- Asegúrate de haber eliminado los bloques `mostrar`{:class="block3looks"} y `ocultar`{:class="block3looks"} debajo de **ambos** bloques `cambiar disfraz a`{:class="block3looks"}.
+\--- task \---
 
-Después añade el bloque `animar`{:class="block3myblocks"} debajo de ambos bloques `cambiar disfraz a`{:class="block3looks"}. Tu código debería parecerse a éste:
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![Objeto de resultado](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     al recibir [correcto v]
@@ -105,17 +111,19 @@ Después añade el bloque `animar`{:class="block3myblocks"} debajo de ambos bloq
 
 \--- /task \---
 
-Gracias al bloque personalizado `animar`{:class="block3myblocks"} ahora solo tenemos que hacer un cambio en nuestro código si queremos mostrar el objeto de "Resultado" durante más o menos tiempo.
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
 
 \--- task \---
 
-Cambia tu código para que se muestren los disfraces de "tick" y "cruz" durante 2 segundos.
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
 \--- /task \---
 
-\--- task \--- En vez de `mostrar`{:class="block3looks"} y `ocultar`{:class="block3looks"} los disfraces de "tick" y "cruz" puedes cambiar el bloque `animar`{:class="block3myblocks"} para que los disfraces aparezcan gradualmente.
+\--- task \---
 
-![Objeto de resultado](images/result-sprite.png)
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     definir animar
@@ -129,6 +137,6 @@ Cambia tu código para que se muestren los disfraces de "tick" y "cruz" durante 
 
 \--- /task \---
 
-¿Puedes mejorar los gráficos de la animación del "tick" o de la "cruz"? Podrías añadir código para hacer que los disfraces también desaparezcan gradualmente o puedes usar estos otros efectos chulos:
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
 ![screenshot](images/brain-effects.png)
