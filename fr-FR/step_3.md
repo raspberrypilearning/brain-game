@@ -1,16 +1,24 @@
 ## Défi: Changement de costumes
 
-\--- task \--- Crée un compte à rebours sur la scène à l'aide d'une nouvelle variable appelée `temps`{:class="block3variables"}. La minuterie devrait commencer à 30 secondes et décompter jusqu'à 0 secondes.
+\--- task \---
 
-![Sprite Scène](images/stage-sprite.png)
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
-\--- hints \--- \--- hint \---
+![Stage sprite](images/stage-sprite.png)
 
-Crée une `variable`{:class="block3variables"}, appelle-la "temps" et définis sa valeur sur `30`.
+\--- hints \---
 
-Ajoute ensuite du code pour décompter `temps`{: class = "block3variables"} jusqu'à 0 dans les 30 secondes. Pour ce faire, soustrais `1` de `temps`{:class="block3variables"} toutes les `1` seconde et répète cette opération jusqu'à ce que le `temps`{:class="block3variables"} soit égal à `0`.
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- Voici les blocs dont tu as besoin :
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 répéter jusqu'à < >
@@ -30,7 +38,11 @@ lorsque le drapeau est cliqué
 définir [temps v] sur [0]
 ```
 
-\--- / hint \--- \--- hint \--- Voici à quoi devrait ressembler ton nouveau code:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -41,15 +53,17 @@ répéter jusqu'à ce que <(temps) = (0)>
 fin
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Crée un `envoyer à tous`{:class="block3control"} qui envoie le message "fin". Un `envoyer à tous`{:class="block3control"} est comme une annonce par haut-parleur: elle peut être entendue par tous tes sprites. Ajoute le bloc `envoyer à tous`{:class="block3control"} à la fin du code du minuteur pour que le code soit envoyé et le message "fin" lorsque le `temps`{: class = "block3variables"} est décompté à `0`.
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
-![Sprite Scène](images/stage-sprite.png)
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     envoyer à tous (fin v)
@@ -57,9 +71,11 @@ Crée un `envoyer à tous`{:class="block3control"} qui envoie le message "fin". 
 
 \--- /task \---
 
-\--- task \--- Sélectionne ton sprite personnage et ajoute du code pour que le sprite `arrête les autres scripts`{:class="block3control"} lorsqu'il reçoit le message `fin`{:class="block3control"}.
+\--- task \---
 
-![Giga Sprite](images/giga-sprite.png)
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+
+![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
     quand je reçois [fin v] 
@@ -70,6 +86,6 @@ Crée un `envoyer à tous`{:class="block3control"} qui envoie le message "fin". 
 
 \--- task \---
 
-Teste ton jeu à nouveau. Il devrait continuer à poser des questions jusqu'à ce que le chronomètre se soit écoulé jusqu'à zéro.
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
 \--- /task \---
