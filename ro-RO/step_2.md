@@ -14,23 +14,31 @@ Dacă trebuie să descărci și să instalezi editorul offline Scratch, îl poț
 
 \--- /task \---
 
-\--- task \--- Adaugă un personaj și un decor pentru jocul tău. Poți alege orice dorești! Iată un exemplu:
+\--- task \---
 
-![captură de ecran](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+
+![screenshot](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- Asigură-te că ai selectat personajul tău. Creează două variabile noi, numite `numărul 1`{: class = "block3variables"} și `numărul 2`{: class = "block3variables"}}, pentru a stoca numerele pentru întrebările testului.
+\--- task \---
 
-![captură de ecran](images/giga-sprite.png) ![captură de ecran](images/brain-variables.png)
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-\--- task \--- Adaugă coduri pentru personajul tău pentru a seta ambele `variabile`{: class = "block3variables"} la un număr `aleatoriu`{: class = "block3operators"} între 2 și 12.
+\--- task \---
 
-![captură de ecran](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 când se dă clic pe steagul verde
@@ -40,9 +48,11 @@ setează [numărul 2 v] pentru a (alege aleatoriu (2) până la (12))
 
 \--- /task \---
 
-\--- task \--- Adaugă cod la `întreb`{: class = "block3sensing"} player-ul pentru răspuns, și apoi `spun timp de 2 secunde`{: class = "block3looks"} dacă răspunsul a fost corect sau greșit:
+\--- task \---
 
-![captură de ecran](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 când se dă click pe pictograma steag
@@ -61,26 +71,36 @@ setează [numărul 2 v] pentru a (alege aleatoriu (2) până la (12))
 
 \--- task \---
 
-Testează-ți proiectul de două ori: răspunde corect la o întrebare și incorect la cealaltă.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
 \--- /task \---
 
 \--- task \---
 
-Setează ` pentru totdeauna ` {: class = "block3control"} pe acest cod, astfel încât jocul să pună jucătorului o mulțime de întrebări la rând.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- hints \--- \--- hint \---
+\--- hints \---
 
-Trebuie să adaugi un bloc `pentru totdeauna`{: class = "block3control"} și să pui tot codul, cu excepția blocului `când se dă click pe pictograma steag`{: class = "block3control"}.
+\--- hint \---
 
-\--- / hint \--- \--- hint \--- Aici este blocul de care ai nevoie:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 pentru totdeauna
 sfârșit
 ```
 
-\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul: 
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 când se dă click pe pictograma steag
@@ -96,6 +116,8 @@ setează [numărul 2 v] pentru a (alege aleatoriu (2) până la (12))
 sfârșit
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
