@@ -14,21 +14,29 @@ Ha le kell töltenie és telepítenie kell a Scratch offline szerkesztőt, akkor
 
 \--- / feladat \---
 
-\--- task \--- Adjunk hozzá egy karaktergömböt és egy hátteret a játékhoz. Kiválaszthatja a tetszését! Íme egy példa:
+\--- task \---
+
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
 ![screenshot](images/brain-setting.png)
 
-\--- / feladat \---
+\--- /task \---
 
-\--- task \--- Győződjön meg róla, hogy kiválasztottad a karakteredet. Hozzon létre két új változót, az úgynevezett `szám 1`{: class = "block3variables"} és `szám 2`{: class = "block3variables"}, hogy tárolja a számokat a kvíz kérdésekhez.
+\--- task \---
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- / feladat \---
 
-\--- feladat \--- kódot megadni a karakter sprite beállítani mindkét `változó`{: class = "block3variables"}, hogy a `random`{: class = "block3operators"} száma 2 és 12 közötti.
+\--- task \---
+
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
 
 ![screenshot](images/giga-sprite.png)
 
@@ -38,9 +46,11 @@ kattint, a [szám 1 v] -ra állította (véletlenszerűen (2) - (12))
 állítsa be a [2-es szám] -t (válassza ki a véletlenszerű (2) - (12) -et)
 ```
 
-\--- / feladat \---
+\--- /task \---
 
-\--- task \--- Kód hozzáadása `kérés`{: class = "block3sensing"} a válaszhoz, majd `mondjuk 2 másodpercig`{: class = "block3looks"}, hogy a válasz helyes-e vagy rossz:
+\--- task \---
+
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
 
 ![screenshot](images/giga-sprite.png)
 
@@ -57,30 +67,40 @@ kattint, a [szám 1 v] -ra állította (véletlenszerűen (2) - (12))
 + vége
 ```
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
-Tesztelje a projektet kétszer: helyesen válaszoljon egy kérdésre, a másik helytelenül.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
-Adjon hozzá egy `forever`{: class = "block3control"} hurkot a kód köré, hogy a játék egy sor kérdésben kéri a játékosokat.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- hints \--- \--- tipp \---
+\--- hints \---
 
-Hozzá kell adnunk egy `forever`{: class = "block3control"} blokkot, és az összes kódot, kivéve a `amikor a`{: class = "block3control"} blokkot rákattintott rá.
+\--- hint \---
 
-\--- / tipp \--- \--- tipp \--- Itt van a szükséges blokk:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 örökre
 vég
 ```
 
-\--- / hint \--- \--- tipp \--- Íme, hogy milyen legyen a kódod:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 amikor a jelző
@@ -97,6 +117,8 @@ amikor a jelző
 végére
 ```
 
-\--- / tipp \--- \--- / hints \---
+\--- /hint \---
 
-\--- / feladat \---
+\--- /hints \---
+
+\--- /task \---
