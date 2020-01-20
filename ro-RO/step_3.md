@@ -1,16 +1,24 @@
 ## Adăugați un cronometru
 
-\--- task \--- Creează o numărătoare inversă pe Scenă cu ajutorul unei noi variabile numite `timp`{: class = "block3variables"}. Cronometrul ar trebui să înceapă la 30 de secunde și să se scurgă până la 0 secunde.
+\--- task \---
 
-![Scena sprite](images/stage-sprite.png)
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
-\--- hints \--- \--- hint \---
+![Stage sprite](images/stage-sprite.png)
 
-Creează o variabilă `{`= class = "block3variables"}, numește-o "timp" și seteaz-o la `30`.
+\--- hints \---
 
-Apoi adaugă codul pentru a reduce `timpul`{: class = "block3variables"} până la 0 în 30 de secunde. Pentru a face acest lucru, scade `1` din `timp`{: class = "block3variables"} la fiecare `1` secunde și repetă acest lucru până când `timp`{: class = "block3variables"} este egal cu `0`.
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- Aici sunt blocurile de care ai nevoie:
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 repetă până la < >
@@ -30,7 +38,11 @@ când faci click pe steagul verde
 setează [timp v] la [0]
 ```
 
-\--- /hint \--- \--- hint \--- Iată cum ar trebui să arate noul tău cod:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 când faci click pe steagul verde
@@ -41,15 +53,17 @@ repetă pana <(timp) = (0)>
 sfârșit
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Creează un eveniment `{`} {: class = "block3control"} care transmite mesajul "sfârșit". Un `eveniment`{: class = "block3control") este ca un anunț pe un difuzor: acesta poate fi auzit de toate personajele tale. Adăugați blocul `difuzare`{: class = "block3control"} la sfârșitul codului temporizatorului, astfel încât codul să trimită și mesajul "final" atunci când `timp`{: class = "block3variables"} a numărat până la `0`.
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
-![Scena sprite](images/stage-sprite.png)
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     difuzare (sfârșitul v)
@@ -57,9 +71,11 @@ Creează un eveniment `{`} {: class = "block3control"} care transmite mesajul "s
 
 \--- /task \---
 
-\--- task \--- Selectați sprite-ul caracterelor și adăugați un cod astfel încât sprite `oprească celelalte scripturi`{: class = "block3control"} atunci când primește mesajul `{end =`} {block3control} .
+\--- task \---
 
-![Giga Sprite](images/giga-sprite.png)
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+
+![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
     când primesc [end v]
@@ -70,6 +86,6 @@ Creează un eveniment `{`} {: class = "block3control"} care transmite mesajul "s
 
 \--- task \---
 
-Testați-vă din nou jocul. Ar trebui să continue să pună întrebări până când timerul a fost numit până la 0.
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
 \--- /task \---
