@@ -10,16 +10,22 @@
 
 ### যা তৈরি করতে হবে
 
-\--- কোন মুদ্রণ \--- শুরু করার বোতাম ক্লিক করুন। প্রশ্নের উত্তরটি টাইপ করুন, এবং তারপরে <kbd>Enter</kbd> কী টিপুন।
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\----প্রিন্ট করা লাগবেনা --
+\--- /no-print \---
 
-\--- শুধুমাত্র মুদ্রণ \--- ![Brain Game](images/brain-final.png) \--- / মুদ্রণ শুধুমাত্র \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -28,7 +34,7 @@
 + স্ক্র্যাচ মধ্যে সম্প্রচার ব্যবহার করুন
 + কিভাবে একটি কাস্টম স্ক্র্যাচ ব্লক তৈরি এবং ব্যবহার করতে
 
--- /collapse \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -48,8 +54,12 @@
 
 ## শিরোনাম: শিক্ষাবিদদের জন্য অতিরিক্ত নোট
 
-\--- কোন মুদ্রণ \--- যদি আপনি এই প্রকল্পটি মুদ্রণ করতে চান তবে দয়া করে [প্রিন্টার-বান্ধব সংস্করণ](https://projects.raspberrypi.org/en/projects/brain-game/print)। \--- / কোন মুদ্রণ \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
--- /collapse \---
+\--- /collapse \---
