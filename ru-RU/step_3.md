@@ -1,16 +1,24 @@
 ## Добавь таймер
 
-\--- task \--- Создай таймер обратного отсчета на Сцене с помощью новой переменной с именем `время`{:class="block3variables"}. Таймер должен начинаться с 30 секунд и отсчитывать до 0 секунд.
+\--- task \---
 
-![Стадия спрайт](images/stage-sprite.png)
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
-\--- hints \--- \--- hint \---
+![Stage sprite](images/stage-sprite.png)
 
-Создай `переменную`{:class="block3variables"}, назови её 'время', и установи значение `30`.
+\--- hints \---
 
-Затем добавь код для отсчета `время`{:class="block3variables"} до 0 в течение 30 секунд. Для этого вычитай `1` из переменной `время`{:class="block3variables"} каждую `1` секунду и повторяй это пока `время`{:class="block3variables"} не станет равным `0`.
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- Вот блоки, которые тебе нужны:
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 повторять до < >
@@ -30,7 +38,11 @@
 установить [время v] на [0]
 ```
 
-\--- / подсказка \--- \--- подсказка \--- Вот как должен выглядеть ваш новый код:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 при нажатии флага
@@ -41,35 +53,39 @@
 конец
 ```
 
-\--- / подсказка \--- \--- / подсказка \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- / задача \---
 
 \--- задача \---
 
-Создайте `рассылку`{: class = "block3control"}, которая отправляет сообщение 'end'. Трансляция ``{: class = "block3control"} похожа на объявление через громкоговоритель: его могут услышать все ваши спрайты. Добавьте блок `широковещательный`{: class = "block3control"} в конец кода таймера, чтобы код отправлял сообщение "end", когда `раза`{: class = "block3variables"} отсчитал до `0`.
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
-![Стадия спрайт](images/stage-sprite.png)
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     трансляция (конец V)
 ```
 
-\--- / задача \---
+\--- /task \---
 
-\--- task \--- Выберите свой символьный спрайт и добавьте некоторый код, чтобы спрайт `останавливал другие сценарии`{: class = "block3control"} при получении сообщения `end`{: class = "block3control"} ,
+\--- task \---
 
-![Гига спрайт](images/giga-sprite.png)
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+
+![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
     когда я получаю [end v]
     stop [другие скрипты в sprite v]
 ```
 
-\--- / задача \---
+\--- /task \---
 
-\--- задача \---
+\--- task \---
 
-Проверь свою игру снова. Он должен продолжать задавать вопросы, пока таймер не обратится к 0.
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
-\--- / задача \---
+\--- /task \---
