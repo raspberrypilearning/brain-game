@@ -10,16 +10,22 @@ V tomto projekte vytvoríte hru s matematickým kvízom, v ktorom má hráč 30 
 
 ### Čo urobíte
 
-\--- no-print \--- Kliknite na tlačidlo pre spustenie. Zadajte odpoveď na otázku a stlačte tlačidlo <kbd>Zadajte</kbd>.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
-\--- len na tlač \--- ![Brain Game](images/brain-final.png) \--- / len na tlač \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -28,7 +34,7 @@ V tomto projekte vytvoríte hru s matematickým kvízom, v ktorom má hráč 30 
 + Ako používať vysielanie v aplikácii Scratch
 + Ako vytvoriť a použiť vlastný blok Scratch
 
-\--- / collapse \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -48,8 +54,12 @@ V tomto projekte vytvoríte hru s matematickým kvízom, v ktorom má hráč 30 
 
 ## názov: Ďalšie poznámky pre pedagógov
 
-\--- no-print \--- Ak potrebujete tento projekt vytlačiť, použite [verziu](https://projects.raspberrypi.org/en/projects/brain-game/print)vhodnú pre tlačiarne. \--- / no-print \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
-\--- / collapse \---
+\--- /collapse \---
