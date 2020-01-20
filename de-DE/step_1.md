@@ -10,7 +10,9 @@ In diesem Projekt erstellst du ein Gehirntraining, bei dem die Spieler 30 Sekund
 
 ### Was du machen wirst
 
-\--- no-print \--- Drücke den Start Knopf. Gib deine Antwort ein und bestätige mit <kbd>Enter</kbd>.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +21,11 @@ In diesem Projekt erstellst du ein Gehirntraining, bei dem die Spieler 30 Sekund
 
 \--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -48,8 +54,12 @@ In diesem Projekt erstellst du ein Gehirntraining, bei dem die Spieler 30 Sekund
 
 ## title: Zusätzliche Hinweise für Pädagogen
 
-\--- no-print\--- Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/brain-game/print){: target="_blank"}. \--- /no-print \---
+\--- no-print \---
 
-Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
