@@ -53,29 +53,33 @@ end
 
 \--- /task \---
 
-게임을 다시 테스트 해보십시오. 정확한 질문을 할 때마다 체크가 보일 것이며, 잘못 될 때마다 x표가 보일 것입니다.
+\--- task \---
 
-![올바른 답변을 위해 십자 표시하십시오.](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
 \--- /task \---
 
-`내가 옳음을 받았을 때`{:class="blockevents"} 와 `내가 틀림을 받았을 때`{:class="blockevents"}의 코드는 거의 동일합니까?
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-따라서 코드를 더 쉽게 변경하고 사용자 정의 블록을 생성 할 수 있습니다.
+So you can change your code more easily, you are going to create a custom block.
 
 \--- task \---
 
-'Result'스프라이트를 선택하십시오. 그런 다음 `내 블록`{: class = "block3myblocks"}을 클릭 한 다음 **블록 추가하기**를 누릅니다. 새 블록을 만들고 `애니메이션`{: class = "block3myblocks"} 이라고 합니다.
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![결과 스프라이트](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
-![animate라는 블록 만들기](images/brain-animate-function.png)
+![Create a block called animate](images/brain-animate-function.png)
 
 \--- /task \---
 
-\--- task \--- 결과 스프라이트 내 `보이기`{:class="block3looks"} 및 `숨기기`{:class="block3looks"} 코드를 `애니메이션`{:class="block3myblocks"} 블록으로 옮기세요:
+\--- task \---
 
-![결과 스프라이트](images/result-sprite.png)
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 애니메이션 정의하기
@@ -86,11 +90,13 @@ end
 
 \--- /task \---
 
-\--- task \--- 결과 스프라이트 내 `보이기`{:class="block3looks"} 및 `숨기기`{:class="block3looks"} 코드를 `애니메이션`{:class="block3myblocks"} 블록으로 옮기세요.
+\--- task \---
 
-그런 다음 `스위치 코스튬`{: class = "block3looks"} 블록 아래에 `애니메이션`{: class = "block3myblocks"} 블록을 추가하십시오. 이제 코드는 다음과 같이 보입니다.
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![결과 스프라이트](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     [correct v] 신호를 받았을 때
@@ -104,17 +110,19 @@ animate :: custom
 
 \--- /task \---
 
-사용자 정의 `애니메이션`{: class = "block3myblocks"} 블록으로 인해 '결과' 스프라이트의 의상을 더 길거나 더 짧은 시간으로 표시하려면 코드를 한 번만 변경하면됩니다.
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
 
 \--- task \---
 
-'tick'또는 'cross'복장이 2 초 동안 표시되도록 코드를 변경하십시오.
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
 \--- /task \---
 
-\--- 작업 \--- ` 보이기 ` {: class = "block3looks"} 및 ` 숨기기 ` {: class = "block3looks"} 를 사용하여 맞고 틀림의 의상을 표현하는 대신, `애니메이션`{:class="block3myblocks"} 을 사용하여 의상이 페이드인되도록 할 수 있습니다.
+\--- task \---
 
-![결과 스프라이트](images/result-sprite.png)
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     정의하기 animate
@@ -128,6 +136,6 @@ end
 
 \--- /task \---
 
-'체크' 또는 'x표' 그래픽의 애니메이션을 개선 할 수 있습니까? 복장을 페이드 아웃하기위한 코드를 추가하거나 다른 멋진 효과를 사용할 수 있습니다.
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
-![스크린샷](images/brain-effects.png)
+![screenshot](images/brain-effects.png)
