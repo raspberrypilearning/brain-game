@@ -14,23 +14,31 @@ Hvis du trenger å laste ned og installere Scratch offline editoren, kan du finn
 
 \--- / oppgave \---
 
-\--- Oppgave \--- Legg til et tegnsprite og et bakteppe for spillet ditt. Du kan velge noe du liker! Her er et eksempel:
+\--- task \---
 
-![skjermbilde](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
-\--- / oppgave \---
+![screenshot](images/brain-setting.png)
 
-\--- Oppgave \--- Pass på at du har valgt din karaktersprite. Opprett to nye variabler, kalt `nummer 1`{: class = "block3variables"} og `nummer 2`{: class = "block3variables"}, for å lagre tallene for quiz-spørsmålene.
+\--- /task \---
 
-![skjermbilde](images/giga-sprite.png) ![skjermbilde](images/brain-variables.png)
+\--- task \---
+
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- / oppgave \---
 
-\--- oppgave \--- Legg til kode til karaktersprite for å sette begge `variablene`{: class = "block3variables"} til et `tilfeldig`{: class = "block3operators"} tall mellom 2 og 12.
+\--- task \---
 
-![skjermbilde](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 når flagget klikket
@@ -38,11 +46,13 @@ sett [nummer 1 v] til (velg tilfeldig (2) til (12))
 sett [nummer 2 v] til (velg tilfeldig (2) til (12))
 ```
 
-\--- / oppgave \---
+\--- /task \---
 
-\--- oppgave \--- Legg til kode til `spør`{: class = "block3sensing"} spilleren for svaret, og så `si i 2 sekunder`{: class = "block3looks"} om svaret var riktig eller feil:
+\--- task \---
 
-![skjermbilde](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 når flagget klikket
@@ -57,30 +67,40 @@ sett [nummer 2 v] til (velg tilfeldig (2) til (12))
 + slutt
 ```
 
-\--- / oppgave \---
+\--- /task \---
 
-\--- oppgave \---
+\--- task \---
 
-Test prosjektet ditt to ganger: Svar ett spørsmål riktig, og det andre feil.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
-\--- / oppgave \---
+\--- /task \---
 
-\--- oppgave \---
+\--- task \---
 
-Legg en `alltid`{: class = "block3control"} loop rundt denne koden, slik at spillet spør spilleren mange spørsmål på rad.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- hint \--- \--- hint \---
+\--- hints \---
 
-Du må legge til en `alltid`blokkering av blokkene {: class = "block3control"}, og sett all koden unntatt `når flagget klikket`{: class = "block3control"} blokkert inn i det.
+\--- hint \---
 
-\--- / hint \--- \--- hint \--- Her er blokken du trenger:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 for alltid
 ende
 ```
 
-\--- / hint \--- \--- hint \--- Her er hva koden din skal se ut som:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 når flagget klikkte
@@ -97,6 +117,8 @@ når flagget klikkte
 ende
 ```
 
-\--- / hint \--- \--- / hint \---
+\--- /hint \---
 
-\--- / oppgave \---
+\--- /hints \---
+
+\--- /task \---
