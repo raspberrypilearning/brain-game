@@ -14,21 +14,29 @@ Ak potrebujete stiahnuť a nainštalovať editor Scratch offline, môžete ho n�
 
 \--- / úloha \---
 
-\--- task \--- Pridajte postavu sprite a pozadie pre hru. Môžete si vybrať ľubovoľné! Tu je príklad:
+\--- task \---
+
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
 ![screenshot](images/brain-setting.png)
 
-\--- / úloha \---
+\--- /task \---
 
-\--- task \--- Uistite sa, že ste vybrali vašu postavu sprite. Vytvorte dve nové premenné, nazývané `číslo 1`{: class = "block3variables"} a `number 2`{: class = "block3variables"}, aby ste uložili čísla pre otázky kvízu.
+\--- task \---
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- / úloha \---
 
-\--- úloha \--- pridať kód svojej postave pohyblivému symbolu nastaviť obe `premenných`{: class = "block3variables"} do `náhodných`{: class = "block3operators"} číslo od 2 do 12.
+\--- task \---
+
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
 
 ![screenshot](images/giga-sprite.png)
 
@@ -38,9 +46,11 @@ sadu [číslo 1] pre (vybrať náhodné (2) až (12)),
 sada [číslo 2] pre (vyberať náhodne (2) až (12))
 ```
 
-\--- / úloha \---
+\--- /task \---
 
-\--- úloha \--- Pridajte kód na `spýtajte sa`{: class = "block3sensing"} pre odpoveď prehrávača a potom `na 2 sekundy`{: class = "block3looks"}, či bola odpoveď správna alebo zle:
+\--- task \---
+
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
 
 ![screenshot](images/giga-sprite.png)
 
@@ -57,30 +67,40 @@ sada [číslo 2] pre (vyberať náhodne (2) až (12))
 + koniec
 ```
 
-\--- / úloha \---
+\--- /task \---
 
-\--- úloha \---
+\--- task \---
 
-Otestujte svoj projekt dvakrát: odpovedzte na jednu otázku správne a druhú nesprávne.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
-\--- / úloha \---
+\--- /task \---
 
-\--- úloha \---
+\--- task \---
 
-Pridajte okruh `navždy`{: class = "block3control"} okolo tohto kódu, aby sa hra spýtala hráča veľa otázok v rade.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- rady \--- \--- názov \---
+\--- hints \---
 
-Musíte pridať blok `navždy`{: class = "block3control"} a vložiť všetok kód okrem `keď do nej zablokujete vlajku`{: class = "block3control"}.
+\--- hint \---
 
-\--- / hint \--- \--- tip \--- Tu je blok, ktorý potrebujete:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 navždy
 koniec
 ```
 
-\--- / hint \--- \--- tip \--- Tu je to, ako mal by váš kód vyzerať:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 keď príznak kliknutí
@@ -97,6 +117,8 @@ keď príznak kliknutí
 koniec
 ```
 
-\--- / náznak \--- \--- / rady \---
+\--- /hint \---
 
-\--- / úloha \---
+\--- /hints \---
+
+\--- /task \---
