@@ -14,21 +14,29 @@
 
 \--- /কাজ \---
 
-\--- টাস্ক \--- চরিত্রের স্প্রেট এবং আপনার খেলার জন্য একটি ব্যাকড্রপ যোগ করুন। আপনি যে কোনও পছন্দ করতে পারেন! এখানে একটি উদাহরণ:
+\--- task \---
+
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
 ![screenshot](images/brain-setting.png)
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- টাস্ক \--- আপনার অক্ষর sprite নির্বাচিত নিশ্চিত করুন। কুইজ প্রশ্নগুলির সংখ্যাগুলি সংরক্ষণ করতে, দুটি নতুন ভেরিয়েবল তৈরি করুন, যাকে `সংখ্যা 1`{: class = "block3variables"} এবং `সংখ্যা 2`{: class = "block3variables"} বলা হয়।
+\--- task \---
 
-![screenshot](images/giga-sprite.png) ![screenshot](images/brain-variables.png)
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /কাজ \---
 
-\--- টাস্ক \--- আপনার ক্যারেক্টার স্প্রাইটে কোডটি `ভেরিয়েবল`সেট করতে {{class = "block3variables"} `র্যান্ডম`{: class = "block3operators"} 2 এবং 1২ এর মধ্যে সেট করুন।
+\--- task \---
+
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
 
 ![screenshot](images/giga-sprite.png)
 
@@ -38,9 +46,11 @@
 সেট [সংখ্যা 2 ভি] থেকে (র্যান্ডম (2) থেকে (12) বাছাই করুন)
 ```
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজের \--- যোগ করার জন্য কোড `জিজ্ঞাসা`{: শ্রেণি = "block3sensing"} উত্তরের জন্য প্লেয়ার, এবং তারপর `2 সেকেন্ডের বলতে`{: শ্রেণি = "block3looks"} কিনা উত্তর ঠিক ছিল বা ভুল:
+\--- task \---
+
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
 
 ![screenshot](images/giga-sprite.png)
 
@@ -57,30 +67,40 @@
 + শেষ
 ```
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-আপনার প্রকল্পের দুইবার পরীক্ষা করুন: সঠিকভাবে একটি প্রশ্ন উত্তর দিন, এবং অন্যটি ভুলভাবে।
+Test your project twice: answer one question correctly, and the other incorrectly.
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-একটি যোগ করুন `চিরকাল`{: শ্রেণি = "block3control"} লুপ এই কোড চারপাশের, যাতে খেলা একটি সারিতে প্রশ্ন খেলোয়াড় প্রচুর অনুরোধ।
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- ইঙ্গিত \--- \--- ইঙ্গিত \---
+\--- hints \---
 
-আপনি একটি যোগ করতে হবে `চিরকাল`ব্যতীত কোডের ব্লক, এবং করা সব: {বর্গ = "block3control"} `যখন পতাকা ক্লিক`{: শ্রেণি = "block3control"} তা অবরোধ করুন।
+\--- hint \---
 
-\--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে আপনার প্রয়োজন ব্লক:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 চিরতরে
 শেষ
 ```
 
-\--- / ইঙ্গিত \--- \--- ইঙ্গিত \--- এখানে আপনার কোডটি কেমন হওয়া উচিত:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 যখন পতাকাটি
@@ -97,6 +117,8 @@
 শেষ
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
 
-\--- /কাজ \---
+\--- /hints \---
+
+\--- /task \---
