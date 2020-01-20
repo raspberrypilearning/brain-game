@@ -14,23 +14,31 @@ Jeśli musisz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [
 
 \--- /task \---
 
-\--- task \--- Dodaj duszka postaci i tło dla swojej gry. Możesz wybrać, co chcesz! Oto przykład:
+\--- task \---
 
-![zrzut ekranu](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+
+![screenshot](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- Upewnij się, że wybrałeś duszka postaci. Utwórz dwie nowe zmienne, o nazwie `liczba 1`{:class="block3variables"} i `liczba 2`{:class="block3variables"}, aby przechowywać liczby na potrzeby quizu.
+\--- task \---
 
-![zrzut ekranu](images/giga-sprite.png) ![zrzut ekranu](images/brain-variables.png)
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-\--- task \--- Dodaj kod do duszka swojej postaci, aby ustawić obie `zmienne`{:class="block3variables"} na `losowe`{class="block3operators"} liczby z zakresu od 2 do 12.
+\--- task \---
 
-![zrzut ekranu](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -40,9 +48,11 @@ ustaw [liczba 2 v] na (losuj liczbę od (2) do (12))
 
 \--- /task \---
 
-\--- task \--- Dodaj kod do `zapytaj`{:class="block3sensing"} gracza o odpowiedź, a następnie `powiedz przez 2 sekundy`{:class="block3looks"}, czy odpowiedź była poprawna czy zła:
+\--- task \---
 
-![zrzut ekranu](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -60,19 +70,25 @@ ustaw [liczba 2 v] na (losuj liczbę od (2) do (12))
 
 \--- task \---
 
-Przetestuj swój projekt dwa razy: odpowiedz na jedno pytanie poprawnie, a drugie błędnie.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
 \--- /task \---
 
 \--- task \---
 
-Otocz swój kod pętlą `zawsze`{:class="block3control"}, tak, aby gra zadawała graczowi wiele pytań z rzędu.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- hints \--- \--- hint \---
+\--- hints \---
 
-Musisz dodać blok pętli `zawsze`{:class="block3control"} i umieścić w nim cały kod z wyjątkiem bloku `kiedy kliknięto zieloną flagę`{:class="block3control"}.
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- poniżej masz bloki, których będziesz potrzebować:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 zawsze
@@ -80,7 +96,11 @@ zawsze
 koniec
 ```
 
-\--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -97,6 +117,8 @@ kiedy kliknięto zieloną flagę
 koniec
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
