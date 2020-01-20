@@ -1,18 +1,22 @@
 ## Več iger
 
-Zdaj boš dodal gum 'Igraj', da bo lahko igralec igro ponovil večkrat.
+Dodaj še gumb 'Igraj', da bo lahko igralec igro ponovil večkrat.
 
-\--- task \--- Ustvari novo figuro za gumb 'Igraj', ki jo bo igralec moral klikniti, da začne novo igro.
+\--- task \---
 
-Figuro lahko narišeš sam ali urediš figuro iz knjižnice.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![Silga gumba za igranje](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
+
+![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Figuri gumba dodaj to kodo:
+\--- task \---
 
-![Figura gumba](images/button-sprite.png)
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     ko kliknemo na zastavico
@@ -25,15 +29,17 @@ Figuro lahko narišeš sam ali urediš figuro iz knjižnice.
 
 \--- /task \---
 
-Nova koda vsebuje blok `objavi`{:class="block3events"}, ki pošlje sporočilo 'začni'.
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-Nova koda poskrbi, da se figura gumba 'Igraj' prikaže, ko igralec klikne na zastavico. Ko igralec klikne na figuro gumba, se figura skrije in potem objavi sporočilo za druge figure, na katero se lahko te odzovejo.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-Trenutno figura lika začne spraševati vprašanja po tem, ko igralec klikne na zastavico. Spremeni kodo svoje igre tako, da bo figura začela spraševati po tem, ko prejme `objavo`{:class="block3events"}. 'začni'.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- task \--- Izberi figuro lika in v njegovem razdelku so kodo zamenjaj blok `ko klinemo na zastavico`{:class="block3events"} z blokom `ko prejmem začni`.
+\--- task \---
 
-![Figura lika](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- ko kliknemo na zastavico
@@ -52,23 +58,25 @@ konec
 
 \--- task \---
 
-Klikni na zeleno zastavico in nato klikni na gumb Igraj, da vidiš, če zadeva deluje. Opazil boš, da se igra ne začne, preden ne klikneš na gumb.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
 \--- /task \---
 
-Si opazil, da se čas začne odštevati, ko je kliknjena zelena zastavica in ne tedaj, ko se igra začne?
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
 
-![Časovnik zagnan](images/brain-timer-bug.png)
+![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-Ali lahko spremeniš kodo časovnika, da se bo čas začel odštevati, ko igralec klikne na gumb?
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /task \---
 
-\--- task \--- Figuri gumba dodaj kodo, ki bo poskrbela, da se bo spet prikazal ob koncu igre.
+\--- task \---
 
-![Figura gumba](images/button-sprite.png)
+Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     ko prejmem [konec v]
@@ -79,11 +87,11 @@ Ali lahko spremeniš kodo časovnika, da se bo čas začel odštevati, ko igrale
 
 \--- task \---
 
-Preizkusi gumb 'Igraj', tako da igro nekajkrat odigraš. Gumb bi se moral prikazati ob koncu vsake igre.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-Da bi igro hitreje preizkusil, lahko spremeniš vrednost spremenljivke `čas`{:class="block3variables"}, tako da je vsaka igra dolga le nekaj sekund.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Oder](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     nastavi [čas v] na [10]
@@ -91,9 +99,11 @@ Da bi igro hitreje preizkusil, lahko spremeniš vrednost spremenljivke `čas`{:c
 
 \--- /task \---
 
-Lahko spremeniš videz gumba, kadar je kazalec miške nad njim.
+\--- task \---
 
-![Gumb](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     ko kliknemo na zastavico
@@ -107,4 +117,6 @@ Lahko spremeniš videz gumba, kadar je kazalec miške nad njim.
     konec
 ```
 
-![posnetek zaslona](images/brain-fisheye.png) \--- /task \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
