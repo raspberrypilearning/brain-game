@@ -54,29 +54,33 @@
 
 \--- / משימה \---
 
-\--- משימה \--- במשחק המבחן שלך שוב. אתה צריך לראות את התווית בכל פעם שאתה עונה על שאלה נכונה, ואת לחצות בכל פעם שאתה עונה לא נכון!
+\--- task \---
 
-![טיק עבור הנכון, לחצות תשובה לא נכונה](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
 
-\--- / משימה \---
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
-האם אתה יכול לראות את הקוד עבור `כאשר אני מקבל`{: class = "block3events"} ו `כאשר אני מקבל טועה`:: class = "block3events"} כמעט זהה?
+\--- /task \---
 
-אז אתה יכול לשנות את הקוד שלך בקלות רבה יותר, אתה הולך ליצור בלוק מותאם אישית.
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-\--- \---
+So you can change your code more easily, you are going to create a custom block.
 
-בחר את ספרייט 'תוצאה'. לאחר מכן לחץ על `הבלוקים שלי`{: class = "block3myblocks"}, ולאחר מכן על **לעשות בלוק**. צור בלוק חדש וקרא לו `הנפשת`{: class = "block3myblocks"}.
+\--- task \---
 
-![תוצאה ספרייט](images/result-sprite.png)
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![צור בלוק שנקרא animate](images/brain-animate-function.png)
+![Result sprite](images/result-sprite.png)
 
-\--- / משימה \---
+![Create a block called animate](images/brain-animate-function.png)
 
-\--- משימה העבר את הקוד ל `הצג`{: class = "block3looks"} ו `הסתר`{: class = "block3looks"} את התוצאה 'ספרייט' לתוך `אנימציה`: {class = block3myblocks "} לחסום:
+\--- /task \---
 
-![תוצאה ספרייט](images/result-sprite.png)
+\--- task \---
+
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 הגדר אנימציה
@@ -85,13 +89,15 @@
 הסתר
 ```
 
-\--- / משימה \---
+\--- /task \---
 
-\--- משימה \--- ודא שהסרת את `הראה`{: class = "block3looks"} ו `להסתיר`{: class = "block3looks"} בלוקים מתחת **הן** של `תחפושת מתג`{: class = "block3looks"} בלוקים.
+\--- task \---
 
-לאחר מכן, הוסף את הקטע `anim`{: class = "block3myblocks"} מתחת לשני התלבושות של מתג ``{: class = "block3looks"}. הקוד שלך אמור להיראות כך:
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![תוצאה ספרייט](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     כאשר אני מקבל [v נכונה]
@@ -103,19 +109,21 @@
     הנפשת :: מותאם אישית
 ```
 
+\--- /task \---
+
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+
+\--- task \---
+
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+
 \--- / משימה \---
 
-בגלל מנהג `להנפיש`{: class = "block3myblocks"} בלוק, אתה עכשיו רק צריך לעשות שינוי אחד לקוד שלך אם אתה רוצה להראות את התלבושות של ספרייט "התוצאה" זמן ארוך או קצר.
+\--- task \---
 
-\--- \---
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
 
-שנה את הקוד שלך כך שתצוגת 'התגים' או 'הצלב' תוצג למשך 2 שניות.
-
-\--- / משימה \---
-
-\--- משימה \--- במקום `מראה`{: class = "block3looks"} ו `מסתתר`{: class = "block3looks"} ה 'טיק' או 'חוצה' תלבושות, אתה יכול לשנות את `להנפיש`{: class = "block3myblocks"} לחסום כך התלבושות לדעוך פנימה.
-
-![תוצאה ספרייט](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     מגדירים להנפיש
@@ -127,8 +135,8 @@
     להסתיר
 ```
 
-\--- / משימה \---
+\--- /task \---
 
-אתה יכול לשפר את האנימציה של 'טיק' או 'לחצות' גרפיקה? אתה יכול להוסיף קוד כדי להפוך את התלבושות לדעוך גם, או שאתה יכול להשתמש אפקטים מגניבים אחרים:
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
-![צילום מסך](images/brain-effects.png)
+![screenshot](images/brain-effects.png)
