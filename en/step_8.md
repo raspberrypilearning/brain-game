@@ -1,4 +1,5 @@
 ## Challenge: sound and music
+
 Can you add sound effects and music to your game? For example, you could have your game:
 
 + Play a sound when the player gives a correct or incorrect answer
