@@ -10,7 +10,9 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există , de asemenea , o [v
 
 ### Ce veți face
 
-\--- no-print \--- Faceți clic pe butonul pentru a începe. Introduceți răspunsul la întrebare, apoi apăsați tasta <kbd>Enter</kbd>.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +21,11 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există , de asemenea , o [v
 
 \--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- print-only \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -48,8 +54,12 @@ Aceasta este versiunea **Scratch 3** a proiectului. Există , de asemenea , o [v
 
 ## title: Informații suplimentare pentru educatori
 
-\--- fără imprimare \--- Dacă aveți nevoie pentru a imprima acest proiect, vă rugăm să folosiți [versiune pentru tipărire](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / nu-imprimare \---
+\--- no-print \---
 
-Poți găsi [proiectul finalizat aici](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
