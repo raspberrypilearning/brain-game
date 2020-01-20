@@ -1,11 +1,13 @@
 ## Add a timer
 
 --- task ---
+
 Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
 ![Stage sprite](images/stage-sprite.png)
 
 --- hints ---
+
 --- hint ---
 
 Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
@@ -13,7 +15,9 @@ Create a `variable`{:class="block3variables"}, call it 'time', and set its value
 Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
 
 --- /hint ---
+
 --- hint ---
+
 Here are the blocks you need:
 
 ```blocks3
@@ -33,9 +37,13 @@ when flag clicked
 
 set [time v] to [0]
 ```
+
 --- /hint ---
+
 --- hint ---
+
 Here is the what your new code should look like:
+
 ```blocks3
 when flag clicked
 set [time v] to [30]
@@ -44,7 +52,9 @@ repeat until <(time) = (0)>
     change [time v] by (-1)
 end
 ```
+
 --- /hint ---
+
 --- /hints ---
 
 --- /task ---
@@ -58,9 +68,11 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 ```blocks3
     broadcast (end v)
 ```
+
 --- /task ---
 
 --- task ---
+
 Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
 
 ![Giga sprite](images/giga-sprite.png)
@@ -69,6 +81,7 @@ Select your character sprite and add some code so that the sprite `stops the oth
     when I receive [end v]
     stop [other scripts in sprite v]
 ```
+
 --- /task ---
 
 --- task ---

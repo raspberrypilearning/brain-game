@@ -54,6 +54,7 @@ Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cr
 --- /task ---
 
 --- task ---
+
 Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
 
 ![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
@@ -75,6 +76,7 @@ Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, 
 --- /task ---
 
 --- task ---
+
 Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
 
 ![Result sprite](images/result-sprite.png)
@@ -85,9 +87,11 @@ show
 wait (1) seconds
 hide
 ```
+
 --- /task ---
 
 --- task ---
+
 Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
 Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
@@ -115,6 +119,7 @@ Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 --- /task ---
 
 --- task ---
+
 Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
 
 ![Result sprite](images/result-sprite.png)
@@ -128,6 +133,7 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 	end
 	hide
 ```
+
 --- /task ---
 
 Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
