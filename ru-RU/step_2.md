@@ -14,23 +14,31 @@
 
 \--- /task \---
 
-\--- task \--- Добавь спрайт персонажа и фон для твоей игры. Ты можешь выбрать любой понравившийся! Вот пример:
+\--- task \---
 
-![скриншот](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+
+![screenshot](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- Убедись, что ты выбрал спрайт своего персонажа. Создай две новые переменные, называемые `число 1`{:class="block3variables"} и `число 2`{:class="block3variables"}, чтобы сохранить числа для вопросов викторины.
+\--- task \---
 
-![скриншот](images/giga-sprite.png) ![скриншот](images/brain-variables.png)
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-\--- task \--- Добавь код к спрайту твоего персонажа, чтобы установить обе `переменные`{:class="block3variables"} в `случайные числа`{:class="block3operators"} от 2 до 12.
+\--- task \---
 
-![скриншот](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 когда щёлкнут по зелёному флагу
@@ -40,9 +48,11 @@
 
 \--- /task \---
 
-\--- task \--- Добавь код, чтобы `спросить`{:class="block3sensing"} игрока об ответе, а затем `говори в течение 2 секунд`{:class="block3looks"}, был ли ответ правильным или неправильным:
+\--- task \---
 
-![скриншот](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 когда щёлкнут по зелёному флагу
@@ -61,27 +71,36 @@
 
 \--- task \---
 
-Протестируй свой проект дважды: ответь на один вопрос правильно, а другой – неправильно.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
 \--- /task \---
 
 \--- task \---
 
-Добавь цикл `повторять всегда`{:class="block3control"} вокруг этого кода, чтобы игра задавала игроку много вопросов подряд.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- hints \--- \--- hint \---
+\--- hints \---
 
-Тебе нужно добавить блок `повторять всегда`{:class="block3control"} и поместить в него весь код, кроме `когда щёлкнут по зелёному флагу
-`{:class="block3control"}.
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- Вот блок, который тебе нужен:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 повторять всегда
 конец
 ```
 
-\--- /hint \--- \--- hint \--- Вот как должен выглядеть твой код:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 когда щёлкнут по зелёному флагу
@@ -98,6 +117,8 @@
 конец
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
