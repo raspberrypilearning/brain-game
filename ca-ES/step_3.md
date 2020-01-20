@@ -1,16 +1,24 @@
 ## Afegiu un temporitzador
 
-\--- tasca \--- Crea un temporitzador de compte enrere a l'Estadi amb l'ajuda d'una nova variable anomenada `vegada`{: class = "block3variables"}. El temporitzador ha de començar a 30 segons i comptar fins a 0 segons.
+\--- task \---
 
-![Sprite d'etapa](images/stage-sprite.png)
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
-\--- consells \--- \--- suggeriment \---
+![Stage sprite](images/stage-sprite.png)
 
-Crear un `variable d'`{: class = "block3variables"}, en diuen 'temps' i estableixi el seu valor a `30`.
+\--- hints \---
 
-A continuació, afegiu el codi per comptar `temps`{: class = "block3variables"} fins a 0 en 30 segons. Per a això, restar `1` des `temps`{: class = "block3variables"} cada `1` En segon lloc, i repetir això fins `temps`{: class = "block3variables"} és igual a `0`.
+\--- hint \---
 
-\--- / indici \--- \--- indici \--- Aquests són els blocs que necessiteu:
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 repetiu fins a < >
@@ -30,7 +38,11 @@ quan es fa clic a la bandera
 fixar [temps v] a [0]
 ```
 
-\--- / indici \--- \--- suggeriment \--- Aquí teniu el que hauria de tenir el vostre nou codi:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 quan l'indicador fa clic a
@@ -41,23 +53,27 @@ repeteix fins a <(temps) = (0)>
 final
 ```
 
-\--- / indici \--- \--- / indicacions \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- / tasca \---
 
 \--- tasca \---
 
-Crear un `emissió`{: class = "block3control"} que envia el missatge 'fi'. A `broadcast`{: class = "block3control"} és com un anunci sobre un altaveu: tots els sprites poden escoltar-lo. Afegiu-hi el `emissió`{: class = "block3control"} bloquejar al final del codi de temporitzador perquè el codi va a enviar i missatge de 'fi' quan el `temps`{: class = "block3variables"} ha comptat fins `0`.
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
-![Sprite d'etapa](images/stage-sprite.png)
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     emissió (final v)
 ```
 
-\--- / tasca \---
+\--- /task \---
 
-\--- tasca \--- Seleccioneu el vostre caràcter de sprite i afegiu un codi perquè la sprite `atura els altres scripts`{: class = "block3control"} quan rebi el missatge `end`{: class = "block3control"} .
+\--- task \---
+
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
 
 ![Giga sprite](images/giga-sprite.png)
 
@@ -66,10 +82,10 @@ Crear un `emissió`{: class = "block3control"} que envia el missatge 'fi'. A `br
     stop [altres scripts en sprite v]
 ```
 
-\--- / tasca \---
+\--- /task \---
 
-\--- tasca \---
+\--- task \---
 
-Torneu a provar el joc. Hauria de continuar fent preguntes fins que el cronòmetre hagi baixat fins a 0.
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
-\--- / tasca \---
+\--- /task \---
