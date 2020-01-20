@@ -10,7 +10,9 @@
 
 ### 你将制作
 
-\--- no-print \--- 点击按钮开始。输入答案，然后按下<kbd>回车</kbd>键
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +21,11 @@
 
 \--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -46,10 +52,14 @@
 
 ## \--- collapse \---
 
-## 题目: 教师附加说明
+## title: 教师附加说明
 
-\--- 如果您需要打印此项目，请使用[可打印版本](https://projects.raspberrypi.org/en/projects/brain-game/print)。 \--- /0 no-print \---
+\--- no-print \---
 
-你可以在这里找到 [已完成的项目](http://rpf.io/p/en/brain-game-get){:target="_blank"}。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
