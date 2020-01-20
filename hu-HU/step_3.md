@@ -1,16 +1,24 @@
 ## Idõzítõ hozzáadása
 
-\--- task \--- Hozzon létre egy visszaszámlálót a színpadon egy új, `idő`{: class = "block3variables"} változó segítségével. Az időzítőnek 30 másodpercig kell kezdődnie, és 0 másodpercre kell számítania.
+\--- task \---
 
-![Színpad sprite](images/stage-sprite.png)
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
-\--- hints \--- \--- tipp \---
+![Stage sprite](images/stage-sprite.png)
 
-Létrehozása `változó`{: class = "block3variables"}, nevezzük 'idő', és az értékét a `30`.
+\--- hints \---
 
-Ezután adjunk hozzá egy kódot `idő`számlálásához {: class = "block3variables"} 0-ra 30 másodpercen belül. Ehhez kivonjuk a `1` -et ``{: class = "block3variables"} minden `1` másodpercben, és ismételjük meg ezt `ig`ig </code> {: class = "block3variables"} egyenlő `0`.
+\--- hint \---
 
-\--- / tipp \--- \--- tipp \--- Íme a szükséges blokkok:
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 ismételje meg addig, amíg < >
@@ -30,7 +38,11 @@ amikor a zászlóra kattintott
 beállítva [idő v] - [0]
 ```
 
-\--- / tipp \--- \--- tipp \--- Itt az, amit az új kódnak kell kinéznie:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 ha a jelző
@@ -41,23 +53,27 @@ ismételve, amíg <(idő) = (0)>
 végével
 ```
 
-\--- / tipp \--- \--- / hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- / feladat \---
 
 \--- feladat \---
 
-Hozzon létre egy `sugárzást`{: class = "block3control"}, amely elküldi az üzenetet. A `sugárzás`{: class = "block3control"} olyan, mint egy hangszórón belüli bejelentés: az összes sprites hallható. Adja hozzá a `sugárzás`{: class = "block3control"} blokkot az időzítő kód végéhez, hogy a kód elküldje és a "vége" üzenet, amikor a `idő`{: class = "block3variables"} `0`.
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
-![Színpad sprite](images/stage-sprite.png)
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     sugárzás (vége v)
 ```
 
-\--- / feladat \---
+\--- /task \---
 
-\--- task \--- Válassza ki a karakterláncot, és adjon hozzá néhány kódot, hogy az `es sprite megállítsa a többi`{: class = "block3control"} parancsfájlt, amikor megkapja a `vég`{: class = "block3control"} üzenetet .
+\--- task \---
+
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
 
 ![Giga sprite](images/giga-sprite.png)
 
@@ -66,10 +82,10 @@ Hozzon létre egy `sugárzást`{: class = "block3control"}, amely elküldi az ü
     stop [más szkriptek sprite v]
 ```
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
-Tesztelje újra a játékot. Folytatni kell a kérdéseket, amíg az időzítő 0-ra nem számít.
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
-\--- / feladat \---
+\--- /task \---
