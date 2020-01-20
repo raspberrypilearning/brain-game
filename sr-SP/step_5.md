@@ -2,17 +2,21 @@
 
 Сада ћете додати 'Плаи' дугме, тако да играч може играти вашу игру много пута.
 
-\--- таск \--- Направите нови 'Плаи' дугме за играње које играч мора кликнути да би покренуо нову игру.
+\--- task \---
 
-Можете сами нацртати сприте или уредити сприте из библиотеке.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![Слика дугмета за репродукцију](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
 
-\--- /задатак \---
+![Picture of the play button](images/brain-play.png)
 
-\--- задатак \--- Додајте овај код свом дугмету:
+\--- /task \---
 
-![Буттон сприте](images/button-sprite.png)
+\--- task \---
+
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     када је флаг кликнуо
@@ -23,17 +27,19 @@
     емитовање (старт в)
 ```
 
-\--- /задатак \---
+\--- /task \---
 
-Нови код укључује још један `емитовани`{: цласс = "блоцк3евентс"} блок, који шаље поруку 'старт'.
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-Нови код чини 'Плаи' дугме сприте схов када играч кликне на заставу. Када играч кликне на дугме сприте, сприте скрива и затим емитује поруку на коју други духови могу да реагују.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-У овом тренутку, сприте ликова почиње да поставља питања када играч кликне на заставу. Промените код игре тако да Сприте знакова почне да поставља питања када прими 'старт' `емитовање`{: цласс = "блоцк3евентс"}.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- задатак \--- Одаберите свој знак и, у одјељку кода, замијените `када је заставица кликнула`{: цласс = "блоцк3евентс"} блок с `када примим старт`{: цласс = "блоцк3евентс" } блокирати.
+\--- task \---
 
-![Цхарацтер сприте](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- када је заставица кликнула
@@ -50,50 +56,54 @@
 
 \--- /задатак \---
 
-\--- задатак \---
+\--- task \---
 
-Кликните на зелену заставу, а затим кликните на ново дугме „Репродукуј“ да бисте тестирали да ли ради. Требало би да видите да игра не почиње пре него што кликнете на дугме.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+
+\--- /task \---
+
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+
+![Timer has started](images/brain-timer-bug.png)
+
+\--- task \---
+
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /задатак \---
 
-Видите ли да се тајмер покреће када се кликне на зелену заставу, а не на почетак игре?
-
-![Тимер је почео](images/brain-timer-bug.png)
-
 \--- задатак \---
 
-Можете ли промијенити код за тајмер тако да тајмер започне када играч кликне на гумб?
+Add code to your button sprite so that the button shows again at the end of each game.
 
-\--- /задатак \---
-
-\--- задатак \--- Додајте код у свој тастер за дугме тако да се тастер поново приказује на крају сваке игре.
-
-![Буттон сприте](images/button-sprite.png)
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     када добијем [крај в]
     схов
 ```
 
-\--- /задатак \---
+\--- /task \---
 
-\--- задатак \---
+\--- task \---
 
-Тестирајте 'Плаи' дугме играјући неколико игара. Дугме треба да се прикаже на крају сваке игре.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-Да бисте брже тестирали игру, можете промијенити вриједност од `тиме`{: цласс = "блоцк3вариаблес"} тако да свака игра траје само неколико секунди.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Фаза](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     подесите [тиме в] на [10]
 ```
 
-\--- /задатак \---
+\--- /task \---
 
-\--- таск \--- Можете да промените како изгледа дугме када показивач миша лебди над њим.
+\--- task \---
 
-![Буттон](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     када је заставица кликнула
@@ -107,4 +117,6 @@
     крај
 ```
 
-![сцреенсхот](images/brain-fisheye.png) \--- /задатак \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
