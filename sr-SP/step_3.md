@@ -1,16 +1,24 @@
 ## Додајте тајмер
 
-\--- таск \--- Направите тајмер одбројавања на бини уз помоћ нове варијабле назване `тиме`{: цласс = "блоцк3вариаблес"}. Тајмер треба да почне за 30 секунди и одбројава до 0 секунди.
+\--- task \---
 
-![Стаге сприте](images/stage-sprite.png)
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
-\--- хинтс \--- \--- хинт \---
+![Stage sprite](images/stage-sprite.png)
 
-Направите `варијаблу`{: цласс = "блоцк3вариаблес"}, назовите 'тиме', и поставите њену вриједност на `30`.
+\--- hints \---
 
-Затим додајте код за бројање `времена`{: цласс = "блоцк3вариаблес"} до 0 у року од 30 секунди. Да бисте то урадили, одузмите `1` од `времена`{: цласс = "блоцк3вариаблес"} сваких `1` секунди, и поновите ово до `времена`{: цласс = "блоцк3вариаблес"} једнако `0`.
+\--- hint \---
 
-\--- / хинт \--- \--- хинт \--- Ево блокова који су вам потребни:
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 понављам до < >
@@ -30,7 +38,11 @@
 сет [време в] до [0]
 ```
 
-\--- / хинт \--- \--- хинт \--- Ево како би требао изгледати ваш нови код:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 када флаг цлицкед
@@ -41,35 +53,39 @@
 краја
 ```
 
-\--- / хинт \--- \--- / хинтс \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /задатак \---
 
 \--- задатак \---
 
-Направите `броадцаст`{: цласс = "блоцк3цонтрол"} који шаље поруку 'енд'. `емитовање`{: цласс = "блоцк3цонтрол"} је као најава преко звучника: може се чути од свих ваших духова. Додајте блок `броадцаст`{: цласс = "блоцк3цонтрол"} на крај кода тајмера тако да код пошаље и "заврши" поруку када `пута`{: цласс = "блоцк3вариаблес"} одбројава до `0`.
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
-![Стаге сприте](images/stage-sprite.png)
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     емитовање (крај в)
 ```
 
-\--- /задатак \---
+\--- /task \---
 
-\--- задатак \--- Одаберите свој сприте знака и додајте неки код тако да дух `заустави друге скрипте`{: цласс = "блоцк3цонтрол"} када прими `крај`{: цласс = "блоцк3цонтрол"} поруку .
+\--- task \---
 
-![Гига сприте](images/giga-sprite.png)
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+
+![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
     када примим [крај в]
     стоп [остале скрипте у сприте в]
 ```
 
-\--- /задатак \---
+\--- /task \---
 
-\--- задатак \---
+\--- task \---
 
-Поново тестирајте игру. Требало би да настави да поставља питања док тајмер не одброји до 0.
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
-\--- /задатак \---
+\--- /task \---
