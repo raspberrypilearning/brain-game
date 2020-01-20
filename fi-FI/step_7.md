@@ -54,29 +54,33 @@ Nyt voit käyttää näitä viestejä `osoittamaan`{: class = "block3looks"} "ti
 
 \--- / tehtävä \---
 
-\--- task \--- Testaa peliä uudelleen. Sinun pitäisi nähdä rasti aina, kun vastaat kysymykseen oikein, ja risti aina, kun vastaat väärin!
+\--- task \---
 
-![Merkitse oikea, risti väärää vastausta varten](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
 
-\--- / tehtävä \---
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
-Näetkö, että koodi `kun saan oikean`{: class = "block3events"} ja `kun saan väärän`{: class = "block3events"} on lähes identtinen?
+\--- /task \---
 
-Voit siis muuttaa koodiasi helpommin, luodaan mukautetun lohkon.
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-\--- tehtävä \---
+So you can change your code more easily, you are going to create a custom block.
 
-Valitse 'Tulos' sprite. Napsauta sitten `My Blocks`{: class = "block3myblocks"} ja sitten **Tee lohko**. Luo uusi lohko ja kutsu se `animoi`{: class = "block3myblocks"}.
+\--- task \---
 
-![Tulos sprite](images/result-sprite.png)
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![Luo animaattiseksi kutsuttu lohko](images/brain-animate-function.png)
+![Result sprite](images/result-sprite.png)
 
-\--- / tehtävä \---
+![Create a block called animate](images/brain-animate-function.png)
 
-\--- tehtävä \--- Siirrä koodi `esitykseen`{: class = "block3looks"} ja `piilota`{: class = "block3looks"} 'tuloksen' sprite `animate`{: class = " block3myblocks "} lohko:
+\--- /task \---
 
-![Tulos sprite](images/result-sprite.png)
+\--- task \---
+
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 määritellä animate
@@ -85,13 +89,15 @@ odota (1) sekuntia
 piilota
 ```
 
-\--- / tehtävä \---
+\--- /task \---
 
-\--- tehtävä \--- Varmista, että olet poistanut `näyttää`{: class = "block3looks"} ja `piilota`{: class = "block3looks"} lohkojen alle **sekä** ja `kytkimen puku`{: class = "block3looks"} lohkot.
+\--- task \---
 
-Lisää sitten `animate`{: class = "block3myblocks"} lohko molempien `kytkinpuvun`{: class = "block3looks"} lohkojen alle. Koodisi pitäisi nyt näyttää tältä:
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![Tulos sprite](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     kun saan [oikea v]
@@ -103,19 +109,21 @@ Lisää sitten `animate`{: class = "block3myblocks"} lohko molempien `kytkinpuvu
     animate :: custom
 ```
 
+\--- /task \---
+
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+
+\--- task \---
+
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+
 \--- / tehtävä \---
 
-Custom `animate`{: class = "block3myblocks"} -lohkon takia sinun on nyt tehtävä vain yksi muutos koodiin, jos haluat näyttää tuloksen sprite-puvut pidempään tai lyhyempään aikaan.
+\--- task \---
 
-\--- tehtävä \---
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
 
-Muuta koodia niin, että "rasti" tai "rajat" puvut näkyvät 2 sekunnin ajan.
-
-\--- / tehtävä \---
-
-\--- tehtävä \--- Sen sijaan, että `näyttää`{: class = "block3looks"} ja `piiloutua`{: class = "block3looks"}, voit valita `animate`{: class = "block3myblocks"} lohko niin, että puvut haalistuvat.
-
-![Tulos sprite](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     määritä animaatio
@@ -127,8 +135,8 @@ Muuta koodia niin, että "rasti" tai "rajat" puvut näkyvät 2 sekunnin ajan.
     piilota
 ```
 
-\--- / tehtävä \---
+\--- /task \---
 
-Voisitko parantaa "tick" - tai "cross" -grafiikan animaatiota? Voit lisätä koodin, jotta puvut häviävät, tai voit käyttää muita viileitä vaikutuksia:
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
-![kuvakaappaus](images/brain-effects.png)
+![screenshot](images/brain-effects.png)
