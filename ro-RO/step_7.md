@@ -54,29 +54,33 @@ Acum puteți utiliza aceste mesaje de la `show -`{: class = „block3looks“} �
 
 \--- /task \---
 
-\--- task \--- Testați-vă din nou jocul. Ar trebui să vedeți bifarea ori de câte ori răspundeți la o întrebare corectă și crucea ori de câte ori răspundeți incorect!
+\--- task \---
 
-![Bifați pentru corect, cruce pentru răspuns greșit](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
 \--- /task \---
 
-Puteți vedea că codul pentru `când primesc corect`{: class = "block3events"} și `când primesc greșit`{: class = "block3events"} este aproape identic?
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-Deci, puteți schimba codul mai ușor, veți crea un bloc personalizat.
+So you can change your code more easily, you are going to create a custom block.
 
 \--- task \---
 
-Selectați sprite "Rezultat". Apoi faceți clic pe `My Blocks`{: class = "block3myblocks"}, apoi pe **Faceți un bloc**. Creați un nou bloc și apelați-l `animați`{: class = "block3myblocks"}.
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![Sprite rezultat](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
-![Creați un bloc numit animați](images/brain-animate-function.png)
+![Create a block called animate](images/brain-animate-function.png)
 
 \--- /task \---
 
-\--- sarcina \--- mutați codul la `arată`{: class = "block3looks"} și `ascunde`{: class = "block3looks"} "Sprite rezultat" în `animate`{: class = bloc3myblocks "} bloc:
+\--- task \---
 
-![Sprite rezultat](images/result-sprite.png)
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 defini animat
@@ -87,11 +91,13 @@ ascunde
 
 \--- /task \---
 
-\--- Sarcina \--- Asigurați - vă că ați scos `afișează`{: class = "block3looks"} și `ascunde`{: class = "block3looks"} blocuri de mai jos , **ambele** din `costumului comutator`{: class = "block3looks"} blocuri.
+\--- task \---
 
-Apoi adăugați blocul `animat`{: class = "block3myblocks"} deasupra ambelor blocuri de `comutatoare de costum`{: class = "block3looks"}. Codul dvs. ar trebui să arate astfel:
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![Sprite rezultat](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     când primesc costumul de schimb [corect v]
@@ -105,17 +111,19 @@ Apoi adăugați blocul `animat`{: class = "block3myblocks"} deasupra ambelor blo
 
 \--- /task \---
 
-Din cauza blocului personalizat `animate`{: class = "block3myblocks"}, acum trebuie doar să faceți o schimbare a codului dvs. dacă doriți să afișați costumele Sprite "Rezultat" un timp mai lung sau mai scurt.
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
 
 \--- task \---
 
-Modificați codul astfel încât costumele "bifați" sau "încrucișați" să fie afișate timp de 2 secunde.
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
 \--- /task \---
 
-\--- Sarcina \--- În loc de `prezentând`{: class = "block3looks"} și `ascund`{: class = "block3looks"} 'capusei' sau costumele 'cruce', ai putea schimba `insufletit`{block: block3myblocks}}, astfel încât costumele să se estompeze.
+\--- task \---
 
-![Sprite rezultat](images/result-sprite.png)
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     defineste animat
@@ -129,6 +137,6 @@ Modificați codul astfel încât costumele "bifați" sau "încrucișați" să fi
 
 \--- /task \---
 
-Puteți îmbunătăți animația graficei "tick" sau "cross"? Puteți adăuga codul pentru a face costumele să se estompeze, de asemenea, sau puteți utiliza alte efecte interesante:
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
-![captură de ecran](images/brain-effects.png)
+![screenshot](images/brain-effects.png)
