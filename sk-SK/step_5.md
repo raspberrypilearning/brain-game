@@ -2,15 +2,19 @@
 
 Teraz pridáte tlačidlo "Prehrať", aby hráč mohol hrať vašu hru veľa krát.
 
-\--- task \--- Vytvorenie nového tlačidla "Play", ktoré musí hráč kliknúť, aby spustil novú hru.
+\--- task \---
 
-Môžete nakresliť sprite sami alebo upraviť sprite z knižnice.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![Obrázok tlačidla prehrávania](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
 
-\--- / úloha \---
+![Picture of the play button](images/brain-play.png)
 
-\--- task \--- Pridajte tento kód do vášho tlačidla sprite:
+\--- /task \---
+
+\--- task \---
+
+Add this code to your button sprite:
 
 ![Button sprite](images/button-sprite.png)
 
@@ -23,17 +27,19 @@ Môžete nakresliť sprite sami alebo upraviť sprite z knižnice.
     vysielanie (štart v)
 ```
 
-\--- / úloha \---
+\--- /task \---
 
-Nový kód obsahuje ďalší blok `vysielania`{: class = "block3events"}, ktorý odošle správu "štart".
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-Nový kód spôsobí, že tlačidlo Play (Hra) sa zobrazuje, keď hráč klikne na príznak. Keď hráč klikne na tlačidlo Sprite, skript sa skryje a potom vysiela správu, na ktorú môžu reagovať iné scény.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-V súčasnej dobe spriahnutá postava začína klásť otázky, keď hráč klikne na príznak. Zmeňte kód svojej hry tak, aby spriaty znak začal klásť otázky, keď dostane vysielanie "štart" ``{: class = "block3events"}.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- úloha \--- Zvoľte svoj znakový sprite a v jeho sekcii kód nahraďte `keď klepnete na blok`{: class = "block3events"} a `pri prijatí štartu`{: class = "block3events" } blok.
+\--- task \---
 
-![Sprite znakov](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- ak príznak ukážete
@@ -50,23 +56,25 @@ koniec
 
 \--- / úloha \---
 
-\--- úloha \---
+\--- task \---
 
-Kliknite na zelenú vlajku a potom kliknite na nové tlačidlo "Prehrať" a otestujte, či to funguje. Mali by ste vidieť, že hra sa nespustí predtým, ako kliknete na tlačidlo.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+
+\--- /task \---
+
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+
+![Timer has started](images/brain-timer-bug.png)
+
+\--- task \---
+
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- / úloha \---
 
-Vidíte, že časovač sa spúšťa po kliknutí na zelenú vlajku namiesto toho, kedy sa začne hra?
-
-![Časovač začal](images/brain-timer-bug.png)
-
 \--- úloha \---
 
-Môžete zmeniť kód časovača tak, aby sa časovač spustil, keď hráč klikne na tlačidlo?
-
-\--- / úloha \---
-
-\--- task \--- Pridajte kód do vášho tlačidla Sprite tak, aby sa tlačidlo znovu zobrazilo na konci každej hry.
+Add code to your button sprite so that the button shows again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
@@ -75,25 +83,27 @@ Môžete zmeniť kód časovača tak, aby sa časovač spustil, keď hráč klik
     show
 ```
 
-\--- / úloha \---
+\--- /task \---
 
-\--- úloha \---
+\--- task \---
 
-Otestujte tlačidlo "Play" tak, že budete hrať pár hier. Tlačidlo by sa malo zobraziť na konci každej hry.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-Ak chcete hru otestovať rýchlejšie, môžete zmeniť hodnotu `času`{: class = "block3variables"} tak, aby každá hra mala iba niekoľko sekúnd.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![štádium](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     nastavte čas [v] na [10]
 ```
 
-\--- / úloha \---
+\--- /task \---
 
-\--- task \--- Môžete zmeniť spôsob, akým tlačidlo vyzerá, keď sa nad ním pohybuje ukazovateľ myši.
+\--- task \---
 
-![gombík](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     keď vlajka klikne
@@ -107,4 +117,6 @@ Ak chcete hru otestovať rýchlejšie, môžete zmeniť hodnotu `času`{: class 
     koniec
 ```
 
-![screenshot](images/brain-fisheye.png) \--- / úloha \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
