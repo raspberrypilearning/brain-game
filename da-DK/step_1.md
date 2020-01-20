@@ -10,16 +10,22 @@ I dette projekt opretter du et matematisk quiz-spil, hvor spilleren har 30 sekun
 
 ### Hvad du vil lave
 
-\--- no-print \--- Klik på knappen for at starte. Indtast svaret på spørgsmålet, og tryk derefter på <kbd>Enter</kbd> tasten.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
-\--- kun print \--- ![Brain Game](images/brain-final.png) \--- / kun print
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -48,7 +54,11 @@ I dette projekt opretter du et matematisk quiz-spil, hvor spilleren har 30 sekun
 
 ## titel: Yderligere noter til undervisere
 
-\--- no-print \--- Hvis du har brug for at udskrive dette projekt, skal du bruge den [printervenlige version](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- / no-print \---
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
