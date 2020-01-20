@@ -1,16 +1,24 @@
 ## टाइमर जोड़ें
 
-\--- task \--- `समय`{:class="block3variables"} नाम के एक नये चर की मदद से स्टेज पर एक उलटी गिनती वाला टाइमर बनाएं। टाइमर 30 सेकंड से शुरू होना चाहिए और 0 सेकंड तक गिना जाना चाहिए।
+\--- task \---
 
-![स्टेज स्प्राइट](images/stage-sprite.png)
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
-\--- hints \--- \--- hint \---
+![Stage sprite](images/stage-sprite.png)
 
-एक ` चर ` {"class =" block3variables "} बनाएं, इसे 'समय' नाम दें, और इसका मान ` 30 ` निर्धारित करें।
+\--- hints \---
 
-फिर 30 सेकंड के अंदर ` समय ` {:class="block3variables"} को 0 तक गिनने का कोड जोड़ें। ऐसा करने के लिए, हर `1` सेकंड में ` समय ` {:class="block3variables"} में से `1` घटाएँ, और इसे तब तक दोहराएं जब तक ` समय `{:class="block3variables"} `0` के बराबर नही हो जाता।
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- ये है वो ब्लॉक जिसकी आपको आवश्यकता है:
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 दोहराते रहें जब तक < >
@@ -30,7 +38,11 @@
 [समय v] को [0] स्थिर करें
 ```
 
-\--- /hint \--- \--- hint \--- यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 जब ध्वज पर क्लिक किया
@@ -41,15 +53,17 @@
 अंत
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-एक ` प्रसारित करें ` {:class="block3control"} बनायें जो 'अंत' संदेश भेजता है। `प्रसारित करें`{:class="block3control"} एक लाउड्स्पीकर पर घोषणा की तरह है: यह आपके सभी स्प्राइट्स द्वारा सुना जा सकता है। `प्रसारित करें`{:class="block3control"} ब्लाक टाइमर कोड के अंत में जोड़ें ताकि जब `समय`{:class="block3variables"} `0` तक गिना जा चुका हो तब कोड एक 'अंत' संदेश भेजेगा।
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
-![स्टेज स्प्राइट](images/stage-sprite.png)
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     प्रसारित करें (अंत v)
@@ -57,9 +71,11 @@
 
 \--- /task \---
 
-\--- task \--- अपना पात्र स्प्राइट का चयन करें और कुछ कोड जोड़ें ताकि जब स्प्राइट को `अंत`{:class="block3control"} संदेश मिले तब वो `अन्य स्प्राइट्स को रोकता है`{:class="block3control"}
+\--- task \---
 
-![गीगा स्प्राइट](images/giga-sprite.png)
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+
+![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
     जब मुझे [अंत v] मिलता है
@@ -70,6 +86,6 @@
 
 \--- task \---
 
-अपने खेल का फिर से परीक्षण करें। जब तक टाइमर 0 तक नहीं गिना जाता है तब तक यह सवाल पूछना जारी रखना चाहिए।
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
 \--- /task \---
