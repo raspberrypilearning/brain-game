@@ -14,23 +14,31 @@ Jos haluat ladata ja asentaa Scratch offline -editorin, löydät sen osoitteesta
 
 \--- / tehtävä \---
 
-\--- tehtävä \--- Lisää hahmo-sprite ja taustan peliin. Voit valita haluamasi! Tässä esimerkki:
+\--- task \---
 
-![kuvakaappaus](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
-\--- / tehtävä \---
+![screenshot](images/brain-setting.png)
 
-\--- tehtävä \--- Varmista, että olet valinnut hahmon sprite. Luo kaksi uutta muuttujaa, joita kutsutaan nimellä `numero 1`{: class = "block3variables"} ja `numero 2`{: class = "block3variables"}, tallentaa tietokilpailujen numerot.
+\--- /task \---
 
-![kuvakaappaus](images/giga-sprite.png) ![kuvakaappaus](images/brain-variables.png)
+\--- task \---
+
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- / tehtävä \---
 
-\--- tehtävä \--- Lisää koodin hahmosi sprite-asetukseen asettamaan molemmat `muuttujaa`{: class = "block3variables"} `satunnaiseksi`{: class = "block3operators"} numeroksi 2 - 12.
+\--- task \---
 
-![kuvakaappaus](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 kun lippu napsautti
@@ -38,11 +46,13 @@ asettaa [numero 1 v] (valitse satunnainen (2) - (12))
 aseta [numero 2 v] (valitse satunnainen (2) - (12))
 ```
 
-\--- / tehtävä \---
+\--- /task \---
 
-\--- tehtävä \--- Lisää koodi `kyselyyn`{: class = "block3sensing"} soittimeen vastausta varten ja sitten `sanoa 2 sekunnin ajan`{: class = "block3looks"} onko vastaus oikea vai väärä:
+\--- task \---
 
-![kuvakaappaus](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 kun lippu napsautti
@@ -57,30 +67,40 @@ aseta [numero 2 v] (valitse satunnainen (2) - (12))
 + loppuun
 ```
 
-\--- / tehtävä \---
+\--- /task \---
 
-\--- tehtävä \---
+\--- task \---
 
-Testaa projekti kahdesti: vastaa yhteen kysymykseen oikein ja toinen väärin.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
-\--- / tehtävä \---
+\--- /task \---
 
-\--- tehtävä \---
+\--- task \---
 
-Lisää tämän koodin ympärille `ikuisesti`{: class = "block3control"}, niin että peli kysyy soittimelta paljon kysymyksiä peräkkäin.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- vinkkejä \--- \--- vihje \---
+\--- hints \---
 
-Sinun täytyy lisätä `ikuisesti`{: class = "block3control"} lohko ja aseta kaikki koodi paitsi `kun lippu napsautti`{: class = "block3control"} lohkon siihen.
+\--- hint \---
 
-\--- / vihje \--- \--- vihje \--- Tässä on lohko, jota tarvitset:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 ikuisesti
 loppuun
 ```
 
-\--- / vihje \--- \--- vihje \--- Tässä on, mitä koodisi näyttää:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 kun lippu napsautti
@@ -97,6 +117,8 @@ kun lippu napsautti
 loppuun
 ```
 
-\--- / vihje \--- \--- / vihjeitä \---
+\--- /hint \---
 
-\--- / tehtävä \---
+\--- /hints \---
+
+\--- /task \---
