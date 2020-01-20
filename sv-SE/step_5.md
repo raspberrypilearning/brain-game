@@ -2,17 +2,21 @@
 
 Nu ska du lägga till en "Play" -knapp så att spelaren kan spela ditt spel många gånger.
 
-\--- uppgift \--- Skapa en ny "Play" -knappsprite som spelaren behöver klicka för att starta ett nytt spel.
+\--- task \---
 
-Du kan rita spritet själv eller redigera en sprite från biblioteket.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![Bild på spelknappen](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
 
-\--- / uppgift \---
+![Picture of the play button](images/brain-play.png)
 
-\--- uppgift \--- Lägg till den här koden till din knapp sprite:
+\--- /task \---
 
-![Button Sprite](images/button-sprite.png)
+\--- task \---
+
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     när flaggan klickade
@@ -23,17 +27,19 @@ Du kan rita spritet själv eller redigera en sprite från biblioteket.
     broadcast (start v)
 ```
 
-\--- / uppgift \---
+\--- /task \---
 
-Den nya koden innehåller ett annat `sändningsblock`{: class = "block3events"} som skickar meddelandet "start".
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-Den nya koden gör spelshowen "Play" när när spelaren klickar på flaggan. När spelaren klickar på knappspriten, skjuter sprite och sänder sedan ett meddelande som andra sprites kan reagera på.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-För tillfället börjar teckensprayen ställa frågor när spelaren klickar på flaggan. Ändra ditt spelets kod så att charactersprite börjar ställa frågor när den tar emot "start" `sändningen`{: class = "block3events"}.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- uppgift \--- Välj din karaktärsprite och ersätt `när flaggan klickar`{: class = "block3events"} blockera med en `när jag får start`{: class = "block3events" } block.
+\--- task \---
 
-![Karaktärsprite](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- när flaggan klickade
@@ -50,50 +56,54 @@ slutet
 
 \--- / uppgift \---
 
-\--- uppgift \---
+\--- task \---
 
-Klicka på den gröna flaggan och klicka sedan på den nya "Play" -knappen för att testa om det fungerar. Du bör se att spelet inte startar innan du klickar på knappen.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+
+\--- /task \---
+
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+
+![Timer has started](images/brain-timer-bug.png)
+
+\--- task \---
+
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- / uppgift \---
 
-Kan du se att timern börjar när den gröna flaggan klickas, istället för när spelet börjar?
-
-![Timern har startat](images/brain-timer-bug.png)
-
 \--- uppgift \---
 
-Kan du ändra koden för timern så att timern börjar när spelaren klickar på knappen?
+Add code to your button sprite so that the button shows again at the end of each game.
 
-\--- / uppgift \---
-
-\--- uppgift \--- Lägg till kod till din knappsprid så att knappen visar igen i slutet av varje spel.
-
-![Button Sprite](images/button-sprite.png)
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     när jag får [end v]
     show
 ```
 
-\--- / uppgift \---
+\--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
-Testa "Spela" -knappen genom att spela ett par spel. Knappen ska visas i slutet av varje spel.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-För att testa spelet snabbare kan du ändra värdet på `time`{: class = "block3variables"} så att varje spel är bara några sekunder lång.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Skede](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     sätt [tid v] till [10]
 ```
 
-\--- / uppgift \---
+\--- /task \---
 
-\--- uppgift \--- Du kan ändra hur knappen ser ut när muspekaren svänger över den.
+\--- task \---
 
-![Knapp](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     när flaggan klickade
@@ -107,4 +117,6 @@ För att testa spelet snabbare kan du ändra värdet på `time`{: class = "block
     slutet
 ```
 
-![skärmdump](images/brain-fisheye.png) \--- / uppgift \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
