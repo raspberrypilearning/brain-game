@@ -1,16 +1,24 @@
 ## Ychwanegu Amserydd
 
-\--- task \--- Byddwn yn creu amserydd ar y Llwyfan gyda chymorth newidyn newydd i'r enw `amser`{:class="block3variables"}. Fe ddylai'r amserydd gychwyn ar 30 eiliad a chyfrif lawr i 0 eiliad.
+\--- task \---
 
-![Corlun llwyfan](images/stage-sprite.png)
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
-\--- hints \--- \--- hint \---
+![Stage sprite](images/stage-sprite.png)
 
-Creu `newidyn`{:class="block3variables"}, ei alw'n 'amser', a gosod ei werth i `30`.
+\--- hints \---
 
-Yna ychwanegu côd i gyfrif `amser`{:class="block3variables"} lawr i 0 o 30 eiliad. I wneud hyn, bydd angen tynnu `1` o `amser`{:class="block3variables"} bob `1` eiliad, ac ail-adrodd hyn tan bod `a,ser`{:class="block3variables"} yn cyfateb â `0`.
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- Dyma'r blociau rwyt ti eu hangen:
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 ailadrodd hyd at <>
@@ -29,7 +37,11 @@ pan fo'r flag werdd yn cael ei glicio
 gosod [amser v] i [0]
 ```
 
-\--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -40,15 +52,17 @@ ailadrodd hyd at <(amser) = (0)>
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Creu `darllediad`{:class="block3control"} sy'n anfon y neges 'diwedd'. Mae `darllediad`{:class="block3control"} fel cyhoeddiad dros uchelseinydd: mae modd i bob corlun ei glywed. Ychwanega'r bloc `darllediad`{:class="block3control"} i ddiwedd côd dy amserydd fel bod y côd yn anfon neges 'diwedd' pan fod yr `amser`{:class="block3variables"} yn cyrraedd `0`.
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
-![Corlun llwyfan](images/stage-sprite.png)
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     darlledu (end v)
@@ -56,9 +70,11 @@ Creu `darllediad`{:class="block3control"} sy'n anfon y neges 'diwedd'. Mae `darl
 
 \--- /task \---
 
-\--- task \--- Dewisa dy gymeriad ac ychwanega gôd fel bod y corlun yn `stopio sgriptiau eraill` {:class="block3control"} pan mae'n derbyn y neges `diwedd`{:class="block3control"}.
+\--- task \---
 
-![Corlun giga](images/giga-sprite.png)
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+
+![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
     pan rwy'n derbyn [end v]
@@ -69,6 +85,6 @@ aros [other scripts in sprite v]
 
 \--- task \---
 
-Profa dy gêm eto. Fe ddylai barhau i ofyn cwestiynau tan bod yr amserydd yn cyfrif lawr i 0.
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
 \--- /task \---
