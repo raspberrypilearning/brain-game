@@ -1,16 +1,24 @@
 ## Añadir un cronómetro
 
-\--- task \--- Crea un cronómetro para una cuenta atrás en el Escenario con la ayuda de una nueva variable llamada `tiempo`{:class="block3variables"}. El cronómetro debería empezar en 30 segundos y hacer una cuenta atrás hasta 0.
+\--- task \---
 
-![Objeto de escenario](images/stage-sprite.png)
+Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
 
-\--- hints \--- \--- hint \---
+![Stage sprite](images/stage-sprite.png)
 
-Crea una `variable`{:class="block3variables"}, llámala "tiempo" y dale el valor `30`.
+\--- hints \---
 
-Después añade código para hacer que el valor de `tiempo`{:class="block3variables"} decrezca hasta 0 en 30 segundos. Para hacerlo, réstale `1` a `tiempo`{:class="block3variables"} cada `1` segundo. Repítelo hasta que `tiempo`{:class="block3variables"} sea igual a `0`.
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- Necesitarás estos bloques:
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+
+Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ```blocks3
 repetir hasta que < >
@@ -30,7 +38,11 @@ al hacer clic en la bandera verde
 dar a [tiempo v] el valor [0]
 ```
 
-\--- /hint \--- \--- hint \--- El código debería quedar así ahora:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the what your new code should look like:
 
 ```blocks3
 al hacer clic en la bandera verde
@@ -41,15 +53,17 @@ repetir hasta que <(tiempo) = (0)>
 fin
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Crea una `transmisión`{:class="block3control"} que envíe el mensaje "terminar". Utiliza el bloque <0>enviar</0>{:class="block3events"} para enviar transmisiones. Una `transmisión`{:class="block3control"} es como un anuncio que se hace con un altavoz: todos los objetos lo pueden escuchar. Añade el bloque `enviar`{:class="block3control"} al final del código del cronómetro para que el código envíe el mensaje "terminar" cuando el `tiempo`{:class="block3variables"} llegue a `0`.
+Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
-![Objeto de escenario](images/stage-sprite.png)
+![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
     enviar (terminar v)
@@ -57,9 +71,11 @@ Crea una `transmisión`{:class="block3control"} que envíe el mensaje "terminar"
 
 \--- /task \---
 
-\--- task \--- Selecciona tu objeto de personaje y añade código para que el objeto `detenga los otros programas`{:class="block3control"} cuando reciba el mensaje `terminar`{:class="block3control"}.
+\--- task \---
 
-![Objeto de Giga](images/giga-sprite.png)
+Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+
+![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
     al recibir [terminar v]
@@ -70,6 +86,6 @@ Crea una `transmisión`{:class="block3control"} que envíe el mensaje "terminar"
 
 \--- task \---
 
-Prueba tu juego otra vez. Debería hacer preguntas hasta que el cronómetro llegue a 0.
+Test your game again. It should continue to ask questions until the timer has counted down to 0.
 
 \--- /task \---
