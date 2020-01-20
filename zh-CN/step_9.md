@@ -5,11 +5,11 @@
 要做此更改，您只需更改计时器代码。您可以看出哪些模块需要不同吗？
 
 ```blocks3
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) seconds
-        change [time v] by (-1)
+    当接收到 [start v]
+    将 [时间 v] 设为 (30)
+    重复执行直到 <(时间) = [0]>
+        等待 (1) 秒
+        将 [时间 v] 增加 (-1)
     end
-    broadcast (end v)
+    广播 (结束 v)
 ```
