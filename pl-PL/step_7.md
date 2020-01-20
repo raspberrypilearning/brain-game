@@ -53,29 +53,33 @@ Teraz możesz użyć tych komunikatów do `pokazania`{:class="block3looks"} kost
 
 \--- /task \---
 
-\--- task \--- Ponownie przetestuj grę. Gdy odpowiesz poprawnie na pytanie, powinien się pokazaż „ptaszek” i „krzyżyk”, gdy odpowiesz źle!
+\--- task \---
 
-![Zaznaczony dla poprawnej, krzyżyk dla złej odpowiedzi](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
 \--- /task \---
 
-Czy widzisz, że kod `kiedy otrzymam [dobrze]`{:class="block3events"} i `kiedy otrzymam [źle]`{:class="block3events"} jest prawie identyczny?
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-Utwórz własny blok, aby uprościć swój kod.
+So you can change your code more easily, you are going to create a custom block.
 
 \--- task \---
 
-Wybierz duszka "Wynik". Następnie kliknij `Moje bloki`{:class="block3myblocks"}, a następnie **Utwórz blok**. Utwórz nowy blok i nazwij go `animacja`{:class="block3myblocks"}.
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![Duszek wyniku](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
-![Utwórz blok o nazwie animacja](images/brain-animate-function.png)
+![Create a block called animate](images/brain-animate-function.png)
 
 \--- /task \---
 
-\--- task \--- Przenieś kod, który `pokazuje`{:class="block3looks"} i `ukrywa`{:class="block3looks"} duszka „Wynik” do bloku `animacja`{:class="block3myblocks"}:
+\--- task \---
 
-![Duszek wyniku](images/result-sprite.png)
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 definiuj animacja
@@ -86,11 +90,13 @@ ukryj
 
 \--- /task \---
 
-\--- task \--- Upewnij się, że usunąłeś bloki `pokaż`{:class="block3looks"} i `ukryj`{:class="block3looks"} poniżej **obu** bloków `zmiany kostiumu`{:class="block3looks"}.
+\--- task \---
 
-Następnie dodaj blok `animacja`{:class="block3myblocks"} poniżej obu bloków `zmiany kostiumu`{:class="block3looks"}. Twój kod powinien wyglądać teraz tak:
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![Duszek wyniku](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     
@@ -105,17 +111,19 @@ animacja:: własna
 
 \--- /task \---
 
-Dzięki niestandardowemu blokowi `animacja`{:class="block3myblocks} do zmiany czasu przez jaki wyświetlany będzie kostium duszka „Wynik” wystarczy tylko pojedyncza zmiany w kodzie.
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
 
 \--- task \---
 
-Zmień swój kod, tak aby wyświetlał kostiumy „zaznaczony” lub „krzyżyk” przez 2 sekundy.
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
 \--- /task \---
 
-\--- task \--- Zamiast `pokazywania`{:class="block3looks"} i `ukrywania`{:class="block3looks"} kostiumów „zaznacz” lub „krzyżyk”, możesz zmienić `animacji`{:class="block3myblocks"}, aby kostiumy znikały.
+\--- task \---
 
-![Duszek wyniku](images/result-sprite.png)
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     definiuj animacja
@@ -129,6 +137,6 @@ Zmień swój kod, tak aby wyświetlał kostiumy „zaznaczony” lub „krzyżyk
 
 \--- /task \---
 
-Czy jesteś w stanie poprawić animację grafiki „zaznaczony” lub „krzyżyk”? Spróbuj dodać kod, dzięki któremu kostiumy również zanikały, albo wypróbuj inne fajne efekty:
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
-![zrzut ekranu](images/brain-effects.png)
+![screenshot](images/brain-effects.png)
