@@ -54,29 +54,33 @@
 
 \--- /وظیفه \---
 
-\--- وظیفه \--- تست بازی خود را دوباره. شما باید هر زمان که به سؤال صحیح پاسخ می دهید، تیک بزنید و هر زمان صحیح جواب می دهید، صلیب را ببینید!
+\--- task \---
 
-![برای صحیح، صلیب برای پاسخ اشتباه تایپ کنید](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
 
-\--- /وظیفه \---
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
-آیا می توانم ببینم که کد `برای دریافت صحیح`{: class = "block3events"} و `وقتی اشتباه دریافت میکنم`{: class = "block3events"} تقریبا یکسان است؟
+\--- /task \---
 
-بنابراین شما می توانید کد خود را به راحتی تغییر دهید، شما می خواهید یک بلوک سفارشی ایجاد کنید.
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-\--- وظیفه \---
+So you can change your code more easily, you are going to create a custom block.
 
-فیلد 'نتیجه' را انتخاب کنید. سپس بر روی `My Blocks`{: class = "block3myblocks"} کلیک کنید و سپس روی **Make Block**. یک بلوک جدید ایجاد کنید و آن را `الهام بگیرید`{: class = "block3myblocks"}.
+\--- task \---
 
-![نتیجه جستجو](images/result-sprite.png)
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![ایجاد یک بلوک به نام ناامیدی](images/brain-animate-function.png)
+![Result sprite](images/result-sprite.png)
 
-\--- /وظیفه \---
+![Create a block called animate](images/brain-animate-function.png)
 
-\--- وظیفه \--- کد را به `نمایش دهید`{: class = "block3looks"} و `پنهان`{: class = "block3looks"} جریحه "نتیجه" را به `تحریک`{: class = " block3myblocks "} بلوک:
+\--- /task \---
 
-![نتیجه جستجو](images/result-sprite.png)
+\--- task \---
+
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 تعریف کردن
@@ -85,13 +89,15 @@
 پنهان کردن
 ```
 
-\--- /وظیفه \---
+\--- /task \---
 
-\--- وظیفه \--- اطمینان حاصل کنید که شما `نمایش`{: class = "block3looks"} را حذف کرده اید و `پنهان`{: class = "block3looks"} بلوک زیر **هر دو** از `لباس سوئیچ`{: class = "block3looks"} بلوک.
+\--- task \---
 
-سپس بلوک `متحرک`{: class = "block3myblocks"} را زیر هر کدام از بلوک های `switch costume`{: class = "block3looks"} اضافه کنید. کد شما اکنون باید اینگونه باشد:
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![نتیجه جستجو](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     هنگامی که من دریافت می کنم [صحیح v]
@@ -103,19 +109,21 @@
     تحریک و تشجیع :: سفارشی
 ```
 
+\--- /task \---
+
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+
+\--- task \---
+
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+
 \--- /وظیفه \---
 
-به دلیل اینکه سفارشی `متحرک`{: class = "block3myblocks"} بلوکه شده است، اکنون فقط باید یک تغییر در کد خود داشته باشید، اگر میخواهید لباسهای "Result" sprite را مدت زمان طولانی یا کوتاهتر نشان دهید.
+\--- task \---
 
-\--- وظیفه \---
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
 
-کد خود را تغییر دهید تا لباسهای "تیک" یا "کراس" برای 2 ثانیه نمایش داده شود.
-
-\--- /وظیفه \---
-
-\--- کار \--- به جای `نشان دادن`{: کلاس = "block3looks"} و `پنهان`{: کلاس = "block3looks"} که "تیک تیک" یا لباس 'متقابل'، شما می توانید خود را تغییر دهید `تحریک و تشجیع`{: class = "block3myblocks"} بلوک کردن به طوری که لباس ها از بین می روند.
-
-![نتیجه جستجو](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     تعریف تعریف
@@ -127,8 +135,8 @@
     پنهان
 ```
 
-\--- /وظیفه \---
+\--- /task \---
 
-آیا می توانید انیمیشن گرافیک "تیک" یا "متقابل" را بهبود بخشید؟ شما می توانید کد را اضافه کنید تا لباس ها هم محو شوند و یا می توانید از سایر ویژگی های خنک استفاده کنید:
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
-![تصویری](images/brain-effects.png)
+![screenshot](images/brain-effects.png)
