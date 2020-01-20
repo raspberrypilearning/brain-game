@@ -14,23 +14,31 @@ Se precisares de descarregar e instalar o editor offline do Scratch, podes encon
 
 \--- /task \---
 
-\---- task \---- Adiciona um actor e um cenário ao teu jogo. Podes escolher os que quiseres! Aqui está um exemplo:
+\--- task \---
 
-![captura de ecrã](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+
+![screenshot](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- Certifica-te de que tens o teu actor selecionado. Cria duas novas variáveis, chamadas `number 1`{:class="block3variáveis"} e `number 2`{:class="block3variable"}, para armazenar os números para as perguntas do teste.
+\--- task \---
 
-![captura de ecrã](images/giga-sprite.png) ![captura de ecrã](images/brain-variables.png)
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-\--- task \--- Adiciona código ao teu actor para alterar ambas as `variáveis`{:class="block3variables"} para um `valor ao acaso`{:class="block3operators"} entre 2 e 12.
+\--- task \---
 
-![captura de ecrã](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -40,9 +48,11 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- /task \---
 
-\--- task\--- Adiciona código para `perguntar`{:class="block3sensing"} ao jogador a resposta, e depois `diz por 2 segundos`{:class="block3looks"} se a resposta estava certa ou errada:
+\--- task \---
 
-![captura de ecrã](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -61,26 +71,36 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Testa o teu projeto duas vezes: responde uma pergunta corretamente, e a outra incorretamente.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
 \--- /task \---
 
 \--- task \---
 
-Adiciona um ciclo `repete para sempre`{:class="block3control"} a este código, para que o jogo pergunte muitas questões seguidas ao jogador.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- hints \--- \--- hint \---
+\--- hints \---
 
-Precisas adicionar um bloco `repete para sempre`{:class="block3control"} e colocar todo o código, exceto o bloco `quando alguém clicar na bandeira`{:class="block3control"}, dentro dele.
+\--- hint \---
 
-\--- / hint \--- \--- hint \--- Aqui está o bloco que precisas:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 forever
 end
 ```
 
-\--- /hint \--- \--- hint \--- Aqui está como o teu código deve parecer:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 when flag clicked
@@ -97,6 +117,8 @@ end
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
