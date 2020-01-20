@@ -14,23 +14,31 @@
 
 \--- /任務\---
 
-\--- task \--- 為你的遊戲添加角色精靈和背景。你可以選擇任何你喜歡的！這是一個例子：
+\--- task \---
 
-![截圖](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
-\--- /任務\---
+![screenshot](images/brain-setting.png)
 
-\--- task \--- 確保選擇了你的角色精靈。 創建兩個新變量，稱為 `number 1`{：class =“block3variables”}和 `number 2`{：class =“block3variables”}，以存儲測驗問題的數字。
+\--- /task \---
 
-![截圖](images/giga-sprite.png) ![截圖](images/brain-variables.png)
+\--- task \---
+
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /任務\---
 
-\--- task \--- 在你的角色精靈中添加代碼，將 `變量`{：class =“block3variables”}設置為2到12之間的 `隨機`{：class =“block3operators”}數字。
+\--- task \---
 
-![截圖](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 當標記點擊時
@@ -38,11 +46,13 @@
 設置[數字2 v]到（選擇隨機（2）到（12））
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\--- 添加代碼 `問`{：class =“block3sensing”}玩家的答案，然後 `說2秒`{：class =“block3looks”}答案是否正確或錯誤：
+\--- task \---
 
-![截圖](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 當標記點擊時
@@ -57,31 +67,40 @@
 + end
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-測試您的項目兩次：正確回答一個問題，另一個錯誤回答。
+Test your project twice: answer one question correctly, and the other incorrectly.
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-在此代碼周圍添加 `永遠`{：class =“block3control”}循環，以便遊戲連續向玩家詢問很多問題。
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\---提示\--- \---提示\---
+\--- hints \---
 
-你需要添加一個 `永遠`{：class =“block3control”}塊，並將標記點擊</code>{{class =“block3control”}塊時除 `之外的所有代碼放入其中。</p>
+\--- hint \---
 
-<p>--- /提示---
----提示---
-這是你需要的塊：</p>
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
 
-<pre><code class="blocks3">永遠
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
+
+```blocks3
+永遠
 結束
-`</pre> 
+```
 
-\--- /提示\--- \---提示\--- 這是你的代碼應該是這樣的：
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 當標誌點擊
@@ -98,6 +117,8 @@
 end
 ```
 
-\--- /提示\--- \--- /提示\---
+\--- /hint \---
 
-\--- /任務\---
+\--- /hints \---
+
+\--- /task \---
