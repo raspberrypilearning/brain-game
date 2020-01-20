@@ -1,5 +1,5 @@
 ---
-hero_image: 图像/brain-game.png
+hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: 脑力游戏
@@ -12,7 +12,7 @@ steps:
   - 
     title: 创建问题
   - 
-    title: 添加一个计时器
+    title: 添加计时器
   - 
     title: '挑战：添加分数和反馈'
     challenge: true
@@ -30,7 +30,7 @@ steps:
     title: '挑战：争得 10 分'
     challenge: true
   - 
-    title: '挑战：指示界面'
+    title: '挑战：说明界面'
     challenge: true
   - 
     title: 接下来还有什么？
