@@ -2,17 +2,21 @@
 
 Nu ga je een 'Speel'-knop toevoegen, zodat de speler je spel heel vaak kan spelen.
 
-\--- task \--- Maak een nieuwe 'Speel'-knop sprite waarop de speler moet klikken om een nieuw spel te starten.
+\--- task \---
 
-Je kunt de sprite zelf tekenen, of een sprite bewerken uit de bibliotheek.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![Afbeelding van de speel-knop](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
+
+![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Voeg deze code toe aan je knop sprite:
+\--- task \---
 
-![Knop-sprite](images/button-sprite.png)
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     wanneer groene vlag wordt aangeklikt
@@ -25,15 +29,17 @@ Je kunt de sprite zelf tekenen, of een sprite bewerken uit de bibliotheek.
 
 \--- /task \---
 
-De nieuwe code bevat ook een `zend signaal`{:class="block3events"}-blok, dat het signaal 'start' verzendt.
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-De nieuwe code zorgt ervoor dat de knop 'Speel' wordt weergegeven als de speler op de vlag klikt. Wanneer de speler op de knop sprite klikt, verbergt de sprite zich en zendt vervolgens een signaal uit waarop andere sprites kunnen reageren.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-Op dit moment begint de personage sprite vragen te stellen wanneer de speler op de vlag klikt. Verander de code van je spel zo dat de personage sprite begint vragen te stellen wanneer het het 'start' `zend signaal`{:class="block3events"} ontvangt.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- task \--- Selecteer jouw personage sprite en vervang in de code sectie het `wanneer de groene vlag wordt geklikt`{:class="block3events"} blok met een `wanneer ik signaal start ontvang`{:class="block3events"} blok.
+\--- task \---
 
-![Personage-sprite](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- wanneer groene vlag wordt aangeklikt
@@ -52,23 +58,25 @@ einde
 
 \--- task \---
 
-Klik op de groene vlag en klik vervolgens op de nieuwe knop 'Speel' om te testen of deze werkt. Je zou moeten zien dat het spel niet start voordat je op de knop klikt.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
 \--- /task \---
 
-Is het je opgevallen dat de timer start wanneer op de groene vlag wordt geklikt en niet wanneer het spel begint?
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
 
-![Timer is gestart](images/brain-timer-bug.png)
+![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-Kun je de code voor de timer zo veranderen dat de timer start wanneer de speler op de knop klikt?
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /task \---
 
-\--- task \--- Voeg code toe aan de knop-sprite zodat de knop aan het einde van elk spel opnieuw wordt weergegeven.
+\--- task \---
 
-![Knop-sprite](images/button-sprite.png)
+Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     wanneer ik signaal [einde v] ontvang
@@ -79,11 +87,11 @@ verschijn
 
 \--- task \---
 
-Test de knop 'Speel' door een paar spellen te spelen. De knop moet aan het einde van elk spel worden weergegeven.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-Om het spel sneller te testen, kun je de waarde van `tijd`{:class="block3variables"} wijzigen zodat elk spel slechts enkele seconden lang duurt.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Speelveld](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     maak [tijd v] [10]
@@ -91,9 +99,11 @@ Om het spel sneller te testen, kun je de waarde van `tijd`{:class="block3variabl
 
 \--- /task \---
 
-\--- task \--- Je kunt eventueel het uiterlijk van de knop veranderen wanneer de muisaanwijzer eroverheen zweeft.
+\--- task \---
 
-![Drukknop](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     wanneer groene vlag wordt aangeklikt
@@ -107,4 +117,6 @@ Om het spel sneller te testen, kun je de waarde van `tijd`{:class="block3variabl
  einde
 ```
 
-![screenshot](images/brain-fisheye.png) \--- /task \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
