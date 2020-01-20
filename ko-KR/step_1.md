@@ -10,7 +10,9 @@
 
 ### 만들 작품
 
-\--- no-print \--- 시작하려면 버튼을 클릭하십시오. 질문에 대한 대답을 입력 한 다음 <kbd>Enter</kbd> 키를 누릅니다.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +21,11 @@
 
 \--- /no-print \---
 
-\--- 인쇄 전용 \--- ![Brain Game](images/brain-final.png) \--- / 인쇄 전용 \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -42,14 +48,18 @@
 
 + 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_ blank"} 또는 [offline](http://rpf.io/scratchoff){:target="_ blank"})
 
--- /collapse \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
 ## title : 교사를위한 추가 노트
 
-\--- no-print \--- 이 프로젝트를 인쇄하려면 [프린터용 버전](https://projects.raspberrypi.org/en/projects/brain-game/print)을 사용하십시오. \--- /no-print \---
+\--- no-print \---
 
-완성된 프로젝트는[여기](http://rpf.io/p/en/brain-game-get){:target="_ blank"}에서 확인할 수 있습니다.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
