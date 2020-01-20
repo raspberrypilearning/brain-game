@@ -54,29 +54,33 @@
 
 \--- /task \---
 
-\--- task \--- फिर से अपने खेल का परीक्षण करें। जब भी आप किसी प्रश्न का सही उत्तर देते हैं तो आपको टिक, और जब भी आप गलत उत्तर देते हैं तो क्रॉस दिखाई देना चाहिए!
+\--- task \---
 
-![सही के लिए टिक, गलत उत्तर के लिए क्रॉस](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
 \--- /task \---
 
-क्या आप देख सकते हैं कि `जब मुझे सही प्राप्त हो`{:class="block3events"} और `जब मुझे गलत प्राप्त हो`{:class="block3events"} का कोड लगभग समान है?
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-इसलिए आप एक कस्टम ब्लॉक बनाने जा रहे हैं ताकि आप अपना कोड अधिक आसानी से बदल सकें।
+So you can change your code more easily, you are going to create a custom block.
 
 \--- task \---
 
-'परिणाम' स्प्राइट का चयन करें। फिर `मेरे ब्लॉक्स`{:class="block3myblocks"} पर क्लिक करें, और फिर **एक ब्लाक बनाएँ** पर। एक नया ब्लॉक बनाएं और इसका नाम `जीवंत करें` {:class="block3myblocks"} रखें।
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![परिणाम स्प्राइट](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
-![एक जीवंत करें नामक ब्लाक बनाएँ](images/brain-animate-function.png)
+![Create a block called animate](images/brain-animate-function.png)
 
 \--- /task \---
 
-'परिणाम' स्प्राइट को `दिखाएँ`{:class="block3looks"} और `छिपाएँ`{:class="block3looks"} वाला कोड `जीवंत करें`{:class="block3looks"} वाले ब्लाक में विस्थापित करें:
+\--- task \---
 
-![परिणाम स्प्राइट](images/result-sprite.png)
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 जीवंत करें को परिभाषित करें
@@ -87,11 +91,13 @@
 
 \--- /task \---
 
-\--- task \--- निश्चित करें कि आपने **दोनों** `कॉस्ट्यूम बदलें`{:class="block3looks"} वाले ब्लॉक्स के नीचे से `दिखाएँ`{:class="block3looks"} और `छिपाएँ`{:class="block3looks"} वाले ब्लॉक्स हटा दियें हैं:
+\--- task \---
 
-फिर दोनों `पोशाक बदलें`{:class="block3looks"} ब्लॉक्स के नीचे `जीवंत करें`{:class="block3myblocks"} ब्लाक जोड़ें। आपका कोड अब इस तरह दिखना चाहिए:
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![परिणाम स्प्राइट](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     जब मुझे प्राप्त हो [सही v]
@@ -105,17 +111,19 @@
 
 \--- /task \---
 
-कस्टम `जीवंत करें`{:class="block3myblocks"} ब्लॉक की वजह से, अब यदि आप 'परिणाम' स्प्राइट की वेशभूषा को लंबे या कम समय के लिए दिखाना चाहते हैं तो आपको अपने कोड में केवल एक परिवर्तन करने की आवश्यकता है ।
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
 
 \--- task \---
 
-अपना कोड बदलें ताकि 'टिक' या 'क्रॉस' पोशाक 2 सेकंड के लिए प्रदर्शित हो।
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
 \--- /task \---
 
-\--- task \--- 'टिक' और 'क्रॉस' पोशाक `दिखाने`{:class="block3looks"} और `छिपाने`{:class="block3looks"} की बजाए आप अपने `जीवंत करें`{:class="block3myblocks"} ब्लाक को बदल सकते हैं ताकि पोशाक फीकी पड़ते हुए विलुप्त हो जाए।
+\--- task \---
 
-![परिणाम स्प्राइट](images/result-sprite.png)
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     जीवंत करें को परिभाषित करें
@@ -129,6 +137,6 @@
 
 \--- /task \---
 
-क्या आप 'टिक' या 'क्रॉस' ग्राफिक्स के जीवंत करने की प्रक्रिया में सुधार कर सकते हैं? आप पोशाक को फीका पड़ते हुए छिपने का कोड भी जोड़ सकते हैं, या आप अन्य आकर्षिक प्रभावों का उपयोग कर सकते हैं:
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
-![स्क्रीनशॉट](images/brain-effects.png)
+![screenshot](images/brain-effects.png)
