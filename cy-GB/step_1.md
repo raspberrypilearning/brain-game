@@ -10,7 +10,9 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 
 ### Yr hyn byddi di'n ei greu
 
-\--- no-print \--- Clicia'r botwm i ddechrau. Teipia'r ateb i'r cwestiwn, yna pwya <kbd>Enter</kbd>.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +21,11 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 
 \--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \---collapse\---
 
@@ -48,8 +54,12 @@ Yn y prosiect hwn byddwch yn creu gêm cwis mathemateg lle mae gan y chwaraewr 3
 
 ## title: Gwybodaeth ychwanegol i addysgwyr
 
-\--- no-print \---Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \---
 
-Gallwch chi ddod o hyd i'r [ateb ar gyfer y prosiect hwn yma](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
