@@ -14,23 +14,31 @@
 
 \--- /задатак \---
 
-\--- задатак \--- Додајте знаковни дух и позадину за вашу игру. Можете одабрати било коју! Ево примера:
+\--- task \---
 
-![сцреенсхот](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
-\--- /задатак \---
+![screenshot](images/brain-setting.png)
 
-\--- задатак \--- Провјерите да ли је ваш спрајт карактера одабран. Направите двије нове варијабле, назване `број 1`{: цласс = "блоцк3вариаблес"} и `број 2`{: цласс = "блоцк3вариаблес"}, за спремање бројева за питања квиза.
+\--- /task \---
 
-![сцреенсхот](images/giga-sprite.png) ![сцреенсхот](images/brain-variables.png)
+\--- task \---
+
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /задатак \---
 
-\--- задатак \--- Додај код на ваш карактера вилењак поставити оба `варијабли`{: цласс = "блоцк3вариаблес"} на `случајних`{: цласс = "блоцк3операторс"} броју између 2 и 12.
+\--- task \---
 
-![сцреенсхот](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 када је заставица кликнула
@@ -38,11 +46,13 @@
 сет [број 2 в] до (изабери случајне (2) до (12))
 ```
 
-\--- /задатак \---
+\--- /task \---
 
-\--- задатак \--- Додавање кода на `упит`{: цласс = "блоцк3сенсинг"} играч за одговор, а затим `за 2 секунде`{: цласс = "блоцк3лоокс"} да ли је одговор био исправан или погрешно:
+\--- task \---
 
-![сцреенсхот](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 кад је заставица кликнула
@@ -57,30 +67,40 @@
 + крај
 ```
 
-\--- /задатак \---
+\--- /task \---
 
-\--- задатак \---
+\--- task \---
 
-Тестирајте свој пројекат двапут: исправно одговорите на једно питање, а друго погрешно.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
-\--- /задатак \---
+\--- /task \---
 
-\--- задатак \---
+\--- task \---
 
-Око овог кода додајте петљу ``заувек </code> {: цласс = "блоцк3цонтрол"}, тако да игра постави играчу мноштво питања заредом.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- хинтс \--- \--- хинт \---
+\--- hints \---
 
-Потребно је да додате `заувек`{: цласс = "блоцк3цонтрол"} блок, и стави све кода осим `када застава кликне`{: стиле = "блоцк3цонтрол"} блокирају у њу.
+\--- hint \---
 
-\--- / хинт \--- \--- хинт \--- Овде је блок који вам је потребан:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 заувек
 крај
 ```
 
-\--- / хинт \--- \--- хинт \--- Ево како би ваш код требао изгледати:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 када је заставица кликнула
@@ -97,6 +117,8 @@
 крај
 ```
 
-\--- / хинт \--- \--- / хинтс \---
+\--- /hint \---
 
-\--- /задатак \---
+\--- /hints \---
+
+\--- /task \---
