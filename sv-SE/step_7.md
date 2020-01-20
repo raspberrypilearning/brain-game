@@ -54,29 +54,33 @@ Nu kan du använda dessa meddelanden till `visa`{: class = "block3looks"} "tick"
 
 \--- / uppgift \---
 
-\--- Uppgift \--- Testa ditt spel igen. Du bör se fältet när du svarar på en fråga korrekt, och korset när du svarar felaktigt!
+\--- task \---
 
-![Markera för korrekt, kryss för fel svar](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
 
-\--- / uppgift \---
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
-Kan du se att koden för `när jag får rätt`{: class = "block3events"} och `när jag får fel`{: class = "block3events"} är nästan identisk?
+\--- /task \---
 
-Så du kan enkelt ändra din kod, du kommer att skapa ett eget block.
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-\--- uppgift \---
+So you can change your code more easily, you are going to create a custom block.
 
-Välj "Resultat" sprite. Klicka sedan på `Mina block`{: class = "block3myblocks"} och sedan på **Gör ett block**. Skapa ett nytt block och kalla det `animera`{: class = "block3myblocks"}.
+\--- task \---
 
-![Resultat sprite](images/result-sprite.png)
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![Skapa ett block som heter animera](images/brain-animate-function.png)
+![Result sprite](images/result-sprite.png)
 
-\--- / uppgift \---
+![Create a block called animate](images/brain-animate-function.png)
 
-\--- uppgift \--- Flytta koden till `visa`{: class = "block3looks"} och `gömma`{: class = "block3looks"} "Resultat" sprite i `animera`{: class = " block3myblocks "} block:
+\--- /task \---
 
-![Resultat sprite](images/result-sprite.png)
+\--- task \---
+
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 definiera animera
@@ -85,13 +89,15 @@ vänta (1) sekunder
 gömma
 ```
 
-\--- / uppgift \---
+\--- /task \---
 
-\--- uppgift \--- Se till att du har tagit bort `visa`{: class = "block3looks"} och `gömma`{: class = "block3looks"} block under **båda** av `switchdräkten`{: class = "block3looks"} block.
+\--- task \---
 
-Lägg sedan till `animera`{: class = "block3myblocks"} -blocket under båda `switchkostymen`{: class = "block3looks"} -blocken. Din kod ska nu se ut så här:
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![Resultat sprite](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     när jag tar emot [korrekt v]
@@ -103,19 +109,21 @@ Lägg sedan till `animera`{: class = "block3myblocks"} -blocket under båda `swi
     animera :: anpassade
 ```
 
+\--- /task \---
+
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+
+\--- task \---
+
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+
 \--- / uppgift \---
 
-På grund av den anpassade `animera`{: class = "block3myblocks"} -blocket behöver du bara göra en ändring till din kod om du vill visa resultatresultatets kostymer en längre eller kortare tid.
+\--- task \---
 
-\--- uppgift \---
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
 
-Ändra din kod så att "tick" eller "cross" -dräkterna visas i 2 sekunder.
-
-\--- / uppgift \---
-
-\--- uppgift \--- stället för att `visar`{: class = "block3looks"} och `gömmer sig`{: class = "block3looks"} "tick" eller "cross" -dräkterna kan du ändra din `animera`{: class = "block3myblocks"} blockera så att kostymerna dyker in.
-
-![Resultat sprite](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     definiera animera
@@ -127,8 +135,8 @@ På grund av den anpassade `animera`{: class = "block3myblocks"} -blocket behöv
     göm
 ```
 
-\--- / uppgift \---
+\--- /task \---
 
-Kan du förbättra animeringen av "tick" eller "cross" -grafik? Du kan lägga till kod för att få kostymerna att blekna ut, eller du kan använda andra coola effekter:
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
-![skärmdump](images/brain-effects.png)
+![screenshot](images/brain-effects.png)
