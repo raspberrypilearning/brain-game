@@ -14,24 +14,31 @@
 
 \--- /task \---
 
-\--- कार्य \--- अपने खेल के लिए पात्र स्प्राइट और एक पृष्ठभूमि जोड़ें। आप अपनी पसंद का कोई भी चुन सकते हैं! यहाँ एक उदाहरण है:
+\--- task \---
 
-![स्क्रीनशॉट](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+
+![screenshot](images/brain-setting.png)
 
 \--- /task \---
 
-\--- task \--- सुनिश्चित करें कि आपका पात्र स्प्राइट चयनित है। प्रश्नोत्तरी (क्विज़) सवालों के लिए संख्याओं को संग्रहीत करने के लिए, दो नए चर, ` संख्या
- 1 ` {:class="block3variables"} और ` संख्या 2 ` {:class="block3variables"} बनाएं।
+\--- task \---
 
-![स्क्रीनशॉट](images/giga-sprite.png) ![स्क्रीनशॉट](images/brain-variables.png)
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /task \---
 
-\--- task \--- दोनों <०> चरों </code> {<class> "block3variables"} का मान 2 और 12 के बीच एक ` यादृच्छिक ` {"class =" block3operators "} संख्या निर्धारित करने के लिए कोड लिखें।
+\--- task \---
 
-![स्क्रीनशॉट](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 जब झंडा क्लिक किया
@@ -41,9 +48,11 @@
 
 \--- /task \---
 
-\--- task \--- खिलाड़ी से उत्तर पूछने के लिए `पूछें`{:class="block3sensing"} और बताने के लिए कि उत्तर सही था या नही, `2 सेकंड के लिए कहें`{:class="block3looks"} कोड जोड़ें।
+\--- task \---
 
-![स्क्रीनशॉट](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 जब झंडा क्लिक किया
@@ -62,26 +71,36 @@
 
 \--- task \---
 
-अपने प्रोजेक्ट का दो बार परीक्षण करें: एक बार प्रश्न का सही उत्तर दें, और दूसरी बार गलत।
+Test your project twice: answer one question correctly, and the other incorrectly.
 
 \--- /task \---
 
 \--- task \---
 
-इस कोड के इर्द-गिर्द `हमेशा के लिए`{:class="block3control"} लूप जोड़ें, ताकि खेल एक शृंखला में खिलाड़ी से बहुत सारे प्रश्न पूछ सके।
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- hints \--- \--- hint \---
+\--- hints \---
 
-आपको एक `हमेशा के लिए`{:class="block3control"} ब्लाक जोड़ना है, और `जब झंडा क्लिक किया`{:class="block3control"} ब्लाक को छोड़कर बाक़ी सारा कोड इसमें रखना है।
+\--- hint \---
 
-\--- /hint \--- \--- hint \--- ये है वो ब्लॉक जिसकी आपको आवश्यकता है:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 हमेशा के लिए
 अंत
 ```
 
-\--- /hint \--- \--- hint \--- यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 जब झंडा क्लिक किया
@@ -97,6 +116,8 @@
    अंत
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
