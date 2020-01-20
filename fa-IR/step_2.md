@@ -14,23 +14,31 @@
 
 \--- /وظیفه \---
 
-\--- وظیفه \--- اضافه کردن یک کاراکتر شخصیت و پس زمینه برای بازی شما. شما می توانید هر چه دوست دارید را انتخاب کنید! در اینجا یک مثال است:
+\--- task \---
 
-![تصویری](images/brain-setting.png)
+Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
-\--- /وظیفه \---
+![screenshot](images/brain-setting.png)
 
-\--- وظیفه \--- اطمینان حاصل کنید که کاراکتر شخصیت شما انتخاب شده است. ایجاد دو متغیر جدید با نام `شماره 1`{: class = "block3variables"} و `شماره 2`{: class = "block3variables"} برای ذخیره اعداد برای سوالات مسابقه.
+\--- /task \---
 
-![تصویری](images/giga-sprite.png) ![تصویری](images/brain-variables.png)
+\--- task \---
+
+Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+
+![screenshot](images/giga-sprite.png)
+
+![screenshot](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
 \--- /وظیفه \---
 
-\--- task \--- اضافه کردن کد به کاراکتر شخصیت خود را برای تنظیم هر دو از `متغیر`{: class = "block3variables"} به `تصادفی`{: class = "block3operators"} بین 2 تا 12.
+\--- task \---
 
-![تصویری](images/giga-sprite.png)
+Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 هنگامی که پرچم روی دکمه
@@ -38,11 +46,13 @@
 مجموعه [شماره 2 V] به (انتخاب تصادفی (2) به (12))
 ```
 
-\--- /وظیفه \---
+\--- /task \---
 
-\--- وظیفه \--- اضافه کردن کد به `درخواست`{: class = "block3sensing"} بازیکن برای پاسخ، و سپس `برای 2 ثانیه می گویند`{: class = "block3looks"} یا پاسخ درست بود یا اشتباه:
+\--- task \---
 
-![تصویری](images/giga-sprite.png)
+Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+
+![screenshot](images/giga-sprite.png)
 
 ```blocks3
 وقتی پرچم با کلیک بر روی
@@ -57,30 +67,40 @@
 + پایان
 ```
 
-\--- /وظیفه \---
+\--- /task \---
 
-\--- وظیفه \---
+\--- task \---
 
-پروژه خود را دو بار تکرار کنید: یک سوال را به درستی پاسخ دهید، و دیگری نادرست است.
+Test your project twice: answer one question correctly, and the other incorrectly.
 
-\--- /وظیفه \---
+\--- /task \---
 
-\--- وظیفه \---
+\--- task \---
 
-یک حلقه `برای همیشه لطفا برای`{: class = "block3control"} در اطراف این کد اضافه کنید، به این ترتیب بازی به تعداد زیادی سوالات در یک ردیف پاسخ می دهد.
+Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
-\--- نکات \--- \--- \--- اشاره
+\--- hints \---
 
-شما باید یک `برای همیشه`{: class = "block3control"} را اضافه کنید و تمام کد را به جز `وقتی که پرچم`{: class = "block3control"} را به آن متصل می شود.
+\--- hint \---
 
-\--- / hint \--- \--- hint \--- در اینجا بلوک شما نیاز دارید:
+You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here is the block you need:
 
 ```blocks3
 برای همیشه
 پایان
 ```
 
-\--- / hint \--- \--- hint \--- در اینجا چیزی است که کد شما باید شبیه باشد:
+\--- /hint \---
+
+\--- hint \---
+
+Here is what your code should look like:
 
 ```blocks3
 هنگامی که پرچم روی
@@ -97,6 +117,8 @@
 پایان
 ```
 
-\--- / اشاره \--- \--- / نکات \---
+\--- /hint \---
 
-\--- /وظیفه \---
+\--- /hints \---
+
+\--- /task \---
