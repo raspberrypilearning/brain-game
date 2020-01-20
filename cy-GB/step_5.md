@@ -2,17 +2,21 @@
 
 Fe wnawn ni ychwanegu botwm ‘chwarae’ i dy gêm fel dy fod di’n gallu chwarae sawl gwaith.
 
-\--- task \--- Bydd angen creu corlun botwm ‘Chwarae’, sef beth fydd y chwareuwr yn clicio i ddechrau gêm newydd.
+\--- task \---
 
-Fe alli di ei lunio dy hunan, neu olygu corlun o lyfrgell Scratch.
+Create a new 'Play' button sprite that the player needs to click to start a new game.
 
-![Llun o'r botwm chwarae](images/brain-play.png)
+You can draw the sprite yourself, or edit a sprite from the library.
+
+![Picture of the play button](images/brain-play.png)
 
 \--- /task \---
 
-\--- task \--- Ychwanega'r côd yma i gorlun dy fotwm:
+\--- task \---
 
-![Corlun botwm](images/button-sprite.png)
+Add this code to your button sprite:
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     pan fo'r flag werdd yn cael ei glicio
@@ -25,15 +29,17 @@ darlledu (start v)
 
 \--- /task \---
 
-Mae'r côd newydd yma yn cynnwys bloc arall `darlledu`{:class="block3events"}, sydd yn anfon neges i 'ddechrau'.
+The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
 
-Mae'r côd newydd yn gwneud i'r corlun 'Chwarae' ymddangos pan mae'r chwareuwr yn clicio ar y faner. Pan fydd y botwm yn cael ei glicio, fe fydd yn cuddio a darlledu neges fydd yn cychwyn y gêm.
+The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
 
-Ar hyn o bryd, mae'r cymeriad yn gofyn cwestiynau pan mae'r chwareuwr yn clicio ar y faner. Bydd angen i ti olygu côd dy gymeriad fel bod y gêm yn cychwyn pan mae’n derbyn neges `dechrau`{:class="block3events"}.
+At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
 
-\--- task \--- Dewisa dy gymeriad, ac yn yr adran gôd, ailosoda `pan fo baner wedi ei glicio`{:class="block3events"} gyda `pan dderbyniaf dechrau`{:class="block3events"}.
+\--- task \---
 
-![Corlun cymeriad](images/giga-sprite.png)
+Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 <br />- pan fo'r flag werdd yn cael ei glicio
@@ -52,23 +58,25 @@ end
 
 \--- task \---
 
-Clicia’r faner werdd ac yna clicia dy fotwm 'chwarae' newydd i’w brofi. Ni ddylai’r gêm gychwyn tan fod y botwm yn cael ei glicio.
+Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
 
 \--- /task \---
 
-A wnes di sylwi fod yr amserydd yn cychwyn pan mae’r faner werdd wedi ei chlicio, ond nid pan mae’r gêm yn cychwyn?
+Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
 
-![Amserydd wedi dechrau](images/brain-timer-bug.png)
+![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-Alli di newid y côd yr amserydd fel fod yr amserydd yn cychwyn pan mae'r chwareuwr yn clicio ar y botwm?
+Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
 \--- /task \---
 
-Fe alli di nawr ychwanegu côd i dy fotwm i’w ddangos eto ar ddiwedd pob gêm.
+\--- task \---
 
-![Corlun botwm](images/button-sprite.png)
+Add code to your button sprite so that the button shows again at the end of each game.
+
+![Button sprite](images/button-sprite.png)
 
 ```blocks3
     pan rwy'n derbyn [end v]
@@ -79,11 +87,11 @@ dangos
 
 \--- task \---
 
-Profa dy fotwm 'chwarae' trwy chwarae cwpwl o gemau. Fe ddyle ti sylwi fod y botwm chwarae yn dangos ar ôl pob gêm.
+Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-I wneud y profi yn gynt, fe alli di leihau pob gêm trwy newid gwerth yr `amser`{:class="block3variables"} fel fod pob gêm ond yn para rhai eiliadau.
+To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
 
-![Llwyfan](images/stage-sprite.png)
+![Stage](images/stage-sprite.png)
 
 ```blocks3
     gosod [amser v] i [10]
@@ -91,9 +99,11 @@ I wneud y profi yn gynt, fe alli di leihau pob gêm trwy newid gwerth yr `amser`
 
 \--- /task \---
 
-\--- task \--- Fe alli di newid sut mae'r botwm yn edrych pan mae'r llygoden arno.
+\--- task \---
 
-![Botwm](images/button-sprite.png)
+You can change how the button looks when the mouse pointer hovers over it.
+
+![Button](images/button-sprite.png)
 
 ```blocks3
     pan fo'r flag werdd yn cael ei glicio
@@ -107,4 +117,6 @@ am byth
 end
 ```
 
-![sgrinlun](images/brain-fisheye.png) \--- /task \---
+![screenshot](images/brain-fisheye.png)
+
+\--- /task \---
