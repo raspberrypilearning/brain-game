@@ -54,29 +54,33 @@ Nu kun je deze signalen gebruiken om het 'vinkje'- of 'kruis'-uiterlijk te kieze
 
 \--- /task \---
 
-\--- task \--- Test je spel opnieuw. Je moet een vinkje zien als je een vraag goed hebt, en een kruisje als je er één fout hebt!
+\--- task \---
 
-![Vinkje voor een goed antwoord, kruis voor een verkeerd antwoord](images/brain-test-answer.png)
+Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+
+![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
 
 \--- /task \---
 
-Is het je opgevallen dat de code voor `wanneer ik signaal goed ontvang`{:class="block3events"} en `wanneer ik signaal fout ontvang`{:class="block3events"} bijna identiek is?
+Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
 
-Om de code gemakkelijker te kunnen wijzigen, gaan we een zelfgeschreven blok maken.
+So you can change your code more easily, you are going to create a custom block.
 
 \--- task \---
 
-Selecteer de 'Resultaat' sprite. Klik vervolgens op `Mijn blokken`{:class ="block3myblocks"} en vervolgens op **Maak een blok**. Maak een nieuw blok en noem het `animatie`{:class="block3myblocks"}.
+Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
 
-![Resultaat sprite](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
-![Maak een blok met de naam animatie](images/brain-animate-function.png)
+![Create a block called animate](images/brain-animate-function.png)
 
 \--- /task \---
 
-\--- task \--- Verplaats de code van `verschijn`{:class="block3looks"} en `verdwijn`{:class="block3looks"} van de 'Resultaat' sprite naar het `animatie`{:class="block3myblocks"} blok:
+\--- task \---
 
-![Resultaat sprite](images/result-sprite.png)
+Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
 definieer animatie
@@ -87,11 +91,13 @@ verdwijn
 
 \--- /task \---
 
-\--- task \--- Zorg ervoor dat je de `verschijn`{:class="block3looks"} en `verdwijn`{:class="block3looks"} blokken onder **beide** `veranderlijk uiterlijk`{:class="block3looks"} blokken hebt verwijderd.
+\--- task \---
 
-Voeg vervolgens het `animatie`{:class="block3myblocks"} blok toe aan beide `verander uiterlijk`{:class="block3looks"} blokken. Je code moet er nu zo uitzien:
+Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-![Resultaat sprite](images/result-sprite.png)
+Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     wanneer ik signaal [goed v] ontvang
@@ -105,17 +111,19 @@ wanneer ik signaal [fout v] ontvang
 
 \--- /task \---
 
-Vanwege het zelfgemaakte `animatie`{:class="block3myblocks"} blok, hoef je nu slechts één wijziging in de code te maken als je de uiterlijken van de 'Resultaat' sprite langer of korter wilt laten zien.
+Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
 
 \--- task \---
 
-Wijzig je code zó dat het 'vinkje'- of 'kruis'-uiterlijk wordt weergegeven gedurende 2 seconden.
+Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
 \--- /task \---
 
-\--- task \--- In plaats van `verschijn`{:class="block3looks"} en `verdwijn`{:class="block3looks"} van het 'vinkje'- of 'kruis'-uiterlijk, zou je het `animatie`{:class="block3myblocks"} blok kunnen veranderen zodat de kostuums langzaam verschijnen.
+\--- task \---
 
-![Resultaat sprite](images/result-sprite.png)
+Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     definieer animatie
@@ -129,6 +137,6 @@ Wijzig je code zó dat het 'vinkje'- of 'kruis'-uiterlijk wordt weergegeven gedu
 
 \--- /task \---
 
-Kun je de animatie van de 'vinkje'- of' 'kruis'-afbeelding verbeteren? Je zou code kunnen toevoegen om de uiterlijken te laten vervagen, of je zou andere coole effecten kunnen gebruiken:
+Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
 
 ![screenshot](images/brain-effects.png)
