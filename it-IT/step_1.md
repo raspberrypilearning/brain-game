@@ -10,7 +10,9 @@ In questo progetto creerai un gioco a quiz di matematica in cui il giocatore ha 
 
 ### Che cosa creerai
 
-\--- no-print \--- Fare clic sul pulsante per iniziare. Digitare la risposta alla domanda, quindi premere il tasto <kbd>Invio</kbd>.
+\--- no-print \---
+
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +21,11 @@ In questo progetto creerai un gioco a quiz di matematica in cui il giocatore ha 
 
 \--- /no-print \---
 
-\--- print-only \--- ![Brain Game](images/brain-final.png) \--- /print-only \---
+\--- print-only \---
+
+![Brain Game](images/brain-final.png)
+
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -48,8 +54,12 @@ In questo progetto creerai un gioco a quiz di matematica in cui il giocatore ha 
 
 ## title: Note addizionali per gli educatori
 
-\--- no-print \--- Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/brain-game/print). \--- /no-print \---
+\--- no-print \---
 
-Puoi trovare il [progetto completo qui](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
