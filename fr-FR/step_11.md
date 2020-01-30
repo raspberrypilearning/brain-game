@@ -13,9 +13,16 @@ Essaye le projet [Attraper les points](https://projects.raspberrypi.org/fr-FR/pr
 
 --- print-only --- ![Dots screenshot](images/dots-final.png) --- /print-only ---
 
+***
 
-**Traduction de la communauté**
+Ce projet a été traduit par des bénévoles:
 
-Ce projet a été traduit par **David Debaire**/**Jonathan Vannieuwkerke** et vérifié par **Simon Gleises**/**Michel Arnols**.
+David Debaire
 
-Nos incroyables bénévoles de traduction nous aident à donner aux enfants du monde entier la chance d'apprendre à coder. Vous pouvez nous aider à atteindre plus d'enfants en traduisant nos projets - en savoir plus sur [rpf.io/translate](https://rpf.io/translate).
+Jonathan Vannieuwkerke
+
+Simon Gleises
+
+Michel Arnols
+
+Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).
