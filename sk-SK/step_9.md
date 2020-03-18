@@ -1,15 +1,15 @@
-## Výzva: závod na 10 bodov
+## Challenge: race to 10 points
 
-Môžete zmeniť svoju hru tak, aby hráč namiesto odpovede na čo najviac otázok v priebehu 30 sekúnd odpovedal na 10 otázok čo najrýchlejšie.
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-Ak chcete vykonať túto zmenu, stačí zmeniť kód časovača. Môžete vidieť, ktoré bloky musia byť odlišné?
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
 ```blocks3
-    pri príjme [štart V]
-    sadu [čas] pre (30),
-    opakovanie až <(čas) = [0]>
-        čakania (1) sekundy
-        zmene [čas v] o (-1)
-    koniec
-    vysielania (koniec v)
+    when I receive [start v]
+    set [time v] to (30)
+    repeat until <(time) = [0]>
+        wait (1) seconds
+        change [time v] by (-1)
+    end
+    broadcast (end v)
 ```
