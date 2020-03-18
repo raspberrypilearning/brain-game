@@ -1,11 +1,11 @@
-## Izziv: dodaj rezultat in reakcije
+## Challenge: add a score and reactions
 
-Ali lahko igri dodaš točkovanje?
+Can you add a score to your game?
 
-Lahko dodaš tudi kodo, ki omogoča, da igralec pridobi točko za vsak pravilen odgovor. Če si zloben, lahko dodaš tudi kodo, ki ponastavi igralčeve točke na 0, kadarkoli ta narobe odgovori!
+You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
 [[[generic-scratch3-high-score]]]
 
-Ali lahko dosežeš, da bo tvoja figura reagirala na igralčeve odgovore s spremembo videza, glede na to ali je odgovor pravilen ali napačen?
+Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
 
-![posnetek zaslona](images/brain-costume.png)
+![screenshot](images/brain-costume.png)
