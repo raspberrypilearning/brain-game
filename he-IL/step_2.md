@@ -1,18 +1,18 @@
-## צור שאלות
+## Create questions
 
-אתה הולך להתחיל על ידי יצירת שאלות אקראיות כי השחקן צריך לענות.
+You're going to start by creating random questions that the player has to answer.
 
-\--- \---
+\--- task \---
 
-פתח פרוייקט חדש של Scratch.
+Open a new Scratch project.
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**מקוון:** פתח פרוייקט חדש בעורך הלא מקוון.
+**Offline:** open a new project in the offline editor.
 
-אם עליך להוריד ולהתקין את העורך הלא מקוון של Scratch, תוכל למצוא אותו ב [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ _ blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-\--- / משימה \---
+\--- /task \---
 
 \--- task \---
 
@@ -32,7 +32,7 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 [[[generic-scratch3-add-variable]]]
 
-\--- / משימה \---
+\--- /task \---
 
 \--- task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-כאשר הדגל לחץ על
-קבע מספר [1] כדי לבחור (אקראי) 2 (עד) 12 ()
-[מספר 2 v] ל (בחר אקראי) 2 (עד) 12
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,16 +55,16 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-כאשר מספר הדקות לחץ על
-[מספר [1]] ל (בחר אקראי) 2 (עד) 12 ()
-[מספר 2 v] ל (בחר אקראי (2) עד (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ שאל (הצטרף למספר 1) (2)) והמתן
-+ אם <(תשובה) = (מספר 1) * (מספר 2))> ואז
-+ אומר [כן! :)] עבור (2) שניות
-+ אחר
-+ say [no :(] עבור (2) שניות
-+ סוף
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-לנצח
-סוף
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,18 +103,18 @@ Here is the block you need:
 Here is what your code should look like:
 
 ```blocks3
-כאשר הדגל לוחץ
+when flag clicked
 
-+ לנצח
-    סט [מספר 1 v] כדי (איסוף אקראי (2) עד (12))
-    סט [מספר 2 v] כדי (איסוף אקראי (2) עד (12))
-    לשאול (להצטרף (מספר 1) (הצטרף [x] (מספר 2)) והמתן
-    אם <(תשובה) = ((מספר 1) (מספר 2))> ואז
-        אומר [כן! :)] עבור (2) שניות
-    אחר
-        לומר [no :(] עבור (2) שניות
-    סוף
-סוף
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
