@@ -1,89 +1,89 @@
-## 添加圖形
+## 添加圖像效果
 
-目前，角色精靈只是說 `是的！ :)` 或 `否:(` 到玩家的答案。添加一些圖形讓玩家知道他們的答案是正確還是不正確。
+遊戲設計到目前為止，Giga 只會說`答對！`或`答錯！`來回應玩家。加入一些表情，讓玩家知道他們的回答是否正確。
 
-\---任務\---
+\--- task \---
 
-創建一個名為'Result'的新精靈，並給它一個'tick / check'和'cross'服裝。
+創建一個名為「結果」的角色，並從造型庫中挑選 tick（勾）和 cross（叉）做為角色造型。
 
-![精靈與蜱和交叉服飾](images/brain-result.png)
+![帶有勾與叉造型的角色](images/brain-result.png)
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-改變你的性格精靈的代碼，這樣，而不是說事的球員，這 `播放`{：類=“block3events”}消息“正確”或“錯誤”。
+修改 Giga 的程式，把說出積木替換成`廣播`{:class="block3events"}「正確」或「錯誤」訊息。
 
-![人物精靈](images/giga-sprite.png)
+![人物角色](images/giga-sprite.png)
 
 ```blocks3
-如果 <（回答）=（（數字1）*（數字2））> 然後
+如果 <(詢問的答案) = ((被乘數)*(乘數))> 那麼
 
-- 說[是的！ :)] for（2）秒
-+廣播（正確v）
-其他
-- 說[nope :(] for（2）秒
-+廣播（錯誤v）
-結束
+- 說出 (答對！) 持續 (2) 秒
++ 廣播訊息 (正確 v)
+否則
+- 說出 (答錯！) 持續 (2) 秒
++ 廣播訊息 (錯誤 v)
+end
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-現在，您可以使用這些消息 `顯示`{：類=“block3looks”}的'滴答'或'交叉'服裝。將以下代碼添加到'Result'精靈：
+現在你可以利用這些訊息來`顯示`{:class="block3looks"}勾勾或叉叉造型。添加以下程式到「結果」角色：
 
-![結果精靈](images/result-sprite.png)
+![結果角色](images/result-sprite.png)
 
 ```blocks3
-    當我收到[正確的v]
-    開關服裝（勾選v）
+    當收到訊息 (正確 v)
+    造型換成 (tick v)
     顯示
-    等待（1）秒
+    等待 (1) 秒
     隱藏
 
-    當我收到[錯誤的v]
-    開關服裝到（交叉v）
+    當收到訊息 (錯誤 v)
+    造型換成 (cross v)
     顯示
-    等待（1）秒
-    當標記點擊
-    隱藏時隱藏
+    等待 (1) 秒
+    隱藏
 
-
+    當 @greenflag 被點擊
+    隱藏
 ```
 
-\--- /任務\---
-
-\--- task \---
-
-Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
-
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
-
-\--- /task \---
-
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
-
-So you can change your code more easily, you are going to create a custom block.
-
-\--- task \---
-
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
-
-![Result sprite](images/result-sprite.png)
-
-![Create a block called animate](images/brain-animate-function.png)
-
 \--- /task \---
 
 \--- task \---
 
-Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+再試試遊戲，每當你答對，你應該會看到打勾；當你答錯，你應該會看到打叉！
 
-![Result sprite](images/result-sprite.png)
+![勾表示答對，叉表示答錯](images/brain-test-answer.png)
+
+\--- /task \---
+
+有看到嗎？`當收到訊息正確`{:class="block3events"}和`當收到訊息錯誤`{:class="block3events"}的程式幾乎一模一樣。
+
+為了後面更輕鬆的修改程式，我們先用函式來做出自己的積木。
+
+\--- task \---
+
+選取「結果」角色， 接著在工具箱找到`函式積木`{:class="block3myblocks"}，點擊**建立一個積木**。 創建一個新的積木，並把它命名為`動畫`{:class="block3myblocks"}。
+
+![結果角色](images/result-sprite.png)
+
+![建立名為動畫的積木](images/brain-animate-function.png)
+
+\--- /task \---
+
+\--- task \---
+
+把「結果」角色中`顯示`{:class="block3looks"}到`隱藏`{:class="block3looks"}的程式片段挪到`動畫`{:class="block3myblocks"}積木下，作為這個積木的定義：
+
+![結果角色](images/result-sprite.png)
 
 ```blocks3
-定義動畫
+定義 動畫
 顯示
 等待（1）秒
 隱藏
@@ -93,50 +93,50 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 
 \--- task \---
 
-Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+檢查一下，務必要**刪除兩個**`造型換成`{:class="block3looks"}積木下的`顯示`{:class="block3looks"}與`隱藏`{:class="block3looks"}的程式。
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+接著，在`造型換成`{:class="block3looks"}積木下改放`動畫`{:class="block3myblocks"}積木：
 
-![Result sprite](images/result-sprite.png)
+![結果角色](images/result-sprite.png)
 
 ```blocks3
-    當我收到[正確的v]
-    開關服裝（勾選v）
-    animate :: custom
+    當收到訊息 (正確 v)
+    造型換成 (tick v)
+    動畫:: custom
 
-    當我收到[錯誤的v]
-    開關服裝到（交叉v）
-    animate :: custom
+    當收到訊息 (錯誤 v)
+    造型換成 (cross v)
+    動畫:: custom
 ```
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+有了自定義的`動畫`{:class="block3myblocks"}積木，之後要對動畫做修改，只要改一個地方就可以了。
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+修改程式，讓 tick 和 cross 造型在顯示時持續 2 秒。
 
-\--- /任務\---
+\--- /task \---
 
 \--- task \---
 
-Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+我們把`顯示`{:class="block3looks"}還有`隱藏`{:class="block3looks"} 勾或叉造型的外觀改掉，改成淡入的外觀`動畫`{:class="block3myblocks"}。
 
-![Result sprite](images/result-sprite.png)
+![結果角色](images/result-sprite.png)
 
 ```blocks3
-    定義動畫
-    集[鬼v]效果到（100）
-    表示
-    重複（25）
-        變化[鬼v]效果由（-4）
-    結束
+    定義 動畫
+    圖像效果 [幻影 v]設為 (100)
+    顯示
+    重複 (25) 次
+        圖像效果 [顏色 v] 改變 (-4)
+    end
     隱藏
 ```
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+你還可以改進勾或叉的圖像動畫嗎？比方說你可以讓造型「淡出」，或是其它圖像效果：
 
-![screenshot](images/brain-effects.png)
+![截圖](images/brain-effects.png)
