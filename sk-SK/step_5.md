@@ -1,6 +1,6 @@
-## Viacnásobné hry
+## Multiple games
 
-Teraz pridáte tlačidlo "Prehrať", aby hráč mohol hrať vašu hru veľa krát.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    keď klaksón klikne
-    zobrazí
+    when flag clicked
+    show
 
-    keď tento sprite klikol
-    skryť
-    vysielanie (štart v)
+    when this sprite clicked
+    hide
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,19 +42,19 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- ak príznak ukážete
-+ keď dostanem [start v]
-nastaviť [číslo 1 v] na (vybrať náhodné (2) až (12))
-nastaviť [číslo 2 v] )
-pýtať (join (číslo 1) (pripojiť [x] (číslo 2))) a počkajte
-v prípade <(odpoveď) = ((číslo 1) * (číslo 2))> potom
-    povedať [áno! :)] za (2) sekundy
-inak
-    povedal [nope :(] za (2) sekundy
-koniec
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
-\--- / úloha \---
+\--- /task \---
 
 \--- task \---
 
@@ -70,16 +70,16 @@ Can you see that the timer starts when the green flag is clicked, instead of whe
 
 Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
-\--- / úloha \---
+\--- /task \---
 
-\--- úloha \---
+\--- task \---
 
 Add code to your button sprite so that the button shows again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    keď dostanem [end v]
+    when I receive [end v]
     show
 ```
 
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    nastavte čas [v] na [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
@@ -106,15 +106,15 @@ You can change how the button looks when the mouse pointer hovers over it.
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    keď vlajka klikne
-    zobrazí
-    navždy
-    ak <touching (mouse-pointer v)?> potom
-        nastaviť [rybie oko] efekt na (30)
-    iný
-        nastaviť [rybie oko] efekt na (0)
-    koniec
-    koniec
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![screenshot](images/brain-fisheye.png)
