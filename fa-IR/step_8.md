@@ -1,13 +1,13 @@
-## چالش: صدا و موسیقی
+## Challenge: sound and music
 
-آیا می توانید جلوه های صوتی و موسیقی را به بازی خود اضافه کنید؟ به عنوان مثال، شما می توانید بازی خود را داشته باشید:
+Can you add sound effects and music to your game? For example, you could have your game:
 
-+ پخش صدا هنگامی که بازیکن پاسخ صحیح یا نادرست می دهد
-+ یک تایید صدا را به عنوان تایمر شمارش معکوس اجرا می کند
-+ زمانی که زمان پخش پخش می شود صدا را پخش کنید
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
 ```blocks3
-    پخش صدا (پاپ V) تا زمانی که انجام شود
+    play sound (pop v) until done
 ```
 
-بازی شما همچنین می تواند به طور مداوم موسیقی پس زمینه در یک حلقه بازی کند.
+Your game could also constantly play background music on a loop.
