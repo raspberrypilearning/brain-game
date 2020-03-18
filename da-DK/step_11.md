@@ -1,6 +1,6 @@
-## Hvad er det næste?
+## What next?
 
-Prøv [ Fang punkterne ](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) Projekt for at skabe et reaktionsspil! I dette projekt vil du lære at lave kloner af sprites, og hvordan man bruger en variabel for gradvist at fremskynde spillet.
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
 
 \--- no-print \---
 
