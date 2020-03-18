@@ -1,6 +1,6 @@
-## Več iger
+## Multiple games
 
-Dodaj še gumb 'Igraj', da bo lahko igralec igro ponovil večkrat.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    ko kliknemo na zastavico
-  pokaži
+    when flag clicked
+    show
 
-  ko kliknemo to figuro
-  skrij
-  objavi (začni v)
+    when this sprite clicked
+    hide
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,16 +42,16 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- ko kliknemo na zastavico
-+ ko prejmem [začni v]
-nastavi [število 1 v] na (naključno število (2) in (12))
-nastavi [število 2 v] na (naključno število (2) in (12))
-vprašaj (združi(število1)(združi[ x ] (število 2))) in počakaj
-če <(odgovor) = ((število 1)*(število 2))> potem
-  reci [da! :)] za (2) sekund
-sicer
-  reci [ne :(] za (2) sekund
-konec
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
 \--- /task \---
@@ -79,8 +79,8 @@ Add code to your button sprite so that the button shows again at the end of each
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    ko prejmem [konec v]
-  pokaži
+    when I receive [end v]
+    show
 ```
 
 \--- /task \---
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    nastavi [čas v] na [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
@@ -106,15 +106,15 @@ You can change how the button looks when the mouse pointer hovers over it.
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    ko kliknemo na zastavico
-    pokaži
-    ponavljaj
-    če &ltse dotika (kazlca miške v)?&gt potem
-        nastavi učinek [ribje oko v] na (30)
-    sicer
-        nastavi učinek [ribje oko v] na (0)
-    konec
-    konec
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![screenshot](images/brain-fisheye.png)
