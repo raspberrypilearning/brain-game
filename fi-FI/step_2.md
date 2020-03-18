@@ -1,18 +1,18 @@
-## Luo kysymyksiä
+## Create questions
 
-Aloitatte luomalla satunnaisia kysymyksiä, jotka pelaajan on vastattava.
+You're going to start by creating random questions that the player has to answer.
 
-\--- tehtävä \---
+\--- task \---
 
-Avaa uusi Scratch-projekti.
+Open a new Scratch project.
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** avaa uuden projektin offline-editorissa.
+**Offline:** open a new project in the offline editor.
 
-Jos haluat ladata ja asentaa Scratch offline -editorin, löydät sen osoitteesta [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-\--- / tehtävä \---
+\--- /task \---
 
 \--- task \---
 
@@ -32,7 +32,7 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 [[[generic-scratch3-add-variable]]]
 
-\--- / tehtävä \---
+\--- /task \---
 
 \--- task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-kun lippu napsautti
-asettaa [numero 1 v] (valitse satunnainen (2) - (12))
-aseta [numero 2 v] (valitse satunnainen (2) - (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,16 +55,16 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-kun lippu napsautti
-asettaa [numero 1 v] (valitse satunnainen (2) - (12))
-aseta [numero 2 v] (valitse satunnainen (2) - (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ kysy (liity (numero 1)) (liity [x] (numero 2))) ja odota
-+, jos <(vastaus) = ((numero 1) * (numero 2))> sitten
-+ sanoa [kyllä! :)] (2) sekunnille
-+ muuta
-+ sanoa [no :(] (2) sekunnille
-+ loppuun
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-ikuisesti
-loppuun
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,18 +103,18 @@ loppuun
 Here is what your code should look like:
 
 ```blocks3
-kun lippu napsautti
+when flag clicked
 
-+ ikuisesti
-    aseta [numero 1 v] (valitse satunnainen (2) - (12))
-    aseta [numero 2 v] (valitse satunnainen (2) - (12))
-    kysy (liity 1) (liity [x] (numero 2))) ja odota
-    jos <(vastaus) = ((numero 1) * (numero 2))> sitten
-        sanoa [kyllä! :)] (2) sekunnin ajan
-    muu
-        sanoa [no :(] (2) sekunnin
-    pään
-loppuun
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
