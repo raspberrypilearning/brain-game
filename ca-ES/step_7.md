@@ -1,58 +1,58 @@
-## Afegeix gràfics
+## Add graphics
 
-De moment, el sprite del personatge només diu `sí! :)` o `no :(` a les respostes del jugador. Afegiu alguns gràfics per permetre al jugador saber si la seva resposta és correcta o incorrecta.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
-\--- tasca \---
+\--- task \---
 
-Creeu un nou sprite anomenat 'Resultat', i doneu-li un 'tick / check' i un vestit 'cross'.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![Sprite amb disfresses i taques](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
-\--- / tasca \---
+\--- /task \---
 
-\--- tasca \---
+\--- task \---
 
-Canvieu el codi del vostre personatge Sprite perquè, en lloc de dir alguna cosa al jugador, `emet`{: class = "block3events"} els missatges "correctes" o "incorrectes".
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![Sprite de caràcters](images/giga-sprite.png)
-
-```blocks3
-si <(resposta) = ((número 1) * (número 2))> després
-
-- digueu [sí! :)] per a (2) segons
-+ emissió (correcte v)
-més
-- digue [nope :(] per (2) segons
-+ emissió (v incorrecta)
-final
-```
-
-\--- / tasca \---
-
-\--- tasca \---
-
-Ara podeu utilitzar aquests missatges a `mostrar`{: class = "block3looks"} la marca "tick" o "cross". Afegiu el següent codi al sprite "Resultat":
-
-![Sprite de resultats](images/result-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-    quan rebo [v correcte]
-    canvia de disfressa a (tick v)
-    mostra
-    espera (1) segons
-    ocultar
+if <(answer) = ((number 1)*(number 2))> then
 
-    quan rebo [v incorrecta]
-    canviar de disfressa a (creu v)
-    mostra
-    espera (1) segons
-    amaga
-
-    quan es fa clic a la bandera
-    esculpeu
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
-\--- / tasca \---
+\--- /task \---
+
+\--- task \---
+
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+
+![Result sprite](images/result-sprite.png)
+
+```blocks3
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
+
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
+
+    when flag clicked
+    hide
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -100,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    quan rebo [v correcte]
-    canvia de disfressa a (tick v)
-    animi :: custom
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-    quan rebo [v incorrecta]
-    switch suit to (cross v)
-    animate :: custom
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -117,7 +117,7 @@ Because of the custom `animate`{:class="block3myblocks"} block, you now only nee
 
 Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
-\--- / tasca \---
+\--- /task \---
 
 \--- task \---
 
@@ -126,7 +126,7 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    defineix animate
+    define animate
     set [ghost v] effect to (100)
     show
     repeat (25)
