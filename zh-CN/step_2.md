@@ -1,12 +1,12 @@
 ## 创建问题
 
-首先，你需要创建随机问题，这些问题玩家必须回答。
+首先，你需要创建随机问题，玩家必须回答这些问题。
 
 \--- task \---
 
 打开一个新的Scratch项目
 
-**在线：**在[rpf.io/scrath-new](http://rpf.io/scratch-new){:target="_blank"}打开一个新的Scratch在线项目 。
+**在线：**在[rpf.io/scrath-new](http://rpf.io/scratch-new){:target="_blank"}中打开一个新的Scratch在线项目 。
 
 **离线：**在离线编辑器中打开一个新项目。
 
@@ -16,19 +16,19 @@
 
 \--- task \---
 
-Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+为您的游戏添加精灵角色和背景。你可以选择任何你喜欢的！比如：
 
-![screenshot](images/brain-setting.png)
+![截屏](images/brain-setting.png)
 
 \--- /task \---
 
 \--- task \---
 
-Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+确保您已选中角色精灵。 创建两个新变量，命名为`数字1` {:class =“block3variables”}和`数字2` {:class =“block3variables”}，用于存储测验题目的数字。
 
-![screenshot](images/giga-sprite.png)
+![截屏](images/giga-sprite.png)
 
-![screenshot](images/brain-variables.png)
+![截屏](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -36,9 +36,9 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 \--- task \---
 
-Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+为您的角色精灵添加代码以设置两个`变量` {:class =“ block3variables”}为2到12之间的`随机` {:class =“ block3operators”}数字。
 
-![screenshot](images/giga-sprite.png)
+![截屏](images/giga-sprite.png)
 
 ```blocks3
 当 ⚑ 被点击
@@ -50,16 +50,16 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 
 \--- task \---
 
-Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+添加`提问`{:class="block3sensing"} 代码以向玩家询问答案，无论回答正确还是错误，都`说2秒钟`{:class="block3looks"}。
 
-![screenshot](images/giga-sprite.png)
+![截屏](images/giga-sprite.png)
 
 ```blocks3
 当 ⚑ 被点击
 将 [数字1 v] 设为 (在 (2) 和 (12) 之间取随机数)
 将 [数字2 v] 设为 (在 (2) 和 (12) 之间取随机数)
 
-+ 询问 (连接 (数字1) 和(连接 [ x ] (数字2))) 并等待
++ 询问 (添加 (数字1) 和(添加 [ x ] (数字2))) 并等待
 + 如果 <(回答) = ((数字1)*(数字2))> 那么
 + 说 [对! :)] (2) 秒
 + 否则
@@ -71,25 +71,25 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+测试你的项目两次：正确回答一个问次题，错误回答另一次问题。
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+对这段代码添加一个`重复执行`{:class="block3control"}循环，这样游戏就会连续询问玩家更多问题。
 
 \--- hints \---
 
 \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+你需要添加一个`重复执行`{:class="block3control"}积木，然后把除了`当 ⚑ 被点击`{:class="block3control"}模块的其它所有模块都放入其中。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the block you need:
+以下是你需要的积木：
 
 ```blocks3
 重复执行
@@ -100,7 +100,7 @@ end
 
 \--- hint \---
 
-Here is what your code should look like:
+您的代码看起来应该是这样的：
 
 ```blocks3
 当 ⚑ 被点击
