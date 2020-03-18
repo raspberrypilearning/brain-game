@@ -1,11 +1,11 @@
-## 도전: 지시 화면
+## Challenge: instruction screen
 
-게임에 지침 화면을 추가하여 플레이어에게 게임 방법을 알려줄 수 있습니까? '안내'버튼과 다른 무대 배경이 필요합니다.
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-![스크린샷](images/brain-instructions.png)
+![screenshot](images/brain-instructions.png)
 
-플레이어가 시작 화면으로 돌아갈 수 있도록 '뒤로'버튼을 추가해야 할 수도 있습니다.
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
 ```blocks3
-    방송 (시작 화면 v)
+    broadcast (start screen v)
 ```
