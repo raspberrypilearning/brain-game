@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Aquesta és la versió **Scratch 3** del projecte. També hi ha una versió [Scratch 2 del projecte](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## Introducció
+## Introduction
 
-En aquest projecte, crearàs un joc de prova de matemàtiques en el qual el jugador té 30 segons per donar tantes respostes correctes com sigui possible.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### El que faràs
+### What you will make
 
 \--- no-print \---
 
@@ -27,32 +27,32 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- /print-only \---
 
-## \--- col·lapsar \---
+## \--- collapse \---
 
-## títol: el que aprendràs
+## title: What you will learn
 
-+ Com s'utilitzen les emissions a Scratch
-+ Com es crea i utilitza un bloc de notes personalitzat
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
-## \--- col·lapsar \---
+## \--- collapse \---
 
-## títol: el que necessitaràs
+## title: What you will need
 
-### Maquinari
+### Hardware
 
-+ Una computadora capaç d'executar Scratch 3
++ A computer capable of running Scratch 3
 
-### Programari
+### Software
 
-+ Scratch 3 ( [en línia](http://rpf.io/scratchon)(: target = "_ blank"} o [fora de línia](http://rpf.io/scratchoff)(: target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-\--- / col · lapse \---
+\--- /collapse \---
 
-## \--- col·lapsar \---
+## \--- collapse \---
 
-## títol: notes addicionals per a educadors
+## title: Additional notes for educators
 
 \--- no-print \---
 
