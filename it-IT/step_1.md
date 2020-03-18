@@ -8,11 +8,11 @@ Questa è la versione **Scratch 3** del progetto. C'è anche una [versione Scrat
 
 In questo progetto creerai un gioco a quiz di matematica in cui il giocatore ha 30 secondi per dare il maggior numero di risposte corrette possibili.
 
-### Che cosa creerai
+### Cosa creerai
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+Fai clic sul pulsante per iniziare. Digita la risposta alla domanda, e poi premi il tasto <kbd>Invio</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,7 +23,7 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![Giochi di Mente](images/brain-final.png)
 
 \--- /print-only \---
 
@@ -31,7 +31,7 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## title: Cosa imparerai
 
-+ Come utilizzare le trasmissioni broadcasts in Scratch
++ Come utilizzare le trasmissioni broadcast in Scratch
 + Come creare e utilizzare un blocco Scratch personalizzato
 
 \--- /collapse \---
@@ -56,10 +56,10 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Puoi trovare il [progetto completo qui](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
