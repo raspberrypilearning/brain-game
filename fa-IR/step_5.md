@@ -1,6 +1,6 @@
-## بازی های چندگانه
+## Multiple games
 
-حالا شما قصد دارید یک دکمه Play را اضافه کنید تا بازیکن بتواند بازی شما را چند بار بازی کند.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    زمانی که پرچم روی آن کلیک کنید
-    نمایش
+    when flag clicked
+    show
 
-    زمانی که این صحنه کلیک کرد
-    پنهان
-    پخش (شروع V)
+    when this sprite clicked
+    hide
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,19 +42,19 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- هنگامی که پرچم
-+ هنگام دریافت [شروع v]
-تنظیم [شماره 1 V] به (انتخاب تصادفی (2) به (12))
-مجموعه [شماره 2 V] به (انتخاب تصادفی (2) به (12) )
-بپرسید (پیوستن (شماره 1) (پیوستن به [x] (شماره 2))) و صبر کنید
-اگر <(پاسخ) = ((شماره 1) * (شماره 2))> سپس
-    می گویند [بله! :)) برای (2) ثانیه
-دیگر
-    می گویند [nope :(] برای (2) ثانیه
-پایان
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
-\--- /وظیفه \---
+\--- /task \---
 
 \--- task \---
 
@@ -70,17 +70,17 @@ Can you see that the timer starts when the green flag is clicked, instead of whe
 
 Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
-\--- /وظیفه \---
+\--- /task \---
 
-\--- وظیفه \---
+\--- task \---
 
 Add code to your button sprite so that the button shows again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    زمانی که من [پایان v]
-    نمایش را دریافت می کنم
+    when I receive [end v]
+    show
 ```
 
 \--- /task \---
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    تنظیم [زمان V] به [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
@@ -106,15 +106,15 @@ You can change how the button looks when the mouse pointer hovers over it.
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    زمانی که پرچم روی
-    کلیک نمایش داده می شود
-    برای همیشه
-    اگر <touching (mouse-pointer v)?> سپس
-        تنظیم [fisheye v] به (30)
-    دیگر
-        تنظیم [اثر fisheye v] به (0)
-    پایان
-    پایان
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![screenshot](images/brain-fisheye.png)
