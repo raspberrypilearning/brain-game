@@ -1,18 +1,18 @@
-## Vytvorte otázky
+## Create questions
 
-Začnete tým, že vytvoríte náhodné otázky, ktoré musí hráč odpovedať.
+You're going to start by creating random questions that the player has to answer.
 
-\--- úloha \---
+\--- task \---
 
-Otvorte nový projekt Scratch.
+Open a new Scratch project.
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** otvorte nový projekt v režime offline.
+**Offline:** open a new project in the offline editor.
 
-Ak potrebujete stiahnuť a nainštalovať editor Scratch offline, môžete ho nájsť na adrese [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-\--- / úloha \---
+\--- /task \---
 
 \--- task \---
 
@@ -32,7 +32,7 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 [[[generic-scratch3-add-variable]]]
 
-\--- / úloha \---
+\--- /task \---
 
 \--- task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-keď príznak kliknutí
-sadu [číslo 1] pre (vybrať náhodné (2) až (12)),
-sada [číslo 2] pre (vyberať náhodne (2) až (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,16 +55,16 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-keď príznak kliknutí
-sadu [číslo 1] pre (vybrať náhodné (2) až (12)),
-sada [číslo 2] pre (vyberať náhodne (2) až (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ požiadať (pripojiť (číslo 1) (spojiť [x] (číslo 2))) a čakať
-+ ak <(odpoveď) = (číslo 1) * (číslo 2)> a
-+ :)] za (2) sekundy
-+ iný
-+ povedať [no :(] za (2) sekundy
-+ koniec
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-navždy
-koniec
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,18 +103,18 @@ koniec
 Here is what your code should look like:
 
 ```blocks3
-keď príznak kliknutí
+when flag clicked
 
-+ navždy
-    sada [číslo 1] pre (vybrať náhodné (2) až (12))
-    sady [číslo 2] pre (vybrať náhodné (2) až (12)),
-    požiadať (pripojiť (číslo 1) (spojiť [x] (číslo 2))) a čakajte
-    ak <(odpoveď) = ((číslo 1) * (číslo 2))> potom
-        povedzte [yes! :)] za (2) sekundy
-    inak
-        povedať [no :(] za (2) sekundy
-    koniec
-koniec
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
