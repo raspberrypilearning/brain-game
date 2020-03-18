@@ -12,7 +12,7 @@ In dit project leer je een quiz te maken van de tafels van vermenigvuldiging, wa
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+Klik op de knop om te starten. Typ het antwoord op de vraag in en druk vervolgens op de <kbd>Enter</kbd> toets.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,7 +23,7 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![Hersenkraker](images/brain-final.png)
 
 \--- /print-only \---
 
@@ -56,10 +56,10 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Als u dit project wilt afdrukken, gebruik dan de [Printervriendelijke versie](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Je kunt het [voltooide project hier](http://rpf.io/p/en/brain-game-get){:target="_blank"} vinden.
 
 \--- /collapse \---
