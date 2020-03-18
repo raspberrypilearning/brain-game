@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Uvod
+## Introduction
 
 In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### Šta ćeš napraviti
+### What you will make
 
 \--- no-print \---
 
@@ -29,7 +29,7 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## \--- collapse \---
 
-## title: Šta ćeš naučiti
+## title: What you will learn
 
 + How to use broadcasts in Scratch
 + How to create and use a custom Scratch block
@@ -38,15 +38,15 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## \--- collapse \---
 
-## title: Šta će ti biti potrebno
+## title: What you will need
 
-### Hardver
+### Hardware
 
-+ Računar koji može da pokrene Scratch 3
++ A computer capable of running Scratch 3
 
-### Softver
+### Software
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} ili [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
