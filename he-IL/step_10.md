@@ -1,11 +1,11 @@
-## אתגר: מסך ההוראה
+## Challenge: instruction screen
 
-האם אתה יכול להוסיף מסך הוראות המורה לשחקן איך לשחק את המשחק? בשביל זה, אתה צריך כפתור 'הוראות', ועוד רקע שלב.
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-![צילום מסך](images/brain-instructions.png)
+![screenshot](images/brain-instructions.png)
 
-ייתכן שיהיה עליך להוסיף לחצן 'חזרה' שמאפשר לשחקן לחזור למסך הפתיחה.
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
 ```blocks3
-    שידור (מסך התחל v)
+    broadcast (start screen v)
 ```
