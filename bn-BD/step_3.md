@@ -1,4 +1,4 @@
-## একটি টাইমার যোগ করুন
+## Add a timer
 
 \--- task \---
 
@@ -21,21 +21,21 @@ Then add code to count `time`{:class="block3variables"} down to 0 within 30 seco
 Here are the blocks you need:
 
 ```blocks3
-পুনরাবৃত্তি করুন < >
+repeat until < >
 
-শেষ
+end
 
-অপেক্ষা (1) সেকেন্ড
+wait (1) seconds
 
-পরিবর্তন [সময় ভ] দ্বারা (1)
+change [time v] by (1)
 
-(সময়)
+(time)
 
-ফ্ল্যাগটি ক্লিক করলে
+when flag clicked
 
 <() = ()>
 
-সেট [সময় v] থেকে [0]
+set [time v] to [0]
 ```
 
 \--- /hint \---
@@ -45,28 +45,28 @@ Here are the blocks you need:
 Here is the what your new code should look like:
 
 ```blocks3
-যখন পতাকাটি
-সেট [সময় v] থেকে [30]টিতে
-পুনরাবৃত্তি হয় <(সময়) = (0)>
-    অপেক্ষা (1) সেকেন্ড
-    পরিবর্তন [সময় v] দ্বারা (-1)
-শেষ
+when flag clicked
+set [time v] to [30]
+repeat until <(time) = (0)>
+    wait (1) seconds
+    change [time v] by (-1)
+end
 ```
 
 \--- /hint \---
 
 \--- /hints \---
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    সম্প্রচার (শেষ v)
+    broadcast (end v)
 ```
 
 \--- /task \---
@@ -78,8 +78,8 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    যখন আমি পাই [শেষ v]
-    স্টপ [স্প্রিট v অন্যান্য স্ক্রিপ্ট]
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
 \--- /task \---
