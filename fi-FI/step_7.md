@@ -1,58 +1,58 @@
-## Lisää grafiikkaa
+## Add graphics
 
-Tällä hetkellä hahmo sprite sanoo vain `kyllä! :)` tai `ei :(` pelaajan vastauksiin. Lisää grafiikkaa, jotta pelaaja tietää, onko heidän vastauksensa oikea tai virheellinen.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
-\--- tehtävä \---
+\--- task \---
 
-Luo uusi sprite nimeltään "Tulos" ja anna sille "rasti / tarkista" ja "rajat" puku.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![Sprite, jossa on rasti ja ristipuvut](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
-\--- / tehtävä \---
+\--- /task \---
 
-\--- tehtävä \---
+\--- task \---
 
-Muuta hahmosi sprite-koodia niin, että sen sijaan, että sanoisit jotain soittimelle, se `lähettää`{: class = "block3events"} viestejä "oikein" tai "vääräksi".
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![Merkin sprite](images/giga-sprite.png)
-
-```blocks3
-jos <(vastaus) = ((numero 1) * (numero 2))> ja
-
-- sano [kyllä! :)] (2) sekunnin ajan
-+ lähetys (oikea v)
-muu
-- sano [nope :(] (2) sekunnin ajan
-+ lähetys (väärä v)
-loppuun
-```
-
-\--- / tehtävä \---
-
-\--- tehtävä \---
-
-Nyt voit käyttää näitä viestejä `osoittamaan`{: class = "block3looks"} "tick" tai "cross" -vaatteita. Lisää seuraava koodi Tulos-sprite:
-
-![Tulos sprite](images/result-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-    kun saan [oikea v]
-    kytkin puku (rasti v)
-    näytä
-    odota (1) sekuntia
-    piilota
+if <(answer) = ((number 1)*(number 2))> then
 
-    kun saan [väärin v]
-    kytkimen puku (rajat v)
-    näytä
-    odota (1) sekuntia
-    piilota
-
-    kun lippu napsautti
-    piiloutua
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
-\--- / tehtävä \---
+\--- /task \---
+
+\--- task \---
+
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+
+![Result sprite](images/result-sprite.png)
+
+```blocks3
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
+
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
+
+    when flag clicked
+    hide
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -83,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-määritellä animate
-Näytä
-odota (1) sekuntia
-piilota
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -100,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    kun saan [oikea v]
-    -kytkimen puku (rasti v)
-    animoi :: custom
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-    kun saan [väärin v]
-    kytkinpukua (ristiin)
-    animate :: custom
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -117,7 +117,7 @@ Because of the custom `animate`{:class="block3myblocks"} block, you now only nee
 
 Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
-\--- / tehtävä \---
+\--- /task \---
 
 \--- task \---
 
@@ -126,13 +126,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    määritä animaatio
-    sarja [ghost v] -toiminto (100)
-    näytä
-    toistoa (25)
-        muutos [ghost v] vaikutus (-4)
-    loppuun
-    piilota
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
