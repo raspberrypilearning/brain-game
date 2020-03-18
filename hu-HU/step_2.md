@@ -1,18 +1,18 @@
-## Kérdések létrehozása
+## Create questions
 
-Először véletlenszerű kérdéseket hoz létre, amelyeket a játékosnak meg kell válaszolnia.
+You're going to start by creating random questions that the player has to answer.
 
-\--- feladat \---
+\--- task \---
 
-Nyisson meg egy új Scratch projektet.
+Open a new Scratch project.
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** új projektet nyit meg az offline szerkesztőben.
+**Offline:** open a new project in the offline editor.
 
-Ha le kell töltenie és telepítenie kell a Scratch offline szerkesztőt, akkor azt [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"} címen találja meg.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-\--- / feladat \---
+\--- /task \---
 
 \--- task \---
 
@@ -32,7 +32,7 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 [[[generic-scratch3-add-variable]]]
 
-\--- / feladat \---
+\--- /task \---
 
 \--- task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-amikor a zászló a
-kattint, a [szám 1 v] -ra állította (véletlenszerűen (2) - (12))
-állítsa be a [2-es szám] -t (válassza ki a véletlenszerű (2) - (12) -et)
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,16 +55,16 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-amikor a jelző
-kattint, a [szám 1 v] -ra állította (véletlenszerűen (2) - (12))
-állítsa be a [2-es szám] -t (véletlenszerű (2) -ig (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ kérje (csatlakozzon (1. szám)) (csatlakozzon az [x] -hez (2-es szám))) és várjon
-+, ha <(válasz) = ((1-es szám) * (2. szám))> majd
-+ mondja [igen! :)] (2) másodpercig
-+
-+ mondjuk [nem :(] (2) másodpercig
-+ vége
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-örökre
-vég
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,18 +103,18 @@ vég
 Here is what your code should look like:
 
 ```blocks3
-amikor a jelző
+when flag clicked
 
-+ örökre
-    állított be [1-es szám] -ra (véletlenszerű (2) -ig (12))
-    állítsa be a [2-es számot] a (véletlenszerű (2) -ig (12))
-    kérjen (csatlakozzon (szám) 1) (csatlakozzon az [x] -hez (2-es szám))) és várjon
-    ha <(válasz) = ((1-es szám) * (2. szám))> majd
-        mondja [igen! :)] (2) másodpercig
-    más
-        mondjuk [no :(] (2) másodperc
-    vég
-végére
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
