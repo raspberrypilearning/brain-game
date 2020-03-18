@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Игра для мозга
-description: Узнай, как создать тест
+title: Brain game
+description: Learn how to create a quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Введение
+    title: Introduction
   - 
-    title: Создай вопросы
+    title: Create questions
   - 
-    title: Добавь таймер
+    title: Add a timer
   - 
-    title: 'Задача: добавь оценку и реакции'
+    title: 'Challenge: add a score and reactions'
     challenge: true
   - 
-    title: Несколько игр
+    title: Multiple games
   - 
-    title: 'Задача: создай стартовый экран'
+    title: 'Challenge: create a start screen'
     challenge: true
   - 
-    title: Добавь графику
+    title: Add graphics
   - 
-    title: 'Задача: звук и музыка'
+    title: 'Challenge: sound and music'
     challenge: true
   - 
-    title: 'Задача: гонка до 10 очков'
+    title: 'Challenge: race to 10 points'
     challenge: true
   - 
-    title: 'Задача: экран инструкций'
+    title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: Что дальше?
+    title: What next?
