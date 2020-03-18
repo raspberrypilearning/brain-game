@@ -1,11 +1,11 @@
-## چالش: صفحه نمایش دستورالعمل
+## Challenge: instruction screen
 
-آیا می توانید یک صفحه دستورالعمل اضافه کنید که به بازیکن می گوید چگونه بازی کند؟ برای این، شما نیاز به یک دکمه "دستورالعمل"، و یک پس زمینه مرحله دیگر.
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-![تصویری](images/brain-instructions.png)
+![screenshot](images/brain-instructions.png)
 
-شما همچنین ممکن است نیاز به اضافه کردن یک دکمه "بازگشت" است که اجازه می دهد بازیکن بازگشت به صفحه شروع است.
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
 ```blocks3
-    پخش (شروع صفحه V)
+    broadcast (start screen v)
 ```
