@@ -1,36 +1,36 @@
 ---
-hero_image: images / brain-game.png
+hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: משחק המוח
-description: למד כיצד ליצור חידון
+title: Brain game
+description: Learn how to create a quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: מבוא
+    title: Introduction
   - 
-    title: צור שאלות
+    title: Create questions
   - 
-    title: הוסף טיימר
+    title: Add a timer
   - 
-    title: 'האתגר: להוסיף ציון ותגובות'
+    title: 'Challenge: add a score and reactions'
     challenge: true
   - 
-    title: משחקים מרובים
+    title: Multiple games
   - 
-    title: 'אתגר: צור מסך פתיחה'
+    title: 'Challenge: create a start screen'
     challenge: true
   - 
-    title: הוסף גרפיקה
+    title: Add graphics
   - 
-    title: 'אתגר: צליל ומוסיקה'
+    title: 'Challenge: sound and music'
     challenge: true
   - 
-    title: 'אתגר: מרוץ ל -10 נקודות'
+    title: 'Challenge: race to 10 points'
     challenge: true
   - 
-    title: 'אתגר: מסך ההוראה'
+    title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: מה הלאה?
+    title: What next?
