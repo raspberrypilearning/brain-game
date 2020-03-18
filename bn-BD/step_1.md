@@ -1,14 +1,14 @@
-\----প্রিন্ট করা লাগবেনা --
+\--- no-print \---
 
-এই **স্ক্র্যাচ 3** প্রকল্পের সংস্করণ। প্রকল্প</a>এর স্ক্র্যাচ ২ সংস্করণ রয়েছে।</p> 
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\----প্রিন্ট করা লাগবেনা --
+\--- /no-print \---
 
-## পরিচিতি
+## Introduction
 
-এই প্রজেক্টে আপনি গণিতের একটি ক্যুইজ গেম তৈরি করবেন যা প্লেয়ারের 30 সেকেন্ডে যতটা সম্ভব সঠিক উত্তর দেবে।
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### যা তৈরি করতে হবে
+### What you will make
 
 \--- no-print \---
 
@@ -29,30 +29,30 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## \--- collapse \---
 
-## যা শিখতে পারবেন
+## title: What you will learn
 
-+ স্ক্র্যাচ মধ্যে সম্প্রচার ব্যবহার করুন
-+ কিভাবে একটি কাস্টম স্ক্র্যাচ ব্লক তৈরি এবং ব্যবহার করতে
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## যা যা প্রয়োজন
+## title: What you will need
 
-### হার্ডওয়্যার
+### Hardware
 
-+ একটি কম্পিউটার যেথানে স্ক্র্যাচ ২.০ (Scratch 3) চালানো যাবে
++ A computer capable of running Scratch 3
 
-### সফটওয়্যার
+### Software
 
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
--- /collapse \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
-## শিরোনাম: শিক্ষাবিদদের জন্য অতিরিক্ত নোট
+## title: Additional notes for educators
 
 \--- no-print \---
 
