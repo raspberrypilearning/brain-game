@@ -1,55 +1,55 @@
-## ग्राफिक्स जोडें
+## Add graphics
 
-फिलहाल, पात्र स्प्राइट खिलाड़ी के जवाब देने पर बस ` हाँ! :) ` या ` नहीं :( ` कहता है। खिलाड़ी को यह बताने के लिए कुछ ग्राफिक्स जोड़ें कि उनका उत्तर सही है या गलत।
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
 \--- task \---
 
-'परिणाम' नामक एक नया स्प्राइट बनाएँ, और इसे 'टिक/चेक' और 'क्रॉस' पोशाक दें।
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![टिक और क्रॉस पोशाक के साथ स्प्राइट](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
 \--- /task \---
 
 \--- task \---
 
-अपना पात्र स्प्राइट कोड बदलें ताकि खिलाड़ी को कुछ कहने के बजाय, यह 'सही' या 'गलत' संदेशों को `प्रसारित करें`{:class="block3events"}।
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![पात्र स्प्राइट](images/giga-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-अगर <(उत्तर) = ((संख्या 1) * (संख्या 2))> तो
+if <(answer) = ((number 1)*(number 2))> then
 
-- कहो [हाँ! :)] (2) सेकंड के लिए
-+ प्रसारित करें (सही v)
-अन्यथा
-- कहो [नहीं :(] (2) सेकंड के लिए
-+ प्रसारित करें (गलत v)
-अंत
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-अब आप इन संदेशों का उपयोग करके 'टिक' या 'क्रॉस' पोशाक `दिखाएँ` {:class="block3looks"}। निम्नलिखित कोड को 'परिणाम' स्प्राइट में जोड़ें:
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
 
-![परिणाम स्प्राइट](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    जब मुझे प्राप्त हो [सही v]
-    (टिक v) पोशाक दिखाएँ
-    दिखाएँ
-    (1) सेकंड प्रतीक्षा करें
-    छिपाएँ
-  
-    जब मुझे प्राप्त हो [गलत v]
-    (क्रॉस v) पोशाक दिखाएँ
-    दिखाएँ
-    (1) सेकंड प्रतीक्षा करें
-    छिपाएँ
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
 
-    जब झंडा क्लिक किया
-    छिपाएँ
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
+
+    when flag clicked
+    hide
 ```
 
 \--- /task \---
@@ -83,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-जीवंत करें को परिभाषित करें
-दिखाएँ
-(1) सेकंड प्रतीक्षा करें
-छिपाएँ
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -100,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    जब मुझे प्राप्त हो [सही v]
-    (टिक v) पोशाक दिखाएँ
-    जीवंत करें:: कस्टम
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-    जब मुझे प्राप्त हो [गलत v]
-    (क्रॉस v) पोशाक दिखाएँ
-    जीवंत करें:: कस्टम
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -126,13 +126,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    जीवंत करें को परिभाषित करें
-    [घोस्ट v] इफ़ेक्ट को (100) स्थिर करें
-    दिखाएँ
-    दोहराएँ (25)
-        [घोस्ट v] इफेक्ट को (-4) से बदलें
-    अंत
-    छिपाएँ
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
