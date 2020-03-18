@@ -1,4 +1,4 @@
-## Dodaj časovnik
+## Add a timer
 
 \--- task \---
 
@@ -21,21 +21,21 @@ Then add code to count `time`{:class="block3variables"} down to 0 within 30 seco
 Here are the blocks you need:
 
 ```blocks3
-ponavljaj < >
+repeat until < >
 
-konec
+end
 
-počakaj (1) sekund
+wait (1) seconds
 
-spremeni [čas v] by (-1)
+change [time v] by (1)
 
-(čas)
+(time)
 
-ko kliknemo na zastavico
+when flag clicked
 
 <() = ()>
 
-nastavi [čas v] na [0]
+set [time v] to [0]
 ```
 
 \--- /hint \---
@@ -45,12 +45,12 @@ nastavi [čas v] na [0]
 Here is the what your new code should look like:
 
 ```blocks3
-ko kliknemo na zastavico
-nastavi [čas v] na [30]
-ponavljaj dokler <(čas) = (0)>
-  počakaj (1) sekund
-  spremeni [čas v] za (-1)
-konec
+when flag clicked
+set [time v] to [30]
+repeat until <(time) = (0)>
+    wait (1) seconds
+    change [time v] by (-1)
+end
 ```
 
 \--- /hint \---
@@ -66,7 +66,7 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    objavi (konec v)
+    broadcast (end v)
 ```
 
 \--- /task \---
@@ -78,8 +78,8 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    ko prejmem [konec v]
-  ustavi [ostale ukaze za to figuro v]
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
 \--- /task \---
