@@ -1,11 +1,11 @@
-## Provocare: adaugă un scor și reacții
+## Challenge: add a score and reactions
 
-Poți adăuga un scor la jocul tău?
+Can you add a score to your game?
 
-Poți adăuga un cod astfel încât jucătorul să obțină un punct pentru fiecare răspuns corect. Dacă te simți viclean, poți adăuga și codul pentru a reseta scorul jucătorului la zero dacă dă un răspuns greșit!
+You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
 [[[generic-scratch3-high-score]]]
 
-Poți să-ți faci personajul să reacționeze la răspunsul jucătorului schimbându-i costumul in funcție de un răspuns corect sau incorect? 
+Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
 
 ![screenshot](images/brain-costume.png)
