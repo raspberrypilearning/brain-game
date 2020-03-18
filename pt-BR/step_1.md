@@ -6,7 +6,7 @@ Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 d
 
 ## Introdução
 
-Neste projeto você irá criar um quiz que o jogador terá 30 segundos para responder o maior número de respostas corretas possíveis.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
 ### O que você vai fazer
 
@@ -32,7 +32,7 @@ Click the button to start. Type in the answer to the question, and then press th
 ## title: O que você vai aprender
 
 + How to use broadcasts in Scratch
-+ Como criar e usar um bloco de Scratch personalizado
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
@@ -52,7 +52,7 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## \--- collapse \---
 
-## title: Notas adicionais para educadores
+## title: Additional notes for educators
 
 \--- no-print \---
 
