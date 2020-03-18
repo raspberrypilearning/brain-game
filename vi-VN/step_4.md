@@ -1,11 +1,11 @@
-## Thử thách: thêm điểm và phản ứng
+## Challenge: add a score and reactions
 
-Bạn có thể thêm một số điểm cho trò chơi của bạn?
+Can you add a score to your game?
 
-Bạn có thể thêm mã để người chơi ghi điểm cho mỗi câu trả lời đúng. Nếu bạn cảm thấy có ý nghĩa, bạn cũng có thể thêm mã để đặt lại điểm của người chơi về 0 nếu họ trả lời sai!
+You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
 [[[generic-scratch3-high-score]]]
 
-Bạn có thể khiến nhân vật của mình phản ứng với câu trả lời của người chơi bằng cách thay đổi sang một trang phục khác nếu câu trả lời đúng hay không chính xác?
+Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
 
-![ảnh chụp màn hình](images/brain-costume.png)
+![screenshot](images/brain-costume.png)
