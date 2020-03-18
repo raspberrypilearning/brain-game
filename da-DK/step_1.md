@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Dette er **Scratch 3** versionen af projektet. Der er også en [Scratch 2 version af projektet](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## Introduktion
+## Introduction
 
-I dette projekt opretter du et matematisk quiz-spil, hvor spilleren har 30 sekunder til at give så mange korrekte svar som muligt.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### Hvad du vil lave
+### What you will make
 
 \--- no-print \---
 
@@ -29,30 +29,30 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## \--- collapse \---
 
-## title: Du kommer til at lære følgende
+## title: What you will learn
 
-+ Sådan bruges udsendelser i Scratch
-+ Sådan opretter og bruger du en brugerdefineret Scratch-blok
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Du får brug for følgende
+## title: What you will need
 
 ### Hardware
 
-+ En computer, der er i stand til at køre Scratch 3
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 (enten [online](http://rpf.io/scratchon){: target = "_ blank"} eller [offline](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## titel: Yderligere noter til undervisere
+## title: Additional notes for educators
 
 \--- no-print \---
 
