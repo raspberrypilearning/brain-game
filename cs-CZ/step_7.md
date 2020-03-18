@@ -1,20 +1,20 @@
-## Přidej grafiku
+## Add graphics
 
-Zatím tvá postava reaguje na hráčovy odpovědi bublinkou `jo! :)` nebo `ne :(`. Pojďme hru vylepšit novou grafikou ze které hráč pozná jestli jeho odpověď byla správná nebo ne.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
 \--- task \---
 
-Vytvoř novou postavu 'Výsledek' a přidej ji kostým 'Fajfka' a 'Křížek'.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![Postava s kostýmem fajfky a křížku](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
 \--- /task \---
 
 \--- task \---
 
-Uprav scénář u postavy tak, aby namísto povídání odesílala `zprávu`{:class="block3events"} 'správně' nebo 'špatně'.
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![Obrázek postavy](images/giga-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
 if <(answer) = ((number 1)*(number 2))> then
@@ -31,9 +31,9 @@ end
 
 \--- task \---
 
-Teď můžeš díky zprávám `zobrazit` kostým 'fajfky' nebo 'křížku'. Přidej následující kód ke scénaři postavy 'Výsledek':
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
 
-![Postava Výsledek](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
