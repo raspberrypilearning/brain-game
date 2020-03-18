@@ -1,13 +1,13 @@
-## Thử thách: âm thanh và nhạc
+## Challenge: sound and music
 
-Bạn có thể thêm hiệu ứng âm thanh và nhạc vào trò chơi của bạn? Ví dụ: bạn có thể thêm vào trò chơi của mình:
+Can you add sound effects and music to your game? For example, you could have your game:
 
-+ Phát một âm thanh khi người chơi trả lời đúng hoặc sai
-+ Phát âm thanh tích tắc cho bộ đếm ngược thời gian
-+ Phát một âm thanh khi người chơi hết thời gian
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
 ```blocks3
-    chơi âm thanh (pop v) tới hết
+    play sound (pop v) until done
 ```
 
-Trò chơi của bạn cũng nên phát một bản nhạc nền bằng một vòng lặp.
+Your game could also constantly play background music on a loop.
