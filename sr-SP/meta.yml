@@ -1,36 +1,36 @@
 ---
-hero_image: имагес / браин-гаме.пнг
+hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Браин гаме
-description: Научите како да креирате квиз
+title: Brain game
+description: Learn how to create a quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Увод
+    title: Introduction
   - 
-    title: Направите питања
+    title: Create questions
   - 
-    title: Додајте тајмер
+    title: Add a timer
   - 
-    title: 'Изазов: додајте резултат и реакције'
+    title: 'Challenge: add a score and reactions'
     challenge: true
   - 
-    title: Мултипле гамес
+    title: Multiple games
   - 
-    title: 'Изазов: креирајте почетни екран'
+    title: 'Challenge: create a start screen'
     challenge: true
   - 
-    title: Адд грапхицс
+    title: Add graphics
   - 
-    title: 'Изазов: звук и музика'
+    title: 'Challenge: sound and music'
     challenge: true
   - 
-    title: 'Изазов: трка до 10 бодова'
+    title: 'Challenge: race to 10 points'
     challenge: true
   - 
-    title: 'Екран изазова: инструкције'
+    title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: Шта даље?
+    title: What next?
