@@ -1,4 +1,4 @@
-## 何回もプレーする
+## Multiple games
 
 Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
@@ -79,8 +79,8 @@ Add code to your button sprite so that the button shows again at the end of each
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    [end v] を受け取ったとき
-表示する
+    when I receive [end v]
+    show
 ```
 
 \--- /task \---
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    [時 v] を [10] にする
+    set [time v] to [10]
 ```
 
 \--- /task \---
