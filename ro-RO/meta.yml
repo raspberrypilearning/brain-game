@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Jocul minții
-description: Învățați cum să creați un chestionar
+title: Brain game
+description: Learn how to create a quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Introducere
+    title: Introduction
   - 
-    title: Creați întrebări
+    title: Create questions
   - 
-    title: Adăugați un cronometru
+    title: Add a timer
   - 
-    title: 'Provocare: adăugați un scor și reacții'
+    title: 'Challenge: add a score and reactions'
     challenge: true
   - 
-    title: Jocuri multiple
+    title: Multiple games
   - 
-    title: 'Provocare: creați un ecran de pornire'
+    title: 'Challenge: create a start screen'
     challenge: true
   - 
-    title: Adăugați grafică
+    title: Add graphics
   - 
-    title: 'Provocare: Sunete și muzică'
+    title: 'Challenge: sound and music'
     challenge: true
   - 
-    title: 'Provocare: Cursa la 10 puncte'
+    title: 'Challenge: race to 10 points'
     challenge: true
   - 
-    title: 'Provocare: ecran de instrucțiuni'
+    title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: Ce urmează?
+    title: What next?
