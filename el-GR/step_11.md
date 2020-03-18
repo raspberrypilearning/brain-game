@@ -4,7 +4,7 @@
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+Χρησιμοποίησε τα βελάκια του πληκτρολογίου για να περιστρέψεις το χειριστήριο και να πιάσεις τις ιπτάμενες τελείες καθώς πλησιάζουν το κέντρο. Αν χάσεις τρεις τελείες, το παιχνίδι τελειώνει.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
