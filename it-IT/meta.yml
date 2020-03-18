@@ -14,7 +14,7 @@ steps:
   - 
     title: Aggiungere un timer
   - 
-    title: 'Sfida: aggiungi un punteggio e reazioni'
+    title: 'Sfida: aggiungi punteggio e reazioni'
     challenge: true
   - 
     title: Giochi multipli
