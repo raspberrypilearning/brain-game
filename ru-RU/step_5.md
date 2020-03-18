@@ -1,6 +1,6 @@
-## Несколько игр
+## Multiple games
 
-Теперь вы собираетесь добавить кнопку «Играть», чтобы игрок мог играть в вашу игру много раз.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    когда щёлкнут по зелёному флагу
-    показаться
+    when flag clicked
+    show
 
-    когда спрайт нажат
-    спрятаться
-    передать (start v)
+    when this sprite clicked
+    hide
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,19 +42,19 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- когда флаг щелкнул
-+, когда я получил [start v]
-установите [number 1 v] в (выберите random (2) в (12))
-установите [number 2 v] в (выберите random (2) в (12) )
-спросить (присоединиться (номер 1) (присоединиться к [x] (номер 2))) и ждать
-если <(ответ) = ((номер 1) * (номер 2))> затем
-    сказать [да! :)] в течение (2) секунд
-иначе
-    произнесите [nope :(] в течение (2) секунд
-конца
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
-\--- / задача \---
+\--- /task \---
 
 \--- task \---
 
@@ -70,17 +70,17 @@ Can you see that the timer starts when the green flag is clicked, instead of whe
 
 Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
-\--- / задача \---
+\--- /task \---
 
-\--- задача \---
+\--- task \---
 
 Add code to your button sprite so that the button shows again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    когда я получу [конец v]
-    шоу
+    when I receive [end v]
+    show
 ```
 
 \--- /task \---
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    установите [время v] на [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
@@ -106,13 +106,13 @@ You can change how the button looks when the mouse pointer hovers over it.
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    когда флажок установлен,
-    показывает
-    навсегда
-    если <touching (mouse-pointer v)?> то
-        установите для эффекта [fisheye v] значение (30)
-    иначе для
-        установите для эффекта [fisheye v] значение (0)
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
     end
     end
 ```
