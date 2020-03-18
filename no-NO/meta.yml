@@ -1,36 +1,36 @@
 ---
-hero_image: bilder / hjerne-game.png
+hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Hjernespill
-description: Lær hvordan du lager en quiz
+title: Brain game
+description: Learn how to create a quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Introduksjon
+    title: Introduction
   - 
-    title: Lag spørsmål
+    title: Create questions
   - 
-    title: Legg til en tidtaker
+    title: Add a timer
   - 
-    title: 'Utfordring: legg til en poengsum og reaksjoner'
+    title: 'Challenge: add a score and reactions'
     challenge: true
   - 
-    title: Flere spill
+    title: Multiple games
   - 
-    title: 'Utfordring: Lag en startskjerm'
+    title: 'Challenge: create a start screen'
     challenge: true
   - 
-    title: Legg til grafikk
+    title: Add graphics
   - 
-    title: 'Utfordring: lyd og musikk'
+    title: 'Challenge: sound and music'
     challenge: true
   - 
-    title: 'Utfordring: løp til 10 poeng'
+    title: 'Challenge: race to 10 points'
     challenge: true
   - 
-    title: 'Utfordring: instruksjonsskjerm'
+    title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: Hva nå?
+    title: What next?
