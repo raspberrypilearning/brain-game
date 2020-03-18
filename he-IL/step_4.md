@@ -1,11 +1,11 @@
-## האתגר: להוסיף ציון ותגובות
+## Challenge: add a score and reactions
 
-אתה יכול להוסיף ניקוד למשחק שלך?
+Can you add a score to your game?
 
-אתה יכול להוסיף קוד כך שחקן ציונים נקודה עבור כל תשובה נכונה. אם אתה מרגיש מתכוון, אתה יכול גם להוסיף קוד לאפס את הציון של השחקן לאפס אם הם נותנים תשובה שגויה!
+You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
 [[[generic-scratch3-high-score]]]
 
-האם אתה יכול להפוך את הדמות שלך להגיב על התשובה של השחקן על ידי שינוי תחפושת אחרת אם התשובה נכונה או לא נכונה?
+Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
 
-![צילום מסך](images/brain-costume.png)
+![screenshot](images/brain-costume.png)
