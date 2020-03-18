@@ -1,18 +1,18 @@
-\---沒有印刷\---
+\--- no-print \---
 
-這是該項目的 **Scratch 3** 版本。項目</a>還有 Scratch 2版本。</p> 
+這個專案是 **Scratch 3** 版本。另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/brain-game-scratch2) 版本。
 
-\--- /無印刷\---
+\--- /no-print \---
 
 ## 介紹
 
-在這個項目中，你將創建一個數學測驗遊戲，玩家有30秒的時間給出盡可能多的正確答案。
+這個專案中，你會創建一個數學測驗遊戲，看看在 30 秒內玩家可以答對幾題。
 
-### 你要做什麼
+### 你會做出的玩意兒
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+點擊綠旗開始，畫面上會出現問題，輸入答案後按 <kbd>Enter</kbd> 鍵。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,43 +23,43 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![腦力遊戲](images/brain-final.png)
 
 \--- /print-only \---
 
-## - - 坍方 - -
+## \--- collapse \---
 
-## 標題：你將學到什麼
+## title: 你會學到
 
-+ 如何在Scratch中使用廣播
-+ 如何創建和使用自定義Scratch塊
++ 用 Scratch 程式廣播訊息
++ 用 Scratch 程式創建和使用函式積木
 
 \--- /collapse \---
 
-## - - 坍方 - -
+## \--- collapse \---
 
-## 標題：你需要什麼
+## title: 你會用到
 
-### 硬件
+### 硬體
 
-+ 能夠運行Scratch 3的計算機
++ 可運行 Scratch 3 的電腦
 
-### 軟件
+### 軟體
 
-+ 從頭開始3（ [在線](http://rpf.io/scratchon){：target =“_ blank”}或 [離線](http://rpf.io/scratchoff){：target =“_ blank”}）
++ Scratch 3（[線上版](http://rpf.io/scratchon){:target="_blank"} 或 [離線版](http://rpf.io/scratchoff){:target="_blank"}）
 
-- - /坍方 - -
+\--- /collapse \---
 
-## - - 坍方 - -
+## \--- collapse \---
 
-## 標題：教育工作者的附加說明
+## title: 給教師的其它資訊
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/brain-game/print)。
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/brain-game-get){:target="_blank"}。
 
 \--- /collapse \---
