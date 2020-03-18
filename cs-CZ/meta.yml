@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Hra mozku
-description: Naučte se, jak vytvořit kvíz
+title: Brain game
+description: Learn how to create a quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Úvod
+    title: Introduction
   - 
-    title: Vytvoření otázek
+    title: Create questions
   - 
-    title: Přidej časovač
+    title: Add a timer
   - 
-    title: 'Výzva: přidej skóre a reakce'
+    title: 'Challenge: add a score and reactions'
     challenge: true
   - 
-    title: Více her
+    title: Multiple games
   - 
-    title: 'Výzva: Úvodní obrazovka'
+    title: 'Challenge: create a start screen'
     challenge: true
   - 
-    title: Přidej grafiku
+    title: Add graphics
   - 
-    title: 'Výzva: zvuky a hudba'
+    title: 'Challenge: sound and music'
     challenge: true
   - 
-    title: 'Výzva: desetibodový závod'
+    title: 'Challenge: race to 10 points'
     challenge: true
   - 
-    title: 'Výzva: nápověda ke hře'
+    title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: Co dál?
+    title: What next?
