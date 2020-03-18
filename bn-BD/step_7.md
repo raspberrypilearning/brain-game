@@ -1,60 +1,58 @@
-## গ্রাফিক্স যোগ করুন
+## Add graphics
 
-মুহূর্তে, চরিত্র পরী ঠিক বলেছেন `হ্যাঁ! :)` বা `নং :(` প্লেয়ারের উত্তরের জন্য। প্লেয়ারটিকে তাদের উত্তরটি সঠিক বা ভুল কিনা তা জানার জন্য কিছু গ্রাফিক্স যোগ করুন।
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
-\--- কাজ \---
+\--- task \---
 
-'ফলাফল' নামক একটি নতুন স্প্রাইট তৈরি করুন এবং এটি একটি 'টিক / চেক' এবং একটি 'ক্রস' পরিচ্ছদ দিন।
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![টিক এবং ক্রস পোশাক সঙ্গে স্প্রাইট](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
-পরিবর্তে, এটা খেলোয়াড় কিছু বলার অপেক্ষা রাখে না, যাতে আপনার চরিত্র পরী এর কোড পরিবর্তন করুন `সম্প্রচার`{: শ্রেণি = "block3events"} বার্তা 'সঠিক' অথবা 'ভুল'।
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![অক্ষর স্প্রাইট](images/giga-sprite.png)
-
-```blocks3
-যদি <(উত্তর) = ((সংখ্যা 1) * (সংখ্যা 2))> তারপর
-
-- বলুন [হ্যাঁ! :)] জন্য (2) সেকেন্ড
-+ সম্প্রচার (সঠিক v)
-অন্য
-- বলুন [নাপ :(] জন্য (2) সেকেন্ড
-+ সম্প্রচার (ভুল v)
-শেষ
-```
-
-\--- /কাজ \---
-
-\--- কাজ \---
-
-এখন আপনি এই বার্তাগুলি `দেখানোর জন্য`{: class = "block3looks"} টি 'টিক' বা 'ক্রস' পরিচ্ছদ ব্যবহার করতে পারেন। নিম্নলিখিত ফলাফলটি 'ফলাফল' স্প্রাইটে যুক্ত করুন:
-
-![ফলাফল স্প্রাইট](images/result-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-    যখন আমি [সঠিক v]
-    সুইচ পরিচ্ছদ পেতে (টিক ভ)
-    শো
-    অপেক্ষা (1) সেকেন্ড
-    আমি যখন পাই তখন
+if <(answer) = ((number 1)*(number 2))> then
 
-    
- গোপন করুন [ভুল v]
-    সুইচ পরিচ্ছদ (ক্রস ভ)
-    শো
-    অপেক্ষা (1) সেকেন্ড
-
-
-
-    লুকান যখন পতাকাটি 
- লুকিয়ে থাকে
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
-\--- /কাজ \---
+\--- /task \---
+
+\--- task \---
+
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+
+![Result sprite](images/result-sprite.png)
+
+```blocks3
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
+
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
+
+    when flag clicked
+    hide
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -85,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-অ্যানিমেশন নির্ধারণ
-শো
-অপেক্ষা (1) সেকেন্ড
-লুকান
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -102,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    যখন আমি [সঠিক v]
-    সুইচ পরিচ্ছদটি পেতে (টিক v)
-    অ্যানিমেশন :: কাস্টম
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-    পাই তখন [ভুল v]
-    সুইচ পরিচ্ছদ (ক্রস ভ)
-    অ্যানিমেশন :: কাস্টম
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -119,7 +117,7 @@ Because of the custom `animate`{:class="block3myblocks"} block, you now only nee
 
 Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
-\--- /কাজ \---
+\--- /task \---
 
 \--- task \---
 
@@ -128,13 +126,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    অ্যানিমেট নির্ধারণ
-    সেট [ভূত ভী] প্রভাব থেকে (100)
-    শো
-    পুনরাবৃত্তি (25)
-        পরিবর্তন [ভূত ভী] প্রভাব দ্বারা প্রভাবিত (-4)
-    শেষ
-    লুকান
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
