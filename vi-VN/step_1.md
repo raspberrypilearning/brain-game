@@ -1,14 +1,14 @@
-\--- không in \---
+\--- no-print \---
 
-Đây là phiên bản **Scratch 3** của dự án. Ngoài ra còn có một [phiên bản Scratch 2 của dự án](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- / không in \---
+\--- /no-print \---
 
-## Giới thiệu
+## Introduction
 
-Trong dự án này, bạn sẽ tạo ra một trò chơi đố toán học trong đó người chơi có 30 giây để đưa ra càng nhiều câu trả lời đúng càng tốt.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### Bạn sẽ làm gì
+### What you will make
 
 \--- no-print \---
 
@@ -27,32 +27,32 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- /print-only \---
 
-## \--- sự sụp đổ \---
+## \--- collapse \---
 
-## tiêu đề: bạn sẽ học được gì
+## title: What you will learn
 
-+ Cách sử dụng chương trình phát sóng trong Scratch
-+ Cách tạo và sử dụng khối Scratch tùy chỉnh
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## tiêu đề: Những gì bạn sẽ cần
+## title: What you will need
 
-### Phần cứng
+### Hardware
 
-+ Một máy tính có khả năng chạy Scratch 3
++ A computer capable of running Scratch 3
 
-### Phần mềm
+### Software
 
-+ Cào 3 ( [trực tuyến](http://rpf.io/scratchon){: target = "_ blank"} hoặc [ngoại tuyến](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## tiêu đề: Ghi chú bổ sung cho các nhà giáo dục
+## title: Additional notes for educators
 
 \--- no-print \---
 
