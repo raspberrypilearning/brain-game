@@ -1,18 +1,18 @@
-## Направите питања
+## Create questions
 
-Почећете тако што ћете креирати случајна питања на која играч мора да одговори.
+You're going to start by creating random questions that the player has to answer.
 
-\--- задатак \---
+\--- task \---
 
-Отворите нови Сцратцх пројекат.
+Open a new Scratch project.
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Оффлине:** отворите нови пројекат у оффлине уређивачу.
+**Offline:** open a new project in the offline editor.
 
-Ако желите да преузмете и инсталирате Сцратцх оффлине едитор, можете га пронаћи на [рпф.ио/сцратцхофф](http://rpf.io/scratchoff){: таргет = "_ бланк"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-\--- /задатак \---
+\--- /task \---
 
 \--- task \---
 
@@ -32,7 +32,7 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /задатак \---
+\--- /task \---
 
 \--- task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-када је заставица кликнула
-поставила [број 1 в] на (изабери случајне (2) до (12))
-сет [број 2 в] до (изабери случајне (2) до (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,16 +55,16 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-кад је заставица кликнула
-поставила [број 1 в] на (изабери случајне (2) до (12))
-сет [број 2 в] до (изабери случајне (2) до (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ питај (придружи се (број 1) (придружите се [к] (број 2))) и сачекајте
-+ ако <(одговор) = ((број 1) * (број 2))> затим
-+ реците [да! :)] фор (2) сецондс
-+ елсе
-+ саи [но :(] за (2) секунди
-+ крај
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-заувек
-крај
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,18 +103,18 @@ Here is the block you need:
 Here is what your code should look like:
 
 ```blocks3
-када је заставица кликнула
+when flag clicked
 
-+ заувек
-    поставила [број 1 в] на (изабери случајне (2) до (12))
-    постави [број 2 в] на (изабери случајне (2) до (12))
-    питај (придружи се (број) 1) (придружите се [к] (број 2))) и сачекајте
-    ако <(одговор) = ((број 1) * (број 2))> затим
-        кажите [да! :)] за (2) секунди
-    друго
-        кажу [но :(] за (2) секунди
-    крај
-крај
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
