@@ -1,13 +1,13 @@
-## Desafiament: so i música
+## Challenge: sound and music
 
-Pots afegir efectes de so i música al teu joc? Per exemple, podeu tenir el vostre joc:
+Can you add sound effects and music to your game? For example, you could have your game:
 
-+ Reprodueix un so quan el jugador dóna una resposta correcta o incorrecta
-+ Reproduïu un so tàctil mentre s'executa el temporitzador de compte enrere
-+ Reprodueix un so quan s'acabi el temps del jugador
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
 ```blocks3
-    reproduir el so (pop v) fins que es faci
+    play sound (pop v) until done
 ```
 
-El teu joc també podria reproduir constantment música en segon pla.
+Your game could also constantly play background music on a loop.
