@@ -1,11 +1,11 @@
-## চ্যালেঞ্জ: একটি শুরু পর্দা তৈরি করুন
+## Challenge: create a start screen
 
-আপনি আপনার খেলার জন্য শুরু পর্দা হতে যাচ্ছে যে অন্য ব্যাকড্রপ যোগ করতে পারেন?
+Can you add another backdrop that is going to be the start screen for your game?
 
-আপনি ব্যবহার করতে পারেন `যখন আমি শুরু গ্রহণ`: {বর্গ = "block3events"} এবং `যখন আমি শেষ গ্রহণ`ব্যাকড্রপসমূহ মধ্যে স্যুইচ করার জন্য: {বর্গ = "block3events"} ব্লক।
+You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
-আপনার খেলা ব্যাকড্রপের মধ্যে সুইচ করার সময় চরিত্রটি দেখানোর বা লুকানোর জন্য, আপনি `শো`{: class = "block3looks"} এবং `লুকাতে পারেন`{: class = "block3looks"} ব্লকগুলি ব্যবহার করতে পারেন।
+To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
-আপনার খেলা ব্যাকড্রপের মধ্যে স্যুইচ করার সময় টাইমার এবং স্কোরটি দেখানোর বা লুকানোর জন্য, আপনি `শো পরিবর্তনশীল`{: class = "block3variables"} এবং `লুকান পরিবর্তনশীল`{: class = "block3variables"} ব্লক ব্যবহার করতে পারেন।
+To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
 
-![পর্দা শুরু কর](images/brain-startscreen.png)
+![Start screen](images/brain-startscreen.png)
