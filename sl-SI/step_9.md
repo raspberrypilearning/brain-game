@@ -1,15 +1,15 @@
-## Izziv: dirka do 10 točk
+## Challenge: race to 10 points
 
-Ali lahko spremeniš igro, tako da bo igralec moral namesto tega, da odgovori na čim več vprašanj v 30 sekundah, moral odgovoriti na 10 vprašanj v čim krajšem času.
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-Da bi to dosegel, moraš spremeniti le kodo časovnika. Ali veš, kateri bloki bi morali biti drugačni?
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
 ```blocks3
-    ko prejmem [začni v]
-  nastavi [čas v] na (30)
-  ponavljaj do <(čas) = [0]>
-    počakaj (1) sekund
-    spremeni [čas v] za (-1)
-  konec
-  objavi (konec v)
+    when I receive [start v]
+    set [time v] to (30)
+    repeat until <(time) = [0]>
+        wait (1) seconds
+        change [time v] by (-1)
+    end
+    broadcast (end v)
 ```
