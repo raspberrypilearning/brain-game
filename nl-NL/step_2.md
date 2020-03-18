@@ -16,7 +16,7 @@ Als je de Scratch offline editor wilt downloaden en installeren dan kun je die v
 
 \--- task \---
 
-Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+Kies een personage en een achtergrond voor je spel. Je kunt kiezen wat je wilt! Hier is een voorbeeld:
 
 ![screenshot](images/brain-setting.png)
 
@@ -24,7 +24,7 @@ Add a character sprite and a backdrop for your game. You can choose any you like
 
 \--- task \---
 
-Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+Zorg ervoor dat je je personage geselecteerd hebt. Maak twee nieuwe variabelen, genaamd `nummer 1`{:class="block3variables"} en `nummer 2`{:class="block3variables"}. Deze variabelen slaan de twee getallen op die samen worden vermenigvuldigd.
 
 ![screenshot](images/giga-sprite.png)
 
@@ -36,7 +36,7 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 \--- task \---
 
-Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+Voeg code toe aan je personage, om beide `variabelen`{:class="block3variables"} in te stellen op een `willekeurig`{:class="block3operators"} getal tussen 2 en 12.
 
 ![screenshot](images/giga-sprite.png)
 
@@ -50,7 +50,7 @@ maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
 
 \--- task \---
 
-Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+Voeg code toe waarin je aan de speler om het antwoord `vraagt`{:class="block3sensing"}, en vervolgens `zeg voor 2 seconden`{:class="block3looks"} of het antwoord juist of verkeerd was:
 
 ![screenshot](images/giga-sprite.png)
 
@@ -71,25 +71,25 @@ maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+Test jouw project twee keer: beantwoord de ene vraag goed en de andere verkeerd.
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+Voeg een `herhaal`{:class="block3control"} lus toe aan de code, zodat de speler veel vragen achter elkaar krijgt.
 
 \--- hints \---
 
 \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+Je moet een `herhaal`{:class="block3control"} blok toevoegen en alle code behalve de `wanneer groene vlag wordt aangeklikt`{:class="block3control"} daar naartoe verplaatsen.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the block you need:
+Dit is het blok dat je nodig hebt:
 
 ```blocks3
 herhaal
@@ -100,7 +100,7 @@ einde
 
 \--- hint \---
 
-Here is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
