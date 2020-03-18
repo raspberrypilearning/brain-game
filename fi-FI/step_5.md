@@ -1,6 +1,6 @@
-## Useita pelejä
+## Multiple games
 
-Nyt lisäät Play-painikkeen, jotta pelaaja voi pelata peliäsi monta kertaa.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    kun lippu napsautti
-    näyttää
+    when flag clicked
+    show
 
-    kun tämä sprite napsautti
-    piilota
-    lähetystä (alku v)
+    when this sprite clicked
+    hide
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,19 +42,19 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- kun lippu napsautti
-+, kun saan [start v]
-valitse [numero 1 v] (valitse satunnainen (2) - (12))
-aseta [numero 2 v] (valitse satunnainen (2) - (12) )
-kysy (liity (numero 1) (liity [x] (numero 2))) ja odota
-jos <(vastaus) = ((numero 1) * (numero 2))> sitten
-    sanoa [kyllä! :)] (2) sekunnin ajan
-muu
-    sanoa [nope :(] (2) sekunnin
-päähän
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
-\--- / tehtävä \---
+\--- /task \---
 
 \--- task \---
 
@@ -70,17 +70,17 @@ Can you see that the timer starts when the green flag is clicked, instead of whe
 
 Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
-\--- / tehtävä \---
+\--- /task \---
 
-\--- tehtävä \---
+\--- task \---
 
 Add code to your button sprite so that the button shows again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    kun saan [lop. v]
-    näyttää
+    when I receive [end v]
+    show
 ```
 
 \--- /task \---
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    aseta [aika v] - arvoksi [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
@@ -106,15 +106,15 @@ You can change how the button looks when the mouse pointer hovers over it.
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    kun lippu napsautti
-    näyttää
-    ikuisesti
-    jos <touching (mouse-pointer v)?> sitten
-        asettaa [kalansilmä v] vaikutus (30)
-    muuta
-        aseta [kalansilmä v] vaikutus (0)
-    loppuun
-    loppuun
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![screenshot](images/brain-fisheye.png)
