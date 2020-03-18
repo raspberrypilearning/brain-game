@@ -1,16 +1,16 @@
-## प्रश्न बनाना
+## Create questions
 
-आप ऐसे यादृच्छिक प्रश्न बनाकर शुरू करेंगे जिनका खिलाड़ी को जवाब देना है।
+You're going to start by creating random questions that the player has to answer.
 
 \--- task \---
 
-एक नया स्क्रैच प्रोजेक्ट खोलें।
+Open a new Scratch project.
 
-** ऑनलाइन: ** [ rpf.io/scratch-new ](http://rpf.io/scratch-new) पर एक नया ऑनलाइन स्क्रैच प्रोजेक्ट खोलें {: लक्ष्य = "_ blank"}।
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-** ऑफ़लाइन: ** ऑफ़लाइन संपादक में एक नया प्रोजेक्ट खोलें।
+**Offline:** open a new project in the offline editor.
 
-यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff) {:target="_blank"} पर पा सकते हैं।
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-जब झंडा क्लिक किया
-[संख्या 1 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें 
-[संख्या 2 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,16 +55,16 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-जब झंडा क्लिक किया
-[संख्या 1 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें 
-[संख्या 2 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ पूछें (जोड़ें (संख्या 1) (जोड़ें [x] (संख्या 2))) और प्रतीक्षा करें 
-+ यदि <(उत्तर) = ((संख्या 1) * (संख्या 2))> तो
-+ कहें [हाँ! :)] (2) सेकंड के लिए
-+ अन्यथा
-+ कहें [नहीं :(] (2) सेकंड के लिए
-+ अंत
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-हमेशा के लिए
-अंत
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,17 +103,18 @@ Here is the block you need:
 Here is what your code should look like:
 
 ```blocks3
-जब झंडा क्लिक किया
+when flag clicked
 
-+ हमेशा के लिए 
-   [संख्या 1 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें 
-   [संख्या 2 v] को (यादृच्छिक (2) से (12) के बीच चुने) स्थिर करें
-   पूछें (जोड़ें (संख्या 1) (जोड़ें [x] (संख्या 2))) और प्रतीक्षा करें 
-   यदि <(उत्तर) = ((संख्या 1) * (संख्या 2))> तो
-   कहें [हाँ! :)] (2) सेकंड के लिए
-   अन्यथा
-   कहें [नहीं :(] (2) सेकंड के लिए
-   अंत
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
