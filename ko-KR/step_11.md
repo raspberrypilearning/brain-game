@@ -1,6 +1,6 @@
-## 더 나아가기
+## What next?
 
-리액샌 게임을 만드는 "점들을 잡아라"를 해보세요 이 프로젝트에서는 스프라이트의 복제본을 만드는 방법과 변수를 사용하여 점차 게임 속도를 높이는 방법을 배우게됩니다.
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
 
 \--- no-print \---
 
