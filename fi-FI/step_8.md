@@ -1,13 +1,13 @@
-## Haaste: ääni ja musiikki
+## Challenge: sound and music
 
-Voitko lisätä äänitehosteita ja musiikkia peliin? Saatat esimerkiksi pelata:
+Can you add sound effects and music to your game? For example, you could have your game:
 
-+ Toista ääni, kun soitin antaa oikean tai väärän vastauksen
-+ Toista merkkiääni kuin ajastin toimii
-+ Toista ääni, kun pelaajan aika on päättynyt
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
 ```blocks3
-    Toista ääni (pop v), kunnes se on tehty
+    play sound (pop v) until done
 ```
 
-Pelisi voisi myös pelata jatkuvasti taustamusiikkia silmukalla.
+Your game could also constantly play background music on a loop.
