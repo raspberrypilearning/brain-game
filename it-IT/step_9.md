@@ -5,11 +5,11 @@ Puoi cambiare il gioco in modo che il giocatore, invece di rispondere a quante p
 Per apportare questa modifica, è sufficiente modificare il codice del timer. Riesci a vedere quali blocchi devono essere diversi?
 
 ```blocks3
-    when I receive [start v]
-    set [tempo v] to (30)
-    repeat until <(tempo) = [0]>
-        wait (1) seconds
-        change [tempo v] by (-1)
-    end
-    broadcast (end v)
+    quando ricevo [inizio v]
+porta [tempo v] a (30)
+ripeti fino a quando <(tempo) = [0]> 
+  attendi (1) secondi
+  cambia [tempo v] di (-1)
+end
+invia a tutti (fine v)
 ```
