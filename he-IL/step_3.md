@@ -1,4 +1,4 @@
-## הוסף טיימר
+## Add a timer
 
 \--- task \---
 
@@ -21,21 +21,21 @@ Then add code to count `time`{:class="block3variables"} down to 0 within 30 seco
 Here are the blocks you need:
 
 ```blocks3
-לחזור עד < >
+repeat until < >
 
-בסוף
+end
 
-המתנה (1) שניות
+wait (1) seconds
 
-שינוי [v זמן] על ידי (1)
+change [time v] by (1)
 
-(זמן)
+(time)
 
-כאשר הדגל לוחץ
+when flag clicked
 
 <() = ()>
 
-סט [v זמן] כדי [0]
+set [time v] to [0]
 ```
 
 \--- /hint \---
@@ -45,11 +45,11 @@ Here are the blocks you need:
 Here is the what your new code should look like:
 
 ```blocks3
-כאשר דגל לחץ
-קבע את [זמן] עד [30]
-חזור עד <(זמן) = (0)>
-    המתן (1) שניות
-    שינוי [time v] by (-1)
+when flag clicked
+set [time v] to [30]
+repeat until <(time) = (0)>
+    wait (1) seconds
+    change [time v] by (-1)
 end
 ```
 
@@ -57,16 +57,16 @@ end
 
 \--- /hints \---
 
-\--- / משימה \---
+\--- /task \---
 
-\--- \---
+\--- task \---
 
 Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    שידור (end v)
+    broadcast (end v)
 ```
 
 \--- /task \---
@@ -78,8 +78,8 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    כאשר אני מקבל [end v]
-    לעצור [סקריפטים אחרים בספרייט v]
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
 \--- /task \---
