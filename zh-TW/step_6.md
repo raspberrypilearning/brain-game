@@ -1,11 +1,11 @@
-## 挑戰：創建一個開始屏幕
+## 挑戰：設計初始畫面
 
-你能添加另一個背景，它將成為遊戲的開始畫面嗎？
+你能添加另一個背景，做為一開始進入遊戲的畫面嗎？
 
-可以使用 `時收到開始`{：類=“block3events”}和 `，當我接收端`{：類=“block3events”}塊到背景之間切換。
+你可以利用`當收到訊息開始`{:class="block3events"}以及`當收到訊息結束`{:class="block3events"}兩個積木來切換舞台的背景。
 
-要在遊戲在背景之間切換時顯示或隱藏角色，您可以使用 `show`{：class =“block3looks”}和 `隱藏`{：class =“block3looks”}塊。
+如果背景切換後，要顯示或隱藏一些角色，可以用`顯示`{:class="block3looks"}與`隱藏`{:class="block3looks"}積木。
 
-要在遊戲在背景之間切換時顯示或隱藏計時器和分數，您可以使用 `show variable`{：class =“block3variables”}和 `隱藏變量`{：class =“block3variables”}塊。
+如果只需要在遊戲進行時才顯示得分與計時，可以用`變數顯示`{:class="block3variables"}和`變數隱藏`{:class="block3variables"}積木。
 
-![開始屏幕](images/brain-startscreen.png)
+![初始畫面](images/brain-startscreen.png)
