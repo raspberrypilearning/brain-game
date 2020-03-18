@@ -1,4 +1,4 @@
-## Lägg till en timer
+## Add a timer
 
 \--- task \---
 
@@ -21,21 +21,21 @@ Then add code to count `time`{:class="block3variables"} down to 0 within 30 seco
 Here are the blocks you need:
 
 ```blocks3
-upprepa till < >
+repeat until < >
 
-slut
+end
 
-vänta (1) sekunder
+wait (1) seconds
 
-ändra [tid v] av (1)
+change [time v] by (1)
 
-(tid)
+(time)
 
-när flaggan klickas
+when flag clicked
 
 <() = ()>
 
-set [tid v] till [0]
+set [time v] to [0]
 ```
 
 \--- /hint \---
@@ -45,28 +45,28 @@ set [tid v] till [0]
 Here is the what your new code should look like:
 
 ```blocks3
-när flaggan klickade
-set [tid v] till [30]
-upprepa tills <(tid) = (0)>
-    vänta (1) sekunder
-    ändra [tid v] av (-1)
-slutet
+when flag clicked
+set [time v] to [30]
+repeat until <(time) = (0)>
+    wait (1) seconds
+    change [time v] by (-1)
+end
 ```
 
 \--- /hint \---
 
 \--- /hints \---
 
-\--- / uppgift \---
+\--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    sändning (slutet v)
+    broadcast (end v)
 ```
 
 \--- /task \---
@@ -78,8 +78,8 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    när jag får [end v]
-    stop [andra skript i sprite v]
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
 \--- /task \---
