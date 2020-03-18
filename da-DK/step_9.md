@@ -1,15 +1,15 @@
-## Udfordring: Race til 10 point
+## Challenge: race to 10 points
 
-Kan du ændre dit spil, så spilleren, i stedet for at svare så mange spørgsmål som muligt om 30 sekunder, besvare 10 spørgsmål så hurtigt som muligt.
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-For at gøre denne ændring er du kun nødt til at ændre din timerkode. Kan du se, hvilke blokke der skal være forskellige?
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
 ```blocks3
-    når jeg modtager [start v]
-    sæt [tid v] til (30)
-    gentag til <(tid) = [0]>
-        vent (1) sekunder
-        skift [tid v] af (-1)
-    slut
-    udsendelse v)
+    when I receive [start v]
+    set [time v] to (30)
+    repeat until <(time) = [0]>
+        wait (1) seconds
+        change [time v] by (-1)
+    end
+    broadcast (end v)
 ```
