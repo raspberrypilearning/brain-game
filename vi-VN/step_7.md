@@ -1,55 +1,55 @@
-## Thêm đồ họa
+## Add graphics
 
-Lúc này, nhân vật sprite chỉ nói `có!)`hoặc`không:(` cho câu trả lời của người chơi. Thêm một vài đồ hoạ để người chơi biết câu trả lời của họ chính xác hay không.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
 \--- task \---
 
-Tạo một đối tượng mới gọi là 'Kết quả', và cho nó 'chọn/kiểm tra' và bộ trang phục 'gạch ngang'.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![Đối tượng với trang phục chọn và chéo](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
 \--- /task \---
 
-\--- nhiệm vụ \---
+\--- task \---
 
-Thay mã đối tượng của bạn để, thay vì nói gì đó với người chơi, nó ` phát tin ` {: class = "block3events"} các thông báo 'chính xác' hoặc 'sai'.
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![Đối tượng nhân vật](images/giga-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-nếu <(đáp án) = ((số 1) * (số 2))> thì
+if <(answer) = ((number 1)*(number 2))> then
 
-- nói [có! :)] trong (2) giây
-+ phát tin (đúng v)
-ngược lại
-- nói [không :(] trong (2) giây
-+ phát sóng (sai v)
-kết thúc
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Bây giờ bạn có thể sử dụng các tin nhắn này để ` hiển thị ` {: class = "block3looks"} trang phục 'tick' hoặc 'cross'. Thêm mã sau vào sprite 'Kết quả':
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
 
-![Đối tượng kết quả](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    khi tôi nhận được [đúng v]
-    chuyển trang phục sang (chọn v)
-    hiển thị
-    chờ (1) giây
-    ẩn
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
 
-    khi tôi nhận [sai v]
-    chuyển trang phục sang (chéo v)
-    hiển thị
-    chờ (1) giây
-    ẩn
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
 
-    khi cờ được nhấp
-    ẩn
+    when flag clicked
+    hide
 ```
 
 \--- /task \---
@@ -83,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-định nghĩa animate
-hiển thị
-chờ (1) giây
-ẩn
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -100,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    khi tôi nhận được [đúng v]
-đổi trang phục thành (tick v)
-animate:: custom
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-khi tôi nhận được [sai v]
-đổi trang phục thành (chéo v)
-animate:: custom
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -126,13 +126,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    xác định hiệu ứng animate
-    đặt [ghost v] thành (100)
-    hiển thị
-    lặp lại (25) lần
-        thay đổi hiệu ứng [ghost v] bằng (-4)
-    kết thúc
-    ẩn
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
