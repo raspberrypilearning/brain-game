@@ -1,4 +1,4 @@
-## Idõzítõ hozzáadása
+## Add a timer
 
 \--- task \---
 
@@ -21,21 +21,21 @@ Then add code to count `time`{:class="block3variables"} down to 0 within 30 seco
 Here are the blocks you need:
 
 ```blocks3
-ismételje meg addig, amíg < >
+repeat until < >
 
-vége
+end
 
-várakozás (1) másodperc
+wait (1) seconds
 
-változtatás [idő v] (1)
+change [time v] by (1)
 
-(idő)
+(time)
 
-amikor a zászlóra kattintott
+when flag clicked
 
 <() = ()>
 
-beállítva [idő v] - [0]
+set [time v] to [0]
 ```
 
 \--- /hint \---
@@ -45,28 +45,28 @@ beállítva [idő v] - [0]
 Here is the what your new code should look like:
 
 ```blocks3
-ha a jelző
-állított [idő v] [30]
-ismételve, amíg <(idő) = (0)>
-    várakozás (1) másodperc
-    változtatás [idő v] a (-1)
-végével
+when flag clicked
+set [time v] to [30]
+repeat until <(time) = (0)>
+    wait (1) seconds
+    change [time v] by (-1)
+end
 ```
 
 \--- /hint \---
 
 \--- /hints \---
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
 Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    sugárzás (vége v)
+    broadcast (end v)
 ```
 
 \--- /task \---
@@ -78,8 +78,8 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    mikor kapok [vége v]
-    stop [más szkriptek sprite v]
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
 \--- /task \---
