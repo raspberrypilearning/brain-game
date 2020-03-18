@@ -1,6 +1,6 @@
-## Jocuri multiple
+## Multiple games
 
-Acum, vei adăuga un buton "Play", astfel încât jucătorul să poată juca jocul tău de mai multe ori.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    când dăm click pe steagul verde
-    arată
+    when flag clicked
+    show
 
-    când dăm click pe personaj 
-    ascunde
-    difuzează (începe v)
+    when this sprite clicked
+    hide
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,16 +42,16 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- atunci când dau click pe steagul verde
-+ când primesc [start v]
-setează [number 1 v] la (alegeți aleatoriu de la (2) la (12))
-setează [numărul 2 v] la (alegeți aleatoriu de la (2) la (12))
-cere (adaugă (numărul 1)(adaugă [x] (numărul 2))) și așteaptă
-dacă <(răspuns) = ((numărul 1) * (numărul 2))> apoi
-    spun [da! :)] pentru (2) secunde
-altceva
-    spune [nu :(] pentru (2) secunde
-sfarsit
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
 \--- /task \---
@@ -79,8 +79,8 @@ Add code to your button sprite so that the button shows again at the end of each
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    când primesc [sfârșit v]
-    arată
+    when I receive [end v]
+    show
 ```
 
 \--- /task \---
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    setați ora [v] la [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
@@ -106,15 +106,15 @@ You can change how the button looks when the mouse pointer hovers over it.
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    când pavilionul apăsat
-    arată
-    pentru totdeauna
-    dacă <touching (mouse-pointer v)?> apoi
-        setați [fishheye v] effect to (30)
-    altceva
-        set [efect fisheye v] efect la (0)
-    sfârșitul
-
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![screenshot](images/brain-fisheye.png)
