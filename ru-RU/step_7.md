@@ -1,58 +1,58 @@
-## Добавить графику
+## Add graphics
 
-На данный момент спрайт персонажа просто говорит `да! :)` или `нет :(` к ответам игрока. Добавьте графику, чтобы игрок знал, является ли его ответ правильным или неправильным.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
-\--- задача \---
+\--- task \---
 
-Создайте новый спрайт под названием «Результат» и дайте ему костюм «галочка / чек» и «крест».
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![Спрайт с клещами и крестовыми костюмами](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
-\--- / задача \---
+\--- /task \---
 
-\--- задача \---
+\--- task \---
 
-Измените код спрайта вашего персонажа так, чтобы вместо того, чтобы что-то сказать игроку, он `транслировал`{: class = "block3events"} сообщения "правильно" или "неправильно".
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![Спрайт персонажа](images/giga-sprite.png)
-
-```blocks3
-если <(ответ) = ((номер 1) * (номер 2))> то
-
-- сказать [да! :)] в течение (2) секунд
-+ широковещание (правильное v)
-противном случае
-- произнесите [nope :(] в течение (2) секунд
-+ широковещание (неправильное v)
-конец
-```
-
-\--- / задача \---
-
-\--- задача \---
-
-Теперь вы можете использовать эти сообщения `показать`{: класс = «block3looks»} «тик» или «крест» костюм. Добавьте следующий код к спрайту Result:
-
-![Результат спрайт](images/result-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-    когда я получаю [правильный v]
-    переключаю костюм на (отметьте v)
-    шоу
-    жду (1) секунды
-    скрываем
+if <(answer) = ((number 1)*(number 2))> then
 
-    когда я получаю [неправильный v]
-    переключаю костюм на (крест v)
-    показываю
-    жду (1) секунды
-    скрыть
-
-    когда флаг нажал
-    скрыть
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
-\--- / задача \---
+\--- /task \---
+
+\--- task \---
+
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+
+![Result sprite](images/result-sprite.png)
+
+```blocks3
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
+
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
+
+    when flag clicked
+    hide
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -83,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-определить анимацию
-показать
-ждать (1) секунды
-скрыть
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -100,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    когда я получаю [правильный v]
-    меняю костюм на (tick v)
-    animate :: custom
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-    когда я получаю [неправильный v]
-    меняю костюм на (cross v)
-    animate :: custom
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -117,7 +117,7 @@ Because of the custom `animate`{:class="block3myblocks"} block, you now only nee
 
 Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
-\--- / задача \---
+\--- /task \---
 
 \--- task \---
 
@@ -126,11 +126,11 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    определить animate
-    установить эффект [ghost v] на (100)
-    показать
-    повтор (25)
-        изменить эффект [ghost v] на (-4)
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
     end
     hide
 ```
