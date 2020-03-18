@@ -78,8 +78,8 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    [end v] を受け取ったとき
-[スプライトの他のスクリプト v] を止める
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
 \--- /task \---
