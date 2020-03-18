@@ -1,14 +1,14 @@
-\--- bez tlačenia \---
+\--- no-print \---
 
-Toto je verzia **Scratch 3** projektu. K dispozícii je tiež verzia [Scratch 2 projektu](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## úvod
+## Introduction
 
-V tomto projekte vytvoríte hru s matematickým kvízom, v ktorom má hráč 30 sekúnd, aby poskytol toľko správnych odpovedí, ako je to možné.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### Čo urobíte
+### What you will make
 
 \--- no-print \---
 
@@ -29,30 +29,30 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## \--- collapse \---
 
-## názov: Čo sa naučíte
+## title: What you will learn
 
-+ Ako používať vysielanie v aplikácii Scratch
-+ Ako vytvoriť a použiť vlastný blok Scratch
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## názov: Čo budete potrebovať
+## title: What you will need
 
-### technické vybavenie
+### Hardware
 
-+ Počítač schopný spustiť aplikáciu Scratch 3
++ A computer capable of running Scratch 3
 
-### softvér
+### Software
 
-+ Scratch 3 (buď [online](http://rpf.io/scratchon){: target = "_ blank"} alebo [offline](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-\--- / collapse \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
-## názov: Ďalšie poznámky pre pedagógov
+## title: Additional notes for educators
 
 \--- no-print \---
 
