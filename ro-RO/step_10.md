@@ -1,11 +1,11 @@
-## Provocare: ecran de instrucțiuni
+## Challenge: instruction screen
 
-Puteți adăuga un ecran de instrucțiuni care îi spune jucătorului cum să joace jocul? Pentru aceasta, aveți nevoie de un buton "Instrucțiuni" și de un alt fundal pentru scenă.
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-![captură de ecran](images/brain-instructions.png)
+![screenshot](images/brain-instructions.png)
 
-De asemenea, este posibil să fie necesar să adăugați un buton "Înapoi" care să permită jucătorului să revină la ecranul de pornire.
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
 ```blocks3
-    difuzat (ecranul de pornire v)
+    broadcast (start screen v)
 ```
