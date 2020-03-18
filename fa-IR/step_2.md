@@ -1,18 +1,18 @@
-## ایجاد سوالات
+## Create questions
 
-شما با ایجاد سوالات تصادفی که بازیکن باید پاسخگو باشد شروع می شود.
+You're going to start by creating random questions that the player has to answer.
 
-\--- وظیفه \---
+\--- task \---
 
-پروژه جدید خراش را باز کنید.
+Open a new Scratch project.
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**آفلاین:** پروژه جدید را در ویرایشگر آفلاین باز کنید.
+**Offline:** open a new project in the offline editor.
 
-اگر شما نیاز به دانلود و نصب ویرایشگر آفلاین Scratch دارید، می توانید آن را در [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"} پیدا کنید.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-\--- /وظیفه \---
+\--- /task \---
 
 \--- task \---
 
@@ -32,7 +32,7 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /وظیفه \---
+\--- /task \---
 
 \--- task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-هنگامی که پرچم روی دکمه
-تنظیم [شماره 1 V] به (انتخاب تصادفی (2) به (12))
-مجموعه [شماره 2 V] به (انتخاب تصادفی (2) به (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,16 +55,16 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-وقتی پرچم با کلیک بر روی
-تنظیم [شماره 1 V] به (انتخاب تصادفی (2) به (12))
-مجموعه [شماره 2 V] به (انتخاب تصادفی (2) به (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ درخواست (پیوستن (شماره 1) (پیوستن به [x] (شماره 2))) و منتظر
-+ اگر <(پاسخ) = ((شماره 1) * (شماره 2))> سپس
-+ می گویند [بله! :)) برای (2) ثانیه
-+ دیگر
-+ می گویند [no :(] برای (2) ثانیه
-+ پایان
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-برای همیشه
-پایان
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,18 +103,18 @@ Here is the block you need:
 Here is what your code should look like:
 
 ```blocks3
-هنگامی که پرچم روی
+when flag clicked
 
-+ برای همیشه کلیک کنید
-    مجموعه [شماره 1 V] به (انتخاب تصادفی (2) به (12))
-    مجموعه [شماره 2 V] به (انتخاب تصادفی (2) به (12))
-    درخواست (پیوستن 1) (پیوستن به [x] (شماره 2))) و منتظر
-    اگر <(پاسخ) = ((شماره 1) * (شماره 2))> سپس
-        می گویند [بله! :) برای (2) ثانیه
-    دیگر
-        می گویند [no :(] برای (2) ثانیه
-    پایان
-پایان
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
