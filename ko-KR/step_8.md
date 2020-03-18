@@ -1,13 +1,13 @@
-## 도전 과제 : 소리와 음악
+## Challenge: sound and music
 
-사운드 효과와 음악을 게임에 추가 할 수 있습니까? 예를 들어 다음과 같은 기능을 추가할 수 있습니다:
+Can you add sound effects and music to your game? For example, you could have your game:
 
-+ 플레이어가 정답 또는 오답을 제시할 때 소리 재생
-+ 카운트 다운 타이머가 실행될 때 똑딱 거리는 소리 재생
-+ 시간이 다되었을 때 소리 내기
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
 ```blocks3
-    끝날 때까지 소리를 내라.
+    play sound (pop v) until done
 ```
 
-끊임없이 배경 음악을 반복 재생하도록 할 수 있습니다.
+Your game could also constantly play background music on a loop.
