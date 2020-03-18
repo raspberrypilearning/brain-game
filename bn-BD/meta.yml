@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: মস্তিষ্কের খেলা
-description: কিভাবে একটি কুইজ তৈরি শিখুন
+title: Brain game
+description: Learn how to create a quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: পরিচিতি
+    title: Introduction
   - 
-    title: প্রশ্ন তৈরি করুন
+    title: Create questions
   - 
-    title: একটি টাইমার যোগ করুন
+    title: Add a timer
   - 
-    title: 'চ্যালেঞ্জ: একটি স্কোর এবং প্রতিক্রিয়া যোগ করুন'
+    title: 'Challenge: add a score and reactions'
     challenge: true
   - 
-    title: একাধিক গেম
+    title: Multiple games
   - 
-    title: 'চ্যালেঞ্জ: একটি শুরু পর্দা তৈরি করুন'
+    title: 'Challenge: create a start screen'
     challenge: true
   - 
-    title: গ্রাফিক্স যোগ করুন
+    title: Add graphics
   - 
-    title: 'চ্যালেঞ্জ: শব্দ এবং সঙ্গীত'
+    title: 'Challenge: sound and music'
     challenge: true
   - 
-    title: 'চ্যালেঞ্জ: 10 পয়েন্ট জাতি'
+    title: 'Challenge: race to 10 points'
     challenge: true
   - 
-    title: 'চ্যালেঞ্জ: নির্দেশনা পর্দা'
+    title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: তারপর কি?
+    title: What next?
