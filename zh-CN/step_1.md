@@ -1,18 +1,18 @@
 \--- no-print \---
 
-这个项目是基于**Scratch 3**版本，还有一个项目是基于[Scratch 2版本的](https://projects.raspberrypi.org/en/projects/brain-game-scratch2)
+此项目基于**Scratch 3**版本，另有一基于[Scratch 2版本](https://projects.raspberrypi.org/en/projects/brain-game-scratch2)的项目。
 
 \--- /no-print \---
 
-## 简介
+## 介绍
 
-在这个项目中，你将会创建一个数字测验游戏，玩家需要在30秒的时间内，尽可能的回答对更多题目。
+在这个项目中，你将会创建一个数字测验游戏。玩家需要在30秒的时间内，尽可能的回答对更多题目。
 
 ### 你将制作
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+点击按钮开始。输入答案，然后按下<kbd>回车</kbd>键
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,26 +23,26 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![脑力游戏](images/brain-final.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## 标题：你将学到
+## title：您将学到
 
 + 如何在Scratch中使用广播
-+ 如何创建和使用自定义的Scratch积木块
++ 如何创建和使用自定义的Scratch积木
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## 题目：你需要准备
+## title：你需要准备
 
 ### 硬件
 
-+ 能够运行Scratch 3的电脑
++ 一台能够运行Scratch 3的计算机
 
 ### 软件
 
@@ -56,10 +56,10 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+如果您需要打印本项目文件，请使用[合适的打印版本](https://projects.raspberrypi.org/en/projects/brain-game/print)
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+你可以在这里找到[完整项目](http://rpf.io/p/en/brain-game-get){:target="_blank"}。
 
 \--- /collapse \---
