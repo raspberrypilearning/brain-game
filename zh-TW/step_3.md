@@ -1,91 +1,91 @@
-## 添加計時器
+## 加入計時器
 
 \--- task \---
 
-Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+用一個名為`計時`{:class="block3variables"}的變數，幫忙在舞台倒數計時，從 30 秒開始，數到 0 為止。
 
-![Stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+建立一個變數，命名為`計時`{:class="block3variables"}，並把它的值預先設定為 `30`。
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+接者，添加程式，讓`計時`{:class="block3variables"}在 30 秒倒數到 0。 方法是，每經過 `1` 秒，`計時`{:class="block3variables"}就減掉 `1`，重複這個操作，直到`計時`{:class="block3variables"}等於 `0`。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+這裡是你需要的程式積木：
 
 ```blocks3
-重複直到 < >
+重複直到 <>
+end
 
-結束
+等待 (1) 秒
 
-等待（1）秒
+變數 [計時 v] 改變 (1)
 
-將[時間v]改變為（1）
+(計時)
 
-（時間）
+當 @greenflag 被點擊
+end
 
-當標記被點擊時
+ <() = (0)>
 
-<（）=（）>
-
-將[時間v]設置為 [0]
+變數 [計時 v] 設為 (0)
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the what your new code should look like:
+你的程式看起來應該像這樣：
 
 ```blocks3
-當標記點擊時
-設置[時間v]為 [30]
-重複直到 <（時間）=（0）>
-    等待（1）秒
-    將[時間v]改變為（-1）
-結束
+當 @greenflag 被點擊
+變數 [計時 v] 設為 (30)
+重複直到 <(計時) = (0)>
+    等待 (1) 秒
+    變數 [計時 v] 改變 (-1)
+end
 ```
 
 \--- /hint \---
 
 \--- /hints \---
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\---
+\--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+用`廣播`{:class="block3control"}發送「結束」的訊息。 0>廣播</code>{:class="block3control"}就像大聲公，所有的角色都會聽到發出的訊息。 把`廣播`{:class="block3control"}積木安排在計時程式的最後面，那樣子當`計時`{:class="block3variables"}到 `0` 的時候就會對大家發出結束的訊息。
 
-![Stage sprite](images/stage-sprite.png)
+![舞台角色](images/stage-sprite.png)
 
 ```blocks3
-    廣播（結束v）
+    廣播訊息 (結束 v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+在 Giga 角色上添加一些程式，讓角色在收到`結束`{:class="block3control"}的訊息時，`停止這個物件的其它程式`{:class="block3control"}。
 
-![Giga sprite](images/giga-sprite.png)
+![Giga 角色](images/giga-sprite.png)
 
 ```blocks3
-    當我收到[結束v]
-    停止[精靈v中的其他腳本]
+    當收到訊息 (結束 v)
+    停止 [這個物件的其它程式 v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+再試試你的遊戲，它應該會持續的問問題，直到倒數計時到 0。
 
 \--- /task \---
