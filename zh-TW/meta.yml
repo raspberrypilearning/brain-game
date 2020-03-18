@@ -1,36 +1,36 @@
 ---
-hero_image: 圖片/腦game.png
+hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: 腦力遊戲
-description: 了解如何創建測驗
+description: 創建一個數學測驗遊戲，看看在 30 秒內玩家可以答對幾題。
 version: 4.0.2
-last_tested: 2018年10月3日
+last_tested: 2018-10-03
 steps:
   - 
     title: 介紹
   - 
-    title: 創建問題
+    title: 建立隨機問題
   - 
-    title: 添加計時器
+    title: 加入計時器
   - 
-    title: '挑戰：添加分數和反應'
+    title: '挑戰：加入得分和反應'
     challenge: true
   - 
-    title: 多場比賽
+    title: 重複遊玩
   - 
-    title: '挑戰：創建一個開始屏幕'
+    title: '挑戰：設計初始畫面'
     challenge: true
   - 
-    title: 添加圖形
+    title: 添加圖像效果
   - 
-    title: '挑戰：聲音和音樂'
+    title: '挑戰：音效和音樂'
     challenge: true
   - 
-    title: '挑戰：比賽達到10分'
+    title: '挑戰：看誰最快到 10 分'
     challenge: true
   - 
-    title: '挑戰：指導屏幕'
+    title: '挑戰：設計說明畫面'
     challenge: true
   - 
-    title: 接下來是什麼？
+    title: 然後呢？
