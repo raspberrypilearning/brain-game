@@ -1,36 +1,36 @@
 ---
-hero_image: images / brain-game.png
+hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: بازی مغز
-description: یاد بگیرید چگونه یک مسابقه ایجاد کنید
+title: Brain game
+description: Learn how to create a quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: معرفی
+    title: Introduction
   - 
-    title: ایجاد سوالات
+    title: Create questions
   - 
-    title: تایمر را اضافه کنید
+    title: Add a timer
   - 
-    title: 'چالش: نمره و واکنش اضافه کنید'
+    title: 'Challenge: add a score and reactions'
     challenge: true
   - 
-    title: بازی های چندگانه
+    title: Multiple games
   - 
-    title: 'چالش: یک صفحه شروع ایجاد کنید'
+    title: 'Challenge: create a start screen'
     challenge: true
   - 
-    title: اضافه کردن گرافیک
+    title: Add graphics
   - 
-    title: 'چالش: صدا و موسیقی'
+    title: 'Challenge: sound and music'
     challenge: true
   - 
-    title: 'چالش: مسابقه به 10 امتیاز'
+    title: 'Challenge: race to 10 points'
     challenge: true
   - 
-    title: 'چالش: صفحه نمایش دستورالعمل'
+    title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: بعدش چی؟
+    title: What next?
