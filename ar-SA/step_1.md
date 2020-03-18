@@ -1,12 +1,12 @@
 \--- no-print \---
 
-هذا هو إصدار ** Scratch 3 ** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع ](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
 ## المقدمة
 
-في هذا المشروع، ستقوم بإنشاء لعبة اختبار للرياضيات يكون للاعب خلالها 30 ثانية لإعطاء أكبر عدد ممكن من الإجابات الصحيحة.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
 ### ما الذي ستصنعه
 
@@ -31,8 +31,8 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## title: ما الذي ستتعلمه
 
-+ كيف تستخدم البث في Scratch
-+ كيف تنشيء وتستخدم كتلة Scratch مخصصة
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
@@ -52,7 +52,7 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## \--- collapse \---
 
-## title: ملاحظات إضافية للمعلمين
+## title: Additional notes for educators
 
 \--- no-print \---
 
