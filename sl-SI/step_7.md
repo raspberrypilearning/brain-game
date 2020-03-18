@@ -1,55 +1,55 @@
-## Dodaj grafiko
+## Add graphics
 
-Trenutno figura lika na odgovor igralca reče zgolj `da! :)` ali `ne :(`. Dodaj nekaj grafike, da bo igralec vedel ali je odgovor pravilen ali ne.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
 \--- task \---
 
-Ustvari novo figuro z imenom 'Rezultat' in ji dodaj videz 'kljukice' in 'križca'.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![Figura z videzom kljukice in križca](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
 \--- /task \---
 
 \--- task \---
 
-Spremeni kodo figure lika na tak način, da bo namesto tega, da nekaj reče, `objavil` {:class="block3events"} sporočilo 'pravilno' ali 'narobe'.
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![Figura lika](images/giga-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-če <(odgovor) = ((število 1)*(število 2))> potem
+if <(answer) = ((number 1)*(number 2))> then
 
-- reci [da! :)] za (2) sekund
-+ objavi (pravilno v)
-sicer
-- reci [ne :(] za (2) sekund
-+ objavi (narobe v)
-konec
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Ta sporočila lahko sedaj uporabiš, da `pokažeš`{:class="block3looks"} videza 'kljukica' ali 'križec'. Dodaj sledečo kodo figuri 'Rezultat':
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
 
-![Figura rezultata](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    ko prejmem [pravilno v]
-  zamenjaj videz na (kljukica v)
-  pokaži
-  počakaj (1) sekund
-  skrij
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
 
-ko prejmem [narobe v]
-  zamenjaj videz na (križec v)
-  pokaži
-  počakaj (1) sekund
-  skrij
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
 
-ko kliknemo na zastavico
-  skrij
+    when flag clicked
+    hide
 ```
 
 \--- /task \---
@@ -83,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-definiraj animiraj
-pokaži
-počakaj (1) sekund
-skrij
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -100,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    ko prejmem [pravilno v]
-  zamenjaj videz na (kljukica v)
-  animiraj:: custom
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-ko prejmem [narobe v]
-  zamenjaj videz na (križec v)
-  animiraj:: custom
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -126,13 +126,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    definiraj animiraj
-  nastavi učinek [duh v] na (100)
-  pokaži
-  ponovi (25) krat
-    spremni učinek [duh] za (-4)
-  konec
-  skrij
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
