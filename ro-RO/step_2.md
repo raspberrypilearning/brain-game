@@ -1,16 +1,16 @@
-## Creează întrebări
+## Create questions
 
-Vei începe prin a crea întrebări aleatorii la care jucătorul trebuie să răspundă.
+You're going to start by creating random questions that the player has to answer.
 
 \--- task \---
 
-Deschide un nou proiect Scratch.
+Open a new Scratch project.
 
-**Online:** deschide un nou proiect Scratch la [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** deschide un nou proiect în editorul offline.
+**Offline:** open a new project in the offline editor.
 
-Dacă trebuie să descărci și să instalezi editorul offline Scratch, îl poți găsi la [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-când se dă clic pe steagul verde
-setează [numărul 1 v] pentru a (alege aleatoriu (2) până la (12))
-setează [numărul 2 v] pentru a (alege aleatoriu (2) până la (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,16 +55,16 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-când se dă click pe pictograma steag
-setează [numărul 1 v] pentru a (alege aleatoriu (2) până la (12))
-setează [numărul 2 v] pentru a (alege aleatoriu (2) până la (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ cere (adaugă (numărul 1) (adaugă [x] (numărul 2))) și așteaptă 
-+ dacă <(răspuns) = ((numărul 1) * (numărul 2))> apoi
-+ spune [da! :)] pentru (2) secunde
-+ altceva
-+ spune [no :(] pentru (2) secunde
-+ sfârșit
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-pentru totdeauna
-sfârșit
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,17 +103,18 @@ sfârșit
 Here is what your code should look like:
 
 ```blocks3
-când se dă click pe pictograma steag
+when flag clicked
 
-setează [numărul 1 v] pentru a (alege aleatoriu (2) până la (12))
-setează [numărul 2 v] pentru a (alege aleatoriu (2) până la (12))
-+ intreabă (adaugă (numărul 1) (adaugă [x] (numărul 2))) și așteaptă 
-+ dacă <(răspuns) = ((numărul 1) * (numărul 2))> apoi
-+ spune [da! :)] pentru (2) secunde
-    altceva
-        spune [no :(] pentru (2) secunde
-    sfârșit
-sfârșit
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
