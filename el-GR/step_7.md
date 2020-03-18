@@ -55,31 +55,31 @@ end
 
 \--- task \---
 
-Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+Δοκίμασε ξανά το παιχνίδι σου. Θα δεις ένα τικ κάθε φορά που θα έχεις μια σωστή απάντηση και ένα χι (x) κάθε φορά που θα έχεις μια λάθος!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
-
-\--- /task \---
-
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
-
-So you can change your code more easily, you are going to create a custom block.
-
-\--- task \---
-
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
-
-![Result sprite](images/result-sprite.png)
-
-![Create a block called animate](images/brain-animate-function.png)
+![Τικ για τη σωστή και x για τη λανθασμένη απάντηση](images/brain-test-answer.png)
 
 \--- /task \---
 
+Βλέπεις ότι ο κώδικας για το `when I receive correct`{:class="block3events"} και `when I receive wrong`{:class="block3events"} είναι σχεδόν πανομοιότυπος;
+
+Για να μπορείς να αλλάξεις τον κώδικά σου πιο εύκολα, θα δημιουργήσεις ένα προσαρμοσμένο μπλοκ.
+
 \--- task \---
 
-Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+Επίλεξε το αντικείμενο "Αποτέλεσμα". Στη συνέχεια, κάνε κλικ στο `Τα μπλοκ μου`{:class="block3myblocks"}, και στη συνέχεια στο **Δημιουργία μπλοκ** . Δημιούργησε ένα νέο μπλοκ και ονόμασέ το `κίνηση`{:class="block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![Αντικείμενο Αποτέλεσμα](images/result-sprite.png)
+
+![Δημιούργησε ένα μπλοκ που ονομάζεται κίνηση](images/brain-animate-function.png)
+
+\--- /task \---
+
+\--- task \---
+
+Μετακίνησε τον κώδικα για την `εμφάνιση`{:class="block3looks"} και την `απόκρυψη`{:class="block3looks"} του αντικειμένου 'Αποτέλεσμα' στο μπλοκ `κίνηση`{:class="block3myblocks"}:
+
+![Αντικείμενο Αποτέλεσμα](images/result-sprite.png)
 
 ```blocks3
 ορισμός κίνηση
@@ -92,11 +92,11 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 
 \--- task \---
 
-Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+Βεβαιώσου ότι έχεις αφαιρέσει τον κώδικα για την `εμφάνιση`{:class="block3looks"} και την `απόκρυψη`{:class="block3looks"} κάτω **και από τα δύο** μπλοκ των `ενδυμασιών`{:class="block3looks"}.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+Στη συνέχεια, πρόσθεσε το μπλοκ `κίνηση`{:class="block3myblocks"} κάτω από τα δύο μπλοκ των `ενδυμασιών`{:class="block3looks"}. Ο κώδικας θα πρέπει τώρα να φαίνεται ως εξής:
 
-![Result sprite](images/result-sprite.png)
+![Αντικείμενο Αποτέλεσμα](images/result-sprite.png)
 
 ```blocks3
     όταν λάβω [σωστό v]
@@ -110,19 +110,19 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+Λόγω του προσαρμοσμένου μπλοκ `κίνηση`{:class="block3myblocks"}, πρέπει να κάνεις μόνο μία αλλαγή στον κώδικά σου, εάν θέλεις να εμφανίσεις τις ενδυμασίες του αντικειμένου 'Αποτέλεσμα' για μεγαλύτερο ή μικρότερο χρονικό διάστημα.
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+Άλλαξε τον κώδικά σου, έτσι ώστε οι ενδυμασίες 'tick' ή 'cross' να εμφανίζονται για 2 δευτερόλεπτα.
 
 \--- /task \---
 
 \--- task \---
 
-Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+Αντί να `εμφανίζεις`{:class="block3looks"} και να `εξαφανίζεις`{:class="block3looks"} τις ενδυμασίες "tick" ή "cross", μπορείς να αλλάξεις το μπλοκ `κίνηση`{:class="block3myblocks"}, έτσι ώστε οι ενδυμασίες να εμφανίζονται σταδιακά.
 
-![Result sprite](images/result-sprite.png)
+![Αντικείμενο Αποτέλεσμα](images/result-sprite.png)
 
 ```blocks3
     ορισμός κίνηση
@@ -136,6 +136,6 @@ end
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Μπορείς να βελτιώσεις την κίνηση των γραφικών 'tick' ή 'cross'; Θα μπορούσες να προσθέσεις κώδικα για να κάνεις τις ενδυμασίες να ξεθωριάζουν, ή θα μπορούσες να χρησιμοποιήσεις άλλα φοβερά εφέ:
 
 ![screenshot](images/brain-effects.png)
