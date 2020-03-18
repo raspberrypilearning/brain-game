@@ -1,11 +1,11 @@
-## Задача: экран инструкций
+## Challenge: instruction screen
 
-Можете ли вы добавить экран инструкций, который говорит игроку, как играть в игру? Для этого вам понадобится кнопка «Инструкции» и еще один фон сцены.
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-![Скриншот](images/brain-instructions.png)
+![screenshot](images/brain-instructions.png)
 
-Вам также может понадобиться добавить кнопку «Назад», которая позволит игроку вернуться на стартовый экран.
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
 ```blocks3
-    трансляция (начальный экран v)
+    broadcast (start screen v)
 ```
