@@ -1,11 +1,11 @@
-## Екран изазова: инструкције
+## Challenge: instruction screen
 
-Можете ли додати екран с упутствима да играчу игра како се игра? За ово вам је потребно дугме 'Инструкције', и још једна позадинска сцена.
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
-![сцреенсхот](images/brain-instructions.png)
+![screenshot](images/brain-instructions.png)
 
-Можда ћете такође морати да додате дугме „Назад“ које омогућава да се играч врати на почетни екран.
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
 ```blocks3
-    емитовање (почетни екран в)
+    broadcast (start screen v)
 ```
