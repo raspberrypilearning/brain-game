@@ -1,16 +1,16 @@
-## 질문 만들기
+## Create questions
 
-플레이어가 대답할 수 있도록 임의의 질문을 만들어 보겠습니다.
+You're going to start by creating random questions that the player has to answer.
 
 \--- task \---
 
-새 Scratch 프로젝트를 엽니다.
+Open a new Scratch project.
 
-**온라인:** [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_ blank"}에서 새로운 온라인 스크래치 프로젝트 열기
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**오프라인 :** 오프라인 편집기에서 새 프로젝트를 엽니다.
+**Offline:** open a new project in the offline editor.
 
-Scratch 오프라인 편집기를 다운로드하여 설치해야하는 경우 [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}에서 찾을 수 있습니다.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-녹색 깃발을 클릭했을 때
-[1번 v] 을 ((2)부터 (12) 까지의 난수)로 설정
-[2번 v] 을 ((2)부터 (12) 까지의 난수)로 설정
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,16 +55,16 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-녹색 깃발을 클릭했을 때
-[1번 v] 을 ((2)부터 (12) 까지의 난수)로 설정
-[2번 v] 을 ((2)부터 (12) 까지의 난수)로 설정
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
- + ((number 1) 와 ([x] 와 (number 2) 결합하기) 결합하기)) 묻고 기다리기
- + 만약 <(answer) = ((1번)*(2번))> 이라면
- + 말하기 [맞습니다! :)] (2) 초 동안
-+ 아니면
-+ (2) 초 동안 [틀렸습니다!])
-+ 끝
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-영원히
-끝
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,18 +103,18 @@ Here is the block you need:
 Here is what your code should look like:
 
 ```blocks3
-녹색 깃발을 클릭했을 때
+when flag clicked
 
-+ 무한 반복
-    [1번 v] 을 ((2) 부터 (12) 까지의 난수) 로 설정
-    [2번 v] 을 ((2) 부터 (12) 까지의 난수) 로 설정
-    ((number 1)과 (join [ x ] (number 2) 결합하기) 결합하기) 묻고 기다리기
-    만약 <(answer) = ((1번)*(2번))> 이라면
-       말하기 [맞습니다! :)] (2) 초 동안
-    아니면
-        (2) 초 동안 [틀렸습니다 :(]) 말하기
-    끝
-끝
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
