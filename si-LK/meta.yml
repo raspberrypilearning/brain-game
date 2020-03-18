@@ -1,5 +1,5 @@
 ---
-hero_image: images / brain-game.png
+hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Brain game
@@ -8,11 +8,11 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: හැදින්වීම
+    title: Introduction
   - 
     title: Create questions
   - 
-    title: ටයිමරයක්(timer එකක්) එක් කිරීම
+    title: Add a timer
   - 
     title: 'Challenge: add a score and reactions'
     challenge: true
@@ -33,4 +33,4 @@ steps:
     title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: ඊලඟට කුමක්ද?
+    title: What next?
