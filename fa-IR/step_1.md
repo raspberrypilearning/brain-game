@@ -1,14 +1,14 @@
-\--- بدون چاپ \---
+\--- no-print \---
 
-این نسخه **Scratch 3** این پروژه است. همچنین یک وجود دارد [نسخه خراش 2 پروژه](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- / بدون چاپ \---
+\--- /no-print \---
 
-## معرفی
+## Introduction
 
-در این پروژه شما یک بازی مسابقه ریاضی ایجاد خواهید کرد که در آن بازیکن دارای 30 ثانیه است تا پاسخ های صحیح را به حداکثر برساند.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### چه کاری انجام خواهد داد
+### What you will make
 
 \--- no-print \---
 
@@ -27,32 +27,32 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- /print-only \---
 
-## \--- سقوط - فروپاشی \---
+## \--- collapse \---
 
-## عنوان: چیزی که یاد خواهید گرفت
+## title: What you will learn
 
-+ نحوه استفاده از پخش در خراش
-+ چگونه برای ایجاد و استفاده از یک بلوک سفارشی خراش
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
-## \--- سقوط - فروپاشی \---
+## \--- collapse \---
 
-## عنوان: آنچه شما نیاز دارید
+## title: What you will need
 
-### سخت افزار
+### Hardware
 
-+ یک کامپیوتر قادر به اجرای Scratch 3 است
++ A computer capable of running Scratch 3
 
-### نرم افزار
+### Software
 
-+ Scratch 3 (یا [آنلاین](http://rpf.io/scratchon){: target = "_ blank"} یا [آفلاین](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-\--- /سقوط - فروپاشی \---
+\--- /collapse \---
 
-## \--- سقوط - فروپاشی \---
+## \--- collapse \---
 
-## عنوان: یادداشت های اضافی برای مربیان
+## title: Additional notes for educators
 
 \--- no-print \---
 
