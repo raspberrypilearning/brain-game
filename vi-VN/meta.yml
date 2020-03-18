@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Trò chơi trí não
-description: Tìm hiểu làm thế nào để tạo ra một bài kiểm tra
+title: Brain game
+description: Learn how to create a quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Giới thiệu
+    title: Introduction
   - 
-    title: Tạo câu hỏi
+    title: Create questions
   - 
-    title: Thêm một bộ đếm thời gian
+    title: Add a timer
   - 
-    title: 'Thử thách: thêm điểm và phản ứng'
+    title: 'Challenge: add a score and reactions'
     challenge: true
   - 
-    title: Nhiều trò chơi
+    title: Multiple games
   - 
-    title: 'Thử thách: tạo màn hình bắt đầu'
+    title: 'Challenge: create a start screen'
     challenge: true
   - 
-    title: Thêm đồ họa
+    title: Add graphics
   - 
-    title: 'Thử thách: âm thanh và nhạc'
+    title: 'Challenge: sound and music'
     challenge: true
   - 
-    title: 'Thử thách: cuộc đua tới 10 điểm'
+    title: 'Challenge: race to 10 points'
     challenge: true
   - 
-    title: 'Thử thách: màn hình hướng dẫn'
+    title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: Bước tiếp theo?
+    title: What next?
