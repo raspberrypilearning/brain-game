@@ -1,6 +1,6 @@
-## একাধিক গেম
+## Multiple games
 
-এখন আপনি একটি 'প্লে' বোতাম যুক্ত করতে যাচ্ছেন, যাতে প্লেয়ার আপনার গেমটি অনেক বার খেলতে পারে।
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    যখন পতাকা ক্লিক
-    প্রদর্শনী
+    when flag clicked
+    show
 
-    এই পরী ক্লিক
-    লুকান
-    ব্রডকাস্ট (শুরু উ)
+    when this sprite clicked
+    hide
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,19 +42,19 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- যখন আমি
-ক্লিক করি তখন + ফ্ল্যাগে ক্লিক করুন [শুরু v]
-সেট [সংখ্যা 1 ভি] থেকে (র্যান্ডম (2) থেকে (12))
-সেট [সংখ্যা 2 ভি] থেকে (র্যান্ডম (2) থেকে (12) )
-জিজ্ঞাসা করুন (যোগদানের (নম্বর 1) (যোগদানের [X] (নম্বর 2))) এবং অপেক্ষা করুন
-যদি <(উত্তর) = ((নম্বর 1) * (সংখ্যা 2))> তারপর
-    বলে [হ্যাঁ! :)] জন্য (2) সেকেন্ড
-অন্য
-    বলুন [নাপ :(] জন্য (2) সেকেন্ড
-শেষ
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
-\--- /কাজ \---
+\--- /task \---
 
 \--- task \---
 
@@ -70,17 +70,17 @@ Can you see that the timer starts when the green flag is clicked, instead of whe
 
 Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
-\--- /কাজ \---
+\--- /task \---
 
-\--- কাজ \---
+\--- task \---
 
 Add code to your button sprite so that the button shows again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    যখন আমি [শেষ ভি]
-    শো পাবেন
+    when I receive [end v]
+    show
 ```
 
 \--- /task \---
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    সেট [সময় ভি] থেকে [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
@@ -106,15 +106,15 @@ You can change how the button looks when the mouse pointer hovers over it.
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    যখন ফ্ল্যাগটি
-    শো
-    চিরতরে ক্লিক করে
- <touching (mouse-pointer v)?> তারপর
-        সেট [ফিশেয় ভি] প্রভাবটি (30)
-    অন্য
-        সেট [ফিশেইএ ভি] প্রভাব (0)
-    শেষ
-    শেষের দিকে
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![screenshot](images/brain-fisheye.png)
