@@ -1,69 +1,69 @@
-## 創建問題
+## 建立隨機問題
 
-您將首先創建玩家必須回答的隨機問題。
-
-\---任務\---
-
-打開一個新的Scratch項目。
-
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
-
-**離線：** 在離線編輯器中打開一個新項目。
-
-如果您需要下載並安裝Scratch離線編輯器，可以在 [rpf.io/scratchoff](http://rpf.io/scratchoff){：target =“_ blank”}找到它。
-
-\--- /任務\---
+首先，你需要建立隨機問題，讓玩家回答。
 
 \--- task \---
 
-Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+建立一個新的 Scratch 專案。
 
-![screenshot](images/brain-setting.png)
+**線上版：**你可以連結 [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"} 以新建專案。
+
+**離線版：**在離線編輯器的工作列中開啟選單並點擊新建專案。
+
+如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
 
 \--- /task \---
 
 \--- task \---
 
-Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+為遊戲添加角色和背景，你可以選擇你喜歡的，這裡我要用 Giga 當角色：
 
-![screenshot](images/giga-sprite.png)
+![截圖](images/brain-setting.png)
 
-![screenshot](images/brain-variables.png)
-
-[[[generic-scratch3-add-variable]]]
-
-\--- /任務\---
+\--- /task \---
 
 \--- task \---
 
-Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+確定選取了你的角色後， 創建兩個變數，第一個叫`被乘數`{:class="block3variables"}，第二個叫`乘數`{:class="block3variables"}，用來暫時儲存要測驗的題目。
 
-![screenshot](images/giga-sprite.png)
+![截圖](images/giga-sprite.png)
+
+![截圖](images/brain-variables.png)
+
+[[[generic-scratch3-add-variable]]]
+
+\--- /task \---
+
+\--- task \---
+
+在 Giga 角色上編程，把這兩個`變數`{:class="block3variables"}設為`隨機取數`{:class="block3operators"}，數字範圍介於 2 到 12 之間。
+
+![截圖](images/giga-sprite.png)
 
 ```blocks3
-當標記點擊時
-設置[數字1 v]到（選擇隨機（2）到（12））
-設置[數字2 v]到（選擇隨機（2）到（12））
+當 @greenflag 被點擊
+變數 [被乘數 v] 設為 (隨機取數 (2) 到 (12))
+變數 [乘數 v] 設為 (隨機取數 (2) 到 (12))
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+接著讓 Giga `詢問`{:class="block3sensing"}乘法問題，玩家在看到題目後輸入答案。等到回答後，Giga `說出 2 秒`{:class="block3looks"}，告訴玩家是答對還是答錯：
 
-![screenshot](images/giga-sprite.png)
+![截圖](images/giga-sprite.png)
 
 ```blocks3
-當標記點擊時
-設置[數字1 v]到（選擇隨機（2）到（12））
-設置[數字2 v]到（選擇隨機（2）到（12））
+當 @greenflag 被點擊
+變數 [被乘數 v] 設為 (隨機取數 (2) 到 (12))
+變數 [乘數 v] 設為 (隨機取數 (2) 到 (12))
 
-+問（加入（數字1）） （加入[x]（數字2）））並等待
-+如果 <（回答）=（（數字1）*（數字2））> 然後
-+說[是！ :)] for（2）seconds
-+ else
-+ say [no :(] for（2）seconds
++ 詢問 (字串組合 (字串組合 ((被乘數)) (x)) ((乘數))) 並等待
++ 如果 <(詢問的答案) = ((被乘數)*(乘數))> 那麼
++ 說出 (答對！ ) 持續 (2) 秒
++ 否則
++ 說出 (答錯！) 持續 (2) 秒
 + end
 ```
 
@@ -71,48 +71,48 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+測試你的專案兩次：一次答對，另一次故意答錯。
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+用`重複無限次`{:class="block3control"}迴圈，讓玩家就會永無寧日，一直被問乘法問題。
 
 \--- hints \---
 
 \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+你要用`重複無限次`{:class="block3control"}積木把整個程式包住（除了`點擊綠旗`{:class="block3control"} ）。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the block you need:
+這裡是你需要的程式積木：
 
 ```blocks3
-永遠
-結束
+重複無限次
+end
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is what your code should look like:
+你的程式看起來應該像這樣：
 
 ```blocks3
-當標誌點擊
+當 @greenflag 被點擊
 
-+永遠
-    集[數字1 v]到（挑選隨機（2）到（12））
-    設置[數字2 v]到（挑選隨機（2）到（12））
-    問（加入（數字） 1）（加入[x]（數字2）））並等待
-    如果 <（回答）=（（數字1）*（數字2））> 然後
-        說[是！ :)] for（2）秒
-    else
-        說[no :(] for（2）seconds
++ 重複無限次
+    變數 [被乘數 v] 設為 (隨機取數 (2) 到 (12))
+    變數 [乘數 v] 設為 (隨機取數 (2) 到 (12))
+    詢問 (字串組合 (字串組合 ((被乘數)) (x)) ((乘數))) 並等待
+    如果 <(詢問的答案) = ((被乘數)*(乘數))> 那麼
+        說出 (答對！ ) 持續 (2) 秒
+    否則
+        說出 (答錯！) 持續 (2) 秒
     end
 end
 ```
