@@ -1,6 +1,6 @@
-## 여러 게임
+## Multiple games
 
-이제 플레이어가 게임을 여러 번 할 수 있도록 '재생'버튼을 추가 할 것입니다.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    ⚑ 클릭했을 때
-보이기
+    when flag clicked
+    show
 
-이 스프라이트를 클릭했을 때
-숨기기
-(start v) 신호 보내기
+    when this sprite clicked
+    hide
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,14 +42,15 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />+ [start v] 신호를 받았을 때
-[number 1 v] 을\(를\) ((2) 부터 (12) 사이의 난수) 로 정하기
-[number 2 v] 을\(를\) ((2) 부터 (12) 사이의 난수) 로 정하기
-((number 1) 와\(과\) ([ x ] 와\(과\) (number 2) 결합하기) 결합하기) 라고 묻고 기다리기
-만약 <(대답) = ((number 1) × (number 2))> \(이\)라면 
-  [yes! :)] 을\(를\) (2) 초 동안 말하기
-아니면 
-  [nope :(] 을\(를\) (2) 초 동안 말하기
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
 end
 ```
 
@@ -78,8 +79,8 @@ Add code to your button sprite so that the button shows again at the end of each
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    [end v] 신호를 받았을 때
-보이기
+    when I receive [end v]
+    show
 ```
 
 \--- /task \---
@@ -93,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    [시간 v]을 [10]으로 설정
+    set [time v] to [10]
 ```
 
 \--- /task \---
