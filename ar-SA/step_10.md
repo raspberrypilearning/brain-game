@@ -1,11 +1,11 @@
 ## التحدي: شاشة التعليمات
 
-هل يمكنك إضافة شاشة تعليمات للعبتك، توضح للاعب كيف يلعب اللعبة؟ ستحتاج إلى زر 'التعليمات'، وخلفية منصة أخرى.
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
 ![لقطة شاشة](images/brain-instructions.png)
 
-قد تحتاج أيضًا إلى إضافة زر "رجوع" يتيح للاعب العودة إلى شاشة البدء.
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
 ```blocks3
-    البث (شاشة البدء v)
+    broadcast (start screen v)
 ```
