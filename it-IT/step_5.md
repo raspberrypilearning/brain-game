@@ -4,92 +4,91 @@ Ora aggiungerai un pulsante "Gioca", in modo che il giocatore possa giocare molt
 
 \--- task \---
 
-Create a new 'Play' button sprite that the player needs to click to start a new game.
+Crea un nuovo pulsante "Gioca" su cui il giocatore deve fare clic per iniziare una nuova partita.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Puoi disegnare tu stesso lo sprite o modificare uno sprite dalla libreria.
 
-![Picture of the play button](images/brain-play.png)
+![Immagine del pulsante gioca](images/brain-play.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your button sprite:
+Aggiungi questo codice allo sprite del tuo pulsante:
 
-![Button sprite](images/button-sprite.png)
+![Sprite pulsante](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    quando si clicca sulla bandiera verde
+mostra
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+quando si clicca questo sprite
+nascondi
+invia a tutti (inizio v)
 ```
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Il nuovo codice include un altro blocco `broadcast`{:class="block3events"}, che invia il messaggio 'inizio'.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Il nuovo codice fa apparire lo sprite del pulsante 'Gioca' quando il giocatore fa clic sulla bandiera. Quando il giocatore fa clic sul pulsante sprite, lo sprite sparisce e trasmette un messaggio a cui altri sprite possono reagire.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+Al momento, lo sprite del personaggio inizia a fare domande quando il giocatore fa clic sulla bandiera. Cambia il codice del tuo gioco in modo che lo sprite personaggio inizi a fare domande quando riceve il messaggio 'start' `broadcast`{:class="block3events"}.
 
 \--- task \---
 
-Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+Seleziona il tuo sprite del personaggio e, nella sua sezione di codice, sostituisci il blocco `quando si clicca sulla bandiera`{:class = "block3events"} blocca con un blocco `quando ricevo start`{:class = "block3events"}.
 
-![Character sprite](images/giga-sprite.png)
+![Sprite personaggio](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [numero 1 v] to (pick random (2) to (12))
-set [numero 2 v] to (pick random (2) to (12))
-ask (join (numero 1)(join [ x ] (numero 2))) and wait
-if <(answer) = ((numero 1)*(numero 2))> then
-    say [si! :)] for (2) seconds
-else
-    say [no :(] for (2) seconds
-end
-```
-
-\--- /task \---
-
-\--- task \---
-
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
-
-\--- /task \---
-
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
-
-![Timer has started](images/brain-timer-bug.png)
-
-\--- task \---
-
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
-
-\--- /task \---
-
-\--- task \---
-
-Add code to your button sprite so that the button shows again at the end of each game.
-
-![Button sprite](images/button-sprite.png)
-
-```blocks3
-    when I receive [end v]
-    show
+<br />-  quando si clicca sulla bandiera verde
++ quando ricevo [inizio v]
+porta [numero 1 v] a (numero a caso tra (2) e (12))
+porta [numero 2 v] a (numero a caso tra (2) e (12))
+chiedi (unione di (numero 1) e (unione di [ x ] e (numero 2))) e attendi
+se <(risposta) = ((numero 1) * (numero 2))> allora 
+  dire [si! :)] per (2) secondi
+altrimenti 
+  dire [no :(] per (2) secondi
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Fai clic sulla bandiera verde, quindi fai clic sul nuovo pulsante "Gioca" per verificare se funziona. Dovresti vedere che il gioco non parte prima di aver fatto clic sul pulsante.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+\--- /task \---
+
+Riesci a vedere che il timer inizia quando viene cliccata la bandiera verde, invece che quando il gioco inizia?
+
+![Il timer è partito](images/brain-timer-bug.png)
+
+\--- task \---
+
+Riesci a modificare il codice del timer in modo che il timer inizi quando il giocatore clicca sul pulsante?
+
+\--- /task \---
+
+\--- task \---
+
+Aggiungi del codice al tuo pulsante in modo che il pulsante venga mostrato nuovamente alla fine di ogni gioco.
+
+![Sprite pulsante](images/button-sprite.png)
+
+```blocks3
+    quando ricevo [fine v]
+mostra
+```
+
+\--- /task \---
+
+\--- task \---
+
+Prova il pulsante "Gioca" giocando un paio di giochi. Il pulsante dovrebbe apparire alla fine di ogni partita.
+
+Per testare il gioco più velocemente, puoi cambiare il valore di `tempo`{:class="block3variables"} in modo che ogni gioco duri solo pochi secondi.
 
 ![Stage](images/stage-sprite.png)
 
@@ -101,22 +100,22 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- task \---
 
-You can change how the button looks when the mouse pointer hovers over it.
+Puoi anche modificare l'aspetto del pulsante di gioco quando il mouse passa ci passa sopra.
 
-![Button](images/button-sprite.png)
+![Pulsante](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
-    forever
-    if <touching (mouse-pointer v)?> then
-        set [fisheye v] effect to (30)
-    else
-        set [fisheye v] effect to (0)
-    end
-    end
+    quando si clicca sulla bandiera verde
+mostra
+per sempre 
+  se <0> allora 
+    porta effetto [fisheye v] a (30)
+  altrimenti 
+    porta effetto [fisheye v] a (0)
+  end
+end
 ```
 
-![screenshot](images/brain-fisheye.png)
+![schermata](images/brain-fisheye.png)
 
 \--- /task \---
