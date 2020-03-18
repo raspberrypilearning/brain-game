@@ -1,10 +1,10 @@
 ## E poi?
 
-Prova il progetto [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) per creare un gioco di reazione! In questo progetto, imparerai come creare cloni di sprite e come usare una variabile per accelerare gradualmente il gioco.
+Prova il progetto [Acchiappa Puntini](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) per creare un gioco di riflessi! In questo progetto, imparerai come creare cloni di sprite e come usare una variabile per accelerare gradualmente il gioco.
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+Usa i tasti freccia sulla tastiera per controllare la rotella e prendere i punti volanti mentre raggiungono il centro. Se manchi tre punti, il gioco è finito.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- print-only \---
 
-![Dots screenshot](images/dots-final.png)
+![Schermata del gioco](images/dots-final.png)
 
 \--- /print-only \---
