@@ -2,17 +2,17 @@
 
 You're going to start by creating random questions that the player has to answer.
 
-\--- función \---
+\--- task \---
 
-Abrir un nuevo proyecto de Scratch vacío.
+Open a new Scratch project.
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-** fuera de línea: ** Abre un nuevo proyecto en el editor offline.
+**Offline:** open a new project in the offline editor.
 
-Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
