@@ -1,8 +1,8 @@
-## Výzva: desetibodový závod
+## Challenge: race to 10 points
 
-Dokázal by si upravit hru tak, aby se namísto počítání správných odpovědí během 30 sekund počítal nejkratší čas během kterého hráč správně odpoví na 10 otázek?
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-Stačí upravit kód u časovače. Poznáš které bloky se změní?
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
 ```blocks3
     when I receive [start v]
