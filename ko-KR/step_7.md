@@ -1,28 +1,29 @@
-## 그래픽 추가
+## Add graphics
 
-현재 문자 스프라이트는 단순히 `맞습니다! :) ` 혹은 `틀립니다! :( ` 만 말합니다. 여기에 그래픽을 추가하여 정답이 맞는지 틀린지 시각적으로 표현하세요.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
 \--- task \---
 
-'체크'와 'x표'를 모두 포함하는 '결과'라는 새로운 스프라이트를 만듭니다.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![틱과 크로스 의상으로 된 스프라이트](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
 \--- /task \---
 
 \--- task \---
 
-캐릭터 스프라이트의 코드를 변경하여, '맞음' 과 '틀림' 신호를 `방송하기`{:class="block3events"}할 수 있도록 하세요.
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![문자 스프라이트](images/giga-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-만약 <(답) = ((1번) × (2번))> \(이\)라면 
-  [맞습니다! :)] 을\(를\) (2) 초 동안 말하기
-  + (맞음 v) 신호 보내기
-아니면 
-  [틀립니다 :(] 을\(를\) (2) 초 동안 말하기
-  + (틀림 v) 신호 보내기
+if <(answer) = ((number 1)*(number 2))> then
+
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
 end
 ```
 
@@ -30,25 +31,25 @@ end
 
 \--- task \---
 
-이제 `show`{:class="block3looks"} 메시지를 사용하여 '체크' 또는 'x표' 의상을 표시할 수 있습니다. 결과 스프라이트에 다음 코드를 추가하세요.
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
 
-![결과 스프라이트](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    [맞음 v] 신호를 받았을 때
-모양을 (체크 v) \(으\)로 바꾸기
-보이기
-(1) 초 기다리기
-숨기기
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
 
-[틀림 v] 신호를 받았을 때
-모양을 (x표 v) \(으\)로 바꾸기
-보이기
-(1) 초 기다리기
-숨기기
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
 
-⚑ 클릭했을 때
-숨기기
+    when flag clicked
+    hide
 ```
 
 \--- /task \---
@@ -82,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-애니메이션 정의하기
-보이기
-(1) 초 기다리기
-숨기기
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -99,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    [correct v] 신호를 받았을 때
-모양을 (체크 v) \(으\)로 바꾸기
-animate :: custom
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-[wrong v] 신호를 받았을 때
-모양을 (x표 v) \(으\)로 바꾸기
-animate :: custom
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -125,13 +126,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    정의하기 animate
-[ghost v] 효과를 (100) 로 정하기
-보이기
-(25) 번 반복하기 
-  [ghost v] 효과를 (-4) 만큼 바꾸기
-end
-숨기기
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
