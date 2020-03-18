@@ -1,11 +1,11 @@
-## Задача: создать стартовый экран
+## Challenge: create a start screen
 
-Можете ли вы добавить еще один фон, который станет стартовым экраном вашей игры?
+Can you add another backdrop that is going to be the start screen for your game?
 
-Вы можете использовать `когда я получаю start`{: class = "block3events"} и `когда я получаю end`{: class = "block3events"}, чтобы переключаться между фонами.
+You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
-Чтобы показать или скрыть персонажа, когда ваша игра переключается между фонами, вы можете использовать `show`{: class = "block3looks"} и `hide`{: class = "block3looks"}.
+To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
-Чтобы показать или скрыть таймер и счет, когда ваша игра переключается между фонами, вы можете использовать `show variable`{: class = "block3variables"} и `hide variable`{: class = "block3variables"} block.
+To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
 
-![Стартовый экран](images/brain-startscreen.png)
+![Start screen](images/brain-startscreen.png)
