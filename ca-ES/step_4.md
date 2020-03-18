@@ -1,11 +1,11 @@
-## Desafiament: afegiu una puntuació i reaccions
+## Challenge: add a score and reactions
 
-Pots afegir una puntuació al teu joc?
+Can you add a score to your game?
 
-Podeu afegir codi perquè el jugador puntuï un punt per a cada resposta correcta. Si se sent bé, també podeu afegir codi per restablir la puntuació del jugador a zero si donen una resposta equivocada.
+You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
 [[[generic-scratch3-high-score]]]
 
-Pot fer que el seu personatge reaccioni davant la resposta del jugador canviant a un vestit diferent si la resposta és correcta o incorrecta?
+Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
 
-![captura de pantalla](images/brain-costume.png)
+![screenshot](images/brain-costume.png)
