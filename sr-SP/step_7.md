@@ -1,58 +1,58 @@
-## Адд грапхицс
+## Add graphics
 
-У овом тренутку, лик сприте само каже `да! :)` или `не :(` до одговора играча. Додајте неке графике како би играч знао да ли је њихов одговор тачан или нетачан.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
-\--- задатак \---
+\--- task \---
 
-Направите нови сприте назван 'Ресулт', и дајте му 'тицк / цхецк' и 'цросс' костим.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![Сприте са костимима са крпељима и крстовима](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
-\--- /задатак \---
+\--- /task \---
 
-\--- задатак \---
+\--- task \---
 
-Промена кода ваш карактер Сприте тако да, уместо да кажете нешто на плејера, `емитује`{: цласс = "блоцк3евентс"} поруке "исправан" или "погрешан".
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![Цхарацтер сприте](images/giga-sprite.png)
-
-```blocks3
-ако је <(одговор) = ((број 1) * (број 2))> затим
-
-- реци [да! :)] фор (2) сецондс
-+ броадцаст (ригхт в)
-елсе
-- саи [нопе :(] фор (2) сецондс
-+ броадцаст (вронг в)
-енд
-```
-
-\--- /задатак \---
-
-\--- задатак \---
-
-Сада можете користити ове поруке у `схов`{: цласс = "блоцк3лоокс"} костим 'квачица' или 'крст'. Додајте следећи код у 'Резултат':
-
-![Резултат сприте](images/result-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-    када примим [исправити в]
-    пребацити костим на (откуцати в)
-    показати
-    чекати (1) секунди
-    сакрити
+if <(answer) = ((number 1)*(number 2))> then
 
-    када примим [погрешно в]
-    пребацити костим на (цросс в)
-    показати
-    чекати (1) секунде
-    сакриј
-
-    када је заставица кликнула
-    сакриј
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
-\--- /задатак \---
+\--- /task \---
+
+\--- task \---
+
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+
+![Result sprite](images/result-sprite.png)
+
+```blocks3
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
+
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
+
+    when flag clicked
+    hide
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -83,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-дефине анимате
-схов
-ваит (1) сецондс
-хиде
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -100,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    када примим [исправан в]
-    пребаците костим на (откуцајте в)
-    анимате :: цустом
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-    када примим [погрешно в]
-    пребаците костим на (цросс в)
-    анимате :: цустом
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -117,7 +117,7 @@ Because of the custom `animate`{:class="block3myblocks"} block, you now only nee
 
 Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
-\--- /задатак \---
+\--- /task \---
 
 \--- task \---
 
@@ -126,13 +126,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    дефинирајте анимате
-    сет [гхост в] ефект на (100)
-    прикажи
-    понављање (25)
-        промени [гхост в] ефекат (-4)
-    крај
-    сакриј
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
