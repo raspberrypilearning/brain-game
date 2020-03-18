@@ -1,16 +1,16 @@
-## Создай вопросы
+## Create questions
 
-Ты начнешь с создания случайных вопросов, на которые игрок должен ответить.
+You're going to start by creating random questions that the player has to answer.
 
 \--- task \---
 
-Открой новый проект Скретч.
+Open a new Scratch project.
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Офлайн:** открой новый проект в автономном редакторе.
+**Offline:** open a new project in the offline editor.
 
-Если тебе нужно скачать и установить оффлайн редактор Scratch, ты можешь найти его по адресу [rpf.io/scratchoff](http://rpf.io/scratchoff)\--- /task"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-задать [число 1 v] значение (выдать случайное от (2) до (12))
-задать [число 2 v] значение (выдать случайное от (2) до (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,15 +55,15 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-задать [число 1 v] значение (выдать случайное от (2) до (12))
-задать [число 2 v] значение (выдать случайное от (2) до (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ спросить (объединить (число 1) (объединить [ x ] (число 2))) и ждать
-+ если <(ответ) = ((число 1) * (число 2))>, то 
-+ говорить [да! :)] (2) секунд
-+ иначе 
-+ говорить [нет :(] (2) секунд
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
 + end
 ```
 
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-повторять всегда
-конец
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,18 +103,18 @@ Here is the block you need:
 Here is what your code should look like:
 
 ```blocks3
-когда щёлкнут по зелёному флагу
+when flag clicked
 
-+ повторять всегда 
-  задать [число 1 v] значение (выдать случайное от (2) до (12))
-  задать [число 2 v] значение (выдать случайное от (2) до (12))
-  спросить (объединить (число 1) (объединить [ x ] (число 2))) и ждать
-  если <(ответ) = ((число 1) * (число 2))>, то 
-    сказать [да! :)] (2) секунд
-  иначе 
-    говорить [no :(] (2) секунд
-  конец
-конец
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
