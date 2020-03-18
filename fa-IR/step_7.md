@@ -1,58 +1,58 @@
-## اضافه کردن گرافیک
+## Add graphics
 
-در حال حاضر، شخصیت ادعا فقط می گوید `بله! :)` یا `no :(` به پاسخ بازیکن. اضافه کردن برخی از گرافیک به اجازه بازیکن می دانم که آیا پاسخ آنها صحیح و یا نادرست است.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
-\--- وظیفه \---
+\--- task \---
 
-یک قاتل جدید به نام «نتیجه» ایجاد کنید و یک تیک / چک و یک صحنه «صلیب» بدهید.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![قهرمان با لباس تیک و کراس](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
-\--- /وظیفه \---
+\--- /task \---
 
-\--- وظیفه \---
+\--- task \---
 
-رمز عبور شخصی خود را تغییر دهید به طوری که، به جای اینکه چیزی را به بازیکن بگوید، `پخش`{: class = "block3events"} پیام "صحیح" یا "اشتباه" است.
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![امضا شخصیت](images/giga-sprite.png)
-
-```blocks3
-اگر <(جواب) = ((شماره 1) * (شماره 2))> سپس
-
-- می گویند [بله! (2) ثانیه
-+ پخش (درست V)
-دیگر
-- می گویند [nope :(] برای (2) ثانیه پخش
-+ (اشتباه V)
-پایان
-```
-
-\--- /وظیفه \---
-
-\--- وظیفه \---
-
-حالا شما می توانید از این پیام ها به `نشان دهید`{: class = "block3looks"} صحنه "تیک" یا "صلیب". کد زیر را به فیلد "نتیجه" اضافه کنید:
-
-![نتیجه جستجو](images/result-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-    هنگامی که من دریافت می کنم [صحیح V]
-    لباس سوئیچ به (تیک V)
-    نشان می دهد
-    صبر کنید (1) ثانیه
-    پنهان
+if <(answer) = ((number 1)*(number 2))> then
 
-    زمانی که من دریافت [اشتباه V]
-    سوئیچ لباس (عبور V)
-    نشان می دهد
-    صبر کنید (1) ثانیه
-    پنهان
-
-    زمانی که پرچم
-    پنهان را کلیک کرد
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
-\--- /وظیفه \---
+\--- /task \---
+
+\--- task \---
+
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+
+![Result sprite](images/result-sprite.png)
+
+```blocks3
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
+
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
+
+    when flag clicked
+    hide
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -83,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-تعریف کردن
-نمایش
-انتظار (1) ثانیه
-پنهان کردن
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -100,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    هنگامی که من دریافت می کنم [صحیح v]
-    سوئیچ لباس به (تیک V)
-    تحریک و خوشنویسی :: سفارشی
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-    هنگامی که من دریافت [اشتباه v]
-    سوئیچ لباس به (تقسیم V)
-    تحریک و تشجیع :: سفارشی
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -117,7 +117,7 @@ Because of the custom `animate`{:class="block3myblocks"} block, you now only nee
 
 Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
-\--- /وظیفه \---
+\--- /task \---
 
 \--- task \---
 
@@ -126,13 +126,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    تعریف تعریف
-    تنظیم [اثر روح v] به (100)
-    نمایش
-    تکرار (25)
-        تغییر [روح v] اثر توسط (-4)
-    پایان
-    پنهان
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
