@@ -1,6 +1,6 @@
-## Több játék
+## Multiple games
 
-Most hozzáad egy "Play" gombot, hogy a játékos sokszor játszhasson a játékban.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    amikor zászló kattintott
-    mutatják
+    when flag clicked
+    show
 
-    , ha ez a szellem kattintottak
+    when this sprite clicked
     hide
-    adás (start v)
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,19 +42,19 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- amikor a zászló +
-+ -ra kattintott, amikor [start v]
-kapok, állítsuk be a [szám 1 v] -ta (véletlenszerű (2) -ig (12))
-állítsuk be a [2-es számot] a (véletlenszerű (2) -ig (12) -ig) )
-kérje (csatlakozzon (1. szám) (csatlakozzon az [x] -hez (2-es szám))) és várjon
-ha <(válasz) = ((1-es szám) * (2. szám))> majd
-    mondja [igen! :)] (2) másodpercig
-más
-    mondja [nope :(] (2) másodperc
-végére
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
-\--- / feladat \---
+\--- /task \---
 
 \--- task \---
 
@@ -70,17 +70,17 @@ Can you see that the timer starts when the green flag is clicked, instead of whe
 
 Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
 Add code to your button sprite so that the button shows again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    mikor megkapom a [vége v]
-    show-t
+    when I receive [end v]
+    show
 ```
 
 \--- /task \---
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    állítsa be az [idő v] értékét [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
@@ -106,15 +106,15 @@ You can change how the button looks when the mouse pointer hovers over it.
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    ha a jelző
-    kattint,
-    örökre
-    ha <touching (mouse-pointer v)?> majd
-        állítsa be a [halszem v] hatást (30)
-    másikra
-        állítsa be a [halszem v] hatást a (0)
-    vég
-    végére
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![screenshot](images/brain-fisheye.png)
