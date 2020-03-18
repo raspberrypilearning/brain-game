@@ -1,4 +1,4 @@
-## Přidej časovač
+## Add a timer
 
 \--- task \---
 
