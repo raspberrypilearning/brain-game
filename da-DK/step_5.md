@@ -1,6 +1,6 @@
-## Mange spil
+## Multiple games
 
-Nu skal du tilføje en 'Play' -knap, så spilleren kan spille dit spil mange gange.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    når flag klikket
-    viser
+    when flag clicked
+    show
 
-    da dette sprite klikket
-    skjul
-    udsendelser (start v)
+    when this sprite clicked
+    hide
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,16 +42,16 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- når flag klikker
-+ når jeg modtager [start v]
-sæt [nummer 1 v] til (vælg tilfældigt (2) til (12))
-sæt [nummer 2 v] til (vælg tilfældigt (2) til (12) )
-spørg (join nummer 1) (join [x] (nummer 2))) og vent
-hvis <(svar) = ((nummer 1) * (nummer 2))> så
-    siger [ja! :)] for (2) sekunder
-andet
-    siger [nope :(] for (2) sekunder
-ende
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
 \--- /task \---
@@ -79,7 +79,7 @@ Add code to your button sprite so that the button shows again at the end of each
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    når jeg modtager [end v]
+    when I receive [end v]
     show
 ```
 
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    indstil [tid v] til [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
@@ -106,15 +106,15 @@ You can change how the button looks when the mouse pointer hovers over it.
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    når flag klikket
-    viser
-    evigt
-    hvis <touching (mouse-pointer v)?> derefter
-        sæt [fisheye v] effekt til (30)
-    andet
-        sæt [fisheye v] effekt til (0)
-    ende
-    ende
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![screenshot](images/brain-fisheye.png)
