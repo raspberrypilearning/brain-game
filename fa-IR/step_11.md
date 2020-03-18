@@ -1,6 +1,6 @@
-## بعدش چی؟
+## What next?
 
-Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! در این پروژه، شما می خواهید یاد بگیرند که چگونه کلون های حریم خصوصی را ایجاد کرده و چگونه از یک متغیر برای تسریع در سرعت بخشیدن به بازی استفاده کنید.
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
 
 \--- no-print \---
 
