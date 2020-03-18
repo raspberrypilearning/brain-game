@@ -1,58 +1,58 @@
-## Grafika hozzáadása
+## Add graphics
 
-Abban a pillanatban, a karakter sprite csak azt mondja `igen! :)` vagy `nem :(` a játékos válaszaihoz. Adjunk hozzá néhány grafikát, hogy a játékos tudja, hogy helyes-e vagy sem helyes.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
-\--- feladat \---
+\--- task \---
 
-Hozzon létre egy új "Sprite" nevet, és adjon neki egy "kullancsot / csekket" és egy "kereszt" jelmezet.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![Sprite kullancs és kereszt jelmezekkel](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
-\--- / feladat \---
+\--- /task \---
 
-\--- feladat \---
+\--- task \---
 
-Módosítsa a karakteres sprite kódját úgy, hogy ahelyett, hogy mondaná valamit a játékosnak, `sugároz`{: class = "block3events"} az üzeneteket "helyes" vagy "rossz".
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![Karakter sprite](images/giga-sprite.png)
-
-```blocks3
-ha <(válasz) = ((1-es szám) * (2. szám))> majd
-
-- mondjuk [igen! :)] (2) másodpercig
-+ sugárzás (helyes v)
-másik
-- mondjuk [nope :(] (2) másodpercre
-+ sugárzás (rossz v)
-vég
-```
-
-\--- / feladat \---
-
-\--- feladat \---
-
-Most már használhatja ezeket az üzeneteket `:`{: class = "block3looks"} a "kullancs" vagy a "kereszt" jelmezre. Adja hozzá a következő kódot az 'Eredmény' Sprite-hoz:
-
-![Eredmény sprite](images/result-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-    amikor kapok [helyes v]
-    kapcsolót jelmezek (k jelölés)
-    show
-    várakozás (1) másodperc
-    elrejtés
+if <(answer) = ((number 1)*(number 2))> then
 
-    ha kapok [rossz v]
-    kapcsoló jelmez (kereszt v)
-    show
-    várakozás (1) másodperc
-    elrejti a
-
-    amikor a zászló
-    kattintott
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
-\--- / feladat \---
+\--- /task \---
+
+\--- task \---
+
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+
+![Result sprite](images/result-sprite.png)
+
+```blocks3
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
+
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
+
+    when flag clicked
+    hide
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -83,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-animate
-megjelenítése
-várakozás (1) másodperc
-elrejtés
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -100,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    ha [helyes v]
-    kapcsolót kapok (jelölje be a v)
-    animációt :: custom
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-    ha [rossz v]
-    kapcsolót kapok (kereszt v)
-    animáció :: custom
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -117,7 +117,7 @@ Because of the custom `animate`{:class="block3myblocks"} block, you now only nee
 
 Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
-\--- / feladat \---
+\--- /task \---
 
 \--- task \---
 
@@ -126,13 +126,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    animate
-    set [ghost v] hatás definiálása (100)
+    define animate
+    set [ghost v] effect to (100)
     show
-    ismétlés (25)
-        [ghost v] hatás módosítása (-4)
-    vég
-    elrejtés
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
