@@ -1,6 +1,6 @@
-## Flera spel
+## Multiple games
 
-Nu ska du lägga till en "Play" -knapp så att spelaren kan spela ditt spel många gånger.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,10 +19,10 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    när flaggan klickade
-    visar
+    when flag clicked
+    show
 
-    när den här sprite klickade
+    when this sprite clicked
     hide
     broadcast (start v)
 ```
@@ -42,19 +42,19 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- när flaggan klickade
-+ när jag mottar [start v]
-set [number 1 v] till (välj slumpvis (2) till (12))
-set [nummer 2 v] till (välj slumpvis (2) till (12) )
-fråga (ansluta (nummer 1) (gå med i [x] (nummer 2))) och vänta
-om <(svar) = ((nummer 1) * (nummer 2))> då
-    säga [ja! :)] för (2) sekunder
-annars
-    säga [nope :(] för (2) sekunder
-slutet
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
-\--- / uppgift \---
+\--- /task \---
 
 \--- task \---
 
@@ -70,16 +70,16 @@ Can you see that the timer starts when the green flag is clicked, instead of whe
 
 Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
-\--- / uppgift \---
+\--- /task \---
 
-\--- uppgift \---
+\--- task \---
 
 Add code to your button sprite so that the button shows again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    när jag får [end v]
+    when I receive [end v]
     show
 ```
 
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    sätt [tid v] till [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
@@ -106,15 +106,15 @@ You can change how the button looks when the mouse pointer hovers over it.
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    när flaggan klickade
-    visa
-    alltid
-    om <touching (mouse-pointer v)?> sedan
-        sätt [fisheye v] effekt till (30)
-    annat
-        set [fisheye v] effekt till (0)
-    slutet
-    slutet
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![screenshot](images/brain-fisheye.png)
