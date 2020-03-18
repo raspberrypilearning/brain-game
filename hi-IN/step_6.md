@@ -1,11 +1,11 @@
-## चुनौती: एक प्रारंभ स्क्रीन बनायें
+## Challenge: create a start screen
 
-क्या आप एक और पृष्ठभूमि जोड़ सकते हैं जो आपके खेल के लिए प्रारम्भ स्क्रीन होगी?
+Can you add another backdrop that is going to be the start screen for your game?
 
-आप पृष्ठभूमि बदलने के लिए `जब मुझे प्रारम्भ प्राप्त हो`{:class="block3events"} `जब मुझे अंत प्राप्त हो`{:class="block3events"} ब्लॉक्स का इस्तेमाल कर सकते हैं।
+You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
-जब आपका खेल चरित्र को छुपाने या दिखाने के लिए पृष्ठभूमि बदलता है तो आप `दिखाएँ`{:class="block3looks"} और `छुपाएँ`{:class="block3looks"} ब्लॉक्स का उपयोग कर सकते हैं
+To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
-जब आपका खेल टाइमर और स्कोर को छुपाने या दिखाने के लिए पृष्ठभूमि बदलता है तो आप `चर दिखाएँ`{:class="block3looks"} और `चर छुपाएँ`{:class="block3looks"} ब्लॉक्स का उपयोग कर सकते हैं।
+To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
 
-![स्क्रीन प्रारंभ करें](images/brain-startscreen.png)
+![Start screen](images/brain-startscreen.png)
