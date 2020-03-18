@@ -1,4 +1,4 @@
-## Thêm một bộ đếm thời gian
+## Add a timer
 
 \--- task \---
 
@@ -21,21 +21,21 @@ Then add code to count `time`{:class="block3variables"} down to 0 within 30 seco
 Here are the blocks you need:
 
 ```blocks3
-lặp lại cho đến khi < >
+repeat until < >
 
-kết thúc
+end
 
-chờ (1) giây
+wait (1) seconds
 
-thay đổi [thời gian v] bằng (1)
+change [time v] by (1)
 
-(thời gian)
+(time)
 
-khi cờ nhấp
+when flag clicked
 
 <() = ()>
 
-đặt [thời gian v] thành [0]
+set [time v] to [0]
 ```
 
 \--- /hint \---
@@ -45,12 +45,12 @@ khi cờ nhấp
 Here is the what your new code should look like:
 
 ```blocks3
-khi cờ nhấp
-đặt [thời gian v] thành [30]
-lặp lại cho đến khi <(thời gian) = (0)>
-    chờ (1) giây
-    thay đổi [thời gian v] bằng (-1)
-kết thúc
+when flag clicked
+set [time v] to [30]
+repeat until <(time) = (0)>
+    wait (1) seconds
+    change [time v] by (-1)
+end
 ```
 
 \--- /hint \---
@@ -66,7 +66,7 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    phát sóng (kết thúc v)
+    broadcast (end v)
 ```
 
 \--- /task \---
@@ -78,8 +78,8 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    khi tôi nhận được [end v]
-    stop [các đoạn script khác trong sprite v]
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
 \--- /task \---
