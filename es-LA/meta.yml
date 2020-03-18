@@ -8,11 +8,11 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Perdidos en el espacio
+    title: Introduction
   - 
     title: Create questions
   - 
-    title: Agregar un temporizador
+    title: Add a timer
   - 
     title: 'Challenge: add a score and reactions'
     challenge: true
@@ -33,4 +33,4 @@ steps:
     title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: '¿Que sigue?'
+    title: What next?
