@@ -1,6 +1,6 @@
-## משחקים מרובים
+## Multiple games
 
-עכשיו אתה הולך להוסיף כפתור 'הפעל', כך השחקן יכול לשחק את המשחק שלך הרבה פעמים.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    כאשר דגל לחץ
-    להראות
+    when flag clicked
+    show
 
-    כאשר זה ספרייט לחץ
-    להסתיר
-    שידור (להתחיל V)
+    when this sprite clicked
+    hide
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,19 +42,19 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- כאשר הדגל ילחץ על
-+ כאשר אני מקבל [set v]
-[מספר 1 v] ל (בחר אקראי) 2 (עד) 12 ()
-בחר [מספר 2 v] ל (בחר אקראי) 2 (עד) 12 (
-) שאל (הצטרף מספר 1) (הצטרף [x] (מספר 2)) ולחכות
-אם <(תשובה) = ((מספר 1) * (מספר 2))> ואז
-    לומר [כן! :)] עבור (2) שניות
-אחר
-    לומר [nope :(] עבור (2) שניות
-סוף
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
-\--- / משימה \---
+\--- /task \---
 
 \--- task \---
 
@@ -70,17 +70,17 @@ Can you see that the timer starts when the green flag is clicked, instead of whe
 
 Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
-\--- / משימה \---
+\--- /task \---
 
-\--- \---
+\--- task \---
 
 Add code to your button sprite so that the button shows again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    כאשר אני מקבל [end v]
-    הצג
+    when I receive [end v]
+    show
 ```
 
 \--- /task \---
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    הגדר את [time v] ל- [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
@@ -106,15 +106,15 @@ You can change how the button looks when the mouse pointer hovers over it.
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    כאשר הדגל לוחצים
-    הראה
-    לעד
-    אם <touching (mouse-pointer v)?> אז
-        סט [v עין הדג] תוקף (30)
-    אחר
-        סט [v עין הדג] תוקף (0)
-    סוף
-    סוף
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![screenshot](images/brain-fisheye.png)
