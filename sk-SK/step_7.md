@@ -1,58 +1,58 @@
-## Pridajte grafiku
+## Add graphics
 
-V súčasnej dobe postava sprite hovorí `áno! :)` alebo `no :(` odpovede hráča. Pridajte nejakú grafiku a nechajte prehrávač vedieť, či je jeho odpoveď správna alebo nesprávna.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
-\--- úloha \---
+\--- task \---
 
-Vytvorte nový skript nazývaný "Výsledok" a zverte ho "krížikom" a "krížovým" kostýmom.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![Sprite s kliešťami a krížovými kostýmami](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
-\--- / úloha \---
+\--- /task \---
 
-\--- úloha \---
+\--- task \---
 
-Zmeňte kód vášho znakového sprite tak, že namiesto toho, aby niečo povedal hráčovi, `vysiela`{: class = "block3events"} správy "správne" alebo "zlé".
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![Sprite znakov](images/giga-sprite.png)
-
-```blocks3
-ak <(odpoveď) = ((číslo 1) * (číslo 2))> potom
-
-- povedzte [yes! :)] pre (2) sekúnd,
-+ vysielanie (správny objem)
-iný
-- povedzme [Nie :(] pre (2) sekúnd,
-+ vysielanie (zle v)
-koniec
-```
-
-\--- / úloha \---
-
-\--- úloha \---
-
-Teraz môžete použiť tieto správy na `zobraziť`{: class = "block3looks"} "kliešť" alebo "cross" kostým. Pridajte nasledujúci kód do výsledku Sprite:
-
-![Výsledok sprite](images/result-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-    keď dostanem [správne v]
-    prepínač kostým na (začiarknite v)
-    zobraziť
-    čakať (1) sekundy
-    skryť
+if <(answer) = ((number 1)*(number 2))> then
 
-    keď dostanem [nesprávne v]
-    kostým prepnúť na (kríž v)
-    zobraziť
-    čakať (1) sekúnd
-    skryť
-
-    keď sa vlajka klikne
-    skryť
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
-\--- / úloha \---
+\--- /task \---
+
+\--- task \---
+
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+
+![Result sprite](images/result-sprite.png)
+
+```blocks3
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
+
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
+
+    when flag clicked
+    hide
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -83,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-definovať animovať
-zobraziť
-čakať (1) sekundy
-skryť
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -100,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    keď dostanem [správne v]
-    kostým prepnúť na (zaškrtnite v)
-    animate :: vlastné
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-    keď dostanem [nesprávne v]
-    prepnúť kostým na (kríž v)
-    animate :: vlastné
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -117,7 +117,7 @@ Because of the custom `animate`{:class="block3myblocks"} block, you now only nee
 
 Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
-\--- / úloha \---
+\--- /task \---
 
 \--- task \---
 
@@ -126,13 +126,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    definovať animovať
-    nastaviť [ghost v] efekt na (100)
-    zobraziť
-    opakovať (25)
-        zmeniť [ghost v] efekt podľa (-4)
-    koniec
-    skryť
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
