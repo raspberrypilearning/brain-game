@@ -1,13 +1,13 @@
-## Provocare: sunet și muzică
+## Challenge: sound and music
 
-Puteți adăuga efecte sonore și muzică la jocul dvs.? De exemplu, ați putea avea jocul dvs.:
+Can you add sound effects and music to your game? For example, you could have your game:
 
-+ Redați un sunet când playerul oferă un răspuns corect sau incorect
-+ Redați un sunet bătător pe măsură ce rulează cronometrul de numărătoare inversă
-+ Redați un sunet când timpul jucătorului este în sus
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
 ```blocks3
-    redați sunetul (pop v) până când ați terminat
+    play sound (pop v) until done
 ```
 
-Jocul dvs. poate, de asemenea, să redea în mod constant muzică de fundal pe o buclă.
+Your game could also constantly play background music on a loop.
