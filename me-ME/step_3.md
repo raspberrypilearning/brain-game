@@ -1,4 +1,4 @@
-## Izazov: Promjena kostima
+## Add a timer
 
 \--- task \---
 
@@ -78,7 +78,7 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    when I receive [kraj v]
+    when I receive [end v]
     stop [other scripts in sprite v]
 ```
 
