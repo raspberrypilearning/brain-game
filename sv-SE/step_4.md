@@ -1,11 +1,11 @@
-## Utmaning: lägg till en poäng och reaktioner
+## Challenge: add a score and reactions
 
-Kan du lägga till ett poäng i ditt spel?
+Can you add a score to your game?
 
-Du kan lägga till kod så att spelaren får en poäng för varje korrekt svar. Om du känner dig meningsfull, kan du också lägga till kod för att återställa spelarens poäng till noll om de ger fel svar!
+You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
 
 [[[generic-scratch3-high-score]]]
 
-Kan du få din karaktär att reagera på spelarens svar genom att byta till en annan kostym om svaret är korrekt eller felaktigt?
+Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
 
-![skärmdump](images/brain-costume.png)
+![screenshot](images/brain-costume.png)
