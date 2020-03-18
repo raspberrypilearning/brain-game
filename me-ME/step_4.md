@@ -1,4 +1,4 @@
-## Izazov: Dodavanje bodova
+## Challenge: add a score and reactions
 
 Can you add a score to your game?
 
