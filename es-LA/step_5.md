@@ -70,9 +70,9 @@ Can you see that the timer starts when the green flag is clicked, instead of whe
 
 Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
-\--- / tarea \---
+\--- /task \---
 
-\--- tarea \---
+\--- task \---
 
 Add code to your button sprite so that the button shows again at the end of each game.
 
