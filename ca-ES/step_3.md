@@ -1,4 +1,4 @@
-## Afegiu un temporitzador
+## Add a timer
 
 \--- task \---
 
@@ -21,21 +21,21 @@ Then add code to count `time`{:class="block3variables"} down to 0 within 30 seco
 Here are the blocks you need:
 
 ```blocks3
-repetiu fins a < >
+repeat until < >
 
-final
+end
 
-espera (1) segons
+wait (1) seconds
 
-canvi [temps v] per (1)
+change [time v] by (1)
 
-(temps)
+(time)
 
-quan es fa clic a la bandera
+when flag clicked
 
 <() = ()>
 
-fixar [temps v] a [0]
+set [time v] to [0]
 ```
 
 \--- /hint \---
@@ -45,28 +45,28 @@ fixar [temps v] a [0]
 Here is the what your new code should look like:
 
 ```blocks3
-quan l'indicador fa clic a
-estableix [temps v] a [30]
-repeteix fins a <(temps) = (0)>
-    espera (1) segons
-    canvia [hora v] per (-1)
-final
+when flag clicked
+set [time v] to [30]
+repeat until <(time) = (0)>
+    wait (1) seconds
+    change [time v] by (-1)
+end
 ```
 
 \--- /hint \---
 
 \--- /hints \---
 
-\--- / tasca \---
+\--- /task \---
 
-\--- tasca \---
+\--- task \---
 
 Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    emissió (final v)
+    broadcast (end v)
 ```
 
 \--- /task \---
@@ -78,8 +78,8 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    quan rebo [final v]
-    stop [altres scripts en sprite v]
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
 \--- /task \---
