@@ -1,6 +1,6 @@
-## Diversos jocs
+## Multiple games
 
-Ara, afegireu un botó "Reproduir", perquè el jugador pugui jugar moltes vegades.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    quan es fa clic a l'indicador
-    mostra
+    when flag clicked
+    show
 
-    quan es fa clic a aquest sprite
-    ocultar
-    emissions (inici v)
+    when this sprite clicked
+    hide
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,19 +42,19 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- quan es fa clic a la bandera
-+ quan rebo [inici v]
-conjunt [número 1 v] a (seleccioneu aleatòries (2) a (12))
-establir [número 2 v] a (seleccioneu aleatòries (2) a (12) )
-pregunteu (uniu-vos (número 1) (uniu-vos [x] (número 2))) i espereu
-si <(resposta) = ((nombre 1) * (número 2))> i
-    digueu [sí! :)] per (2) segons
-més
-    digue [nope :(] per (2) segons
-final
+<br />- when flag clicked
++ when I receive [start v]
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
+ask (join (number 1)(join [ x ] (number 2))) and wait
+if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
-\--- / tasca \---
+\--- /task \---
 
 \--- task \---
 
@@ -70,17 +70,17 @@ Can you see that the timer starts when the green flag is clicked, instead of whe
 
 Can you change the code for the timer so that the timer starts when the player clicks on the button?
 
-\--- / tasca \---
+\--- /task \---
 
-\--- tasca \---
+\--- task \---
 
 Add code to your button sprite so that the button shows again at the end of each game.
 
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    quan rebo l'exhibició [final v]
-
+    when I receive [end v]
+    show
 ```
 
 \--- /task \---
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    estableixi [temps v] en [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
@@ -106,15 +106,15 @@ You can change how the button looks when the mouse pointer hovers over it.
 ![Button](images/button-sprite.png)
 
 ```blocks3
-    quan es fa clic a la bandera
-    mostren
-    per sempre
-    si <touching (mouse-pointer v)?> i
-        defineixen [fisheye v] efecte a (30)
-    més
-        conjunt [fisheye v] efecte a (0)
-    final
-    final
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![screenshot](images/brain-fisheye.png)
