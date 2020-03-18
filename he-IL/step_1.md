@@ -1,14 +1,14 @@
 \--- no-print \---
 
-זוהי **Scratch 3** גרסה של הפרויקט. יש גם גרסה [שריטה 2 של הפרויקט](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## מבוא
+## Introduction
 
-בפרויקט זה תוכלו ליצור משחק חידון במתמטיקה שבו השחקן יש 30 שניות לתת תשובות נכונות רבות ככל האפשר.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### מה תעשה
+### What you will make
 
 \--- no-print \---
 
@@ -27,32 +27,32 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- /print-only \---
 
-## \--- An קבוצה
+## \--- collapse \---
 
-## title: מה תלמד
+## title: What you will learn
 
-+ כיצד להשתמש בשידורים ב - Scratch
-+ כיצד ליצור ולהשתמש בלוק שריטה מותאם אישית
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
-## \--- An קבוצה
+## \--- collapse \---
 
-## הכותרת: מה שאתה צריך
+## title: What you will need
 
-### חומרה
+### Hardware
 
-+ מחשב המסוגל להריץ Scratch 3
++ A computer capable of running Scratch 3
 
-### תוכנה
+### Software
 
-+ Scratch 3 (או [מקוון](http://rpf.io/scratchon){: target = "_ blank"} או [לא מקוון](http://rpf.io/scratchoff): {target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-\--- / קריסה \---
+\--- /collapse \---
 
-## \--- An קבוצה
+## \--- collapse \---
 
-## title: הערות נוספות למחנכים
+## title: Additional notes for educators
 
 \--- no-print \---
 
