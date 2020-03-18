@@ -1,4 +1,4 @@
-## Više igara
+## Multiple games
 
 Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
@@ -79,7 +79,7 @@ Add code to your button sprite so that the button shows again at the end of each
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [kraj v]
+    when I receive [end v]
     show
 ```
 
@@ -94,7 +94,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 ![Stage](images/stage-sprite.png)
 
 ```blocks3
-    set [vrijeme v] to [10]
+    set [time v] to [10]
 ```
 
 \--- /task \---
