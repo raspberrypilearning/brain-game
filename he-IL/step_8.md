@@ -1,13 +1,13 @@
-## אתגר: צליל ומוסיקה
+## Challenge: sound and music
 
-האם אתה יכול להוסיף אפקטים קוליים ומוסיקה למשחק שלך? לדוגמה, אתה יכול לקבל את המשחק שלך:
+Can you add sound effects and music to your game? For example, you could have your game:
 
-+ השמע צליל כאשר הנגן נותן תשובה נכונה או שגויה
-+ השמע צליל מתקתק כאשר שעון העצר פועל
-+ להשמיע קול כאשר הזמן של השחקן הוא למעלה
++ Play a sound when the player gives a correct or incorrect answer
++ Play a ticking sound as the countdown timer runs
++ Play a sound when the player's time is up
 
 ```blocks3
-    להשמיע צליל (פופ v) עד לסיום
+    play sound (pop v) until done
 ```
 
-המשחק שלך יכול גם כל הזמן לנגן מוסיקה ברקע על לולאה.
+Your game could also constantly play background music on a loop.
