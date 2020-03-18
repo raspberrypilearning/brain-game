@@ -1,16 +1,16 @@
-## Tạo câu hỏi
+## Create questions
 
-Bạn sẽ bắt đầu bằng cách tạo các câu hỏi ngẫu nhiên mà người chơi phải trả lời.
+You're going to start by creating random questions that the player has to answer.
 
-\---nhiệm vụ\---
+\--- task \---
 
-Mở một dự án Scratch mới.
+Open a new Scratch project.
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Ngoại tuyến:** mở một dự án mới trong trình chỉnh sửa ngoại tuyến.
+**Offline:** open a new project in the offline editor.
 
-Nếu bạn cần tải xuống và cài đặt trình soạn thảo ngoại tuyến Scratch, bạn có thể tìm thấy nó tại [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-khi cờ nhấp
-đặt [số 1 v] thành (chọn ngẫu nhiên (2) thành (12))
-đặt [số 2 v] thành (chọn ngẫu nhiên (2) thành (12)
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,16 +55,16 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-khi cờ nhấp
-đặt [số 1 v] thành (chọn ngẫu nhiên (2) thành (12))
-đặt [số 2 v] thành (chọn ngẫu nhiên (2) đến (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ hỏi (tham gia (số 1) (tham gia [x] (số 2))) và đợi
-+ nếu <(trả lời) = ((số 1) * (số 2))> thì
-+ nói [có! :)] trong (2) giây
-+ khác
-+ nói [không :(] trong (2) giây
-+ kết thúc
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-mãi mãi
-kết thúc
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,18 +103,18 @@ kết thúc
 Here is what your code should look like:
 
 ```blocks3
-khi cờ nhấp
+when flag clicked
 
-+ mãi mãi
-    bộ [số 1 v] thành (chọn ngẫu nhiên (2) thành (12))
-    đặt [số 2 v] thành (chọn ngẫu nhiên (2) đến (12))
-    hỏi (tham gia (số 1) (tham gia [x] (số 2))) và đợi
-    nếu <(câu trả lời) = ((số 1) * (số 2))> thì
-        nói [có! :)] for (2) giây
-    khác
-        nói [không có :(] for (2) giây
-    cuối
-cuối
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
