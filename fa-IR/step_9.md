@@ -1,15 +1,15 @@
-## چالش: مسابقه به 10 امتیاز
+## Challenge: race to 10 points
 
-می توانید بازی خود را تغییر دهید به طوری که بازیکن به جای پاسخ دادن به سوالاتی که ممکن است در 30 ثانیه باشد، به حداکثر 10 سوال پاسخ دهد.
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-برای ایجاد این تغییر، فقط باید کد تایمر خود را تغییر دهید. آیا می توانید ببینید که بلوک ها باید متفاوت باشند؟
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
 ```blocks3
-    هنگامی که من دریافت می کنم [شروع v]
-    تنظیم [زمان V] به (30)
-    تکرار تا <(زمان) = [0]>
-        صبر کنید (1) ثانیه
-        تغییر [زمان V] توسط (-1)
-    پایان
-    پخش (پایان v)
+    when I receive [start v]
+    set [time v] to (30)
+    repeat until <(time) = [0]>
+        wait (1) seconds
+        change [time v] by (-1)
+    end
+    broadcast (end v)
 ```
