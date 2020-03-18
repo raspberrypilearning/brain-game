@@ -1,18 +1,18 @@
-## Skapa frågor
+## Create questions
 
-Du ska börja med att skapa slumpmässiga frågor som spelaren måste svara på.
+You're going to start by creating random questions that the player has to answer.
 
-\--- uppgift \---
+\--- task \---
 
-Öppna ett nytt Scratch-projekt.
+Open a new Scratch project.
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** Öppna ett nytt projekt i offline-editoren.
+**Offline:** open a new project in the offline editor.
 
-Om du behöver ladda ner och installera Scratch offline editoren kan du hitta den på [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-\--- / uppgift \---
+\--- /task \---
 
 \--- task \---
 
@@ -32,7 +32,7 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 [[[generic-scratch3-add-variable]]]
 
-\--- / uppgift \---
+\--- /task \---
 
 \--- task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-När flaggan klickade på
-satt [nummer 1 v] till (välj slumpvis (2) till (12))
-uppsättning [nummer 2 v] till (välj slumpvis (2) till (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,16 +55,16 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-När flaggan klickade på
-satt [nummer 1 v] till (välj slumpvis (2) till (12))
-uppsättning [nummer 2 v] till (välj slumpvis (2) till (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ fråga (gå med i [x] (nummer 2))) och vänta
-+ om <(svar) = ((nummer 1) * (nummer 2))> sedan
-+ säg [ja! :)] för (2) sekunder
-+ annat
-+ säg [nej :(] för (2) sekunder
-+ slut
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-för evigt
-slut
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,18 +103,18 @@ slut
 Here is what your code should look like:
 
 ```blocks3
-när flaggan klickade
+when flag clicked
 
-+ för alltid
-    set [nummer 1 v] till (välj slumpvis (2) till (12))
-    set [nummer 2 v] till (välj slumpvis (2) till (12))
-    fråga 1) (gå med [x] (nummer 2))) och vänta
-    om <(svar) = ((nummer 1) * (nummer 2))> då
-        säga [ja! :)] för (2) sekunder
-    annars
-        säga [nej :(] för (2) sekunder
-    slut
-slut
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
