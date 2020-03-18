@@ -1,6 +1,6 @@
-## Více her
+## Multiple games
 
-Nyní přidáme do projektu tlačítko, kterým budou moci hráči tvou hru spustit vícekrát po sobě.
+Now you're going to add a 'Play' button, so that the player can play your game lots of times.
 
 \--- task \---
 
