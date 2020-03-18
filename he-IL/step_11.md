@@ -1,6 +1,6 @@
-## מה הלאה?
+## What next?
 
-Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! בפרויקט הזה, אתה הולך ללמוד איך לעשות שיבוטים של שדונים, וכיצד להשתמש משתנה להאיץ בהדרגה את המשחק.
+Try the [Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project to create a reaction game! In that project, you're going to learn how to make clones of sprites, and how to use a variable to gradually speed up the game.
 
 \--- no-print \---
 
