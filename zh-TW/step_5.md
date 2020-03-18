@@ -1,122 +1,122 @@
-## 多場比賽
+## 重複遊玩
 
-現在，您將添加一個“播放”按鈕，以便玩家可以多次玩遊戲。
+現在，你將添加一個「遊玩」按鈕，玩家就能重複玩這個遊戲。
 
 \--- task \---
 
-Create a new 'Play' button sprite that the player needs to click to start a new game.
+創建一個名為「遊玩」的按鈕角色，玩家必須要點擊這個按鈕才可以讓遊戲開始。
 
-You can draw the sprite yourself, or edit a sprite from the library.
+你可以自己畫一個，或是從角色範例庫中挑選然後修改。
 
-![Picture of the play button](images/brain-play.png)
+![遊玩按鈕的圖片](images/brain-play.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your button sprite:
+編寫遊玩按鈕的程式：
 
-![Button sprite](images/button-sprite.png)
+![按鈕角色](images/button-sprite.png)
 
 ```blocks3
-    當標記點擊時
+    當 @greenflag 被點擊
     顯示
 
-    當此精靈點擊時
+    當角色被點擊
     隱藏
-    廣播（開始v）
+    廣播訊息 (開始 v)
 ```
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+新的程式包含了另一個`廣播`{:class="block3events"}積木，用來發送「開始」訊息。
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+這個新程式會在玩家點擊綠旗時，在畫面中出現「遊玩」的按鈕。 玩家只要點擊，按鈕就會隱藏然後廣播，聽到這個訊息的其它程式就能做出反應。
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+不過，目前玩家只要點擊綠旗，Giga 就會開始發問。 修改你的程式，讓角色在收到「開始」的`廣播`{:class="block3events"}後，才開始問問題。
 
 \--- task \---
 
-Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+選取 Giga，把`當綠旗被點擊`{:class="block3events"}積木換成`當收到訊息開始`{:class="block3events"}。
 
-![Character sprite](images/giga-sprite.png)
+![角色](images/giga-sprite.png)
 
 ```blocks3
-<br />- 當標誌點擊
-+當我收到[start v]
-set [number 1 v] to（pick random（2）to（12））
-set [number 2 v] to（pick random（2）to（12） ）
-問（加入（數字1）（加入[x]（數字2）））並等待
-如果 <（回答）=（（數字1）*（數字2））> 然後
-    說[是！ :)] for（2）秒
-else
-    說[nope :(] for（2）秒
-結束
-```
-
-\--- /任務\---
-
-\--- task \---
-
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
-
-\--- /task \---
-
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
-
-![Timer has started](images/brain-timer-bug.png)
-
-\--- task \---
-
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
-
-\--- /任務\---
-
-\---任務\---
-
-Add code to your button sprite so that the button shows again at the end of each game.
-
-![Button sprite](images/button-sprite.png)
-
-```blocks3
-    當我收到[結束v]
-    節目
+<br />- 當 @greenflag 被點擊
++ 當收到訊息 (開始 v)
+變數 [被乘數 v] 設為 (隨機取數 (2) 到 (12))
+變數 [乘數 v] 設為 (隨機取數 (2) 到 (12))
+詢問 (字串組合 (字串組合 ((被乘數)) (x)) ((乘數))) 並等待
+如果 <(詢問的答案) = ((被乘數)*(乘數))> 那麼
+    說出 (答對！ ) 持續 (2) 秒
+否則
+    說出 (答錯！) 持續 (2) 秒
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+點擊綠旗運行程式，接著點擊新的「遊玩」按鈕，測試程式是否正常運行。在點擊這個按鈕前，遊戲應該不會開始。
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+\--- /task \---
 
-![Stage](images/stage-sprite.png)
+你發現這個問題了嗎？計時是在點擊綠旗開始，而不是按下遊玩的按鈕？
 
-```blocks3
-    將[時間v]設置為 [10]
-```
+![計時已開始](images/brain-timer-bug.png)
+
+\--- task \---
+
+你可以修改計時的程式，讓它在點擊遊戲的按鈕後再倒數嗎？
 
 \--- /task \---
 
 \--- task \---
 
-You can change how the button looks when the mouse pointer hovers over it.
+添加程式到你的按鈕角色，讓它在每次遊戲結束時再顯示該按鈕。
 
-![Button](images/button-sprite.png)
+![按鈕角色](images/button-sprite.png)
 
 ```blocks3
-    當標誌點擊
+    當收到訊息 (結束 v)
     顯示
-    永遠
-    如果 <touching (mouse-pointer v)?> 然後
-        設置[魚眼v]效果到（30）
-    否則
-        設置[魚眼v]效果到（0）
-    結束
-    結束
 ```
 
-![screenshot](images/brain-fisheye.png)
+\--- /task \---
+
+\--- task \---
+
+多玩幾次，測試「遊玩」按鈕是不是正常運行，按鈕應該只會在每次遊戲結束才顯示。
+
+為了加快測試，你可以先把`計時`{:class="block3variables"}的值改小一點，這樣每次遊戲的時間就會比較短。
+
+![舞台](images/stage-sprite.png)
+
+```blocks3
+    變數 [計時 v] 設為 (10)
+```
+
+\--- /task \---
+
+\--- task \---
+
+你可以在滑鼠懸停在按鈕上時，加入一些外觀效果。
+
+![按鈕](images/button-sprite.png)
+
+```blocks3
+    當 @greenflag 被點擊
+    顯示
+    重複無限次
+    如果 <碰到 (鼠標 v)？> 那麼
+        圖像效果 [魚眼 v] 設為 (30)
+    否則
+        圖像效果 [魚眼 v] 設為 (0)
+    end
+    end
+```
+
+![截圖](images/brain-fisheye.png)
 
 \--- /task \---
