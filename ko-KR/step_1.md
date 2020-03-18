@@ -1,14 +1,14 @@
 \--- no-print \---
 
-이것은 **스크래치 3** 버전의 프로젝트입니다. [스크래치 2 버전의 프로젝트](https://projects.raspberrypi.org/en/projects/brain-game-scratch2)도 있습니다.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
-## 소개
+## Introduction
 
-이 프로젝트에서는 30초 제한시간 내 플레이어가 수학 퀴즈를 맞추는 게임을 만듭니다.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### 만들 작품
+### What you will make
 
 \--- no-print \---
 
@@ -29,30 +29,30 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## \--- collapse \---
 
-## title: 배우게 될 것
+## title: What you will learn
 
-+ Scratch에서 브로드캐스트를 사용하는 방법
-+ 커스텀 스크래치 블록을 생성하고 사용하는 방법
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: 준비물
-
-### 하드웨어
-
-+ 스크래치 3를 실행할 수 있는 컴퓨터
-
-### 소프트웨어
-
-+ 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_ blank"} 또는 [offline](http://rpf.io/scratchoff){:target="_ blank"})
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title : 교사를위한 추가 노트
+## title: What you will need
+
+### Hardware
+
++ A computer capable of running Scratch 3
+
+### Software
+
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional notes for educators
 
 \--- no-print \---
 
