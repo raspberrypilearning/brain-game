@@ -1,14 +1,14 @@
 \--- no-print \---
 
-यह प्रोजेक्ट का **स्क्रैच 3** संस्करण है। प्रोजेक्ट का एक [स्क्रैच 2](https://projects.raspberrypi.org/en/projects/brain-game-scratch2) संस्करण भी है।
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
-## परिचय
+## Introduction
 
-इस परियोजना में आप एक गणित क्विज गेम बनाएंगे जिसमें खिलाड़ी के पास यथासंभव सही उत्तर देने के लिए ३० सेकंड का समय होगा।
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### आप क्या बनाएँगे
+### What you will make
 
 \--- no-print \---
 
@@ -29,30 +29,30 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## \--- collapse \---
 
-## title: आप क्या सीखेंगे
+## title: What you will learn
 
-+ स्क्रैच में प्रसारण का उपयोग कैसे करें
-+ कस्टम स्क्रैच ब्लॉक कैसे बनाएं और इसका उपयोग कैसे करें
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: आपको किन चीज़ों की आवश्यकता होगी
-
-### हार्डवेयर
-
-+ स्क्रैच 3 चलाने में सक्षम कंप्यूटर
-
-### सॉफ्टवेयर
-
-+ स्क्रैच 3 ([ऑनलाइन ](http://rpf.io/scratchon){:target="_blank"} या फिर [ऑफ़्लाइन](http://rpf.io/scratchoff){:target="_blank"})
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
+## title: What you will need
+
+### Hardware
+
++ A computer capable of running Scratch 3
+
+### Software
+
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional notes for educators
 
 \--- no-print \---
 
