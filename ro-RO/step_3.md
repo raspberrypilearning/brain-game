@@ -1,4 +1,4 @@
-## Adăugați un cronometru
+## Add a timer
 
 \--- task \---
 
@@ -21,21 +21,21 @@ Then add code to count `time`{:class="block3variables"} down to 0 within 30 seco
 Here are the blocks you need:
 
 ```blocks3
-repetă până la < >
+repeat until < >
 
-sfârșit
+end
 
-așteaptă (1) secunde
+wait (1) seconds
 
-schimbă [timp v] cu (1)
+change [time v] by (1)
 
-(timp)
+(time)
 
-când faci click pe steagul verde
+when flag clicked
 
 <() = ()>
 
-setează [timp v] la [0]
+set [time v] to [0]
 ```
 
 \--- /hint \---
@@ -45,12 +45,12 @@ setează [timp v] la [0]
 Here is the what your new code should look like:
 
 ```blocks3
-când faci click pe steagul verde
-setează [timp v] la [30]
-repetă pana <(timp) = (0)>
-    așteaptă (1) secunde
-    schimbă [timp v] cu (-1)
-sfârșit
+when flag clicked
+set [time v] to [30]
+repeat until <(time) = (0)>
+    wait (1) seconds
+    change [time v] by (-1)
+end
 ```
 
 \--- /hint \---
@@ -66,7 +66,7 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    difuzare (sfârșitul v)
+    broadcast (end v)
 ```
 
 \--- /task \---
@@ -78,8 +78,8 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    când primesc [end v]
-    stop [alte scripturi în sprite v]
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
 \--- /task \---
