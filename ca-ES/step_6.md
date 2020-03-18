@@ -1,11 +1,11 @@
-## Desafiament: crea una pantalla d'inici
+## Challenge: create a start screen
 
-Es pot afegir un altre fons de pantalla que serà la pantalla d'inici del joc?
+Can you add another backdrop that is going to be the start screen for your game?
 
-Podeu utilitzar el `quan rebo l'inici`{: class = "block3events"} i `quan rebo el final`{: class = "block3events"} blocs per canviar entre els fons de pantalla.
+You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
-Per mostrar o amagar el personatge quan el joc canvieu entre teló de fons, podeu utilitzar `mostrar`{: class = "block3looks"} i `ocultar`blocs {: class = "block3looks"}.
+To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
-Per mostrar o ocultar el cronòmetre i la puntuació quan el joc canvia entre els fons de pantalla, podeu utilitzar `mostrar la variable`{: class = "block3variables"} i `ocultar els blocs de variables`{: class = "block3variables"}.
+To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
 
-![Pantalla d'inici](images/brain-startscreen.png)
+![Start screen](images/brain-startscreen.png)
