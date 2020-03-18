@@ -1,11 +1,11 @@
-## Provocare: creați un ecran de pornire
+## Challenge: create a start screen
 
-Puteți adăuga un alt fundal care va fi ecranul de pornire pentru jocul dvs.?
+Can you add another backdrop that is going to be the start screen for your game?
 
-Poți folosi `atunci când primesc startul`{: class = "block3events"} și `când primesc blocuri de capăt`{: class = "block3events"} pentru a comuta între fundaluri.
+You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
 
-Pentru a afișa sau a ascunde caracterul atunci când jocul comută între fundalurile, puteți utiliza `show -`{: class = "block3looks"} și `ascunde`{: class = "block3looks"} blocuri.
+To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
-Pentru a afișa sau a ascunde cronometrul și scorul atunci când jocul trece între fundaluri, puteți utiliza `afișezi variabila`{: class = "block3variables"} și `ascundeți blocurile variabile`{: class = "block3variables"}.
+To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
 
-![Ecranul de pornire](images/brain-startscreen.png)
+![Start screen](images/brain-startscreen.png)
