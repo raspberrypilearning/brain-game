@@ -1,16 +1,16 @@
-## Vytvoření otázek
+## Create questions
 
-Začneme s vytvořením náhodných otázek na které bude hráč odpovídat.
+You're going to start by creating random questions that the player has to answer.
 
 \--- task \---
 
-Otevři nový Scratch projekt.
+Open a new Scratch project.
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** otevři nový projekt v offline editoru.
+**Offline:** open a new project in the offline editor.
 
-Pokud chceš Scratch používat offline, stáhni si jej a nainstaluj z adresy [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
