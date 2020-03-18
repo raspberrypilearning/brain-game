@@ -1,55 +1,55 @@
-## Tilføj grafik
+## Add graphics
 
-I øjeblikket siger character sprite bare `ja! :)` eller `nej :(` til afspillerens svar. Tilføj nogle grafik for at lade spilleren vide, om deres svar er korrekt eller forkert.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
 \--- task \---
 
-Opret en ny sprite kaldet 'Resultat', og giv det et 'tick / check' og et 'cross' kostume.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![Sprite med kryds og kryds kostumer](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
 \--- /task \---
 
 \--- task \---
 
-Skift din karaktersprogskode, så i stedet for at sige noget til afspilleren sender ``{: class = "block3events"} meddelelserne 'korrekt' eller 'forkert'.
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-hvis <(svar) = ((nummer 1) * (nummer 2))> derefter
+if <(answer) = ((number 1)*(number 2))> then
 
-- sig [ja! :)] for (2) sekunder
-+ udsendelse (korrekt v)
-andet
-- sig [nope :(] for (2) sekunder
-+ broadcast (forkert v)
-ende
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Nu kan du bruge disse meddelelser til `vise`{: class = "block3looks"} 'tick' eller 'cross' kostume. Tilføj følgende kode til 'Resultat' sprite:
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
 
-![Resultat sprite](images/result-sprite.png)
+![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    når jeg modtager [korrekt v]
-    skifter kostume til (kryds v)
-    vis
-    vent (1) sekunder
-    skjul
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
 
-    når jeg modtager [forkert v]
-    skifter kostume til (kryds v)
-    vis
-    vent (1) sekunder
-    skjul
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
 
-    når flag klikket
-    skjul
+    when flag clicked
+    hide
 ```
 
 \--- /task \---
@@ -83,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-definer animere
-vis
-vent (1) sekunder
-skjul
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -100,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    når jeg modtager [correct v]
-    switch kostume til (tick v)
-    animere :: brugerdefineret
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-    når jeg modtager [forkert v]
-    switch kostume til (cross v)
-    animere :: brugerdefineret
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -126,13 +126,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    definere animere
-    sæt [ghost v] effekt til (100)
-    vis
-    gentag (25)
-        skift [spøgelse v] effekt af (-4)
-    ende
-    skjul
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
