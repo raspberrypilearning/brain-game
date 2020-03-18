@@ -2,15 +2,15 @@
 
 At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
-\--- función \---
+\--- task \---
 
 Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
 ![Sprite with tick and cross costumes](images/brain-result.png)
 
-\--- / tarea \---
+\--- /task \---
 
-\--- tarea \---
+\--- task \---
 
 Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
@@ -27,9 +27,9 @@ else
 end
 ```
 
-\--- / tarea \---
+\--- /task \---
 
-\--- tarea \---
+\--- task \---
 
 Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
 
@@ -52,7 +52,7 @@ Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cr
     hide
 ```
 
-\--- / tarea \---
+\--- /task \---
 
 \--- task \---
 
@@ -117,7 +117,7 @@ Because of the custom `animate`{:class="block3myblocks"} block, you now only nee
 
 Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
-\--- / tarea \---
+\--- /task \---
 
 \--- task \---
 
