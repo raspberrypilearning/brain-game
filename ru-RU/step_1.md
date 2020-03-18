@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Это **Scratch 3** версия проекта. Существует также версия [Scratch 2 проекта](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
-## Введение
+## Introduction
 
-В этом проекте вы создадите игру-викторину по математике, в которой у игрока есть 30 секунд, чтобы дать как можно больше правильных ответов.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### Что тебе нужно будет сделать
+### What you will make
 
 \--- no-print \---
 
@@ -29,30 +29,30 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## \--- collapse \---
 
-## title: Чему ты научишься
+## title: What you will learn
 
-+ Как использовать передачу сообщений в Скретч
-+ Как создать и использовать пользовательский блок Скретч
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: Что тебе понадобится
-
-### Оборудование
-
-+ Компьютер с поддержкой Скретч 3
-
-### Программное обеспечение
-
-+ Скретч 3 ([онлайн](http://rpf.io/scratchon){:target="_blank"} или [автономный (offline)](http://rpf.io/scratchoff){:target="_blank"})
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Дополнительные примечания для педагогов
+## title: What you will need
+
+### Hardware
+
++ A computer capable of running Scratch 3
+
+### Software
+
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional notes for educators
 
 \--- no-print \---
 
