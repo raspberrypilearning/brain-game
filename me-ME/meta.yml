@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Mozgalica
-description: Nauči kako da napraviš kviz
-version: 3
+title: Brain game
+description: Learn how to create a quiz
+version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Uvod
+    title: Introduction
   - 
-    title: Izrada pitanja
+    title: Create questions
   - 
-    title: 'Izazov: Promjena kostima'
+    title: Add a timer
   - 
-    title: 'Izazov: Dodavanje bodova'
+    title: 'Challenge: add a score and reactions'
     challenge: true
   - 
-    title: Više igara
+    title: Multiple games
   - 
-    title: 'Izazov: Početni ekran'
+    title: 'Challenge: create a start screen'
     challenge: true
   - 
-    title: Dodavanje grafika
+    title: Add graphics
   - 
-    title: 'Izazov: Poboljšana animacija'
+    title: 'Challenge: sound and music'
     challenge: true
   - 
-    title: 'Izazov: Zvuk i muzika'
+    title: 'Challenge: race to 10 points'
     challenge: true
   - 
-    title: 'Izazov: Trka do 10 bodova'
+    title: 'Challenge: instruction screen'
     challenge: true
   - 
-    title: 'Izazov: više olovaka'
+    title: What next?
