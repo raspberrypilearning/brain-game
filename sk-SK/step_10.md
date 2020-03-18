@@ -1,11 +1,11 @@
-## Výzva: obrazovka s pokynmi
+## Challenge: instruction screen
 
-Môžete pridať obrazovku s inštrukciami, ktorá hráčom povie, ako hrať hru? Na to potrebujete tlačidlo "Pokyny" a ďalšie pozadie Stage.
+Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
 
 ![screenshot](images/brain-instructions.png)
 
-Možno budete musieť pridať tlačidlo "Späť", ktoré umožňuje prehrávač vrátiť sa späť na úvodnú obrazovku.
+You may also need to add a 'Back' button that lets the player go back to the start screen.
 
 ```blocks3
-    vysielanie (štartovacia obrazovka v)
+    broadcast (start screen v)
 ```
