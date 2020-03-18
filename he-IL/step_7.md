@@ -1,58 +1,58 @@
-## הוסף גרפיקה
+## Add graphics
 
-כרגע, הדמות ספרייט רק אומר `כן! :)` או `לא: (` לתשובות השחקן, הוסף כמה גרפיקה כדי לתת לשחקן לדעת אם התשובה נכונה או לא נכונה.
+At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
 
-\--- \---
+\--- task \---
 
-יצירת ספרייט חדש בשם 'תוצאה', ולתת לו 'סמן / לבדוק' ו 'לחצות' תחפושת.
+Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
 
-![ספרייט עם טיק ותלבושות לחצות](images/brain-result.png)
+![Sprite with tick and cross costumes](images/brain-result.png)
 
-\--- / משימה \---
+\--- /task \---
 
-\--- \---
+\--- task \---
 
-שינוי הקוד של ספרייט הדמות שלך כך, במקום לומר משהו לשחקן, זה `שידורים`{: class = "block3events"} המסרים "נכון" או "לא נכון".
+Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
 
-![שדון תווים](images/giga-sprite.png)
-
-```blocks3
-אם <(תשובה) = ((מספר 1) (מספר 2))> ואז
-
-- לומר [כן! :)] עבור (2) שניות
-+ שידור (נ נכונה)
-אחר
-- אומרים [nope :(] עבור (2) שניות
-+ שידור (נ טועה)
-סוף
-```
-
-\--- / משימה \---
-
-\--- \---
-
-עכשיו אתה יכול להשתמש בהודעות אלה ל `הצג`{: class = "block3looks"} את "טיק" או "לחצות" תלבושת. הוסף את הקוד הבא לספרייט 'תוצאה':
-
-![תוצאה ספרייט](images/result-sprite.png)
+![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-    כאשר אני מקבל [תלבושת נכונה]
-    תלבושת ל (טיק v)
-    הצג
-    לחכות (1) שניות
-    הסתר
+if <(answer) = ((number 1)*(number 2))> then
 
-    כאשר אני מקבל [לא נכון]
-    תלבושת לעבור ל (לחצות v)
-    להראות
-    לחכות (1) שניות
-    להסתיר
-
-    כאשר דגל נלחץ
-    להסתיר
+- say [yes! :)] for (2) seconds
++ broadcast (correct v)
+else
+- say [nope :(] for (2) seconds
++ broadcast (wrong v)
+end
 ```
 
-\--- / משימה \---
+\--- /task \---
+
+\--- task \---
+
+Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+
+![Result sprite](images/result-sprite.png)
+
+```blocks3
+    when I receive [correct v]
+    switch costume to (tick v)
+    show
+    wait (1) seconds
+    hide
+
+    when I receive [wrong v]
+    switch costume to (cross v)
+    show
+    wait (1) seconds
+    hide
+
+    when flag clicked
+    hide
+```
+
+\--- /task \---
 
 \--- task \---
 
@@ -83,10 +83,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-הגדר אנימציה
-הצג
-המתן (1) שניות
-הסתר
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -100,13 +100,13 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    כאשר אני מקבל [v נכונה]
-    תחפושת מתג ל (טיק v)
-    הנפשת :: מותאם אישית
+    when I receive [correct v]
+    switch costume to (tick v)
+    animate:: custom
 
-    כאשר אני מקבל [v טועה]
-    תחפושת לעבור (לחצות v)
-    הנפשת :: מותאם אישית
+    when I receive [wrong v]
+    switch costume to (cross v)
+    animate:: custom
 ```
 
 \--- /task \---
@@ -117,7 +117,7 @@ Because of the custom `animate`{:class="block3myblocks"} block, you now only nee
 
 Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
 
-\--- / משימה \---
+\--- /task \---
 
 \--- task \---
 
@@ -126,13 +126,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    מגדירים להנפיש
-    סט [v רפאים] תוקף (100)
-    הראה
-    חוזר (25)
-        שינוי אפקט [רפאים v] (-4)
-    סוף
-    להסתיר
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
