@@ -1,4 +1,4 @@
-## Tilføj en timer
+## Add a timer
 
 \--- task \---
 
@@ -21,21 +21,21 @@ Then add code to count `time`{:class="block3variables"} down to 0 within 30 seco
 Here are the blocks you need:
 
 ```blocks3
-gentag til < >
+repeat until < >
 
-slut
+end
 
-vent (1) sekunder
+wait (1) seconds
 
-skift [tid v] ved (1)
+change [time v] by (1)
 
-(tid)
+(time)
 
-når flag klikkes
+when flag clicked
 
 <() = ()>
 
-sæt [tid v] til [0]
+set [time v] to [0]
 ```
 
 \--- /hint \---
@@ -45,12 +45,12 @@ sæt [tid v] til [0]
 Here is the what your new code should look like:
 
 ```blocks3
-når flag klikket
-sæt [tid v] til [30]
-gentag til <(tid) = (0)>
-    vent (1) sekunder
-    skift [tid v] ved (-1)
-ende
+when flag clicked
+set [time v] to [30]
+repeat until <(time) = (0)>
+    wait (1) seconds
+    change [time v] by (-1)
+end
 ```
 
 \--- /hint \---
@@ -66,7 +66,7 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    udsendelse (slut v)
+    broadcast (end v)
 ```
 
 \--- /task \---
@@ -78,8 +78,8 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    når jeg modtager [end v]
-    stop [andre scripts i sprite v]
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
 \--- /task \---
