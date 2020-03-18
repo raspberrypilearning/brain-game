@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Ez a projekt **Scratch 3** verziója. Van is egy [Scratch 2 változata a projekt](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
-\--- / nincs nyomtatás \---
+\--- /no-print \---
 
-## Bevezetés
+## Introduction
 
-Ebben a projektben létrehoz egy matematikai kvíz játékot, amelyben a játékosnak 30 másodperc van, hogy minél több helyes választ adjon.
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
-### Mit fogsz tenni
+### What you will make
 
 \--- no-print \---
 
@@ -27,32 +27,32 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- /print-only \---
 
-## \--- összeomlás \---
+## \--- collapse \---
 
-## title: Mit tanulni fog
+## title: What you will learn
 
-+ Hogyan használjuk a Scratch-adásokat
-+ Egyéni Scratch blokk létrehozása és használata
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
 
 \--- /collapse \---
 
-## \--- összeomlás \---
+## \--- collapse \---
 
-## title: Amire szüksége lesz
+## title: What you will need
 
-### Hardver
+### Hardware
 
-+ A Scratch 3 futtatására alkalmas számítógép
++ A computer capable of running Scratch 3
 
-### Szoftver
+### Software
 
-+ Scratch 3 ( [online](http://rpf.io/scratchon){: target = "_ blank"} vagy [offline](http://rpf.io/scratchoff){: target = "_ blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-\--- / összeomlás \---
+\--- /collapse \---
 
-## \--- összeomlás \---
+## \--- collapse \---
 
-## title: További megjegyzések az oktatók számára
+## title: Additional notes for educators
 
 \--- no-print \---
 
