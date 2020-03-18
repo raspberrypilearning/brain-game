@@ -1,15 +1,15 @@
-## চ্যালেঞ্জ: 10 পয়েন্ট জাতি
+## Challenge: race to 10 points
 
-আপনি আপনার গেমটি পরিবর্তন করতে পারেন যাতে প্লেয়ার 30 সেকেন্ডের মধ্যে যতটা সম্ভব উত্তর দেওয়ার পরিবর্তে 10 টি প্রশ্নের উত্তর দিতে যত দ্রুত সম্ভব উত্তর দেয়।
+Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
 
-এই পরিবর্তনটি করার জন্য আপনাকে শুধুমাত্র আপনার টাইমার কোডটি পরিবর্তন করতে হবে। আপনি ব্লক কি আলাদা হতে হবে দেখতে পারেন?
+To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
 ```blocks3
-    যখন আমি [শুরু v]
-    সেট [সময় v] থেকে (30)
-    পর্যন্ত <(সময়) = [0]>
-        অপেক্ষা (1) সেকেন্ড
-        পরিবর্তন [সময় v] দ্বারা (-1)
-    শেষ
-    সম্প্রচার (শেষ) উ)
+    when I receive [start v]
+    set [time v] to (30)
+    repeat until <(time) = [0]>
+        wait (1) seconds
+        change [time v] by (-1)
+    end
+    broadcast (end v)
 ```
