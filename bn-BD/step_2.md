@@ -1,18 +1,18 @@
-## প্রশ্ন তৈরি করুন
+## Create questions
 
-আপনি প্লেয়ার উত্তর দিতে চান যে এলোমেলো প্রশ্ন তৈরি করে শুরু করতে যাচ্ছি।
+You're going to start by creating random questions that the player has to answer.
 
-\--- কাজ \---
+\--- task \---
 
-একটি নতুন স্ক্র্যাচ প্রকল্প খুলুন।
+Open a new Scratch project.
 
 **Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**অফলাইন:** অফলাইন সম্পাদকটিতে একটি নতুন প্রকল্প খুলুন।
+**Offline:** open a new project in the offline editor.
 
-আপনি যদি স্ক্র্যাচ অফলাইন সম্পাদক ডাউনলোড এবং ইনস্টল করতে চান তবে আপনি এটি [rpf.io/scratchoff](http://rpf.io/scratchoff)এ পাবেন: {target = "_ blank"}।
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-\--- /কাজ \---
+\--- /task \---
 
 \--- task \---
 
@@ -32,7 +32,7 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /কাজ \---
+\--- /task \---
 
 \--- task \---
 
@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-যখন পতাকা
-সেট [সংখ্যা 1 ভি] ক্লিক করে (র্যান্ডম (2) থেকে (12))
-সেট [সংখ্যা 2 ভি] থেকে (র্যান্ডম (2) থেকে (12) বাছাই করুন)
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 ```
 
 \--- /task \---
@@ -55,16 +55,16 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-যখন পতাকা ক্লিক
-সেট [1 নম্বর বনাম] এ (র্যান্ডম (2) এর (12) বাছাই)
-সেট [NUMBER 2 বনাম] এ (বাছাই র্যান্ডম (2) এর (12))
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
 
-+ + জিজ্ঞাসা করুন (1 নম্বর যোগদানের () ([x] (সংখ্যা 2) যোগ দিন) এবং অপেক্ষা করুন
-+ যদি <(উত্তর) = ((সংখ্যা 1) * (সংখ্যা 2))> তারপর
-+ বলুন [হ্যাঁ! :)] জন্য (2) সেকেন্ড
-+ অন্য
-+ বলুন [না :(] (2) সেকেন্ড
-+ শেষ
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
 ```
 
 \--- /task \---
@@ -92,8 +92,8 @@ You need to add a `forever`{:class="block3control"} block, and put all of the co
 Here is the block you need:
 
 ```blocks3
-চিরতরে
-শেষ
+forever
+end
 ```
 
 \--- /hint \---
@@ -103,18 +103,18 @@ Here is the block you need:
 Here is what your code should look like:
 
 ```blocks3
-যখন পতাকাটি
+when flag clicked
 
-+ সর্বদা
-    সেট [সংখ্যা 1 ভি] তে ক্লিক করে (র্যান্ডম (2) থেকে (12))
-    সেট [সংখ্যা 2 ভি] থেকে (র্যান্ডম (2) থেকে (12) বাছাই করুন)
-    জিজ্ঞাসা করুন (যোগ দিন (যোগ করুন 1) (যোগদানের [X] (নম্বর 2))) এবং অপেক্ষা করুন
-    যদি <(উত্তর) = ((নম্বর 1) * (সংখ্যা 2))> তারপর
-        বলে [হ্যাঁ! :)] জন্য (2) সেকেন্ড
-    অন্য
-        বলুন [না :(] (2) সেকেন্ড
-    শেষ
-শেষ
++ forever
+    set [number 1 v] to (pick random (2) to (12))
+    set [number 2 v] to (pick random (2) to (12))
+    ask (join (number 1)(join [ x ] (number 2))) and wait
+    if <(answer) = ((number 1)*(number 2))> then
+        say [yes! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
 ```
 
 \--- /hint \---
