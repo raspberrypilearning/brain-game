@@ -1,4 +1,4 @@
-## 타이머 추가
+## Add a timer
 
 \--- task \---
 
@@ -21,21 +21,21 @@ Then add code to count `time`{:class="block3variables"} down to 0 within 30 seco
 Here are the blocks you need:
 
 ```blocks3
-무한 반복 < >
+repeat until < >
 
-끝
+end
 
-(1) 초 기다리기
+wait (1) seconds
 
-[시간 v] 을 (1) 로 변경
+change [time v] by (1)
 
-(시간)
+(time)
 
-녹색 깃발이 클릭되었을 때
+when flag clicked
 
 <() = ()>
 
-[시간 v]를 [0]으로 설정
+set [time v] to [0]
 ```
 
 \--- /hint \---
@@ -45,12 +45,12 @@ Here are the blocks you need:
 Here is the what your new code should look like:
 
 ```blocks3
-녹색 깃발을 클릭했을 때
-[시간 v]를 [30] 으로 설정
- <(시간) = (0)>
-    (1) 초 기다리기
-    [시간 v]를 (-1) 만큼 바꾸기
-끝
+when flag clicked
+set [time v] to [30]
+repeat until <(time) = (0)>
+    wait (1) seconds
+    change [time v] by (-1)
+end
 ```
 
 \--- /hint \---
@@ -66,7 +66,7 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 ![Stage sprite](images/stage-sprite.png)
 
 ```blocks3
-    방송하기 (끝 v)
+    broadcast (end v)
 ```
 
 \--- /task \---
@@ -78,8 +78,8 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    [end v] 신호를 받았을 때
-    멈추기 [other scripts in sprite v]
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
 \--- /task \---
