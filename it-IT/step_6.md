@@ -1,19 +1,11 @@
---- challenge ---
-## Sfida: Inizia schermata
-Puoi aggiungere un altro scenario alla tua fase, che diventerà la schermata iniziale del tuo gioco? Puoi usare i blocchi `quando ricevo inizio`{:class="blockevents"} e `quando ricevo fine`{:class="blockevents"} per passare da uno scenario all'altro.
+## Sfida: crea una scherma d'avvio
 
-Puoi anche mostrare e nascondere il tuo personaggio, e perfino mostrare e nascondere il tuo timer usando questi blocchi:
+Puoi aggiungere un altro fondale che sarà la schermata iniziale del tuo gioco?
 
-```blocks
-mostra la variabile [tempo v]
-```
-```blocks
-nascondi la variabile [tempo v]
-```
+Puoi usare lo `quando ricevo inizio`{:class="block3events"} e `quando ricevo fine`{:class="block3events"} per passare da uno sfondo all'altro.
 
-![screenshot](images/brain-startscreen.png)
+Per mostrare o nascondere il personaggio quando il gioco passa da uno sfondo all'altro, puoi utilizzare i blocchi `mostra`{:class="block3looks"} e `nascondi`{:class="block3looks"}.
 
+Per mostrare o nascondere il timer e il punteggio quando il gioco passa da uno sfondo all'altro, puoi utilizzare i blocchi `mostra la variabile`{:class="block3variables"} e `nascondi la variabile`{:class="block3variables"}.
 
-
-
---- /challenge ---
+![Schermata iniziale](images/brain-startscreen.png)
