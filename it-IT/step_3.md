@@ -21,20 +21,21 @@ Quindi aggiungi il codice per portare `tempo`{:class = "block3variables"} fino a
 Ecco i blocchi che ti serviranno:
 
 ```blocks3
-ripeti fino a quando <>
+repeat until < >
+
 end
 
-attendi (1) secondi
+wait (1) seconds
 
-cambia [time v] di (1)
+change [tempo v] by (1)
 
-(time)
+(tempo)
 
-quando si clicca sulla bandiera verde
+when flag clicked
 
 <() = ()>
 
-porta [time v] a [0]
+set [tempo v] to [0]
 ```
 
 \--- /hint \---
@@ -44,11 +45,11 @@ porta [time v] a [0]
 Ecco come dovrebbe apparire il risultato:
 
 ```blocks3
-quando si clicca sulla bandiera verde
-porta [tempo v] a [30]
-ripeti fino a quando <(tempo) = (0)> 
-  attendi (1) secondi
-  cambia [tempo v] di (-1)
+when flag clicked
+set [tempo v] to [30]
+repeat until <(tempo) = (0)>
+    wait (1) seconds
+    change [tempo v] by (-1)
 end
 ```
 
