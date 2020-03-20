@@ -55,15 +55,15 @@ Aggiungi il codice a `chiedi`{:class = "block3sensing"} per chiedere al giocator
 ![schermata](images/giga-sprite.png)
 
 ```blocks3
-quando si clicca sulla bandiera verde
-porta [numero 1 v] a (numero a caso tra (2) e (12))
-porta [numero 2 v] a (numero a caso tra (2) e (12))
+when flag clicked
+set [numero 1 v] to (pick random (2) to (12))
+set [numero 2 v] to (pick random (2) to (12))
 
-+ chiedi (unione di (numero 1) e (unione di [ x ] e (numero 2))) e attendi
-+ se <(risposta) = ((numero 1) * (numero 2))> allora 
- dire [si! :)] per (2) secondi
-+ altrimenti 
-+ dire [no :(] per (2) secondi
++ + ask (join (numero 1)(join [ x ] (numero 2))) and wait
++ if <(answer) = ((numero 1) * (numero 2))> then 
+ + say [si! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
 + end
 ```
 
@@ -103,17 +103,17 @@ end
 Ecco come dovrebbe apparire il risultato:
 
 ```blocks3
-quando si clicca sulla bandiera verde
+when flag clicked
 
-+ per sempre 
-  porta [numero 1 v] a (numero a caso tra (2) e (12))
-  porta [numero 2 v] a (numero a caso tra (2) e (12))
-  chiedi (unione di (numero 1) e (unione di [ x ] e (numero 2))) e attendi
-  se <(risposta) = ((numero 1) * (numero 2))> allora 
-    dire [si! :)] per (2) secondi
-  altrimenti 
-    dire [no :(] per (2) secondi
-  end
++ forever
+    set [numero 1 v] to (pick random (2) to (12))
+    set [numero 2 v] to (pick random (2) to (12))
+    ask (join (numero 1)(join [ x ] (numero 2))) and wait
+    if <(answer) = ((numero 1)*(numero 2))> then
+        say [si! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
 end
 ```
 
