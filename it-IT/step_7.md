@@ -17,12 +17,13 @@ Cambia il codice dello sprite del tuo personaggio in modo che, invece di dire qu
 ![Sprite personaggio](images/giga-sprite.png)
 
 ```blocks3
-se <(risposta) = ((number 1) * (number 2))> allora 
- dire [si! :)] per (2) secondi
- + invia a tutti (corretto v)
-altrimenti 
- dire [no :(] per (2) secondi
- + invia a tutti (sbagliato v)
+if <(answer) = ((numero 1)*(numero 2))> then
+
+- say [si! :)] for (2) seconds
++ broadcast (correttov)
+else
+- say [no :(] for (2) seconds
++ broadcast (sbagliato v)
 end
 ```
 
@@ -35,20 +36,20 @@ Ora è possibile utilizzare questi messaggi per `mostrare`{:class = "block3looks
 ![Risultato sprite](images/result-sprite.png)
 
 ```blocks3
-    quando ricevo [corretto v]
-passa al costume (spunta v)
-mostra
-attendi (1) secondi
-nascondi
+    when I receive [corretto v]
+    switch costume to (spunta v)
+    show
+    wait (1) seconds
+    hide
 
-quando ricevo [sbagliato v]
-passa al costume (croce v)
-mostra
-attendi (1) secondi
-nascondi
+    when I receive [sbagliato v]
+    switch costume to (croce v)
+    show
+    wait (1) seconds
+    hide
 
-quando si clicca sulla bandiera verde
-nascondi
+    when flag clicked
+    hide
 ```
 
 \--- /task \---
@@ -82,10 +83,10 @@ Sposta il codice per `mostrare`{:class = "block3looks"} o `nascondere`{:class = 
 ![Sprite risultato](images/result-sprite.png)
 
 ```blocks3
-definisci anima
-mostra
-attendi (1) secondi
-nascondi
+define animate
+show
+wait (1) seconds
+hide
 ```
 
 \--- /task \---
@@ -99,13 +100,13 @@ Quindi aggiungere il blocco `anima`{:class = "block3myblocks"} sotto entrambi i 
 ![Sprite risultato](images/result-sprite.png)
 
 ```blocks3
-    quando ricevo [corretto v]
-passa al costume (spunta v)
-anima:: custom
+    when I receive [corretto v]
+    switch costume to (spunta v)
+    anima:: custom
 
-quando ricevo [sbagliato v]
-passa al costume (croce v)
-anima:: custom
+    when I receive [sbagliato v]
+    switch costume to (croce v)
+    anima:: custom
 ```
 
 \--- /task \---
@@ -125,13 +126,13 @@ Invece di `mostrare`{:class = "block3looks"} e `nascondere`{:class = "block3look
 ![Sprite risultato](images/result-sprite.png)
 
 ```blocks3
-    definisci anima
-porta effetto [ghost v] a (100)
-mostra
-ripeti (25) volte 
-  cambia effetto [ghost v] di (-4)
-end
-nascondi
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
 ```
 
 \--- /task \---
