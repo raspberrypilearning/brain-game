@@ -19,12 +19,12 @@ Aggiungi questo codice allo sprite del tuo pulsante:
 ![Sprite pulsante](images/button-sprite.png)
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-mostra
+    when flag clicked
+    show
 
-quando si clicca questo sprite
-nascondi
-invia a tutti (inizio v)
+    when this sprite clicked
+    hide
+    broadcast (start v)
 ```
 
 \--- /task \---
@@ -42,15 +42,16 @@ Seleziona il tuo sprite del personaggio e, nella sua sezione di codice, sostitui
 ![Sprite personaggio](images/giga-sprite.png)
 
 ```blocks3
-<br />-  quando si clicca sulla bandiera verde
-+ quando ricevo [inizio v]
-porta [numero 1 v] a (numero a caso tra (2) e (12))
-porta [numero 2 v] a (numero a caso tra (2) e (12))
-chiedi (unione di (numero 1) e (unione di [ x ] e (numero 2))) e attendi
-se <(risposta) = ((numero 1) * (numero 2))> allora 
-  dire [si! :)] per (2) secondi
-altrimenti 
-  dire [no :(] per (2) secondi
+<br />- when flag clicked
++ when I receive [inizio v]
+set [numero 1 v] to (pick random (2) to (12))
+set [numero 2 v] to (pick random (2) to (12))
+ask (join (numero 1)(join [ x ] (numero 2))) and wait
+if <(answer) = ((numero 1)*(numero 2))> then
+    say [si! :)] for (2) seconds
+else
+    say [nope :(] for (2) seconds
+end
 ```
 
 \--- /task \---
@@ -78,8 +79,8 @@ Aggiungi del codice al tuo pulsante in modo che il pulsante venga mostrato nuova
 ![Sprite pulsante](images/button-sprite.png)
 
 ```blocks3
-    quando ricevo [fine v]
-mostra
+    when I receive [fine v]
+    show
 ```
 
 \--- /task \---
@@ -105,15 +106,15 @@ Puoi anche modificare l'aspetto del pulsante di gioco quando il mouse passa ci p
 ![Pulsante](images/button-sprite.png)
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-mostra
-per sempre 
-  se <0> allora 
-    porta effetto [fisheye v] a (30)
-  altrimenti 
-    porta effetto [fisheye v] a (0)
-  end
-end
+    when flag clicked
+    show
+    forever
+    if <touching (mouse-pointer v)?> then
+        set [fisheye v] effect to (30)
+    else
+        set [fisheye v] effect to (0)
+    end
+    end
 ```
 
 ![schermata](images/brain-fisheye.png)
