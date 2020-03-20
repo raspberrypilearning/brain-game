@@ -1,18 +1,15 @@
---- challenge ---
-## Sfida: Suono e musica
-Puoi aggiungere al gioco musica ed effetti sonori? Ad esempio:
+## Sfida: Guadagna 10 punti
 
-+ Riprodurre un suono quando il giocatore dà una risposta corretta o errata;
-+ Aggiungere un ticchettio al tuo timer per il conto alla rovescia;
-+ Riprodurre un suono quando il tempo è scaduto;
+Puoi cambiare il gioco in modo che il giocatore, invece di rispondere a quante più domande possibili in 30 secondi, risponda a 10 domande il più rapidamente possibile.
 
-	```blocks
-		suona tamburo (10 v) per (0.1) battute
-	```
+Per apportare questa modifica, è sufficiente modificare il codice del timer. Riesci a vedere quali blocchi devono essere diversi?
 
-+ Puoi anche riprodurre musica costantemente in loop (se sei incerto su come si fa, il passo 4 del progetto 'Banda Rock' ti sarà d'aiuto).
-
-
-
-
---- /challenge ---
+```blocks3
+    when I receive [inizio v]
+    set [tempo v] to (30)
+    repeat until <(tempo) = [0]>
+        wait (1) seconds
+        change [tempo v] by (-1)
+    end
+    broadcast (fine v)
+```

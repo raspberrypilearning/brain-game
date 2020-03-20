@@ -1,48 +1,124 @@
 ## Creare domande
 
-Iniziamo a creare domande a caso per il giocatore.
+Inizierai creando domande casuali a cui il giocatore deve rispondere.
 
+--- task ---
 
+Apri un nuovo progetto Scratch.
 
-+ Inizia un nuovo progetto Scratch, e cancella lo sprite del gatto così che il tuo progetto sia vuoto. Puoi trovare l'editore Scratch online a <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a>.
+**Online:** apri un nuovo progetto Scratch online su [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-+ Scegli un personaggio e uno scenario per il tuo gioco. Puoi scegliere quello che vuoi! Ecco un esempio:
+**Offline:** apri un nuovo progetto nell'editor offline.
 
-	![screenshot](images/brain-setting.png)
+Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-+ Crea 2 nuove variabili chiamate `numero 1`{:class="blockdata"} e `numero 2`{:class="blockdata"}. Queste variabili salveranno i 2 numeri che verranno moltiplicati.
+--- /task ---
 
-	![screenshot](images/brain-variables.png)
+--- task ---
 
-+ Aggiungi un codice al tuo personaggio per impostare entrambe le variabili come un numero `a caso`{:class="blockoperators"} tra 2 e 12.
+Scegli un personaggio e uno sfondo per il tuo gioco. Puoi scegliere quello che più ti piace! Ecco un esempio:
 
-	```blocks
-		quando si clicca sulla bandiera verde
-		porta [numero 1 v] a (numero a caso tra (2) e (12))
-		porta [numero 2 v] a (numero a caso tra (2) e (12))
-	```
+![schermata](images/brain-setting.png)
 
-+ Puoi dunque chiedere la risposta al giocatore, e informarlo se è corretta o errata.
+--- /task ---
 
-	```blocks
-		quando si clicca sulla bandiera verde
-		porta [numero 1 v] a (numero a caso tra (2) e (12))
-		porta [numero 2 v] a (numero a caso tra (2) e (12))
-		chiedi (unione di (number 1) e (unione di [ x ] e (number 2))) e attendi
-		se <(answer) = ((number 1) * (number 2))> allora
-  			dire [sì! :)] per (2) secondi
-  		altrimenti
-  			dire [no :(] per (2) secondi
-		end
-	```
+--- task ---
 
-+ Prova il tuo intero progetto, rispondendo correttamente e dando una risposta errata.
+Assicurati di aver selezionato lo sprite del personaggio. Crea due nuove variabili chiamate `numero 1`{:class="block3variables"} e `numero 2`{:class="block3variables"} per memorizzare i numeri per le domande del quiz.
 
-+ Aggiungi un loop `per sempre`{:class="blockcontrol"} attorno a questo codice, così che il giocatore possa ricevere tante domande.
+![schermata](images/giga-sprite.png)
 
-+ Crea un timer con conto alla rovescia su questa fase, usando una variabile chiamata `tempo`{:class="blockdata"}. Se hai bisogno di aiuto, il progetto 'Ghostbusters' possiede le istruzioni per creare un timer (al passo 5).
+![schermata](images/brain-variables.png)
 
-+ Prova di nuovo il tuo progetto - dovresti essere in grado di fare altre domande finché scadrà il tempo.
+[[[generic-scratch3-add-variable]]]
 
+--- /task ---
 
+--- task ---
 
+Aggiungi del codice al tuo personaggio in modo da impostare entrambe le `variabili`{:class="block3variables"} su un valore `a caso`{:class="block3operators"} compreso tra 2 e 12.
+
+![schermata](images/giga-sprite.png)
+
+```blocks3
+when flag clicked
+set [numero 1 v] to (pick random (2) to (12))
+set [numero 2 v] to (pick random (2) to (12))
+```
+
+--- /task ---
+
+--- task ---
+
+Aggiungi il codice a `chiedi`{:class="block3sensing"} per chiedere al giocatore la risposta, e poi `dire per 2 secondi`{:class="block3looks"} se la risposta era giusta o sbagliato:
+
+![schermata](images/giga-sprite.png)
+
+```blocks3
+when flag clicked
+set [numero 1 v] to (pick random (2) to (12))
+set [numero 2 v] to (pick random (2) to (12))
+
++ + ask (join (numero 1)(join [ x ] (numero 2))) and wait
++ if <(answer) = ((numero 1) * (numero 2))> then 
+ + say [si! :)] for (2) seconds
++ else
++ say [no :(] for (2) seconds
++ end
+```
+
+--- /task ---
+
+--- task ---
+
+Prova il tuo progetto due volte: rispondi correttamente a una domanda e in modo errato all'altra.
+
+--- /task ---
+
+--- task ---
+
+Aggiungi un ciclo `per sempre`{:class="block3control"} attorno a questo codice, in modo che il gioco faccia al giocatore molte domande di seguito.
+
+--- hints ---
+
+--- hint ---
+
+È necessario aggiungere un blocco `per sempre`{:class="block3control"}, e mettere tutto il codice, tranne al blocco `quando si clicca su bandiera`{:class="block3control"}.
+
+--- /hint ---
+
+--- hint ---
+
+Ecco il blocco che ti serve:
+
+```blocks3
+forever
+end
+```
+
+--- /hint ---
+
+--- hint ---
+
+Ecco come dovrebbe apparire il risultato:
+
+```blocks3
+when flag clicked
+
++ forever
+    set [numero 1 v] to (pick random (2) to (12))
+    set [numero 2 v] to (pick random (2) to (12))
+    ask (join (numero 1)(join [ x ] (numero 2))) and wait
+    if <(answer) = ((numero 1)*(numero 2))> then
+        say [si! :)] for (2) seconds
+    else
+        say [no :(] for (2) seconds
+    end
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---

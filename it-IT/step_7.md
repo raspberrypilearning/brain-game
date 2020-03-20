@@ -1,46 +1,142 @@
-## Aggiungi grafiche
+## Aggiungi grafica
 
-Invece di far dire solo `sì :)` o `no :(` al giocatore, aggiungiamo alcune grafiche che informeranno i giocatori come stanno andando.
+Al momento, lo sprite del personaggio dice solo `sì! :)` o `no :(` alle risposte del giocatore Aggiungi alcuni elementi grafici per far sapere al giocatore se la loro risposta è corretta o errata.
 
-+ Crea un nuovo sprite chiamato 'Risultato', contenente un costume 'spunta' e 'croce'.
+--- task ---
 
-	![screenshot](images/brain-result.png)
+Crea un nuovo sprite chiamato "Risultato" e dagli un costume "spunta" e un "croce".
 
-+ Cambia il codice del tuo personaggio, così che invece di dire al giocatore come è andata, trasmette i messaggi `corretto`{:class="blockevents"} ed `errato`{:class="blockevents"}.
+![Sprite con costumi spunta e croce](images/brain-result.png)
 
-	![screenshot](images/brain-broadcast-answer.png)
+--- /task ---
 
-+ Puoi ora usare questi messaggi per mostrare il costume 'spunta' o 'croce'. Aggiungi questo codice al tuo nuovo sprite 'Risultato':
+--- task ---
 
-	![screenshot](images/brain-show-answer.png)
+Cambia il codice dello sprite del tuo personaggio in modo che, invece di dire qualcosa al giocatore, `trasmetta`{:class = "block3events"} i messaggi "corretto" o "sbagliato".
 
-+ Prova di nuovo il tuo gioco. Vedrai un segno di spunta quando la risposta è corretta e una croce quando è errata!
+![Sprite personaggio](images/giga-sprite.png)
 
-	![screenshot](images/brain-test-answer.png)
+```blocks3
+if <(answer) = ((numero 1)*(numero 2))> then
 
-+ Hai notato che il codice per `quando ricevo corretto`{:class="blockevents"} e quello per `quando ricevo errato`{:class="blockevents"} sono quasi identici? Creiamo ora una funzione per facilitare il modo di cambiare il tuo codice.
+- say [si! :)] for (2) seconds
++ broadcast (correttov)
+else
+- say [no :(] for (2) seconds
++ broadcast (sbagliato v)
+end
+```
 
-	Sul tuo sprite 'Risultato' , clicca `Altri Blocchi`{:class="blockmoreblocks"}, e poi 'Crea un Blocco'. Crea una nuova funzione chiamata `animare`{:class="blockmoreblocks"}.
+--- /task ---
 
-	![screenshot](images/brain-animate-function.png)
+--- task ---
 
-+ Puoi dunque aggiungere il codice di animazione nella tua nuova funzione di animazione, e poi usare la funzione solo due volte:
+Ora è possibile utilizzare questi messaggi per `mostrare`{:class="block3looks"} il costume 'spunta' o 'croce'. Aggiungi il seguente codice allo sprite 'Risultato':
 
-	![screenshot](images/brain-use-function.png)
+![Risultato sprite](images/result-sprite.png)
 
-+ Se vuoi visualizzare la spunta e la croce per un periodo più lungo o più corto, dovrai effettuare solo un cambio al tuo codice. Prova!
+```blocks3
+    when I receive [corretto v]
+    switch costume to (spunta v)
+    show
+    wait (1) seconds
+    hide
 
-+ Invece di mostrare e nascondere solamente la spunta e la croce, puoi cambiare la tua funzione di animazione, così che le grafiche si dissolvano a chiudere.
+    when I receive [sbagliato v]
+    switch costume to (croce v)
+    show
+    wait (1) seconds
+    hide
 
-	```blocks
-		definisci (animare)
-		porta effetto [fantasma v] a (100)
-		mostra
-		ripeti (25) volte
-  			cambia effetto [fantasma v] di (-4)
-		end
-		nascondi
-	```
+    when flag clicked
+    hide
+```
 
+--- /task ---
 
+--- task ---
 
+Prova di nuovo il tuo gioco. Dovresti vedere la spunta ogni volta che rispondi correttamente a una domanda, e la croce ogni volta che rispondi scorrettamente!
+
+![Spunta per corretto, croce per risposta sbagliata](images/brain-test-answer.png)
+
+--- /task ---
+
+Puoi vedere che il codice per `quando ricevo corretto`{:class="block3events"} e `quando ricevo sbagliato`{:class="block3events"} è quasi identico?
+
+Al fine di modificare il tuo codice più facilmente, creerai un blocco personalizzato.
+
+--- task ---
+
+Seleziona lo sprite "Risultato". Quindi fai clic su `I Miei Blocchi`{:class="block3myblocks"}, quindi su **Crea un blocco**. Crea un nuovo blocco e chiamalo `anima`{:class="block3myblocks"}.
+
+![Sprite risultato](images/result-sprite.png)
+
+![Crea un blocco chiamato anima](images/brain-animate-function.png)
+
+--- /task ---
+
+--- task ---
+
+Sposta il codice per `mostrare`{:class="block3looks"} o `nascondere`{:class="block3looks"} lo sprite 'Result' nel blocco `anima`{:class=" blocco3myblocks"}:
+
+![Sprite risultato](images/result-sprite.png)
+
+```blocks3
+define animate
+show
+wait (1) seconds
+hide
+```
+
+--- /task ---
+
+--- task ---
+
+Assicurati di aver rimosso i blocchi `mostra`{:class="block3looks"} e `nascondi`{:class="block3looks"} al di sotto di **entrambi** i blocchi `cambia costume`{:class="block3looks"}.
+
+Quindi aggiungere il blocco `anima`{:class="block3myblocks"} sotto entrambi i blocchi `cambia costume`{:class="block3looks"}. Il tuo codice dovrebbe ora apparire come questo:
+
+![Sprite risultato](images/result-sprite.png)
+
+```blocks3
+    when I receive [corretto v]
+    switch costume to (spunta v)
+    anima:: custom
+
+    when I receive [sbagliato v]
+    switch costume to (croce v)
+    anima:: custom
+```
+
+--- /task ---
+
+Gazie al blocco personalizzato `anima`{:class="block3myblocks"}, ora è sufficiente apportare una modifica al codice se si desidera mostrare i costumi dello sprite "Risultato" più o meno a lungo.
+
+--- task ---
+
+Cambia il codice in modo che i costumi 'spunta' o 'croce' per 2 secondi.
+
+--- /task ---
+
+--- task ---
+
+Invece di `mostrare`{:class="block3looks"} e `nascondere`{:class="block3looks"} i costumi "spunta" o "croce", puoi cambiare `anima`{:class="block3myblocks"} in modo che i costumi sbiadiscano.
+
+![Sprite risultato](images/result-sprite.png)
+
+```blocks3
+    define animate
+    set [ghost v] effect to (100)
+    show
+    repeat (25)
+        change [ghost v] effect by (-4)
+    end
+    hide
+```
+
+--- /task ---
+
+Puoi migliorare l'animazione della grafica 'spunta' o 'croce'? Puoi aggiungere del codice per far svanire anche i costumi, oppure potresti usare altri effetti interessanti:
+
+![schermata](images/brain-effects.png)
