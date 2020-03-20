@@ -20,7 +20,7 @@ Cambia il codice dello sprite del tuo personaggio in modo che, invece di dire qu
 if <(answer) = ((numero 1)*(numero 2))> then
 
 - say [si! :)] for (2) seconds
-+ broadcast (correttov)
++ broadcast (corretto)
 else
 - say [no :(] for (2) seconds
 + broadcast (sbagliato v)
@@ -83,7 +83,7 @@ Sposta il codice per `mostrare`{:class="block3looks"} o `nascondere`{:class="blo
 ![Sprite risultato](images/result-sprite.png)
 
 ```blocks3
-define animate
+define anima
 show
 wait (1) seconds
 hide
@@ -126,7 +126,7 @@ Invece di `mostrare`{:class="block3looks"} e `nascondere`{:class="block3looks"} 
 ![Sprite risultato](images/result-sprite.png)
 
 ```blocks3
-    define animate
+    define anima
     set [ghost v] effect to (100)
     show
     repeat (25)

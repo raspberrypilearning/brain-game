@@ -16,9 +16,9 @@ steps:
   - title: 'Sfida: crea una schermata iniziale'
     challenge: true
   - title: Aggiungi grafica
-  - title: 'Sfida: Suono e musica'
+  - title: 'Sfida: suono e musica'
     challenge: true
-  - title: 'Sfida: Guadagna 10 punti'
+  - title: 'Sfida: guadagna 10 punti'
     challenge: true
   - title: 'Sfida: schermata di istruzioni'
     challenge: true

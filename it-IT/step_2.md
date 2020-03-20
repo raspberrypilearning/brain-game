@@ -59,9 +59,9 @@ when flag clicked
 set [numero 1 v] to (pick random (2) to (12))
 set [numero 2 v] to (pick random (2) to (12))
 
-+ + ask (join (numero 1)(join [ x ] (numero 2))) and wait
++ ask (join (numero 1)(join [ x ] (numero 2))) and wait
 + if <(answer) = ((numero 1) * (numero 2))> then 
- + say [si! :)] for (2) seconds
++ say [si! :)] for (2) seconds
 + else
 + say [no :(] for (2) seconds
 + end

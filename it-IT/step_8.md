@@ -1,4 +1,4 @@
-## Sfida: Suono e musica
+## Sfida: suono e musica
 
 Puoi aggiungere effetti sonori e musica al tuo gioco? Ad esempio, potresti:
 
