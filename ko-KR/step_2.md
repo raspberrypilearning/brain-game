@@ -1,16 +1,16 @@
-## Create questions
+## 질문 만들기
 
-You're going to start by creating random questions that the player has to answer.
+플레이어가 대답할 수 있도록 임의의 질문을 만들어 보겠습니다.
 
 \--- task \---
 
-Open a new Scratch project.
+새로운 스크래치 프로젝트를 엽니다.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**온라인:** [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_ blank"}에서 새로운 온라인 스크래치 프로젝트 열기
 
-**Offline:** open a new project in the offline editor.
+**오프라인:** 오프라인 편집기에서 새 프로젝트를 엽니다.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+스크래치 오프라인 편집기를 다운로드하여 설치해야 하는 경우 [rpf.io/scratchoff](http://rpf.io/scratchoff){: target = "_ blank"}에서 찾을 수 있습니다.
 
 \--- /task \---
 
@@ -18,17 +18,17 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
 
-![screenshot](images/brain-setting.png)
+![스크린샷](images/brain-setting.png)
 
 \--- /task \---
 
 \--- task \---
 
-Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+Make sure you have your character sprite selected. 퀴즈 질문 번호를 저장하기 위해 `1번`{:class = "block3variables"}과 `2번`{:class = "block3variables"}이라는 두 개의 새로운 변수를 만듭니다.
 
-![screenshot](images/giga-sprite.png)
+![스크린샷](images/giga-sprite.png)
 
-![screenshot](images/brain-variables.png)
+![스크린샷](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -38,7 +38,7 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
 
-![screenshot](images/giga-sprite.png)
+![스크린샷](images/giga-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -52,7 +52,7 @@ set [number 2 v] to (pick random (2) to (12))
 
 Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
 
-![screenshot](images/giga-sprite.png)
+![스크린샷](images/giga-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,19 +71,19 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+프로젝트를 두 번 테스트하십시오: 한 질문에 올바르게 대답하고 다른 질문에 올바르지 않게 답하십시오.
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+`무한 반복하기` {: class = "blockcontrol"}를 추가하십시오. 이 코드를 반복하면 플레이어에게 많은 질문을 할 수 있습니다.
 
 \--- hints \---
 
 \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+`무한 반복하기`{:class="block3control"} 블록 내에 `녹색 깃발을 클릭했을 때`{:class="block3control"} 블록을 제외하고 모든 블록을 넣으세요.
 
 \--- /hint \---
 
