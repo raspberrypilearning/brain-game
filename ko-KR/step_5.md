@@ -1,6 +1,6 @@
-## Multiple games
+## 여러가지 게임
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+이제 플레이어가 게임을 여러 번 할 수 있도록 '재생' 버튼을 추가 할 것입니다.
 
 \--- task \---
 
@@ -29,11 +29,11 @@ Add this code to your button sprite:
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+새로운 코드에는 또 다른 `방송하기`{: class = "block3events"} 블록이 포함되어 있습니다. 이 블록은 '시작' 메시지를 보냅니다.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+새로운 코드는 플레이어가 깃발을 클릭 할 때 '시작' 버튼 스프라이트를 보여줍니다. 플레이어가 버튼 스프라이트를 클릭하면 스프라이트가 숨겨지고 다른 스프라이트가 반응 할 수 있는 메시지를 방송합니다.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+현재 캐릭터 스프라이트는 플레이어가 깃발을 클릭 할 때 질문을 하기 시작합니다. 그 캐릭터의 스프라이트가 `방송하기`{: 클래스 = "block3events"} 에 의한 '시작' 메시지를 수신할 때 질문을 시작 있도록 게임의 코드를 변경합니다.
 
 \--- task \---
 
