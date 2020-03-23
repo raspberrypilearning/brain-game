@@ -1,10 +1,10 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+이것은 **스크래치 3** 버전의 프로젝트입니다. [스크래치 2 버전의 프로젝트](https://projects.raspberrypi.org/en/projects/brain-game-scratch2)도 있습니다.
 
 \--- /no-print \---
 
-## Introduction
+## 소개
 
 In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
