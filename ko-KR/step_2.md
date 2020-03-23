@@ -41,9 +41,9 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 ![스크린샷](images/giga-sprite.png)
 
 ```blocks3
-녹색 깃발을 클릭했을 때
-[1번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
-[2번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
+⚑ 클릭했을 때
+[1번] 을 ((2) 부터 (12) 사이의 난수) 로 정하기
+[2번] 을 ((2) 부터 (12) 사이의 난수) 로 정하기
 ```
 
 \--- /task \---
@@ -55,7 +55,7 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 ![스크린샷](images/giga-sprite.png)
 
 ```blocks3
-녹색 깃발을 클릭했을 때
+⚑을 클릭했을 때
 [1번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
 [2번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
 
@@ -110,11 +110,11 @@ Here is what your code should look like:
     [2번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
     ((1번) 과 (join [ x ] (2번) 결합하기) 결합하기) 묻고 기다리기
     만약 <(answer) = ((1번)*(2번))> 이라면
-       말하기 [맞습니다! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
+       말하기 [맞습니다! :)] (2) 초 동안
+아니면
+(2) 초 동안 [틀렸습니다 :(]) 말하기
+끝
+끝
 ```
 
 \--- /hint \---
