@@ -4,19 +4,19 @@
 
 \--- task \---
 
-Create a new 'Play' button sprite that the player needs to click to start a new game.
+플레이어가 새로운 게임을 시작하기 위해 클릭해야하는 새로운 '재생' 버튼 스프라이트를 만드세요.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+스프라이트를 직접 그리거나, 라이브러리에서 스프라이트를 수정 할 수 있습니다.
 
-![Picture of the play button](images/brain-play.png)
+![재생 버튼 그림](images/brain-play.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your button sprite:
+이 코드를 당신의 버튼 스프라이트에 추가 해 보세요:
 
-![Button sprite](images/button-sprite.png)
+![버튼 스프라이트](images/button-sprite.png)
 
 ```blocks3
     ⚑ 클릭했을 때
@@ -37,9 +37,9 @@ Add this code to your button sprite:
 
 \--- task \---
 
-Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+캐릭터 스프라이트를 선택하고, `⚑ 클릭했을 때`{:class="block3events"} 블록을 `시작 신호를 받았을 때`{:class="block3events"} 블록으로 바꾸세요.
 
-![Character sprite](images/giga-sprite.png)
+![캐릭터 스프라이트](images/giga-sprite.png)
 
 ```blocks3
 <br />⚑ 클릭했을 때
@@ -66,19 +66,19 @@ Select your character sprite and, in its code section, replace the `when flag cl
 
 게임이 시작될 때가 아니라 녹색 깃발이 클릭되었을 때 타이머가 시작된다는 것을 확인했습니까?
 
-![Timer has started](images/brain-timer-bug.png)
+![타이머 시작됨](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+플레이어가 버튼을 클릭 할 때 타이머가 시작되도록 타이머 코드를 변경할 수 있습니까?
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your button sprite so that the button shows again at the end of each game.
+버튼 스프라이트에 코드를 추가하여 각 게임이 끝날 때 버튼이 다시 표시되도록 합니다.
 
-![Button sprite](images/button-sprite.png)
+![버튼 스프라이트](images/button-sprite.png)
 
 ```blocks3
     [끝] 신호를 받았을 때
@@ -89,11 +89,11 @@ Add code to your button sprite so that the button shows again at the end of each
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+여러 번 게임을 하여 '재생'버튼을 테스트 하십시오. 게임이 끝날 때마다 버튼이 표시됩니다.
 
 게임을 더 빠르게 테스트하려면 각 게임이 불과 몇 초가 되도록 `시간`{: = block3variables} 의 변수 값을 변경할 수 있습니다.
 
-![Stage](images/stage-sprite.png)
+![무대](images/stage-sprite.png)
 
 ```blocks3
     [시간] 을 [10] 으로 설정
@@ -103,7 +103,7 @@ Test the 'Play' button by playing a couple of games. The button should show at t
 
 \--- task \---
 
-You can change how the button looks when the mouse pointer hovers over it.
+마우스 포인터로 버튼을 가리킬 때 버튼 모양을 변경할 수 있습니다.
 
 ![버튼](images/button-sprite.png)
 
