@@ -42,8 +42,8 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 
 ```blocks3
 녹색 깃발을 클릭했을 때
-[1번 v] 을 ((2)부터 (12) 까지의 난수)로 설정
-[2번 v] 을 ((2)부터 (12) 까지의 난수)로 설정
+[1번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
+[2번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
 ```
 
 \--- /task \---
@@ -56,8 +56,8 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 
 ```blocks3
 녹색 깃발을 클릭했을 때
-[1번 v] 을 ((2)부터 (12) 까지의 난수)로 설정
-[2번 v] 을 ((2)부터 (12) 까지의 난수)로 설정
+[1번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
+[2번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
 
  + ((1번) 와 ([x] 와 (2번) 결합하기) 결합하기)) 묻고 기다리기
  + 만약 <(answer) = ((1번)*(2번))> 이라면
@@ -103,14 +103,14 @@ Here is the block you need:
 Here is what your code should look like:
 
 ```blocks3
-when flag clicked
+녹색 깃발을 클릭했을 때
 
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
++ 무한 반복
+    [1번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
+    [2번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
+    ((1번) 과 (join [ x ] (2번) 결합하기) 결합하기) 묻고 기다리기
+    만약 <(answer) = ((1번)*(2번))> 이라면
+       말하기 [맞습니다! :)] for (2) seconds
     else
         say [no :(] for (2) seconds
     end
