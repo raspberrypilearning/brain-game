@@ -1,12 +1,12 @@
-## Add graphics
+## 그래픽 추가
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+현재 문자 스프라이트는 단순히 `맞습니다! :) ` 혹은 `틀립니다! :( ` 만 말합니다. 여기에 그래픽을 추가하여 정답이 맞는지 틀린지 시각적으로 표현하세요.
 
 \--- task \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+'체크'와 'x표'를 모두 포함하는 '결과'라는 새로운 스프라이트를 만듭니다.
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![점과 교차 모습으로 된 스프라이트](images/brain-result.png)
 
 \--- /task \---
 
@@ -14,16 +14,15 @@ Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' co
 
 캐릭터 스프라이트의 코드를 변경하여, '맞음' 과 '틀림' 신호를 `방송하기`{:class="block3events"}할 수 있도록 하세요.
 
-![Character sprite](images/giga-sprite.png)
+![캐릭터 스프라이트](images/giga-sprite.png)
 
 ```blocks3
-if <(answer) = ((number 1)*(number 2))> then
-
-- say [yes! :)] for (2) seconds
-+ broadcast (correct v)
-else
-- say [nope :(] for (2) seconds
-+ broadcast (wrong v)
+만약 <(답) = ((1번) × (2번))> \(이\) 라면 
+ [맞습니다! :)] 을 (2) 초 동안 말하기
+ + (맞음 v) 신호 보내기
+아니면 
+ [틀립니다 :(] 을 (2) 초 동안 말하기
+ + (틀림 v) 신호보내기
 end
 ```
 
@@ -31,9 +30,9 @@ end
 
 \--- task \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+이제 `보이기`{:class="block3looks"} 메시지를 사용하여 '체크' 또는 'x표' 의상을 표시할 수 있습니다. 결과 스프라이트에 다음 코드를 추가하세요.
 
-![Result sprite](images/result-sprite.png)
+![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -62,13 +61,13 @@ Test your game again. You should see the tick whenever you answer a question cor
 
 \--- /task \---
 
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
+`내가 정답일 때`{:class="blockevents"} 와 `내가 오답일 때`{:class="blockevents"}의 코드는 거의 동일합니까?
 
 So you can change your code more easily, you are going to create a custom block.
 
 \--- task \---
 
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
+Select the 'Result' sprite. 그런 다음 `내 블록`{: class = "block3myblocks"}을 클릭 한 다음 **블록 추가하기**를 누릅니다. 새 블록을 만들고 `애니메이션`{: class = "block3myblocks"} 이라고 합니다.
 
 ![Result sprite](images/result-sprite.png)
 
@@ -95,7 +94,7 @@ hide
 
 Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+그런 다음 `모양을 바꾸기`{: class = "block3looks"} 블록 아래에 `애니메이션`{: class = "block3myblocks"} 블록을 추가하십시오. 이제 코드는 다음과 같이 보입니다.
 
 ![Result sprite](images/result-sprite.png)
 
@@ -111,7 +110,7 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+사용자 정의 `애니메이션`{: class = "block3myblocks"} 블록으로 인해 '결과' 스프라이트의 의상을 더 길거나 더 짧은 시간으로 표시하려면 코드를 한 번만 변경하면 됩니다.
 
 \--- task \---
 
@@ -137,6 +136,6 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+'체크' 또는 'x표' 그래픽의 애니메이션을 개선 할 수 있습니까? 복장을 페이드 아웃하기위한 코드를 추가하거나 다른 멋진 효과를 사용할 수 있습니다.
 
-![screenshot](images/brain-effects.png)
+![스크린샷](images/brain-effects.png)
