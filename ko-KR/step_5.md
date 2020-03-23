@@ -19,12 +19,12 @@ Add this code to your button sprite:
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when flag clicked
-    show
+    ⚑ 클릭했을 때
+보이기
 
-    when this sprite clicked
-    hide
-    broadcast (start v)
+이 스프라이트를 클릭했을 때
+숨기기
+(시작) 신호 보내기
 ```
 
 \--- /task \---
@@ -42,13 +42,12 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ![Character sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- when flag clicked
-+ when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if <(answer) = ((number 1)*(number 2))> then
-    say [yes! :)] for (2) seconds
+<br />+ [start v] 신호를 받았을 때
+[number 1 v] 을\(를\) ((2) 부터 (12) 사이의 난수) 로 정하기
+[number 2 v] 을\(를\) ((2) 부터 (12) 사이의 난수) 로 정하기
+((number 1) 와\(과\) ([ x ] 와\(과\) (number 2) 결합하기) 결합하기) 라고 묻고 기다리기
+만약 <(대답) = ((number 1) × (number 2))> \(이\)라면 
+말하기 [맞습니다! :)] for (2) seconds
 else
     say [nope :(] for (2) seconds
 end
@@ -79,8 +78,8 @@ Add code to your button sprite so that the button shows again at the end of each
 ![Button sprite](images/button-sprite.png)
 
 ```blocks3
-    when I receive [end v]
-    show
+    [끝] 신호를 받았을 때
+보이기
 ```
 
 \--- /task \---
@@ -89,13 +88,17 @@ Add code to your button sprite so that the button shows again at the end of each
 
 Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-게임을 더 빠르게 테스트하려면 각 게임이 불과 몇 초 길이가되도록 `시간`{: = block3variables} 의 변수 값을 변경할 수 있습니다.
+⚑ 클릭했을 때 보이기 무한 반복하기 만약 ` \(이\)라면 
+    [fisheye] 효과를 (30) 로 정하기
+  아니면 
+    [fisheye] 효과를 (0) 로 정하기
+  end
+end</p>
 
-![Stage](images/stage-sprite.png)
+<p><img src="images/stage-sprite.png" alt="Stage" /></p>
 
-```blocks3
-    set [time v] to [10]
-```
+<pre><code class="blocks3">    [시간] 을 [10] 으로 설정
+`</pre> 
 
 \--- /task \---
 
