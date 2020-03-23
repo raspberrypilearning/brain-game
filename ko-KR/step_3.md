@@ -21,21 +21,21 @@ Create a countdown timer on the Stage with the help of a new variable called `ti
 필요한 코드 블록은 다음과 같습니다.
 
 ```blocks3
-무한 반복 < >
+<> 까지 반복하기
 
 끝
 
 (1) 초 기다리기
 
-[시간] 을 (1) 로 변경
+[시간] 을 (1) 만큼 바꾸기
 
 (시간)
 
-녹색 깃발이 클릭되었을 때
+⚑ 클릭했을 때
 
 <() = ()>
 
-[시간] 를 [0] 으로 설정
+[시간] 을 [0] 로 정하기
 ```
 
 \--- /hint \---
@@ -45,11 +45,11 @@ Create a countdown timer on the Stage with the help of a new variable called `ti
 Here is the what your new code should look like:
 
 ```blocks3
-녹색 깃발을 클릭했을 때
-[시간] 를 [30] 으로 설정
-<(시간) = (0)>
-(1) 초 기다리기
-[시간] 를 (-1) 만큼 바꾸기
+⚑ 클릭했을 때
+[시간] 을 [30] 로 정하기
+<(time) = (0)> 까지 반복하기 
+  (1) 초 기다리기
+  [시간] 을 (-1) 만큼 바꾸기
 끝
 ```
 
@@ -78,8 +78,8 @@ Select your character sprite and add some code so that the sprite `stops the oth
 ![기가 스프라이트](images/giga-sprite.png)
 
 ```blocks3
-    [end] 신호를 받았을 때
-    멈추기 [other scripts in sprite]
+    [끝] 신호를 받았을 때
+멈추기 [스프라이트 안의 다른 스크립트]
 ```
 
 \--- /task \---
