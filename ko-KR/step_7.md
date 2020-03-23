@@ -12,7 +12,7 @@ Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' co
 
 \--- task \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+캐릭터 스프라이트의 코드를 변경하여, '맞음' 과 '틀림' 신호를 `방송하기`{:class="block3events"}할 수 있도록 하세요.
 
 ![Character sprite](images/giga-sprite.png)
 
