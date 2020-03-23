@@ -55,31 +55,31 @@ end
 
 \--- task \---
 
-Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+게임을 다시 테스트 해보세요. 정확한 질문을 할 때마다 체크가 보일 것이며, 잘못 될 때마다 x표가 보일 것입니다.
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
+![체크는 맞음, x표는 틀린 답변](images/brain-test-answer.png)
 
 \--- /task \---
 
 `내가 정답일 때`{:class="blockevents"} 와 `내가 오답일 때`{:class="blockevents"}의 코드는 거의 동일합니까?
 
-So you can change your code more easily, you are going to create a custom block.
+따라서 코드를 더 쉽게 변경할 수 있으므로 사용자 지정 블록을 만들게됩니다.
 
 \--- task \---
 
-Select the 'Result' sprite. 그런 다음 `내 블록`{: class = "block3myblocks"}을 클릭 한 다음 **블록 추가하기**를 누릅니다. 새 블록을 만들고 `애니메이션`{: class = "block3myblocks"} 이라고 합니다.
+'결과' 스프라이트를 선택하십시오. 그런 다음 `내 블록`{: class = "block3myblocks"}을 클릭 한 다음 **블록 추가하기**를 누릅니다. 새 블록을 만들고 `애니메이션`{: class = "block3myblocks"} 이라고 합니다.
 
-![Result sprite](images/result-sprite.png)
+![결과 스프라이트](images/result-sprite.png)
 
-![Create a block called animate](images/brain-animate-function.png)
+![애니메이션 이름의 블록을 만듭니다](images/brain-animate-function.png)
 
 \--- /task \---
 
 \--- task \---
 
-Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+'결과' 스프라이트 내 `보이기`{:class="block3looks"} 및 `숨기기`{:class="block3looks"} 코드를 `애니메이션`{:class="block3myblocks"} 블록으로 옮기세요:
 
-![Result sprite](images/result-sprite.png)
+![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
 애니메이션 정의하기
@@ -92,11 +92,11 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 
 \--- task \---
 
-Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+`모습을 (으)로 바꾸기`{:class="block3looks"}블록의 **사이**의 아레에 위치한`보이기`{:class="block3looks"} 그리고 `숨기기`{:class="block3looks"}을 지웠는지 확인하세요
 
 그런 다음 `모양을 바꾸기`{: class = "block3looks"} 블록 아래에 `애니메이션`{: class = "block3myblocks"} 블록을 추가하십시오. 이제 코드는 다음과 같이 보입니다.
 
-![Result sprite](images/result-sprite.png)
+![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
     [맞음] 신호를 받았을 때
@@ -114,15 +114,15 @@ Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="b
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+'체크'또는 'x표' 모습이 2 초 동안 표시되도록 코드를 변경하십시오.
 
 \--- /task \---
 
 \--- task \---
 
-Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+` 보이기 ` {: class = "block3looks"} 및 ` 숨기기 ` {: class = "block3looks"} 를 사용하여 맞고 틀림의 모습을 표현하는 대신, `애니메이션`{:class="block3myblocks"} 을 사용하여 모습이 페이드인 되도록 할 수 있습니다.
 
-![Result sprite](images/result-sprite.png)
+![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
     애니메이션 정의하기
