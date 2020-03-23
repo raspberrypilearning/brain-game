@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
+title: 두뇌 게임
+description: 퀴즈를 만드는 방법에 대해 알아보세요
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Introduction
+    title: 소개
   - 
-    title: Create questions
+    title: 질문 만들기
   - 
-    title: Add a timer
+    title: 타이머 추가
   - 
-    title: 'Challenge: add a score and reactions'
+    title: '과제: 점수와 반응 추가'
     challenge: true
   - 
-    title: Multiple games
+    title: 여러가지 게임
   - 
-    title: 'Challenge: create a start screen'
+    title: '과제: 시작 화면 만들기'
     challenge: true
   - 
-    title: Add graphics
+    title: 그래픽 추가하기
   - 
-    title: 'Challenge: sound and music'
+    title: '과제: 소리와 음악'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: '과제: 10 점까지 경주'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: '과제: 지시 화면'
     challenge: true
   - 
-    title: What next?
+    title: 다음은 무엇 인가요?
