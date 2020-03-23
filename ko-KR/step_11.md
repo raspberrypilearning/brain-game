@@ -4,7 +4,7 @@
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+키보드의 방향키를 이용해 조종기를 조종하여 날아다니는 점들을 잡으세요. 만약 3개의 점을 놓치면, 게임이 끝납니다.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
