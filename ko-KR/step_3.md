@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+`시간`{{class = "block3variables"}이라는 새 변수를 사용하여 스테이지에 카운트 다운 타이머를 만듭니다. 타이머는 30 초에서 시작하여 0초까지 카운트다운 됩니다.
 
 ![무대 스프라이트](images/stage-sprite.png)
 
@@ -42,7 +42,7 @@ Create a countdown timer on the Stage with the help of a new variable called `ti
 
 \--- hint \---
 
-Here is the what your new code should look like:
+코드는 다음과 같이 설계되어야 합니다:
 
 ```blocks3
 ⚑ 클릭했을 때
@@ -73,19 +73,18 @@ Here is the what your new code should look like:
 
 \--- task \---
 
-Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+캐릭터 스프라이트를 선택하고 스프라이트가 `끝`{: class = "block3control"} 메시지를 받았을 때</code>{{class = "block3control"} `다른 스프라이트를 중지</0>하도록 코드를 추가하십시오.</p>
 
-![기가 스프라이트](images/giga-sprite.png)
+<p><img src="images/giga-sprite.png" alt="기가 스프라이트" /></p>
 
-```blocks3
-    [끝] 신호를 받았을 때
+<pre><code class="blocks3">    [끝] 신호를 받았을 때
 멈추기 [스프라이트 안의 다른 스크립트]
-```
+`</pre> 
 
 \--- /task \---
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+다시 게임을 테스트 하세요. 타이머가 0으로 카운트 다운 될 떄까지 질문해야 합니다,
 
 \--- /task \---
