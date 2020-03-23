@@ -35,20 +35,20 @@ end
 ![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    show
-    wait (1) seconds
-    hide
+    [맞음] 신호를 받았을 때
+모양을 (체크) 로 바꾸기
+보이기
+(1) 초 기다리기
+숨기기
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    show
-    wait (1) seconds
-    hide
+[틀림] 신호를 받았을 때
+모양을 (x표) 로 바꾸기
+보이기
+(1) 초 기다리기
+숨기기
 
-    when flag clicked
-    hide
+⚑ 클릭했을 때
+숨기기
 ```
 
 \--- /task \---
@@ -82,10 +82,10 @@ Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} t
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-define animate
-show
-wait (1) seconds
-hide
+애니메이션 정의하기
+보이기
+(1) 초 기다리기
+숨기기
 ```
 
 \--- /task \---
@@ -99,13 +99,13 @@ Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="b
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    when I receive [correct v]
-    switch costume to (tick v)
-    animate:: custom
+    [맞음] 신호를 받았을 때
+모양을 (체크) 로 바꾸기
+애니메이션:: 모습
 
-    when I receive [wrong v]
-    switch costume to (cross v)
-    animate:: custom
+[틀림] 신호를 받았을 때
+모양을 (x표) 로 바꾸기
+애니메이션:: 모습
 ```
 
 \--- /task \---
@@ -125,13 +125,13 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 ![Result sprite](images/result-sprite.png)
 
 ```blocks3
-    define animate
-    set [ghost v] effect to (100)
-    show
-    repeat (25)
-        change [ghost v] effect by (-4)
-    end
-    hide
+    애니메이션 정의하기
+[유령] 효과를 (100) 로 정하기
+보이기
+(25) 번 반복하기 
+  [유령] 효과를 (-4) 만큼 바꾸기
+끝
+숨기기
 ```
 
 \--- /task \---
