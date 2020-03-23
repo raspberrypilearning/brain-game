@@ -61,12 +61,12 @@ end
 
 \--- task \---
 
-'end'라는 메시지를 보내는 `방송`{: class = "block3control"} 블록을 만듭니다. `방송`{: class = "block3control"}은 스피커를 통한 방송과 같으며 모든 스프라이트에서 들을 수 있습니다. `시간`{: class = "block3variables"}이 `0` 이 경과하면 게임이 종료되도록 타이머 코드 끝에 `방송`{: class = "block3control"} 블록을 추가하십시오
+'end'라는 메시지를 보내는 `방송하기`{: class = "block3control"} 블록을 만듭니다. `방송하기`{: class = "block3control"}은 스피커를 통한 방송과 같으며 모든 스프라이트에서 들을 수 있습니다. `시간`{: class = "block3variables"}이 `0` 이 경과하면 게임이 종료되도록 타이머 코드 끝에 `방송`{: class = "block3control"} 블록을 추가하십시오
 
 ![무대 스프라이트](images/stage-sprite.png)
 
 ```blocks3
-    broadcast (end v)
+    방송하기 (끝 v)
 ```
 
 \--- /task \---
