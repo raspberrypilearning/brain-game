@@ -6,9 +6,9 @@
 
 ## 소개
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+이 프로젝트에서는 30초 제한시간 내 플레이어가 수학 퀴즈를 맞추는 게임을 만듭니다.
 
-### What you will make
+### 결과물
 
 \--- no-print \---
 
@@ -23,43 +23,43 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![두뇌 게임](images/brain-final.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 배우게 될 것
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will need
-
-### Hardware
-
-+ A computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ 스크래치에서 방송을 하는 방법
++ 커스텀 스크래치 블록을 생성하고 사용하는 방법
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 준비물
+
+### 하드웨어
+
++ 스크래치 3를 실행할 수 있는 컴퓨터
+
+### 소프트웨어
+
++ 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_ blank"} 또는 [오프라인](http://rpf.io/scratchoff){:target="_ blank"})
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 교사를 위한 추가 노트
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/en/projects/brain-game/print)을 사용하십시오.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+완성된 프로젝트는[여기](http://rpf.io/p/en/brain-game-get){:target="_ blank"}에서 확인할 수 있습니다.
 
 \--- /collapse \---
