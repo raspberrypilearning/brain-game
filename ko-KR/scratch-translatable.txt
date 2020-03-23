@@ -1,25 +1,25 @@
-number 1
+1번
 
-number 2 
+2번 
 
-yes! :) 
+맞습니다 :) 
 
-no :( 
+아닙니다 :( 
 
-time 
+시간 
 
-end 
+끝 
 
-start
+시작
 
-correct
+맞음
 
-wrong
+틀림
 
-tick
+체크
 
-cross
+x표
 
-animate
+애니메이션
 
-start screen
+시작 화면
