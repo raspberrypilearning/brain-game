@@ -12,7 +12,7 @@
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+시작을 위해 버튼을 클릭하세요. 질문에 답변을 입력한 다음 <kbd>확인하다</kbd>키를 누르십시오.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -31,7 +31,7 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## title: 배우게 될 것
 
-+ 스크래치에서 방송을 하는 방법
++ 스크래치에서 신호을 보내는 방법
 + 커스텀 스크래치 블록을 생성하고 사용하는 방법
 
 \--- /collapse \---
