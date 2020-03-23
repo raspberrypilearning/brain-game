@@ -5,11 +5,11 @@
 이렇게 변경하려면 타이머 코드만 수정하면 됩니다. 어떻게 수정할 수 있을까요?
 
 ```blocks3
-    when I receive [start v]
-    set [time v] to (30)
-    repeat until <(time) = [0]>
-        wait (1) seconds
-        change [time v] by (-1)
-    end
-    broadcast (end v)
+    [시작] 신호를 받았을 때
+[시간] 을 (30) 로 정하기
+<(시간) = [0]> 까지 반복하기 
+  (1) 초 기다리기
+  [시간] 을 (-1) 만큼 바꾸기
+끝
+(끝) 신호 보내기
 ```
