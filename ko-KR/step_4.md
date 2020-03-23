@@ -6,6 +6,6 @@
 
 [[[generic-scratch3-high-score]]]
 
-Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+답이 맞거나 틀린 경우 다른 모습으로 바꾸어 캐릭터를 플레이어의 답에 반응시킬 수 있습니까?
 
-![screenshot](images/brain-costume.png)
+![스크린샷](images/brain-costume.png)
