@@ -16,7 +16,7 @@
 
 \--- task \---
 
-Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+캐릭터 스프라이트 그리고 배경을 너의 게임에 추가하세요. 당신이 좋아하는 것을 선택할 수있슨디다.! 다음은 그 예시 입니다:
 
 ![스크린샷](images/brain-setting.png)
 
@@ -24,7 +24,7 @@ Add a character sprite and a backdrop for your game. You can choose any you like
 
 \--- task \---
 
-Make sure you have your character sprite selected. 퀴즈 질문 번호를 저장하기 위해 `1번`{:class = "block3variables"}과 `2번`{:class = "block3variables"}이라는 두 개의 새로운 변수를 만듭니다.
+캐릭터 스프라이트가 선택되어 있는지 확인하십시오 퀴즈 질문 번호를 저장하기 위해 `1번`{:class = "block3variables"}과 `2번`{:class = "block3variables"}이라는 두 개의 새로운 변수를 만듭니다.
 
 ![스크린샷](images/giga-sprite.png)
 
@@ -36,7 +36,7 @@ Make sure you have your character sprite selected. 퀴즈 질문 번호를 저�
 
 \--- task \---
 
-Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+캐릭터 스프라이트에 `변수`{:class="block3variables"} 를 추가하고, 변수값을 2부터 12까지의 `무작위`{:class="block3operators"} 로 설정합니다.
 
 ![스크린샷](images/giga-sprite.png)
 
@@ -50,7 +50,7 @@ Add code to your character sprite to set both of the `variables`{:class="block3v
 
 \--- task \---
 
-Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+`묻기`{:class="block3sensing"} 코드를 추가하여 플레이어에게 답을 요구하세요. 플레이어가 답을 입력하면 `2초 후 말하기`{:class="block3looks"} 블록을 활용하여 2초 기다린 후 답이 맞았는지, 틀렸는지를 입력되게 하세요.
 
 ![스크린샷](images/giga-sprite.png)
 
@@ -85,11 +85,11 @@ Add code to `ask`{:class="block3sensing"} the player for the answer, and then `s
 
 `무한 반복하기`{:class="block3control"} 블록 내에 `녹색 깃발을 클릭했을 때`{:class="block3control"} 블록을 제외하고 모든 블록을 넣으세요.
 
-\--- /hint \---
+-- /hint \---
 
 \--- hint \---
 
-Here is the block you need:
+필요한 코드 블록은 다음과 같습니다:
 
 ```blocks3
 무한 반복하기
@@ -100,7 +100,7 @@ Here is the block you need:
 
 \--- hint \---
 
-Here is what your code should look like:
+코드는 다음과 같이 설계되어야 합니다:
 
 ```blocks3
 녹색 깃발을 클릭했을 때
