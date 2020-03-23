@@ -58,11 +58,11 @@ end
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+녹색 깃발를 클릭 한 다음 새로운 '재생'버튼을 클릭하여 작동 여부를 테스트하십시오. 버튼을 클릭하기 전에 게임이 시작되지 않는 것을 확인해야 합니다.
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+게임이 시작될 때가 아니라 녹색 깃발이 클릭되었을 때 타이머가 시작된다는 것을 확인했습니까?
 
 ![Timer has started](images/brain-timer-bug.png)
 
@@ -89,7 +89,7 @@ Add code to your button sprite so that the button shows again at the end of each
 
 Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+게임을 더 빠르게 테스트하려면 각 게임이 불과 몇 초 길이가되도록 `시간`{: = block3variables} 의 변수 값을 변경할 수 있습니다.
 
 ![Stage](images/stage-sprite.png)
 
@@ -103,7 +103,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 You can change how the button looks when the mouse pointer hovers over it.
 
-![Button](images/button-sprite.png)
+![버튼](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -117,6 +117,6 @@ You can change how the button looks when the mouse pointer hovers over it.
     end
 ```
 
-![screenshot](images/brain-fisheye.png)
+![스크린샷](images/brain-fisheye.png)
 
 \--- /task \---
