@@ -14,23 +14,23 @@ steps:
   - 
     title: Добавь таймер
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'Задача: добавь счёт и реакции'
     challenge: true
   - 
-    title: Multiple games
+    title: Несколько игр
   - 
-    title: 'Challenge: create a start screen'
+    title: 'Задача: создай стартовый экран'
     challenge: true
   - 
-    title: Add graphics
+    title: Добавь графику
   - 
-    title: 'Challenge: sound and music'
+    title: 'Задача: звук и музыка'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'Задача: гонка до 10 очков'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'Задача: окно с инструкциями'
     challenge: true
   - 
-    title: What next?
+    title: Что дальше?
