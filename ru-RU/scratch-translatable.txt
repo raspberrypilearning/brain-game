@@ -10,7 +10,7 @@ no :(
 
 конец 
 
-start
+старт
 
 correct
 
