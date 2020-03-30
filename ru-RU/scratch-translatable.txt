@@ -6,9 +6,9 @@ yes! :)
 
 no :( 
 
-time 
+время 
 
-end 
+конец 
 
 start
 
