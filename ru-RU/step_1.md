@@ -23,7 +23,7 @@
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![Игра для мозга](images/brain-final.png)
 
 \--- /print-only \---
 
@@ -46,13 +46,13 @@
 
 ### Программное обеспечение
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([онлайн](http://rpf.io/scratchon){:target="_blank"} или [автономный (offline)](http://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Дополнительные заметки для педагогов
 
 \--- no-print \---
 
@@ -60,6 +60,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Здесь вы можете найти [завершённый проект](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
