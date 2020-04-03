@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Это **Scratch 3** версия проекта. Существует также версия [Scratch 2 проекта](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Введение
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+В этом проекте ты создашь игру-викторину по математике, в которой у игрока есть 30 секунд, чтобы дать как можно больше правильных ответов.
 
-### What you will make
+### Что тебе нужно будет сделать
 
 \--- no-print \---
 
