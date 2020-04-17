@@ -76,7 +76,7 @@ set [2번 v] to (pick random (2) to (12))
 
 --- task ---
 
-`무한 반복하기`{:class="blockcontrol"}를 추가하십시오. 이 코드를 반복하면 플레이어에게 많은 질문을 할 수 있습니다.
+`무한 반복하기`{:class="block3control"}를 추가하십시오. 이 코드를 반복하면 플레이어에게 많은 질문을 할 수 있습니다.
 
 --- hints ---
 
