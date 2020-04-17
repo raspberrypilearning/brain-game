@@ -20,11 +20,11 @@
 
 ```blocks3
     ⚑ 클릭했을 때
-보이기
+    보이기
 
-이 스프라이트를 클릭했을 때
-숨기기
-(시작) 신호 보내기
+    when this sprite clicked
+	  hide
+	  broadcast (시작 v)
 ```
 
 --- /task ---
@@ -42,18 +42,16 @@
 ![캐릭터 스프라이트](images/giga-sprite.png)
 
 ```blocks3
-<br />⚑ 클릭했을 때
-
-[시작] 신호를 받았을 때
-[1번] 을 ((2) 부터 (12) 사이의 난수) 로 정하기
-[2번] 을 ((2) 부터 (12) 사이의 난수) 로 정하기
-((1번) 와 ([ x ] 와(2번) 결합하기) 결합하기) 라고 묻고 기다리기
-만약 <(대답) = ((1번) × (2번))>라면 
-  [맞습니다!] 말하기
-끝 :)] (2) 초 동안
-아니면
-[아닙니다 :(] 을 (2) 초 동안 말하기
-끝
+- when flag clicked
++ when I receive [시작 v]
+set [1번 v] to (pick random (2) to (12))
+set [2번 v] to (pick random (2) to (12))
+ask (join (1번)(join [ x ] (2번))) and wait
+if <(answer) = ((1번)*(2번))> then
+	say [맞습니다! :)] for (2) seconds
+else
+	say [아닙니다 :(] for (2) seconds
+end
 ```
 
 --- /task ---
@@ -81,8 +79,8 @@
 ![버튼 스프라이트](images/button-sprite.png)
 
 ```blocks3
-    [끝] 신호를 받았을 때
-보이기
+    [끝 v] 신호를 받았을 때
+    보이기
 ```
 
 --- /task ---
@@ -96,7 +94,7 @@
 ![무대](images/stage-sprite.png)
 
 ```blocks3
-    [시간] 을 [10] 으로 설정
+set [시간 v] to [10]
 ```
 
 --- /task ---
@@ -108,15 +106,15 @@
 ![버튼](images/button-sprite.png)
 
 ```blocks3
-    ⚑ 클릭했을 때
-보이기
-무한 반복하기 
-  만약 <touching (mouse-pointer v)?> \(이\) 라면 
-    [물고기 눈] 효과를 (30) 로 정하기
-  아니면 
-    [물고기 눈] 효과를 (0) 로 정하기
-  끝
-끝
+  when flag clicked
+	show
+	forever
+	if <touching (mouse-pointer v)?> then
+		set [fisheye v] effect to (30)
+	else
+		set [fisheye v] effect to (0)
+	end
+	end
 ```
 
 ![스크린샷](images/brain-fisheye.png)

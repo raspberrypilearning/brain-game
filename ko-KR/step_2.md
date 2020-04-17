@@ -41,9 +41,9 @@
 ![스크린샷](images/giga-sprite.png)
 
 ```blocks3
-⚑ 클릭했을 때
-[1번] 을 ((2) 부터 (12) 사이의 난수) 로 정하기
-[2번] 을 ((2) 부터 (12) 사이의 난수) 로 정하기
+when flag clicked
+set [1번 v] to (pick random (2) to (12))
+set [2번 v] to (pick random (2) to (12))
 ```
 
 --- /task ---
@@ -55,16 +55,15 @@
 ![스크린샷](images/giga-sprite.png)
 
 ```blocks3
-⚑을 클릭했을 때
-[1번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
-[2번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
-
- + ((1번) 와 ([x] 와 (2번) 결합하기) 결합하기)) 묻고 기다리기
- + 만약 <(answer) = ((1번)*(2번))> 이라면
- + 말하기 [맞습니다! :)] (2) 초 동안
-+ 아니면
-+ (2) 초 동안 [틀렸습니다 :(]
-+ 끝
+when flag clicked
+set [1번 v] to (pick random (2) to (12))
+set [2번 v] to (pick random (2) to (12))
++ ask (join (1번)(join [ x ] (2번))) and wait
++ if <(answer) = ((1번)*(2번))> then
++ say [맞습니다! :)] for (2) seconds
++ else
++ say [틀렸습니다 :(] for (2) seconds
++ end
 ```
 
 --- /task ---
@@ -77,7 +76,7 @@
 
 --- task ---
 
-`무한 반복하기` {: class = "blockcontrol"}를 추가하십시오. 이 코드를 반복하면 플레이어에게 많은 질문을 할 수 있습니다.
+`무한 반복하기`{:class="blockcontrol"}를 추가하십시오. 이 코드를 반복하면 플레이어에게 많은 질문을 할 수 있습니다.
 
 --- hints ---
 
@@ -86,15 +85,15 @@
 
 `무한 반복하기`{:class="block3control"} 블록 내에 `녹색 깃발을 클릭했을 때`{:class="block3control"} 블록을 제외하고 모든 블록을 넣으세요.
 
--- /hint ---
+--- /hint ---
 
 --- hint ---
 
 필요한 코드 블록은 다음과 같습니다:
 
 ```blocks3
-무한 반복하기
-끝
+forever
+end
 ```
 
 --- /hint ---
@@ -104,18 +103,17 @@
 코드는 다음과 같이 설계되어야 합니다:
 
 ```blocks3
-녹색 깃발을 클릭했을 때
-
-+ 무한 반복
-    [1번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
-    [2번] 을 ((2) 부터 (12) 까지의 난수) 로 설정
-    ((1번) 과 (join [ x ] (2번) 결합하기) 결합하기) 묻고 기다리기
-    만약 <(answer) = ((1번)*(2번))> 이라면
-       말하기 [맞습니다! :)] (2) 초 동안
-아니면
-(2) 초 동안 [틀렸습니다 :(]) 말하기
-끝
-끝
+when flag clicked
++ forever
+	set [1번 v] to (pick random (2) to (12))
+	set [2번 v] to (pick random (2) to (12))
+	ask (join (1번)(join [ x ] (2번))) and wait
+	if <(answer) = ((1번)*(2번))> then
+		say [맞습니다! :)] for (2) seconds
+	else
+		say [틀렸습니다 :(] for (2) seconds
+	end
+end
 ```
 
 --- /hint ---

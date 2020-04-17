@@ -17,12 +17,12 @@
 ![캐릭터 스프라이트](images/giga-sprite.png)
 
 ```blocks3
-만약 <(답) = ((1번) × (2번))> \(이\) 라면 
- [맞습니다! :)] 을 (2) 초 동안 말하기
- + (맞음 v) 신호 보내기
-아니면 
- [틀립니다 :(] 을 (2) 초 동안 말하기
- + (틀림 v) 신호보내기
+if <(answer) = ((1번)*(2번))> then
+- say [맞습니다! :)] for (2) seconds
++ broadcast (맞음 v)
+else
+- say [틀립니다 :(] for (2) seconds
++ broadcast (틀림 v)
 end
 ```
 
@@ -35,20 +35,20 @@ end
 ![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
-    [맞음] 신호를 받았을 때
-모양을 (체크) 로 바꾸기
-보이기
-(1) 초 기다리기
-숨기기
+when I receive [맞음 v]
+    switch costume to (체크 v)
+    show
+    wait (1) seconds
+    hide
 
-[틀림] 신호를 받았을 때
-모양을 (x표) 로 바꾸기
-보이기
-(1) 초 기다리기
-숨기기
+    when I receive [틀림 v]
+    switch costume to (x표 v)
+    show
+    wait (1) seconds
+    hide
 
-⚑ 클릭했을 때
-숨기기
+    when flag clicked
+    hide
 ```
 
 --- /task ---
@@ -61,7 +61,7 @@ end
 
 --- /task ---
 
-`내가 정답일 때`{:class="blockevents"} 와 `내가 오답일 때`{:class="blockevents"}의 코드는 거의 동일합니까?
+`내가 정답일 때`{:class="block3events"} 와 `내가 오답일 때`{:class="block3events"}의 코드는 거의 동일합니까?
 
 따라서 코드를 더 쉽게 변경할 수 있으므로 사용자 지정 블록을 만들게됩니다.
 
@@ -82,10 +82,10 @@ end
 ![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
-애니메이션 정의하기
-보이기
-(1) 초 기다리기
-숨기기
+define 애니메이션
+show
+wait (1) seconds
+hide
 ```
 
 --- /task ---
@@ -99,13 +99,13 @@ end
 ![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
-    [맞음] 신호를 받았을 때
-모양을 (체크) 로 바꾸기
-애니메이션:: 모습
+    when I receive [맞음 v]
+    switch costume to (체크 v)
+    애니메이션:: custom
 
-[틀림] 신호를 받았을 때
-모양을 (x표) 로 바꾸기
-애니메이션:: 모습
+    when I receive [틀림 v]
+    switch costume to (x표 v)
+    애니메이션:: custom
 ```
 
 --- /task ---
@@ -125,13 +125,13 @@ end
 ![결과 스프라이트](images/result-sprite.png)
 
 ```blocks3
-    애니메이션 정의하기
-[유령] 효과를 (100) 로 정하기
-보이기
-(25) 번 반복하기 
-  [유령] 효과를 (-4) 만큼 바꾸기
-끝
-숨기기
+    define 애니메이션
+	set [ghost v] effect to (100)
+	show
+	repeat (25)
+		change [ghost v] effect by (-4)
+	end
+	hide
 ```
 
 --- /task ---
