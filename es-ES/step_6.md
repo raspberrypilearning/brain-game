@@ -1,6 +1,6 @@
 ## Desafío: Crear una pantalla de inicio
 
-¿Puedes añadir otro fondo que sea la pantalla de inicio de tu juego?
+¿Puedes añadir otro fondo para que sea la pantalla de inicio de tu juego?
 
 Puedes usar los bloques `al recibir empezar`{:class="block3events"} y `al recibir final`{:class="block3events"} para cambiar los fondos.
 
