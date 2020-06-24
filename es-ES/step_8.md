@@ -10,4 +10,4 @@
     tocar sonido (pop v) hasta que termine
 ```
 
-Tu juego podría reproducir música de fondo continuamente con un bucle.
+Tu juego podría reproducir música de fondo continuamente en bucle.
