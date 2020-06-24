@@ -1,27 +1,25 @@
 ---
 hero_image: images/brain-game.png
-theme: red
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 title: لعبة العقل
-description: تعلم كيف تُنشئ اختبارًا قصيرًا.
-original_url: https://codeclubprojects.org/en-GB/scratch/brain-game
-interests: ''
-technologies: scratch
-site_areas: codeclub, scratch
+description: تعلم كيف تُنشئ اختبارًا قصيرًا
+version: 4.0.2
+last_tested: 2018-10-03
 steps:
-- title: المقدمة
-- title: إنشاء أسئلة
-- title: 'التحدي: تغيير المظاهر'
-- title: 'التحدي: إضافة درجة'
-- title: ألعاب متعددة
-- title: 'التحدي: شاشة البدء'
-- title: إضافة رسومات
-- title: 'التحدي: رسوم متحركة محسنة'
-- title: 'التحدي: الصوت والموسيقى'
-- title: 'التحدي: سباق حتى 10 نقاط'
-- title: 'التحدي: شاشة التعليمات'
-
+  - title: المقدمة
+  - title: إنشاء الأسئلة
+  - title: إضافة مؤقت
+  - title: 'التحدي: إضافة سجل نقاط وردود فعل'
+    challenge: true
+  - title: ألعاب متعددة
+  - title: 'التحدي: إنشاء شاشة البداية'
+    challenge: true
+  - title: إضافة رسومات
+  - title: 'التحدي: الصوت والموسيقى'
+    challenge: true
+  - title: 'تحدي: سباق حتى 10 نقاط'
+    challenge: true
+  - title: 'التحدي: شاشة التعليمات'
+    challenge: true
+  - title: ما هي الخطوة التالية؟
