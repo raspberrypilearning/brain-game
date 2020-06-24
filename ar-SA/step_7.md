@@ -42,7 +42,7 @@ end
     hide
 
     when I receive [خطأ v]
-    switch costume to (علامة الخطا (في) v)
+    switch costume to (خطا v)
     show
     wait (1) seconds
     hide
@@ -61,13 +61,13 @@ end
 
 --- /task ---
 
-هل لاحظتَ أن التعليمتَين البرمجيتَين لكل من `عندما أتلقى صح`{:class="blockevents"} و`عندما أتلقى خطأ`{:class="blockevents"} متماثلتَان تقريبًا؟
+هل لاحظتَ أن التعليمتَين البرمجيتَين لكل من `عندما أتلقى صح`{:class="block3events"} و`عندما أتلقى خطأ`{:class="block3events"} متماثلتَان تقريبًا؟
 
 حتى تتمكن من تغيير التعليمة البرمجية الخاص بك بسهولة أكبر ، ستقوم بإنشاء تعليمة مخصصة.
 
 --- task ---
 
-حدد كائن 'النتيجة'. ثم انقر فوق ` تعليماتي البرمجية`{:class="block3myblocks"} ، ثم على **إنشاء تعليمة**. قم بإنشاء تعليمة جديدة تدعى `حركة حيوية`{:class="block3myblocks"}.
+حدد كائن 'النتيجة'. ثم انقر فوق `تعليماتي البرمجية`{:class="block3myblocks"} ، ثم على **إنشاء تعليمة**. قم بإنشاء تعليمة جديدة تدعى `حركة حيوية`{:class="block3myblocks"}.
 
 ![كائن النتائج](images/result-sprite.png)
 
@@ -104,7 +104,7 @@ hide
     تحريك:: custom
 
     when I receive [خطأ v]
-    switch costume to (علامة الخطا (في) v)
+    switch costume to (خطا v)
     تحريك:: custom
 ```
 
