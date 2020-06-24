@@ -1,8 +1,8 @@
-## التحدي: الصوت والموسيقى
+## التحدي: سباق من 10 نقاط
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+هل يمكنك تغيير لعبتك بحيث يقوم اللاعب ، بدلاً من الإجابة عن أكبر عدد ممكن من الأسئلة في 30 ثانية ، بالإجابة على 10 أسئلة بأسرع ما يمكن.
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+لإجراء هذا التغيير ، ما عليك سوى تغيير تعليمة المؤقت. هل يمكنك معرفة التعليمة التي يجب أن تكون مختلفة؟
 
 ```blocks3
     when I receive [start v]
