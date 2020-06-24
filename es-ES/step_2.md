@@ -6,9 +6,9 @@ Vas a empezar por crear preguntas aleatorias que el jugador tendrá que contesta
 
 Abre un nuevo proyecto en Scratch.
 
-**Online:** abre un nuevo proyecto en [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**En línea:** abre un nuevo proyecto en [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** abre un nuevo proyecto en el editor offline.
+**Sin conexión:** abre un nuevo proyecto en el editor offline.
 
 Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
@@ -16,19 +16,19 @@ Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrar
 
 \--- task \---
 
-Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+Añade un personaje y un fondo para tu juego. ¡Puedes escoger el que quieras! Aquí tienes un ejemplo:
 
-![screenshot](images/brain-setting.png)
+![captura de pantalla](images/brain-setting.png)
 
 \--- /task \---
 
 \--- task \---
 
-Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+Asegúrate de tener tu personaje seleccionado. Crea dos nuevas variables llamadas `número 1`{:class="block3variables"} y `número 2`{:class="block3variables"} para almacenar los número de las preguntas del test.
 
-![screenshot](images/giga-sprite.png)
+![captura de pantalla](images/giga-sprite.png)
 
-![screenshot](images/brain-variables.png)
+![captura de pantalla](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -36,32 +36,31 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 \--- task \---
 
-Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+Añade código a tu personaje para dar a tus dos `variables`{:class="block3variables"} un número `aleatorio`{:class="block3operators"} entre 2 y 12.
 
-![screenshot](images/giga-sprite.png)
+![captura de pantalla](images/giga-sprite.png)
 
 ```blocks3
-al hacer clic en la bandera verde
-dar a [número 1 v] el valor (número aleatorio entre (2) y (12))
-dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
+al hacer clic en la bandera
+fijar [número 1 v] a (número aleatorio entre (2) y (12))
+fijar [número 2 v] a (número aleatorio entre (2) y (12))
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+Añade código a `pregunta`{:class="block3sensing"} el jugador para la respuesta, y luego `decir durante 2 segundos`{:class="block3looks"} si la respuesta era correcta o incorrecta:
 
-![screenshot](images/giga-sprite.png)
+![captura de pantalla](images/giga-sprite.png)
 
 ```blocks3
-al hacer clic en la bandera verde
-dar a [número 1 v] el valor (número aleatorio entre (2) y (12))
-dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
-
-+ preguntar (unir (número 1)(unir [ x ] (número 2))) y esperar
-+ si <(respuesta) = ((número 1)*(número 2))> entonces
-+ decir [¡sí! :)] durante (2) segundos
+al presionar la bandera
+ fijar [número 1 v] a (número al azar entre (2) y (12))
+  ar [number 2 v] a (número al azar entre(2) y (12))
+   tar (une (número 1)(une [ x ] (número 2))) y esperar
+    sspuesta) = ((úmero 1)*(número 2))> entonces
+        :)] durante (2) segundos
 + si no
 + decir [no :(] durante (2) segundos
 + fin
@@ -71,28 +70,28 @@ dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+Prueba tu proyecto dos veces: responde una pregunta correctamente, y la otra incorrectamente.
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+Añade un bucle `continuo`{:class="block3control"} que englobe este código para que el juego haga muchas preguntas seguidas.
 
 \--- hints \---
 
 \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+Necesitas añadir un bloque `continuo`{:class="block3control"}, y poner todo el código excepto el bloque `al hacer clic en bandera`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the block you need:
+Éste es el bloque que necesitas:
 
 ```blocks3
-por siempre
+continuo
 fin
 ```
 
@@ -100,20 +99,20 @@ fin
 
 \--- hint \---
 
-Here is what your code should look like:
+Así debería ser tu código:
 
 ```blocks3
-al hacer clic en la bandera verde
-+ por siempre
+al seleccionar la bandera
++ continuo
     dar a [número 1 v] el valor (número aleatorio entre (2) y (12))
     dar a [número 2 v] el valor (número aleatorio entre (2) y (12))
     preguntar (unir (número 1)(unir [ x ] (número 2))) y esperar
     si <(respuesta) = ((número 1)*(número 2))> entonces
         decir [¡sí! :)] durante (2) segundos
-    si no
+    sino
         decir [no :(] durante (2) segundos
-    fin
-fin
+    end
+end
 ```
 
 \--- /hint \---
