@@ -2,23 +2,23 @@
 
 \--- task \---
 
-Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+قم بإنشاء مؤقت للعد التنازلي على المنصة (الخلفية) بمساعدة متغير جديد يسمى ` الوقت` {: class = "block3variables"}. يجب أن يبدأ المؤقت من 30 ثانية والعد التنازلي حتى 0 ثانية.
 
-![Stage sprite](images/stage-sprite.png)
+![كائن منصة العمل](images/stage-sprite.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+قم بإنشاء `متغير` {: class = "block3variables"} ، يمكنك تسميته "الوقت" وضبط قيمته على `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+ثم أضف تعليمة برمجية لحساب `الوقت` {: class = "block3variables"} وصولاً إلى 0 في غضون 30 ثانية. للقيام بذلك ، اطرح `1` من ` الوقت` {: class = "block3variables"} كل ` 1 ` ثانيًا ، وكرر هذه العملية حتى يصبح ` الوقت` {: class = "block3variables"} تساوي ` 0 `.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+فيما يلي الكتل البرمجية التي تحتاجها:
 
 ```blocks3
 repeat until < >
@@ -42,7 +42,7 @@ set [time v] to [0]
 
 \--- hint \---
 
-Here is the what your new code should look like:
+هذا ما يجب أن يبدو عليه التعليمة البرمجي الجديدة:
 
 ```blocks3
 when flag clicked
@@ -61,9 +61,9 @@ end
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+قم بإنشاء `بث` {: class = "block3control"} التي ترسل الرسالة "نهاية". إن `بث الرسالة `{:class="block3control"} يشبه إعلان على مكبر صوت: يمكن سماعه من قبل جميع الكائنات الخاصة بك. أضف التعليمة البرمجية`بث الرسالة`{:class="block3control"} إلى نهاية التعليمة البرمجية المؤقت بحيث يرسل التعليمة البرمجية وتنتهي الرسالة عندما يكون `الوقت`{:class="block3variables"} قد تم العد إلى `0`.
 
-![Stage sprite](images/stage-sprite.png)
+![كائن منصة العمل](images/stage-sprite.png)
 
 ```blocks3
     broadcast (end v)
@@ -73,19 +73,19 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 
 \--- task \---
 
-Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+حدد كائن الشخصية الخاصة بك وأضف بعض التعليمات البرمجية له بحيث`توقف الكائنات الاخرى` {: class = "block3control"} عندما تتلقى رسالة`النهاية` {: class = "block3control"}.
 
-![Giga sprite](images/giga-sprite.png)
+![الكائن كيكا](images/giga-sprite.png)
 
 ```blocks3
-    عندما تستقبل [end v]
-أوقف [المقاطع الأخرى في الكائن v]
+    when I receive [end v]
+    stop [other scripts in sprite v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+اختبر لعبتك مرة أخرى. يجب أن تستمر في طرح الأسئلة حتى يصبح المؤقت للعد التنازلي يساوي 0.
 
 \--- /task \---
