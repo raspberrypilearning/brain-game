@@ -1,11 +1,11 @@
-## التحدي: إضافة درجة
+## التحدي: إضافة سجل نقاط وردود فعل
 
-Can you add a score to your game?
+هل يمكنك إضافة سجل النقاط إلى لعبتك؟
 
-You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
+يمكنك إضافة تعليمة برمجية بحيث يسجل للاعب نقطة لكل إجابة صحيحة. إذا كنت تشعر بعدم الرضا، يمكنك أيضًا إضافة تعليمة برمجية لإعادة سجل نقاط اللاعب إلى الصفر في حال أعطوا إجابة خاطئة!
 
 [[[generic-scratch3-high-score]]]
 
-Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+هل يمكنك جعل الكائن او شخصيتك تتفاعل مع إجابة اللاعب بالتغيير إلى شكل مختلف إذا كانت الإجابة صحيحة أو غير صحيحة؟
 
 ![لقطة الشاشة](images/brain-costume.png)
