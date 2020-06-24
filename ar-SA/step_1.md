@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+هذا هو إصدار ** Scratch 3 ** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع ](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
 ## المقدمة
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+في هذا المشروع، ستقوم بإنشاء لعبة اختبار للرياضيات يكون للاعب خلالها 30 ثانية لإعطاء أكبر عدد ممكن من الإجابات الصحيحة.
 
-### ما الذي ستصنعه
+### ما الذي ستقوم به
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+انقر فوق الزر للبدء. اكتب إجابة السؤال ثم اضغط على مفتاح<kbd> Enter </kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,7 +23,7 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![لعبة العقل](images/brain-final.png)
 
 \--- /print-only \---
 
@@ -31,14 +31,14 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## title: ما الذي ستتعلمه
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ كيف تستخدم بث رسالة في سكراتش
++ كيفية إنشاء واستخدام كتلة برمجية مخصصة في سكراتش
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: ما ستحتاج إليه
+## title: ما الذي ستحتاجه
 
 ### الأجهزة
 
@@ -48,18 +48,18 @@ Click the button to start. Type in the answer to the question, and then press th
 
 + برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
 
-\--- collapse \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: ملاحظات إضافية للمعلمين
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام نسخة [سهلة الطباعة.](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+يمكنك ايجاد [المشروع كاملاً من هنا](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
