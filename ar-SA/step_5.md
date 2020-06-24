@@ -1,22 +1,22 @@
 ## ألعاب متعددة
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+الآن سوف تضيف زر "تشغيل"، حتى يتمكن اللاعب من لعب لعبتك مرات عديدة.
 
 \--- task \---
 
-Create a new 'Play' button sprite that the player needs to click to start a new game.
+إنشاء كائن زر جديد 'تشغيل' يحتاج اللاعب إلى النقر عليه لبدء لعبة جديدة.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+يمكنك رسم الكائن بنفسك، أو تحرير الكائن من المكتبة العامة.
 
-![Picture of the play button](images/brain-play.png)
+![صورة زر التشغيل](images/brain-play.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your button sprite:
+أضف هذه التعليمة البرمجية إلى كائن الزر:
 
-![Button sprite](images/button-sprite.png)
+![كائن الزر](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -29,17 +29,17 @@ Add this code to your button sprite:
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+تحتوي التعليمة البرمجية الجديدة على تعليمة أخرى `بث`{:class="block3events"} ، والتي ترسل الرسالة 'بدء'.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+التعليمة البرمجية الجديدة تجعل زر "تشغيل" يظهر للمستخدم عندما ينقر اللاعب على العلم. عندما ينقر اللاعب على كائن الزر، يخفي الكائن ثم يقوم ببث رسالة يمكن للكائنات الأخرى أن تتفاعل معها.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+في هذه اللحظة ، يبدأ الكائن او الشخصية في طرح الأسئلة عندما ينقر اللاعب على العلم. قم بتغيير التعليمة البرمجية الخاصة باللعبة بحيث تبدا الشخصية بطرح الأسئلة عندما تتلقى (رسالة) بث "بدء" ` ` {: class = "block3events"}.
 
 \--- task \---
 
-Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+حدد كائن الشخصية الخاص بك، وفي قسم التعليمات البرمجية، استبدل التعليمة البرمجية`عند النقر فوق العلم`{:class="block3events"} بكتلة `عندما أتلقى رسالة ابدا`{:class="block3events"}.
 
-![Character sprite](images/giga-sprite.png)
+![كائن او الشخصية](images/giga-sprite.png)
 
 ```blocks3
 <br />- when flag clicked
@@ -58,25 +58,25 @@ end
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+انقر فوق العلم الأخضر ، ثم انقر فوق الزر "تشغيل" الجديد لاختبار ما إذا كان يعمل. يجب أن ترى أن اللعبة لا تبدأ قبل النقر فوق الزر.
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+هل لاحظتَ أن الموقِّت يبدأ عند النقر على العلم الأخضر، لا عندما تبدأ اللعبة؟
 
-![Timer has started](images/brain-timer-bug.png)
+![تم بدء الموقّت](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+هل يمكنك تغيير التعليمات البرمجية للمؤقت بحيث يبدأ المؤقت عندما ينقر اللاعب على الزر؟
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your button sprite so that the button shows again at the end of each game.
+أضف تعليمة برمجية إلى كائن الزر الخاص بك بحيث يظهر الزر مرة أخرى في نهاية كل لعبة.
 
-![Button sprite](images/button-sprite.png)
+![كائن الزر](images/button-sprite.png)
 
 ```blocks3
     عندما تستقبل [end v]
@@ -87,11 +87,11 @@ Add code to your button sprite so that the button shows again at the end of each
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+اختبر زر "تشغيل" بتشغيل بعض الألعاب. يجب أن يظهر الزر في نهاية كل لعبة.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+لاختبار اللعبة بسرعة أكبر، يمكنك تغيير قيمة `الوقت`{:class="block3variables"} بحيث تكون كل لعبة بضع ثواني فقط.
 
-![Stage](images/stage-sprite.png)
+![المنصة](images/stage-sprite.png)
 
 ```blocks3
     اجعل [الساعة v] مساوياً [10]
@@ -101,9 +101,9 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- task \---
 
-You can change how the button looks when the mouse pointer hovers over it.
+يمكنك أيضًا تغيير شكل الزر عند وضع الماوس فوقه.
 
-![Button](images/button-sprite.png)
+![زر](images/button-sprite.png)
 
 ```blocks3
     عند نقر ⚑
@@ -117,6 +117,6 @@ You can change how the button looks when the mouse pointer hovers over it.
 end
 ```
 
-![screenshot](images/brain-fisheye.png)
+![لقطة الشاشة](images/brain-fisheye.png)
 
 \--- /task \---
