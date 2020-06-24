@@ -1,11 +1,11 @@
-## Challenge: create a start screen
+## Desafío: crear una pantalla de inicio
 
-Can you add another backdrop that is going to be the start screen for your game?
+¿Puedes agregar otro fondo para que sea la pantalla de inicio del juego?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+Puedes usar los bloques `al recibir inicio`{:class="block3events"} y `al recibir fin`{:class="block3events"} para cambiar entre los fondos.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+Para mostrar u ocultar el personaje cuando el juego cambia entre fondos, puedes usar los bloques `mostrar`{:class="block3looks"} y `ocultar`{:class="block3looks"}.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+Para mostrar u ocultar el temporizador y la puntuación cuando al juego cambia entre fondos, puedes usar los bloques `mostrar variable`{:class="block3variables"} y `ocultar variable`{:class="block3variables"}.
 
-![Start screen](images/brain-startscreen.png)
+![Pantalla de inicio](images/brain-startscreen.png)
