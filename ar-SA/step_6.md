@@ -1,11 +1,11 @@
-## التحدي: شاشة البدء
+## التحدي: إنشاء شاشة البداية
 
-Can you add another backdrop that is going to be the start screen for your game?
+هل يمكنك إضافة خلفية أخرى تكون شاشة البداية لعبتك؟
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+يمكنك استخدام `عندما أستقبل رسالة البدء`{:class="block3events"} و `عندما أستلم رسالة النهاية`{:class="block3events"} للتبديل بين الخلفية.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+لإظهار أو إخفاء كائن الشخصية عند تبديل اللعبة بين الخلفيات ، يمكنك استخدام التعليمات البرمجية `عرض `{:class="block3looks"} و `إخفاء `{:class="block3looks"}.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+لإظهار أو إخفاء المؤقت والنتيجة عند تبديل اللعبة بين الخلفية، يمكنك استخدام التعليمات البرمجية `إظهار المتغير`{:class="block3variables"} و `إخفاء المتغير`{:class="block3variables"}.
 
-![Start screen](images/brain-startscreen.png)
+![شاشة البداية](images/brain-startscreen.png)
