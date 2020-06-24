@@ -1,13 +1,13 @@
-## التحدي: رسوم متحركة محسنة
+## تحدي: الصوت والموسيقى
 
-Can you add sound effects and music to your game? For example, you could have your game:
+هل يمكنك إضافة مؤثرات صوتية وموسيقى إلى لعبتك؟ على سبيل المثال، يمكنك استخدام لعبتك:
 
-+ Play a sound when the player gives a correct or incorrect answer
-+ Play a ticking sound as the countdown timer runs
-+ Play a sound when the player's time is up
++ تشغيل صوت عندما يعطي المشغل إجابة صحيحة أو غير صحيحة
++ تشغيل صوت موقوت أثناء تشغيل موقت العد التنازلي
++ تشغيل صوت عند انتهاء وقت المشغل
 
 ```blocks3
     play sound (pop v) until done
 ```
 
-Your game could also constantly play background music on a loop.
+يمكن لعبتك أيضا أن تشغل باستمرار موسيقى الخلفية باستخدام حلقة التكرار.
