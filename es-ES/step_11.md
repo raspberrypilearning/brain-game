@@ -4,7 +4,7 @@
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+Utiliza las teclas de dirección de tu teclado para girar el controlador y atrapar los puntos voladores a medida que llegan al centro. Si no eres capaz de atrapar tres puntos se acaba el juego. 
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- print-only \---
 
-![Dots screenshot](images/dots-final.png)
+![Captura de pantalla de puntos](images/dots-final.png)
 
 \--- /print-only \---
