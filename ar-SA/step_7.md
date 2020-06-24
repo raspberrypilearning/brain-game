@@ -8,7 +8,7 @@
 
 ![الكائن مع مظاهر الصح والخطا](images/brain-result.png)
 
----/task--
+--- /task ---
 
 --- task ---
 
