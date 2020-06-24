@@ -1,34 +1,34 @@
-## Create questions
+## Создай вопросы
 
-You're going to start by creating random questions that the player has to answer.
+Ты начнешь с создания случайных вопросов, на которые игрок должен ответить.
 
 \--- task \---
 
-Open a new Scratch project.
+Открой новый проект Scratch.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**Онлайн:** открой новый онлайн проект Scratch [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** open a new project in the offline editor.
+**Офлайн:** открой новый проект в автономном редакторе.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Если тебе нужно скачать и установить оффлайн редактор Scratch, ты можешь найти его по адресу [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+Добавь спрайт персонажа и фон для твоей игры. Ты можешь выбрать любой понравившийся! Вот пример:
 
-![screenshot](images/brain-setting.png)
+![снимок экрана](images/brain-setting.png)
 
 \--- /task \---
 
 \--- task \---
 
-Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+Убедись, что ты выбрал спрайт своего персонажа. Создай две новые переменные, с именами `число 1`{:class="block3variables"} и `число 2`{:class="block3variables"}, чтобы сохранить числа для вопросов викторины.
 
-![screenshot](images/giga-sprite.png)
+![снимок экрана](images/giga-sprite.png)
 
-![screenshot](images/brain-variables.png)
+![снимок экрана](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -36,34 +36,34 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 \--- task \---
 
-Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+Добавь код к спрайту твоего персонажа, чтобы установить обеим `переменным`{:class="block3variables"} `случайные`{:class="block3operators"} числа от 2 до 12.
 
-![screenshot](images/giga-sprite.png)
+![снимок экрана](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+когда щёлкнут по зелёному флагу
+задать [число 1 v] значение (выдать случайное от (2) до (12))
+задать [число 2 v] значение (выдать случайное от (2) до (12))
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+Добавь код, чтобы `спросить`{:class="block3sensing"} игрока, а затем `говори в течение 2 секунд`{:class="block3looks"}, был ли ответ правильным или неправильным:
 
-![screenshot](images/giga-sprite.png)
+![снимок экрана](images/giga-sprite.png)
 
 ```blocks3
-when flag clicked
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
+когда щёлкнут по зелёному флагу
+задать [число 1 v] значение (выдать случайное от (2) до (12))
+задать [число 2 v] значение (выдать случайное от (2) до (12))
 
-+ ask (join (number 1)(join [ x ] (number 2))) and wait
-+ if <(answer) = ((number 1)*(number 2))> then
-+ say [yes! :)] for (2) seconds
-+ else
-+ say [no :(] for (2) seconds
++ спросить (объединить (число 1) (объединить [ x ] (число 2))) и ждать
++ если <(ответ) = ((число 1) * (число 2))>, то 
++ говорить [да! :)] (2) секунд
++ иначе 
++ говорить [нет :(] (2) секунд
 + end
 ```
 
@@ -71,50 +71,50 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+Протестируй свой проект дважды: ответь на один вопрос правильно, а другой – неправильно.
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+Добавь цикл `повторять всегда`{:class="block3control"} вокруг этого кода, чтобы игра задавала игроку много вопросов подряд.
 
 \--- hints \---
 
 \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+Тебе нужно добавить блок `повторять всегда`{:class="block3control"} и поместить в него весь код, кроме блока `когда щёлкнут по зелёному флагу`{:class="block3control"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the block you need:
+Вот блок, который тебе понадобится:
 
 ```blocks3
-forever
-end
+повторять всегда
+конец
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is what your code should look like:
+Вот как должен выглядеть твой код:
 
 ```blocks3
-when flag clicked
+когда щёлкнут по зелёному флагу
 
-+ forever
-    set [number 1 v] to (pick random (2) to (12))
-    set [number 2 v] to (pick random (2) to (12))
-    ask (join (number 1)(join [ x ] (number 2))) and wait
-    if <(answer) = ((number 1)*(number 2))> then
-        say [yes! :)] for (2) seconds
-    else
-        say [no :(] for (2) seconds
-    end
-end
++ повторять всегда 
+  задать [число 1 v] значение (выдать случайное от (2) до (12))
+  задать [число 2 v] значение (выдать случайное от (2) до (12))
+  спросить (объединить (число 1) (объединить [ x ] (число 2))) и ждать
+  если <(ответ) = ((число 1) * (число 2))>, то 
+    сказать [да! :)] (2) секунд
+  иначе 
+    говорить [no :(] (2) секунд
+  конец
+конец
 ```
 
 \--- /hint \---
