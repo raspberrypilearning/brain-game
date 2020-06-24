@@ -1,25 +1,25 @@
-number 1
+العدد 1
 
-number 2 
+العدد 2 
 
-yes! :) 
+نعم! :) 
 
-no :( 
+لا :( 
 
-time 
+الوقت 
 
-end 
+النهاية 
 
-start
+البداية
 
-correct
+صحيح
 
-wrong
+خطأ
 
-tick
+علامة صح
 
-cross
+علامة الخطا (في)
 
-animate
+تحريك
 
-start screen
+شاشة البداية
