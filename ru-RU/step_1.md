@@ -31,7 +31,7 @@
 
 ## title: Чему ты научишься
 
-+ How to use broadcasts in Scratch
++ Как использовать передачу сообщений в Scratch
 + Как создать и использовать пользовательский блок Scratch
 
 \--- /collapse \---
@@ -56,7 +56,7 @@
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Если вы хотите распечатать этот проект, то воспользуйтесь [версией для печати](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 \--- /no-print \---
 
