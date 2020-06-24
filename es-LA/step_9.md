@@ -1,8 +1,8 @@
-## Challenge: race to 10 points
+## Desafío: correr hasta 10 puntos
 
-Can you change your game so that the player, instead of answering as many questions as possible in 30 seconds, answer 10 questions as quickly as possible.
+Puedes cambiar tu juego de manera que el jugador, en vez de contestar tantas preguntas como pueda en 30 segundos, conteste 10 preguntas tan rápido como pueda.
 
-To make this change, you only need to change your timer code. Can you see which blocks need to be different?
+Para hacer este cambio, necesitas cambiar el código del temporizador. ¿Puedes ver qué bloques tienen que ser diferentes?
 
 ```blocks3
     when I receive [start v]
