@@ -1,20 +1,20 @@
 ## إضافة رسومات
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+في هذه اللحظة، الكائن او الشخصية يقول فقط `نعم! :)` أو `لا :(` لإجابات اللاعب. أضف بعض الرسوم او الاشكال لإطلاع اللاعب على ما إذا كانت إجابته صحيحة أو غير صحيحة.
 
 \--- task \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+أنشئ كائنًا جديدًا يُسمى 'النتيجة'، يحتوي على مظهر '✓' ومظهر '✘'.
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![الكائن مع مظاهر الصح والخطا](images/brain-result.png)
 
 \---/task--
 
 \--- task \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+قم بتغيير التعليمة البرمجية للكائن الخاص بك بحيث أنه بدلاً من قول شيء إلى اللاعب، `يبث `{:class="block3events"} الرسائل 'صح' أو 'خطأ'.
 
-![Character sprite](images/giga-sprite.png)
+![كائن الشخصية](images/giga-sprite.png)
 
 ```blocks3
 if <(answer) = ((number 1)*(number 2))> then
@@ -31,9 +31,9 @@ end
 
 \--- task \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+الآن يمكنك استخدام هذه الرسائل ` لإظهار ` {: class = "block3looks"} المظهر"صح" أو "خطا". أضف التعليمات البرمجية التالية إلى كائن'النتيجة':
 
-![Result sprite](images/result-sprite.png)
+![كائن النتائج](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -56,31 +56,31 @@ Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cr
 
 \--- task \---
 
-Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+اختبر لعبتك مرة أخرى. سترى علامة ✓ عندما تجيب إجابة صحيحة، وعلامة ✘ عندما تجيب إجابة غير صحيحة!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
-
-\--- /task \---
-
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
-
-So you can change your code more easily, you are going to create a custom block.
-
-\--- task \---
-
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
-
-![Result sprite](images/result-sprite.png)
-
-![Create a block called animate](images/brain-animate-function.png)
+![علامة صح للإجابة الصحيحة وعلامة الخطأ للإجابة الخاطئة ](images/brain-test-answer.png)
 
 \--- /task \---
 
+هل لاحظتَ أن التعليمتَين البرمجيتَين لكل من `عندما أتلقى صح`{:class="blockevents"} و`عندما أتلقى خطأ`{:class="blockevents"} متماثلتَان تقريبًا؟
+
+حتى تتمكن من تغيير التعليمة البرمجية الخاص بك بسهولة أكبر ، ستقوم بإنشاء تعليمة مخصصة.
+
 \--- task \---
 
-Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+حدد كائن 'النتيجة'. ثم انقر فوق ` تعليماتي البرمجية` {: class = "block3myblocks"} ، ثم على ** إنشاء تعليمة**. قم بإنشاء تعليمة جديدة تدعى `حركة حيوية`{:class="block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![كائن النتائج](images/result-sprite.png)
+
+![إنشاء تعليمة تسمى الحركة الحيوية](images/brain-animate-function.png)
+
+\--- /task \---
+
+\--- task \---
+
+نقل التعليمة البرمجية إلى `عرض `{:class="block3looks"} و `إخفاء `{:class="block3looks"} كائن "النتيجة" إلى تعليمة`حركة حيوية`{:class="block3myblocks"}:
+
+![كائن النتائج](images/result-sprite.png)
 
 ```blocks3
 define animate
@@ -93,11 +93,11 @@ hide
 
 \--- task \---
 
-Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+تأكد من أنك قمت بإزالة التعليمةالبرمجية `عرض`{:class="block3looks"} و `إخفاء `{:class="block3looks"} أسفل **التعليمتين** من `غير المظهر `{:class="block3looks"}.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+ثم أضف التعليمة`حركة حيوية`{:class="block3myblocks"} أسفل التعليمة`تبديل المظهر `{:class="block3looks"}. يجب أن تبدو التعليمة الخاص بك الآن كما يلي:
 
-![Result sprite](images/result-sprite.png)
+![كائن النتائج](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -111,19 +111,19 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+بسبب مظهر`حركة حيوية` {: class = "block3myblocks"} ، ما عليك سوى إجراء تغيير واحد على تعليمتك البرمجية إذا كنت تريد إظهار مظاهر الكائن "النتيجة" لفترة أطول أو أقصر.
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+قم بتغيير التعليمة البرمجية الخاص بك بحيث يتم عرض المظاهر"الصح" أو "الخطا" لمدة ثانيتين.
 
 \--- /task \---
 
 \--- task \---
 
-Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+بدلاً من `إظهار` {: class = "block3looks"} و `إخفاء` {: class = "block3looks"} مظاهر"الصح" أو "الخطا" ، يمكنك تغيير ` الحركة الحيوية` {: class = "block3myblocks"} حتى تتلاشى الأزياء.
 
-![Result sprite](images/result-sprite.png)
+![كائن النتائج](images/result-sprite.png)
 
 ```blocks3
     define animate
@@ -137,6 +137,6 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+هل يمكنك تحسين الرسوم المتحركة للرسومات "الصح" أو "الخطا"؟ يمكنك إضافة تعليمة برمجية لجعل المظاهرتتلاشى أيضًا ، أو يمكنك استخدام تأثيرات رائعة أخرى:
 
-![screenshot](images/brain-effects.png)
+![لقطة شاشة](images/brain-effects.png)
