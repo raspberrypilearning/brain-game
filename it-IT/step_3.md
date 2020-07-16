@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Crea un timer per il conto alla rovescia sullo schermo con l'aiuto di una nuova variabile chiamata `tempo`{:class = "block3variables"}. Il timer dovrebbe iniziare a 30 secondi e contare fino a 0 secondi.
+Crea un timer per il conto alla rovescia sullo schermo con l'aiuto di una nuova variabile chiamata `secondi`{:class="block3variables"}. Il timer dovrebbe iniziare a 30 secondi e contare fino a 0 secondi.
 
 ![Sprite dello scenario](images/stage-sprite.png)
 
@@ -10,9 +10,9 @@ Crea un timer per il conto alla rovescia sullo schermo con l'aiuto di una nuova 
 
 \--- hint \---
 
-Crea una `variabile`{:class = "block3variables"}, chiamala "tempo" e imposta il suo valore a `30`.
+Crea una `variabile`{:class = "block3variables"}, chiamala "secondi" e imposta il suo valore a `30`.
 
-Quindi aggiungi il codice per portare `tempo`{:class = "block3variables"} fino a 0 entro 30 secondi. Per fare ciò, sottrai `1` da `tempo`{:class = "block3variables"} ogni `1` secondo, e ripeti fino a quando `tempo`{:class = "block3variables"} non sarà uguale a `0`.
+Quindi aggiungi il codice per portare `secondi`{:class = "block3variables"} fino a 0 entro 30 secondi. Per fare ciò, sottrai `1` da `secondi`{:class = "block3variables"} ogni `1` secondo, e ripeti fino a quando `secondi`{:class = "block3variables"} non sarà uguale a `0`.
 
 \--- /hint \---
 
@@ -27,15 +27,15 @@ end
 
 wait (1) seconds
 
-change [tempo v] by (1)
+change [secondi v] by (1)
 
-(tempo)
+(secondi)
 
 when flag clicked
 
 <() = ()>
 
-set [tempo v] to [0]
+set [secondi v] to [0]
 ```
 
 \--- /hint \---
@@ -46,10 +46,10 @@ Ecco come dovrebbe apparire il risultato:
 
 ```blocks3
 when flag clicked
-set [tempo v] to [30]
-repeat until <(tempo) = (0)>
+set [secondi v] to [30]
+repeat until <(secondi) = (0)>
     wait (1) seconds
-    change [tempo v] by (-1)
+    change [secondi v] by (-1)
 end
 ```
 
@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-Creare una trasmissione `broadcast`{:class = "block3control"} che invia il messaggio 'fine'. Una trasmissione `broadcast`{:class = "block3control"} è come un annuncio su un altoparlante: può essere ascoltato da tutti i tuoi sprite. Aggiungere il blocco trasmissione `broadcast`{:class = "block3control"} alla fine del codice timer in modo che il codice invierà e il messaggio 'fine', quando il `tempo`{:class = "block3variables"} avrà raggiunto il valore `0`.
+Creare una trasmissione `broadcast`{:class = "block3control"} che invii il messaggio 'fine'. Una trasmissione `broadcast`{:class = "block3control"} è come un annuncio su un altoparlante: può essere ascoltato da tutti i tuoi sprite. Aggiungere il blocco trasmissione `broadcast`{:class = "block3control"} alla fine del codice timer in modo che il codice invii il messaggio 'fine', quando i `secondi`{:class = "block3variables"} avranno raggiunto il valore `0`.
 
 ![Sprite dello scenario](images/stage-sprite.png)
 
