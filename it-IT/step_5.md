@@ -37,7 +37,7 @@ Al momento, lo sprite del personaggio inizia a fare domande quando il giocatore 
 
 \--- task \---
 
-Seleziona il tuo sprite del personaggio e, nella sua sezione di codice, sostituisci il blocco `quando si clicca sulla bandiera`{:class = "block3events"} blocca con un blocco `quando ricevo start`{:class = "block3events"}.
+Seleziona il tuo sprite del personaggio e, nella sua sezione di codice, sostituisci il blocco `quando si clicca sulla bandiera`{:class = "block3events"} con un blocco `quando ricevo start`{:class = "block3events"}.
 
 ![Sprite personaggio](images/giga-sprite.png)
 
@@ -62,7 +62,7 @@ Fai clic sulla bandiera verde, quindi fai clic sul nuovo pulsante "Gioca" per ve
 
 \--- /task \---
 
-Riesci a vedere che il timer inizia quando viene cliccata la bandiera verde, invece che quando il gioco inizia?
+Hai visto che il timer inizia quando viene cliccata la bandiera verde, invece che quando il gioco inizia?
 
 ![Il timer è partito](images/brain-timer-bug.png)
 
@@ -87,7 +87,7 @@ Aggiungi del codice al tuo pulsante in modo che il pulsante venga mostrato nuova
 
 \--- task \---
 
-Prova il pulsante "Gioca" giocando un paio di giochi. Il pulsante dovrebbe apparire alla fine di ogni partita.
+Prova il pulsante "Gioca" giocando un paio di volte. Il pulsante dovrebbe apparire alla fine di ogni partita.
 
 Per testare il gioco più velocemente, puoi cambiare il valore di `tempo`{:class="block3variables"} in modo che ogni gioco duri solo pochi secondi.
 
@@ -101,7 +101,7 @@ Per testare il gioco più velocemente, puoi cambiare il valore di `tempo`{:class
 
 \--- task \---
 
-Puoi anche modificare l'aspetto del pulsante di gioco quando il mouse passa ci passa sopra.
+Puoi anche modificare l'aspetto del pulsante di gioco quando il mouse ci passa sopra.
 
 ![Pulsante](images/button-sprite.png)
 
