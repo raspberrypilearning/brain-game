@@ -1,79 +1,122 @@
 ## 重复游戏
 
-让我们来向你的游戏添加一个“开始游戏”按钮，以便你能重复进行游戏。
+现在，您将添加一个“开始”按钮，以便玩家可以多次开始游戏。
 
+--- task ---
 
+创建一个新的“开始”按钮精灵，让玩家点击来开始新游戏。
 
-+ 创建一个新的“开始游戏”按钮子图，你的玩家可点击该按钮以开始一局新游戏。你可以自行绘制子图，或者编辑 Scratch 库中的子图。
+您可以自己绘制精灵，也可以从库中编辑精灵。
 
-	![screenshot](images/brain-play.png)
+![开始按钮图片](images/brain-play.png)
 
-+ 向你的新按钮添加此代码。
+--- /task ---
 
-	```blocks
-		点击绿旗时
-		显示
+--- task ---
 
-		当角色被点击
-		隐藏
-		广播消息 [start v]
-	```
+将此代码添加到按钮精灵中：
 
-	此代码在你的项目开始时显示开始游戏按钮。点击按钮时，按钮被隐藏，然后播放开始游戏的消息。
+![按钮精灵](images/button-sprite.png)
 
-+ 你将需要编辑你的角色代码，使得游戏在接收到 `开始`{:class="blockevents"} 消息而非点击旗帜时开始。
+```blocks3
+    当 ⚑ 被点击
+    显示
 
-	用 `我收到开始时`{:class="blockevents"} 替代 `点击旗帜时`{:class="blockevents"} 代码。
+    当角色被点击
+    隐藏
+    广播(开始 v)
+```
 
-	![screenshot](images/brain-start.png)
+--- /task ---
 
-+ 点击绿色旗帜，然后点击新的开始游戏按钮进行测试。你会看到在点击按钮后游戏才会启动。
+新代码包括另一个`广播`{:class="block3events"}积木，它发送“开始”消息。
 
-+ 你是否注意到了计时器是在点击绿色旗帜而非游戏启动时开始计时？
+当玩家点击旗帜时，新代码会显示“开始”按钮精灵。 当玩家点击按钮精灵时，精灵会隐藏，然后广播信息，让其他精灵做出反馈。
 
-	![screenshot](images/brain-timer-bug.png)
+此时，角色精灵在玩家点击旗帜时开始提问。 更改游戏代码，以便当它收到“开始”`广播`{:class="block3events"}时，角色精灵开始提问。
 
-	你能否解决这个问题？
+--- task ---
 
-+ 在工作区上点击，用 `结束`{:class="blockevents"} 消息替代 `停止所有`{:class="blockcontrol"} 模块。
+选择您的角色精灵，并在其代码部分中，用`当接收到开始`{:class="block3events"}积木替换`当 ⚑ 被点击`{:class="block3events"}积木。
 
-	![screenshot](images/brain-end.png)
+![角色精灵](images/giga-sprite.png)
 
-+ 你现在可以向你的按钮添加代码，以在每局游戏结束时再次显示该按钮。
+```blocks3
+- when flag clicked
++ when I receive [开始 v]
+set [数字1 v] to (pick random (2) to (12))
+set [数字2 v] to (pick random (2) to (12))
+ask (join (数字1)(join [ x ] (数字2))) and wait
+if <(answer) = ((数字1)*(数字2))> then
+	say [对! :)] for (2) seconds
+else
+	say [不对 :(] for (2) seconds
+end
+```
 
-	```blocks
-		当收到消息 [end v]
-		显示
-	```
+--- /task ---
 
-+ 你还需要在每局游戏结束时阻止你的角色问问题：
+--- task ---
 
-	```blocks
-		当收到消息 [end v]
-		停止 [角色的其他程序 v]
-	```
+点击绿色旗帜，然后单击新的“开始”按钮以测试其是否正常工作。您应该看到在点击按钮之前游戏不会开始。
 
-+ 通过玩一组游戏来测试你的开始游戏按钮。你会注意到开始游戏按钮会在每局游戏之后显示。为简化测试，你可以缩短每局游戏的时间，使其仅持续几秒钟。
+--- /task ---
 
-	```blocks
-		变量 [时 v] 设为 [10]
-	```
+您能看到计时器是在绿色旗帜被点击时开始计时，而不是游戏开始时开始的吗？
 
-+ 你甚至可以更改按钮在鼠标悬停在其上方时的样式。
+![计时器开启](images/brain-timer-bug.png)
 
-	```blocks
-		点击绿旗时
-		显示
-		重复无限次 
-  		如果 <碰到 [鼠标 v] ?> 那么 
-    			效果 [鱼眼 v] 设为 (30)
-  
-    			效果 [鱼眼 v] 设为 (0)
-  		end
-		end
-	```
+--- task ---
 
-	![screenshot](images/brain-fisheye.png)
+您可以更改计时器的代码，以便在玩家点击按钮时启动计时器吗？
 
+--- /task ---
 
+--- task ---
 
+为您的按钮精灵添加代码，使按钮在每次游戏结束时再次显示。
+
+![按钮精灵](images/button-sprite.png)
+
+```blocks3
+    当接收到 [结束 v]
+    显示
+```
+
+--- /task ---
+
+--- task ---
+
+通过玩几场游戏来测试“开始”按钮。按钮应在每场游戏结束时显示。
+
+为了更快地测试游戏，你可以更改`时间`{:class="block3variables"}的值，这样每次游戏只持续几秒钟。
+
+![舞台](images/stage-sprite.png)
+
+```blocks3
+    将 [时间 v] 设为 [10]
+```
+
+--- /task ---
+
+--- task ---
+
+当鼠标指针悬停在按钮上时，您可以更改其外观。
+
+![按钮](images/button-sprite.png)
+
+```blocks3
+  when flag clicked
+	show
+	forever
+	if <touching (mouse-pointer v)?> then
+		set [fisheye v] effect to (30)
+	else
+		set [fisheye v] effect to (0)
+	end
+	end
+```
+
+![截屏](images/brain-fisheye.png)
+
+--- /task ---

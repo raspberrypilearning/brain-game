@@ -1,46 +1,142 @@
 ## 添加图形
 
-你的角色不仅仅能向玩家说 `是！:)` 或 `不是 :(` ，让我们来添加一些图形，使玩家了解他们的表现如何。
+此刻，角色精灵只根据玩家的答案说`对！ :)`或`不对:(`。添加一些图形，让玩家知道他们的答案是正确还是错误。
 
-+ 创建一个被称作“结果”的新子图，其中包含一个“对号”和一个“错号”装扮。
+--- task ---
 
-	![screenshot](images/brain-result.png)
+创建一个名为“结果”的新精灵，并为其赋予“对勾/检查”和“叉”的外观。
 
-+ 更改你角色的代码，使其不是告诉玩家做得如何，而是播放 `正确`{:class="blockevents"} 和 `错误`{:class="blockevents"} 消息。
+![带有对勾和叉号的精灵。](images/brain-result.png)
 
-	![screenshot](images/brain-broadcast-answer.png)
+--- /task ---
 
-+ 你现在可以使用这些消息显示“对号”或“错号”装扮。向你的新“结果”子图添加此代码：
+--- task ---
 
-	![screenshot](images/brain-show-answer.png)
+更改角色精灵的代码，使它`不再向玩家说些什么，而是广播`{:class="block3events"}“正确”或“错误”的消息。
 
-+ 再次测试你的游戏。你每次回答问题正确时就能看到一个对号，回答错误时为一个错号！
+![角色精灵](images/giga-sprite.png)
 
-	![screenshot](images/brain-test-answer.png)
+```blocks3
+如果 <(回答) = ((数字1)*(数字2))> 那么
 
-+ 你是否注意到了 `我收到正确时`{:class="blockevents"} 和 `我收到错误时`{:class="blockevents"} 的代码几乎一样？让我们来创建一个函数，使你更容易更改你的代码。
+- 说 [对! :)] (2) 秒
++ 广播 (正确 v)
+否则
+- 说 [不对 :(] (2) 秒
++ 广播 (错误 v)
+end
+```
 
-	在你的“结果”子图上点击 `更多模块`{:class="blockmoreblocks"}，然后点击“制作模块”。创建一个被称作 `制作动画`{:class="blockmoreblocks"} 的新函数。
+--- /task ---
 
-	![screenshot](images/brain-animate-function.png)
+--- task ---
 
-+ 你随后可以将动画代码添加进你的新动画函数中，然后仅使用两次函数：
+现在，您可以用这些消息来`显示`{:class="block3looks"}”对勾“或”叉“。将以下代码添加到“结果”精灵中：
 
-	![screenshot](images/brain-use-function.png)
+![结果精灵](images/result-sprite.png)
 
-+ 现在，如果你想让对号和错号显示更长或更短时间，你只需对你的代码做出一处改动。试一试吧！
+```blocks3
+    当接收到 [正确 v]
+    换成 (对勾 v) 造型
+    显示
+    等待 (1) 秒
+    隐藏
 
-+ 你可以更改你的动画函数，让对号和错号渐现，而不是仅仅显示和隐藏。
+    当接收到 [错误 v]
+    换成 (叉 v) 造型
+    显示
+    等待 (1) 秒
+    隐藏
 
-	```blocks
-		定义 (animate)
-		效果 [虚像 v] 设为 (100)
-		显示
-		重复 (25) 次 
-  			效果 [虚像 v] 改变 (-4)
-		end
-		隐藏
-	```
+    当 ⚑ 被点击
+    隐藏
+```
 
+--- /task ---
 
+--- task ---
 
+再次测试您的游戏。每当您正确回答问题时，您都应该看到对勾；而当您回答错误时，您将看到叉号！
+
+![对勾表示正确，叉号表示错误](images/brain-test-answer.png)
+
+--- /task ---
+
+您注意到`当接收到正确`{:class="block3events"}和`当接收到错误`{:class="block3events"}的代码几乎相同吗？
+
+所以您可以更容易地更改代码，去创建一个自定义积木。
+
+--- task ---
+
+选择“结果”精灵。 然后点击`自制积木`{:class="block3myblocks"}，以及**制作新的积木** 。 创建一个新的积木并将其命名为`动画`{:class="block3myblocks"}。
+
+![结果精灵](images/result-sprite.png)
+
+![创建一块名为动画的积木](images/brain-animate-function.png)
+
+--- /task ---
+
+--- task ---
+
+将`显示`{:class="block3looks"}与`隐藏`{:class="block3looks"}“结果”精灵的代码移到`动画`{:class="block3myblocks"}积木中。
+
+![结果精灵](images/result-sprite.png)
+
+```blocks3
+定义 动画
+显示
+等待 (1) 秒
+隐藏
+```
+
+--- /task ---
+
+--- task ---
+
+确保在**两个** `换成造型`{:class="block3looks"}积木下面移除了`显示`{:class="block3looks"}和`隐藏`{:class="block3looks"}积木。
+
+然后在两个`换成造型`{:class="block3looks"}积木下面添加`动画`{:class="block3myblocks"}积木。您的代码现在应如下所示：
+
+![结果精灵](images/result-sprite.png)
+
+```blocks3
+    当接收到 [正确 v]
+    换成 (对勾 v) 造型
+    动画:: custom
+
+    当接收到 [错误 v]
+    换成 (叉 v) 造型
+    动画:: custom
+```
+
+--- /task ---
+
+由于 `动画`{:class="block3myblocks"}积木是自定义的， 如果你想要“结果”显示的时间更长或更短，现在只需要对你的代码做简单修改，。
+
+--- task ---
+
+更改您的代码，以使“ 对勾”或“叉号”显示2秒钟。
+
+--- /task ---
+
+--- task ---
+
+你可以修改你的`动画`{:class="block3myblocks"}积木，使得“对勾”与“叉号”淡入淡出，而不是直接`显示`{:class="block3looks"}或`隐藏`{:class="block3looks"} 。
+
+![结果精灵](images/result-sprite.png)
+
+```blocks3
+    define 动画
+	set [ghost v] effect to (100)
+	show
+	repeat (25)
+		change [ghost v] effect by (-4)
+	end
+	hide
+```
+
+--- /task ---
+
+您能改进“对勾”或“叉”图形动画吗？ 您可以添加代码使造型淡出。或者您可以使用其他酷炫效果：
+
+![截屏](images/brain-effects.png)

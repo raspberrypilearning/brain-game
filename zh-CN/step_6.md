@@ -1,19 +1,11 @@
---- challenge ---
-## 挑战：开始画面
-你能否向你的工作区添加另一背景，作为你的游戏开始画面？你可以使用`when I receive start`{:class="blockevents"}（我收到开始时 和`when I receive end`{:class="blockevents"}（我收到结束时 模块切换背景。
+## 挑战：创建开始界面
 
-你还可以运用这些模块显示和隐藏你的角色，甚至显示和隐藏你的计时器：
+您可以添加另一个背景作为您的游戏的开始界面吗？
 
-```blocks
-变量 [时 v] 显示
-```
-```blocks
-变量 [时 v] 隐藏
-```
+你可以用`当接收到开始`{:class="block3events"} 与`当接收到结束`{:class="block3events"} 积木来切换背景。
 
-![screenshot](images/brain-startscreen.png)
+当游戏背景切换时，您可以使用`显示`{:class="block3looks"}与`隐藏`{:class="block3looks"}积木来显示或隐藏角色。
 
+当游戏背景切换时，您可以使用`显示变量`{:class="block3looks"}与`隐藏变量`{:class="block3looks"}积木来显示或隐藏计时器和分数。
 
-
-
---- /challenge ---
+![开始界面](images/brain-startscreen.png)
