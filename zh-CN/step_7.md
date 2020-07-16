@@ -121,18 +121,18 @@ end
 
 --- task ---
 
-你可以修改你的`动画`积木，使得“对勾”与“叉号”淡入淡出，而不是直接`显示`{:class="block3looks"}或`隐藏`{:class="block3looks"} 。
+你可以修改你的`动画`{:class="block3myblocks"}积木，使得“对勾”与“叉号”淡入淡出，而不是直接`显示`{:class="block3looks"}或`隐藏`{:class="block3looks"} 。
 
 ![结果精灵](images/result-sprite.png)
 
 ```blocks3
-    定义 动画
-    将 [虚像 v] 特效设定为 (100)
-    显示
-    重复执行 (25)
-        将 [虚像 v] 特效增加 (-4)
-    end
-    隐藏
+    define 动画
+	set [ghost v] effect to (100)
+	show
+	repeat (25)
+		change [ghost v] effect by (-4)
+	end
+	hide
 ```
 
 --- /task ---

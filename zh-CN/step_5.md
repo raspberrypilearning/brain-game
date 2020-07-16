@@ -42,15 +42,15 @@
 ![角色精灵](images/giga-sprite.png)
 
 ```blocks3
-<br />- 当 ⚑ 被点击
-+ 当接收到 [开始 v]
-将 [数字1 v] 设为 (在 (2) to (12) 之间取随机数)
-将 [数字2 v] 设为 (在 (2) to (12) 之间取随机数)
-询问 (连接 (数字1)(连接 [ x ] (数字2))) 并等待
-如果 <(回答) = ((数字1)*(数字2))> 那么
-    说 [对! :)] (2) 秒
-否则
-    说 [不对 :(] (2) 秒
+- when flag clicked
++ when I receive [开始 v]
+set [数字1 v] to (pick random (2) to (12))
+set [数字2 v] to (pick random (2) to (12))
+ask (join (数字1)(join [ x ] (数字2))) and wait
+if <(answer) = ((数字1)*(数字2))> then
+	say [对! :)] for (2) seconds
+else
+	say [不对 :(] for (2) seconds
 end
 ```
 
@@ -106,15 +106,15 @@ end
 ![按钮](images/button-sprite.png)
 
 ```blocks3
-    当 ⚑ 被点击
-显示
-重复执行 
-  如果 <touching (mouse-pointer v)?> 那么 
-    将 [鱼眼 v] 特效设定为 (30)
-  否则 
-    将 [鱼眼 v] 特效设定为 (0)
-  end
-end
+  when flag clicked
+	show
+	forever
+	if <touching (mouse-pointer v)?> then
+		set [fisheye v] effect to (30)
+	else
+		set [fisheye v] effect to (0)
+	end
+	end
 ```
 
 ![截屏](images/brain-fisheye.png)

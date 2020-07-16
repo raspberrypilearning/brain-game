@@ -55,15 +55,14 @@
 ![截屏](images/giga-sprite.png)
 
 ```blocks3
-当 ⚑ 被点击
-将 [数字1 v] 设为 (在 (2) 和 (12) 之间取随机数)
-将 [数字2 v] 设为 (在 (2) 和 (12) 之间取随机数)
-
-+ 询问 (添加 (数字1) 和(添加 [ x ] (数字2))) 并等待
-+ 如果 <(回答) = ((数字1)*(数字2))> 那么
-+ 说 [对! :)] (2) 秒
-+ 否则
-+ 说 [不对 :(] (2) 秒
+when flag clicked
+set [数字1 v] to (pick random (2) to (12))
+set [数字2 v] to (pick random (2) to (12))
++ ask (join (数字1)(join [ x ] (数字2))) and wait
++ if <(answer) = ((数字1)*(数字2))> then
++ say [对! :)] for (2) seconds
++ else
++ say [不对 :(] for (2) seconds
 + end
 ```
 
@@ -105,7 +104,6 @@ end
 
 ```blocks3
 当 ⚑ 被点击
-
 + 重复执行
     将 [数字1 v] 设为 (在 (2) 和 (12) 之间取随机数)
     将 [数字2 v] 设为 (在 (2) 和 (12) 之间取随机数)
