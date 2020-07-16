@@ -50,7 +50,7 @@ set [numero 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Aggiungi il codice a `chiedi`{:class = "block3sensing"} per chiedere al giocatore la risposta, e poi `dire per 2 secondi`{:class = "block3looks"} se la risposta era giusta o sbagliato:
+Aggiungi il codice a `chiedi`{:class = "block3sensing"} per creare la domanda da fare al giocatore, e poi `dire per 2 secondi`{:class="block3looks"} se la risposta era giusta o sbagliata:
 
 ![schermata](images/giga-sprite.png)
 
