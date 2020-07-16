@@ -1,48 +1,125 @@
 ## 创建问题
 
-让我们从创建随机问题供玩家回答开始。
+首先，你需要创建随机问题，玩家必须回答这些问题。
+
+--- task ---
+
+打开一个新的Scratch项目
+
+**在线：**在[rpf.io/scrath-new](http://rpf.io/scratch-new){:target="_blank"}中打开一个新的Scratch在线项目 。
+
+**离线：**在离线编辑器中打开一个新项目。
+
+如果您需要下载并安装Scratch离线编辑器，可以在[rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}中获取。
+
+--- /task ---
+
+--- task ---
+
+为您的游戏添加精灵角色和背景。你可以选择任何你喜欢的！比如：
+
+![截屏](images/brain-setting.png)
+
+--- /task ---
+
+--- task ---
+
+确保您已选中角色精灵。 创建两个新变量，命名为`数字1`{:class="block3variables"}和`数字2`{:class="block3variables"}，用于存储测验题目的数字。
+
+![截屏](images/giga-sprite.png)
+
+![截屏](images/brain-variables.png)
+
+[[[generic-scratch3-add-variable]]]
+
+--- /task ---
+
+--- task ---
+
+为您的角色精灵添加代码以设置两个`变量`{:class="block3variables"}为2到12之间的`随机`{:class="block3operators"}数字。
+
+![截屏](images/giga-sprite.png)
+
+```blocks3
+当 ⚑ 被点击
+将 [数字1 v] 设为 (在 (2) 和 (12) 之间取随机数)
+将 [数字2 v] 设为 (在 (2) 和 (12) 之间取随机数)
+```
+
+--- /task ---
+
+--- task ---
+
+添加`提问`{:class="block3sensing"} 代码以向玩家询问答案，无论回答正确还是错误，都`说2秒钟`{:class="block3looks"}。
+
+![截屏](images/giga-sprite.png)
+
+```blocks3
+当 ⚑ 被点击
+将 [数字1 v] 设为 (在 (2) 和 (12) 之间取随机数)
+将 [数字2 v] 设为 (在 (2) 和 (12) 之间取随机数)
+
++ 询问 (添加 (数字1) 和(添加 [ x ] (数字2))) 并等待
++ 如果 <(回答) = ((数字1)*(数字2))> 那么
++ 说 [对! :)] (2) 秒
++ 否则
++ 说 [不对 :(] (2) 秒
++ end
+```
+
+--- /task ---
+
+--- task ---
+
+测试你的项目两次：正确回答一个问次题，错误回答另一次问题。
+
+--- /task ---
+
+--- task ---
+
+对这段代码添加一个`重复执行`{:class="block3control"}循环，这样游戏就会连续询问玩家更多问题。
+
+--- hints ---
 
 
+--- hint ---
 
-+ 启动一个新的 Scratch 项目，删除猫子图，使项目清空。你可以在 <a href="http://jumpto.cc/scratch-new" target="_blank">jumpto.cc/scratch-new</a> 找到在线 Scratch 编辑器。
+你需要添加一个`重复执行`{:class="block3control"}积木，然后把除了`当 ⚑ 被点击`{:class="block3control"}模块的其它所有模块都放入其中。
 
-+ 为你的游戏选择一个角色和背景。你可以选择任何你喜欢的！示例：
+--- /hint ---
 
-	![screenshot](images/brain-setting.png)
+--- hint ---
 
-+ 创建 2 个被称作 `数字 1`{:class="blockdata"} 和 `数字 2`{:class="blockdata"} 的新变量。这些变量将储存要进行相乘的 2 个数字。
+以下是你需要的积木：
 
-	![screenshot](images/brain-variables.png)
+```blocks3
+重复执行
+end
+```
 
-+ 向你的角色添加代码，将这些变量均设置为 2 和 12 之间的 `随机`{:class="blockoperators"} 数字。
+--- /hint ---
 
-	```blocks
-		点击绿旗时
-		变量 [number 1 v] 设为 (随机取数 (2) 到 (12))
-		变量 [number 2 v] 设为 (随机取数 (2) 到 (12))
-	```
+--- hint ---
 
-+ 随后，你可以让玩家给出答案，并告知其答案正确与否。
+您的代码看起来应该是这样的：
 
-	```blocks
-		点击绿旗时
-		变量 [number 1 v] 设为 (随机取数 (2) 到 (12))
-		变量 [number 2 v] 设为 (随机取数 (2) 到 (12))
-		询问 (字串组合 (number 1) 和 (字串组合 [ x ] 和 (number 2))) 并等待
-		如果 <(answer) = ((number 1) * (number 2))> 那么 
-  			说出 [yes! :)] (2) 秒
+```blocks3
+当 ⚑ 被点击
 
-  			说出 [nope :(] (2) 秒
-		end
-	```
++ 重复执行
+    将 [数字1 v] 设为 (在 (2) 和 (12) 之间取随机数)
+    将 [数字2 v] 设为 (在 (2) 和 (12) 之间取随机数)
+    询问 (连接 (数字1) 和 (连接 [ x ] 和 (数字2))) 并等待
+    如果 <(回答) = ((数字1)*(数字2))> 那么
+        说 [对! :)] (2) 秒
+    否则
+        说 [不对 :(] (2) 秒
+    end
+end
+```
 
-+ 通过正确回答一个问题和错误回答一个问题，对你的项目进行充分测试。
+--- /hint ---
 
-+ 围绕此代码添加一个 `永远`{:class="blockcontrol"} 循环，以询问玩家大量问题。
+--- /hints ---
 
-+ 使用被称作 `时间`{:class="blockdata"} 的变量，在工作区上创建一个倒数计时器。如果你需要帮助，“魔鬼克星”项目有制作计时器的说明（在第 5 步）！
-
-+ 再次测试你的项目 - 你应该能够持续提出问题，直到时间结束。
-
-
-
+--- /task ---
