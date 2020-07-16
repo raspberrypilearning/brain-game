@@ -1,4 +1,4 @@
-## E poi?
+## E adesso?
 
 Prova il progetto [Acchiappa Puntini](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) per creare un gioco di riflessi! In questo progetto, imparerai come creare cloni di sprite e come usare una variabile per accelerare gradualmente il gioco.
 
