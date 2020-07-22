@@ -7,7 +7,7 @@ Per apportare questa modifica, è sufficiente modificare il codice del timer. Ri
 ```blocks3
     when I receive [inizio v]
     set [tempo v] to (30)
-    repeat until <(tempo) = [0]>
+    repeat until <(tempo :: variables) = [0]>
         wait (1) seconds
         change [tempo v] by (-1)
     end
