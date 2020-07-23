@@ -56,10 +56,10 @@
 
 \--- no-print \---
 
-ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು ಬಳಸಿ [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಪ್ರಿಂಟ್ ಮಾಡಬೇಕಾದರೆ ಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು ಬಳಸಿ [ಪ್ರಿಂಟರ್-ಫ್ರೆಂಡ್ಲಿ ವರ್ಷನ್](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 \--- /no-print \---
 
-ನೀವು ಕಾಣಬಹುದು [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+ನೀವು ಕಾಣಬಹುದು [ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆ ಇಲ್ಲಿ](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
