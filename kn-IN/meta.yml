@@ -1,0 +1,25 @@
+---
+hero_image: images/brain-game.png
+listed: true
+copyedit: false
+title: ಮೆದುಳಿನ ಆಟ
+description: ರಸಪ್ರಶ್ನೆ ಹೇಗೆ ರಚಿಸುವುದು ಎಂದು ತಿಳಿಯಿರಿ
+version: 4.0.2
+last_tested: 2018-10-03
+steps:
+  - title: ಪರಿಚಯ
+  - title: ಪ್ರಶ್ನೆಗಳನ್ನು ರಚಿಸಿ
+  - title: ಟೈಮರ್(ಸಮಯ) ಸೇರಿಸು
+  - title: 'ಸವಾಲು: ಸ್ಕೋರ್ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಸೇರಿಸಿ'
+    challenge: true
+  - title: ಬಹು ಆಟಗಳು
+  - title: 'ಸವಾಲು: ಪ್ರಾರಂಭ ಪರದೆಯನ್ನು ರಚಿಸಿ'
+    challenge: true
+  - title: ಗ್ರಾಫಿಕ್ಸ್ ಸೇರಿಸಿ
+  - title: 'ಸವಾಲು: ಧ್ವನಿ ಮತ್ತು ಸಂಗೀತ'
+    challenge: true
+  - title: 'ಸವಾಲು: 10 ಅಂಕಗಳಿಗೆ ಓಟ'
+    challenge: true
+  - title: 'ಸವಾಲು: ಸೂಚನಾ ಪರದೆ'
+    challenge: true
+  - title: ಮುಂದೆ ಏನು?
