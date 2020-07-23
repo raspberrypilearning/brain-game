@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-ರಚಿಸಿ `broadcast`{:class="block3control"} ಅದು ಸಂದೇಶವನ್ನು ಕಳುಹಿಸುತ್ತದೆ 'end'. `broadcast`{:class="block3control"} ಇದು ಧ್ವನಿವರ್ಧಕದ ಮೇಲಿನ ಪ್ರಕಟಣೆಯಂತೆ: ಇದನ್ನು ನಿಮ್ಮ ಎಲ್ಲ ಸ್ಪ್ರೈಟ್‌ಗಳು ಕೇಳಬಹುದು. ಇದನ್ನು ಮಾಡಲು,subtract `1` ನಿಂದ `time`{:class="block3variables"} ಪ್ರತಿಯೊಂದೂ `1` second, ಮತ್ತು repeat this until <0>time</0>{:class="block3variables"} equals <0>0</0>.
+ರಚಿಸಿ `broadcast`{:class="block3control"} ಅದು ಸಂದೇಶವನ್ನು ಕಳುಹಿಸುತ್ತದೆ 'end'. `broadcast`{:class="block3control"} ಇದು ಧ್ವನಿವರ್ಧಕದ ಮೇಲಿನ ಪ್ರಕಟಣೆಯಂತೆ: ಇದನ್ನು ನಿಮ್ಮ ಎಲ್ಲ ಸ್ಪ್ರೈಟ್‌ಗಳು ಕೇಳಬಹುದು. ಸೇರಿಸಿ `broadcast`{:class="block3control"} ಟೈಮರ್ ಕೋಡ್‌ನ ಕೊನೆಯಲ್ಲಿ ನಿರ್ಬಂಧಿಸಿ ಇದರಿಂದ ಕೋಡ್ ಕಳುಹಿಸುತ್ತದೆ ಮತ್ತು 'end' ಯಾವಾಗ ಸಂದೇಶ `time`{:class="block3variables"} ಎಣಿಕೆ ಮಾಡಲಾಗಿದೆ `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
