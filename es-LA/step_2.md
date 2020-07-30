@@ -12,7 +12,7 @@ Abre un nuevo proyecto de Scratch.
 
 Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
---- task ---
+--- /task ---
 
 --- task ---
 
