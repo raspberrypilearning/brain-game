@@ -70,7 +70,7 @@ Haz clic en la bandera verde, y después en el nuevo botón "Jugar" para ver si 
 
 ¿Puedes cambiar el código del temporizador para que este empiece cuando el jugador haga clic en el botón?
 
---- / task ---
+--- /task ---
 
 --- task ---
 

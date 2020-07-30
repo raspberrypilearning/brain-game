@@ -8,7 +8,7 @@ Crea un nuevo objeto llamado "Resultado", y dale dos veces "tic" y una "cruz".
 
 ![Objeto con los disfraces tic y cruz](images/brain-result.png)
 
---- / task ---
+--- /task ---
 
 --- task ---
 
@@ -26,7 +26,7 @@ else
 end
 ```
 
---- / task ---
+--- /task ---
 
 --- task---
 
@@ -51,7 +51,7 @@ Ahora puedes usar estos mensajes para `mostrar`{:class="block3looks"} el disfraz
     hide
 ```
 
---- / task ---
+--- /task ---
 
 --- task ---
 
@@ -116,7 +116,7 @@ Gracias al bloque personalizado `animar`{:class="block3myblocks"}, ahora solo ne
 
 Cambia el código para que se muestren los disfraces de "tic" o "cruz" durante 2 segundos.
 
---- / task ---
+--- /task ---
 
 --- task ---
 
