@@ -7,7 +7,7 @@
 Usa las teclas de dirección de tu teclado para girar el controlador y atrapar los puntos voladores a medida que llegan al centro. Si no logras alcanzar tres puntos, el juego termina.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/414804789/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 
