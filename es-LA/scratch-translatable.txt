@@ -1,0 +1,25 @@
+número 1
+
+número 2 
+
+¡sí! :) 
+
+no :( 
+
+tiempo 
+
+fin 
+
+inicio
+
+correcto
+
+incorrecto
+
+tic
+
+cruz
+
+animar
+
+pantalla de inicio
