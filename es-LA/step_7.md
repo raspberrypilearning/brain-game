@@ -82,7 +82,7 @@ Mueve el código para `mostrar`{:class="block3looks"} y `ocultar`{:class="block3
 ![Objeto de resultado](images/result-sprite.png)
 
 ```blocks3
-define animate
+define animar
 show
 wait (1) seconds
 hide
@@ -101,11 +101,11 @@ Después añade el bloque `animar`{:class="block3myblocks"} debajo de ambos bloq
 ```blocks3
     when I receive [correcto v]
     switch costume to (tic v)
-    animate:: custom
+    animar:: custom
 
     when I receive [incorrecto v]
     switch costume to (cruz v)
-    animate:: custom
+    animar:: custom
 ```
 
 --- /task ---
@@ -125,7 +125,7 @@ En vez de `mostrar`{:class="block3looks"} y `ocultar`{:class="block3looks"} los 
 ![Objeto de resultado](images/result-sprite.png)
 
 ```blocks3
-    define animate
+    define animar
     set [ghost v] effect to (100)
     show
     repeat (25)
