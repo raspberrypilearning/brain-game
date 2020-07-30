@@ -59,7 +59,7 @@ end
 
 --- /hints ---
 
---- / task ---
+--- /task ---
 
 --- task ---
 
