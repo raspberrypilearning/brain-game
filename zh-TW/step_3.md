@@ -22,21 +22,21 @@
 這裡是你需要的程式積木：
 
 ```blocks3
-重複直到 <>
+repeat until < >
+
 end
 
-等待 (1) 秒
+wait (1) seconds
 
-變數 [計時 v] 改變 (1)
+change [計時 v] by (1)
 
 (計時)
 
-當 @greenflag 被點擊
-end
+when flag clicked
 
- <() = (0)>
+<() = ()>
 
-變數 [計時 v] 設為 (0)
+set [計時 v] to [0]
 ```
 
 --- /hint ---

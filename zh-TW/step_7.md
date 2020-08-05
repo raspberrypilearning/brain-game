@@ -17,12 +17,12 @@
 ![人物角色](images/giga-sprite.png)
 
 ```blocks3
-如果 <(詢問的答案) = ((被乘數)*(乘數))> 那麼
-- 說出 (答對！) 持續 (2) 秒
-+ 廣播訊息 (正確 v)
-否則
-- 說出 (答錯！) 持續 (2) 秒
-+ 廣播訊息 (錯誤 v)
+if <(answer) = ((被乘數)*(乘數))> then
+- say [答對！] for (2) seconds
++ broadcast (正確 v)
+else
+- say [答錯！] for (2) seconds
++ broadcast (錯誤 v)
 end
 ```
 
@@ -82,10 +82,10 @@ end
 ![結果角色](images/result-sprite.png)
 
 ```blocks3
-定義 動畫
-顯示
-等待（1）秒
-隱藏
+define 動畫
+show
+wait (1) seconds
+hide
 ```
 
 --- /task ---
@@ -125,13 +125,13 @@ end
 ![結果角色](images/result-sprite.png)
 
 ```blocks3
-    定義 動畫
-    圖像效果 [幻影 v]設為 (100)
-    顯示
-    重複 (25) 次
-        圖像效果 [顏色 v] 改變 (-4)
-    end
-    隱藏
+    define animate
+	set [ghost v] effect to (100)
+	show
+	repeat (25)
+		change [ghost v] effect by (-4)
+	end
+	hide
 ```
 
 --- /task ---

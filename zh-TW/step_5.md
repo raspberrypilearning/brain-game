@@ -42,15 +42,15 @@
 ![角色](images/giga-sprite.png)
 
 ```blocks3
-- 當 @greenflag 被點擊
-+ 當收到訊息 (開始 v)
-變數 [被乘數 v] 設為 (隨機取數 (2) 到 (12))
-變數 [乘數 v] 設為 (隨機取數 (2) 到 (12))
-詢問 (字串組合 (字串組合 ((被乘數)) (x)) ((乘數))) 並等待
-如果 <(詢問的答案) = ((被乘數)*(乘數))> 那麼
-    說出 (答對！ ) 持續 (2) 秒
-否則
-    說出 (答錯！) 持續 (2) 秒
+- when flag clicked
++ when I receive [開始 v]
+set [被乘數 v] to (pick random (2) to (12))
+set [乘數 v] to (pick random (2) to (12))
+ask (join (被乘數)(join [ x ] (乘數))) and wait
+if <(answer) = ((被乘數)*(乘數))> then
+	say [答對！] for (2) seconds
+else
+	say [答錯！] for (2) seconds
 end
 ```
 
@@ -106,15 +106,15 @@ end
 ![按鈕](images/button-sprite.png)
 
 ```blocks3
-    當 @greenflag 被點擊
-    顯示
-    重複無限次
-    如果 <碰到 (鼠標 v)？> 那麼
-        圖像效果 [魚眼 v] 設為 (30)
-    否則
-        圖像效果 [魚眼 v] 設為 (0)
-    end
-    end
+    when flag clicked
+	show
+	forever
+	if <touching (mouse-pointer v)?> then
+		set [fisheye v] effect to (30)
+	else
+		set [fisheye v] effect to (0)
+	end
+	end
 ```
 
 ![截圖](images/brain-fisheye.png)

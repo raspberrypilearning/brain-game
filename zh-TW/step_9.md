@@ -5,11 +5,11 @@
 要進行這樣的變更，只需要修改計時部分的程式就可以了。你能看出有哪些積木不同嗎？
 
 ```blocks3
-    當收到訊息 (開始 v)
-    變數 [計時 v] 設為 (30)
-    重複直到 <(計時) = (0)>
-        等待 (1) 秒
-        變數 [計時 v] 改變 (-1)
-    end
-    廣播訊息 (結束 v)
+    when I receive [開始 v]
+	set [計時 v] to (30)
+	repeat until <(計時) = [0]>
+		wait (1) seconds
+		change [計時 v] by (-1)
+	end
+	broadcast (結束 v)
 ```
