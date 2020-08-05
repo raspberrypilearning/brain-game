@@ -1,25 +1,25 @@
-number 1
+被乘數
 
-number 2 
+乘數 
 
-yes! :) 
+答對！ :) 
 
-no :( 
+答錯！ 
 
-time 
+計時 
 
-end 
+結束 
 
-start
+開始
 
-correct
+正確
 
-wrong
+錯誤
 
-tick
+勾
 
-cross
+叉
 
-animate
+動畫
 
-start screen
+初始畫面
