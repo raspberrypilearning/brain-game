@@ -10,7 +10,7 @@
 
 \--- hint \---
 
-创建一个`变量`{:class="block3variables"}，并命名为“time”，将其值设为`30`。
+Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
 
 然后添加代码使`时间`{:class="block3variables"}在30秒内倒计至0。 为此，将`时间`{:class="block3variables"} 每经过`1`秒减`1`，重复执行直到`时间`{:class="block3variables"} 等于`0`。
 
