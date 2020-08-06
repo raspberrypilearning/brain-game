@@ -18,7 +18,7 @@
 
 Επίλεξε έναν χαρακτήρα και ένα σκηνικό για το παιχνίδι σου. Μπορείς να επιλέξεις ότι σου αρέσει! Ακολουθεί ένα παράδειγμα:
 
-![screenshot](images/brain-setting.png)
+![στιγμιότυπο οθόνης](images/brain-setting.png)
 
 \--- /task \---
 
@@ -26,9 +26,9 @@
 
 Βεβαιώσου ότι έχεις επιλέξει τον χαρακτήρα σου. Δημιούργησε δύο νέες μεταβλητές, που ονομάζονται `αριθμός 1`{:class="block3variables"} και `αριθμός 2`{:class="block3variables"}, για να αποθηκεύσεις τους αριθμούς για τις ερωτήσεις του κουίζ.
 
-![screenshot](images/giga-sprite.png)
+![στιγμιότυπο οθόνης](images/giga-sprite.png)
 
-![screenshot](images/brain-variables.png)
+![στιγμιότυπο οθόνης](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -38,7 +38,7 @@
 
 Πρόσθεσε κώδικα στον χαρακτήρα σου, ώστε να ορίσεις και για τις δύο αυτές μεταβλητές μία `τυχαία`{:class="blockoperators"} τιμή μεταξύ 2 και 12.
 
-![screenshot](images/giga-sprite.png)
+![στιγμιότυπο οθόνης](images/giga-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -52,7 +52,7 @@
 
 Πρόσθεσε τον κώδικα για να `ζητήσεις`{:class= "block3sensing"}} από τον παίκτη την απάντηση και στη συνέχεια για να `πεις για 2 δευτερόλεπτα`{:class="block3looks"} αν η απάντηση ήταν σωστή ή λάθος:
 
-![screenshot](images/giga-sprite.png)
+![στιγμιότυπο οθόνης](images/giga-sprite.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
