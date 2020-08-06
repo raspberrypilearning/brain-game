@@ -15,7 +15,7 @@
 Κάνε κλικ στο κουμπί για να ξεκινήσεις. Πληκτρολόγησε την απάντηση στην ερώτηση και, στη συνέχεια, πάτησε το πλήκτρο <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/416147590/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/brain-final.png">
 </div>
 
