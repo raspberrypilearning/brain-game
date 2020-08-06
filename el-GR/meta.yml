@@ -1,0 +1,25 @@
+---
+hero_image: images/brain-game.png
+listed: true
+copyedit: false
+title: Παιχνίδι σκέψης
+description: Μάθε πώς μπορείς να δημιουργήσεις ένα κουίζ
+version: 4.0.2
+last_tested: 2018-10-03
+steps:
+  - title: Εισαγωγή
+  - title: Δημιουργία ερωτήσεων
+  - title: Πρόσθεσε ένα χρονόμετρο
+  - title: 'Πρόκληση: πρόσθεσε σκορ και αντιδράσεις'
+    challenge: true
+  - title: Πολλαπλά παιχνίδια
+  - title: 'Πρόκληση: Δημιούργησε μία αρχική οθόνη'
+    challenge: true
+  - title: Πρόσθεσε γραφικά
+  - title: 'Πρόκληση: Ήχος και μουσική'
+    challenge: true
+  - title: 'Πρόκληση: αγώνας ταχύτητας μέχρι τις 10 ερωτήσεις'
+    challenge: true
+  - title: 'Πρόκληση: οθόνη οδηγιών'
+    challenge: true
+  - title: Τι υπάρχει στη συνέχεια;
