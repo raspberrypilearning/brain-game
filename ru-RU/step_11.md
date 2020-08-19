@@ -7,7 +7,7 @@
 Используй клавиши со стрелками, чтобы вращать колесо контроллера и ловить летающие точки, пока они летят к центру. Если ты пропустишь три точки, игра заканчивается.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/418806009/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/dots-final.png">
 </div>
 
