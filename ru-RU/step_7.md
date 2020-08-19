@@ -82,7 +82,7 @@ end
 ![Спрайт Результат](images/result-sprite.png)
 
 ```blocks3
-define animate
+define анимировать
 show
 wait (1) seconds
 hide
