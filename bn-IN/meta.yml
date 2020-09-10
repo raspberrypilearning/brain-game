@@ -1,0 +1,25 @@
+---
+hero_image: images/brain-game.png
+listed: true
+copyedit: false
+title: মস্তিষ্কের খেলা
+description: কীভাবে একটি কুইজ তৈরি করবেন তা শিখুন
+version: 4.0.2
+last_tested: 2018-10-03
+steps:
+  - title: ভূমিকা
+  - title: প্রশ্ন তৈরি করুন
+  - title: একটি টাইমার যোগ করুন
+  - title: 'Challenge: একটি স্কোর এবং প্রতিক্রিয়া যুক্ত করুন'
+    challenge: true
+  - title: একাধিক গেম
+  - title: 'Challenge: একটি স্টার্ট স্ক্রিন তৈরি করুন'
+    challenge: true
+  - title: গ্রাফিক্স যুক্ত করুন
+  - title: 'Challenge: শব্দ এবং সঙ্গীত'
+    challenge: true
+  - title: 'Challenge: 10 পয়েন্ট রেস'
+    challenge: true
+  - title: 'Challenge: নির্দেশিকা স্ক্রিন'
+    challenge: true
+  - title: এরপর কি?
