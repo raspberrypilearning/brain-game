@@ -1,10 +1,10 @@
-## Challenge: instruction screen
+## Challenge: নির্দেশিকা স্ক্রিন
 
-Can you add an instructions screen that tells the player how to play the game? For this, you need an 'Instructions' button, and another Stage backdrop.
+আপনি কি এমন নির্দেশাবলীর স্ক্রিন যুক্ত করতে পারেন যা খেলোয়াড়কে গেমটি কীভাবে খেলতে পারে তা বলে দেবে? এর জন্য আপনার একটি 'Instructions' বোতাম এবং অন্য একটি স্টেজ ব্যাকড্রপ দরকার.
 
 ![screenshot](images/brain-instructions.png)
 
-You may also need to add a 'Back' button that lets the player go back to the start screen.
+আপনার একটি 'Back' বোতাম যুক্ত করতে হবে যা প্লেয়ারকে শুরুর স্ক্রিনে ফিরিয়ে নিয়ে যাবে.
 
 ```blocks3
     broadcast (start screen v)
