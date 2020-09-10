@@ -1,11 +1,11 @@
-## Challenge: create a start screen
+## Challenge: একটি স্টার্ট স্ক্রিন তৈরি করুন
 
-Can you add another backdrop that is going to be the start screen for your game?
+আপনি কি আর একটি ব্যাকড্রপ যুক্ত করতে পারেন যা আপনার গেমের শুরুতেই দেখা যাবে?
 
-You can use the `when I receive start`{:class="block3events"} and `when I receive end`{:class="block3events"} blocks to switch between the backdrops.
+আপনি `when I receive start`{:class="block3events"} এবং`when I receive end`{:class="block3events"} কোড ব্লক দুটি ব্যবহার পারেন ব্যাকড্রপ গুলির নিজেদের মধ্যে পরিবর্তন করার জন্যে.
 
-To show or hide the character when your game switches between backdrops, you can use `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+গেম যখন ব্যাকড্রপ পরিবর্তন করে তখন ক্যারেক্টর গুলি দেখানো বা গোপন রাখার জন্য এই কোডব্লক গুলি ব্যবহার করুন `show`{:class="block3looks"} এবং `hide`{:class="block3looks"}.
 
-To show or hide the timer and score when your game switches between backdrops, you can use `show variable`{:class="block3variables"} and `hide variable`{:class="block3variables"} blocks.
+গেম যখন ব্যাকড্রপ পরিবর্তন করে তখন টাইমার দেখানো বা গোপন রাখার জন্য এই কোডব্লক গুলি ব্যবহার করুন `show variable`{:class="block3variables"} এবং `hide variable`{:class="block3variables"} blocks.
 
 ![Start screen](images/brain-startscreen.png)
