@@ -1,22 +1,22 @@
-## Create questions
+## প্রশ্ন তৈরি করুন
 
-You're going to start by creating random questions that the player has to answer.
+খেলোয়াড়কে উত্তর দিতে হবে এমন এলোমেলো প্রশ্ন তৈরি করার মধ্য দিয়ে আপনি গেম শুরু করুন.
 
 \--- task \---
 
-Open a new Scratch project.
+একটি নতুন Scratch প্রকল্প খুলুন.
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**Online:** একটি নতুন online scratch প্রজেক্ট খুলুন[rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
 
-**Offline:** open a new project in the offline editor.
+**Offline:** offline editor এ একটি নতুন প্রজেক্ট খুলুন.
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+আপনার যদি Scratch offline editor ডাউনলোড এবং ইনস্টল করতে হয় তবে আপনি এটি [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} এ খুঁজে পেতে পারেন.
 
 \--- /task \---
 
 \--- task \---
 
-Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+আপনার গেমের জন্য একটি ক্যারেক্টার sprite এবং একটি ব্যাকড্রপ যুক্ত করুন। আপনি আপনার পছন্দ মত যে কোন চয়ন করতে পারেন! এখানে একটি উদাহরণ:
 
 ![screenshot](images/brain-setting.png)
 
@@ -24,7 +24,7 @@ Add a character sprite and a backdrop for your game. You can choose any you like
 
 \--- task \---
 
-Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+আপনার ক্যারেক্টার sprite নির্বাচন করা আছে তা নিশ্চিত করুন।. কুইজের প্রশ্নের জন্য সংখ্যাগুলি সংরক্ষণ করতে, দুটি নতুন ভেরিয়েবল তৈরি করুন, `number 1`{:class="block3variables"} এবং `number 2`{:class="block3variables"}.
 
 ![screenshot](images/giga-sprite.png)
 
@@ -36,7 +36,7 @@ Make sure you have your character sprite selected. Create two new variables, cal
 
 \--- task \---
 
-Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+আপনার ক্যারেক্টার sprite এর সাথে কোড যোগ করুন যাতে উভয় `variables`{:class="block3variables"} `random`{:class="block3operators"} 2 এবং 12 এর মধ্যে থাকে.
 
 ![screenshot](images/giga-sprite.png)
 
@@ -50,7 +50,7 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+দুটি কোড যোগ করুন এক তো প্লেয়ার কে উত্তর দেওয়ার জন্য `ask`{:class="block3sensing"} আর একটা হলো কিছু সময় বাদে, ধরুন ২ সেকেন্ড, </code>{:class="block3looks"} বলার জন্য যে উত্তর টি ঠিক ভুল:
 
 ![screenshot](images/giga-sprite.png)
 
@@ -71,25 +71,25 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+আপনার প্রকল্পটি দু'বার পরীক্ষা করুন: একটি প্রশ্নের সঠিক উত্তর দিন, এবং অন্যটি ভুল করে।.
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+আপনার কোড এর এর চারপাশে এই `forever`{:class="block3control"} লুপ টি ব্যবহার করুন, যাতে গেম এ প্লেয়ার কে অনেক প্রশ্ন জিজ্ঞাসা করা হয়.
 
 \--- hints \---
 
 \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+এবার এই ব্লক টি `forever`{:class="block3control"} যোগ করুন এবং এই `when flag clicked`{:class="block3control"}কোড টি বাদে অন্যান্য শোন্ কোড যোগ করুন.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the block you need:
+আপনার যে blocks দরকার তা এখানে রয়েছে:
 
 ```blocks3
 forever
@@ -100,7 +100,7 @@ end
 
 \--- hint \---
 
-Here is what your code should look like:
+এখানে আপনার কোড টি এইরকম দেখতে হওয়া উচিত:
 
 ```blocks3
 when flag clicked
