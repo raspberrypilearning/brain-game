@@ -1,12 +1,12 @@
-## Multiple games
+## একাধিক গেম
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+এখন আপনি একটি 'প্লে' বোতাম যুক্ত করতে যাচ্ছেন, যাতে প্লেয়ারটি আপনার গেমটি বহুবার খেলতে পারে.
 
 \--- task \---
 
-Create a new 'Play' button sprite that the player needs to click to start a new game.
+একটি নতুন 'play' বোতাম sprite তৈরি করুন যা নতুন গেম শুরু করতে খেলোয়াড়কে ক্লিক করতে হবে.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+আপনি নিজেই sprite আঁকতে পারেন, বা লাইব্রেরি থেকে একটিsprite নিয়ে এডিট করে নিতে পারেন.
 
 ![Picture of the play button](images/brain-play.png)
 
@@ -14,7 +14,7 @@ You can draw the sprite yourself, or edit a sprite from the library.
 
 \--- task \---
 
-Add this code to your button sprite:
+আপনার বাটন sprite এ এই কোড যুক্ত করুন:
 
 ![Button sprite](images/button-sprite.png)
 
@@ -29,11 +29,11 @@ Add this code to your button sprite:
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+নতুন কোডটিতে আরও একটি `broadcast`{:class="block3events"} ব্লক অন্তর্ভুক্ত রয়েছে, যা 'স্টার্ট' বার্তা প্রেরণ করে.
 
-The new code makes the 'Play' button sprite show when when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+প্লেয়ার যখন পতাকাটিতে ক্লিক করে তখন নতুন কোডটি 'play' বোতামের sprite প্রদর্শন করে. প্লেয়ারটি বোতামের sprite এ ক্লিক করলে sprite টি লুকায় এবং তারপরে এমন একটি বার্তা সম্প্রচার করে যাতে অন্যান্য sprite গুলি প্রতিক্রিয়া জানাতে পারে.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+এই মুহুর্তে, প্লেয়ার পতাকাটিতে ক্লিক করলে ক্যারেক্টার sprite প্রশ্ন জিজ্ঞাসা শুরু করে. আপনার গেমের কোডটি পরিবর্তন করুন যাতে ক্যারেক্টার sprite প্রশ্ন জিজ্ঞাসা শুরু করে যখন এটি 'start' `broadcast`{:class="block3events"} নির্দেশ পায়.
 
 \--- task \---
 
@@ -58,23 +58,23 @@ end
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+সবুজ পতাকাটি ক্লিক করুন এবং তারপরে এটি 'কাজ করে' কিনা তা পরীক্ষা করতে নতুন 'play' বোতামে ক্লিক করুন। আপনার দেখতে হবে যে আপনি বোতামটি ক্লিক করার আগে গেমটি শুরু হচ্ছে না।.
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+আপনি কি দেখতে পাচ্ছেন যে খেলাটি শুরু হওয়ার পরিবর্তে সবুজ পতাকাটি ক্লিক করা হলে টাইমার শুরু হয়?
 
 ![Timer has started](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+আপনি কি টাইমারটির জন্য কোডটি পরিবর্তন করতে পারেন যাতে প্লেয়ার বোতামে ক্লিক করলে টাইমার শুরু হয়?
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your button sprite so that the button shows again at the end of each game.
+আপনার বোতাম স্প্রাইটে কোড যুক্ত করুন যাতে প্রতিটি গেমের শেষে বোতামটি আবার দেখায়.
 
 ![Button sprite](images/button-sprite.png)
 
@@ -87,9 +87,9 @@ Add code to your button sprite so that the button shows again at the end of each
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+বেশ কয়েকটি গেম খেলে 'Play' বোতামটি পরীক্ষা করুন। প্রতিটি গেমের শেষে বোতামটি প্রদর্শন করা উচিত.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+গেমটি আরও দ্রুত পরীক্ষা করতে, আপনি `time`{:class="block3variables"} এর মান পরিবর্তন করতে পারেন, যাতে প্রতিটি গেম মাত্র কয়েক সেকেন্ড দীর্ঘ হয়.
 
 ![Stage](images/stage-sprite.png)
 
@@ -101,7 +101,7 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- task \---
 
-You can change how the button looks when the mouse pointer hovers over it.
+মাউস পয়েন্টার এটির উপরে চলে গেলে আপনি বোতামটি কীভাবে দেখায় তা পরিবর্তন করতে পারেন.
 
 ![Button](images/button-sprite.png)
 
