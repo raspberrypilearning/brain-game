@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+এটি ** Scratch 3 ** প্রকল্পের সংস্করণ. প্রকল্পের একটি [ Scratch 2 সংস্করণও রয়েছে ](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## ভূমিকা
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+এই প্রকল্পে আপনি একটি গণিত কুইজ গেম তৈরি করবেন যেখানে প্লেয়ার যত বেশি সম্ভব সঠিক উত্তর দেওয়ার জন্য 30 সেকেন্ড পাবেন.
 
-### What you will make
+### আপনি যা বানাবেন
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+বাটন ক্লিক করুন শুরু করার জন্য. প্রশ্নের উত্তর টাইপ করুন এবং তারপরে <kbd>Enter</kbd> চাপুন.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -29,37 +29,37 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: আপনি যা শিখবেন
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Scratch e কীভাবে ব্রডকাস্ট ব্যবহার করবেন
++ কীভাবে একটি কাস্টম Scratch ব্লক তৈরি এবং ব্যবহার করবেন
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: আপনার যা প্রয়োজন হবে
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Scratch 3 চালানোর জন্য সক্ষম একটি কম্পিউটার
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (হয় [online](http://rpf.io/scratchon){:target="_blank"} নয়তো [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: শিক্ষাবিদদের জন্য অতিরিক্ত তথ্য
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+আপনার যদি এই প্রকল্পটি মুদ্রণের প্রয়োজন হয় তবে দয়া করে  প্রিন্টার বান্ধব সংস্করণ </ 0> ব্যবহার করুন.</p> 
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+আপনি সমাপ্ত প্রকল্প গুলি [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"} এখানে পেতে পারেন.
 
 \--- /collapse \---
