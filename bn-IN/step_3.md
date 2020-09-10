@@ -1,8 +1,8 @@
-## Add a timer
+## একটি টাইমার যোগ করুন
 
 \--- task \---
 
-Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+`time`{:class="block3variables"} নামে একটি নতুন ভেরিয়েবলের সাহায্যে স্টেজের একটি কাউন্টডাউন টাইমার তৈরি করুন} টাইমারটি 30 সেকেন্ডে শুরু হয়েকমতে কমতে ০ সেকেন্ড অবধি চলবে.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -10,15 +10,15 @@ Create a countdown timer on the Stage with the help of a new variable called `ti
 
 \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+একটি `ভেরিয়েবল`তৈরি করুন</code>{:class="block3variables"}, এটিকে 'সময়' বলুন এবং এর মান `30</0>সেট করুন.</p>
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+<p>এরপর কোড <code>time`{:class="block3variables"} যোগ করুন ৩০ সেকেন্ড থেকে ০ পর্যন্ত গণনা করার জন্য. এই কাজের জন্য, বিয়োগ করুন `1` থেকে `time`{:class="block3variables"} every `1` second এবং `time`{:class="block3variables"} equals `0`হওয়া পর্যন্ত এই পুনরাবৃত্তি করুন.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+আপনার যেগুলি ব্লকগুলি দরকার তা এখানে রয়েছে:
 
 ```blocks3
 repeat until < >
@@ -42,7 +42,7 @@ set [time v] to [0]
 
 \--- hint \---
 
-Here is the what your new code should look like:
+নতুন কোডটি দেখতে এমন হওয়া উচিত:
 
 ```blocks3
 when flag clicked
@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+একটি `broadcast`{:class="block3control"} কোড তৈরি করুন: যা 'end;বার্তাটি 'দেয়. একটি `broadcast`{:class="block3control"} লাউডস্পিকারের মাধ্যমে ঘোষণার মতো: এটি আপনার সমস্ত sprite স্প্রিট শুনতে পাবে. টাইমার কোডের শেষে `broadcast`{:class="block3control"}` ব্লক যুক্ত করুন যাতে কোডটি <code>time`{:class="block3variables"} কোডটি গণনা করে <0>0</code> হলে 'end; বার্তা প্রেরণ করবে.
 
 ![Stage sprite](images/stage-sprite.png)
 
@@ -73,7 +73,7 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 
 \--- task \---
 
-Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+আপনার ক্যারেক্টার sprite নির্বাচন করুন এবং কিছু কোড যুক্ত করুন যাতে sprite `অন্যান্য স্ক্রিপ্টগুলি` বন্ধ করে দেয় যখন এটি `end`{:class="block3control"} বার্তাটি পায়.
 
 ![Giga sprite](images/giga-sprite.png)
 
@@ -86,6 +86,6 @@ Select your character sprite and add some code so that the sprite `stops the oth
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+আপনার গেমটি আবার পরীক্ষা করুন। টাইমার 0 পর্যন্ত গণনা না করা অবধি প্রশ্ন জিজ্ঞাসা করা অব্যাহত থাকা উচিত.
 
 \--- /task \---
