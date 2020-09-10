@@ -10,9 +10,9 @@
 
 \--- hint \---
 
-একটি `ভেরিয়েবল`তৈরি করুন</code>{:class="block3variables"}, এটিকে 'সময়' বলুন এবং এর মান `30</0>সেট করুন.</p>
+একটি `ভেরিয়েবল`{:class="block3variables"}তৈরি করুন, এটিকে 'সময়' বলুন এবং এর মান `30`সেট করুন.
 
-<p>এরপর কোড <code>time`{:class="block3variables"} যোগ করুন ৩০ সেকেন্ড থেকে ০ পর্যন্ত গণনা করার জন্য. এই কাজের জন্য, বিয়োগ করুন `1` থেকে `time`{:class="block3variables"} every `1` second এবং `time`{:class="block3variables"} equals `0`হওয়া পর্যন্ত এই পুনরাবৃত্তি করুন.
+এরপর কোড `time`{:class="block3variables"} যোগ করুন ৩০ সেকেন্ড থেকে ০ পর্যন্ত গণনা করার জন্য. এই কাজের জন্য, বিয়োগ করুন `1` থেকে `time`{:class="block3variables"} every `1` second এবং `time`{:class="block3variables"} equals `0`হওয়া পর্যন্ত এই পুনরাবৃত্তি করুন.
 
 \--- /hint \---
 
