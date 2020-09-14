@@ -46,7 +46,7 @@
 
 ### सॉफ्टवेअर
 
-+ Scratch 3 (एकतर [online](http://rpf.io/scratchon){:target="_blank"} किंवा [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (एकतर [ऑनलाइन](http://rpf.io/scratchon){:target="_blank"} किंवा [ऑफलाइन](http://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
@@ -56,10 +56,10 @@
 
 \--- no-print \---
 
-तुम्हाला हा प्रकल्प मुद्रित करण्याची आवश्यकता असेल तर कृपया[printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print) वापरा.
+आपल्याला हा प्रकल्प प्रिंट करण्याची आवश्यकता असल्यास, [प्रिंट अनुकूल आवृत्ती](https://projects.raspberrypi.org/en/projects/brain-game/print) वापरा.
 
 \--- /no-print \---
 
-तुम्ही [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}शोधू शकता.
+आपण येथे [पूर्ण केलेला प्राजेक्ट शोधू शकता](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
