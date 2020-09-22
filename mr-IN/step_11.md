@@ -1,6 +1,6 @@
 ## पुढे काय?
 
-प्रतिक्रिया खेळ प्रकल्प तयार करण्या साठी[Catch the dots](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) प्रयत्न करा! त्या प्रकल्पात, तुम्ही क्लोन्स ऑफ sprites कसे तयार करतात ते शिकाल, आणि चल कसे वापरायचे खेळाची गती हळूहळू वाढविण्या साठी.
+प्रतिक्रिया खेळ प्रकल्प तयार करण्या साठी[ठिपके पकडू](https://projects.raspberrypi.org/en/projects/catch-the-dots?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) प्रयत्न करा! त्या प्रकल्पात, तुम्ही क्लोन्स ऑफ sprites कसे तयार करतात ते शिकाल, आणि चल कसे वापरायचे खेळाची गती हळूहळू वाढविण्या साठी.
 
 \--- no-print \---
 
