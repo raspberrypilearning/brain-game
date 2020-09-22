@@ -1,6 +1,6 @@
 \--- no-print \---
 
-हे**Scratch 3**प्रकल्पाची आवृत्ती आहे. तिथे[Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+हे **Scratch 3** प्रकल्पाची आवृत्ती आहे. प्रकल्पाची[Scratch 2 आवृत्ती देखील आहे](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /no-print \---
 
