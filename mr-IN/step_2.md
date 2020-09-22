@@ -105,7 +105,6 @@ end
 
 ```blocks3
 when flag clicked
-
 + forever
     set [number 1 v] to (pick random (2) to (12))
     set [number 2 v] to (pick random (2) to (12))
