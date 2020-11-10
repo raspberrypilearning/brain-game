@@ -1,14 +1,14 @@
 \--- sem impressão \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
+Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/brain-game-scratch2).
 
 \--- /sem impressão \---
 
-## Introduction
+## Introdução
 
-In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
+Neste projeto você criará um jogo de perguntas e respostas de matemática em que o jogador terá 30 segundos para dar o máximo de respostas corretas possível.
 
-### What you will make
+### O que você vai fazer
 
 \--- no-print \---
 
