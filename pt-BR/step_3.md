@@ -1,24 +1,24 @@
-## Add a timer
+## Adicionar um cronômetro
 
 \--- task \---
 
-Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+Crie um cronômetro de contagem regressiva no palco com a ajuda de uma nova variável chamada `tempo`{:class="block3variable"}. O cronômetro deve começar em 30 segundos e contar até 0 segundos.
 
-![Stage sprite](images/stage-sprite.png)
+![Ator palco](images/stage-sprite.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Crie uma `variável`{:class="block3variables"}, chamada 'tempo', e defina o seu valor para `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Em seguida, adicione código para diminuir o `tempo` {:class="block3variables"} até 0 em 30 segundos. Para fazer isso, subtraia `1` do `tempo`{:class="block3variables"} a cada `1` segundo, e repita até que o `tempo`{:class="block3variables"} seja igual a `0`.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Aqui estão os blocos que você precisa:
 
 ```blocks3
 repeat until < >
@@ -42,7 +42,7 @@ set [time v] to [0]
 
 \--- hint \---
 
-Here is the what your new code should look like:
+É assim que seu novo código deve estar:
 
 ```blocks3
 when flag clicked
@@ -61,9 +61,9 @@ end
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send and 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Crie uma `transmita`{:class="block3control"} que envie a mensagem 'fim'. Um `transmita`{:class="block3control"} é como um anúncio em um alto-falante: pode ser ouvido por todos os seus atores. Adicione o bloco `transmita`{:class="block3control"} ao final do código do cronômetro para que o código envie uma mensagem de 'fim' quando o `tempo`{:class="block3variables"} chegar a `0`.
 
-![Stage sprite](images/stage-sprite.png)
+![Ator palco](images/stage-sprite.png)
 
 ```blocks3
     broadcast (end v)
@@ -73,9 +73,9 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 
 \--- task \---
 
-Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+Selecione o seu ator de personagem e adicione um código para que o ator `pare outros scripts`{:class="block3control"} quando receber a mensagem `fim`{:class="block3control"}.
 
-![Giga sprite](images/giga-sprite.png)
+![Ator Giga](images/giga-sprite.png)
 
 ```blocks3
     quando recebo [fim v]
@@ -86,6 +86,6 @@ Select your character sprite and add some code so that the sprite `stops the oth
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Teste seu jogo novamente. Ele deve continuar fazendo perguntas até que o cronômetro chegue a 0.
 
 \--- /task \---
