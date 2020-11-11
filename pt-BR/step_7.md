@@ -77,7 +77,7 @@ Selecione o ator 'Resultado'. Depois clique em `Meus Blocos`{:class="block3myblo
 
 --- task ---
 
-Mova o código `mostre`{:class="block3looks} e `esconda`{:class="block3looks"} do ator 'Resultado', para o bloco `animar`{:class="block3myblocks"}:
+Mova o código `mostre`{:class="block3looks"} e `esconda`{:class="block3looks"} do ator 'Resultado', para o bloco `animar`{:class="block3myblocks"}:
 
 ![Ator de Resultado](images/result-sprite.png)
 
@@ -125,7 +125,7 @@ Em vez de `mostrar`{:class="block3looks"} e `esconder`{:class="block3looks"} as 
 ![Ator de Resultado](images/result-sprite.png)
 
 ```blocks3
-    define animate
+    define animar
     set [ghost v] effect to (100)
     show
     repeat (25)

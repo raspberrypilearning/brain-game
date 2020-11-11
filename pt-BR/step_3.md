@@ -2,7 +2,7 @@
 
 --- task ---
 
-Crie um cronômetro de contagem regressiva no palco com a ajuda de uma nova variável chamada `tempo`{:class="block3variable"}. O cronômetro deve começar em 30 segundos e contar até 0 segundos.
+Crie um cronômetro de contagem regressiva no palco com a ajuda de uma nova variável chamada `tempo`{:class="block3variables"}. O cronômetro deve começar em 30 segundos e contar até 0 segundos.
 
 ![Ator palco](images/stage-sprite.png)
 
@@ -30,7 +30,7 @@ wait (1) seconds
 
 change [tempo v] by (1)
 
-(tempo)
+(tempo) ::variable
 
 when flag clicked
 
@@ -48,7 +48,7 @@ set [tempo v] to [0]
 ```blocks3
 when flag clicked
 set [tempo v] to [30]
-repeat until <(tempo) = (0)>
+repeat until <(tempo) = (0)> ::variable
     wait (1) seconds
     change [tempo v] by (-1)
 end
@@ -79,7 +79,7 @@ Selecione o seu ator de personagem e adicione um código para que o ator `pare o
 ![Ator Giga](images/giga-sprite.png)
 
 ```blocks3
-    quando recebo [fim v]
+    when I receive [fim v]
     pare [outros scripts no objeto v]
 ```
 

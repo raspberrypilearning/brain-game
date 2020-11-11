@@ -94,7 +94,7 @@ Para testar o jogo mais rapidamente, você pode mudar o valor de `tempo`{:class=
 ![Palco](images/stage-sprite.png)
 
 ```blocks3
-    alterar[tempo v] para [10]
+    set [tempo v] to [10]
 ```
 
 --- /task ---
@@ -106,13 +106,13 @@ Você pode mudar a aparência do botão quando o mouse passar por cima dele.
 ![Botão](images/button-sprite.png)
 
 ```blocks3
-  quando a bandeira verde for clicada
+  when green flag clicked
   mostrar
   para sempre
   se <touching (mouse-pointer v)?> então
-    altere efeito [olho de peixe v] para (30)
+    set [fisheye v] effect to (30)
   senão
-     altere o efeito [olho de peixe v] para (0)
+    set [fisheye v] effect to (0)
   fim
   fim
 ```
