@@ -23,7 +23,7 @@ Clique no botão para começar. Digite a resposta para a pergunta, e então aper
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![Jogo de Raciocínio](images/brain-final.png)
 
 \--- /print-only \---
 
@@ -31,8 +31,8 @@ Clique no botão para começar. Digite a resposta para a pergunta, e então aper
 
 ## title: O que você vai aprender
 
-+ How to use broadcasts in Scratch
-+ How to create and use a custom Scratch block
++ Como usar transmissões no Scratch
++ Como criar e usar um bloco de Scratch personalizado
 
 \--- /collapse \---
 
@@ -52,14 +52,14 @@ Clique no botão para começar. Digite a resposta para a pergunta, e então aper
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Notas adicionais para educadores
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Se você precisar imprimir este projeto, por favor use a [versão para impressão](https://projects.raspberrypi.org/en/projects/brain-game/print).
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
