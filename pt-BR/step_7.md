@@ -1,4 +1,4 @@
-## Add graphics
+## Adicionar figuras
 
 No momento, o personagem apenas diz `sim! :)` ou `não :(` às respostas do jogador. Adicione algumas figuras para que o jogador saiba se a resposta dele está certa ou errada.
 
