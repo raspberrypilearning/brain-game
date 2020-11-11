@@ -3,12 +3,12 @@ hero_image: images/brain-game.png
 listed: true
 copyedit: false
 title: Jogo da Tabuada
-description: Learn how to create a quiz
+description: Aprenda como criar um teste
 version: 3
 last_tested: 03-10-2018
 steps:
   - 
-    title: Introduction
+    title: Introdução
   - 
     title: Criar perguntas
   - 
@@ -17,7 +17,7 @@ steps:
     title: 'Desafio: adicionar uma pontuação e reações'
     challenge: true
   - 
-    title: Multiple games
+    title: Vários jogos
   - 
     title: 'Desafio: criar uma tela inicial'
     challenge: true
@@ -33,4 +33,4 @@ steps:
     title: 'Desafio: Tela de instruções'
     challenge: true
   - 
-    title: What next?
+    title: O que vem depois?
