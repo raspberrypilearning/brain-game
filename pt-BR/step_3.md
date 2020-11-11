@@ -30,7 +30,7 @@ wait (1) seconds
 
 change [tempo v] by (1)
 
-(tempo) ::variable
+(tempo ::variables) 
 
 when flag clicked
 
@@ -48,7 +48,7 @@ set [tempo v] to [0]
 ```blocks3
 when flag clicked
 set [tempo v] to [30]
-repeat until <(tempo) = (0)> ::variable
+repeat until <(tempo ::variables) = (0)> 
     wait (1) seconds
     change [tempo v] by (-1)
 end

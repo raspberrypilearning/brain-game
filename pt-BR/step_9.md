@@ -7,7 +7,7 @@ Para fazer essa mudança, você só precisa alterar o código do cronômetro. Vo
 ```blocks3
     when I receive [começar v]
     set [tempo v] to (30)
-    repeat until <(tempo) = [0]> ::variable
+    repeat until <(tempo ::variables) = [0]> 
         wait (1) seconds
         change [tempo v] by (-1)
     end
