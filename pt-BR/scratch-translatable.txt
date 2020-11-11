@@ -16,9 +16,9 @@ correto
 
 errado
 
-tick
+sinal de visto
 
-cross
+sinal de errado
 
 animar
 
