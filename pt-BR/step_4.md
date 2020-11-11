@@ -1,11 +1,11 @@
-## Challenge: add a score and reactions
+## Desafio: adicionar uma pontuação e reações
 
-Can you add a score to your game?
+Você pode adicionar um placar ao seu jogo?
 
-You could add code so that the player scores a point for every correct answer. If you're feeling mean, you could also add code to reset the player's score to zero if they give a wrong answer!
+Você pode adicionar código para que o jogador marque um ponto para cada resposta correta. Se você estiver se sentindo maluco, você também poderia adicionar código para redefinir a pontuação do jogador para zero se ele der uma resposta errada!
 
 [[[generic-scratch3-high-score]]]
 
-Can you make your character react to the player's answer by changing to a different costume if the answer is correct or incorrect?
+Você pode fazer seu personagem reagir à resposta do jogador mudando para uma fantasia diferente se a resposta estiver correta ou incorreta?
 
 ![screenshot](images/brain-costume.png)
