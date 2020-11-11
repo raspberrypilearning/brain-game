@@ -1,0 +1,25 @@
+número 1
+
+número 2 
+
+sim! :) 
+
+não :( 
+
+tempo 
+
+fim 
+
+começar
+
+correto
+
+errado
+
+sinal de visto
+
+sinal de errado
+
+animar
+
+tela inicial
