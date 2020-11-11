@@ -1,10 +1,10 @@
 ## Add graphics
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+No momento, o personagem apenas diz `sim! :)` ou `não :(` às respostas do jogador. Adicione algumas figuras para que o jogador saiba se a resposta dele está certa ou errada.
 
 \--- task \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+Crie um novo ator chamado 'Resultado', e de um fantasia de "sinal de visto" e uma de "sinal de errado".
 
 ![Sprite with tick and cross costumes](images/brain-result.png)
 
@@ -12,7 +12,7 @@ Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' co
 
 \--- task \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+Mude o código do seu ator de personagem para que, em vez de dizer algo ao jogador, ele `transmita/`{:class="block3events"} as mensagens 'certo' ou 'errado'.
 
 ![Character sprite](images/giga-sprite.png)
 
