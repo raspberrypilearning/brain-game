@@ -6,7 +6,7 @@ No momento, o personagem apenas diz `sim! :)` ou `não :(` às respostas do joga
 
 Crie um novo ator chamado 'Resultado', e de um fantasia de "sinal de visto" e uma de "sinal de errado".
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![Ator com as fantasias de sinal de visto e sinal de errado](images/brain-result.png)
 
 \--- /task \---
 
@@ -14,7 +14,7 @@ Crie um novo ator chamado 'Resultado', e de um fantasia de "sinal de visto" e um
 
 Mude o código do seu ator de personagem para que, em vez de dizer algo ao jogador, ele `transmita/`{:class="block3events"} as mensagens 'certo' ou 'errado'.
 
-![Character sprite](images/giga-sprite.png)
+![Ator de Personagem](images/giga-sprite.png)
 
 ```blocks3
 if <(answer) = ((number 1)*(number 2))> then
@@ -31,9 +31,9 @@ end
 
 \--- task \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+Agora você pode usar essas mensagens para que `mostre`{:class="block3looks"} o "sinal de visto" ou o "sinal de errado". Adicione o seguinte código ao ator de 'Resultado':
 
-![Result sprite](images/result-sprite.png)
+![Ator de Resultado](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -56,31 +56,31 @@ Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cr
 
 \--- task \---
 
-Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+Teste o seu jogo novamente. Você deve ver um "sinal de visto" sempre que responder uma questão corretamente e um "sinal de errado" sempre que responder errado!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
-
-\--- /task \---
-
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
-
-So you can change your code more easily, you are going to create a custom block.
-
-\--- task \---
-
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
-
-![Result sprite](images/result-sprite.png)
-
-![Create a block called animate](images/brain-animate-function.png)
+![Sinal de visto para certo e sinal de errado para errado](images/brain-test-answer.png)
 
 \--- /task \---
 
+Você notou que o código para `quando eu receber correto`{:class="block3events"} e `quando eu receber errado`{:class="block3events"} são quase idênticos?
+
+Para alterar seu código mais facilmente, você vai criar um bloco personalizado.
+
 \--- task \---
 
-Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+Selecione o ator 'Resultado'. Depois clique em `Meus Blocos`{:class="block3myblocks"}, e depois em **Criar um bloco**. Crie um bloco novo e chame de `animar`{:class="block3myblocks"}.
 
-![Result sprite](images/result-sprite.png)
+![Ator de Resultado](images/result-sprite.png)
+
+![Criar um bloco chamado animar](images/brain-animate-function.png)
+
+\--- /task \---
+
+\--- task \---
+
+Mova o código `mostre`{:class="block3looks} e `esconda`{:class="block3looks"} do ator 'Resultado', para o bloco `animar`{:class="block3myblocks"}:
+
+![Ator de Resultado](images/result-sprite.png)
 
 ```blocks3
 define animate
@@ -93,11 +93,12 @@ hide
 
 \--- task \---
 
-Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+Tenha certeza de que removeu os blocos `mostre`{:class="block3looks"} e `esconda`{:class="block3looks"} que estão abaixo de **ambos** os blocos `mude para fantasia 
+`{:class="block3looks"}.
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+Em seguida adicione o bloco `animar`{:class="block3myblocks"} abaixo de ambos os blocos `mude para fantasia`{:class="block3looks"}. O seu código agora deve estar parecido com isto:
 
-![Result sprite](images/result-sprite.png)
+![Ator de Resultado](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -111,19 +112,19 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+Por causa do bloco personalizado `animar`{:class="block3myblocks"}, agora você só precisa fazer uma mudança no seu código se quiser mostrar o ator 'Resultado' um tempo maior ou menor.
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+Mude o seu código para que as fantasias de "sinal de visto" ou de "sinal de errado" sejam exibidas por 2 segundos.
 
 \--- /task \---
 
 \--- task \---
 
-Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+Em vez de `mostrar`{:class="block3looks"} e `esconder`{:class="block3looks"} as fantasias de "sinal de visto" ou "sinal de errado", você pode mudar o seu bloco `animar`{:class = "block3myblocks"} para que as fantasias apareçam aos poucos.
 
-![Result sprite](images/result-sprite.png)
+![Ator de Resultado](images/result-sprite.png)
 
 ```blocks3
     define animate
@@ -137,6 +138,6 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+Você pode melhorar a animação do "sinal de visto" ou "sinal de errado"? Você pode adicionar código para fazer os sinais desaparecerem aos poucos também, ou você pode usar outros efeitos legais:
 
 ![screenshot](images/brain-effects.png)
