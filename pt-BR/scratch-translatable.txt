@@ -10,7 +10,7 @@ tempo
 
 fim 
 
-início
+começar
 
 correto
 
