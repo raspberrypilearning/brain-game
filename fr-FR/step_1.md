@@ -42,7 +42,7 @@ title: Ce qu'il faut avoir
 
 ### Logiciels
 
-+ Scratch 3 ([en ligne](http://rpf.io/scratchon) ou [hors ligne](http://rpf.io/scratchoff)")
++ Scratch 3 ([en ligne](https://rpf.io/scratchon) ou [hors ligne](https://rpf.io/scratchoff)")
 
 --- /collapse ---
 
@@ -55,6 +55,6 @@ title: Informations supplémentaires pour les éducateurs
 Si tu as besoin d'imprimer ce projet, veille à utiliser la [version](https://projects.raspberrypi.org/fr-FR/projects/brain-game/print)imprimable. 
 --- /no-print ---
 
-Tu peux trouver le [projet terminé ici](http://rpf.io/p/fr-FR/brain-game-get){:target="_blank"}.
+Tu peux trouver le [projet terminé ici](https://rpf.io/p/fr-FR/brain-game-get){:target="_blank"}.
 
 --- /collapse ---

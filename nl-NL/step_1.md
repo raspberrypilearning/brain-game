@@ -42,7 +42,7 @@ title: Wat heb je nodig
 
 ### Software
 
-+ Scratch 3 (of [online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (of [online](https://rpf.io/scratchon){:target="_blank"} of [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 --- /collapse ---
 
@@ -53,6 +53,6 @@ title: Aanvullende informatie voor docenten
 
 --- no-print --- Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/brain-game/print) --- /no-print ---
 
-Je kunt het [voltooide project hier](http://rpf.io/p/nl-NL/brain-game-get)"{:target="_blank"} vinden.
+Je kunt het [voltooide project hier](https://rpf.io/p/nl-NL/brain-game-get)"{:target="_blank"} vinden.
 
 --- /collapse ---

@@ -48,7 +48,7 @@ title: O que você vai precisar
 
 ### Software
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} ou [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} ou [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 --- /collapse ---
 
@@ -63,6 +63,6 @@ Se você precisar imprimir este projeto, por favor use a [versão para impressã
 
 --- /no-print ---
 
-Pode encontrar o [projeto concluído aqui](http://rpf.io/p/pt-BR/brain-game-get){:target="_blank"}.
+Pode encontrar o [projeto concluído aqui](https://rpf.io/p/pt-BR/brain-game-get){:target="_blank"}.
 
 --- /collapse ---
