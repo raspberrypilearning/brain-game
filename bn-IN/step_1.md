@@ -46,7 +46,7 @@
 
 ### Software
 
-+ Scratch 3 (হয় [online](http://rpf.io/scratchon){:target="_blank"} নয়তো [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
@@ -60,6 +60,6 @@
 
 \--- /no-print \---
 
-আপনি সমাপ্ত প্রকল্প গুলি [completed project here](http://rpf.io/p/en/brain-game-get){:target="_blank"} এখানে পেতে পারেন.
+You can find the [completed project here](https://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
