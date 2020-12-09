@@ -46,7 +46,7 @@ Presiona el botón para empezar. Escribe la respuesta a la pregunta, y luego pre
 
 ### Programa
 
-+ Scratch 3 (ya sea [con Internet](http://rpf.io/scratchon){:target="_blank"} o [sin Internet](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
@@ -60,6 +60,6 @@ Si necesitas imprimir este proyecto, por favor, usa la [versión para imprimir](
 
 \--- /no-print \---
 
-Puedes encontrar el [ proyecto completo aquí ](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
