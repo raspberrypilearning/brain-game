@@ -31,7 +31,7 @@ Završenu verziju projekta možete naći [online](http://scratch.mit.edu/project
 
 * U ovom projektu utvrđuju se prethodno savladane vještine programiranja i pokazuje kako se slanje poruka može koristiti za izradu jednostavnog sistema menija igre.
 
-Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 * [Kombinujte programske konstrukcije za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder)
 

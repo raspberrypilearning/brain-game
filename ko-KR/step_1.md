@@ -48,7 +48,7 @@ title: 준비물
 
 ### 소프트웨어
 
-+ 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_blank"} 또는 [오프라인](http://rpf.io/scratchoff){:target="_blank"})
++ 스크래치 3 ( [온라인](https://rpf.io/scratchon){:target="_blank"} 또는 [오프라인](https://rpf.io/scratchoff){:target="_blank"})
 
 --- /collapse ---
 
@@ -63,6 +63,6 @@ title: 교사를 위한 추가 노트
 
 --- /no-print ---
 
-완성된 프로젝트는[여기](http://rpf.io/p/ko-KR/brain-game-get){:target="_ blank"}에서 확인할 수 있습니다.
+완성된 프로젝트는[여기](https://rpf.io/p/ko-KR/brain-game-get){:target="_ blank"}에서 확인할 수 있습니다.
 
 --- /collapse ---
