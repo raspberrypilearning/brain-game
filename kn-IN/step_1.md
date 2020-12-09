@@ -46,7 +46,7 @@
 
 ### ಸಾಫ್ಟ್ವೇರ್
 
-+ Scratch 3 (either [ಆನ್‌ಲೈನ್](http://rpf.io/scratchon){:target="_blank"} ಅಥವಾ [ಆಫ್‌ಲೈನ್](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
@@ -60,6 +60,6 @@
 
 \--- /no-print \---
 
-ನೀವು ಕಾಣಬಹುದು [ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆ ಇಲ್ಲಿ](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
