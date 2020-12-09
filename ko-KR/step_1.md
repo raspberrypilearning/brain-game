@@ -46,7 +46,7 @@
 
 ### 소프트웨어
 
-+ 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_ blank"} 또는 [오프라인](http://rpf.io/scratchoff){:target="_ blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
@@ -60,6 +60,6 @@
 
 \--- /no-print \---
 
-완성된 프로젝트는[여기](http://rpf.io/p/en/brain-game-get){:target="_ blank"}에서 확인할 수 있습니다.
+You can find the [completed project here](https://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
