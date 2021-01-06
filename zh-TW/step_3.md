@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-用`廣播`{:class="block3control"}發送「結束」的訊息。 0>廣播</code>{:class="block3control"}就像大聲公，所有的角色都會聽到發出的訊息。 把`廣播`{:class="block3control"}積木安排在計時程式的最後面，那樣子當`計時`{:class="block3variables"}到 `0` 的時候就會對大家發出結束的訊息。
+用`廣播`{:class="block3control"}發送「結束」的訊息。 0>廣播</code>{:class="block3control"}就像大聲公，所有的角色都會聽到發出的訊息。 Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![舞台角色](images/stage-sprite.png)
 
