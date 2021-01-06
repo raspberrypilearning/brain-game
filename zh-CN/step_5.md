@@ -31,7 +31,7 @@
 
 新代码包括另一个`广播`{:class="block3events"}积木，它发送“开始”消息。
 
-当玩家点击旗帜时，新代码会显示“开始”按钮精灵。 当玩家点击按钮精灵时，精灵会隐藏，然后广播信息，让其他精灵做出反馈。
+The new code makes the 'Play' button sprite show when player clicks on the flag. 当玩家点击按钮精灵时，精灵会隐藏，然后广播信息，让其他精灵做出反馈。
 
 此时，角色精灵在玩家点击旗帜时开始提问。 更改游戏代码，以便当它收到“开始”`广播`{:class="block3events"}时，角色精灵开始提问。
 
