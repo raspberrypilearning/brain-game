@@ -31,7 +31,7 @@
 
 新的程式包含了另一個`廣播`{:class="block3events"}積木，用來發送「開始」訊息。
 
-這個新程式會在玩家點擊綠旗時，在畫面中出現「遊玩」的按鈕。 玩家只要點擊，按鈕就會隱藏然後廣播，聽到這個訊息的其它程式就能做出反應。
+The new code makes the 'Play' button sprite show when player clicks on the flag. 玩家只要點擊，按鈕就會隱藏然後廣播，聽到這個訊息的其它程式就能做出反應。
 
 不過，目前玩家只要點擊綠旗，Giga 就會開始發問。 修改你的程式，讓角色在收到「開始」的`廣播`{:class="block3events"}後，才開始問問題。
 
