@@ -60,7 +60,7 @@ end
 
 \--- task \---
 
-Создай новое `сообщение`{:class="block3events"}, которое отправляет сообщение «конец». `Сообщение`{:class="block3control"} похоже на объявление через громкоговоритель: его могут услышать все твои спрайты. Добавь блок `передать`{:class="block3control"} в конец кода таймера так, чтобы код отправлял сообщение "конец", когда `время`{:class="block3variables"} дойдёт до `0`.
+Создай новое `сообщение`{:class="block3events"}, которое отправляет сообщение «конец». `Сообщение`{:class="block3control"} похоже на объявление через громкоговоритель: его могут услышать все твои спрайты. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Спрайт сцена](images/stage-sprite.png)
 
