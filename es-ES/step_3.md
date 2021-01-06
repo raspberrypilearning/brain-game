@@ -61,7 +61,7 @@ fin
 
 \--- task \---
 
-Crea una `transmisión`{:class="block3control"} que envíe el mensaje "terminar". Utiliza el bloque <0>enviar</0>{:class="block3events"} para enviar transmisiones. Una `transmisión`{:class="block3control"} es como un anuncio que se hace con un altavoz: todos los objetos lo pueden escuchar. Añade el bloque `enviar`{:class="block3control"} al final del código del cronómetro para que el código envíe el mensaje "terminar" cuando el `tiempo`{:class="block3variables"} llegue a `0`.
+Crea una `transmisión`{:class="block3control"} que envíe el mensaje "terminar". Utiliza el bloque <0>enviar</0>{:class="block3events"} para enviar transmisiones. Una `transmisión`{:class="block3control"} es como un anuncio que se hace con un altavoz: todos los objetos lo pueden escuchar. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Objeto escenario](images/stage-sprite.png)
 
