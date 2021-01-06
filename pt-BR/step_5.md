@@ -31,7 +31,7 @@ Adicione este código ao seu ator de botão:
 
 O novo código inclui outro bloco `transmita`{:class="block3events"}, que envia a mensagem 'Iniciar'.
 
-O novo código faz o botão 'Jogar' aparecer quando o jogador clicar na bandeira. Quando o jogador clica no ator de botão, o ator desaparece e então transmite uma mensagem que outros atores podem reagir.
+The new code makes the 'Play' button sprite show when player clicks on the flag. Quando o jogador clica no ator de botão, o ator desaparece e então transmite uma mensagem que outros atores podem reagir.
 
 No momento, o ator de personagem começa a fazer perguntas quando o jogador clica na bandeira. Altere o código do seu jogo para que o ator de personagem comece a fazer perguntas quando o `transmita`{:class="block3events"} de 'começar' for recebida.
 
