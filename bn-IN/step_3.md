@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-একটি `broadcast`{:class="block3control"} কোড তৈরি করুন: যা 'end;বার্তাটি 'দেয়. একটি `broadcast`{:class="block3control"} লাউডস্পিকারের মাধ্যমে ঘোষণার মতো: এটি আপনার সমস্ত sprite স্প্রিট শুনতে পাবে. টাইমার কোডের শেষে `broadcast`{:class="block3control"}` ব্লক যুক্ত করুন যাতে কোডটি <code>time`{:class="block3variables"} কোডটি গণনা করে <0>0</code> হলে 'end; বার্তা প্রেরণ করবে.
+একটি `broadcast`{:class="block3control"} কোড তৈরি করুন: যা 'end;বার্তাটি 'দেয়. একটি `broadcast`{:class="block3control"} লাউডস্পিকারের মাধ্যমে ঘোষণার মতো: এটি আপনার সমস্ত sprite স্প্রিট শুনতে পাবে. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
