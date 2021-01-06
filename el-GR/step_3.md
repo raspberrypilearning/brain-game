@@ -60,7 +60,7 @@ end
 
 \--- task \---
 
-Δημιούργησε μια `εκπομπή`{:class="block3control"} που στέλνει το μήνυμα 'τέλος'. Μία `εκπομπή`{:class="block3control"} είναι σαν μια ανακοίνωση από σε ένα μεγάφωνο: μπορεί να ακουστεί από όλους τους χαρακτήρες σου. Πρόσθεσε το μπλοκ `εκπομπής`{:class="block3control"} στο τέλος του κώδικα του χρονοδιακόπτη έτσι ώστε ο κώδικας να στείλει ένα μήνυμα 'τέλος' όταν ο `χρόνος`{:class="block3variables"} φτάσει στο `0`.
+Δημιούργησε μια `εκπομπή`{:class="block3control"} που στέλνει το μήνυμα 'τέλος'. Μία `εκπομπή`{:class="block3control"} είναι σαν μια ανακοίνωση από σε ένα μεγάφωνο: μπορεί να ακουστεί από όλους τους χαρακτήρες σου. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Χαρακτήρας σκηνικού](images/stage-sprite.png)
 
