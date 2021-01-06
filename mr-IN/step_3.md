@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-एक`broadcast`{:class="block3control"} तयार करा जे 'शेवट' हे संदेश पाठवतो. एक`broadcast`{:class="block3control"} हे स्पीकरवरील घोषणेसारखे आहे: हे तुमच्या सर्व स्प्राइट्सद्वारे ऐकले जाऊ शकते. `broadcast`{:class="block3control"} ब्लॉक जोडा टाइमर कोडच्या शेवटला ज्याणेंकरून कोड 'शेवट' हा संदेश पाठवेल जेव्हा `time`{:class="block3variables"}पर्यंत मोजले आहे.
+एक`broadcast`{:class="block3control"} तयार करा जे 'शेवट' हे संदेश पाठवतो. एक`broadcast`{:class="block3control"} हे स्पीकरवरील घोषणेसारखे आहे: हे तुमच्या सर्व स्प्राइट्सद्वारे ऐकले जाऊ शकते. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
