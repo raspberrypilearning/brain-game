@@ -31,7 +31,7 @@ Voeg deze code toe aan je knop sprite:
 
 De nieuwe code bevat ook een `zend signaal`{:class="block3events"}-blok, dat het signaal 'start' verzendt.
 
-De nieuwe code zorgt ervoor dat de knop 'Speel' wordt weergegeven als de speler op de vlag klikt. Wanneer de speler op de knop sprite klikt, verbergt de sprite zich en zendt vervolgens een signaal uit waarop andere sprites kunnen reageren.
+The new code makes the 'Play' button sprite show when player clicks on the flag. Wanneer de speler op de knop sprite klikt, verbergt de sprite zich en zendt vervolgens een signaal uit waarop andere sprites kunnen reageren.
 
 Op dit moment begint de personage sprite vragen te stellen wanneer de speler op de vlag klikt. Verander de code van je spel zo dat de personage sprite begint vragen te stellen wanneer het het 'start' `zend signaal`{:class="block3events"} ontvangt.
 
