@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-Crie uma `transmita`{:class="block3control"} que envie a mensagem 'fim'. Um `transmita`{:class="block3control"} é como um anúncio em um alto-falante: pode ser ouvido por todos os seus atores. Adicione o bloco `transmita`{:class="block3control"} ao final do código do cronômetro para que o código envie uma mensagem de 'fim' quando o `tempo`{:class="block3variables"} chegar a `0`.
+Crie uma `transmita`{:class="block3control"} que envie a mensagem 'fim'. Um `transmita`{:class="block3control"} é como um anúncio em um alto-falante: pode ser ouvido por todos os seus atores. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Ator palco](images/stage-sprite.png)
 
