@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-Crea una `transmisión`{:class="block3control"} que envíe el mensaje "fin". Una `transmisión`{:class="block3control"} es como un anuncio que se hace con un altavoz: todos tus personajes lo pueden escuchar. Agrega el bloque de `transmisión`{:class="block3control"} al final del código del temporizador, así el código enviará el mensaje "fin" cuando la variable `tiempo`{:class="block3variables"} llegue a `0`.
+Crea una `transmisión`{:class="block3control"} que envíe el mensaje "fin". Una `transmisión`{:class="block3control"} es como un anuncio que se hace con un altavoz: todos tus personajes lo pueden escuchar. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Objeto escenario](images/stage-sprite.png)
 
