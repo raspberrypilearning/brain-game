@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-ರಚಿಸಿ `broadcast`{:class="block3control"} ಅದು ಸಂದೇಶವನ್ನು ಕಳುಹಿಸುತ್ತದೆ 'end'. `broadcast`{:class="block3control"} ಇದು ಧ್ವನಿವರ್ಧಕದ ಮೇಲಿನ ಪ್ರಕಟಣೆಯಂತೆ: ಇದನ್ನು ನಿಮ್ಮ ಎಲ್ಲ ಸ್ಪ್ರೈಟ್‌ಗಳು ಕೇಳಬಹುದು. ಸೇರಿಸಿ `broadcast`{:class="block3control"} ಟೈಮರ್ ಕೋಡ್‌ನ ಕೊನೆಯಲ್ಲಿ ನಿರ್ಬಂಧಿಸಿ ಇದರಿಂದ ಕೋಡ್ ಕಳುಹಿಸುತ್ತದೆ ಮತ್ತು 'end' ಯಾವಾಗ ಸಂದೇಶ `time`{:class="block3variables"} ಎಣಿಕೆ ಮಾಡಲಾಗಿದೆ `0`.
+ರಚಿಸಿ `broadcast`{:class="block3control"} ಅದು ಸಂದೇಶವನ್ನು ಕಳುಹಿಸುತ್ತದೆ 'end'. `broadcast`{:class="block3control"} ಇದು ಧ್ವನಿವರ್ಧಕದ ಮೇಲಿನ ಪ್ರಕಟಣೆಯಂತೆ: ಇದನ್ನು ನಿಮ್ಮ ಎಲ್ಲ ಸ್ಪ್ರೈಟ್‌ಗಳು ಕೇಳಬಹುದು. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Stage sprite](images/stage-sprite.png)
 
