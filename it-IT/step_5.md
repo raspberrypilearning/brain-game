@@ -31,7 +31,7 @@ Aggiungi questo codice allo sprite del tuo pulsante:
 
 Il nuovo codice include un altro blocco `broadcast`{:class="block3events"}, che invia il messaggio 'inizio'.
 
-Il nuovo codice fa apparire lo sprite del pulsante 'Gioca' quando il giocatore fa clic sulla bandiera. Quando il giocatore fa clic sul pulsante sprite, lo sprite sparisce e trasmette un messaggio a cui altri sprite possono reagire.
+The new code makes the 'Play' button sprite show when player clicks on the flag. Quando il giocatore fa clic sul pulsante sprite, lo sprite sparisce e trasmette un messaggio a cui altri sprite possono reagire.
 
 Al momento, lo sprite del personaggio inizia a fare domande quando il giocatore fa clic sulla bandiera. Cambia il codice del tuo gioco in modo che lo sprite personaggio inizi a fare domande quando riceve il messaggio 'start' `broadcast`{:class="block3events"}.
 
