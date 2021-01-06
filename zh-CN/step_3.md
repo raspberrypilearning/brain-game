@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-创建一个`广播` {:class =“ block3control”}发送消息“结束”。 `广播` {class="block3control"}就像是通过扬声器发出的公告：你的所有精灵都可以听到。 在计时器代码的后面添加`广播`{:class="block3control"}积木，这样当`时间`{:class="block3variables"}减至`0`时就能发出“结束”消息。
+创建一个`广播` {:class =“ block3control”}发送消息“结束”。 `广播` {class="block3control"}就像是通过扬声器发出的公告：你的所有精灵都可以听到。 Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![舞台精灵](images/stage-sprite.png)
 
