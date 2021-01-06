@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-Creare una trasmissione `broadcast`{:class = "block3control"} che invii il messaggio 'fine'. Una trasmissione `broadcast`{:class = "block3control"} è come un annuncio su un altoparlante: può essere ascoltato da tutti i tuoi sprite. Aggiungere il blocco trasmissione `broadcast`{:class = "block3control"} alla fine del codice timer in modo che il codice invii il messaggio 'fine', quando i `secondi`{:class = "block3variables"} avranno raggiunto il valore `0`.
+Creare una trasmissione `broadcast`{:class = "block3control"} che invii il messaggio 'fine'. Una trasmissione `broadcast`{:class = "block3control"} è come un annuncio su un altoparlante: può essere ascoltato da tutti i tuoi sprite. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Sprite dello scenario](images/stage-sprite.png)
 
