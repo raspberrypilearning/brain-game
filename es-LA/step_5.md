@@ -31,7 +31,7 @@ Agrega este código al botón objeto:
 
 El nuevo código incluye otro bloque de `transmisión`{:class="block3events"}, el cual envía el mensaje "inicio".
 
-El nuevo código hace que el botón objeto "Jugar" aparezca cuando el jugador hace clic en la bandera. Cuando el jugador hace clic en el botón objeto, el objeto se oculta y luego transmite un mensaje a la que otros objetos pueden reaccionar.
+The new code makes the 'Play' button sprite show when player clicks on the flag. Cuando el jugador hace clic en el botón objeto, el objeto se oculta y luego transmite un mensaje a la que otros objetos pueden reaccionar.
 
 Por el momento, el objeto empieza a hacer preguntas cuando el jugador hace clic en la bandera. Cambia el código de tu juego para que el objeto empiece a hacer preguntas cuando reciba la `transmisión`{:class="block3events"} "inicio".
 
