@@ -31,7 +31,7 @@ Añade este código a tu objeto del botón:
 
 Este nuevo código incluye otro bloque `transmisión`{:class="block3events"} que envía el mensaje "empezar".
 
-El código que has añadido hace que el botón "Jugar" aparezca cuando se haga clic en bandera. Cuando el jugador haga clic en el objeto del botón éste se esconderá y enviará un mensaje al que otros objetos podrán reaccionar.
+The new code makes the 'Play' button sprite show when player clicks on the flag. Cuando el jugador haga clic en el objeto del botón éste se esconderá y enviará un mensaje al que otros objetos podrán reaccionar.
 
 Por ahora el personaje empieza a hacer preguntas en cuanto se hace clic en la bandera. Cambia el código de tu juego para que el personaje empiece a hacer preguntas cuando reciba el mensaje "empezar" que enviamos con el bloque `enviar`{:class="block3events"}.
 
