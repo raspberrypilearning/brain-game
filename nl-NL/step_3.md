@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-Maak een `zend signaal`{:class="block3control"} die het signaal 'einde' verstuurt. Een `zend signaal`{:class="block3control"} is als een aankondiging over een luidspreker: het kan worden gehoord door al je sprites. Voeg het `zend signaal`{:class="block3control"} blok toe aan het einde van de timercode zodat de code het signaal 'einde' verstuurt wanneer de `tijd`{:class="block3variables"} is afgeteld tot `0`.
+Maak een `zend signaal`{:class="block3control"} die het signaal 'einde' verstuurt. Een `zend signaal`{:class="block3control"} is als een aankondiging over een luidspreker: het kan worden gehoord door al je sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
 
 ![Speelveld sprite](images/stage-sprite.png)
 
