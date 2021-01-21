@@ -61,7 +61,7 @@ end
 
 \--- task \---
 
-قم بإنشاء `بث` {: class = "block3control"} التي ترسل الرسالة "نهاية". إن `بث الرسالة `{:class="block3control"} يشبه إعلان على مكبر صوت: يمكن سماعه من قبل جميع الكائنات الخاصة بك. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+قم بإنشاء `بث` {: class = "block3control"} التي ترسل الرسالة "نهاية". إن `بث الرسالة `{:class="block3control"} يشبه إعلان على مكبر صوت: يمكن سماعه من قبل جميع الكائنات الخاصة بك. أضف التعليمة البرمجية`بث الرسالة`{:class="block3control"} إلى نهاية التعليمة البرمجية المؤقت بحيث يرسل التعليمة البرمجية وتنتهي الرسالة عندما يكون `الوقت`{:class="block3variables"} قد تم العد إلى `0`.
 
 ![كائن منصة العمل](images/stage-sprite.png)
 
