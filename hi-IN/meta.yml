@@ -2,35 +2,35 @@
 hero_image: images/brain-game.png
 listed: true
 copyedit: false
-title: Brain game
-description: Learn how to create a quiz
+title: ब्रेन गेम
+description: क्विज़ बनाना सीखें।
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Create questions
+    title: प्रश्न बनाना
   - 
-    title: Add a timer
+    title: टाइमर जोड़े
   - 
-    title: 'Challenge: add a score and reactions'
+    title: 'चुनौती: स्कोर और प्रतिक्रियाएं जोड़ना'
     challenge: true
   - 
-    title: Multiple games
+    title: विभिन्न गेम्ज़
   - 
-    title: 'Challenge: create a start screen'
+    title: 'चुनौती: एक प्रारंभ स्क्रीन बनायें'
     challenge: true
   - 
-    title: Add graphics
+    title: ग्राफिक्स जोड़ना
   - 
-    title: 'Challenge: sound and music'
+    title: 'चुनौती: ध्वनि और संगीत'
     challenge: true
   - 
-    title: 'Challenge: race to 10 points'
+    title: 'चुनौती: 10 अंकों की दौड़'
     challenge: true
   - 
-    title: 'Challenge: instruction screen'
+    title: 'चुनौती: निर्देश स्क्रीन'
     challenge: true
   - 
-    title: What next?
+    title: आगे क्या?
