@@ -1,22 +1,22 @@
-## Create questions
+## प्रश्न बनाना
 
-You're going to start by creating random questions that the player has to answer.
+आइए हम खिलाड़ी द्वारा उत्तर देने के लिए यादृच्छिक प्रश्न बनाने से शुरू करते हैं।
 
 \--- task \---
 
-Open a new Scratch project.
+एक नया Scratch प्रोजेक्ट खोलें।
 
-**Online:** open a new online Scratch project at [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+** ऑनलाइन: ** [ rpf.io/scratch-new ](http://rpf.io/scratch-new) पर एक नया ऑनलाइन Scratch प्रोजेक्ट खोलें {: लक्ष्य = "_ blank"}।
 
-**Offline:** open a new project in the offline editor.
+** ऑफ़लाइन: ** ऑफ़लाइन एडिटर में एक नया प्रोजेक्ट खोलें।
 
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff) {:target="_blank"} पर पा सकते हैं।
 
 \--- /task \---
 
 \--- task \---
 
-Add a character sprite and a backdrop for your game. You can choose any you like! Here's an example:
+अपने खेल के लिए पात्र स्प्राइट और एक पृष्ठभूमि जोड़ें। आप अपनी पसंद का कोई भी चुन सकते हैं! यहाँ एक उदाहरण है:
 
 ![screenshot](images/brain-setting.png)
 
@@ -24,7 +24,7 @@ Add a character sprite and a backdrop for your game. You can choose any you like
 
 \--- task \---
 
-Make sure you have your character sprite selected. Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+सुनिश्चित करें कि आपका पात्र स्प्राइट चयनित है। Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
 
 ![screenshot](images/giga-sprite.png)
 
