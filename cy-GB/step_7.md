@@ -122,8 +122,8 @@ Yn hytrach na `dangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} y
 diffinio animeiddio
 gosod effaith [ghost v] effaith i (100)
 dangos
-ailadrodd (25) 
-newid effaith [ghost v] gan (-4)
+ailadrodd (25)
+ newid effaith [ghost v] gan (-4)
 end
 cuddio
 ```

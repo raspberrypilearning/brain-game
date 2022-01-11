@@ -7,19 +7,21 @@ description: Dysga sut i greu cwis.
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Cyflwyniad
-  - title: Creu cwestiynau
-  - title: Ychwanegu Amserydd
-  - title: 'Her: Ychwanegu sgôr ac ymatebion'
-    challenge: true
-  - title: Gemau lluosog
-  - title: 'Her: creu sgrin gychwynnol'
-    challenge: true
-  - title: Ychwanegu graffeg
-  - title: 'Her: ychwanegu sain a cherddoriaeth'
-    challenge: true
-  - title: 'Her: ras i 10 pwynt'
-    challenge: true
-  - title: 'Her: sgrîn cyfarwyddiadau'
-    challenge: true
-  - title: Beth nesaf?
+- title: Cyflwyniad
+  completion: engaged
+- title: Creu cwestiynau
+- title: Ychwanegu Amserydd
+- title: 'Her: Ychwanegu sgôr ac ymatebion'
+  challenge: true
+- title: Gemau lluosog
+- title: 'Her: creu sgrin gychwynnol'
+  challenge: true
+  completion: internal
+- title: Ychwanegu graffeg
+- title: 'Her: ychwanegu sain a cherddoriaeth'
+  challenge: true
+- title: 'Her: ras i 10 pwynt'
+  challenge: true
+- title: 'Her: sgrîn cyfarwyddiadau'
+  challenge: true
+- title: Beth nesaf?

@@ -7,19 +7,21 @@ description: Aprender a cómo crear una prueba
 version: 4.0.2
 last_tested: 03-10-2018
 steps:
-  - title: Introducción
-  - title: Crear preguntas
-  - title: Agregar un temporizador
-  - title: 'Desafío: agregar una puntuación y reacciones'
-    challenge: true
-  - title: Varias partidas
-  - title: 'Desafío: crear una pantalla de inicio'
-    challenge: true
-  - title: Agregar gráficos
-  - title: 'Desafío: sonido y música'
-    challenge: true
-  - title: 'Desafío: correr hasta 10 puntos'
-    challenge: true
-  - title: 'Desafío: pantalla de instrucciones'
-    challenge: true
-  - title: '¿Qué sigue?'
+- title: Introducción
+  completion: engaged
+- title: Crear preguntas
+- title: Agregar un temporizador
+- title: 'Desafío: agregar una puntuación y reacciones'
+  challenge: true
+- title: Varias partidas
+- title: 'Desafío: crear una pantalla de inicio'
+  challenge: true
+  completion: internal
+- title: Agregar gráficos
+- title: 'Desafío: sonido y música'
+  challenge: true
+- title: 'Desafío: correr hasta 10 puntos'
+  challenge: true
+- title: 'Desafío: pantalla de instrucciones'
+  challenge: true
+- title: "¿Qué sigue?"
