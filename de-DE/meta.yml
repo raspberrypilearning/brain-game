@@ -7,19 +7,21 @@ description: Lerne, wie man ein Quiz programmiert
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
-  - title: Einleitung
-  - title: Fragen erstellen
-  - title: Einen Countdown hinzufügen
-  - title: 'Herausforderung: Füge eine Punktzahl und Reaktionen hinzu'
-    challenge: true
-  - title: Mehrfach spielen
-  - title: 'Herausforderung: Erstelle einen Startbildschirm'
-    challenge: true
-  - title: Grafiken hinzufügen
-  - title: 'Herausforderung: Klänge und Musik'
-    challenge: true
-  - title: 'Herausforderung: 10-Punkte-Partie'
-    challenge: true
-  - title: 'Herausforderung: Anleitungsbildschirm'
-    challenge: true
-  - title: Wie geht es weiter?
+- title: Einleitung
+  completion: engaged
+- title: Fragen erstellen
+- title: Einen Countdown hinzufügen
+- title: 'Herausforderung: Füge eine Punktzahl und Reaktionen hinzu'
+  challenge: true
+- title: Mehrfach spielen
+- title: 'Herausforderung: Erstelle einen Startbildschirm'
+  challenge: true
+  completion: internal
+- title: Grafiken hinzufügen
+- title: 'Herausforderung: Klänge und Musik'
+  challenge: true
+- title: 'Herausforderung: 10-Punkte-Partie'
+  challenge: true
+- title: 'Herausforderung: Anleitungsbildschirm'
+  challenge: true
+- title: Wie geht es weiter?

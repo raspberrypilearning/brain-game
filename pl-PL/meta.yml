@@ -7,19 +7,21 @@ description: Dowiedz się jak utworzyć quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
-  - title: Wprowadzenie
-  - title: Utwórz pytania
-  - title: Dodaj licznik czasu
-  - title: 'Wyzwanie: dodaj wynik i reakcje'
-    challenge: true
-  - title: Wielokrotne gry
-  - title: 'Wyzwanie: utwórz ekran startowy'
-    challenge: true
-  - title: Dodaj grafikę
-  - title: 'Wyzwanie: dźwięk i muzyka'
-    challenge: true
-  - title: 'Wyzwanie: wyścig do 10 punktów'
-    challenge: true
-  - title: 'Wyzwanie: ekran instrukcji'
-    challenge: true
-  - title: Co dalej?
+- title: Wprowadzenie
+  completion: engaged
+- title: Utwórz pytania
+- title: Dodaj licznik czasu
+- title: 'Wyzwanie: dodaj wynik i reakcje'
+  challenge: true
+- title: Wielokrotne gry
+- title: 'Wyzwanie: utwórz ekran startowy'
+  challenge: true
+  completion: internal
+- title: Dodaj grafikę
+- title: 'Wyzwanie: dźwięk i muzyka'
+  challenge: true
+- title: 'Wyzwanie: wyścig do 10 punktów'
+  challenge: true
+- title: 'Wyzwanie: ekran instrukcji'
+  challenge: true
+- title: Co dalej?

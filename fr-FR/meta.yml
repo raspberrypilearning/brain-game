@@ -7,19 +7,21 @@ description: Apprends à créer un quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
-  - title: Introduction
-  - title: Création des questions
-  - title: Ajouter un minuteur
-  - title: 'Défi: ajouter un score et des réactions'
-    challenge: true
-  - title: Jeux multiples
-  - title: 'Défi: créer un écran de démarrage'
-    challenge: true
-  - title: Ajouter des graphiques
-  - title: 'Défi: son et musique'
-    challenge: true
-  - title: 'Défi: course à 10 points'
-    challenge: true
-  - title: 'Défi: écran d''instruction'
-    challenge: true
-  - title: Et ensuite?
+- title: Introduction
+  completion: engaged
+- title: Création des questions
+- title: Ajouter un minuteur
+- title: 'Défi: ajouter un score et des réactions'
+  challenge: true
+- title: Jeux multiples
+- title: 'Défi: créer un écran de démarrage'
+  challenge: true
+  completion: internal
+- title: Ajouter des graphiques
+- title: 'Défi: son et musique'
+  challenge: true
+- title: 'Défi: course à 10 points'
+  challenge: true
+- title: 'Défi: écran d''instruction'
+  challenge: true
+- title: Et ensuite?
