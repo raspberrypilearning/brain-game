@@ -14,14 +14,15 @@ technologies: scratch
 site_areas: codeclub, scratch
 steps:
 - title: परिचय
+  completion: engaged
 - title: प्रश्न बनाना
 - title: 'चुनौती: पोशाक बदलना'
 - title: 'चुनौती: स्कोर जोड़ना'
 - title: मल्टीप्ल गेम्ज़
 - title: 'चुनौती: प्रारंभ स्क्रीन'
+  completion: internal
 - title: ग्राफिक्स जोड़ना
 - title: 'चुनौती: सुधरा हुआ एनिमेशन'
 - title: 'चुनौती: ध्वनि और संगीत'
 - title: 'चुनौती: 10 अंकों की दौड़'
 - title: 'चुनौती: निर्देश स्क्रीन'
-

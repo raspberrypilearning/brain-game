@@ -7,19 +7,21 @@ description: Impara a creare un quiz
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
-  - title: Introduzione
-  - title: Creare domande
-  - title: Aggiungere un timer
-  - title: 'Sfida: aggiungi punteggio e reazioni'
-    challenge: true
-  - title: Giochi multipli
-  - title: 'Sfida: crea una schermata iniziale'
-    challenge: true
-  - title: Aggiungi grafica
-  - title: 'Sfida: suono e musica'
-    challenge: true
-  - title: 'Sfida: guadagna 10 punti'
-    challenge: true
-  - title: 'Sfida: schermata di istruzioni'
-    challenge: true
-  - title: E poi?
+- title: Introduzione
+  completion: engaged
+- title: Creare domande
+- title: Aggiungere un timer
+- title: 'Sfida: aggiungi punteggio e reazioni'
+  challenge: true
+- title: Giochi multipli
+- title: 'Sfida: crea una schermata iniziale'
+  challenge: true
+  completion: internal
+- title: Aggiungi grafica
+- title: 'Sfida: suono e musica'
+  challenge: true
+- title: 'Sfida: guadagna 10 punti'
+  challenge: true
+- title: 'Sfida: schermata di istruzioni'
+  challenge: true
+- title: E poi?

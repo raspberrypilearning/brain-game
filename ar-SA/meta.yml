@@ -7,19 +7,21 @@ description: تعلم كيف تُنشئ اختبارًا قصيرًا
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
-  - title: المقدمة
-  - title: إنشاء الأسئلة
-  - title: إضافة مؤقت
-  - title: 'التحدي: إضافة سجل نقاط وردود فعل'
-    challenge: true
-  - title: ألعاب متعددة
-  - title: 'التحدي: إنشاء شاشة البداية'
-    challenge: true
-  - title: إضافة رسومات
-  - title: 'التحدي: الصوت والموسيقى'
-    challenge: true
-  - title: 'التحدي: سباق حتى 10 نقاط'
-    challenge: true
-  - title: 'التحدي: شاشة التعليمات'
-    challenge: true
-  - title: ما هي الخطوة التالية؟
+- title: المقدمة
+  completion: engaged
+- title: إنشاء الأسئلة
+- title: إضافة مؤقت
+- title: 'التحدي: إضافة سجل نقاط وردود فعل'
+  challenge: true
+- title: ألعاب متعددة
+- title: 'التحدي: إنشاء شاشة البداية'
+  challenge: true
+  completion: internal
+- title: إضافة رسومات
+- title: 'التحدي: الصوت والموسيقى'
+  challenge: true
+- title: 'التحدي: سباق حتى 10 نقاط'
+  challenge: true
+- title: 'التحدي: شاشة التعليمات'
+  challenge: true
+- title: ما هي الخطوة التالية؟

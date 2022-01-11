@@ -7,19 +7,21 @@ description: Aprende a criar um teste
 version: 4.0.2
 last_tested: 2018-10-03
 steps:
-  - title: Introdução
-  - title: Criar perguntas
-  - title: Adicionar um temporizador
-  - title: 'Desafio: adicionar uma pontuação e reações'
-    challenge: true
-  - title: Múltiplas jogadas
-  - title: 'Desafio: criar um tela inicial'
-    challenge: true
-  - title: Adicionar gráficos
-  - title: 'Desafio: som e música'
-    challenge: true
-  - title: 'Desafio: corrida até 10 pontos'
-    challenge: true
-  - title: 'Desafio: ecrã de instruções'
-    challenge: true
-  - title: O que se segue?
+- title: Introdução
+  completion: engaged
+- title: Criar perguntas
+- title: Adicionar um temporizador
+- title: 'Desafio: adicionar uma pontuação e reações'
+  challenge: true
+- title: Múltiplas jogadas
+- title: 'Desafio: criar um tela inicial'
+  challenge: true
+  completion: internal
+- title: Adicionar gráficos
+- title: 'Desafio: som e música'
+  challenge: true
+- title: 'Desafio: corrida até 10 pontos'
+  challenge: true
+- title: 'Desafio: ecrã de instruções'
+  challenge: true
+- title: O que se segue?
