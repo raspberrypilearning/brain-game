@@ -6,11 +6,11 @@ Beginnen wir damit, zufällige Fragen zu erstellen, auf die der Spieler antworte
 
 Erstelle ein neues Scratch-Projekt.
 
-**Online:** öffne ein neues Online Scratch Projekt über [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**Online:** öffne ein neues Online Scratch Projekt über [rpf.io/scratch-new](https//rpf.io/scratch-new){:target="_blank"}.
 
 **Offline:** Öffne ein neues Projekt im Scratch Offline Editor.
 
-Wenn du den Scratch Offline Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Wenn du den Scratch Offline Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](https//rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
