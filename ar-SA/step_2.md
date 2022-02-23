@@ -6,11 +6,11 @@
 
 افتح مشروع سكراتش (Scratch) جديدًا وفارغًا.
 
-**اتصال بالانترنيت:** افتح مشروع سكراتش Scratch جديد عبر الانترنيت من [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**اتصال بالانترنيت:** افتح مشروع سكراتش Scratch جديد عبر الانترنيت من [rpf.io/scratch-new](https//rpf.io/scratch-new){:target="_blank"}.
 
 **من دون اتصال انترنيت:** افتح مشروع سكراتش Scratch جديد عبر محرر Scratch الموجود على جهازك دون اتصال بالانترنيت.
 
-اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](https//rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 

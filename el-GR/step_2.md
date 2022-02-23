@@ -6,11 +6,11 @@
 
 Δημιούργησε ένα νέο έργο Scratch.
 
-**Online:** άνοιξε ένα νέο έργο Scratch στη διεύθυνση [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**Online:** άνοιξε ένα νέο έργο Scratch στη διεύθυνση [rpf.io/scratch-new](https//rpf.io/scratch-new){:target="_blank"}.
 
 **Offline:** άνοιξε ένα νέο έργο στον επεξεργαστή εκτός σύνδεσης.
 
-Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](https//rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 

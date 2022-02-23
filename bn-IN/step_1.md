@@ -48,7 +48,7 @@ title: আপনার যা প্রয়োজন হবে
 
 ### Software
 
-+ Scratch 3 (হয় [online](http://rpf.io/scratchon){:target="_blank"} নয়তো [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (হয় [online](https//rpf.io/scratchon){:target="_blank"} নয়তো [offline](https//rpf.io/scratchoff){:target="_blank"})
 
 --- /collapse ---
 
@@ -63,6 +63,6 @@ title: শিক্ষাবিদদের জন্য অতিরিক্�
 
 --- /no-print ---
 
-আপনি সমাপ্ত প্রকল্প গুলি [completed project here](http://rpf.io/p/bn-IN/brain-game-get){:target="_blank"} এখানে পেতে পারেন.
+আপনি সমাপ্ত প্রকল্প গুলি [completed project here](https//rpf.io/p/bn-IN/brain-game-get){:target="_blank"} এখানে পেতে পারেন.
 
 --- /collapse ---

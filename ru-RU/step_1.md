@@ -48,7 +48,7 @@ title: Что тебе понадобится
 
 ### Программное обеспечение
 
-+ Scratch 3 ([онлайн](http://rpf.io/scratchon){:target="_blank"} или [автономный (offline)](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([онлайн](https//rpf.io/scratchon){:target="_blank"} или [автономный (offline)](https//rpf.io/scratchoff){:target="_blank"})
 
 --- /collapse ---
 
@@ -63,6 +63,6 @@ title: Дополнительные заметки для педагогов
 
 --- /no-print ---
 
-Здесь вы можете найти [завершённый проект](http://rpf.io/p/ru-RU/brain-game-get){:target="_blank"}.
+Здесь вы можете найти [завершённый проект](https//rpf.io/p/ru-RU/brain-game-get){:target="_blank"}.
 
 --- /collapse ---

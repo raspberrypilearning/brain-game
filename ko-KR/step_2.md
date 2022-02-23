@@ -6,11 +6,11 @@
 
 새로운 스크래치 프로젝트를 엽니다.
 
-**온라인:** [rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}에서 새로운 온라인 스크래치 프로젝트 열기
+**온라인:** [rpf.io/scratch-new](https//rpf.io/scratch-new){:target="_blank"}에서 새로운 온라인 스크래치 프로젝트 열기
 
 **오프라인:** 오프라인 편집기에서 새 프로젝트를 엽니다.
 
-스크래치 오프라인 편집기를 다운로드하여 설치해야 하는 경우 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}에서 찾을 수 있습니다.
+스크래치 오프라인 편집기를 다운로드하여 설치해야 하는 경우 [rpf.io/scratchoff](https//rpf.io/scratchoff){:target="_blank"}에서 찾을 수 있습니다.
 
 --- /task ---
 
