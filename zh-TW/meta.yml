@@ -8,16 +8,18 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
 - title: 介紹
-  completion: engaged
 - title: 建立隨機問題
 - title: 加入計時器
+  completion:
+  - engaged
 - title: 挑戰：加入得分和反應
   challenge: true
 - title: 重複遊玩
 - title: 挑戰：設計初始畫面
   challenge: true
-  completion: internal
 - title: 添加圖像效果
+  completion:
+  - internal
 - title: 挑戰：音效和音樂
   challenge: true
 - title: 挑戰：看誰最快到 10 分

@@ -18,14 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Izrada pitanja
 - title: 'Izazov: Promjena kostima'
+  completion:
+  - engaged
 - title: 'Izazov: Dodavanje bodova'
 - title: Više igara
 - title: 'Izazov: Početni ekran'
-  completion: internal
 - title: Dodavanje grafika
+  completion:
+  - internal
 - title: 'Izazov: Poboljšana animacija'
 - title: 'Izazov: Zvuk i muzika'
 - title: 'Izazov: Trka do 10 bodova'

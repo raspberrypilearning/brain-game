@@ -8,16 +8,18 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
 - title: परिचय
-  completion: engaged
 - title: प्रश्न तयार करा
 - title: टायमर जोडा
+  completion:
+  - engaged
 - title: 'आव्हान: स्कोअर आणि प्रतिक्रिया जोडा'
   challenge: true
 - title: अनेक खेळ
 - title: 'आव्हान: एक प्रारंभ स्क्रीन तयार करा'
   challenge: true
-  completion: internal
 - title: ग्राफिक्स जोडा
+  completion:
+  - internal
 - title: 'आव्हान: आवाज आणि संगीत'
   challenge: true
 - title: 'आव्हान: 10 गुणांची शर्यत'
