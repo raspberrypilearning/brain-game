@@ -8,16 +8,18 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
 - title: Introdução
-  completion: engaged
 - title: Criar perguntas
 - title: Adicionar um temporizador
+  completion:
+  - engaged
 - title: 'Desafio: adicionar uma pontuação e reações'
   challenge: true
 - title: Múltiplas jogadas
 - title: 'Desafio: criar um tela inicial'
   challenge: true
-  completion: internal
 - title: Adicionar gráficos
+  completion:
+  - internal
 - title: 'Desafio: som e música'
   challenge: true
 - title: 'Desafio: corrida até 10 pontos'

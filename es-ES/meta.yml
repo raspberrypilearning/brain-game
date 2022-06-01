@@ -8,16 +8,18 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
 - title: Introducción
-  completion: engaged
 - title: Crear preguntas
 - title: Añadir un cronómetro
+  completion:
+  - engaged
 - title: 'Desafío: Añadir una puntuación y reacciones'
   challenge: true
 - title: Varias partidas
 - title: 'Desafío: Crear una pantalla de inicio'
   challenge: true
-  completion: internal
 - title: Añadir gráficos
+  completion:
+  - internal
 - title: 'Desafío: Sonido y música'
   challenge: true
 - title: 'Desafío: Carrera hasta 10 puntos'

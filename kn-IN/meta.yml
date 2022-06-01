@@ -8,16 +8,18 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
 - title: ಪರಿಚಯ
-  completion: engaged
 - title: ಪ್ರಶ್ನೆಗಳನ್ನು ರಚಿಸಿ
 - title: ಟೈಮರ್ ಸೇರಿಸಿ
+  completion:
+  - engaged
 - title: 'ಸವಾಲು: ಸ್ಕೋರ್ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಸೇರಿಸಿ'
   challenge: true
 - title: ಬಹು ಆಟಗಳು
 - title: 'ಸವಾಲು: ಪ್ರಾರಂಭ ಪರದೆಯನ್ನು ರಚಿಸಿ'
   challenge: true
-  completion: internal
 - title: ಗ್ರಾಫಿಕ್ಸ್ ಸೇರಿಸಿ
+  completion:
+  - internal
 - title: 'ಸವಾಲು: ಧ್ವನಿ ಮತ್ತು ಸಂಗೀತ'
   challenge: true
 - title: 'ಸವಾಲು: 10 ಅಂಕಗಳಿಗೆ ಓಟ'

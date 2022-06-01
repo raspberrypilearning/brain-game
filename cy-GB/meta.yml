@@ -8,16 +8,18 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Cyflwyniad
-  completion: engaged
 - title: Creu cwestiynau
 - title: Ychwanegu Amserydd
+  completion:
+  - engaged
 - title: 'Her: Ychwanegu sgôr ac ymatebion'
   challenge: true
 - title: Gemau lluosog
 - title: 'Her: creu sgrin gychwynnol'
   challenge: true
-  completion: internal
 - title: Ychwanegu graffeg
+  completion:
+  - internal
 - title: 'Her: ychwanegu sain a cherddoriaeth'
   challenge: true
 - title: 'Her: ras i 10 pwynt'

@@ -8,16 +8,18 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Vragen maken
 - title: Een tijdklok toevoegen
+  completion:
+  - engaged
 - title: 'Uitdaging: een score toevoegen'
   challenge: true
 - title: Meerdere spellen
 - title: 'Uitdaging: startscherm'
   challenge: true
-  completion: internal
 - title: Afbeeldingen toevoegen
+  completion:
+  - internal
 - title: 'Uitdaging: geluid en muziek'
   challenge: true
 - title: 'Uitdaging: race naar 10 punten'

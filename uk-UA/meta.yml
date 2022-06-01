@@ -18,14 +18,16 @@ version: 3
 last_tested: 2017-01-01
 steps:
 - title: Вступ
-  completion: engaged
 - title: Створення запитань
 - title: 'Завдання: Зміна образів'
+  completion:
+  - engaged
 - title: 'Завдання: Створення рахунку'
 - title: Багаторазові ігри
 - title: 'Завдання: Початковий екран'
-  completion: internal
 - title: Додавання графічних ефектів
+  completion:
+  - internal
 - title: 'Завдання: Удосконалення анімації'
 - title: 'Завдання: Звук і музика'
 - title: 'Завдання: Забіг на 10 балів'

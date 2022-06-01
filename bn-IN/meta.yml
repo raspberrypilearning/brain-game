@@ -8,16 +8,18 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
 - title: ভূমিকা
-  completion: engaged
 - title: প্রশ্ন তৈরি করুন
 - title: একটি টাইমার যোগ করুন
+  completion:
+  - engaged
 - title: 'Challenge: একটি স্কোর এবং প্রতিক্রিয়া যুক্ত করুন'
   challenge: true
 - title: একাধিক গেম
 - title: 'Challenge: একটি স্টার্ট স্ক্রিন তৈরি করুন'
   challenge: true
-  completion: internal
 - title: গ্রাফিক্স যুক্ত করুন
+  completion:
+  - internal
 - title: 'Challenge: শব্দ এবং সঙ্গীত'
   challenge: true
 - title: 'Challenge: 10 পয়েন্ট রেস'

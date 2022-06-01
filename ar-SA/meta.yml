@@ -8,16 +8,18 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
 - title: المقدمة
-  completion: engaged
 - title: إنشاء الأسئلة
 - title: إضافة مؤقت
+  completion:
+  - engaged
 - title: 'التحدي: إضافة سجل نقاط وردود فعل'
   challenge: true
 - title: ألعاب متعددة
 - title: 'التحدي: إنشاء شاشة البداية'
   challenge: true
-  completion: internal
 - title: إضافة رسومات
+  completion:
+  - internal
 - title: 'التحدي: الصوت والموسيقى'
   challenge: true
 - title: 'التحدي: سباق حتى 10 نقاط'

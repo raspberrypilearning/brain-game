@@ -8,16 +8,18 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
 - title: 소개
-  completion: engaged
 - title: 질문 만들기
 - title: 타이머 추가
+  completion:
+  - engaged
 - title: '과제: 점수와 반응 추가'
   challenge: true
 - title: 여러가지 게임
 - title: '과제: 시작 화면 만들기'
   challenge: true
-  completion: internal
 - title: 그래픽 추가하기
+  completion:
+  - internal
 - title: '과제: 소리와 음악'
   challenge: true
 - title: '과제: 10 점까지 경주'

@@ -8,16 +8,18 @@ version: 4.0.2
 last_tested: 2018-10-03
 steps:
 - title: Introduction
-  completion: engaged
 - title: Création des questions
 - title: Ajouter un minuteur
+  completion:
+  - engaged
 - title: 'Défi: ajouter un score et des réactions'
   challenge: true
 - title: Jeux multiples
 - title: 'Défi: créer un écran de démarrage'
   challenge: true
-  completion: internal
 - title: Ajouter des graphiques
+  completion:
+  - internal
 - title: 'Défi: son et musique'
   challenge: true
 - title: 'Défi: course à 10 points'
