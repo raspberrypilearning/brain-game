@@ -1,20 +1,20 @@
-## Add graphics
+## ग्राफिक्स जोडें
 
-At the moment, the character sprite just says `yes! :)` or `no :(` to the player's answers. Add some graphics to let the player know whether their answer is correct or incorrect.
+फिलहाल, स्प्राइट खिलाड़ी के जवाब देने पर बस `yes! :)` या `no :(` कहता है। खिलाड़ी को यह बताने के लिए, कि उनका उत्तर सही या गलत है, कुछ ग्राफिक्स जोड़ें।
 
 \--- task \---
 
-Create a new sprite called 'Result', and give it a 'tick/check' and a 'cross' costume.
+'Result' नामक एक नया स्प्राइट बनाएँ, और इसे 'tick/check' और 'cross' पोशाक दें।
 
-![Sprite with tick and cross costumes](images/brain-result.png)
+![स्प्राइट tick और cross पोशाक के साथ](images/brain-result.png)
 
 \--- /task \---
 
 \--- task \---
 
-Change your character sprite's code so that, instead of saying something to the player, it `broadcasts`{:class="block3events"} the messages 'correct' or 'wrong'.
+अपना स्प्राइट कोड बदलें ताकि खिलाड़ी को कुछ कहने के बजाय, यह 'correct' या 'wrong' संदेशों को `broadcasts`{:class="block3events"}।
 
-![Character sprite](images/giga-sprite.png)
+![पात्र स्प्राइट](images/giga-sprite.png)
 
 ```blocks3
 if <(answer) = ((number 1)*(number 2))> then
@@ -31,9 +31,9 @@ end
 
 \--- task \---
 
-Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cross' costume. Add the following code to the 'Result' sprite:
+अब आप इन संदेशों का उपयोग करके 'tick' या 'cross' पोशाक `show`{:class="block3looks"}। निम्नलिखित कोड को 'Result' स्प्राइट में जोड़ें:
 
-![Result sprite](images/result-sprite.png)
+![परिणाम स्प्राइट](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -56,31 +56,31 @@ Now you can use these messages to `show`{:class="block3looks"} the 'tick' or 'cr
 
 \--- task \---
 
-Test your game again. You should see the tick whenever you answer a question correctly, and the cross whenever you answer incorrectly!
+फिर से अपने खेल का परीक्षण करें। जब भी आप किसी प्रश्न का सही उत्तर देते हैं तो आपको टिक, और जब भी आप गलत उत्तर देते हैं तो क्रॉस दिखाई देना चाहिए!
 
-![Tick for correct, cross for wrong answer](images/brain-test-answer.png)
-
-\--- /task \---
-
-Can you see that the code for `when I receive correct`{:class="block3events"} and `when I receive wrong`{:class="block3events"} is nearly identical?
-
-So you can change your code more easily, you are going to create a custom block.
-
-\--- task \---
-
-Select the 'Result' sprite. Then click on `My Blocks`{:class="block3myblocks"}, and then on **Make a Block**. Create a new block and call it `animate`{:class="block3myblocks"}.
-
-![Result sprite](images/result-sprite.png)
-
-![Create a block called animate](images/brain-animate-function.png)
+![सही के लिए टिक, गलत उत्तर के लिए क्रॉस](images/brain-test-answer.png)
 
 \--- /task \---
 
+क्या आप देख सकते हैं कि `when I receive correct`{:class="block3events"} और `when I receive wrong`{:class="block3events"} का कोड लगभग एक जैसा ही है?
+
+इसलिए आप एक कस्टम ब्लॉक बनाने जा रहे हैं ताकि आप अपना कोड अधिक आसानी से बदल सकेंगे।
+
 \--- task \---
 
-Move the code to `show`{:class="block3looks"} and `hide`{:class="block3looks"} the 'Result' sprite into the `animate`{:class="block3myblocks"} block:
+'Result' स्प्राइट को चुने। फिर `My blocks`{:class="block3myblocks"} पर क्लिक करें, और फिर **Make a block** पर। एक नया ब्लॉक बनाएं और इसका नाम `animate` {:class="block3myblocks"} रखें।
 
-![Result sprite](images/result-sprite.png)
+![परिणाम स्प्राइट](images/result-sprite.png)
+
+![एक एनिमेट नामक ब्लाक बनाएँ](images/brain-animate-function.png)
+
+\--- /task \---
+
+\--- task \---
+
+'Result' स्प्राइट को `show`{:class="block3looks"} और `hide`{:class="block3looks"} वाला कोड को `animate`{:class="block3looks"} वाले ब्लाक में ले जाएं:
+
+![परिणाम स्प्राइट](images/result-sprite.png)
 
 ```blocks3
 define animate
@@ -93,11 +93,11 @@ hide
 
 \--- task \---
 
-Make sure you have removed the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks below **both** of the `switch costume`{:class="block3looks"} blocks.
+निश्चित करें कि आपने **both** `switch costume`{:class="block3looks"} वाले ब्लॉक्स के नीचे से `show`{:class="block3looks"} और `hide`{:class="block3looks"} वाले ब्लॉक्स हटा दियें हैं:
 
-Then add the `animate`{:class="block3myblocks"} block below both of the `switch costume`{:class="block3looks"} blocks. Your code should now look like this:
+फिर दोनों `switch costume`{:class="block3looks"} ब्लॉक्स के नीचे `animate`{:class="block3myblocks"} ब्लाक जोड़ें। आपका कोड अब इस तरह दिखना चाहिए:
 
-![Result sprite](images/result-sprite.png)
+![परिणाम स्प्राइट](images/result-sprite.png)
 
 ```blocks3
     when I receive [correct v]
@@ -111,19 +111,19 @@ Then add the `animate`{:class="block3myblocks"} block below both of the `switch 
 
 \--- /task \---
 
-Because of the custom `animate`{:class="block3myblocks"} block, you now only need to make one change to your code if you want to show the 'Result' sprite's costumes a longer or shorter time.
+कस्टम `animate`{:class="block3myblocks"} ब्लॉक की वजह से, अब आपको सिर्फ एक चीज़ बदलना है अगर आप 'Result' स्प्राइट की पोषक को थोड़ा समय ज़्यादा या काम दिखाना चाहते है।
 
 \--- task \---
 
-Change your code so that the 'tick' or 'cross' costumes display for 2 seconds.
+अपना कोड बदलें ताकि 'tick' या 'cross' पोशाक 2 सेकंड के लिए प्रदर्शित हो।
 
 \--- /task \---
 
 \--- task \---
 
-Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} the 'tick' or 'cross' costumes, you could change your `animate`{:class="block3myblocks"} block so that the costumes fade in.
+'Tick' और 'cross' पोशाक `showing`{:class="block3looks"} और `hiding`{:class="block3looks"} की बजाए आप अपने `animate`{:class="block3myblocks"} ब्लाक को बदल सकते हैं ताकि पोशाक फीकी पड़ते हुए विलुप्त हो जाए।
 
-![Result sprite](images/result-sprite.png)
+![परिणाम स्प्राइट](images/result-sprite.png)
 
 ```blocks3
     define animate
@@ -137,6 +137,6 @@ Instead of `showing`{:class="block3looks"} and `hiding`{:class="block3looks"} th
 
 \--- /task \---
 
-Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
+क्या आप 'tick' या 'cross' ग्राफिक्स का एनीमेशन सुधर सकते हैं? आप पोशाक को फीका पड़ते हुए छिपने का कोड भी जोड़ सकते हैं, या आप अन्य आकर्षिक प्रभावों का उपयोग कर सकते हैं:
 
-![screenshot](images/brain-effects.png)
+![स्क्रीनशॉट](images/brain-effects.png)
