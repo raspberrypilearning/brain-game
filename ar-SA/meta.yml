@@ -13,6 +13,8 @@ steps:
     title: إنشاء الأسئلة
   - 
     title: إضافة مؤقت
+    completion:
+      - engaged
   - 
     title: 'التحدي: إضافة سجل نقاط وردود فعل'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: إضافة رسومات
+    completion:
+      - internal
   - 
     title: 'التحدي: الصوت والموسيقى'
     challenge: true
