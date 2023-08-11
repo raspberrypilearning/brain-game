@@ -13,6 +13,8 @@ steps:
     title: Creu cwestiynau
   - 
     title: Ychwanegu Amserydd
+    completion:
+      - engaged
   - 
     title: 'Her: Ychwanegu sgôr ac ymatebion'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: Ychwanegu graffeg
+    completion:
+      - internal
   - 
     title: 'Her: ychwanegu sain a cherddoriaeth'
     challenge: true
