@@ -13,6 +13,8 @@ steps:
     title: Vragen maken
   - 
     title: Een tijdklok toevoegen
+    completion:
+      - engaged
   - 
     title: 'Uitdaging: voeg een score en reacties toe'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: Afbeeldingen toevoegen
+    completion:
+      - internal
   - 
     title: 'Uitdaging: geluid en muziek'
     challenge: true
