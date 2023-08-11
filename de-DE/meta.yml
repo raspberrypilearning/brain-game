@@ -13,6 +13,8 @@ steps:
     title: Fragen erstellen
   - 
     title: Einen Countdown hinzufügen
+    completion:
+      - engaged
   - 
     title: 'Herausforderung: Füge eine Punktzahl und Reaktionen hinzu'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: Grafiken hinzufügen
+    completion:
+      - internal
   - 
     title: 'Herausforderung: Klänge und Musik'
     challenge: true
