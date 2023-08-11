@@ -13,6 +13,8 @@ steps:
     title: Δημιουργία ερωτήσεων
   - 
     title: Πρόσθεσε ένα χρονόμετρο
+    completion:
+      - engaged
   - 
     title: 'Πρόκληση: πρόσθεσε σκορ και αντιδράσεις'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: Πρόσθεσε γραφικά
+    completion:
+      - internal
   - 
     title: 'Πρόκληση: Ήχος και μουσική'
     challenge: true
