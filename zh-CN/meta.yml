@@ -13,6 +13,8 @@ steps:
     title: 创建问题
   - 
     title: 添加计时器
+    completion:
+      - engaged
   - 
     title: '挑战：添加分数和反馈'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: 添加图形
+    completion:
+      - internal
   - 
     title: '挑战：声音和音乐'
     challenge: true
