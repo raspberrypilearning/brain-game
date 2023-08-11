@@ -22,4 +22,4 @@ cross
 
 animate
 
-प्रारंभ स्क्रीन
+start screen
