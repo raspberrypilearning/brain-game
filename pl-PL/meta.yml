@@ -13,6 +13,8 @@ steps:
     title: Utwórz pytania
   - 
     title: Dodaj licznik czasu
+    completion:
+      - engaged
   - 
     title: 'Wyzwanie: dodaj wynik i reakcje'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: Dodaj grafikę
+    completion:
+      - internal
   - 
     title: 'Wyzwanie: dźwięk i muzyka'
     challenge: true
