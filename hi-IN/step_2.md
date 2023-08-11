@@ -1,16 +1,16 @@
 ## प्रश्न बनाना
 
-आइए हम खिलाड़ी द्वारा उत्तर देने के लिए यादृच्छिक प्रश्न बनाने से शुरू करते हैं।
+आइए हम खिलाड़ी द्वारा उत्तर देने के लिए अनियमित प्रश्न बनाने से शुरू करते हैं।
 
 \--- task \---
 
 एक नया Scratch प्रोजेक्ट खोलें।
 
-** ऑनलाइन: ** [ rpf.io/scratch-new ](http://rpf.io/scratch-new) पर एक नया ऑनलाइन Scratch प्रोजेक्ट खोलें {: लक्ष्य = "_ blank"}।
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"}.
 
-** ऑफ़लाइन: ** ऑफ़लाइन एडिटर में एक नया प्रोजेक्ट खोलें।
+**ऑफ़लाइन:** ऑफ़लाइन एडिटर में एक नया प्रोजेक्ट खोलें।
 
-यदि आपको स्क्रैच ऑफ़लाइन संपादक को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff) {:target="_blank"} पर पा सकते हैं।
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -18,17 +18,17 @@
 
 अपने खेल के लिए पात्र स्प्राइट और एक पृष्ठभूमि जोड़ें। आप अपनी पसंद का कोई भी चुन सकते हैं! यहाँ एक उदाहरण है:
 
-![screenshot](images/brain-setting.png)
+![स्क्रीनशॉट](images/brain-setting.png)
 
 \--- /task \---
 
 \--- task \---
 
-सुनिश्चित करें कि आपका पात्र स्प्राइट चयनित है। Create two new variables, called `number 1`{:class="block3variables"} and `number 2`{:class="block3variables"}, to store the numbers for the quiz questions.
+सुनिश्चित करें कि आपका पात्र स्प्राइट चुना हुआ है। प्रश्नोत्तरी (क्विज़) के सवालों के लिए संख्याओं को संग्रहीत करने के लिए, दो नए चर (variables/वेरिएबल्स), ` number 1` {:class="block3variables"} और `number 2`{:class="block3variables"} बनाएं।
 
-![screenshot](images/giga-sprite.png)
+![स्क्रीनशॉट](images/giga-sprite.png)
 
-![screenshot](images/brain-variables.png)
+![स्क्रीनशॉट](images/brain-variables.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -36,9 +36,9 @@
 
 \--- task \---
 
-Add code to your character sprite to set both of the `variables`{:class="block3variables"} to a `random`{:class="block3operators"} number between 2 and 12.
+दोनों `variables`{:class="block3variables"} का मान 2 और 12 के बीच एक `random`{:class="block3operators"} संख्या निर्धारित करने के लिए कोड लिखें।
 
-![screenshot](images/giga-sprite.png)
+![स्क्रीनशॉट](images/giga-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -50,9 +50,9 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Add code to `ask`{:class="block3sensing"} the player for the answer, and then `say for 2 seconds`{:class="block3looks"} whether the answer was right or wrong:
+खिलाड़ी से उत्तर पूछने के लिए `ask`{:class="block3sensing"} और बताने के लिए कि उत्तर सही था या नही, `say for 2 seconds`{:class="block3looks"} कोड जोड़ें।
 
-![screenshot](images/giga-sprite.png)
+![स्क्रीनशॉट](images/giga-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -71,25 +71,25 @@ set [number 2 v] to (pick random (2) to (12))
 
 \--- task \---
 
-Test your project twice: answer one question correctly, and the other incorrectly.
+अपने प्रोजेक्ट का दो बार परीक्षण करें: एक बार प्रश्न का सही उत्तर दें, और दूसरी बार गलत।
 
 \--- /task \---
 
 \--- task \---
 
-Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
+इस कोड के इर्द-गिर्द `forever`{:class="block3control"} लूप जोड़ें, ताकि खेल एक शृंखला में खिलाड़ी से बहुत सारे प्रश्न पूछ सके।
 
 \--- hints \---
 
 \--- hint \---
 
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
+आपको एक `forever`{:class="block3control"} ब्लाक जोड़ना है, और `when flag is clicked`{:class="block3control"} ब्लाक को छोड़कर बाक़ी सारा कोड इसमें रखना है।
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is the block you need:
+इन ब्लॉक्स की आपको आवश्यकता होगी:
 
 ```blocks3
 forever
@@ -100,7 +100,7 @@ end
 
 \--- hint \---
 
-Here is what your code should look like:
+आपका कोड ऐसा दिखना चाहिए:
 
 ```blocks3
 when flag clicked
