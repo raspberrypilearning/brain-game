@@ -13,6 +13,8 @@ steps:
     title: 建立隨機問題
   - 
     title: 加入計時器
+    completion:
+      - engaged
   - 
     title: '挑戰：加入得分和反應'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: 添加圖像效果
+    completion:
+      - internal
   - 
     title: '挑戰：音效和音樂'
     challenge: true
