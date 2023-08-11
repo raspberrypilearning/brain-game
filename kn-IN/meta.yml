@@ -13,6 +13,8 @@ steps:
     title: ಪ್ರಶ್ನೆಗಳನ್ನು ರಚಿಸಿ
   - 
     title: ಟೈಮರ್(ಸಮಯ) ಸೇರಿಸು
+    completion:
+      - engaged
   - 
     title: 'ಸವಾಲು: ಸ್ಕೋರ್ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಸೇರಿಸಿ'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: ಗ್ರಾಫಿಕ್ಸ್ ಸೇರಿಸಿ
+    completion:
+      - internal
   - 
     title: 'ಸವಾಲು: ಧ್ವನಿ ಮತ್ತು ಸಂಗೀತ'
     challenge: true
