@@ -13,6 +13,8 @@ steps:
     title: Criar perguntas
   - 
     title: Adicionar um cronômetro
+    completion:
+      - engaged
   - 
     title: 'Desafio: adicionar uma pontuação e reações'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: Adicionar figuras
+    completion:
+      - internal
   - 
     title: 'Desafio: som e música'
     challenge: true
