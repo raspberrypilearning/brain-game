@@ -13,6 +13,8 @@ steps:
     title: Create questions
   - 
     title: Add a timer
+    completion:
+      - engaged
   - 
     title: 'Challenge: add a score and reactions'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: Add graphics
+    completion:
+      - internal
   - 
     title: 'Challenge: sound and music'
     challenge: true
