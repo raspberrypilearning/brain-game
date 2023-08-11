@@ -6,11 +6,11 @@
 
 একটি নতুন Scratch প্রকল্প খুলুন.
 
-**Online:** একটি নতুন online scratch প্রজেক্ট খুলুন[rpf.io/scratch-new](http://rpf.io/scratch-new){:target="_blank"}.
+**Online:** open a new online Scratch project at [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"}.
 
 **Offline:** offline editor এ একটি নতুন প্রজেক্ট খুলুন.
 
-আপনার যদি Scratch offline editor ডাউনলোড এবং ইনস্টল করতে হয় তবে আপনি এটি [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"} এ খুঁজে পেতে পারেন.
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
