@@ -13,6 +13,8 @@ steps:
     title: Создай вопросы
   - 
     title: Добавь таймер
+    completion:
+      - engaged
   - 
     title: 'Задача: добавь счёт и реакции'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: Добавь графику
+    completion:
+      - internal
   - 
     title: 'Задача: звук и музыка'
     challenge: true
