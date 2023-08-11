@@ -13,6 +13,8 @@ steps:
     title: Creare domande
   - 
     title: Aggiungere un timer
+    completion:
+      - engaged
   - 
     title: 'Sfida: aggiungi punteggio e reazioni'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: Aggiungi grafica
+    completion:
+      - internal
   - 
     title: 'Sfida: Suono e musica'
     challenge: true
