@@ -13,6 +13,8 @@ steps:
     title: প্রশ্ন তৈরি করুন
   - 
     title: একটি টাইমার যোগ করুন
+    completion:
+      - engaged
   - 
     title: 'Challenge: একটি স্কোর এবং প্রতিক্রিয়া যুক্ত করুন'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: গ্রাফিক্স যুক্ত করুন
+    completion:
+      - internal
   - 
     title: 'Challenge: শব্দ এবং সঙ্গীত'
     challenge: true
