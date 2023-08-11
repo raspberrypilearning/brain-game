@@ -13,6 +13,8 @@ steps:
     title: Création des questions
   - 
     title: Ajouter un minuteur
+    completion:
+      - engaged
   - 
     title: 'Défi : ajouter un score et des réactions'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: Ajouter des graphiques
+    completion:
+      - internal
   - 
     title: 'Défi : son et musique'
     challenge: true
