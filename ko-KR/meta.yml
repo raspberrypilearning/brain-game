@@ -13,6 +13,8 @@ steps:
     title: 질문 만들기
   - 
     title: 타이머 추가
+    completion:
+      - engaged
   - 
     title: '과제: 점수와 반응 추가'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: 그래픽 추가하기
+    completion:
+      - internal
   - 
     title: '과제: 소리와 음악'
     challenge: true
