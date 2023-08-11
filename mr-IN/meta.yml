@@ -13,6 +13,8 @@ steps:
     title: प्रश्न तयार करा
   - 
     title: टायमर जोडा
+    completion:
+      - engaged
   - 
     title: 'आव्हान: स्कोअर आणि प्रतिक्रिया जोडा'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: ग्राफिक्स जोडा
+    completion:
+      - internal
   - 
     title: 'आव्हान: आवाज आणि संगीत'
     challenge: true
