@@ -13,6 +13,8 @@ steps:
     title: Crear preguntas
   - 
     title: Agregar un temporizador
+    completion:
+      - engaged
   - 
     title: 'Desafío: agregar una puntuación y reacciones'
     challenge: true
@@ -23,6 +25,8 @@ steps:
     challenge: true
   - 
     title: Agregar gráficos
+    completion:
+      - internal
   - 
     title: 'Desafío: sonido y música'
     challenge: true
