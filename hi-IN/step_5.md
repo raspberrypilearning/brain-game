@@ -1,22 +1,22 @@
-## Multiple games
+## मल्टीप्ल गेम्ज़
 
-Now you're going to add a 'Play' button, so that the player can play your game lots of times.
+चलिए आपकी गेम में 'Play' बटन जोड़ें, ताकि आप कई बार खेल सकें।
 
 \--- task \---
 
-Create a new 'Play' button sprite that the player needs to click to start a new game.
+एक नया 'Play' बटन स्प्राइट बनाएं जो खिलाड़ी को नया गेम चालू करने के लिए क्लिक करना पड़ेगा।
 
-You can draw the sprite yourself, or edit a sprite from the library.
+आप या अपने आप एक स्प्राइट बना सकते है, या फिर लाइब्रेरी से एक स्प्राइट चुनके अपने हिसाब बदल सकते है।
 
-![Picture of the play button](images/brain-play.png)
+![प्ले बटन का चित्र](images/brain-play.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your button sprite:
+इस कोड को अपने स्प्राइट में जोड़ें:
 
-![Button sprite](images/button-sprite.png)
+![बटन स्प्राइट](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -29,17 +29,17 @@ Add this code to your button sprite:
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+नए कोड में एक और `broadcast`{:class="block3events"} ब्लॉक शामिल है, जो 'start' संदेश भेजता है।
 
-The new code makes the 'Play' button sprite show when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+इस कोड को जोड़ने के बाद, जब एक खिलाडी उस झंडे पर क्लिक करेगा तब एक 'Play' बटन स्प्राइट दिखाया जायेगा। जब खिलाड़ी बटन स्प्राइट पर क्लिक करता है, तो स्प्राइट छिप जाता है और फिर एक संदेश प्रसारित करता है जिस पर अन्य स्प्राइट प्रतिक्रिया कर सकते हैं।
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+अब, खिलाड़ी के झंडे पर क्लिक करते ही पात्र स्प्राइट सवाल पूछना शुरू कर देता है। अपने गेम के कोड को बदलें ताकि जब पात्र स्प्राइट को 'start' `broadcast`{:class="block3events"} प्राप्त हो तो वो सवाल पूछना शुरू करे।
 
 \--- task \---
 
-Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+अपने पात्र स्प्राइट चुने और, इसके कोड अनुभाग में, `when flag is clicked`{:class="block3events"} ब्लॉक को `when I receive start`{:class="block3events"} ब्लाक से बदल दें।
 
-![Character sprite](images/giga-sprite.png)
+![पात्र स्प्राइट](images/giga-sprite.png)
 
 ```blocks3
 <br />- when flag clicked
@@ -58,25 +58,25 @@ end
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+हरे झंडे पर क्लिक करें, और फिर यह जाँच करने के लिए कि यह काम कर रहा है, नए 'Play' बटन पर क्लिक करें । आपको यह दिखना चाहिए की आपके बटन ना दबाने तक गेम चालू नहीं होता है।
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+क्या आप देख सकते हैं कि खेल शुरू होने के बजाये, जब हरा झंडा पर क्लिक किया जाता है तब टाइमर शुरू होता है?
 
-![Timer has started](images/brain-timer-bug.png)
+![टाइमर शुरू हो गया है](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+क्या आप टाइमर के लिए कोड बदल सकते हैं ताकि खिलाड़ी के बटन पर क्लिक करने पर टाइमर शुरू हो जाए?
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your button sprite so that the button shows again at the end of each game.
+अपने बटन स्प्राइट में कोड जोड़ें ताकि प्रत्येक खेल के अंत में बटन फिर से दिखाई दे।
 
-![Button sprite](images/button-sprite.png)
+![बटन स्प्राइट](images/button-sprite.png)
 
 ```blocks3
     when I receive [end v]
@@ -87,11 +87,11 @@ Add code to your button sprite so that the button shows again at the end of each
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+कुछ गेम खेलकर 'Play' बटन का परीक्षण करें। प्रत्येक खेल के अंत में बटन दिखना चाहिए।
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+गेम को अधिक तेज़ी से जांचने के लिए, आप `time`{:class="block3variables"} का मूल्य बदल सकते हैं ताकि प्रत्येक खेल केवल कुछ सेकंड लंबा हो।
 
-![Stage](images/stage-sprite.png)
+![स्टेज](images/stage-sprite.png)
 
 ```blocks3
     set [time v] to [10]
@@ -101,9 +101,9 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- task \---
 
-You can change how the button looks when the mouse pointer hovers over it.
+आप बटन, जब उसके ऊपर माउस है, का दिखावट भी बदल सकते है।
 
-![Button](images/button-sprite.png)
+![बटन](images/button-sprite.png)
 
 ```blocks3
     when flag clicked
@@ -117,6 +117,6 @@ You can change how the button looks when the mouse pointer hovers over it.
     end
 ```
 
-![screenshot](images/brain-fisheye.png)
+![स्क्रीनशॉट](images/brain-fisheye.png)
 
 \--- /task \---
