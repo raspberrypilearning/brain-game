@@ -4,7 +4,7 @@ Przejdź do projektu pt. [Złap kropki](https://projects.raspberrypi.org/en/proj
 
 \--- no-print \---
 
-Use the arrow keys on your keyboard to rotate the controller wheel and catch the flying dots as they reach the centre. If you miss three dots, the game is over.
+Użyj klawiszy strzałek na klawiaturze, aby obrócić pokrętło kontrolera i złapać latające kropki, gdy docierają do środka. Jeśli przegapisz trzy kropki, gra się kończy.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/252923761/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,6 +15,6 @@ Use the arrow keys on your keyboard to rotate the controller wheel and catch the
 
 \--- print-only \---
 
-![Dots screenshot](images/dots-final.png)
+![Zrzut ekranu z kropkami](images/dots-final.png)
 
 \--- /print-only \---
