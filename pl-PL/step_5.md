@@ -4,19 +4,19 @@ Teraz dodasz przycisk „Graj”, aby gracz mógł grać w twoją grę wiele raz
 
 \--- task \---
 
-Create a new 'Play' button sprite that the player needs to click to start a new game.
+Utwórz nowego duszka przycisku „Graj”, którą gracz musi kliknąć, aby rozpocząć nową grę.
 
-You can draw the sprite yourself, or edit a sprite from the library.
+Możesz samemu narysować duszka lub edytować duszka z biblioteki.
 
-![Picture of the play button](images/brain-play.png)
+![Obraz przycisku odtwarzania](images/brain-play.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add this code to your button sprite:
+Dodaj ten kod do swojego duszka przycisku:
 
-![Button sprite](images/button-sprite.png)
+![Duszek przycisku](images/button-sprite.png)
 
 ```blocks3
     kiedy kliknięto zieloną flagę
@@ -29,17 +29,17 @@ kiedy ten duszek kliknięty
 
 \--- /task \---
 
-The new code includes another `broadcast`{:class="block3events"} block, which sends the message 'start'.
+Nowy kod zawiera kolejny blok `nadaj komunikat`{:class="block3events"}, który wysyła komunikat „start”.
 
-The new code makes the 'Play' button sprite show when player clicks on the flag. When the player clicks on the button sprite, the sprite hides and then broadcasts a message that other sprites can react to.
+Nowy kod sprawia, że duszek „Graj” pojawia się, gdy gracz kliknie zieloną flagę. Gdy gracz kliknie przycisk duszka, duszek ukrywa się, a następnie wysyła komunikat, na który inne duszki mogą zareagować.
 
-At the moment, the character sprite starts asking questions when the player clicks the flag. Change your game's code so that character sprite starts asking questions when it receives the 'start' `broadcast`{:class="block3events"}.
+W tej chwili duszek postaci zaczyna zadawać pytania, gdy gracz kliknie flagę. Zmień kod swojej gry, aby duszek postaci zaczynał zadawać pytania, gdy `otrzyma komunikat`{:class="block3events"} „start”.
 
 \--- task \---
 
-Select your character sprite and, in its code section, replace the `when flag clicked`{:class="block3events"} block with a `when I receive start`{:class="block3events"} block.
+Wybierz swojego duszka postaci i w sekcji jego kodu, zamień blok `kiedy kliknięto zieloną flagę`{:class="block3events"} na blok `kiedy otrzymam wiadomość`{:class="block3events"}.
 
-![Character sprite](images/giga-sprite.png)
+![Duszek postaci](images/giga-sprite.png)
 
 ```blocks3
 <br />- kiedy kliknięto zieloną flagę
@@ -58,25 +58,25 @@ koniec
 
 \--- task \---
 
-Click the green flag, and then click on the new 'Play' button to test whether it works. You should see that the game doesn't start before you click on the button.
+Kliknij zieloną flagę, a następnie kliknij nowy przycisk „Graj”, aby sprawdzić, czy działa. Zauważ, że gra nie uruchamia się przed kliknięciem przycisku.
 
 \--- /task \---
 
-Can you see that the timer starts when the green flag is clicked, instead of when the game starts?
+Czy widzisz, że licznik czasu uruchamia się po kliknięciu zielonej flagi, a nie w momencie rozpoczęcia gry?
 
-![Timer has started](images/brain-timer-bug.png)
+![Licznik czasu został uruchomiony](images/brain-timer-bug.png)
 
 \--- task \---
 
-Can you change the code for the timer so that the timer starts when the player clicks on the button?
+Czy możesz zmienić kod licznika czasu tak, aby zaczął odliczanie, gdy gracz kliknie przycisk?
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your button sprite so that the button shows again at the end of each game.
+Dodaj kod do duszka przycisku, aby przycisk pojawiał się ponownie na końcu każdej gry.
 
-![Button sprite](images/button-sprite.png)
+![Duszek przycisku](images/button-sprite.png)
 
 ```blocks3
     kiedy otrzymam [koniec v]
@@ -87,11 +87,11 @@ Add code to your button sprite so that the button shows again at the end of each
 
 \--- task \---
 
-Test the 'Play' button by playing a couple of games. The button should show at the end of each game.
+Przetestuj przycisk „Graj”, grając w kilka gier. Przycisk powinien pojawić się na końcu każdej gry.
 
-To test the game more quickly, you can change the value of `time`{:class="block3variables"} so that each game is only a few seconds long.
+Aby przyspieszyć testowanie gry, możesz zmienić wartość `czas`{:class="block3variables"} tak, aby każda gra trwała tylko kilka sekund.
 
-![Stage](images/stage-sprite.png)
+![Scena](images/stage-sprite.png)
 
 ```blocks3
     ustaw [czas v] na [10]
@@ -101,9 +101,9 @@ To test the game more quickly, you can change the value of `time`{:class="block3
 
 \--- task \---
 
-You can change how the button looks when the mouse pointer hovers over it.
+Możesz zmienić wygląd przycisku, gdy gracz najedzie na niego wskaźnikiem myszy.
 
-![Button](images/button-sprite.png)
+![Przycisk](images/button-sprite.png)
 
 ```blocks3
     kiedy kliknięto zieloną flagę
@@ -117,6 +117,6 @@ You can change how the button looks when the mouse pointer hovers over it.
 end
 ```
 
-![screenshot](images/brain-fisheye.png)
+![zrzut ekranu](images/brain-fisheye.png)
 
 \--- /task \---
