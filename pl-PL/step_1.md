@@ -12,7 +12,7 @@ W tym projekcie stworzysz quiz matematyczny, w którym gracz ma 30 sekund na udz
 
 \--- no-print \---
 
-Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
+\--- no-print \--- Kliknij przycisk, aby rozpocząć. Wpisz odpowiedź na pytanie, a następnie naciśnij klawisz <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,7 +23,7 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- print-only \---
 
-![Brain Game](images/brain-final.png)
+![Tabliczka mnożenia](images/brain-final.png)
 
 \--- /print-only \---
 
@@ -46,7 +46,7 @@ Click the button to start. Type in the answer to the question, and then press th
 
 ### Oprogramowanie
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} lub [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 \--- /collapse \---
 
@@ -56,10 +56,10 @@ Click the button to start. Type in the answer to the question, and then press th
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game/print).
+Jeśli chcesz wydrukować ten projekt, użyj [wersji gotowej do druku](https://projects.raspberrypi.org/pl-PL/projects/brain-game/print).
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/brain-game-get){:target="_blank"}.
+Tutaj znajdziesz [ukończony projekt](https://rpf.io/p/pl-PL/brain-game-get){:target="_blank"}.
 
 \--- /collapse \---
