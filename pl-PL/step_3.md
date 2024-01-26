@@ -2,23 +2,23 @@
 
 \--- task \---
 
-Create a countdown timer on the Stage with the help of a new variable called `time`{:class="block3variables"}. The timer should begin at 30 seconds and count down to 0 seconds.
+Utwórz licznik czasu na scenie za pomocą nowej zmiennej o nazwie `czas`{:class="block3variables"}. Licznik powinien rozpoczynać się na 30 sekundach i odliczać do 0 sekund.
 
-![Stage sprite](images/stage-sprite.png)
+![Duszek sceny](images/stage-sprite.png)
 
 \--- hints \---
 
 \--- hint \---
 
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
+Utwórz `zmienną`{:class="block3variables"}, nazwij ją „czas” i ustaw jej wartość na `30`.
 
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
+Następnie dodaj kod, aby odliczać `czas`{:class="block3variables"} do 0 w ciągu 30 sekund. Aby to zrobić, odejmuj `1` od zmiennej `czas`{:class="block3variables"} co `1` sekundę i powtarzaj to do chwili gdy `czas`{:class="block3variables"} jest równy `0`.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Oto bloki, których potrzebujesz:
 
 ```blocks3
 powtarzaj aż < >
@@ -42,7 +42,7 @@ ustaw [czas v] na [30]
 
 \--- hint \---
 
-Here is the what your new code should look like:
+Oto jak powinien wyglądać twój nowy kod:
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -61,9 +61,9 @@ koniec
 
 \--- task \---
 
-Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `broadcast`{:class="block3control"} is like an announcement over a loudspeaker: it can be heard by all of your sprites. Add the `broadcast`{:class="block3control"} block to the end of the timer code so that the code will send an 'end' message when the `time`{:class="block3variables"} has counted down to `0`.
+Utwórz `nadawanie komunikatu`{:class="block3control"}, które wyśle komunikat „koniec”. `Nadawanie komunikatu`{:class="block3control"} jest jak zapowiedź przez głośnik: będzie usłyszane przez wszystkie duszki. Dodaj blok `nadaj komunikat`{:class="block3control"} na końcu kodu licznika czasu, aby kod wysłał komunikat "koniec", gdy `czas`{:class="block3variables"} odliczył do `0`.
 
-![Stage sprite](images/stage-sprite.png)
+![Duszek sceny](images/stage-sprite.png)
 
 ```blocks3
     nadaj komunikat (koniec v)
@@ -73,9 +73,9 @@ Create a `broadcast`{:class="block3control"} that sends the message 'end'. A `br
 
 \--- task \---
 
-Select your character sprite and add some code so that the sprite `stops the other scripts`{:class="block3control"} when it receives the `end`{:class="block3control"} message.
+Wybierz duszek postaci i dodaj trochę kodu, aby duszek `zatrzymał inne skrypty`{:class="block3control"} po otrzymaniu wiadomości `koniec`{:class="block3control"}.
 
-![Giga sprite](images/giga-sprite.png)
+![Giga duszek](images/giga-sprite.png)
 
 ```blocks3
     kiedy otrzymam [koniec v]
@@ -86,6 +86,6 @@ zatrzymaj [inne skrypty duszka v]
 
 \--- task \---
 
-Test your game again. It should continue to ask questions until the timer has counted down to 0.
+Sprawdź swoją grę ponownie. Pytania powiiny być zadawane, aż licznik odlicza do zera.
 
 \--- /task \---
