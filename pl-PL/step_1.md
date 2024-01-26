@@ -10,7 +10,9 @@ W tym projekcie stworzysz quiz matematyczny, w którym gracz ma 30 sekund na udz
 
 ### Co będziesz robić
 
---- no-print --- Kliknij przycisk, aby rozpocząć. Wpisz odpowiedź na pytanie, a następnie naciśnij klawisz <kbd>Enter</kbd>.
+--- no-print ---
+
+Kliknij przycisk, aby rozpocząć. Wpisz odpowiedź na pytanie, a następnie naciśnij klawisz <kbd>Enter</kbd>.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/345991022/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -19,7 +21,11 @@ W tym projekcie stworzysz quiz matematyczny, w którym gracz ma 30 sekund na udz
 
 --- /no-print ---
 
---- print-only --- ![Brain Game](images/brain-final.png) --- /print-only ---
+--- print-only ---
+
+![Brain Game](images/brain-final.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
@@ -52,7 +58,9 @@ title: Dodatkowe informacje dla nauczycieli
 ---
 
 --- no-print --- 
-Jeśli chcesz wydrukować ten projekt, użyj [wersji gotowej do druku](https://projects.raspberrypi.org/pl-PL/projects/brain-game/print) --- /no-print ---
+Jeśli chcesz wydrukować ten projekt, użyj [wersji gotowej do druku](https://projects.raspberrypi.org/pl-PL/projects/brain-game/print)
+
+--- /no-print ---
 
 Tutaj znajdziesz [ukończony projekt](https://rpf.io/p/pl-PL/brain-game-get){:target="_blank"}.
 
