@@ -4,9 +4,9 @@ W tej chwili duszek postaci po prostu mówi `tak! :)` lub `nie :(` na odpowiedzi
 
 \--- task \---
 
-Utwórz nowy duszek o nazwie „Wynik” i nadaj mu kostium „zaznaczony/sprawdzony” oraz „krzyżyk”.
+Utwórz nowy duszek o nazwie „Wynik” i nadaj mu kostium „haczyk” oraz „krzyżyk”.
 
-![Duszek z kostiumami „zaznaczony” i „krzyżyk”](images/brain-result.png)
+![Duszek z kostiumami „haczyk” i „krzyżyk”](images/brain-result.png)
 
 \--- /task \---
 
@@ -30,7 +30,7 @@ koniec
 
 \--- task \---
 
-Teraz możesz użyć tych komunikatów do `pokazania`{:class="block3looks"} kostiumu „zaznaczony” lub „krzyżyk”. Dodaj następujący kod do duszka „Wynik”:
+Teraz możesz użyć tych komunikatów do `pokazania`{:class="block3looks"} kostiumu „haczyk” lub „krzyżyk”. Dodaj następujący kod do duszka „Wynik”:
 
 ![Duszek wyniku](images/result-sprite.png)
 
@@ -55,9 +55,9 @@ Teraz możesz użyć tych komunikatów do `pokazania`{:class="block3looks"} kost
 
 \--- task \---
 
-Ponownie przetestuj grę. Gdy odpowiesz poprawnie na pytanie, powinien się pokazaż „ptaszek” i „krzyżyk”, gdy odpowiesz źle!
+Ponownie przetestuj grę. Gdy odpowiesz poprawnie na pytanie, powinien się pokazaż „haczyk” i „krzyżyk”, gdy odpowiesz źle!
 
-![Zaznaczony dla poprawnej, krzyżyk dla złej odpowiedzi](images/brain-test-answer.png)
+![Haczyk dla poprawnej, krzyżyk dla niepoprawnej odpowiedzi](images/brain-test-answer.png)
 
 \--- /task \---
 
@@ -115,13 +115,13 @@ Dzięki niestandardowemu blokowi `animacja`{:class="block3myblocks} do zmiany cz
 
 \--- task \---
 
-Zmień swój kod, tak aby wyświetlał kostiumy „zaznaczony” lub „krzyżyk” przez 2 sekundy.
+Zmień swój kod, tak aby wyświetlał kostiumy „haczyk” lub „krzyżyk” przez 2 sekundy.
 
 \--- /task \---
 
 \--- task \---
 
-Zamiast `pokazywania`{:class="block3looks"} i `ukrywania`{:class="block3looks"} kostiumów „zaznacz” lub „krzyżyk”, możesz zmienić `animacji`{:class="block3myblocks"}, aby kostiumy znikały.
+Zamiast `pokazywania`{:class="block3looks"} i `ukrywania`{:class="block3looks"} kostiumów „haczyk” lub „krzyżyk”, możesz zmienić `animacji`{:class="block3myblocks"}, aby kostiumy znikały.
 
 ![Duszek wyniku](images/result-sprite.png)
 
@@ -137,6 +137,6 @@ Zamiast `pokazywania`{:class="block3looks"} i `ukrywania`{:class="block3looks"} 
 
 \--- /task \---
 
-Czy jesteś w stanie poprawić animację grafiki „zaznaczony” lub „krzyżyk”? Spróbuj dodać kod, dzięki któremu kostiumy również zanikały, albo wypróbuj inne fajne efekty:
+Czy jesteś w stanie poprawić animację grafiki „haczyk” lub „krzyżyk”? Spróbuj dodać kod, dzięki któremu kostiumy również zanikały, albo wypróbuj inne fajne efekty:
 
 ![zrzut ekranu](images/brain-effects.png)
