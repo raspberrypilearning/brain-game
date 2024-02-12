@@ -6,17 +6,17 @@ Zaczniesz od stworzenia losowych pytań, na które gracz musi odpowiedzieć.
 
 Otwórz nowy projekt Scratch.
 
-**Online:** otwórz nowy projekt Scratch na stronie [rpf.io/scratch-new](https//rpf.io/scratch-new){:target="_blank"}.
+**Online:** otwórz nowy projekt Scratch na stronie [rpf.io/scratch-new](https://rpf.io/scratch-new){:target="_blank"}.
 
 **Offline:** otwórz nowy projekt w edytorze offline.
 
-Jeśli musisz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [rpf.io/scratchoff](https//rpf.io/scratchoff){:target="_blank"}.
+Jeśli musisz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-\--- task \--- Dodaj duszka postaci i tło dla swojej gry. Możesz wybrać, co chcesz! Oto przykład:
+Dodaj duszka postaci i tło dla swojej gry. Możesz wybrać, co chcesz! Oto przykład:
 
 ![zrzut ekranu](images/brain-setting.png)
 
@@ -24,7 +24,7 @@ Jeśli musisz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [
 
 \--- task \---
 
-\--- task \--- Upewnij się, że wybrałeś duszka postaci. Utwórz dwie nowe zmienne, o nazwie `liczba 1`{:class="block3variables"} i `liczba 2`{:class="block3variables"}, aby przechowywać liczby na potrzeby quizu.
+Upewnij się, że wybrałeś duszka postaci. Utwórz dwie nowe zmienne, o nazwie `liczba 1`{:class="block3variables"} i `liczba 2`{:class="block3variables"}, aby przechowywać liczby na potrzeby quizu.
 
 ![zrzut ekranu](images/giga-sprite.png)
 
@@ -50,7 +50,7 @@ ustaw [liczba 2 v] na (losuj liczbę od (2) do (12))
 
 \--- task \---
 
-\--- task \--- Dodaj kod do `zapytaj`{:class="block3sensing"} gracza o odpowiedź, a następnie `powiedz przez 2 sekundy`{:class="block3looks"}, czy odpowiedź była poprawna czy zła:
+Dodaj kod do `zapytaj`{:class="block3sensing"} gracza o odpowiedź, a następnie `powiedz przez 2 sekundy`{:class="block3looks"}, czy odpowiedź była poprawna czy zła:
 
 ![zrzut ekranu](images/giga-sprite.png)
 
@@ -70,7 +70,7 @@ ustaw [liczba 2 v] na (losuj liczbę od (2) do (12))
 
 \--- task \---
 
-Musisz dodać blok pętli `zawsze`{:class="block3control"} i umieścić w nim cały kod z wyjątkiem bloku `kiedy kliknięto zieloną flagę`{:class="block3control"}.
+Przetestuj swój projekt dwa razy: odpowiedz na jedno pytanie poprawnie, a drugie błędnie.
 
 \--- /task \---
 
@@ -92,7 +92,6 @@ Poniżej masz blok, który będziesz potrzebować:
 
 ```blocks3
 zawsze
-
 koniec
 ```
 
