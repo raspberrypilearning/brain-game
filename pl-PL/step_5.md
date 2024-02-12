@@ -37,7 +37,7 @@ W tej chwili duszek postaci zaczyna zadawać pytania, gdy gracz kliknie flagę. 
 
 \--- task \---
 
-Wybierz swojego duszka postaci i w sekcji jego kodu, zamień blok `kiedy kliknięto zieloną flagę`{:class="block3events"} na blok `kiedy otrzymam wiadomość`{:class="block3events"}.
+Wybierz swojego duszka postaci i w sekcji jego kodu, zamień blok `kiedy kliknięto zieloną flagę`{:class="block3events"} na blok `kiedy otrzymam start`{:class="block3events"}.
 
 ![Duszek postaci](images/giga-sprite.png)
 
