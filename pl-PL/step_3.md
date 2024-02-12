@@ -12,7 +12,7 @@ Utwórz licznik czasu na scenie za pomocą nowej zmiennej o nazwie `czas`{:class
 
 Utwórz `zmienną`{:class="block3variables"}, nazwij ją „czas” i ustaw jej wartość na `30`.
 
-Następnie dodaj kod, aby odliczać `czas`{:class="block3variables"} do 0 w ciągu 30 sekund. Aby to zrobić, odejmuj `1` od zmiennej `czas`{:class="block3variables"} co `1` sekundę i powtarzaj to do chwili gdy `czas`{:class="block3variables"} jest równy `0`.
+Następnie dodaj kod, aby odliczać `czas`{:class="block3variables"} do 0 w ciągu 30 sekund. Aby to zrobić, odejmuj `1` od zmiennej `czas`{:class="block3variables"} co `1` sekundę i powtarzaj to do chwili, gdy `czas`{:class="block3variables"} jest równy `0`.
 
 \--- /hint \---
 
@@ -75,7 +75,7 @@ Utwórz `nadawanie komunikatu`{:class="block3control"}, które wyśle komunikat 
 
 Wybierz duszek postaci i dodaj trochę kodu, aby duszek `zatrzymał inne skrypty`{:class="block3control"} po otrzymaniu wiadomości `koniec`{:class="block3control"}.
 
-![Giga duszek](images/giga-sprite.png)
+![Duszek Giga](images/giga-sprite.png)
 
 ```blocks3
     kiedy otrzymam [koniec v]
@@ -86,6 +86,6 @@ zatrzymaj [inne skrypty duszka v]
 
 \--- task \---
 
-Sprawdź swoją grę ponownie. Pytania powiiny być zadawane, aż licznik odlicza do zera.
+Sprawdź swoją grę ponownie. Pytania powinny być zadawane, aż licznik odlicza do zera.
 
 \--- /task \---
