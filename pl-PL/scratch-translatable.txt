@@ -1,25 +1,25 @@
-number 1
+liczba 1
 
-number 2 
+liczba 2 
 
-yes! :) 
+tak! :) 
 
-no :( 
+nie :( 
 
-time 
+czas 
 
-end 
+koniec 
 
 start
 
-correct
+poprawnie
 
-wrong
+niepoprawnie
 
-tick
+haczyk
 
-cross
+krzyżyk
 
-animate
+animacja
 
-start screen
+ekran startowy
