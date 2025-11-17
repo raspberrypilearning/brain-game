@@ -1,0 +1,28 @@
+---
+hero_image: images/brain-game.png
+listed: true
+copyedit: false
+title: 脳力ゲーム
+description: クイズの作成方法を学ぶ
+version: 4.0.2
+last_tested: 2018-10-03
+steps:
+- title: はじめに
+- title: 質問の作成
+- title: タイマーを追加
+  completion:
+  - engaged
+- title: 'チャレンジ：スコアとリアクションを追加'
+  challenge: true
+- title: 複数のゲーム
+- title: 'チャレンジ：スタート画面を作成'
+  challenge: true
+- title: 図の追加
+  completion:
+  - internal
+- title: 'チャレンジ：効果音と音楽'
+  challenge: true
+- title: 'チャレンジ：10点を目ざす'
+  challenge: true
+- title: 'チャレンジ：使い方の画面'
+  challenge: true
