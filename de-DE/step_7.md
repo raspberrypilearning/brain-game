@@ -17,12 +17,13 @@ Erstelle eine neue Figur namens "Ergebnis", die sowohl ein "grünes Häkchen" al
 ![Giga-Figur](images/giga-sprite.png)
 
 ```blocks3
-falls <(Antwort) = ((Zahl 1) * (Zahl 2))> , dann 
-- sage [Genau! :)] für (2) Sekunden
-+ sende (Richtig v) an alle
-sonst 
-- sage [Nein :(] für (2) Sekunden
-+ sende (Falsch v) an alle
+if <(answer) = ((Zahl 1) * (Zahl 2))> then
+- say [Genau! :)] for (2) seconds
++ broadcast (Richtig v)
+else 
+- say [Nein :(] for (2) seconds
++ broadcast (Falsch v)
+end
 ```
 
 --- /task ---
@@ -34,25 +35,27 @@ Du kannst nun diese Nachrichten verwenden, um zum entsprechenden Richtig oder Fa
 ![Ergebnis Figur](images/result-sprite.png)
 
 ```blocks3
-    Wenn ich [Richtig v] empfange
-    wechsle zu Kostüm (Richtig v)
-    zeige dich
-    warte (1) Sekunden
-    verstecke dich
+when I receive [Richtig v]
+switch costume to (Richtig v)
+show
+wait (1) seconds
+hide
 
-    Wenn ich [Falsch v] empfange
-    wechsle zu Kostüm (Falsch v)
-    zeige dich
-    warte (1) Sekunden
-    verstecke dich
+when I receive [Falsch v]
+switch costume to (Falsch v)
+show
+wait (1) seconds
+hide
 
-    Wenn die grüne Flagge angeklickt
-    verstecke dich
+when flag clicked
+hide
 ```
 
 --- /task ---
 
---- task --- Teste dein Spiel erneut. Du solltest den grünen OK Haken sehen, wenn du eine Frage richtig beantwortest, und das rote Flasch Kreuz, wenn du falsch antwortest!
+--- task ---
+
+Teste dein Spiel erneut. Du solltest den grünen OK Haken sehen, wenn du eine Frage richtig beantwortest, und das rote Flasch Kreuz, wenn du falsch antwortest!
 
 ![Richtig für eine richtige, Falsch für eine falsche Antwort](images/brain-test-answer.png)
 
@@ -72,33 +75,37 @@ Wählen die Figur "Ergebnis" aus. Anschließend klicke auf `Meine Blöcke`{:clas
 
 --- /task ---
 
---- task --- Verschiebe den Code `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3looks"} aus der 'Ergebnis' Figur in den `animiere`{:class="block3myblocks"} Block:
+--- task ---
+
+Verschiebe den Code `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3looks"} aus der 'Ergebnis' Figur in den `animiere`{:class="block3myblocks"} Block:
 
 ![Ergebnis-Figur](images/result-sprite.png)
 
 ```blocks3
-Definiere animiere
-zeige dich
-warte (1) Sekunden
-verstecke dich
+define animiere
+show
+wait (1) seconds
+hide
 ```
 
 --- /task ---
 
---- task --- Stelle sicher, dass die `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3look"} Blöcke unter **beiden** `wechsle zu Kostüm`{:class="block3looks"} Blöcken entfernt sind.
+--- task ---
+
+Stelle sicher, dass die `zeige dich`{:class="block3looks"} und `verstecke dich`{:class="block3look"} Blöcke unter **beiden** `wechsle zu Kostüm`{:class="block3looks"} Blöcken entfernt sind.
 
 Füge anschließend den neuen `animiere`{:class="block3myblocks"} Block unter die beiden Blöcken `wechsle zu Kostüm`{:class="block3look"} hinzu. Dein Code sollte nun so aussehen:
 
 ![Ergebnis-Figur](images/result-sprite.png)
 
 ```blocks3
-    Wenn ich [Richtig v] empfange
-    wechsle zu Kostüm (Richtig v)
-    animiere:: custom
+when I receive [Richtig v]
+switch costume to (Richtig v)
+animiere :: custom
 
-    Wenn ich [Falsch v] empfange
-    wechsle zu Kostüm (Falsch v)
-    animiere:: custom
+when I receive [Falsch v]
+switch costume to (Falsch v)
+animiere :: custom
 ```
 
 --- /task ---
@@ -111,18 +118,20 @@ Der Vorteil des benutzerdefinierten Block `animieren`{:class="block3myblocks"} i
 
 --- /task ---
 
---- task --- Anstatt das "Richtig" oder "Falsch" Kostüm `zeigen`{:class="block3looks"} und `verstecken`{:class="block3looks"}, kannst du den `animiere`{:class="block3myblocks"} Block ändern, so dass die Kostüme ein- und ausblenden.
+--- task ---
+
+Anstatt das "Richtig" oder "Falsch" Kostüm `zeigen`{:class="block3looks"} und `verstecken`{:class="block3looks"}, kannst du den `animiere`{:class="block3myblocks"} Block ändern, so dass die Kostüme ein- und ausblenden.
 
 ![Ergebnis-Figur](images/result-sprite.png)
 
 ```blocks3
-Definiere animate
-setze Effekt [Durchsichtigkeit v] auf (100)
-zeige dich
-wiederhole (25) mal 
-  ändere Effekt [Durchsichtigkeit v] um (-4)
-ende
-verstecke dich
+define animate
+set [Durchsichtigkeit v] effect to (100)
+show
+repeat (25) 
+  change [Durchsichtigkeit v] effect by (-4)
+end
+hide
 ```
 
 --- /task ---

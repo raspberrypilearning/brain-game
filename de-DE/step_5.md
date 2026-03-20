@@ -2,7 +2,9 @@
 
 Jetzt wirst du eine Taste "Spielen" hinzufügen, damit der Spieler dein Spiel mehrmals spielen kann.
 
---- task --- Erstelle eine neue Figur - eine 'Spielen'-Taste, auf die der Spieler klicken muss, um ein neues Spiel zu starten.
+--- task ---
+
+Erstelle eine neue Figur - eine 'Spielen'-Taste, auf die der Spieler klicken muss, um ein neues Spiel zu starten.
 
 Du kannst die Figur selbst zeichnen oder eine Figur aus der Bibliothek verwenden.
 
@@ -10,17 +12,19 @@ Du kannst die Figur selbst zeichnen oder eine Figur aus der Bibliothek verwenden
 
 --- /task ---
 
---- task --- Füge deiner Spielen Knopf Figur diesen Code hinzu:
+--- task ---
+
+Füge deiner Spielen Knopf Figur diesen Code hinzu:
 
 ![Taste-Figur](images/button-sprite.png)
 
 ```blocks3
-    Wenn die grüne Flagge angeklickt
-    zeige dich
+when flag clicked
+show
 
-    Wenn diese Figur angeklickt wird
-    verstecke dich
-    sende (Start v) an alle
+when this sprite clicked
+hide
+broadcast (Start v)
 ```
 
 --- /task ---
@@ -31,20 +35,23 @@ Der neue Code zeigt die 'Spielen' Taste, nachdem der Spieler auf die grüne Flag
 
 In dem Moment, in dem die Giga-Figur die Nachricht 'Start' empfängt, fängt sie an eine Frage zu stellen. Ändere den Code des Spiels, damit die Giga Figur beginnt Fragen zu stellen, wenn es die `gesendete Nachricht`{:class="block3events"} 'Start' empfängt.
 
---- task --- Wähle die Giga-Figur aus und ersetze den Code `Wenn die grüne Flagge angeklickt wird`{:class="block3events"} Block durch einen `wenn ich Start empfange`{:class="block3events"} Block.
+--- task ---
+
+Wähle die Giga-Figur aus und ersetze den Code `Wenn die grüne Flagge angeklickt wird`{:class="block3events"} Block durch einen `wenn ich Start empfange`{:class="block3events"} Block.
 
 ![Giga-Figur](images/giga-sprite.png)
 
 ```blocks3
-- Wenn die grüne Flagge angeklickt
-+ Wenn ich [Start v] empfange
-setze [Zahl 1 v] auf (Zufallszahl von (2) bis (12))
-setze [Zahl 2 v] auf (Zufallszahl von (2) bis (12))
-frage (verbinde (Zahl 1) und (verbinde [ x ] und (Zahl 2))) und warte
-falls <(Antwort) = ((Zahl 1) * (Zahl 2))> , dann 
-  sage [Genau! :)] für (2) Sekunden
-sonst 
-  sage [Nein :(] für (2) Sekunden
+- when flag clicked
++ when I receive [Start v]
+set [Zahl 1 v] to (pick random (2) to (12))
+set [Zahl 2 v] to (pick random (2) to (12))
+ask (join (Zahl 1) (join [ x ] (Zahl 2))) and wait
+if <(answer) = ((Zahl 1) * (Zahl 2))> then 
+  say [Genau! :)] for (2) seconds
+else 
+  say [Nein :(] for (2) seconds
+end
 ```
 
 --- /task ---
@@ -65,13 +72,15 @@ Kannst du den Code für den Coutdown ändern, damit der Countdown erst beginnt, 
 
 --- /task ---
 
---- task --- Füge Code zu deiner Spielen-Knopf Figur hinzufügen, so dass die Schaltfläche am Ende jedes Spiels wieder angezeigt wird.
+--- task ---
+
+Füge Code zu deiner Spielen-Knopf Figur hinzufügen, so dass die Schaltfläche am Ende jedes Spiels wieder angezeigt wird.
 
 ![Tasten-Figur](images/button-sprite.png)
 
 ```blocks3
-    Wenn ich [Ende v] empfange
-    zeige dich
+	when I receive [Ende v]
+	show
 ```
 
 --- /task ---
@@ -80,28 +89,34 @@ Kannst du den Code für den Coutdown ändern, damit der Countdown erst beginnt, 
 
 Teste die Taste 'Spielen', indem du ein paar Spiele spielst. Die Taste sollte am Ende jedes Spiels wieder angezeigt werden.
 
-Um das Spiel schneller zu testen, kannst du den Wert der Variabel `Zeit`{:class="block3variables"} ändern, damit jedes Spiel nur ein paar Sekunden dauert.
+Um das Spiel schneller zu testen, kannst du den Wert der Variabel `Countdown`{:class="block3variables"} ändern, damit jedes Spiel nur ein paar Sekunden dauert.
 
 ![Bühne](images/stage-sprite.png)
 
 ```blocks3
-    setze [Zeit v] auf [10]
+    set [Countdown v] to [10]
 ```
 
 --- /task ---
 
---- task --- Du kannst das Aussehen der "Spielen" Schaltfläche ändern, wenn sich der Mauszeiger darüber befindet.
+--- task ---
+
+Du kannst das Aussehen der "Spielen" Schaltfläche ändern, wenn sich der Mauszeiger darüber befindet.
 
 ![Taste](images/button-sprite.png)
 
 ```blocks3
-    Wenn die grüne Flagge angeklickt
-    zeige dich
-    wiederhole fortlaufend 
-    falls <wird (Mauszeige v) berührt?> , dann 
-        setze Effekt [Fischauge v] auf (30)
-    sonst 
-        setze Effekt [Fischauge v] auf (0)
+when flag clicked
+show
+forever 
+  if <touching (Mauszeige v) ?> then 
+    set [Fischauge v] effect to (30)
+  else 
+    set [Fischauge v] effect to (0)
+  end
+end
 ```
 
-![Screenshot](images/brain-fisheye.png) --- /task ---
+![Screenshot](images/brain-fisheye.png)
+
+--- /task ---

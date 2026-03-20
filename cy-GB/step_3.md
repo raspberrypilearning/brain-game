@@ -1,47 +1,60 @@
 ## Ychwanegu Amserydd
 
---- task --- Byddwn yn creu amserydd ar y Llwyfan gyda chymorth newidyn newydd i'r enw `amser`{:class="block3variables"}. Fe ddylai'r amserydd gychwyn ar 30 eiliad a chyfrif lawr i 0 eiliad.
+--- task ---
+
+Byddwn yn creu amserydd ar y Llwyfan gyda chymorth newidyn newydd i'r enw `amser`{:class="block3variables"}. Fe ddylai'r amserydd gychwyn ar 30 eiliad a chyfrif lawr i 0 eiliad.
 
 ![Corlun llwyfan](images/stage-sprite.png)
 
 --- hints ---
- --- hint ---
+--- hint ---
 
 Creu `newidyn`{:class="block3variables"}, ei alw'n 'amser', a gosod ei werth i `30`.
 
 Yna ychwanegu côd i gyfrif `amser`{:class="block3variables"} lawr i 0 o 30 eiliad. I wneud hyn, bydd angen tynnu `1` o `amser`{:class="block3variables"} bob `1` eiliad, ac ail-adrodd hyn tan bod `amser`{:class="block3variables"} yn cyfateb â `0`.
 
---- /hint --- --- hint --- Dyma'r blociau rwyt ti eu hangen:
+--- /hint ---
+
+--- hint ---
+
+Dyma'r blociau rwyt ti eu hangen:
 
 ```blocks3
-ailadrodd hyd at <>
+repeat until < >
+
 end
 
-aros (1) eiliad
+wait (1) seconds
 
-newid [amser v] gan (1)
+change [amser v] by (1)
 
 (amser)
 
-pan fo'r flag werdd yn cael ei glicio
+when flag clicked
 
 <() = ()>
 
-gosod [amser v] i [0]
+set [amser v] to [0]
 ```
 
---- /hint --- --- hint --- Dyma sut ddylai dy gôd edrych:
+--- /hint ---
+
+--- hint ---
+
+Dyma sut ddylai dy gôd edrych:
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-gosod [amser v] i [30]
-ailadrodd hyd at <(amser) = (0)> 
-  aros (1) eiliad
-  newid [amser v] gan (-1)
+when flag clicked
+set [amser v] to [30]
+repeat until <(amser) = (0)> 
+  wait (1) seconds
+  change [amser v] by (-1)
 end
 ```
 
---- /hint ------ /hints ---
+--- /hint ---
+
+--- /hints ---
 
 --- /task ---
 
@@ -52,18 +65,20 @@ Creu `darllediad`{:class="block3control"} sy'n anfon y neges 'diwedd'. Mae `darl
 ![Corlun llwyfan](images/stage-sprite.png)
 
 ```blocks3
-    darlledu (diwedd v)
+    broadcast (diwedd v)
 ```
 
 --- /task ---
 
---- task --- Dewisa dy gymeriad ac ychwanega gôd fel bod y corlun yn `stopio sgriptiau eraill`{:class="block3control"} pan mae'n derbyn y neges `diwedd`{:class="block3control"}.
+--- task ---
+
+Dewisa dy gymeriad ac ychwanega gôd fel bod y corlun yn `stopio sgriptiau eraill`{:class="block3control"} pan mae'n derbyn y neges `diwedd`{:class="block3control"}.
 
 ![Corlun giga](images/giga-sprite.png)
 
 ```blocks3
-    pan rwy'n derbyn [diwedd v]
-    aros [sgriptiau eraill yn y ciplun v]
+    when I receive [diwedd v]
+    stop [sgriptiau eraill yn y ciplun v]
 ```
 
 --- /task ---
