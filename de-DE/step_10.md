@@ -7,5 +7,5 @@ Kannst du einen Bildschirm hinzufügen, auf dem erklärt wird man das Spiel spie
 Zusätzlich kannst du eine 'Zurück'-Taste hinzufügen, der den Spieler wieder zum Startbildschirm zurückbringt.
 
 ```blocks3
-    sende (Anleitung v) an alle
+    broadcast (Anleitung v)
 ```

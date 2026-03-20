@@ -17,12 +17,12 @@ Newida côd dy gymeriad, fel ei fod yn `darlledu`{:class="block3events"} negeseu
 ![Corlun cymeriad](images/giga-sprite.png)
 
 ```blocks3
-os <(ateb) = ((rhif 1) * (rhif 2))> yna 
--  dweud [Ie! :)] am (2) eiliad
-+ darlledu (cywir v)
-fel arall 
--  dweud [Na :(] am (2) eiliad
-+ darlledu (anghywir v)
+if <(answer) = ((rhif 1) * (rhif 2))> then
+- say [Ie! :)] for (2) seconds
++ broadcast (cywir v)
+else
+- say [Na :(] for (2) seconds
++ broadcast (anghywir v)
 end
 ```
 
@@ -35,25 +35,27 @@ Fe alli di nawr ddefnyddio’r negeseuon yma i `ddangos`{:class="block3looks"} y
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-pan rwy'n derbyn [cywir v]
-newid gwisg i (tick v)
-dangos
-aros (1) eiliad
-cuddio
+when I receive [cywir v]
+switch costume to (tick v)
+show
+wait (1) seconds
+hide
 
-pan rwy'n derbyn [anghywir v]
-newid gwisg i (cross v)
-dangos
-aros (1) eiliad
-cuddio
+when I receive [anghywir v]
+switch costume to (cross v)
+show
+wait (1) seconds
+hide
 
-pan fo'r flag werdd yn cael ei glicio
-cuddio
+when flag clicked
+hide
 ```
 
 --- /task ---
 
---- task --- Profa dy gêm eto. Fe ddyle ti weld tic pan gei di ateb yn gywir, a chroes pan gei di ateb yn anghywir!
+--- task ---
+
+Profa dy gêm eto. Fe ddyle ti weld tic pan gei di ateb yn gywir, a chroes pan gei di ateb yn anghywir!
 
 ![Tic i cywir, croes i anghywir](images/brain-test-answer.png)
 
@@ -73,32 +75,36 @@ Dewisa'r corlun 'Canlyniad'. Clicia `Mwy o flociau`{:class="block3myblocks"} yna
 
 --- /task ---
 
---- task --- Symuda'r côd i `ddangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} y 'Canlyniad' yn y bloc `animeiddio`{:class="block3myblocks"}:
+--- task ---
+
+Symuda'r côd i `ddangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} y 'Canlyniad' yn y bloc `animeiddio`{:class="block3myblocks"}:
 
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-diffinio animeiddio
-dangos
-aros (1) eiliad
-cuddio
+define animeiddio
+show
+wait (1) seconds
+hide
 ```
 
 --- /task ---
 
---- task --- Sicrha dy fod wedi tynnu'r blociau `dangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} o dan **y ddau floc** o'r `newid gwisgoedd`{:class="block3looks"}.
+--- task ---
+
+Sicrha dy fod wedi tynnu'r blociau `dangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} o dan **y ddau floc** o'r `newid gwisgoedd`{:class="block3looks"}.
 
 Yna ychwanega'r bloc `animeiddio`{:class="block3myblocks"} o dan y ddau floc `newid gwisgoedd`{:class="block3looks"}. Fe ddylai dy gôd edrych fel hyn:
 
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-pan rwy'n derbyn [cywir v]
-newid gwisg i (tick v)
+when I receive [cywir v]
+switch costume to (tick v)
 animeiddio :: custom
 
-pan rwy'n derbyn [anghywir v]
-newid gwisg i (cross v)
+when I receive [anghywir v]
+switch costume to (cross v)
 animeiddio :: custom
 ```
 
@@ -119,13 +125,13 @@ Yn hytrach na `dangos`{:class="block3looks"} a `chuddio`{:class="block3looks"} y
 ![Corlun canlyniad](images/result-sprite.png)
 
 ```blocks3
-diffinio animeiddio
-gosod effaith [ghost v] effaith i (100)
-dangos
-ailadrodd (25)
- newid effaith [ghost v] gan (-4)
+define animeiddio
+set [ysbryd v] effect to (100)
+show
+repeat (25) 
+  change [ysbryd v] effect by (-4)
 end
-cuddio
+hide
 ```
 
 --- /task ---

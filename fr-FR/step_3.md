@@ -14,34 +14,41 @@ Ajoute ensuite du code pour décompter `temps`{:class="block3variables"} jusqu'�
 --- /hint --- --- hint --- Voici les blocs dont tu as besoin:
 
 ```blocks3
-répéter jusqu'à ce que <>
-fin
+repeat until < >
 
-attendre (1) secondes
+end
 
-ajouter (1) à [temps v]
+wait (1) seconds
 
-temps ::variables
+change [temps v] by (1)
 
-quand le drapeau vert pressé
+(temps)
+
+when flag clicked
 
 <() = ()>
 
-mettre [temps v] à [0]
+set [temps v] to [0]
 ```
 
---- /hint --- --- hint --- Voici à quoi devrait ressembler ton nouveau code:
+--- /hint ---
+
+--- hint ---
+
+Voici à quoi devrait ressembler ton nouveau code:
 
 ```blocks3
-quand le drapeau vert pressé
-mettre [temps v] à [30]
-répéter jusqu'à ce que <(temps ::variables) = (0)>
-    attendre (1) secondes
-    ajouter (-1) à [temps v]
-fin
+when flag clicked
+set [temps v] to [30]
+repeat until <(tempo) = (0)> 
+  wait (1) seconds
+  change [temps v] by (-1)
+end
 ```
 
---- /hint ------ /hints ---
+--- /hint ---
+
+--- /hints ---
 
 --- /task ---
 
@@ -52,17 +59,19 @@ Crée un `envoyer à tous`{:class="block3control"} qui envoie le message "fin". 
 ![Sprite Scène](images/stage-sprite.png)
 
 ```blocks3
-    envoyer à tous (fin v)
+    broadcast (fin v)
 ```
 
 --- /task ---
 
---- task --- Sélectionne ton sprite personnage et ajoute du code pour que le sprite `arrête les autres scripts`{:class="block3control"} lorsqu'il reçoit le message `fin`{:class="block3control"}.
+--- task ---
+
+Sélectionne ton sprite personnage et ajoute du code pour que le sprite `arrête les autres scripts`{:class="block3control"} lorsqu'il reçoit le message `fin`{:class="block3control"}.
 
 ![Giga Sprite](images/giga-sprite.png)
 
 ```blocks3
-    quand je reçois [fin v] 
+    when I receive [fin v] 
     stop [autres scripts du lutin v]
 ```
 

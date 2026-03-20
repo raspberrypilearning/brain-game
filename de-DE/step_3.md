@@ -1,46 +1,65 @@
 ## Einen Countdown hinzufügen
 
---- task --- Erstelle auf der Bühne einen Countdown-Timer mit Hilfe einer neuen Variablen namens `Countdown`{:class="block3variables"}. Der Countdown soll bei 30 Sekunden beginnen und bis 0 Sekunden herunterzählen.
+--- task ---
+
+Erstelle auf der Bühne einen Countdown-Timer mit Hilfe einer neuen Variablen namens `Countdown`{:class="block3variables"}. Der Countdown soll bei 30 Sekunden beginnen und bis 0 Sekunden herunterzählen.
 
 ![Bühnenbilder](images/stage-sprite.png)
 
 --- hints ---
- --- hint ---
+--- hint ---
 
 Erstelle eine `Variable`{:class="block3variables"}, nenne sie "Countdown" und setze ihren Wert auf `30` Sekunden.
 
 Füge nun Code hinzu, um den `Countdown`{:class="block3variables"} innerhalb von 30 Sekunden auf 0 zu bringen. Um das zu erreichen, subtrahiere `1` von `Countdown`{:class="block3variables"} jede `1` Sekunde und wiederhole das bis `Countdown`{:class="block3variables"} gleich `0` ist.
 
---- /hint --- --- hint --- Hier sind die Code Blöcke die du brauchst:
+--- /hint ---
+
+--- hint ---
+
+Hier sind die Code Blöcke die du brauchst:
 
 ```blocks3
-ändere [Countdown v] um (1)
+repeat until < >
+
+end
+
+wait (1) seconds
+
+change [Countdown v] by (1)
 
 (Countdown)
 
-Wenn die grüne Flagge angeklickt
+when flag clicked
 
 <() = ()>
 
-setze [Countdown v] auf [0]
+set [Countdown v] to [0]
 
-warte (1) Sekunden
+wait (1) seconds
 
-wiederhole bis < >
+repeat until <>
+end
 ```
 
---- /hint --- --- hint --- So sollte dein Code Block aussehen:
+--- /hint ---
+
+--- hint ---
+
+So sollte dein Code Block aussehen:
 
 ```blocks3
-Wenn die grüne Flagge angeklickt
-setze [Countdown v] auf [30]
-wiederhole bis < (Countdown) = [0] >
-warte (1) Sekunden
-ändere [Countdown v] um (-1)
-ende
+when flag clicked
+set [Countdown v] to [30]
+repeat until <(Countdown) = [0]> 
+  wait (1) seconds
+  change [Countdown v] by (-1)
+end
 ```
 
---- /hint ------ /hints ---
+--- /hint ---
+
+--- /hints ---
 
 --- /task ---
 
@@ -51,18 +70,20 @@ ende
 ![Bühnenbilder](images/stage-sprite.png)
 
 ```blocks3
-    sende (Ende v) an alle
+    broadcast (Ende v)
 ```
 
 --- /task ---
 
---- task --- Wähle deine Figur und füge den Code hinzu, damit die Figur `andere Skripte der Figur stoppt`{:class="block3control"}, wenn es die Nachricht `Ende`{:class="block3control"} empfängt.
+--- task ---
+
+Wähle deine Figur und füge den Code hinzu, damit die Figur `andere Skripte der Figur stoppt`{:class="block3control"}, wenn es die Nachricht `Ende`{:class="block3control"} empfängt.
 
 ![Giga Figur](images/giga-sprite.png)
 
 ```blocks3
-Wenn ich [Ende v] empfange
-stoppe [andere Skripte der Figur v]
+when I receive [Ende v]
+stop [andere Skripte der Figur v]
 ```
 
 --- /task ---

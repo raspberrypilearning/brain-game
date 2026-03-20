@@ -1,6 +1,8 @@
 ## Een tijdklok toevoegen
 
---- task --- Maak een afteltimer op het speelveld met behulp van een nieuwe variabele genaamd `tijd`{:class="block3variables"}. De timer moet op 30 seconden beginnen met aftellen tot 0 seconden.
+--- task ---
+
+Maak een afteltimer op het speelveld met behulp van een nieuwe variabele genaamd `tijd`{:class="block3variables"}. De timer moet op 30 seconden beginnen met aftellen tot 0 seconden.
 
 ![Speelveld sprite](images/stage-sprite.png)
 
@@ -11,38 +13,48 @@ Maak een `variabele`{:class="block3variables"}, noem hem 'tijd', en stel de waar
 
 Voeg vervolgens code toe om `tijd`{:class="block3variables"} af te tellen tot 0 binnen 30 seconden. Om dit te doen, trek je elke `1` seconde `1` van `tijd`{:class="block3variables"} af, en herhaal dit totdat `tijd`{:class="block3variables"} gelijk is aan `0`.
 
---- /hint --- --- hint --- Dit zijn de codeblokken die je nodig hebt:
+--- /hint ---
+
+--- hint ---
+
+Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
-herhaal tot < >
+repeat until < >
 
 end
 
-wacht (1) sec.
+wait (1) seconds
 
-verander [tijd v] met (1)
+change [tijd v] by (1)
 
 (tijd)
 
-wanneer op groene vlag wordt geklikt
+when flag clicked
 
 <() = ()>
 
-maak [ tijd v] [0]
+set [tijd v] to [0]
 ```
 
---- /hint --- --- hint --- Zo zou je nieuwe code er uit moeten zien:
+--- /hint ---
+
+--- hint ---
+
+Zo zou je nieuwe code er uit moeten zien:
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
-maak [tijd v] [30]
-herhaal tot <(tijd) = (0)> 
-  wacht (1) sec.
-  verander [tijd v] met (-1)
+when flag clicked
+set [tijd v] to [30]
+repeat until <(tijd) = (0)>
+  wait (1) seconds
+  change [tijd v] by (-1)
 end
 ```
 
---- /hint ------ /hints ---
+--- /hint ---
+
+--- /hints ---
 
 --- /task ---
 
@@ -53,17 +65,19 @@ Maak een `zend signaal`{:class="block3control"} die het signaal 'einde' verstuur
 ![Speelveld sprite](images/stage-sprite.png)
 
 ```blocks3
-    zend signaal (einde v)
+    broadcast (einde v)
 ```
 
 --- /task ---
 
---- task --- Selecteer je personage en voeg code toe zodat de sprite `stop andere scripts`{:class="block3control"} uitvoert wanneer het het signaal `einde`{:class="block3control"} ontvangt.
+--- task ---
+
+Selecteer je personage en voeg code toe zodat de sprite `stop andere scripts`{:class="block3control"} uitvoert wanneer het het signaal `einde`{:class="block3control"} ontvangt.
 
 ![Giga sprite](images/giga-sprite.png)
 
 ```blocks3
-    wanneer ik signaal [einde v] ontvang
+    when I receive [einde v] 
 stop [andere scripts in sprite v]
 ```
 

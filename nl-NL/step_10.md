@@ -7,5 +7,5 @@ Kun je een instructiescherm aan je spel toevoegen en je speler uitleggen hoe het
 Je moet mogelijk ook een 'Terug'-knop toevoegen waarmee de speler weer naar het startscherm kan terugkeren.
 
 ```blocks3
-    zend signaal (startscherm v)
+    broadcast (startscherm v)
 ```

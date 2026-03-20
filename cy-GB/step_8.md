@@ -7,7 +7,7 @@ Wyt ti’n gallu ychwanegu effeithiau cerddorol i dy gêm? Er enghraifft:
 + Chwarae sain pan mae’r amser ar ben
 
 ```blocks3
-    chwarae sain (pop v) tan y diwedd
+	play sound (pop v) until done
 ```
 
 Fe alli di hefyd chwarae cerddoriaeth drosodd a throsodd.

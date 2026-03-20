@@ -7,5 +7,5 @@ Peux-tu ajouter un écran d’instructions qui indique au joueur comment jouer a
 Tu devrais peut-être également ajouter un bouton "Retour" pour permettre au joueur de revenir à l'écran de démarrage.
 
 ```blocks3
-    envoyer à tous (écran de démarrage v)
+    broadcast (écran de démarrage v)
 ```

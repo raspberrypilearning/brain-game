@@ -7,7 +7,7 @@ Kannst du Sound-Effekte und Musik zu deinem Spiel hinzufügen? Zum Beispiel kann
 + Einen Ton spielen, wenn die Zeit des Spielers abgelaufen ist
 
 ```blocks3
-    spiele Klang (pop v) ganz
+	play sound (pop v) until done
 ```
 
 Dein Spiel könnte auch ständig Hintergrundmusik in einer Schleife spielen.
