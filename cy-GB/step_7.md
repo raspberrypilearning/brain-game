@@ -21,7 +21,7 @@ if <(answer) = ((rhif 1) * (rhif 2))> then
 - say [Ie! :)] for (2) seconds
 + broadcast (cywir v)
 else
-- say [Na :(] am (2) seconds
+- say [Na :(] for (2) seconds
 + broadcast (anghywir v)
 end
 ```
