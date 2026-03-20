@@ -6,11 +6,11 @@ Laten we beginnen met het maken van willekeurige vragen die de speler moet beant
 
 Open een nieuw Scratch project.
 
-**Online:** open een nieuw online Scratch project op [rpf.io/scratch-new](https//rpf.io/scratchon){:target="_blank"}.
+**Online:** open een nieuw online Scratch project op [rpf.io/scratch-new](https://rpf.io/scratchon){:target="_blank"}.
 
 **Offline:** open een nieuw project in de offline editor.
 
-Als je de Scratch offline editor wilt downloaden en installeren dan kun je die vinden op [rpf.io/scratchoff](https//rpf.io/scratchoff){:target="_blank"}.
+Als je de Scratch offline editor wilt downloaden en installeren dan kun je die vinden op [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
@@ -33,9 +33,9 @@ Als je de Scratch offline editor wilt downloaden en installeren dan kun je die v
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-maak [nummer 1 v] (willekeurig getal tussen (2) en (12))
-maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
+when flag clicked
+set [nummer 1 v] to (pick random (2) to (12))
+set [nummer 2 v] to (pick random (2) to (12))
 ```
 
 --- /task ---
@@ -45,15 +45,14 @@ maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
 ![screenshot](images/giga-sprite.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-maak [nummer 1 v] (willekeurig getal tussen (2) en (12))
-maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
-
-+ vraag (voeg (nummer 1) en (voeg [ x ] en (nummer 2) samen) samen) en wacht
-+ als <(antwoord) = ((nummer 1) * (nummer 2))> dan 
-+ zeg [goed! :)] (2) seconden
-+ anders
-+ zeg [fout :(] (2) sec.
+when flag clicked
+set [nummer 1 v] to (pick random (2) to (12))
+set [nummer 2 v] to (pick random (2) to (12))
++ ask (join (nummer 1)(join [ x ] (nummer 2))) and wait
++ if <(answer) = ((nummer 1)*(nummer 2))> then
++ say [goed! :)] for (2) seconds
++ else
++ say [fout :(] for (2) seconds
 + end
 ```
 
@@ -77,24 +76,24 @@ Je moet een `herhaal`{:class="block3control"} blok toevoegen en alle code behalv
 --- /hint --- --- hint --- Dit is het codeblok dat je nodig hebt:
 
 ```blocks3
-herhaal
+forever
 end
 ```
 
 --- /hint --- --- hint --- Hier is hoe je blok eruit zou moeten zien:
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
+when flag clicked
 
-+ herhaal
-   maak [nummer 1 v] (willekeurig getal tussen (2) en (12))
-   maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
-   vraag (voeg (nummer 1) en (voeg [ x ] en (nummer 2) samen) samen) en wacht
-   als <(antwoord) = ((nummer 1) * (nummer 2))> dan 
-     zeg [goed! :)] (2) sec.
-    anders
-        zeg [fout :(] (2) sec.
-    end
++ forever
+	set [nummer 1 v] to (pick random (2) to (12))
+	set [nummer 2 v] to (pick random (2) to (12))
+	ask (join (nummer 1)(join [ x ] (nummer 2))) and wait
+	if <(answer) = ((nummer 1)*(nummer 2))> then
+		say [goed! :)] for (2) seconds
+	else
+		say [fout :(] for (2) seconds
+	end
 end
 ```
 

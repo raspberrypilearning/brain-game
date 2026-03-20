@@ -7,7 +7,7 @@ Kun je geluidseffecten en muziek toevoegen aan je spel? Bijvoorbeeld, je spel ka
 + Een geluid afspelen wanneer de tijd verstreken is
 
 ```blocks3
-    start geluid (pop v) en wacht
+	play sound (pop v) until done
 ```
 
 Je spel kan ook continu achtergrondmuziek in een lus afspelen.

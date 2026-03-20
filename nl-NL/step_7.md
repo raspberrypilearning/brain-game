@@ -17,13 +17,12 @@ Wijzig de code van je personage-sprite zodat, in plaats van iets tegen de speler
 ![Personage-sprite](images/giga-sprite.png)
 
 ```blocks3
-als <(antwoord) = ((nummer 1) * (nummer 2))> dan
-
-- zeg [goed! :)] (2) sec.
-+ zend signaal (goed v)
-anders
-- zeg [jammer :(] (2) sec.
-+ zend signaal (fout v)
+if <(answer) = ((nummer 1) * (nummer 2))> then 
+- say [goed! :)] for (2) seconds
++ broadcast (goed v)
+else 
+- say [jammer :(] for (2) seconds
++ broadcast (fout v)
 end
 ```
 
@@ -36,20 +35,20 @@ Nu kun je deze signalen gebruiken om het 'vinkje'- of 'kruis'-uiterlijk te kieze
 ![Resultaat sprite](images/result-sprite.png)
 
 ```blocks3
-    wanneer ik signaal [goed v] ontvang
-    verander uiterlijk naar (vinkje v)
-    verschijn
-    wacht (1) sec.
-    verdwijn
+when I receive [goed v]
+switch costume to (vinkje v)
+show
+wait (1) seconds
+hide
 
- wanneer ik signaal [fout v] ontvang
-    verander uiterlijk naar (kruis v)
-    verschijn
-    wacht (1) sec.
-    verdwijn
+when I receive [fout v]
+switch costume to (kruis v)
+show
+wait (1) seconds
+hide
 
-  wanneer op groene vlag wordt geklikt
-    verdwijn
+when flag clicked
+hide
 ```
 
 --- /task ---
@@ -79,28 +78,28 @@ Selecteer de 'Resultaat' sprite. Klik vervolgens op `Mijn blokken`{:class ="bloc
 ![Resultaat sprite](images/result-sprite.png)
 
 ```blocks3
-definieer animatie
-verschijn
-wacht (1) sec.
-verdwijn
+define animatie
+show
+wait (1) seconds
+hide
 ```
 
 --- /task ---
 
 --- task --- Zorg ervoor dat je de `verschijn`{:class="block3looks"} en `verdwijn`{:class="block3looks"} blokken onder **beide** `veranderlijk uiterlijk`{:class="block3looks"} blokken hebt verwijderd.
 
-Voeg vervolgens het `animatie`{:class="block3myblocks"} blok toe aan beide `verander uiterlijk`{:class="block3looks"} blokken. Je code moet er nu zo uitzien:
+Voeg vervolgens het `animatie`{:class="block3looks"} blok toe aan beide `verander uiterlijk`{:class="block3looks"} blokken. Je code moet er nu zo uitzien:
 
 ![Resultaat sprite](images/result-sprite.png)
 
 ```blocks3
-    wanneer ik signaal [goed v] ontvang
-    verander uiterlijk naar (vinkje v)
-    animatie
+when I receive [goed v]
+switch costume to (vinkje v)
+animatie:: custom
 
-wanneer ik signaal [fout v] ontvang
-    verander uiterlijk naar (kruis v)
-    animatie
+when I receive [fout v]
+switch costume to (kruis v)
+animatie:: custom
 ```
 
 --- /task ---
@@ -118,13 +117,13 @@ Wijzig je code zó dat het 'vinkje'- of 'kruis'-uiterlijk wordt weergegeven gedu
 ![Resultaat sprite](images/result-sprite.png)
 
 ```blocks3
-    definieer animatie
-  zet [geest v] effect op (100)
-  verschijn
-  herhaal (25)
-    verander [geest v] effect met (-4)
-  end
-  verdwijn
+define animatie
+set [geest v] effect to (100)
+show
+repeat (25) 
+  change [geest v] effect by (-4)
+end
+hide
 ```
 
 --- /task ---

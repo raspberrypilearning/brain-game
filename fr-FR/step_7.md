@@ -17,13 +17,13 @@ Modifie le code de ton sprite personnage de sorte que, au lieu de dire quelque c
 ![Sprite Personnage](images/giga-sprite.png)
 
 ```blocks3
-si <(réponse) = ((numéro 1) * (numéro 2))> alors
-- dire [oui! :)] pendant (2) secondes
-+ envoyer à tous (correctes v)
-sinon
-- dire [non :(] pendant (2) secondes
-+ envoyer à tous (mauvais v)
-fin
+if <(answer) = ((numéro 1) * (numéro 2))> then 
+- say [oui! :)] for (2) seconds
++ broadcast (correctes v)
+else 
+- say [non :(] for (2) seconds
++ broadcast (mauvais v)
+end
 ```
 
 --- /task ---
@@ -35,25 +35,27 @@ Maintenant , tu peux utiliser ces messages à `montrer`{:class="block3looks"} le
 ![Sprite Résultat](images/result-sprite.png)
 
 ```blocks3
-    quand je reçois [correctes v]
-    basculer sur le costume (coche v)
-    montrer
-    attendre (1) secondes
-    cacher
+when I receive [correctes v]
+switch costume to (coche v)
+show
+wait (1) seconds
+hide
 
-    quand je reçois [mauvais v]
-    basculer sur le costume (croix v)
-    montrer
-    attendre (1) secondes
-    cacher
+when I receive [mauvais v]
+switch costume to (croix v)
+show
+wait (1) seconds
+hide
 
-    quand le drapeau vert pressé
-    cacher
+when flag clicked
+hide
 ```
 
 --- /task ---
 
---- task --- Teste à nouveau ton jeu. Tu devrais voir la coche chaque fois que tu réponds correctement à une question et la croix lorsque tu réponds incorrectement!
+--- task ---
+
+Teste à nouveau ton jeu. Tu devrais voir la coche chaque fois que tu réponds correctement à une question et la croix lorsque tu réponds incorrectement!
 
 ![Coche pour correct, cocher pour mauvaise réponse](images/brain-test-answer.png)
 
@@ -73,33 +75,37 @@ Sélectionne le sprite 'Résultat'. Clique ensuite sur `Mes Blocs`{:class="block
 
 --- /task ---
 
---- task --- Déplace le code sur `montrer`{:class="block3looks"} et `masquer`{:class="block3looks"} le sprite "Résultat" dans le bloc `animer`{:class="block3myblocks"}:
+--- task ---
+
+Déplace le code sur `montrer`{:class="block3looks"} et `masquer`{:class="block3looks"} le sprite "Résultat" dans le bloc `animer`{:class="block3myblocks"}:
 
 ![Sprite Résultat](images/result-sprite.png)
 
 ```blocks3
-définir animer
-montrer
-attendre (1) secondes
-cacher
+define animer
+show
+wait (1) seconds
+hide
 ```
 
 --- /task ---
 
---- task --- Assure-toi que tu as supprimé les blocs `montrer`{:class="block3looks"} et `masquer`{:class="block3looks"} en dessous de **tout les deux** des blocs `basculer sur le costume`{:class="block3looks"}.
+--- task ---
+
+Assure-toi que tu as supprimé les blocs `montrer`{:class="block3looks"} et `masquer`{:class="block3looks"} en dessous de **tout les deux** des blocs `basculer sur le costume`{:class="block3looks"}.
 
 Ajoute ensuite le bloc `animer`{:class="block3myblocks"} sous les deux blocs de `basculer sur le costume`{:class="block3looks"}. Ton code devrait maintenant ressembler à ceci:
 
 ![Sprite Résultat](images/result-sprite.png)
 
 ```blocks3
-    quand je reçois [correctes v]
-    basculer sur le costume (coche v)
-    animer :: custom
+when I receive [correctes v]
+switch costume to (coche v)
+animer :: custom
 
-    quand je reçois [mauvais v]
-    basculer sur le costume (croix v)
-    animer :: custom
+when I receive [mauvais v]
+switch costume to (croix v)
+animer :: custom
 ```
 
 --- /task ---
@@ -112,18 +118,20 @@ Change ton code pour que les costumes "coche" ou "croix" s'affichent pendant 2 s
 
 --- /task ---
 
---- task --- Au lieu de `montrant`{:class="block3looks"} et `masquant`{:class="block3looks"} les costumes "coche" ou "croix", tu peux changer ton bloc`animer`{:class="block3myblocks"} pour que les costumes disparaissent.
+--- task ---
+
+Au lieu de `montrant`{:class="block3looks"} et `masquant`{:class="block3looks"} les costumes "coche" ou "croix", tu peux changer ton bloc`animer`{:class="block3myblocks"} pour que les costumes disparaissent.
 
 ![Sprite Résultat](images/result-sprite.png)
 
 ```blocks3
-définir animate
-mettre l'effet [fantôme v] à (100)
-montrer
-répéter (25) fois 
-  ajouter (-4) à l'effet [fantôme v]
-fin
-cacher
+define animate
+set [fantôme v] effect to (100)
+show
+repeat (25) 
+  change [fantôme v] effect by (-4)
+end
+hide
 ```
 
 --- /task ---

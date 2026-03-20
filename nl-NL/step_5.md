@@ -15,12 +15,12 @@ Je kunt de sprite zelf tekenen, of een sprite bewerken uit de bibliotheek.
 ![Knop-sprite](images/button-sprite.png)
 
 ```blocks3
-    wanneer groene vlag wordt aangeklikt
-  verschijn
+	when flag clicked
+	show
 
-  wanneer op deze sprite wordt geklikt
-  verdwijn
-  zend signaal (start v)
+	when this sprite clicked
+	hide
+	broadcast (start v)
 ```
 
 --- /task ---
@@ -36,15 +36,15 @@ Op dit moment begint de personage sprite vragen te stellen wanneer de speler op 
 ![Personage-sprite](images/giga-sprite.png)
 
 ```blocks3
-<br />- wanneer groene vlag wordt aangeklikt
-+ wanneer ik signaal [start v] ontvang
-maak [nummer 1 v] (willekeurig getal tussen (2) en (12))
-maak [nummer 2 v] (willekeurig getal tussen (2) en (12))
-vraag (voeg (nummer 1) en (voeg [ x ] en (nummer 2) samen) samen) en wacht
-als &lt;(antwoord) = ((nummer 1) * (nummer 2))&gt; dan 
-  zeg [goed! :)] (2) sec.
-anders
-  zeg [jammer :(] (2) sec.
+- when flag clicked
++ when I receive [start v]
+set [nummer 1 v] to (pick random (2) to (12))
+set [nummer 2 v] to (pick random (2) to (12))
+ask (join (nummer 1)(join [ x ] (nummer 2))) and wait
+if <(answer) = ((nummer 1)*(nummer 2))> then
+	say [goed! :)] for (2) seconds
+else
+	say [fout :(] for (2) seconds
 end
 ```
 
@@ -71,8 +71,8 @@ Kun je de code voor de timer zo veranderen dat de timer start wanneer de speler 
 ![Knop-sprite](images/button-sprite.png)
 
 ```blocks3
-    wanneer ik signaal [einde v] ontvang
-verschijn
+	when I receive [einde v]
+	show
 ```
 
 --- /task ---
@@ -86,7 +86,7 @@ Om het spel sneller te testen, kun je de waarde van `tijd`{:class="block3variabl
 ![Speelveld](images/stage-sprite.png)
 
 ```blocks3
-    maak [time v] [10]
+	set [tijd v] to [10]
 ```
 
 --- /task ---
@@ -96,15 +96,15 @@ Om het spel sneller te testen, kun je de waarde van `tijd`{:class="block3variabl
 ![Drukknop](images/button-sprite.png)
 
 ```blocks3
-    wanneer groene vlag wordt aangeklikt
-  verschijn
-  herhaal
-    als <touching (mouse-pointer v)?> dan
-       zet [vissenoog v] effect op (30)
-    anders
-       zet [vissenoog v] effect op (0)
-    end
- end
+when flag clicked
+show
+forever 
+  if <touching (mouse-pointer v) ?> then 
+    set [vissenoog v] effect to (30)
+  else 
+    set [vissenoog v] effect to (0)
+  end
+end
 ```
 
 ![screenshot](images/brain-fisheye.png) --- /task ---
