@@ -125,7 +125,7 @@ Au lieu de `montrant`{:class="block3looks"} et `masquant`{:class="block3looks"} 
 ![Sprite Résultat](images/result-sprite.png)
 
 ```blocks3
-define animate
+define animer
 set [fantôme v] effect to (100)
 show
 repeat (25) 
