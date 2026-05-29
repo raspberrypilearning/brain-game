@@ -7,39 +7,6 @@ Create a countdown timer on the Stage with the help of a new variable called `ti
 ![Stage sprite](images/stage-sprite.png)
 
 --- hints ---
-
---- hint ---
-
-Create a `variable`{:class="block3variables"}, call it 'time', and set its value to `30`.
-
-Then add code to count `time`{:class="block3variables"} down to 0 within 30 seconds. To do this, subtract `1` from `time`{:class="block3variables"} every `1` second, and repeat this until `time`{:class="block3variables"} equals `0`.
-
---- /hint ---
-
---- hint ---
-
-Here are the blocks you need:
-
-```blocks3
-repeat until < >
-
-end
-
-wait (1) seconds
-
-change [time v] by (1)
-
-(time)
-
-when flag clicked
-
-<() = ()>
-
-set [time v] to [0]
-```
-
---- /hint ---
-
 --- hint ---
 
 Here is the what your new code should look like:
@@ -54,8 +21,8 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---
 

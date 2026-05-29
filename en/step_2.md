@@ -79,24 +79,6 @@ Test your project twice: answer one question correctly, and the other incorrectl
 Add a `forever`{:class="block3control"} loop around this code, so that the game asks the player lots of questions in a row.
 
 --- hints ---
-
---- hint ---
-
-You need to add a `forever`{:class="block3control"} block, and put all of the code except the `when flag clicked`{:class="block3control"} block into it.
-
---- /hint ---
-
---- hint ---
-
-Here is the block you need:
-
-```blocks3
-forever
-end
-```
-
---- /hint ---
-
 --- hint ---
 
 Here is what your code should look like:
@@ -116,7 +98,7 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---
