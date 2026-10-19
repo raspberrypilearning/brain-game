@@ -44,13 +44,15 @@ Select your character sprite and, in its code section, replace the `when flag cl
 ```blocks3
 - when flag clicked
 + when I receive [start v]
-set [number 1 v] to (pick random (2) to (12))
-set [number 2 v] to (pick random (2) to (12))
-ask (join (number 1)(join [ x ] (number 2))) and wait
-if <(answer) = ((number 1)*(number 2))> then
-	say [yes! :)] for (2) seconds
-else
-	say [nope :(] for (2) seconds
+forever
+	set [number 1 v] to (pick random (2) to (12))
+	set [number 2 v] to (pick random (2) to (12))
+	ask (join (number 1)(join [ x ] (number 2))) and wait
+	if <(answer) = ((number 1)*(number 2))> then
+		say [yes! :)] for (2) seconds
+	else
+		say [nope :(] for (2) seconds
+	end
 end
 ```
 
